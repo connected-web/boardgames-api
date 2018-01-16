@@ -4,7 +4,7 @@
   "description": "A browser for personalized boardgame data, sourced from boardgamesgeek.com and other locations.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "John Beech",
   "license": "ISC"
