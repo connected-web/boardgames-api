@@ -7,5 +7,12 @@
     "start": "node index.js"
   },
   "author": "John Beech",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "promise-path": "^1.2.6",
+    "xml-js": "^1.6.2"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
 }
