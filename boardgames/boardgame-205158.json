@@ -1,17 +1,837 @@
 {
-  "html": [
+  "items": [
     {
-      "body": [
+      "_attributes": {
+        "termsofuse": "https://boardgamegeek.com/xmlapi/termsofuse"
+      },
+      "item": [
         {
-          "h1": [
+          "_attributes": {
+            "type": "boardgame",
+            "id": "205158"
+          },
+          "thumbnail": [
             {
               "_text": [
-                "503 Service Unavailable"
+                "https://cf.geekdo-images.com/thumb/img/rHFscLdXe8TrfxjUpbNZFmQiAsk=/fit-in/200x150/pic3119534.jpg"
               ]
             }
           ],
-          "_text": [
-            "\nNo server is available to handle this request.\n"
+          "image": [
+            {
+              "_text": [
+                "https://cf.geekdo-images.com/original/img/w1zfEOXbgEYMMHIgSqspatHPB1A=/0x0/pic3119534.jpg"
+              ]
+            }
+          ],
+          "name": [
+            {
+              "_attributes": {
+                "type": "primary",
+                "sortindex": "1",
+                "value": "Codenames: Deep Undercover"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "Codenames Undercover"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "Nome in Codice: Vietato ai Minori"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "Nume de Cod: Sub Acoperire"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "Tajniacy: Bez cenzury"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "行动代号：绝密"
+              }
+            }
+          ],
+          "description": [
+            {
+              "_text": [
+                "Two rival spymasters know the secret identities of 25 agents. Their teammates know the agents only by their CODENAMES.&#10;&#10;In Codenames: Deep Undercover, two teams compete to see who can make contact with all of their agents first. Spymasters give one-word clues that can point to multiple words on the board. Their teammates try to guess words of the right color while avoiding those that belong to the opposing team. And everyone wants to avoid the assassin.&#10;&#10;Codenames: Deep Undercover' can be played as a standalone game or combined with other Codenames titles.&#10;&#10;"
+              ]
+            }
+          ],
+          "yearpublished": [
+            {
+              "_attributes": {
+                "value": "2016"
+              }
+            }
+          ],
+          "minplayers": [
+            {
+              "_attributes": {
+                "value": "4"
+              }
+            }
+          ],
+          "maxplayers": [
+            {
+              "_attributes": {
+                "value": "8"
+              }
+            }
+          ],
+          "poll": [
+            {
+              "_attributes": {
+                "name": "suggested_numplayers",
+                "title": "User Suggested Number of Players",
+                "totalvotes": "11"
+              },
+              "results": [
+                {
+                  "_attributes": {
+                    "numplayers": "1"
+                  },
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "Best",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Recommended",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Not Recommended",
+                        "numvotes": "9"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "numplayers": "2"
+                  },
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "Best",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Recommended",
+                        "numvotes": "3"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Not Recommended",
+                        "numvotes": "6"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "numplayers": "3"
+                  },
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "Best",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Recommended",
+                        "numvotes": "2"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Not Recommended",
+                        "numvotes": "6"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "numplayers": "4"
+                  },
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "Best",
+                        "numvotes": "3"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Recommended",
+                        "numvotes": "6"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Not Recommended",
+                        "numvotes": "2"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "numplayers": "5"
+                  },
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "Best",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Recommended",
+                        "numvotes": "5"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Not Recommended",
+                        "numvotes": "2"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "numplayers": "6"
+                  },
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "Best",
+                        "numvotes": "6"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Recommended",
+                        "numvotes": "4"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Not Recommended",
+                        "numvotes": "0"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "numplayers": "7"
+                  },
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "Best",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Recommended",
+                        "numvotes": "5"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Not Recommended",
+                        "numvotes": "2"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "numplayers": "8"
+                  },
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "Best",
+                        "numvotes": "3"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Recommended",
+                        "numvotes": "4"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Not Recommended",
+                        "numvotes": "1"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "numplayers": "8+"
+                  },
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "Best",
+                        "numvotes": "1"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Recommended",
+                        "numvotes": "1"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Not Recommended",
+                        "numvotes": "4"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "name": "suggested_playerage",
+                "title": "User Suggested Player Age",
+                "totalvotes": "2"
+              },
+              "results": [
+                {
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "2",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "3",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "4",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "5",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "6",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "8",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "10",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "12",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "14",
+                        "numvotes": "1"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "16",
+                        "numvotes": "1"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "18",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "21 and up",
+                        "numvotes": "0"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "name": "language_dependence",
+                "title": "Language Dependence",
+                "totalvotes": "4"
+              },
+              "results": [
+                {
+                  "result": [
+                    {
+                      "_attributes": {
+                        "level": "21",
+                        "value": "No necessary in-game text",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "22",
+                        "value": "Some necessary text - easily memorized or small crib sheet",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "23",
+                        "value": "Moderate in-game text - needs crib sheet or paste ups",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "24",
+                        "value": "Extensive use of text - massive conversion needed to be playable",
+                        "numvotes": "1"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "25",
+                        "value": "Unplayable in another language",
+                        "numvotes": "3"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "playingtime": [
+            {
+              "_attributes": {
+                "value": "30"
+              }
+            }
+          ],
+          "minplaytime": [
+            {
+              "_attributes": {
+                "value": "15"
+              }
+            }
+          ],
+          "maxplaytime": [
+            {
+              "_attributes": {
+                "value": "30"
+              }
+            }
+          ],
+          "minage": [
+            {
+              "_attributes": {
+                "value": "18"
+              }
+            }
+          ],
+          "link": [
+            {
+              "_attributes": {
+                "type": "boardgamecategory",
+                "id": "1002",
+                "value": "Card Game"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamecategory",
+                "id": "1039",
+                "value": "Deduction"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamecategory",
+                "id": "1118",
+                "value": "Mature / Adult"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamecategory",
+                "id": "1030",
+                "value": "Party Game"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamecategory",
+                "id": "1081",
+                "value": "Spies/Secret Agents"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamecategory",
+                "id": "1025",
+                "value": "Word Game"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2047",
+                "value": "Memory"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2019",
+                "value": "Partnerships"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2661",
+                "value": "Press Your Luck"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
+                "id": "37062",
+                "value": "Codenames"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "213294",
+                "value": "Codenames: Authors & Games"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "224198",
+                "value": "Codenames: Bonus Pack – Board Gaming (English)"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "215603",
+                "value": "Codenames: Bonus Pack – CGE Games"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "234198",
+                "value": "Codenames: Cartes promo – Personnalités"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "234643",
+                "value": "Tajniacy: Nowi Agenci"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "253443",
+                "value": "Tajniacy: Obcy Agenci"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "234644",
+                "value": "Tajniacy: Sami Nieswoi"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameintegration",
+                "id": "178900",
+                "value": "Codenames"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameintegration",
+                "id": "220775",
+                "value": "Codenames: Disney Family Edition"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameintegration",
+                "id": "220774",
+                "value": "Codenames: Marvel"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameintegration",
+                "id": "198773",
+                "value": "Codenames: Pictures"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamedesigner",
+                "id": "789",
+                "value": "Vlaada Chvátil"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "12402",
+                "value": "Stéphane Gantiez"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "28450",
+                "value": "Tomáš Kučerovský"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "157",
+                "value": "Asmodee"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "10768",
+                "value": "Cranio Creations"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "7345",
+                "value": "Czech Games Edition"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "264",
+                "value": "Heidelberger Spieleverlag"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "25203",
+                "value": "Lex Games"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "30552",
+                "value": "One Moment Games"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "7466",
+                "value": "Rebel"
+              }
+            }
+          ],
+          "statistics": [
+            {
+              "_attributes": {
+                "page": "1"
+              },
+              "ratings": [
+                {
+                  "usersrated": [
+                    {
+                      "_attributes": {
+                        "value": "1642"
+                      }
+                    }
+                  ],
+                  "average": [
+                    {
+                      "_attributes": {
+                        "value": "6.74598"
+                      }
+                    }
+                  ],
+                  "bayesaverage": [
+                    {
+                      "_attributes": {
+                        "value": "6.20217"
+                      }
+                    }
+                  ],
+                  "ranks": [
+                    {
+                      "rank": [
+                        {
+                          "_attributes": {
+                            "type": "subtype",
+                            "id": "1",
+                            "name": "boardgame",
+                            "friendlyname": "Board Game Rank",
+                            "value": "1480",
+                            "bayesaverage": "6.20217"
+                          }
+                        },
+                        {
+                          "_attributes": {
+                            "type": "family",
+                            "id": "5498",
+                            "name": "partygames",
+                            "friendlyname": "Party Game Rank",
+                            "value": "80",
+                            "bayesaverage": "6.48394"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "stddev": [
+                    {
+                      "_attributes": {
+                        "value": "1.58997"
+                      }
+                    }
+                  ],
+                  "median": [
+                    {
+                      "_attributes": {
+                        "value": "0"
+                      }
+                    }
+                  ],
+                  "owned": [
+                    {
+                      "_attributes": {
+                        "value": "4361"
+                      }
+                    }
+                  ],
+                  "trading": [
+                    {
+                      "_attributes": {
+                        "value": "79"
+                      }
+                    }
+                  ],
+                  "wanting": [
+                    {
+                      "_attributes": {
+                        "value": "56"
+                      }
+                    }
+                  ],
+                  "wishing": [
+                    {
+                      "_attributes": {
+                        "value": "344"
+                      }
+                    }
+                  ],
+                  "numcomments": [
+                    {
+                      "_attributes": {
+                        "value": "326"
+                      }
+                    }
+                  ],
+                  "numweights": [
+                    {
+                      "_attributes": {
+                        "value": "11"
+                      }
+                    }
+                  ],
+                  "averageweight": [
+                    {
+                      "_attributes": {
+                        "value": "1.5455"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
           ]
         }
       ]

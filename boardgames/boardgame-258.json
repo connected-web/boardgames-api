@@ -1,0 +1,996 @@
+{
+  "items": [
+    {
+      "_attributes": {
+        "termsofuse": "https://boardgamegeek.com/xmlapi/termsofuse"
+      },
+      "item": [
+        {
+          "_attributes": {
+            "type": "boardgame",
+            "id": "258"
+          },
+          "thumbnail": [
+            {
+              "_text": [
+                "https://cf.geekdo-images.com/thumb/img/cNyIdw9jOhWIXw3IS3fieX3WLlk=/fit-in/200x150/pic2405641.jpg"
+              ]
+            }
+          ],
+          "image": [
+            {
+              "_text": [
+                "https://cf.geekdo-images.com/original/img/Gcf1Q_RVCGCN2FN3edPDv-ySJ1o=/0x0/pic2405641.jpg"
+              ]
+            }
+          ],
+          "name": [
+            {
+              "_attributes": {
+                "type": "primary",
+                "sortindex": "1",
+                "value": "Fluxx"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "פלאקס"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "フラックス"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "浮言浪語"
+              }
+            }
+          ],
+          "description": [
+            {
+              "_text": [
+                "Fluxx is a card game in which the cards themselves determine the current rules of the game. By playing cards, you change numerous aspects of the game: how to draw cards, how to play cards, and even how to win.&#10;&#10;At the start of the game, each player holds three cards and on a turn a player draws one card, then plays one card. By playing cards, you can put new rules into play that change numerous aspects of the game: how many cards to draw or play, how many cards you can hold in hand or keep on the table in front of you, and (most importantly) how to win the game. There are many editions, themed siblings, and promo cards available.&#10;&#10;"
+              ]
+            }
+          ],
+          "yearpublished": [
+            {
+              "_attributes": {
+                "value": "1997"
+              }
+            }
+          ],
+          "minplayers": [
+            {
+              "_attributes": {
+                "value": "2"
+              }
+            }
+          ],
+          "maxplayers": [
+            {
+              "_attributes": {
+                "value": "6"
+              }
+            }
+          ],
+          "poll": [
+            {
+              "_attributes": {
+                "name": "suggested_numplayers",
+                "title": "User Suggested Number of Players",
+                "totalvotes": "97"
+              },
+              "results": [
+                {
+                  "_attributes": {
+                    "numplayers": "1"
+                  },
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "Best",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Recommended",
+                        "numvotes": "2"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Not Recommended",
+                        "numvotes": "67"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "numplayers": "2"
+                  },
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "Best",
+                        "numvotes": "17"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Recommended",
+                        "numvotes": "49"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Not Recommended",
+                        "numvotes": "25"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "numplayers": "3"
+                  },
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "Best",
+                        "numvotes": "31"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Recommended",
+                        "numvotes": "50"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Not Recommended",
+                        "numvotes": "7"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "numplayers": "4"
+                  },
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "Best",
+                        "numvotes": "51"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Recommended",
+                        "numvotes": "29"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Not Recommended",
+                        "numvotes": "9"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "numplayers": "5"
+                  },
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "Best",
+                        "numvotes": "28"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Recommended",
+                        "numvotes": "38"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Not Recommended",
+                        "numvotes": "15"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "numplayers": "6"
+                  },
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "Best",
+                        "numvotes": "14"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Recommended",
+                        "numvotes": "43"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Not Recommended",
+                        "numvotes": "26"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "numplayers": "6+"
+                  },
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "Best",
+                        "numvotes": "2"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Recommended",
+                        "numvotes": "19"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Not Recommended",
+                        "numvotes": "46"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "name": "suggested_playerage",
+                "title": "User Suggested Player Age",
+                "totalvotes": "35"
+              },
+              "results": [
+                {
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "2",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "3",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "4",
+                        "numvotes": "1"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "5",
+                        "numvotes": "1"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "6",
+                        "numvotes": "5"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "8",
+                        "numvotes": "20"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "10",
+                        "numvotes": "7"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "12",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "14",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "16",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "18",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "21 and up",
+                        "numvotes": "1"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "name": "language_dependence",
+                "title": "Language Dependence",
+                "totalvotes": "42"
+              },
+              "results": [
+                {
+                  "result": [
+                    {
+                      "_attributes": {
+                        "level": "31",
+                        "value": "No necessary in-game text",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "32",
+                        "value": "Some necessary text - easily memorized or small crib sheet",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "33",
+                        "value": "Moderate in-game text - needs crib sheet or paste ups",
+                        "numvotes": "3"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "34",
+                        "value": "Extensive use of text - massive conversion needed to be playable",
+                        "numvotes": "25"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "35",
+                        "value": "Unplayable in another language",
+                        "numvotes": "14"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "playingtime": [
+            {
+              "_attributes": {
+                "value": "30"
+              }
+            }
+          ],
+          "minplaytime": [
+            {
+              "_attributes": {
+                "value": "5"
+              }
+            }
+          ],
+          "maxplaytime": [
+            {
+              "_attributes": {
+                "value": "30"
+              }
+            }
+          ],
+          "minage": [
+            {
+              "_attributes": {
+                "value": "8"
+              }
+            }
+          ],
+          "link": [
+            {
+              "_attributes": {
+                "type": "boardgamecategory",
+                "id": "1002",
+                "value": "Card Game"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2040",
+                "value": "Hand Management"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2004",
+                "value": "Set Collection"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
+                "id": "8",
+                "value": "Fluxx"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
+                "id": "6485",
+                "value": "Mensa Select"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "24158",
+                "value": "Christian Fluxx"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "31321",
+                "value": "Fluxx 10th Anniversary Party Promos"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "27295",
+                "value": "Fluxx Blanxx"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "177946",
+                "value": "Fluxx Dice"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "206371",
+                "value": "Fluxx Party Favors"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "44489",
+                "value": "Fluxx Promo Cards"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "92206",
+                "value": "Fluxx: BoardGameGeek Expansion"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "255167",
+                "value": "Fluxx: Creeper Pack"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "175928",
+                "value": "Fluxx: International TableTop Day Expansion"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "169840",
+                "value": "Fruitcake Fun Pack"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "24159",
+                "value": "Jewish Fluxx"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "186885",
+                "value": "Stadt Land Spielt Limitierte Sonderdrucke 2015"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameimplementation",
+                "id": "178209",
+                "value": "Adventure Time Fluxx"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameimplementation",
+                "id": "244738",
+                "value": "Anatomy Fluxx"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameimplementation",
+                "id": "178210",
+                "value": "Batman Fluxx"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameimplementation",
+                "id": "220193",
+                "value": "Chemistry Fluxx"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameimplementation",
+                "id": "122159",
+                "value": "Cthulhu Fluxx"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameimplementation",
+                "id": "235365",
+                "value": "Doctor Who Fluxx"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameimplementation",
+                "id": "211996",
+                "value": "Drinking Fluxx"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameimplementation",
+                "id": "255013",
+                "value": "Fairy Tale Fluxx"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameimplementation",
+                "id": "17816",
+                "value": "Family Fluxx"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameimplementation",
+                "id": "183896",
+                "value": "Firefly Fluxx"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameimplementation",
+                "id": "140796",
+                "value": "Fluxx: The Board Game"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameimplementation",
+                "id": "162378",
+                "value": "Holiday Fluxx"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameimplementation",
+                "id": "35369",
+                "value": "Martian Fluxx"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameimplementation",
+                "id": "219430",
+                "value": "Math Fluxx"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameimplementation",
+                "id": "149130",
+                "value": "Monster Fluxx"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameimplementation",
+                "id": "36345",
+                "value": "Monty Python Fluxx"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameimplementation",
+                "id": "18333",
+                "value": "Nature Fluxx"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameimplementation",
+                "id": "117838",
+                "value": "Oz Fluxx"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameimplementation",
+                "id": "73538",
+                "value": "Pirate Fluxx"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameimplementation",
+                "id": "102104",
+                "value": "Star Fluxx"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameimplementation",
+                "id": "246531",
+                "value": "Star Trek Fluxx"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameimplementation",
+                "id": "246530",
+                "value": "Star Trek: The Next Generation Fluxx"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameimplementation",
+                "id": "8804",
+                "value": "Stoner Fluxx"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameimplementation",
+                "id": "29387",
+                "value": "Zombie Fluxx"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamedesigner",
+                "id": "122",
+                "value": "Andrew Looney"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamedesigner",
+                "id": "164",
+                "value": "Kristin Looney"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "44171",
+                "value": "Raúl Castellanos"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "57163",
+                "value": "Michael Hays"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "35774",
+                "value": "Naomi Kageyama"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "122",
+                "value": "Andrew Looney"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "11846",
+                "value": "Barbara Spelger"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "76",
+                "value": "Looney Labs"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "8",
+                "value": "AMIGO"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "12031",
+                "value": "Black Monk"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "2973",
+                "value": "Edge Entertainment"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "2775",
+                "value": "Hexagonal"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "1391",
+                "value": "Hobby Japan"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "18852",
+                "value": "Hobby World"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "98",
+                "value": "Iron Crown Enterprises (ICE)"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "23628",
+                "value": "Monkey Time"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "39",
+                "value": "Pegasus Spiele"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "2962",
+                "value": "PS-Games"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "3242",
+                "value": "Raven Distribution"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "9234",
+                "value": "Swan Panasia Co., Ltd."
+              }
+            }
+          ],
+          "statistics": [
+            {
+              "_attributes": {
+                "page": "1"
+              },
+              "ratings": [
+                {
+                  "usersrated": [
+                    {
+                      "_attributes": {
+                        "value": "13616"
+                      }
+                    }
+                  ],
+                  "average": [
+                    {
+                      "_attributes": {
+                        "value": "5.68908"
+                      }
+                    }
+                  ],
+                  "bayesaverage": [
+                    {
+                      "_attributes": {
+                        "value": "5.58113"
+                      }
+                    }
+                  ],
+                  "ranks": [
+                    {
+                      "rank": [
+                        {
+                          "_attributes": {
+                            "type": "subtype",
+                            "id": "1",
+                            "name": "boardgame",
+                            "friendlyname": "Board Game Rank",
+                            "value": "6767",
+                            "bayesaverage": "5.58113"
+                          }
+                        },
+                        {
+                          "_attributes": {
+                            "type": "family",
+                            "id": "5498",
+                            "name": "partygames",
+                            "friendlyname": "Party Game Rank",
+                            "value": "447",
+                            "bayesaverage": "5.32042"
+                          }
+                        },
+                        {
+                          "_attributes": {
+                            "type": "family",
+                            "id": "5499",
+                            "name": "familygames",
+                            "friendlyname": "Family Game Rank",
+                            "value": "1524",
+                            "bayesaverage": "5.49157"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "stddev": [
+                    {
+                      "_attributes": {
+                        "value": "1.82069"
+                      }
+                    }
+                  ],
+                  "median": [
+                    {
+                      "_attributes": {
+                        "value": "0"
+                      }
+                    }
+                  ],
+                  "owned": [
+                    {
+                      "_attributes": {
+                        "value": "22212"
+                      }
+                    }
+                  ],
+                  "trading": [
+                    {
+                      "_attributes": {
+                        "value": "678"
+                      }
+                    }
+                  ],
+                  "wanting": [
+                    {
+                      "_attributes": {
+                        "value": "35"
+                      }
+                    }
+                  ],
+                  "wishing": [
+                    {
+                      "_attributes": {
+                        "value": "568"
+                      }
+                    }
+                  ],
+                  "numcomments": [
+                    {
+                      "_attributes": {
+                        "value": "3655"
+                      }
+                    }
+                  ],
+                  "numweights": [
+                    {
+                      "_attributes": {
+                        "value": "1016"
+                      }
+                    }
+                  ],
+                  "averageweight": [
+                    {
+                      "_attributes": {
+                        "value": "1.3917"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

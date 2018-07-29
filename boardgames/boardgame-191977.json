@@ -1,17 +1,577 @@
 {
-  "html": [
+  "items": [
     {
-      "body": [
+      "_attributes": {
+        "termsofuse": "https://boardgamegeek.com/xmlapi/termsofuse"
+      },
+      "item": [
         {
-          "h1": [
+          "_attributes": {
+            "type": "boardgame",
+            "id": "191977"
+          },
+          "thumbnail": [
             {
               "_text": [
-                "503 Service Unavailable"
+                "https://cf.geekdo-images.com/thumb/img/P3gJ3Gu7XPAURpIsQK99_6iTS5w=/fit-in/200x150/pic2844943.jpg"
               ]
             }
           ],
-          "_text": [
-            "\nNo server is available to handle this request.\n"
+          "image": [
+            {
+              "_text": [
+                "https://cf.geekdo-images.com/original/img/r7Bo_2KyKECNrqQ67G-BsSTbhcQ=/0x0/pic2844943.jpg"
+              ]
+            }
+          ],
+          "name": [
+            {
+              "_attributes": {
+                "type": "primary",
+                "sortindex": "5",
+                "value": "The Castles of Burgundy: The Card Game"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "5",
+                "value": "Die Burgen von Burgund: Das Kartenspiel"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "5",
+                "value": "Les Châteaux de Bourgogne: Le jeu de cartes"
+              }
+            }
+          ],
+          "description": [
+            {
+              "_text": [
+                "Description from the publisher:&#10;&#10;The Hundred Years' War is over and the Renaissance is looming. Conditions are perfect for the princes of the Loire Valley to propel their estates to prosperity and prominence. Through strategic trading and building, clever planning, and careful thought in The Castles of Burgundy: The Card Game, players add settlements and castles, practice trade along the river, exploit silver mines, farm livestock, and more.&#10;&#10;Additional comment:&#10;&#10;This game is #1 in the Alea very small box series.&#10;&#10;"
+              ]
+            }
+          ],
+          "yearpublished": [
+            {
+              "_attributes": {
+                "value": "2016"
+              }
+            }
+          ],
+          "minplayers": [
+            {
+              "_attributes": {
+                "value": "1"
+              }
+            }
+          ],
+          "maxplayers": [
+            {
+              "_attributes": {
+                "value": "4"
+              }
+            }
+          ],
+          "poll": [
+            {
+              "_attributes": {
+                "name": "suggested_numplayers",
+                "title": "User Suggested Number of Players",
+                "totalvotes": "70"
+              },
+              "results": [
+                {
+                  "_attributes": {
+                    "numplayers": "1"
+                  },
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "Best",
+                        "numvotes": "13"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Recommended",
+                        "numvotes": "33"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Not Recommended",
+                        "numvotes": "9"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "numplayers": "2"
+                  },
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "Best",
+                        "numvotes": "26"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Recommended",
+                        "numvotes": "30"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Not Recommended",
+                        "numvotes": "0"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "numplayers": "3"
+                  },
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "Best",
+                        "numvotes": "18"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Recommended",
+                        "numvotes": "25"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Not Recommended",
+                        "numvotes": "0"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "numplayers": "4"
+                  },
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "Best",
+                        "numvotes": "8"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Recommended",
+                        "numvotes": "26"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Not Recommended",
+                        "numvotes": "4"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "numplayers": "4+"
+                  },
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "Best",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Recommended",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Not Recommended",
+                        "numvotes": "24"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "name": "suggested_playerage",
+                "title": "User Suggested Player Age",
+                "totalvotes": "16"
+              },
+              "results": [
+                {
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "2",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "3",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "4",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "5",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "6",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "8",
+                        "numvotes": "3"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "10",
+                        "numvotes": "8"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "12",
+                        "numvotes": "4"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "14",
+                        "numvotes": "1"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "16",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "18",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "21 and up",
+                        "numvotes": "0"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "name": "language_dependence",
+                "title": "Language Dependence",
+                "totalvotes": "13"
+              },
+              "results": [
+                {
+                  "result": [
+                    {
+                      "_attributes": {
+                        "level": "11",
+                        "value": "No necessary in-game text",
+                        "numvotes": "12"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "12",
+                        "value": "Some necessary text - easily memorized or small crib sheet",
+                        "numvotes": "1"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "13",
+                        "value": "Moderate in-game text - needs crib sheet or paste ups",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "14",
+                        "value": "Extensive use of text - massive conversion needed to be playable",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "15",
+                        "value": "Unplayable in another language",
+                        "numvotes": "0"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "playingtime": [
+            {
+              "_attributes": {
+                "value": "60"
+              }
+            }
+          ],
+          "minplaytime": [
+            {
+              "_attributes": {
+                "value": "30"
+              }
+            }
+          ],
+          "maxplaytime": [
+            {
+              "_attributes": {
+                "value": "60"
+              }
+            }
+          ],
+          "minage": [
+            {
+              "_attributes": {
+                "value": "12"
+              }
+            }
+          ],
+          "link": [
+            {
+              "_attributes": {
+                "type": "boardgamecategory",
+                "id": "1002",
+                "value": "Card Game"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2041",
+                "value": "Card Drafting"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2040",
+                "value": "Hand Management"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2004",
+                "value": "Set Collection"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
+                "id": "38406",
+                "value": "Alea Very Small Box"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameimplementation",
+                "id": "84876",
+                "value": "The Castles of Burgundy",
+                "inbound": "true"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamedesigner",
+                "id": "4958",
+                "value": "Stefan Feld"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "11886",
+                "value": "Julien Delval"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "4959",
+                "value": "Harald Lieske"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "9",
+                "value": "alea"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "34",
+                "value": "Ravensburger Spieleverlag GmbH"
+              }
+            }
+          ],
+          "statistics": [
+            {
+              "_attributes": {
+                "page": "1"
+              },
+              "ratings": [
+                {
+                  "usersrated": [
+                    {
+                      "_attributes": {
+                        "value": "3928"
+                      }
+                    }
+                  ],
+                  "average": [
+                    {
+                      "_attributes": {
+                        "value": "7.15668"
+                      }
+                    }
+                  ],
+                  "bayesaverage": [
+                    {
+                      "_attributes": {
+                        "value": "6.768"
+                      }
+                    }
+                  ],
+                  "ranks": [
+                    {
+                      "rank": [
+                        {
+                          "_attributes": {
+                            "type": "subtype",
+                            "id": "1",
+                            "name": "boardgame",
+                            "friendlyname": "Board Game Rank",
+                            "value": "572",
+                            "bayesaverage": "6.768"
+                          }
+                        },
+                        {
+                          "_attributes": {
+                            "type": "family",
+                            "id": "5497",
+                            "name": "strategygames",
+                            "friendlyname": "Strategy Game Rank",
+                            "value": "353",
+                            "bayesaverage": "6.84519"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "stddev": [
+                    {
+                      "_attributes": {
+                        "value": "1.21099"
+                      }
+                    }
+                  ],
+                  "median": [
+                    {
+                      "_attributes": {
+                        "value": "0"
+                      }
+                    }
+                  ],
+                  "owned": [
+                    {
+                      "_attributes": {
+                        "value": "8438"
+                      }
+                    }
+                  ],
+                  "trading": [
+                    {
+                      "_attributes": {
+                        "value": "272"
+                      }
+                    }
+                  ],
+                  "wanting": [
+                    {
+                      "_attributes": {
+                        "value": "149"
+                      }
+                    }
+                  ],
+                  "wishing": [
+                    {
+                      "_attributes": {
+                        "value": "775"
+                      }
+                    }
+                  ],
+                  "numcomments": [
+                    {
+                      "_attributes": {
+                        "value": "893"
+                      }
+                    }
+                  ],
+                  "numweights": [
+                    {
+                      "_attributes": {
+                        "value": "87"
+                      }
+                    }
+                  ],
+                  "averageweight": [
+                    {
+                      "_attributes": {
+                        "value": "2.5172"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
           ]
         }
       ]

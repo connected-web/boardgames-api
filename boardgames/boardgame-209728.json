@@ -29,28 +29,35 @@
               "_attributes": {
                 "type": "primary",
                 "sortindex": "1",
-                "value": "Arkham Horror: The Card Game – Curse of the Rougarou Scenario Pack"
+                "value": "Arkham Horror: The Card Game – Curse of the Rougarou: Scenario Pack"
               }
             },
             {
               "_attributes": {
                 "type": "alternate",
                 "sortindex": "1",
-                "value": "Arkham Horror: El Juego de Cartas – La Maldición del Rougarou Pack de Escenario"
+                "value": "Arkham Horror: El Juego de Cartas – La Maldición del Rougarou: Pack de Escenario"
               }
             },
             {
               "_attributes": {
                 "type": "alternate",
                 "sortindex": "1",
-                "value": "Arkham Horror: Il Gioco di Carte – La Maledizione dei Rougarou Pack Scenario"
+                "value": "Arkham Horror: Il Gioco di Carte – La Maledizione dei Rougarou: Pack Scenario"
               }
             },
             {
               "_attributes": {
                 "type": "alternate",
                 "sortindex": "1",
-                "value": "Horreur à Arkham: Le Jeu de Cartes – La Malédiction du Rougarou"
+                "value": "Horreur à Arkham: Le Jeu de Cartes – La Malédiction du Rougarou: Paquet Scénario"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "Horror w Arkham: Gra karciana – Klątwa Rougarou: Scenariusz"
               }
             }
           ],
@@ -87,7 +94,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "5"
+                "totalvotes": "6"
               },
               "results": [
                 {
@@ -123,7 +130,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "3"
+                        "numvotes": "4"
                       }
                     },
                     {
@@ -313,35 +320,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "1",
+                        "level": "21",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "2",
+                        "level": "22",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "3",
+                        "level": "23",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "4",
+                        "level": "24",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "5",
+                        "level": "25",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -419,7 +426,7 @@
               "_attributes": {
                 "type": "boardgamemechanic",
                 "id": "2023",
-                "value": "Co-operative Play"
+                "value": "Cooperative Play"
               }
             },
             {
@@ -569,6 +576,13 @@
                 "id": "17",
                 "value": "Fantasy Flight Games"
               }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "4617",
+                "value": "Galakta"
+              }
             }
           ],
           "statistics": [
@@ -581,21 +595,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "519"
+                        "value": "572"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.96925"
+                        "value": "7.98713"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.23567"
+                        "value": "6.27766"
                       }
                     }
                   ],
@@ -609,7 +623,7 @@
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "6.23567"
+                            "bayesaverage": "6.27766"
                           }
                         }
                       ]
@@ -618,7 +632,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.34039"
+                        "value": "1.31799"
                       }
                     }
                   ],
@@ -632,49 +646,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "4594"
+                        "value": "5004"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "26"
+                        "value": "36"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "82"
+                        "value": "84"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "295"
+                        "value": "298"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "129"
+                        "value": "135"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "6"
+                        "value": "7"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "3.3333"
+                        "value": "3.4286"
                       }
                     }
                   ]

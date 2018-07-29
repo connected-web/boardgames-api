@@ -1,17 +1,724 @@
 {
-  "html": [
+  "items": [
     {
-      "body": [
+      "_attributes": {
+        "termsofuse": "https://boardgamegeek.com/xmlapi/termsofuse"
+      },
+      "item": [
         {
-          "h1": [
+          "_attributes": {
+            "type": "boardgame",
+            "id": "10547"
+          },
+          "thumbnail": [
             {
               "_text": [
-                "503 Service Unavailable"
+                "https://cf.geekdo-images.com/thumb/img/-5KCQJ0PvzUWVSV96rQkzxa8aNY=/fit-in/200x150/pic828598.jpg"
               ]
             }
           ],
-          "_text": [
-            "\nNo server is available to handle this request.\n"
+          "image": [
+            {
+              "_text": [
+                "https://cf.geekdo-images.com/original/img/0Rb-Vnb2ImPLxv0jBU2dmUolbOU=/0x0/pic828598.jpg"
+              ]
+            }
+          ],
+          "name": [
+            {
+              "_attributes": {
+                "type": "primary",
+                "sortindex": "1",
+                "value": "Betrayal at House on the Hill"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "山中小屋的背叛者"
+              }
+            }
+          ],
+          "description": [
+            {
+              "_text": [
+                "From the press release:&#10;&#10;Betrayal at House on the Hill quickly builds suspense and excitement as players explore a haunted mansion of their own design, encountering spirits and frightening omens that foretell their fate. With an estimated one hour playing time, Betrayal at House on the Hill is ideal for parties, family gatherings or casual fun with friends.&#10;&#10;Betrayal at House on the Hill is a tile game that allows players to build their own haunted house room by room, tile by tile, creating a new thrilling game board every time. The game is designed for three to six people, each of whom plays one of six possible characters.&#10;&#10;Secretly, one of the characters betrays the rest of the party, and the innocent members of the party must defeat the traitor in their midst before it&rsquo;s too late! Betrayal at House on the Hill will appeal to any game player who enjoys a fun, suspenseful, and strategic game.&#10;&#10;Betrayal at House on the Hill includes detailed game pieces, including character cards, pre-painted plastic figures, and special tokens, all of which help create a spooky atmosphere and streamline game play.&#10;&#10;An updated reprint of Betrayal at House on the Hill was released on October 5, 2010.&#10;&#10;An expansion - 'Widow's Walk' - was released on October 14, 2016. ( http://avalonhill.wizards.com/games/widows-walk )&#10;&#10;"
+              ]
+            }
+          ],
+          "yearpublished": [
+            {
+              "_attributes": {
+                "value": "2004"
+              }
+            }
+          ],
+          "minplayers": [
+            {
+              "_attributes": {
+                "value": "3"
+              }
+            }
+          ],
+          "maxplayers": [
+            {
+              "_attributes": {
+                "value": "6"
+              }
+            }
+          ],
+          "poll": [
+            {
+              "_attributes": {
+                "name": "suggested_numplayers",
+                "title": "User Suggested Number of Players",
+                "totalvotes": "342"
+              },
+              "results": [
+                {
+                  "_attributes": {
+                    "numplayers": "1"
+                  },
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "Best",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Recommended",
+                        "numvotes": "3"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Not Recommended",
+                        "numvotes": "229"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "numplayers": "2"
+                  },
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "Best",
+                        "numvotes": "4"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Recommended",
+                        "numvotes": "29"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Not Recommended",
+                        "numvotes": "214"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "numplayers": "3"
+                  },
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "Best",
+                        "numvotes": "8"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Recommended",
+                        "numvotes": "176"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Not Recommended",
+                        "numvotes": "93"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "numplayers": "4"
+                  },
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "Best",
+                        "numvotes": "106"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Recommended",
+                        "numvotes": "176"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Not Recommended",
+                        "numvotes": "11"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "numplayers": "5"
+                  },
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "Best",
+                        "numvotes": "225"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Recommended",
+                        "numvotes": "79"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Not Recommended",
+                        "numvotes": "5"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "numplayers": "6"
+                  },
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "Best",
+                        "numvotes": "177"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Recommended",
+                        "numvotes": "104"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Not Recommended",
+                        "numvotes": "20"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "numplayers": "6+"
+                  },
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "Best",
+                        "numvotes": "3"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Recommended",
+                        "numvotes": "9"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Not Recommended",
+                        "numvotes": "156"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "name": "suggested_playerage",
+                "title": "User Suggested Player Age",
+                "totalvotes": "103"
+              },
+              "results": [
+                {
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "2",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "3",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "4",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "5",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "6",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "8",
+                        "numvotes": "6"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "10",
+                        "numvotes": "22"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "12",
+                        "numvotes": "49"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "14",
+                        "numvotes": "20"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "16",
+                        "numvotes": "5"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "18",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "21 and up",
+                        "numvotes": "1"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "name": "language_dependence",
+                "title": "Language Dependence",
+                "totalvotes": "122"
+              },
+              "results": [
+                {
+                  "result": [
+                    {
+                      "_attributes": {
+                        "level": "1",
+                        "value": "No necessary in-game text",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "2",
+                        "value": "Some necessary text - easily memorized or small crib sheet",
+                        "numvotes": "1"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "3",
+                        "value": "Moderate in-game text - needs crib sheet or paste ups",
+                        "numvotes": "1"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "4",
+                        "value": "Extensive use of text - massive conversion needed to be playable",
+                        "numvotes": "92"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "5",
+                        "value": "Unplayable in another language",
+                        "numvotes": "28"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "playingtime": [
+            {
+              "_attributes": {
+                "value": "60"
+              }
+            }
+          ],
+          "minplaytime": [
+            {
+              "_attributes": {
+                "value": "60"
+              }
+            }
+          ],
+          "maxplaytime": [
+            {
+              "_attributes": {
+                "value": "60"
+              }
+            }
+          ],
+          "minage": [
+            {
+              "_attributes": {
+                "value": "12"
+              }
+            }
+          ],
+          "link": [
+            {
+              "_attributes": {
+                "type": "boardgamecategory",
+                "id": "1022",
+                "value": "Adventure"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamecategory",
+                "id": "1020",
+                "value": "Exploration"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamecategory",
+                "id": "1024",
+                "value": "Horror"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamecategory",
+                "id": "1047",
+                "value": "Miniatures"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2023",
+                "value": "Cooperative Play"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2072",
+                "value": "Dice Rolling"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2011",
+                "value": "Modular Board"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2019",
+                "value": "Partnerships"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2685",
+                "value": "Player Elimination"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2028",
+                "value": "Role Playing"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2027",
+                "value": "Storytelling"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2015",
+                "value": "Variable Player Powers"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "238032",
+                "value": "Betrayal at Baldur's Gate and House on the Hill Promo Cards"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "198452",
+                "value": "Betrayal at House on the Hill: Widow's Walk"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameimplementation",
+                "id": "228660",
+                "value": "Betrayal at Baldur's Gate"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameimplementation",
+                "id": "240196",
+                "value": "Betrayal Legacy"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamedesigner",
+                "id": "442",
+                "value": "Rob Daviau"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamedesigner",
+                "id": "3440",
+                "value": "Bruce Glassco"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamedesigner",
+                "id": "10424",
+                "value": "Bill McQuillan"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamedesigner",
+                "id": "604",
+                "value": "Mike Selinker"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamedesigner",
+                "id": "4128",
+                "value": "Teeuwynn Woodruff"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "14951",
+                "value": "Dennis Crabapple McClain"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "5249",
+                "value": "Christopher Moeller"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "18317",
+                "value": "Peter Whitley"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "4871",
+                "value": "Avalon Hill Games, Inc."
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "13",
+                "value": "Wizards of the Coast"
+              }
+            }
+          ],
+          "statistics": [
+            {
+              "_attributes": {
+                "page": "1"
+              },
+              "ratings": [
+                {
+                  "usersrated": [
+                    {
+                      "_attributes": {
+                        "value": "27312"
+                      }
+                    }
+                  ],
+                  "average": [
+                    {
+                      "_attributes": {
+                        "value": "7.09962"
+                      }
+                    }
+                  ],
+                  "bayesaverage": [
+                    {
+                      "_attributes": {
+                        "value": "6.91114"
+                      }
+                    }
+                  ],
+                  "ranks": [
+                    {
+                      "rank": [
+                        {
+                          "_attributes": {
+                            "type": "subtype",
+                            "id": "1",
+                            "name": "boardgame",
+                            "friendlyname": "Board Game Rank",
+                            "value": "426",
+                            "bayesaverage": "6.91114"
+                          }
+                        },
+                        {
+                          "_attributes": {
+                            "type": "family",
+                            "id": "5496",
+                            "name": "thematic",
+                            "friendlyname": "Thematic Rank",
+                            "value": "153",
+                            "bayesaverage": "6.82499"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "stddev": [
+                    {
+                      "_attributes": {
+                        "value": "1.55152"
+                      }
+                    }
+                  ],
+                  "median": [
+                    {
+                      "_attributes": {
+                        "value": "0"
+                      }
+                    }
+                  ],
+                  "owned": [
+                    {
+                      "_attributes": {
+                        "value": "41145"
+                      }
+                    }
+                  ],
+                  "trading": [
+                    {
+                      "_attributes": {
+                        "value": "809"
+                      }
+                    }
+                  ],
+                  "wanting": [
+                    {
+                      "_attributes": {
+                        "value": "548"
+                      }
+                    }
+                  ],
+                  "wishing": [
+                    {
+                      "_attributes": {
+                        "value": "4463"
+                      }
+                    }
+                  ],
+                  "numcomments": [
+                    {
+                      "_attributes": {
+                        "value": "6193"
+                      }
+                    }
+                  ],
+                  "numweights": [
+                    {
+                      "_attributes": {
+                        "value": "1590"
+                      }
+                    }
+                  ],
+                  "averageweight": [
+                    {
+                      "_attributes": {
+                        "value": "2.366"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
           ]
         }
       ]

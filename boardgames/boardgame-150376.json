@@ -1,17 +1,930 @@
 {
-  "html": [
+  "items": [
     {
-      "body": [
+      "_attributes": {
+        "termsofuse": "https://boardgamegeek.com/xmlapi/termsofuse"
+      },
+      "item": [
         {
-          "h1": [
+          "_attributes": {
+            "type": "boardgame",
+            "id": "150376"
+          },
+          "thumbnail": [
             {
               "_text": [
-                "503 Service Unavailable"
+                "https://cf.geekdo-images.com/thumb/img/da35zyUhqdAVUoYNFvTdvp_MsnY=/fit-in/200x150/pic3016500.jpg"
               ]
             }
           ],
-          "_text": [
-            "\nNo server is available to handle this request.\n"
+          "image": [
+            {
+              "_text": [
+                "https://cf.geekdo-images.com/original/img/pOYQOSR1CnXcN6pEPx3yFDjKFaA=/0x0/pic3016500.jpg"
+              ]
+            }
+          ],
+          "name": [
+            {
+              "_attributes": {
+                "type": "primary",
+                "sortindex": "1",
+                "value": "Dead of Winter: A Crossroads Game"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "Dead of Winter: A la croisée des chemins"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "Dead of Winter: Edizione Italiana"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "Dead of Winter: Um Jogo de Encruzilhadas"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "Dead of Winter: Un juego de encrucijadas"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "Holtak tele: Válaszúton"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "Martwa Zima: Gra rozdroży"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "Winter der Toten: Ein Spiel mit dem Schicksal"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "Zima Mrtvých: Cesty Osudu"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "Мёртвый Сезон: Перекрёстки"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "デッド・オブ・ウィンター"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "死亡寒冬"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "데드 오브 윈터 - 크로스로드 게임"
+              }
+            }
+          ],
+          "description": [
+            {
+              "_text": [
+                "Game description from the publisher:&#10;&#10;&quot;Crossroads&quot; is a new series from Plaid Hat Games that tests a group of survivors' ability to work together and stay alive while facing crises and challenges from both outside and inside.&#10;&#10;Dead of Winter: A Crossroads Game, the first game in this series, puts 2-5 players in a small, weakened colony of survivors in a world where most of humanity is either dead or diseased, flesh-craving monsters. Each player leads a faction of survivors with dozens of different characters in the game.&#10;&#10;Dead of Winter is a meta-cooperative psychological survival game. This means players are working together toward one common victory condition &mdash; but for each individual player to achieve victory, he must also complete his personal secret objective. This secret objective could relate to a psychological tick that's fairly harmless to most others in the colony, a dangerous obsession that could put the main objective at risk, a desire for sabotage of the main mission, or (worst of all) vengeance against the colony! Certain games could end with all players winning, some winning and some losing, or all players losing. Work toward the group's goal, but don't get walked all over by a loudmouth who's looking out only for his own interests!&#10;&#10;Dead of Winter is an experience that can be accomplished only through the medium of tabletop games. It's a story-centric game about surviving through a harsh winter in an apocalyptic world. The survivors are all dealing with their own psychological imperatives, but must still find a way to work together to fight off outside threats, resolve crises, find food and supplies, and keep the colony's morale up.&#10;&#10;Dead of Winter has players making frequent, difficult, heavily- thematic, wildly-varying decisions that often have them deciding between what is best for the colony and what is best for themselves.&#10;&#10;Part of the Dead of Winter series.&#10;&#10;"
+              ]
+            }
+          ],
+          "yearpublished": [
+            {
+              "_attributes": {
+                "value": "2014"
+              }
+            }
+          ],
+          "minplayers": [
+            {
+              "_attributes": {
+                "value": "2"
+              }
+            }
+          ],
+          "maxplayers": [
+            {
+              "_attributes": {
+                "value": "5"
+              }
+            }
+          ],
+          "poll": [
+            {
+              "_attributes": {
+                "name": "suggested_numplayers",
+                "title": "User Suggested Number of Players",
+                "totalvotes": "467"
+              },
+              "results": [
+                {
+                  "_attributes": {
+                    "numplayers": "1"
+                  },
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "Best",
+                        "numvotes": "1"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Recommended",
+                        "numvotes": "15"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Not Recommended",
+                        "numvotes": "261"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "numplayers": "2"
+                  },
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "Best",
+                        "numvotes": "9"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Recommended",
+                        "numvotes": "99"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Not Recommended",
+                        "numvotes": "209"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "numplayers": "3"
+                  },
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "Best",
+                        "numvotes": "49"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Recommended",
+                        "numvotes": "294"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Not Recommended",
+                        "numvotes": "21"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "numplayers": "4"
+                  },
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "Best",
+                        "numvotes": "314"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Recommended",
+                        "numvotes": "107"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Not Recommended",
+                        "numvotes": "2"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "numplayers": "5"
+                  },
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "Best",
+                        "numvotes": "138"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Recommended",
+                        "numvotes": "184"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Not Recommended",
+                        "numvotes": "42"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "numplayers": "5+"
+                  },
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "Best",
+                        "numvotes": "5"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Recommended",
+                        "numvotes": "18"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "Not Recommended",
+                        "numvotes": "187"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "name": "suggested_playerage",
+                "title": "User Suggested Player Age",
+                "totalvotes": "113"
+              },
+              "results": [
+                {
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "2",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "3",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "4",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "5",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "6",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "8",
+                        "numvotes": "2"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "10",
+                        "numvotes": "19"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "12",
+                        "numvotes": "43"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "14",
+                        "numvotes": "39"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "16",
+                        "numvotes": "10"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "18",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "21 and up",
+                        "numvotes": "0"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "name": "language_dependence",
+                "title": "Language Dependence",
+                "totalvotes": "117"
+              },
+              "results": [
+                {
+                  "result": [
+                    {
+                      "_attributes": {
+                        "level": "1",
+                        "value": "No necessary in-game text",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "2",
+                        "value": "Some necessary text - easily memorized or small crib sheet",
+                        "numvotes": "1"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "3",
+                        "value": "Moderate in-game text - needs crib sheet or paste ups",
+                        "numvotes": "6"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "4",
+                        "value": "Extensive use of text - massive conversion needed to be playable",
+                        "numvotes": "89"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "5",
+                        "value": "Unplayable in another language",
+                        "numvotes": "21"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "playingtime": [
+            {
+              "_attributes": {
+                "value": "120"
+              }
+            }
+          ],
+          "minplaytime": [
+            {
+              "_attributes": {
+                "value": "60"
+              }
+            }
+          ],
+          "maxplaytime": [
+            {
+              "_attributes": {
+                "value": "120"
+              }
+            }
+          ],
+          "minage": [
+            {
+              "_attributes": {
+                "value": "13"
+              }
+            }
+          ],
+          "link": [
+            {
+              "_attributes": {
+                "type": "boardgamecategory",
+                "id": "1023",
+                "value": "Bluffing"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamecategory",
+                "id": "1039",
+                "value": "Deduction"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamecategory",
+                "id": "1024",
+                "value": "Horror"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamecategory",
+                "id": "2481",
+                "value": "Zombies"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2001",
+                "value": "Action Point Allowance System"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2046",
+                "value": "Area Movement"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2023",
+                "value": "Cooperative Play"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2072",
+                "value": "Dice Rolling"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2040",
+                "value": "Hand Management"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2661",
+                "value": "Press Your Luck"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2027",
+                "value": "Storytelling"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2008",
+                "value": "Trading"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2015",
+                "value": "Variable Player Powers"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2017",
+                "value": "Voting"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
+                "id": "26915",
+                "value": "Crossroads Series"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
+                "id": "41799",
+                "value": "Post-Apocalyptic"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "218041",
+                "value": "Dead of Winter: A Crossroads Game – BGG Crossroads Promo"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "181307",
+                "value": "Dead of Winter: Andrea Smith"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "180704",
+                "value": "Dead of Winter: Dice Tower Promos"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "174152",
+                "value": "Dead of Winter: Felicia Day"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "231562",
+                "value": "Dead of Winter: KD James"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "150482",
+                "value": "Dead of Winter: Kodiak Colby"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "171217",
+                "value": "Dead of Winter: Lucky Luke Smith"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "231563",
+                "value": "Dead of Winter: Meryl Wolfe"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "195656",
+                "value": "Dead of Winter: Rich Sommer"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "183785",
+                "value": "Dead of Winter: Roberta Plum"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "203824",
+                "value": "Dead of Winter: Rodney Smith"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "234258",
+                "value": "Dead of Winter: Ruckus Burley"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "206094",
+                "value": "Dead of Winter: Warring Colonies"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameintegration",
+                "id": "193037",
+                "value": "Dead of Winter: The Long Night"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamecompilation",
+                "id": "176601",
+                "value": "Dead of Winter: Tabletop Edition"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamedesigner",
+                "id": "12679",
+                "value": "Jonathan Gilmour"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamedesigner",
+                "id": "65023",
+                "value": "Isaac Vega"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "77485",
+                "value": "David Richards"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "70730",
+                "value": "Fernanda Suárez"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "39902",
+                "value": "Peter Wocken"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "10754",
+                "value": "Plaid Hat Games"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "3475",
+                "value": "Arclight"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "24042",
+                "value": "Cube Factory of Ideas"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "2973",
+                "value": "Edge Entertainment"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "15605",
+                "value": "Galápagos Jogos"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "12540",
+                "value": "Game Harbor"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "8820",
+                "value": "Gém Klub Kft."
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "24867",
+                "value": "Gemenot"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "264",
+                "value": "Heidelberger Spieleverlag"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "8291",
+                "value": "Korea Boardgames co., Ltd."
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "7992",
+                "value": "MINDOK"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "3242",
+                "value": "Raven Distribution"
+              }
+            }
+          ],
+          "statistics": [
+            {
+              "_attributes": {
+                "page": "1"
+              },
+              "ratings": [
+                {
+                  "usersrated": [
+                    {
+                      "_attributes": {
+                        "value": "29455"
+                      }
+                    }
+                  ],
+                  "average": [
+                    {
+                      "_attributes": {
+                        "value": "7.73916"
+                      }
+                    }
+                  ],
+                  "bayesaverage": [
+                    {
+                      "_attributes": {
+                        "value": "7.59424"
+                      }
+                    }
+                  ],
+                  "ranks": [
+                    {
+                      "rank": [
+                        {
+                          "_attributes": {
+                            "type": "subtype",
+                            "id": "1",
+                            "name": "boardgame",
+                            "friendlyname": "Board Game Rank",
+                            "value": "65",
+                            "bayesaverage": "7.59424"
+                          }
+                        },
+                        {
+                          "_attributes": {
+                            "type": "family",
+                            "id": "5496",
+                            "name": "thematic",
+                            "friendlyname": "Thematic Rank",
+                            "value": "24",
+                            "bayesaverage": "7.54868"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "stddev": [
+                    {
+                      "_attributes": {
+                        "value": "1.40721"
+                      }
+                    }
+                  ],
+                  "median": [
+                    {
+                      "_attributes": {
+                        "value": "0"
+                      }
+                    }
+                  ],
+                  "owned": [
+                    {
+                      "_attributes": {
+                        "value": "40392"
+                      }
+                    }
+                  ],
+                  "trading": [
+                    {
+                      "_attributes": {
+                        "value": "772"
+                      }
+                    }
+                  ],
+                  "wanting": [
+                    {
+                      "_attributes": {
+                        "value": "925"
+                      }
+                    }
+                  ],
+                  "wishing": [
+                    {
+                      "_attributes": {
+                        "value": "7271"
+                      }
+                    }
+                  ],
+                  "numcomments": [
+                    {
+                      "_attributes": {
+                        "value": "4329"
+                      }
+                    }
+                  ],
+                  "numweights": [
+                    {
+                      "_attributes": {
+                        "value": "1196"
+                      }
+                    }
+                  ],
+                  "averageweight": [
+                    {
+                      "_attributes": {
+                        "value": "3"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
           ]
         }
       ]

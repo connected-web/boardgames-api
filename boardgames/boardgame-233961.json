@@ -66,7 +66,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "2"
+                "totalvotes": "3"
               },
               "results": [
                 {
@@ -89,7 +89,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "1"
+                        "numvotes": "2"
                       }
                     }
                   ]
@@ -102,7 +102,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "2"
+                        "numvotes": "3"
                       }
                     },
                     {
@@ -242,35 +242,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "21",
+                        "level": "411",
                         "value": "No necessary in-game text",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "22",
+                        "level": "412",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "23",
+                        "level": "413",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "24",
+                        "level": "414",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "25",
+                        "level": "415",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -361,8 +361,22 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "17159",
+                "value": "Game Factory"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "5400",
                 "value": "Matagot"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "32581",
+                "value": "PaperGames (III)"
               }
             }
           ],
@@ -376,21 +390,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "194"
+                        "value": "254"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.09549"
+                        "value": "7.05502"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "5.74076"
+                        "value": "5.78405"
                       }
                     }
                   ],
@@ -403,8 +417,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "3579",
-                            "bayesaverage": "5.74076"
+                            "value": "3266",
+                            "bayesaverage": "5.78405"
                           }
                         }
                       ]
@@ -413,7 +427,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.15465"
+                        "value": "1.21683"
                       }
                     }
                   ],
@@ -427,49 +441,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "465"
+                        "value": "560"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "8"
+                        "value": "10"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "74"
+                        "value": "77"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "294"
+                        "value": "304"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "68"
+                        "value": "82"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "7"
+                        "value": "8"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2"
+                        "value": "1.875"
                       }
                     }
                   ]

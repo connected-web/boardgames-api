@@ -66,7 +66,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "15"
+                "totalvotes": "16"
               },
               "results": [
                 {
@@ -102,7 +102,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "9"
+                        "numvotes": "10"
                       }
                     },
                     {
@@ -133,7 +133,7 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "8"
+                        "numvotes": "9"
                       }
                     },
                     {
@@ -158,7 +158,7 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "6"
+                        "numvotes": "7"
                       }
                     },
                     {
@@ -292,35 +292,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "11",
+                        "level": "1",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "12",
+                        "level": "2",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "13",
+                        "level": "3",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "2"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "14",
+                        "level": "4",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "15",
+                        "level": "5",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -403,6 +403,13 @@
             },
             {
               "_attributes": {
+                "type": "boardgamefamily",
+                "id": "5611",
+                "value": "Cyberpunk"
+              }
+            },
+            {
+              "_attributes": {
                 "type": "boardgameimplementation",
                 "id": "133747",
                 "value": "Bauhaus",
@@ -462,21 +469,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "1009"
+                        "value": "1089"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "6.75491"
+                        "value": "6.75015"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.09807"
+                        "value": "6.10529"
                       }
                     }
                   ],
@@ -489,8 +496,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "1746",
-                            "bayesaverage": "6.09807"
+                            "value": "1742",
+                            "bayesaverage": "6.10529"
                           }
                         },
                         {
@@ -499,8 +506,8 @@
                             "id": "4666",
                             "name": "abstracts",
                             "friendlyname": "Abstract Game Rank",
-                            "value": "128",
-                            "bayesaverage": "6.28499"
+                            "value": "131",
+                            "bayesaverage": "6.27004"
                           }
                         }
                       ]
@@ -509,7 +516,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.26198"
+                        "value": "1.26806"
                       }
                     }
                   ],
@@ -523,14 +530,14 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "1962"
+                        "value": "2157"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "76"
+                        "value": "94"
                       }
                     }
                   ],
@@ -544,28 +551,28 @@
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "292"
+                        "value": "301"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "219"
+                        "value": "248"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "24"
+                        "value": "26"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "1.9167"
+                        "value": "1.8846"
                       }
                     }
                   ]
