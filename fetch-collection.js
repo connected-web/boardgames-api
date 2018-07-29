@@ -1,6 +1,6 @@
 const { fetch, write } = require('promise-path')
 const convert = require('xml-js')
-const username = process.env.USERNAME || 'hannardynamite'
+const username = process.argv[2] || 'hannardynamite'
 
 console.log('Stubbed fetcher')
 
