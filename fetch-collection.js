@@ -16,7 +16,7 @@ fetch(collectionUrl)
   })
   .then(collection => {
     const body = JSON.stringify(collection, null, 2)
-    write('collection.json', body, 'utf8')
+    write('bgg-collection.json', body, 'utf8')
   })
   .catch(ex => {
     console.error('[Fetch Error]', ex, ex.stack)

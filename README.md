@@ -10,13 +10,13 @@ npm install
 npm start
 ```
 
-To update your boardgame collection summary (`collection.json`) based on your username then run:
+To update your boardgame collection summary (`bgg-collection.json`) based on your username then run:
 
 ```
 node fetch-collection.js john
 ```
 
-To create an index of boardgame names to ids (`boardgame-index.js`), based on your boardgame collection (`collection.json`), then run:
+To create an index of boardgame names to ids (`boardgame-index.js`), based on your boardgame collection (`bgg-collection.json`), then run:
 
 ```
 node create-boardgame-index.js

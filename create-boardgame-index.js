@@ -1,6 +1,6 @@
 const { write } = require('promise-path')
 
-const collection = require('./collection.json')
+const collection = require('./bgg-collection.json')
 const boardGameIndex = collection.items[0].item.reduce(mapBoardGame, {})
 
 function mapBoardGame (accumulator, item) {
