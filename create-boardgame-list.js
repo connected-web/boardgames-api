@@ -26,4 +26,4 @@ caliCollection.forEach(item => {
 
 console.log('Board Game name stats:', stats)
 
-write('./boardgame-names.json', JSON.stringify({boardGameGeek: bggBoardGameNames, cali: caliBoardGameNames, overlap, stats}, null, 2), 'utf8')
+write('./boardgame-names.json', JSON.stringify({boardGameGeek: bggBoardGameNames, cali: caliBoardGameNames, overlap, bggOnly, caliOnly, stats}, null, 2), 'utf8')
