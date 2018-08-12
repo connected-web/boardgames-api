@@ -8,7 +8,7 @@ Clone this repo, change to source directory, then run:
 ```
 npm install
 npm start
-```git
+```
 
 To update your boardgame collection summary (`collection.json`) based on your username then run:
 
