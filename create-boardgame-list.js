@@ -6,9 +6,9 @@ const caliCollection = require('./cali-boardgames.json')
 const bggBoardGameNames = bggCollection.items[0].item.map(item => item.name[0]._text[0])
 const caliBoardGameNames = Array.from(new Set(caliCollection.map(item => item.game)))
 
-const overlap = bggBoardGameNames.filter(n => caliBoardGameNames.includes(n))
-const bggOnly = bggBoardGameNames.filter(n => !caliBoardGameNames.includes(n))
-const caliOnly = caliBoardGameNames.filter(n => !bggBoardGameNames.includes(n))
+const overlap = bggBoardGameNames.filter(n => caliBoardGameNames.includes(n)).sort()
+const bggOnly = bggBoardGameNames.filter(n => !caliBoardGameNames.includes(n)).sort()
+const caliOnly = caliBoardGameNames.filter(n => !bggBoardGameNames.includes(n)).sort()
 
 const stats = {
   'Number of Board Game Geek board games': bggBoardGameNames.length,
