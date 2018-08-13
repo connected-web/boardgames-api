@@ -150,7 +150,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "1314"
+                "totalvotes": "1322"
               },
               "results": [
                 {
@@ -167,13 +167,13 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "475"
+                        "numvotes": "476"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "396"
+                        "numvotes": "401"
                       }
                     }
                   ]
@@ -186,19 +186,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "249"
+                        "numvotes": "251"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "768"
+                        "numvotes": "771"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "108"
+                        "numvotes": "110"
                       }
                     }
                   ]
@@ -211,13 +211,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "377"
+                        "numvotes": "380"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "705"
+                        "numvotes": "709"
                       }
                     },
                     {
@@ -236,13 +236,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "806"
+                        "numvotes": "812"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "317"
+                        "numvotes": "318"
                       }
                     },
                     {
@@ -261,19 +261,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "20"
+                        "numvotes": "21"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "120"
+                        "numvotes": "121"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "522"
+                        "numvotes": "525"
                       }
                     }
                   ]
@@ -284,7 +284,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "381"
+                "totalvotes": "382"
               },
               "results": [
                 {
@@ -316,7 +316,7 @@
                     {
                       "_attributes": {
                         "value": "6",
-                        "numvotes": "23"
+                        "numvotes": "24"
                       }
                     },
                     {
@@ -369,42 +369,42 @@
               "_attributes": {
                 "name": "language_dependence",
                 "title": "Language Dependence",
-                "totalvotes": "303"
+                "totalvotes": "304"
               },
               "results": [
                 {
                   "result": [
                     {
                       "_attributes": {
-                        "level": "41",
+                        "level": "1",
                         "value": "No necessary in-game text",
                         "numvotes": "10"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "42",
+                        "level": "2",
                         "value": "Some necessary text - easily memorized or small crib sheet",
-                        "numvotes": "249"
+                        "numvotes": "250"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "43",
+                        "level": "3",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "40"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "44",
+                        "level": "4",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "3"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "45",
+                        "level": "5",
                         "value": "Unplayable in another language",
                         "numvotes": "1"
                       }
@@ -832,21 +832,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "75397"
+                        "value": "75784"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.65246"
+                        "value": "7.65155"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "7.56037"
+                        "value": "7.55962"
                       }
                     }
                   ],
@@ -860,7 +860,7 @@
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
                             "value": "73",
-                            "bayesaverage": "7.56037"
+                            "bayesaverage": "7.55962"
                           }
                         },
                         {
@@ -869,8 +869,8 @@
                             "id": "5497",
                             "name": "strategygames",
                             "friendlyname": "Strategy Game Rank",
-                            "value": "74",
-                            "bayesaverage": "7.47346"
+                            "value": "76",
+                            "bayesaverage": "7.47299"
                           }
                         },
                         {
@@ -880,7 +880,7 @@
                             "name": "familygames",
                             "friendlyname": "Family Game Rank",
                             "value": "7",
-                            "bayesaverage": "7.54014"
+                            "bayesaverage": "7.53934"
                           }
                         }
                       ]
@@ -889,7 +889,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.31902"
+                        "value": "1.31924"
                       }
                     }
                   ],
@@ -903,49 +903,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "109800"
+                        "value": "110438"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "1822"
+                        "value": "1833"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "623"
+                        "value": "626"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "7211"
+                        "value": "7238"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "13091"
+                        "value": "13147"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "4670"
+                        "value": "4684"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2.4253"
+                        "value": "2.4251"
                       }
                     }
                   ]
