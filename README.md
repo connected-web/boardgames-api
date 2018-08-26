@@ -1,6 +1,6 @@
-# Boardgames Browser
+# Boardgames API
 
-A browser for personalized boardgame data, sourced from boardgamesgeek.com and other locations.
+An API for personalized boardgame data, sourced from boardgamesgeek.com and other locations.
 
 ## Setup
 
@@ -28,7 +28,7 @@ To download JSON representation of games in boardgame geek (`boardgames/boardgam
 node fetch-boardgames.js
 ```
 
-The batching for this script has been set at 2 items every 3 seconds to guarentee that the server doesn't reject your queries. You can experience with larger batches, or a shorter delay to speed things up; but be aware that the server can return "No server available" messages; or you can end up with socket disconnect errors if you try and make too many requests too fast.
+The batching for this script has been set at 2 items every 3 seconds to guarantee that the server doesn't reject your queries. You can experience with larger batches, or a shorter delay to speed things up; but be aware that the server can return "No server available" messages; or you can end up with socket disconnect errors if you try and make too many requests too fast.
 
 ## APIs
 
