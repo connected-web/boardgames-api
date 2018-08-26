@@ -417,35 +417,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "1",
+                        "level": "6",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "2",
+                        "level": "7",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "3",
+                        "level": "8",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "6"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "4",
+                        "level": "9",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "5",
+                        "level": "10",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -496,6 +496,13 @@
                 "type": "boardgamecategory",
                 "id": "1090",
                 "value": "Pirates"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2046",
+                "value": "Area Movement"
               }
             },
             {
@@ -572,21 +579,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "1147"
+                        "value": "1171"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.12039"
+                        "value": "7.11314"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.2446"
+                        "value": "6.25287"
                       }
                     }
                   ],
@@ -599,8 +606,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "1379",
-                            "bayesaverage": "6.2446"
+                            "value": "1357",
+                            "bayesaverage": "6.25287"
                           }
                         },
                         {
@@ -609,8 +616,8 @@
                             "id": "5498",
                             "name": "partygames",
                             "friendlyname": "Party Game Rank",
-                            "value": "84",
-                            "bayesaverage": "6.46284"
+                            "value": "82",
+                            "bayesaverage": "6.47669"
                           }
                         }
                       ]
@@ -619,7 +626,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.39852"
+                        "value": "1.3963"
                       }
                     }
                   ],
@@ -633,14 +640,14 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "3652"
+                        "value": "3695"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "86"
+                        "value": "89"
                       }
                     }
                   ],
@@ -654,14 +661,14 @@
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "430"
+                        "value": "438"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "393"
+                        "value": "399"
                       }
                     }
                   ],
