@@ -80,7 +80,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "85"
+                "totalvotes": "89"
               },
               "results": [
                 {
@@ -91,13 +91,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "37"
+                        "numvotes": "38"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "27"
+                        "numvotes": "28"
                       }
                     },
                     {
@@ -116,13 +116,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "37"
+                        "numvotes": "38"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "26"
+                        "numvotes": "29"
                       }
                     },
                     {
@@ -153,7 +153,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "21"
+                        "numvotes": "22"
                       }
                     }
                   ]
@@ -166,7 +166,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "8"
+                        "numvotes": "7"
                       }
                     },
                     {
@@ -178,7 +178,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "40"
+                        "numvotes": "41"
                       }
                     }
                   ]
@@ -203,7 +203,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "47"
+                        "numvotes": "48"
                       }
                     }
                   ]
@@ -214,7 +214,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "11"
+                "totalvotes": "12"
               },
               "results": [
                 {
@@ -264,7 +264,7 @@
                     {
                       "_attributes": {
                         "value": "12",
-                        "numvotes": "2"
+                        "numvotes": "3"
                       }
                     },
                     {
@@ -390,8 +390,29 @@
             {
               "_attributes": {
                 "type": "boardgamecategory",
+                "id": "1016",
+                "value": "Science Fiction"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamecategory",
                 "id": "1101",
                 "value": "Video Game Theme"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2001",
+                "value": "Action Point Allowance System"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2046",
+                "value": "Area Movement"
               }
             },
             {
@@ -420,6 +441,20 @@
                 "type": "boardgamemechanic",
                 "id": "2028",
                 "value": "Role Playing"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2027",
+                "value": "Storytelling"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2015",
+                "value": "Variable Player Powers"
               }
             },
             {
@@ -531,21 +566,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "2263"
+                        "value": "2391"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.21544"
+                        "value": "7.20505"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.49261"
+                        "value": "6.50505"
                       }
                     }
                   ],
@@ -558,8 +593,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "899",
-                            "bayesaverage": "6.49261"
+                            "value": "880",
+                            "bayesaverage": "6.50505"
                           }
                         },
                         {
@@ -568,8 +603,8 @@
                             "id": "5496",
                             "name": "thematic",
                             "friendlyname": "Thematic Rank",
-                            "value": "209",
-                            "bayesaverage": "6.63549"
+                            "value": "208",
+                            "bayesaverage": "6.64803"
                           }
                         }
                       ]
@@ -578,7 +613,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.68109"
+                        "value": "1.68392"
                       }
                     }
                   ],
@@ -592,49 +627,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "5328"
+                        "value": "5596"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "138"
+                        "value": "142"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "285"
+                        "value": "279"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "2139"
+                        "value": "2120"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "518"
+                        "value": "535"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "88"
+                        "value": "90"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2.9545"
+                        "value": "2.9556"
                       }
                     }
                   ]

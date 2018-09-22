@@ -73,7 +73,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "27"
+                "totalvotes": "28"
               },
               "results": [
                 {
@@ -96,7 +96,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "22"
+                        "numvotes": "23"
                       }
                     }
                   ]
@@ -121,7 +121,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "19"
+                        "numvotes": "20"
                       }
                     }
                   ]
@@ -140,7 +140,7 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "14"
+                        "numvotes": "15"
                       }
                     },
                     {
@@ -159,7 +159,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "11"
+                        "numvotes": "12"
                       }
                     },
                     {
@@ -190,7 +190,7 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "3"
+                        "numvotes": "4"
                       }
                     },
                     {
@@ -209,7 +209,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "12"
+                        "numvotes": "13"
                       }
                     },
                     {
@@ -246,7 +246,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "16"
+                        "numvotes": "17"
                       }
                     }
                   ]
@@ -349,35 +349,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "16",
+                        "level": "56",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "17",
+                        "level": "57",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "5"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "18",
+                        "level": "58",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "5"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "19",
+                        "level": "59",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "20",
+                        "level": "60",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -440,8 +440,8 @@
             {
               "_attributes": {
                 "type": "boardgamecategory",
-                "id": "1026",
-                "value": "Negotiation"
+                "id": "1030",
+                "value": "Party Game"
               }
             },
             {
@@ -449,6 +449,13 @@
                 "type": "boardgamecategory",
                 "id": "1001",
                 "value": "Political"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2047",
+                "value": "Memory"
               }
             },
             {
@@ -561,21 +568,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "1884"
+                        "value": "1903"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.11742"
+                        "value": "7.11956"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.47997"
+                        "value": "6.48308"
                       }
                     }
                   ],
@@ -588,8 +595,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "923",
-                            "bayesaverage": "6.47997"
+                            "value": "916",
+                            "bayesaverage": "6.48308"
                           }
                         },
                         {
@@ -598,8 +605,8 @@
                             "id": "5498",
                             "name": "partygames",
                             "friendlyname": "Party Game Rank",
-                            "value": "47",
-                            "bayesaverage": "6.78418"
+                            "value": "48",
+                            "bayesaverage": "6.78572"
                           }
                         }
                       ]
@@ -608,7 +615,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.41173"
+                        "value": "1.40688"
                       }
                     }
                   ],
@@ -622,7 +629,7 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "5077"
+                        "value": "5117"
                       }
                     }
                   ],
@@ -643,14 +650,14 @@
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "430"
+                        "value": "431"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "543"
+                        "value": "553"
                       }
                     }
                   ],

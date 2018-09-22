@@ -150,7 +150,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "31"
+                "totalvotes": "32"
               },
               "results": [
                 {
@@ -173,7 +173,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "9"
+                        "numvotes": "10"
                       }
                     }
                   ]
@@ -186,7 +186,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "6"
+                        "numvotes": "7"
                       }
                     },
                     {
@@ -217,7 +217,7 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "12"
+                        "numvotes": "13"
                       }
                     },
                     {
@@ -248,7 +248,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "2"
+                        "numvotes": "3"
                       }
                     }
                   ]
@@ -273,7 +273,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "5"
+                        "numvotes": "6"
                       }
                     }
                   ]
@@ -298,7 +298,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "10"
+                        "numvotes": "11"
                       }
                     }
                   ]
@@ -323,7 +323,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "15"
+                        "numvotes": "16"
                       }
                     }
                   ]
@@ -566,6 +566,13 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
+                "id": "2008",
+                "value": "Trading"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
                 "id": "2015",
                 "value": "Variable Player Powers"
               }
@@ -717,21 +724,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "3593"
+                        "value": "3620"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.94535"
+                        "value": "7.94306"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "7.3038"
+                        "value": "7.30195"
                       }
                     }
                   ],
@@ -745,7 +752,7 @@
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "7.3038"
+                            "bayesaverage": "7.30195"
                           }
                         },
                         {
@@ -755,7 +762,7 @@
                             "name": "strategygames",
                             "friendlyname": "Strategy Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "7.39604"
+                            "bayesaverage": "7.39537"
                           }
                         }
                       ]
@@ -764,7 +771,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.25697"
+                        "value": "1.25845"
                       }
                     }
                   ],
@@ -778,14 +785,14 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "12680"
+                        "value": "12780"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "108"
+                        "value": "109"
                       }
                     }
                   ],
@@ -799,14 +806,14 @@
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "2010"
+                        "value": "2030"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "741"
+                        "value": "745"
                       }
                     }
                   ],

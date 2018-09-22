@@ -52,6 +52,13 @@
                 "sortindex": "1",
                 "value": "Love letter Premium Edition: Παιχνίδια εξουσίας στο Παλάτι"
               }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "Тайное послание. Подарочное издание"
+              }
             }
           ],
           "description": [
@@ -87,7 +94,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "37"
+                "totalvotes": "38"
               },
               "results": [
                 {
@@ -179,7 +186,7 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "11"
+                        "numvotes": "12"
                       }
                     },
                     {
@@ -321,7 +328,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "13"
+                "totalvotes": "14"
               },
               "results": [
                 {
@@ -365,7 +372,7 @@
                     {
                       "_attributes": {
                         "value": "10",
-                        "numvotes": "5"
+                        "numvotes": "6"
                       }
                     },
                     {
@@ -413,35 +420,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "11",
+                        "level": "6",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "12",
+                        "level": "7",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "7"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "13",
+                        "level": "8",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "14",
+                        "level": "9",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "15",
+                        "level": "10",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -568,6 +575,13 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "18852",
+                "value": "Hobby World"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "6214",
                 "value": "Kaissa Chess & Games"
               }
@@ -597,21 +611,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "1918"
+                        "value": "1983"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.628"
+                        "value": "7.62113"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.78592"
+                        "value": "6.79142"
                       }
                     }
                   ],
@@ -624,8 +638,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "560",
-                            "bayesaverage": "6.78592"
+                            "value": "556",
+                            "bayesaverage": "6.79142"
                           }
                         },
                         {
@@ -635,7 +649,7 @@
                             "name": "partygames",
                             "friendlyname": "Party Game Rank",
                             "value": "20",
-                            "bayesaverage": "7.13296"
+                            "bayesaverage": "7.13261"
                           }
                         },
                         {
@@ -644,8 +658,8 @@
                             "id": "5499",
                             "name": "familygames",
                             "friendlyname": "Family Game Rank",
-                            "value": "90",
-                            "bayesaverage": "6.93043"
+                            "value": "89",
+                            "bayesaverage": "6.93879"
                           }
                         }
                       ]
@@ -654,7 +668,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.32563"
+                        "value": "1.3345"
                       }
                     }
                   ],
@@ -668,14 +682,14 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "4212"
+                        "value": "4325"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "30"
+                        "value": "33"
                       }
                     }
                   ],
@@ -689,28 +703,28 @@
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "583"
+                        "value": "585"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "369"
+                        "value": "380"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "38"
+                        "value": "39"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "1.3684"
+                        "value": "1.359"
                       }
                     }
                   ]
