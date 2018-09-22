@@ -10,25 +10,49 @@ npm install
 npm start
 ```
 
-To update your boardgame collection summary (`bgg-collection.json`) based on your username then run:
+## Usage
+
+For a list of commands, use `node run`; this outputs:
+```
+[Boardgame API Run] Available scripts to run:
+  node run create-boardgame-index
+  node run create-boardgame-list
+  node run download-boardgame-collection
+  node run download-boardgame-entries
+  node run download-gsheets-data
+```
+
+To update the board game collection summary from board game geek (`bgg-collection.json`) based on username then run:
 
 ```
-node fetch-collection.js john
+node run download-boardgame-collection
 ```
 
-To create an index of boardgame names to ids (`boardgame-index.js`), based on your boardgame collection (`bgg-collection.json`), then run:
+To download JSON representation of games in board game geek (`boardgames/boardgame-#.json`), based on your index of boardgames (`boardgame-index.json`) then run:
 
 ```
-node create-boardgame-index.js
-```
-
-To download JSON representation of games in boardgame geek (`boardgames/boardgame-#.json`), based on your index of boardgames (`boardgame-index.json`) then run:
-
-```
-node fetch-boardgames.js
+node run download-boardgame-entries
 ```
 
 The batching for this script has been set at 2 items every 3 seconds to guarantee that the server doesn't reject your queries. You can experience with larger batches, or a shorter delay to speed things up; but be aware that the server can return "No server available" messages; or you can end up with socket disconnect errors if you try and make too many requests too fast.
+
+To download recent play data from google sheets (`cali-boardgames.json`), based on our customer play data:
+
+```
+node run download-gsheets-data
+```
+
+To create an index of board game names to ids (`boardgame-index.json`), based on your boardgame collection (`bgg-collection.json`), then run:
+
+```
+node run create-boardgame-index
+```
+
+To create a list of board game stats based on game names (`boardgame-names.json`), based on your boardgame collection (`bgg-collection.json`), then run:
+
+```
+node run create-boardgame-list
+```
 
 ## APIs
 
