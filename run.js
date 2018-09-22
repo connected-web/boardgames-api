@@ -12,7 +12,17 @@ async function start() {
     return acc
   }, {})
 
-  if(scriptNames.includes(scriptToRun)) {
+  scripts.all = async () => {
+    return Promise.all([
+      'download-gsheets-data',
+      'download-boardgame-collection',
+      'download-boardgame-entries',
+      'create-boardgame-index',
+      'create-boardgame-list'
+    ].map(async n => await scripts[n]()))
+  }
+
+  if(!!scripts[scriptToRun]) {
     console.log('[Boardgames API Run] Running', scriptToRun)
     await scripts[scriptToRun]()
   } else {
