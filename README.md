@@ -55,9 +55,10 @@ node run create-boardgame-list
 ```
 
 ## APIs
-
 Data is sourced from the following APIs:
 
-| Name                  | Template                                                                |
-| --------------------- | ----------------------------------------------------------------------- |
-| Boardgames Collection | `https://www.boardgamegeek.com/xmlapi2/collection?username=${username}` |
+| Name                   | Template                                                                |
+| ---------------------- | ----------------------------------------------------------------------- |
+| Board Games Collection | `https://www.boardgamegeek.com/xmlapi2/collection?username=${username}` |
+| Board Game Entries     | `https://www.boardgamegeek.com/xmlapi2/thing?id=${objectId}&stats=1`    |
+| Board Game Play Stats  | `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}`        |
