@@ -5,10 +5,13 @@ if (!isset($_SERVER['HTTPS'])) {
   exit("Redirecting to secure endpoint: $url");
 }
 
+$requestUri = $_SERVER['REQUEST_URI'];
+$requestPath = join(array_filter(explode('/', $requestUri)), '/');
+
 $templateHTML = @file_get_contents('./template.html');
 
 $site = 'Boardgame API Docs';
-$title = 'Home';
+$title = 'Home - ' . $requestPath;
 
 $outputHTML = $templateHTML;
 $outputHTML = str_replace('{{title}}', "$title - $site", $outputHTML);
