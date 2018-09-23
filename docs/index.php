@@ -11,7 +11,7 @@ $requestPath = join(array_filter(explode('/', $requestUri)), '/');
 $templateHTML = @file_get_contents('./template.html');
 
 $site = 'Boardgame API Docs';
-$title = 'Home - ' . $requestPath;
+$title = strip_tags('Home - ' . $requestPath);
 
 $outputHTML = $templateHTML;
 $outputHTML = str_replace('{{title}}', "$title - $site", $outputHTML);
