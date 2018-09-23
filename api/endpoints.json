@@ -1,0 +1,9 @@
+{
+  "endpoints": {
+    "/": {
+      "path": "/",
+      "description": "Return a list of endpoints",
+      "accepts": "application/json"
+    }
+  }
+}

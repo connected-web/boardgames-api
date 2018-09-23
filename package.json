@@ -4,7 +4,7 @@
   "description": "A browser for personalized boardgame data, sourced from boardgamesgeek.com and other locations.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node test-server.js",
     "lint": "standard --fix",
     "test": "npm run lint"
   },
@@ -16,6 +16,8 @@
     "xml-js": "^1.6.2"
   },
   "devDependencies": {
-    "standard": "^10.0.3"
+    "standard": "^10.0.3",
+    "express": "^4.16.3",
+    "php-express": "git://github.com/Markavian/php-express.git#patch-1"
   }
 }
