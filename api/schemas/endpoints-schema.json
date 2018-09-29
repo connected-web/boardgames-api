@@ -9,7 +9,7 @@
         "properties": {
           "path": {
             "type": "string",
-            "pattern": "^/?[a-z\\d]*/$"
+            "pattern": "^/[a-z]*/?$"
           },
           "description": {
             "type": "string",
@@ -21,7 +21,7 @@
           }
         }
       }
-    },
-    "additionalProperties": false
-  }
+    }
+  },
+  "additionalProperties": false
 }

@@ -26,7 +26,7 @@ function render (phpScriptPath) {
       }
     }, (err, body) => {
       if (err) {
-        res.status(500).send(err)
+        res.status(500).send({ error: err })
       } else {
         res.send(body)
       }

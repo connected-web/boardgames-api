@@ -3,12 +3,27 @@ const { fetch } = require('promise-path')
 const { expect } = require('chai')
 const { validate } = require('jsonschema')
 
-describe('API Endpoints /api/', () => {
-  const apiPath = `${config.serverPath}/api/`
-  const apiSchema = require('../api/schemas/endpoints-schema.json')
-  it('should display of a list of endpoints', async () => {
-    const data = JSON.parse(await fetch(apiPath))
-    const schemaValidation = validate(data, apiSchema)
-    expect(schemaValidation.errors).to.deep.equal([])
-  })
+async function fetchJSON(url) {
+  let body
+  try {
+    body = await fetch(url)
+    return JSON.parse(body)
+  } catch(ex) {
+    throw new Error(`Unable to parse body as valid JSON: ${body}, ${ex}`)
+  }
+}
+
+async function test(apiPath, apiSchemaPath) {
+  apiSchemaPath = apiSchemaPath || `${apiPath}/schema`.replace('/api//', '/api/')
+
+  const apiSchema = await fetchJSON(apiSchemaPath)
+  const endpointData = await fetchJSON(apiPath)
+  const schemaValidation = validate(endpointData, apiSchema)
+
+  expect(schemaValidation.errors).to.deep.equal([])
+}
+
+describe('API Endpoints /api/', async () => {
+  it('should list all available endpoints', async () => test(`${config.serverPath}/api/`))
+  it('should provide a valid schema, for validating the /api/ endpoint', async () => test(`${config.serverPath}/api/schema`, 'https://json-schema.org/draft-07/schema'))
 })
