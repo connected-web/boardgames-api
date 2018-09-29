@@ -1,5 +1,4 @@
 const express = require('express')
-const path = require('path')
 const app = express()
 const position = require('./scripts/helpers/position')(__dirname)
 
@@ -13,7 +12,7 @@ app.post('/api/*', render(position('api/index.php')))
 app.get('/docs/*', render(position('docs/index.php')))
 app.get('/', render(position('index.php')))
 
-function render(phpScriptPath) {
+function render (phpScriptPath) {
   return (req, res) => {
     console.log('[PHP Test Server]', req.url, 'rendered using', phpScriptPath)
     phpExpress.engine(phpScriptPath, {
@@ -37,5 +36,5 @@ function render(phpScriptPath) {
 
 const server = app.listen(4000, function () {
   const port = server.address().port
-  console.log('[PHP Test Server] listening at http://%s:%s/', 'localhost', port);
+  console.log('[PHP Test Server] listening at http://%s:%s/', 'localhost', port)
 })

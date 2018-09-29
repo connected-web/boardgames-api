@@ -4,7 +4,7 @@ const position = require('./helpers/position')(__dirname, '../data')
 const username = 'hannardynamite'
 const collectionUrl = `https://www.boardgamegeek.com/xmlapi2/collection?username=${username}`
 
-async function start() {
+async function start () {
   console.log('[Download Boardgame Collection] From:', collectionUrl)
   try {
     const response = await fetch(collectionUrl)
@@ -14,8 +14,7 @@ async function start() {
     const body = JSON.stringify(collection, null, 2)
     console.log('[Download Boardgame Collection] Downloaded data:', body.length, 'bytes; writing to local file')
     return write(position('bgg-collection.json'), body, 'utf8')
-  }
-  catch(ex) {
+  } catch (ex) {
     console.error('[Download Boardgame Collection] Fetch error:', ex, ex.stack)
   }
 }

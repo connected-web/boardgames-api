@@ -1,7 +1,7 @@
 const { write } = require('promise-path')
 const position = require('./helpers/position')(__dirname, '../data')
 
-async function start() {
+async function start () {
   const bggCollection = require(position('bgg-collection.json'))
   const caliCollection = require(position('cali-boardgames.json'))
 
@@ -17,7 +17,7 @@ async function start() {
     'Number of Cali board games': caliBoardGameNames.length,
     'Overlap size between lists': overlap.length,
     'Board Game Geek only games': bggOnly.length,
-    'Cali only games': caliOnly.length,
+    'Cali only games': caliOnly.length
   }
 
   caliCollection.forEach(item => {

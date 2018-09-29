@@ -3,7 +3,7 @@ const convert = require('xml-js')
 const position = require('./helpers/position')(__dirname, '../data')
 const savepath = require('./helpers/position')(__dirname, '../boardgames')
 
-function start() {
+function start () {
   const objectIndex = require(position('boardgame-index.json'))
   const objectIds = Object.keys(objectIndex).map(k => objectIndex[k])
   let rateLimitFailureCount = 0
@@ -17,32 +17,31 @@ function start() {
   })
   workItems.forEach(n => workQueue.push(n))
 
-  async function fetchBoardGame(objectId, workQueue) {
+  async function fetchBoardGame (objectId, workQueue) {
     const apiUrl = `https://www.boardgamegeek.com/xmlapi2/thing?id=${objectId}&stats=1`
     console.log('[Download Boardgame Entries] Fetch from API:', apiUrl)
     try {
       const response = await fetch(apiUrl)
-      //console.log('[Raw Fetch]', response)
-      //write(`boardgame-${objectId}.xml`, response, 'utf8')
+      // console.log('[Raw Fetch]', response)
+      // write(`boardgame-${objectId}.xml`, response, 'utf8')
       const collection = convert.xml2js(response, {compact: true, alwaysArray: true, ignoreDeclaration: true, nativeType: true})
-      //console.log('[JSON]', JSON.stringify(collection, null, 2))
+      // console.log('[JSON]', JSON.stringify(collection, null, 2))
       const body = JSON.stringify(collection, null, 2)
       if (body.length === 147 || body.match(/Rate limit exceeded/)) {
         console.log('[Download Boardgame Entries] Rate limit exceeded, requeing', objectId)
         workQueue.push(() => fetchBoardGame(objectId, workQueue))
         rateLimitFailureCount++
-      }
-      else {
+      } else {
         console.log('[Download Boardgame Entries] Downloaded', body.length, `bytes, writing to: boardgames/boardgame-${objectId}.json`)
         return write(savepath(`boardgame-${objectId}.json`), body, 'utf8')
       }
-    } catch(ex) {
+    } catch (ex) {
       console.error('[Download Boardgame Entries] Fetch error:', ex, ex.stack)
     }
   }
 
   const results = []
-  async function doWork(work) {
+  async function doWork (work) {
     const itemsPerBatch = 1
     const delayPerBatch = 600
     const rateDelayInMs = 100 // ms

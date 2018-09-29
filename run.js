@@ -1,10 +1,9 @@
 const path = require('path')
-const { run, find } = require('promise-path')
-const tasks = {}
+const { find } = require('promise-path')
 
 const scriptToRun = process.argv[2] || false
 
-async function start() {
+async function start () {
   const scriptPaths = await find(path.join(__dirname, 'scripts/*.js'))
   const scriptNames = scriptPaths.map(n => n.match(/scripts\/([a-z-]+)\.js/)[1])
   const scripts = scriptNames.reduce((acc, n) => {
@@ -19,10 +18,10 @@ async function start() {
       'download-boardgame-entries',
       'create-boardgame-index',
       'create-boardgame-list'
-    ].map(async n => await scripts[n]()))
+    ].map(async n => scripts[n]()))
   }
 
-  if(!!scripts[scriptToRun]) {
+  if (scripts[scriptToRun]) {
     console.log('[Boardgames API Run] Running', scriptToRun)
     await scripts[scriptToRun]()
   } else {
