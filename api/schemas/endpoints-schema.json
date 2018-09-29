@@ -1,0 +1,27 @@
+{
+  "id": "/",
+  "type": "object",
+  "properties": {
+    "endpoints": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "pattern": "^/?[a-z\\d]*/$"
+          },
+          "description": {
+            "type": "string",
+            "pattern": "^.*$"
+          },
+          "accepts": {
+            "type": "string",
+            "value": "application/json"
+          }
+        }
+      }
+    },
+    "additionalProperties": false
+  }
+}

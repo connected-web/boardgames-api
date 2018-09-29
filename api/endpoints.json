@@ -1,9 +1,8 @@
 {
-  "endpoints": {
-    "/": {
-      "path": "/",
-      "description": "Return a list of endpoints",
-      "accepts": "application/json"
-    }
-  }
+  "endpoints": [{
+    "path": "/",
+    "method": "GET",
+    "description": "Return a list of endpoints",
+    "accepts": "application/json"
+  }]
 }
