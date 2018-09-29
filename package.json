@@ -1,8 +1,8 @@
 {
-  "name": "boardgames",
+  "name": "boardgames-api",
   "version": "1.0.0",
   "description": "A browser for personalized boardgame data, sourced from boardgamesgeek.com and other locations.",
-  "main": "index.js",
+  "main": "run.js",
   "scripts": {
     "start": "node test-server.js",
     "lint": "standard --fix",
@@ -22,5 +22,9 @@
     "standard": "^10.0.3",
     "express": "^4.16.3",
     "php-express": "git://github.com/Markavian/php-express.git#patch-1"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/connected-web/boardgames-api.git"
   }
 }
