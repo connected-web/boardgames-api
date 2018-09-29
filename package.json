@@ -6,12 +6,14 @@
   "scripts": {
     "start": "node test-server.js",
     "lint": "standard --fix",
-    "test": "npm run lint"
+    "test": "npm run lint --env mocha && mocha --recursive tests/**/*spec.js"
   },
   "author": "John Beech",
   "license": "ISC",
   "dependencies": {
+    "chai": "^4.2.0",
     "google-spreadsheet-to-json": "^1.0.0",
+    "mocha": "^5.2.0",
     "promise-path": "^1.2.6",
     "xml-js": "^1.6.2"
   },
