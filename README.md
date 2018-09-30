@@ -14,45 +14,56 @@ npm start
 
 For a list of commands, use `node run`; this outputs:
 ```
-[Boardgame API Run] Available scripts to run:
+[Board Game API Run] Available scripts to run:
+  node run create-bgg-index
   node run create-boardgame-index
   node run create-boardgame-list
-  node run download-boardgame-collection
-  node run download-boardgame-entries
-  node run download-gsheets-data
+  node run download-bgg-collection
+  node run download-bgg-entries
+  node run download-cali-playstats
 ```
 
-To update the board game collection summary from board game geek (`bgg-collection.json`) based on username then run:
+### Run All
 
-```
-node run download-boardgame-collection
-```
+`node run all`
 
-To download JSON representation of games in board game geek (`boardgames/boardgame-#.json`), based on your index of boardgames (`boardgame-index.json`) then run:
+Runs all of the following commands; all at once, in parallel.
 
-```
-node run download-boardgame-entries
-```
+### Create Board Game Geek Index
 
-The batching for this script has been set at 2 items every 3 seconds to guarantee that the server doesn't reject your queries. You can experience with larger batches, or a shorter delay to speed things up; but be aware that the server can return "No server available" messages; or you can end up with socket disconnect errors if you try and make too many requests too fast.
+`node run create-bgg-index`
 
-To download recent play data from google sheets (`cali-boardgames.json`), based on our customer play data:
+Creates `data/bgg-index.json` based on data from our Board Game Geek collection; `data/bgg-collection.json`
 
-```
-node run download-gsheets-data
-```
+### Create Board Game Index
 
-To create an index of board game names to ids (`boardgame-index.json`), based on your boardgame collection (`bgg-collection.json`), then run:
+`node run create-boardgame-index`
 
-```
-node run create-boardgame-index
-```
+Creates `data/boardgame-index.json` based on a unified view of Cali Play Stats and the Board Game Geek collection.
 
-To create a list of board game stats based on game names (`boardgame-names.json`), based on your boardgame collection (`bgg-collection.json`), then run:
+### Create Board Game List
 
-```
-node run create-boardgame-list
-```
+`node run create-boardgame-list`
+
+Creates `data/boardgame-names.json` based on a unified view of Cali Play Stats and the Board Game Geek collection.
+
+### Download Board Game Geek Collection
+
+`node run download-bgg-collection`
+
+Downloads `data/bgg-collection.json` from our Board Game Geek collection, as XML and converts it to JSON.
+
+### Download Board Game Geek Entries
+
+`node run download-bgg-entries`
+
+Downloads individual board game entries to `boardgames/boardgame-${bggGameId}.json` from Board Game Geek based on our Board Game Geek collection `data/bgg-collection.json`. This can be quite slow, but will retry until it got healthy responses for all boardgame IDs.
+
+### Download Cali Play Stats
+
+`node run download-cali-playstats`
+
+Downloads `data/cali-playstats.json` from Google Sheets and converts to JSON.
 
 ## APIs
 Data is sourced from the following APIs:
