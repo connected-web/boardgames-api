@@ -9,7 +9,7 @@
         "properties": {
           "path": {
             "type": "string",
-            "pattern": "^/[a-z]*/?$"
+            "pattern": "^/api/[a-z]*/?$"
           },
           "description": {
             "type": "string",
