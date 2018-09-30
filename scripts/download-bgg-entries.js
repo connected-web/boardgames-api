@@ -1,10 +1,10 @@
-const { fetch, write } = require('promise-path')
+const { fetch, write, position } = require('promise-path')
 const convert = require('xml-js')
-const position = require('./helpers/position')(__dirname, '../data')
-const savepath = require('./helpers/position')(__dirname, '../boardgames')
+const datapath = position(__dirname, '../data')
+const savepath = position(__dirname, '../boardgames')
 
 function start () {
-  const objectIndex = require(position('boardgame-index.json'))
+  const objectIndex = require(datapath('bgg-index.json'))
   const objectIds = Object.keys(objectIndex).map(k => objectIndex[k])
   let rateLimitFailureCount = 0
 
@@ -17,23 +17,22 @@ function start () {
   })
   workItems.forEach(n => workQueue.push(n))
 
-  async function fetchBoardGame (objectId, workQueue) {
-    const apiUrl = `https://www.boardgamegeek.com/xmlapi2/thing?id=${objectId}&stats=1`
+  async function fetchBoardGame (entry, workQueue) {
+    const apiUrl = `https://www.boardgamegeek.com/xmlapi2/thing?id=${entry.boardGameGeekGameId}&stats=1`
     console.log('[Download Board Game Geek Entries] Fetch from API:', apiUrl)
     try {
       const response = await fetch(apiUrl)
       // console.log('[Raw Fetch]', response)
-      // write(`boardgame-${objectId}.xml`, response, 'utf8')
       const collection = convert.xml2js(response, {compact: true, alwaysArray: true, ignoreDeclaration: true, nativeType: true})
       // console.log('[JSON]', JSON.stringify(collection, null, 2))
       const body = JSON.stringify(collection, null, 2)
       if (body.length === 147 || body.match(/Rate limit exceeded/)) {
-        console.log('[Download Board Game Geek Entries] Rate limit exceeded, requeing', objectId)
-        workQueue.push(() => fetchBoardGame(objectId, workQueue))
+        console.log('[Download Board Game Geek Entries] Rate limit exceeded, requeing', entry.boardGameGeekGameId)
+        workQueue.push(() => fetchBoardGame(entry, workQueue))
         rateLimitFailureCount++
       } else {
-        console.log('[Download Board Game Geek Entries] Downloaded', body.length, `bytes, writing to: boardgames/boardgame-${objectId}.json`)
-        return write(savepath(`boardgame-${objectId}.json`), body, 'utf8')
+        console.log('[Download Board Game Geek Entries] Downloaded', body.length, `bytes, writing to: boardgames/boardgame-${entry.boardGameGeekGameId}.json`)
+        return write(savepath(`boardgame-${entry.boardGameGeekGameId}.json`), body, 'utf8')
       }
     } catch (ex) {
       console.error('[Download Board Game Geek Entries] Fetch error:', ex, ex.stack)

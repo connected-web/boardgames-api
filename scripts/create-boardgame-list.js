@@ -1,9 +1,9 @@
-const { write } = require('promise-path')
-const position = require('./helpers/position')(__dirname, '../data')
+const { write, position } = require('promise-path')
+const datapath = position(__dirname, '../data')
 
 async function start () {
-  const bggCollection = require(position('bgg-collection.json'))
-  const caliCollection = require(position('cali-boardgames.json'))
+  const bggCollection = require(datapath('bgg-collection.json'))
+  const caliCollection = require(datapath('cali-playstats.json'))
 
   const bggBoardGameNames = bggCollection.items[0].item.map(item => item.name[0]._text[0])
   const caliBoardGameNames = Array.from(new Set(caliCollection.map(item => item.game)))
@@ -28,7 +28,7 @@ async function start () {
 
   console.log('[Create Boardgame List] Board Game name stats:', stats)
 
-  return write(position('/boardgame-names.json'), JSON.stringify({boardGameGeek: bggBoardGameNames, cali: caliBoardGameNames, overlap, bggOnly, caliOnly, stats}, null, 2), 'utf8')
+  return write(datapath('boardgame-names.json'), JSON.stringify({boardGameGeek: bggBoardGameNames, cali: caliBoardGameNames, overlap, bggOnly, caliOnly, stats}, null, 2), 'utf8')
 }
 
 module.exports = start

@@ -1,6 +1,6 @@
-const { fetch, write } = require('promise-path')
+const { fetch, write, position } = require('promise-path')
 const convert = require('xml-js')
-const position = require('./helpers/position')(__dirname, '../data')
+const datapath = position(__dirname, '../data')
 const username = 'hannardynamite'
 const collectionUrl = `https://www.boardgamegeek.com/xmlapi2/collection?username=${username}`
 
@@ -13,7 +13,7 @@ async function start () {
     // console.log('Download Boardgame Collection] JSON:', JSON.stringify(collection, null, 2))
     const body = JSON.stringify(collection, null, 2)
     console.log('[Download Board Game Geek Collection] Downloaded data:', body.length, 'bytes; writing to local file')
-    return write(position('bgg-collection.json'), body, 'utf8')
+    return write(datapath('bgg-collection.json'), body, 'utf8')
   } catch (ex) {
     console.error('[Download Board Game Geek Collection] Fetch error:', ex, ex.stack)
   }

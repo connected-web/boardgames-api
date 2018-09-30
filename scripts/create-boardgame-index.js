@@ -1,31 +1,44 @@
-const { write } = require('promise-path')
-const position = require('./helpers/position')(__dirname, '../data')
+const { write, position } = require('promise-path')
+const datapath = position(__dirname, '../data')
 
 async function start () {
   console.log('[Create Board Game Index]', 'Requires data/bgg-collection.json')
   console.log('[Create Board Game Index]', 'Requires data/cali-playstats.json')
 
-  const collection = require(position('bgg-collection.json'))
-  const caliPlayStats = require(position('cali-playstats.json'))
+  const collection = require(datapath('bgg-collection.json'))
+  const caliPlayStats = require(datapath('cali-playstats.json'))
 
-  const boardGameIndex = collection.items[0].item.reduce(mapBoardGameGeekGame, {})
+  const boardGameIndex = {}
+  collection.items[0].item.reduce(mapBoardGameGeekGame, boardGameIndex)
+  caliPlayStats.reduce(mapCaliPlayStatGame, boardGameIndex)
 
   function mapBoardGameGeekGame (accumulator, item) {
     const name = item.name[0]._text[0]
     const id = item._attributes.objectid
     accumulator[name] = {
-      boardGameGeekGameId: id
+      boardGameGeekGameId: id,
+      boardGameGeekName: name,
+      game: name
     }
+    return accumulator
+  }
+
+  function mapCaliPlayStatGame (accumulator, item) {
+    const name = item.game
+    accumulator[name] = accumulator[name] || {}
+    Object.keys(item).forEach(key => {
+      if (accumulator[name][key] && accumulator[name][key] !== item[key]) {
+        accumulator[name][`${key}_conflict`] = item[key]
+      } else {
+        accumulator[name][key] = item[key]
+      }
+    })
     return accumulator
   }
 
   console.log('[Created Boardgame Index]', boardGameIndex)
 
-  const position = require('./helpers/position')(__dirname, '../data')
-  return write(position('bgg-index.json'), JSON.stringify(boardGameIndex, null, 2), 'utf8')
-
-  const path = require('path')
-  return write(path.join(__dirname, '../data/bgg-index.json'), JSON.stringify(boardGameIndex, null, 2), 'utf8')
+  return write(datapath('boardgame-index.json'), JSON.stringify(boardGameIndex, null, 2), 'utf8')
 }
 
 // Convert Excel dates into JS date objects

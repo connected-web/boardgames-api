@@ -1,11 +1,11 @@
-const { write } = require('promise-path')
-const position = require('./helpers/position')(__dirname, '../data')
+const { write, position } = require('promise-path')
+const datapath = position(__dirname, '../data')
 
 async function start () {
   console.log('[Create Board Game Geek Index]', 'Requires data/bgg-collection.json')
 
-  const collection = require(position('bgg-collection.json'))
-  const boardGameIndex = collection.items[0].item.reduce(mapBoardGame, {})
+  const collection = require(datapath('bgg-collection.json'))
+  const boardGameGeekIndex = collection.items[0].item.reduce(mapBoardGame, {})
 
   function mapBoardGame (accumulator, item) {
     const name = item.name[0]._text[0]
@@ -16,8 +16,8 @@ async function start () {
     return accumulator
   }
 
-  console.log('[Create Board Game Geek Index]', boardGameIndex)
-  return write(position('bgg-index.json'), JSON.stringify(boardGameIndex, null, 2), 'utf8')
+  console.log('[Create Board Game Geek Index]', boardGameGeekIndex)
+  return write(datapath('bgg-index.json'), JSON.stringify(boardGameGeekIndex, null, 2), 'utf8')
 }
 
 module.exports = start

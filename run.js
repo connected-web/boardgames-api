@@ -11,21 +11,36 @@ async function start () {
     return acc
   }, {})
 
+  function runScriptIfFunction(n) {
+    if (typeof scripts[n] === 'function') {
+      return scripts[n]()
+    }
+    else {
+      return console.log('[Board Game API Run] Script', n, 'is not a function')
+    }
+  }
+
   scripts.all = async () => {
-    return Promise.all([
-      'download-gsheets-data',
-      'download-boardgame-collection',
-      'download-boardgame-entries',
-      'create-boardgame-index',
-      'create-boardgame-list'
-    ].map(async n => scripts[n]()))
+    try {
+      return Promise.all([
+        'download-cali-playstats',
+        'download-bgg-collection',
+        'download-bgg-entries',
+        'create-bgg-index',
+        'create-boardgame-list',
+        'create-boardgame-index'
+      ].map(runScriptIfFunction))
+    } catch (ex) {
+      console.log('[Boardgame API Run] Scripts:', scripts)
+      throw ex
+    }
   }
 
   if (scripts[scriptToRun]) {
-    console.log('[Boardgames API Run] Running', scriptToRun)
+    console.log('[Board Game API Run] Running', scriptToRun)
     await scripts[scriptToRun]()
   } else {
-    console.log('[Boardgame API Run] Available scripts to run:')
+    console.log('[Board Game API Run] Available scripts to run:')
     scriptNames.forEach(n => console.log(' ', `node run ${n}`))
   }
 }
