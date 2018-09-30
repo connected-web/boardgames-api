@@ -7,11 +7,10 @@ async function start () {
 
   const collection = require(position('bgg-collection.json'))
   const caliPlayStats = require(position('cali-playstats.json'))
-  
-  const boardGameIndex = collection.items[0].item.reduce(mapBoardGame, {})
-  caliPlayStats.
 
-  function mapBoardGame (accumulator, item) {
+  const boardGameIndex = collection.items[0].item.reduce(mapBoardGameGeekGame, {})
+
+  function mapBoardGameGeekGame (accumulator, item) {
     const name = item.name[0]._text[0]
     const id = item._attributes.objectid
     accumulator[name] = {
@@ -21,7 +20,12 @@ async function start () {
   }
 
   console.log('[Created Boardgame Index]', boardGameIndex)
+
+  const position = require('./helpers/position')(__dirname, '../data')
   return write(position('bgg-index.json'), JSON.stringify(boardGameIndex, null, 2), 'utf8')
+
+  const path = require('path')
+  return write(path.join(__dirname, '../data/bgg-index.json'), JSON.stringify(boardGameIndex, null, 2), 'utf8')
 }
 
 // Convert Excel dates into JS date objects
