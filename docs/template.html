@@ -6,6 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
   <style>
   html, body {
@@ -15,13 +16,30 @@
   a { text-decoration: none; color: black; font-weight: bold; }
   a:visited { color: #333; }
   a:hover { color: red; }
+  nav {
+    padding: 0;
+    margin-bottom: 10px;
+    border-bottom: 4px solid #DDD;
+  }
+  endpoint {
+    display: block;
+    padding-left: 20px;
+    border-left: 10px solid #DDD;
+  }
+  endpoint:hover {
+    border-left: 10px solid #FEC;
+  }
+  footer {
+    padding: 10px;
+    margin-top: 10px;
+    border-top: 4px solid #DDD;
+  }
   </style>
 </head>
 <body>
   {{navigation}}
-  <content>
-    {{body}}
-  </content>
+  {{body}}
   {{footer}}
+  <script src="./scripts/endpoints.js"></script>
 </body>
 </html>

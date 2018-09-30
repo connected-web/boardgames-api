@@ -7,6 +7,7 @@ const phpExpress = require('php-express')({
 })
 
 app.use('/docs/design', express.static(position('docs/design')))
+app.use('/docs/scripts', express.static(position('docs/scripts')))
 app.get('/api/*', render(position('api/index.php')))
 app.post('/api/*', render(position('api/index.php')))
 app.get('/docs/*', render(position('docs/index.php')))
