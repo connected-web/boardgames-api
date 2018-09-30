@@ -17,13 +17,14 @@ $endpointsData = json_decode(@file_get_contents('endpoints.json'))->endpoints;
 
 $endpoints = array();
 foreach ($endpointsData as $key=>$value) {
-  $endpoints[$key['path']] = $value;
+  $pathKey = $key['path'];
+  $endpoints[$pathKey] = array('data' => $value);
 }
-$endpoints['/']->source = 'endpoints.json';
-$endpoints['/schema']->source = 'schemas/endpoints-schema.json';
+$endpoints['/']['source'] = 'endpoints.json';
+$endpoints['/schema']['source'] = 'schemas/endpoints-schema.json';
 
-if ($endpoints[$path] && $endpoints[$path]->source) {
-  $source = $endpoints[$path]->source;
+if ($endpoints[$path] && $endpoints[$path]['source']) {
+  $source = $endpoints[$path]['source'];
   $sourceData = json_decode(@file_get_contents($source));
   exit(json_encode($sourceData));
 } else {
