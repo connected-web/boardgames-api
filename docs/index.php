@@ -9,15 +9,18 @@ $requestUri = $_SERVER['REQUEST_URI'];
 $requestPath = join(array_filter(explode('/', $requestUri)), '/');
 
 $templateHTML = @file_get_contents('./template.html');
+$homeContent = @file_get_contents('./content/home.html');
+$bodyContent = $homeContent;
 
 $site = 'Boardgame API Docs';
 $title = 'Home';
+$breadCrumbs = '/' . $requestPath . '/';
 
 $outputHTML = $templateHTML;
-$outputHTML = str_replace('{{title}}', "$title - $requestPath - $site", $outputHTML);
+$outputHTML = str_replace('{{body}}', $bodyContent, $outputHTML);
 $outputHTML = str_replace('{{navigation}}', '<nav><heading>{{icon:bars}} Navigation</heading><p>No where to navigate to yet.</p></nav>', $outputHTML);
-$outputHTML = str_replace('{{body}}', '<content><heading>{{icon:home}} ' . $title . '</heading><p>These docs are for the boardgames API, based on the data that the API provides itself. They should provide suitable documentation in the form of schemas, examples, and test cases.</p></content>', $outputHTML);
 $outputHTML = str_replace('{{footer}}', '<footer><heading>{{icon:shoe-prints}} Footer</heading><p>The Board Game API is part of <a href="https://calisaurus.net">{{icon:home}} calisaurus.net</a> in support of <a href="https://boardgames.calisaurus.net">{{icon:dice}} boardgames.calisaurus.net blog</a> and associated apps, and has been built in association with <a href="https://github.com/connected-web/">{{icon:github:b}} Connected Web</a>.</footer>', $outputHTML);
+$outputHTML = str_replace('{{title}}', "$title - $breadCrumbs - $site", $outputHTML);
 $outputHTML = renderIconsAsHTML($outputHTML);
 
 function renderIconsAsHTML($searchText) {
