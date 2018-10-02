@@ -1,6 +1,18 @@
 const { write, position } = require('promise-path')
 const datapath = position(__dirname, '../data')
 
+const pluralMap = {
+  date: 'dates',
+  winner: 'winners',
+  coOpOutcome: 'coOpOutcomes',
+  notes: 'notes',
+  coOp: 'coOpTypes'
+}
+
+function pluralise(key) {
+  return pluralMap[key] || false
+}
+
 async function start () {
   console.log('[Create Board Game Index]', 'Requires data/bgg-collection.json')
   console.log('[Create Board Game Index]', 'Requires data/cali-playstats.json')
@@ -25,14 +37,22 @@ async function start () {
 
   function mapCaliPlayStatGame (accumulator, item) {
     const name = item.game
-    accumulator[name] = accumulator[name] || {}
+    const entry = accumulator[name] || {}
     Object.keys(item).forEach(key => {
-      if (accumulator[name][key] && accumulator[name][key] !== item[key]) {
-        accumulator[name][`${key}_conflict`] = item[key]
-      } else {
-        accumulator[name][key] = item[key]
+      const keyplural = pluralise(key)
+      if (keyplural) {
+        const values = entry[keyplural] || []
+        values.push(item[key])
+        entry[keyplural] = values
+      }
+      else if(entry[key] && entry[key] !== item[key]) {
+        entry[`${key}_conflict`] = item[key]
+      }
+      else {
+        entry[key] = item[key]
       }
     })
+    accumulator[name] = entry
     return accumulator
   }
 
