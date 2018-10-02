@@ -13,6 +13,11 @@ function pluralise(key) {
   return pluralMap[key] || false
 }
 
+function convertGSheetsDate(gsheetsDate) {
+  const date = new Date((gsheetsDate - (25567 + 1)) * 86400 * 1000)
+  return date.toISOString().substring(0, 10)
+}
+
 async function start () {
   console.log('[Create Board Game Index]', 'Requires data/bgg-collection.json')
   console.log('[Create Board Game Index]', 'Requires data/cali-playstats.json')
@@ -40,16 +45,21 @@ async function start () {
     const entry = accumulator[name] || {}
     Object.keys(item).forEach(key => {
       const keyplural = pluralise(key)
+      let value = item[key]
+      if (key.toLowerCase().includes('date')) {
+        value = convertGSheetsDate(value)
+      }
+
       if (keyplural) {
         const values = entry[keyplural] || []
-        values.push(item[key])
+        values.push(value)
         entry[keyplural] = values
       }
-      else if(entry[key] && entry[key] !== item[key]) {
-        entry[`${key}_conflict`] = item[key]
+      else if(entry[key] && entry[key] !== value) {
+        entry[`${key}_conflict`] = value
       }
       else {
-        entry[key] = item[key]
+        entry[key] = value
       }
     })
     accumulator[name] = entry
@@ -59,22 +69,6 @@ async function start () {
   console.log('[Created Boardgame Index]', boardGameIndex)
 
   return write(datapath('boardgame-index.json'), JSON.stringify(boardGameIndex, null, 2), 'utf8')
-}
-
-// Convert Excel dates into JS date objects
-//
-// @param excelDate {Number}
-// @return {Date}
-
-function getJsDateFromExcel(excelDate) {
-
-  // JavaScript dates can be constructed by passing milliseconds
-  // since the Unix epoch (January 1, 1970) example: new Date(12312512312);
-
-  // 1. Subtract number of days between Jan 1, 1900 and Jan 1, 1970, plus 1 (Google "excel leap year bug")
-  // 2. Convert to milliseconds.
-
-	return new Date((excelDate - (25567 + 1))*86400*1000);
 }
 
 module.exports = start
