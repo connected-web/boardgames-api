@@ -10,7 +10,6 @@ async function start () {
   Object.keys(boardGameIndex).forEach(game => {
     const entry = boardGameIndex[game]
     entry.dates = entry.dates || []
-    console.log('?', game, entry)
     entry.dates.forEach((date, pos, dates) => {
       const feedItem = {
         date,
@@ -25,8 +24,8 @@ async function start () {
   })
 
   feed = feed.sort((a, b) => {
-    const da = (new Date(a)).getTime()
-    const db = (new Date(b)).getTime()
+    const da = (new Date(a.date)).getTime()
+    const db = (new Date(b.date)).getTime()
     return da > db ? 1 : -1
   })
 
