@@ -16,7 +16,7 @@ describe('Docs /docs/', () => {
 
   it('should contain a content body that explains the purpose of the page', async () => {
     const body = await fetch(docsPath)
-    expect(body).to.contain('These docs are for the boardgames API')
+    expect(body).to.contain('To help us keep track of our endpoints, and perhaps for other people to use, we have created these docs for the boardgames API.')
   })
 
   it('should contain a footer section', async () => {
