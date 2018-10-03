@@ -21,7 +21,7 @@
 					},
 					"coOpOutcome": {
 						"type": "string",
-						"pattern": "^([Ww]in)|([Ww]on)|([Ll]ost)$"
+						"pattern": "^([Ww]in)|([Ww]on)|([Ll]os[te])$"
 					},
 					"note": {
 						"type": "string",
