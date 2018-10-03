@@ -1,0 +1,40 @@
+{
+	"id": "/",
+	"type": "object",
+	"properties": {
+		"feed": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"date": {
+						"type": "string",
+						"pattern": "^\\d{4}(-\\d{2}){2}$"
+					},
+					"game": {
+						"type": "string",
+						"pattern": "^.*$"
+					},
+					"coOp": {
+						"type": "string",
+						"pattern": "^([Yy]es)|([Nn]o)$"
+					},
+					"coOpOutcome": {
+						"type": "string",
+						"pattern": "^([Ww]in)|([Ww]on)|([Ll]ost)$"
+					},
+					"note": {
+						"type": "string",
+						"pattern": "^.*$"
+					},
+					"winner": {
+						"type": "string",
+						"pattern": "^.*$"
+					}
+				},
+				"additionalProperties": false
+			}
+		}
+	},
+	"additionalProperties": false
+}

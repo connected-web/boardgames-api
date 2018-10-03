@@ -3,6 +3,8 @@ const { fetch } = require('promise-path')
 const { expect } = require('chai')
 const { validate } = require('jsonschema')
 
+const schemaSchemaUrl = 'https://json-schema.org/draft-07/schema'
+
 async function fetchJSON(url) {
   let body
   try {
@@ -24,6 +26,13 @@ async function test(apiPath, apiSchemaPath) {
 }
 
 describe('API Endpoints /api/', async () => {
-  it('should list all available endpoints', async () => test(`${config.serverPath}/api/`))
-  it('should provide a valid schema, for validating the /api/ endpoint', async () => test(`${config.serverPath}/api/schema`, 'https://json-schema.org/draft-07/schema'))
+  it('should list all available endpoints',
+    async () => test(`${config.serverPath}/api/`))
+  it('should provide a valid schema, for validating the /api/ endpoint',
+    async () => test(`${config.serverPath}/api/schema`, schemaSchemaUrl))
+  it('should provide a board game feed',
+    async () => test(`${config.serverPath}/api/boardgame/feed`))
+  it('should provide a valid schema, for validating the /api/boardgame/feed endpoint',
+    async () => test(`${config.serverPath}/api/boardgame/feed/schema`, schemaSchemaUrl))
+
 })
