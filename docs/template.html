@@ -12,7 +12,7 @@
   html, body {
     font-family: Lato, Helvetica, Arial, sans-serif;
   }
-  heading { font-weight: bold; }
+  heading { display: block; font-weight: bold; }
   a { text-decoration: none; color: black; font-weight: bold; }
   a:visited { color: #333; }
   a:hover { color: red; }
@@ -33,6 +33,10 @@
     padding: 10px;
     margin-top: 10px;
     border-top: 4px solid #DDD;
+  }
+  content > heading {
+    font-size: 140%;
+    margin-bottom: 10px;
   }
   </style>
 </head>
