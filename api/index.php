@@ -22,7 +22,9 @@ foreach ($endpointsData as $key=>$value) {
 }
 $endpoints['/']['source'] = 'endpoints.json';
 $endpoints['/schema']['source'] = 'schemas/endpoints-schema.json';
+$endpoints['/sample']['source'] = 'samples/endpoints-sample.json';
 $endpoints['/boardgame/feed']['source'] = '../data/boardgame-feed.json';
+$endpoints['/boardgame/feed/sample']['source'] = 'samples/boardgame-feed-sample.json';
 $endpoints['/boardgame/feed/schema']['source'] = 'schemas/boardgame-feed-schema.json';
 
 if ($endpoints[$path] && $endpoints[$path]['source']) {

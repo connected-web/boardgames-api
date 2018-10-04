@@ -1,0 +1,22 @@
+{
+  "endpoints": [{
+    "path": "/api/",
+    "method": "GET",
+    "description": "Return a list of endpoints",
+    "accepts": "application/json",
+    "schema": "/api/schema",
+    "sample": "/api/sample"
+  }, {
+    "path": "/api/sample",
+    "method": "GET",
+    "description": "Return a sample list of endpoints",
+    "accepts": "application/json",
+    "schema": "/api/schema"
+  }, {
+    "path": "/api/schema",
+    "method": "GET",
+    "description": "Returns a schema for the /api/ endpoint",
+    "accepts": "application/json",
+    "schema": "https://json-schema.org/draft-07/schema"
+  }]
+}

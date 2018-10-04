@@ -2,25 +2,39 @@
   "endpoints": [{
     "path": "/api/",
     "method": "GET",
-    "description": "Return a list of endpoints",
+    "description": "Return a list of available endpoints.",
+    "accepts": "application/json",
+    "schema": "/api/schema",
+    "sample": "/api/sample"
+  }, {
+    "path": "/api/sample",
+    "method": "GET",
+    "description": "Return a sample list of available endpoints.",
     "accepts": "application/json",
     "schema": "/api/schema"
   }, {
     "path": "/api/schema",
     "method": "GET",
-    "description": "Returns a schema for the /api/ endpoint",
+    "description": "Returns a schema for the /api/ endpoint.",
     "accepts": "application/json",
     "schema": "https://json-schema.org/draft-07/schema"
   }, {
     "path": "/api/boardgame/feed",
     "method": "GET",
-    "description": "Return a feed of board games played by John and Hannah",
+    "description": "Return a feed of board games played by John and Hannah.",
+    "accepts": "application/json",
+    "schema": "/api/boardgame/feed/schema",
+    "sample": "/api/boardgame/feed/sample"
+  }, {
+    "path": "/api/boardgame/feed/sample",
+    "method": "GET",
+    "description": "Return a sample feed of board games played by John and Hannah.",
     "accepts": "application/json",
     "schema": "/api/boardgame/feed/schema"
   }, {
     "path": "/api/boardgame/feed/schema",
     "method": "GET",
-    "description": "Returns a schema for the /api/boardgame/feed endpoint",
+    "description": "Returns a schema for the /api/boardgame/feed endpoint.",
     "accepts": "application/json",
     "schema": "https://json-schema.org/draft-07/schema"
   }]
