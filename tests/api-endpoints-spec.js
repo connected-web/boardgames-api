@@ -1,9 +1,10 @@
 const config = require('./helpers/config')
-const { fetch } = require('promise-path')
+const { fetch, position } = require('promise-path')
 const { expect } = require('chai')
 const { validate } = require('jsonschema')
 
-const schemaSchemaUrl = 'https://json-schema.org/draft-07/schema'
+const apiPath = position(__dirname, '../api/')
+const endpointData = require(apiPath('endpoints.json'))
 
 async function fetchJSON(url) {
   let body
@@ -15,8 +16,16 @@ async function fetchJSON(url) {
   }
 }
 
+function checkForRelativeUrl(path) {
+  if (path && path.substring(0, 1) === '/') {
+    return config.serverPath + path
+  }
+  return path
+}
+
 async function test(apiPath, apiSchemaPath) {
-  apiSchemaPath = apiSchemaPath || `${apiPath}/schema`.replace('/api//', '/api/')
+  apiPath = checkForRelativeUrl(apiPath)
+  apiSchemaPath = checkForRelativeUrl(apiSchemaPath)
 
   const apiSchema = await fetchJSON(apiSchemaPath)
   const endpointData = await fetchJSON(apiPath)
@@ -25,14 +34,15 @@ async function test(apiPath, apiSchemaPath) {
   expect(schemaValidation.errors).to.deep.equal([])
 }
 
-describe('API Endpoints /api/', async () => {
-  it('should list all available endpoints',
-    async () => test(`${config.serverPath}/api/`))
-  it('should provide a valid schema, for validating the /api/ endpoint',
-    async () => test(`${config.serverPath}/api/schema`, schemaSchemaUrl))
-  it('should provide a board game feed',
-    async () => test(`${config.serverPath}/api/boardgame/feed`))
-  it('should provide a valid schema, for validating the /api/boardgame/feed endpoint',
-    async () => test(`${config.serverPath}/api/boardgame/feed/schema`, schemaSchemaUrl))
+describe('API Endpoints', () => {
+  it('GET /api/ should list all available endpoints', async () => test(`${config.serverPath}/api/`, `${config.serverPath}/api/schema`))
+  it('GET /api/ should match the local data used to generate these tests', async () => {
+    const actual = await fetchJSON(`${config.serverPath}/api/`)
+    const expected = endpointData
+    expect(actual).to.deep.equal(expected)
+  })
 
+  endpointData.endpoints.forEach((endpoint) => {
+    it(`${endpoint.method} ${endpoint.path} should '${endpoint.description}'`, () => test(endpoint.path, endpoint.schema))
+  })
 })
