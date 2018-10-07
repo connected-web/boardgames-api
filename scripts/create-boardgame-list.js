@@ -1,5 +1,6 @@
 const { write, position } = require('promise-path')
 const datapath = position(__dirname, '../data')
+const report = (...messages) => console.log('[Create Board Game List]', ...messages)
 
 async function start () {
   const bggCollection = require(datapath('bgg-collection.json'))
@@ -22,13 +23,14 @@ async function start () {
 
   caliCollection.forEach(item => {
     if (!item.game) {
-      console.log('No game property found on item:', item, new Date(1900, 0, item.date))
+      report('No game property found on item:', item, new Date(1900, 0, item.date))
     }
   })
 
-  console.log('[Create Boardgame List] Board Game name stats:', stats)
+  const filename = 'boardgame-names.json'
+  report('Writing Board Game List:', stats, 'to', filename)
 
-  return write(datapath('boardgame-names.json'), JSON.stringify({boardGameGeek: bggBoardGameNames, cali: caliBoardGameNames, overlap, bggOnly, caliOnly, stats}, null, 2), 'utf8')
+  return write(datapath(filename), JSON.stringify({boardGameGeek: bggBoardGameNames, cali: caliBoardGameNames, overlap, bggOnly, caliOnly, stats}, null, 2), 'utf8')
 }
 
 module.exports = start

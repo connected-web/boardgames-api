@@ -1,5 +1,6 @@
 const { write, position } = require('promise-path')
 const datapath = position(__dirname, '../data')
+const report = (...messages) => console.log('[Create Board Game Index]', ...messages)
 
 const pluralMap = {
   date: 'dates',
@@ -19,8 +20,8 @@ function convertGSheetsDate(gsheetsDate) {
 }
 
 async function start () {
-  console.log('[Create Board Game Index]', 'Requires data/bgg-collection.json')
-  console.log('[Create Board Game Index]', 'Requires data/cali-playstats.json')
+  report('Requires data/bgg-collection.json')
+  report('Requires data/cali-playstats.json')
 
   const collection = require(datapath('bgg-collection.json'))
   const caliPlayStats = require(datapath('cali-playstats.json'))
@@ -66,9 +67,10 @@ async function start () {
     return accumulator
   }
 
-  console.log('[Created Boardgame Index]', boardGameIndex)
+  const filename = 'boardgame-index.json'
+  report('Writing Board Game Index', boardGameIndex, 'to', filename)
 
-  return write(datapath('boardgame-index.json'), JSON.stringify(boardGameIndex, null, 2), 'utf8')
+  return write(datapath(filename), JSON.stringify(boardGameIndex, null, 2), 'utf8')
 }
 
 module.exports = start

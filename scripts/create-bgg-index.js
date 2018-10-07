@@ -1,8 +1,9 @@
 const { write, position } = require('promise-path')
 const datapath = position(__dirname, '../data')
+const report = (...messages) => console.log('[Create Board Game Geek Index]', ...messages)
 
 async function start () {
-  console.log('[Create Board Game Geek Index]', 'Requires data/bgg-collection.json')
+  report('Requires', 'data/bgg-collection.json')
 
   const collection = require(datapath('bgg-collection.json'))
   const boardGameGeekIndex = collection.items[0].item.reduce(mapBoardGame, {})
@@ -16,7 +17,7 @@ async function start () {
     return accumulator
   }
 
-  console.log('[Create Board Game Geek Index]', boardGameGeekIndex)
+  report('Index', boardGameGeekIndex)
   return write(datapath('bgg-index.json'), JSON.stringify(boardGameGeekIndex, null, 2), 'utf8')
 }
 
