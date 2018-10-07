@@ -31,6 +31,13 @@
                 "sortindex": "1",
                 "value": "Jurassic Snack"
               }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "Merienda Jurásica"
+              }
             }
           ],
           "description": [
@@ -242,35 +249,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "66",
+                        "level": "91",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "67",
+                        "level": "92",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "68",
+                        "level": "93",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "69",
+                        "level": "94",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "70",
+                        "level": "95",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -376,6 +383,13 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "30677",
+                "value": "Maldito Games"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "29786",
                 "value": "Playagame Edizioni"
               }
@@ -398,14 +412,14 @@
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.26519"
+                        "value": "7.27865"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "5.5732"
+                        "value": "5.57338"
                       }
                     }
                   ],
@@ -418,8 +432,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "7223",
-                            "bayesaverage": "5.5732"
+                            "value": "7216",
+                            "bayesaverage": "5.57338"
                           }
                         }
                       ]
@@ -428,7 +442,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.40523"
+                        "value": "1.39857"
                       }
                     }
                   ],
@@ -463,7 +477,7 @@
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "123"
+                        "value": "122"
                       }
                     }
                   ],

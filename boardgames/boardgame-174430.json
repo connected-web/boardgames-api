@@ -73,7 +73,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "522"
+                "totalvotes": "524"
               },
               "results": [
                 {
@@ -96,7 +96,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "105"
+                        "numvotes": "106"
                       }
                     }
                   ]
@@ -109,7 +109,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "120"
+                        "numvotes": "121"
                       }
                     },
                     {
@@ -121,7 +121,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "32"
+                        "numvotes": "33"
                       }
                     }
                   ]
@@ -140,7 +140,7 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "177"
+                        "numvotes": "179"
                       }
                     },
                     {
@@ -159,13 +159,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "175"
+                        "numvotes": "176"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "212"
+                        "numvotes": "213"
                       }
                     },
                     {
@@ -196,7 +196,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "278"
+                        "numvotes": "279"
                       }
                     }
                   ]
@@ -299,35 +299,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "21",
+                        "level": "1",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "22",
+                        "level": "2",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "23",
+                        "level": "3",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "2"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "24",
+                        "level": "4",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "23"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "25",
+                        "level": "5",
                         "value": "Unplayable in another language",
                         "numvotes": "4"
                       }
@@ -565,6 +565,13 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "4304",
+                "value": "Albi"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "22380",
                 "value": "Feuerland Spiele"
               }
@@ -587,21 +594,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "18597"
+                        "value": "18800"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "8.95578"
+                        "value": "8.95105"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "8.62081"
+                        "value": "8.6205"
                       }
                     }
                   ],
@@ -615,7 +622,7 @@
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
                             "value": "1",
-                            "bayesaverage": "8.62081"
+                            "bayesaverage": "8.6205"
                           }
                         },
                         {
@@ -625,7 +632,7 @@
                             "name": "thematic",
                             "friendlyname": "Thematic Rank",
                             "value": "1",
-                            "bayesaverage": "8.65736"
+                            "bayesaverage": "8.65552"
                           }
                         },
                         {
@@ -635,7 +642,7 @@
                             "name": "strategygames",
                             "friendlyname": "Strategy Game Rank",
                             "value": "1",
-                            "bayesaverage": "8.61458"
+                            "bayesaverage": "8.61554"
                           }
                         }
                       ]
@@ -644,7 +651,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.61436"
+                        "value": "1.61702"
                       }
                     }
                   ],
@@ -658,49 +665,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "31359"
+                        "value": "31628"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "135"
+                        "value": "132"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "1325"
+                        "value": "1319"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "10534"
+                        "value": "10573"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "3889"
+                        "value": "3916"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "814"
+                        "value": "818"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "3.7654"
+                        "value": "3.7653"
                       }
                     }
                   ]
