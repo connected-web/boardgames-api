@@ -20,18 +20,43 @@ async function start () {
     }
   }
 
+  scripts['create-all'] = async () => {
+    return processScripts([
+      'create-bgg-index',
+      'create-boardgame-list',
+      'create-boardgame-index',
+      'create-boardgame-feed',
+      'create-boardgame-summaries'
+    ], scripts)
+  }
+
+  scripts['download-all'] = async () => {
+    return processScripts([
+      'download-cali-playstats',
+      'download-bgg-collection',
+      'download-bgg-entries',
+    ], scripts)
+  }
+
   scripts.all = async () => {
+    return processScripts([
+      'download-all',
+      'create-all'
+    ], scripts)
+  }
+
+  async function processScripts(scriptsToRun, scriptIndex) {
+    let nextScript
+    const remainingScripts = [].concat(...scriptsToRun)
     try {
-      return Promise.all([
-        'download-cali-playstats',
-        'download-bgg-collection',
-        'download-bgg-entries',
-        'create-bgg-index',
-        'create-boardgame-list',
-        'create-boardgame-index'
-      ].map(runScriptIfFunction))
+      const results = []
+      while (remainingScripts.length > 0) {
+        nextScript = remainingScripts.shift()
+        const result = await scriptIndex[nextScript]()
+        results.push(result)
+      }
     } catch (ex) {
-      console.log('[Boardgame API Run] Scripts:', scripts)
+      console.log('[Boardgame API Run] Process scripts:', scriptsToRun, 'Remaining:', remainingScripts, 'running:', nextScript)
       throw ex
     }
   }
