@@ -15,7 +15,7 @@ function pluralise(key) {
 }
 
 function convertGSheetsDate(gsheetsDate) {
-  const date = new Date((gsheetsDate - (25567 + 1)) * 86400 * 1000)
+  const date = new Date((gsheetsDate - (25567)) * 86400 * 1000)
   return date.toISOString().substring(0, 10)
 }
 
