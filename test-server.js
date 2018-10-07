@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const position = require('./scripts/helpers/position')(__dirname)
+const position = require('promise-path').position(__dirname)
 
 const phpExpress = require('php-express')({
   binPath: 'php' // assumes php is in your PATH
