@@ -68,11 +68,29 @@ async function start () {
     })
     gameCountList = gameCountList.sort((a, b) => a.plays < b.plays ? 1 : -1)
 
+    const dayCountIndex = games.reduce((acc, item) => {
+      const entry = acc[item.date] || {
+        date: item.date,
+        games: []
+      }
+      entry.games.push(item.game)
+      acc[item.date] = entry
+      return acc
+    }, {})
+
+    let dayCountList = []
+    Object.keys(dayCountIndex).forEach(key => {
+      const entry = dayCountIndex[key]
+      dayCountList.push(entry)
+    })
+    dayCountList = dayCountList.sort((a, b) => a.games.length < b.games.length ? 1 : -1)
+
     month.totalGamesPlayed = games.length
     month.averageGamesPlayedPerDay = Number.parseFloat((month.totalGamesPlayed / month.daysInMonth).toFixed(2))
-    month.mostGamesPlayedInADay = '?'
-    const highestPlayCount = gameCountList[0].plays
-    month.mostPlayedGamesThisMonth = gameCountList.filter(n => n.plays === highestPlayCount)
+    const highestDayPlayCount = dayCountList[0].games.length
+    month.mostGamesPlayedInADay = dayCountList.filter(n => n.games.length === highestDayPlayCount)
+    const highestGamePlayCount = gameCountList[0].plays
+    month.mostPlayedGamesThisMonth = gameCountList.filter(n => n.plays === highestGamePlayCount)
   })
 
   summaries.earliestDate = new Date(earliestTime).toISOString().substring(0, 10)
