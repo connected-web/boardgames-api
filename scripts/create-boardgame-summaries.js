@@ -51,8 +51,28 @@ async function start () {
 
   monthsInUse.forEach((month) => {
     const games = collection.feed.filter(n => n.date.substring(0, 7) === month.dateCode)
+    const gameCountIndex = games.reduce((acc, item) => {
+      const entry = acc[item.game] || {
+        game: item.game,
+        plays: 0
+      }
+      entry.plays++
+      acc[item.game] = entry
+      return acc
+    }, {})
+
+    let gameCountList = []
+    Object.keys(gameCountIndex).forEach(key => {
+      const entry = gameCountIndex[key]
+      gameCountList.push(entry)
+    })
+    gameCountList = gameCountList.sort((a, b) => a.plays < b.plays ? 1 : -1)
+
     month.totalGamesPlayed = games.length
     month.averageGamesPlayedPerDay = Number.parseFloat((month.totalGamesPlayed / month.daysInMonth).toFixed(2))
+    month.mostGamesPlayedInADay = '?'
+    const highestPlayCount = gameCountList[0].plays
+    month.mostPlayedGamesThisMonth = gameCountList.filter(n => n.plays === highestPlayCount)
   })
 
   summaries.earliestDate = new Date(earliestTime).toISOString().substring(0, 10)
