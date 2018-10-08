@@ -20,6 +20,10 @@ Complete List of Games Played In September:`
 
 const monthsOfTheYear = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 
+function daysInMonth (month, year) {
+  return new Date(year, month, 0).getDate();
+}
+
 async function start () {
   report('Requires', 'data/boardgame-feed.json')
 
@@ -36,10 +40,19 @@ async function start () {
     return new Date(t).toISOString().substring(0, 7)
   }))].map(dateCode => {
     const date = new Date(dateCode)
+    const year = date.getUTCFullYear()
+    const month = date.getUTCMonth()
     return {
       dateCode,
-      title: [monthsOfTheYear[date.getUTCMonth()], date.getUTCFullYear()].join(' ')
+      daysInMonth: daysInMonth(month, year),
+      title: [monthsOfTheYear[month], year].join(' ')
     }
+  })
+
+  monthsInUse.forEach((month) => {
+    const games = collection.feed.filter(n => n.date.substring(0, 7) === month.dateCode)
+    month.totalGamesPlayed = games.length
+    month.averageGamesPlayedPerDay = Number.parseFloat((month.totalGamesPlayed / month.daysInMonth).toFixed(2))
   })
 
   summaries.earliestDate = new Date(earliestTime).toISOString().substring(0, 10)
