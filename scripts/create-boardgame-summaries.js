@@ -18,6 +18,8 @@ Largest game played: The Mind, Space Base, Skull, and Exploding Kittens each wit
 
 Complete List of Games Played In September:`
 
+const monthsOfTheYear = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+
 async function start () {
   report('Requires', 'data/boardgame-feed.json')
 
@@ -30,9 +32,19 @@ async function start () {
   const timesInUse = collection.feed.map(n => new Date(n.date).getTime())
   const earliestTime = Math.min(...timesInUse)
   const latestTime = Math.max(...timesInUse)
+  const monthsInUse = [...new Set(timesInUse.map((t) => {
+    return new Date(t).toISOString().substring(0, 7)
+  }))].map(dateCode => {
+    const date = new Date(dateCode)
+    return {
+      dateCode,
+      title: [monthsOfTheYear[date.getUTCMonth()], date.getUTCFullYear()].join(' ')
+    }
+  })
 
   summaries.earliestDate = new Date(earliestTime).toISOString().substring(0, 10)
   summaries.latestDate = new Date(latestTime).toISOString().substring(0, 10)
+  summaries.monthsInUse = monthsInUse
 
   const filename = 'boardgame-summaries.json'
   report('Writing file:', filename, summaries)
