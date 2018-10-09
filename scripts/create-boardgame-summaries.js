@@ -24,6 +24,10 @@ function daysInMonth (month, year) {
   return new Date(year, month, 0).getDate();
 }
 
+function fmn(n) {
+  return Number.parseFloat(n.toFixed(2))
+}
+
 async function start () {
   report('Requires', 'data/boardgame-feed.json')
 
@@ -51,6 +55,7 @@ async function start () {
 
   monthsInUse.forEach((month) => {
     const games = collection.feed.filter(n => n.date.substring(0, 7) === month.dateCode)
+    const coOpGames = games.filter(n => (n.coOp + '').toLowerCase().trim() === 'yes')
     const gameCountIndex = games.reduce((acc, item) => {
       const entry = acc[item.game] || {
         game: item.game,
@@ -92,11 +97,18 @@ async function start () {
     })
 
     month.totalGamesPlayed = games.length
-    month.averageGamesPlayedPerDay = Number.parseFloat((month.totalGamesPlayed / month.daysInMonth).toFixed(2))
+    month.averageGamesPlayedPerDay = fmn(month.totalGamesPlayed / month.daysInMonth)
     const highestDayPlayCount = dayCountList[0].games.length
     month.mostGamesPlayedInADay = dayCountList.filter(n => n.games.length === highestDayPlayCount)
     const highestGamePlayCount = gameCountList[0].plays
     month.mostPlayedGamesThisMonth = gameCountList.filter(n => n.plays === highestGamePlayCount)
+    month.coOpGamesPlayedCount = coOpGames.length
+    month.coOpGamesPlayedPercentage = fmn(month.coOpGamesPlayedCount / month.totalGamesPlayed)
+    month.coOpGameWins = coOpGames.filter(n => {
+      let outcome = (n.coOpOutcome + '').toLowerCase().trim()
+      return outcome === 'win' || outcome === 'won' || false
+    }).length
+    month.coOpGameLoses = month.coOpGamesPlayedCount - month.coOpGameWins
   })
 
   summaries.earliestDate = new Date(earliestTime).toISOString().substring(0, 10)
