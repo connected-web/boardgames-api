@@ -7,7 +7,8 @@ const pluralMap = {
   winner: 'winners',
   coOpOutcome: 'coOpOutcomes',
   notes: 'notes',
-  coOp: 'coOpTypes'
+  coOp: 'coOpTypes',
+  mechanics: 'mechanics'
 }
 
 function pluralise(key) {
@@ -18,6 +19,8 @@ function convertGSheetsDate(gsheetsDate) {
   const date = new Date((gsheetsDate - 25567 - 2) * 86400 * 1000)
   return date.toISOString().substring(0, 10)
 }
+
+const expectedProperties = ['date', 'game', 'winner', 'coOpOutcome', 'coOp', 'notes', 'mechanics']
 
 async function start () {
   report('Requires data/bgg-collection.json')
@@ -44,7 +47,7 @@ async function start () {
   function mapCaliPlayStatGame (accumulator, item) {
     const name = item.game
     const entry = accumulator[name] || {}
-    Object.keys(item).forEach(key => {
+    expectedProperties.forEach(key => {
       const keyplural = pluralise(key)
       let value = item[key]
       if (key.toLowerCase().includes('date')) {

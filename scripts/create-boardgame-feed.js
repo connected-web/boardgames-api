@@ -2,6 +2,16 @@ const { write, position } = require('promise-path')
 const datapath = position(__dirname, '../data')
 const report = (...messages) => console.log('[Create Board Game Feed]', ...messages)
 
+const mutateRemoveEmpty = (obj) => {
+  Object.keys(obj).forEach(key => {
+    if (obj[key] && typeof obj[key] === 'object') {
+      mutateRemoveEmpty(obj[key])
+    } else if (obj[key] == null) {
+      delete obj[key]
+    }
+  })
+}
+
 async function start () {
   report('Requires', 'data/boardgame-index.json')
 
@@ -23,6 +33,8 @@ async function start () {
       feed.push(feedItem)
     })
   })
+
+  mutateRemoveEmpty(feed)
 
   feed = feed.sort((a, b) => {
     const da = (new Date(a.date)).getTime()
