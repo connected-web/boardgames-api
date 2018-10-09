@@ -85,6 +85,12 @@ async function start () {
     })
     dayCountList = dayCountList.sort((a, b) => a.games.length < b.games.length ? 1 : -1)
 
+    month.gamesPlayed = games.sort((a, b) => {
+      const da = new Date(a.dateCode).getTime()
+      const db = new Date(b.dateCode).getTime()
+      return a < b ? 1 : -1
+    })
+
     month.totalGamesPlayed = games.length
     month.averageGamesPlayedPerDay = Number.parseFloat((month.totalGamesPlayed / month.daysInMonth).toFixed(2))
     const highestDayPlayCount = dayCountList[0].games.length
@@ -95,7 +101,7 @@ async function start () {
 
   summaries.earliestDate = new Date(earliestTime).toISOString().substring(0, 10)
   summaries.latestDate = new Date(latestTime).toISOString().substring(0, 10)
-  summaries.monthsInUse = monthsInUse
+  summaries.byMonth = monthsInUse
 
   const filename = 'boardgame-summaries.json'
   report('Writing file:', filename, summaries)
