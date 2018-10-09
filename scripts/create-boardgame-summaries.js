@@ -91,9 +91,9 @@ async function start () {
     dayCountList = dayCountList.sort((a, b) => a.games.length < b.games.length ? 1 : -1)
 
     month.gamesPlayed = games.sort((a, b) => {
-      const da = new Date(a.dateCode).getTime()
-      const db = new Date(b.dateCode).getTime()
-      return a < b ? 1 : -1
+      const da = new Date(a.date).getTime()
+      const db = new Date(b.date).getTime()
+      return da > db ? 1 : -1
     })
 
     month.totalGamesPlayed = games.length
@@ -109,6 +109,7 @@ async function start () {
       return outcome === 'win' || outcome === 'won' || false
     }).length
     month.coOpGameLoses = month.coOpGamesPlayedCount - month.coOpGameWins
+    month.coOpGames = coOpGames
   })
 
   summaries.earliestDate = new Date(earliestTime).toISOString().substring(0, 10)
