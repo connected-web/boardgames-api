@@ -42,19 +42,9 @@ async function start () {
     return da > db ? 1 : -1
   })
 
-  report('100th Game:', feed[100-1])
-  report('200th Game:', feed[200-1])
-  report('300th Game:', feed[300-1])
-  report('400th Game:', feed[400-1])
-  report('Total games:', feed.length)
-
   const filename = 'boardgame-feed.json'
   const body = JSON.stringify({ feed }, null, 2)
   report('Writing Feed:', body.length, 'bytes to', filename)
-
-  const uniqueGames = (new Array(...new Set(feed.map(g => g.game)))).sort()
-  report('Unique games', uniqueGames, 'Count:', uniqueGames.length)
-  await write(datapath('unique-list-of-games-played.json'), JSON.stringify({ uniqueGames }, null, 2), 'utf8')
 
   return write(datapath(filename), body, 'utf8')
 }
