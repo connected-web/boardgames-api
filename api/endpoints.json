@@ -20,5 +20,12 @@
     "accepts": "application/json",
     "schema": "/api/boardgame/stats/schema",
     "sample": "/api/boardgame/stats/sample"
+  }, {
+    "path": "/api/boardgame/unique/games/played",
+    "method": "GET",
+    "description": "Return a list of unique board games played since Hannah and John started keeping records.",
+    "accepts": "application/json",
+    "schema": "/api/boardgame/unique/games/played/schema",
+    "sample": "/api/boardgame/unique/games/played/sample"
   }]
 }

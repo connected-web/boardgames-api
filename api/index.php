@@ -59,12 +59,18 @@ function render() {
   $endpoints['/api/']['source'] = 'generateEndpointResponse';
   $endpoints['/api/schema']['source'] = 'schemas/endpoints-schema.json';
   $endpoints['/api/sample']['source'] = 'samples/endpoints-sample.json';
+
   $endpoints['/api/boardgame/feed']['source'] = '../data/boardgame-feed.json';
   $endpoints['/api/boardgame/feed/sample']['source'] = 'samples/boardgame-feed-sample.json';
   $endpoints['/api/boardgame/feed/schema']['source'] = 'schemas/boardgame-feed-schema.json';
+
   $endpoints['/api/boardgame/stats']['source'] = '../data/boardgame-summaries.json';
   $endpoints['/api/boardgame/stats/sample']['source'] = 'samples/boardgame-stats-sample.json';
   $endpoints['/api/boardgame/stats/schema']['source'] = 'schemas/boardgame-stats-schema.json';
+
+  $endpoints['/api/boardgame/unique/games/played']['source'] = '../data/unique-list-of-games-played.json';
+  $endpoints['/api/boardgame/unique/games/played/sample']['source'] = 'samples/unique-games-played-sample.json';
+  $endpoints['/api/boardgame/unique/games/played/schema']['source'] = 'schemas/unique-games-played-schema.json';
 
   if ($endpoints[$path] && $endpoints[$path]['source']) {
     $source = $endpoints[$path]['source'];
