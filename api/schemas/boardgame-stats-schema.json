@@ -29,7 +29,19 @@
 						}
 					},
 					"gamesPlayed": {
-						"type": "array"
+						"type": "array",
+						"items": {
+							"type": "object",
+							"properties": {
+								"date": {
+									"type": "string",
+									"pattern": "\\d{4}(-\\d{2}){2}"
+								},
+								"game": {
+									"type": "string"
+								}
+							}
+						}
 					},
 					"totalGamesPlayed": {
 						"type": "integer"
@@ -38,10 +50,36 @@
 						"type": "number"
 					},
 					"mostGamesPlayedInADay": {
-						"type": "array"
+						"type": "array",
+						"items": {
+							"type": "object",
+							"properties": {
+								"date": {
+									"type": "string",
+									"pattern": "\\d{4}(-\\d{2}){2}"
+								},
+								"games": {
+									"type": "array",
+									"items": {
+										"type": "string"
+									}
+								}
+							}
+						}
 					},
 					"mostPlayedGamesThisMonth": {
-						"type": "array"
+						"type": "array",
+						"items": {
+							"type": "object",
+							"properties": {
+								"game": {
+									"type": "string"
+								},
+								"plays": {
+									"type": "integer"
+								}
+							}
+						}
 					},
 					"coOpGamesPlayedCount": {
 						"type": "integer"
