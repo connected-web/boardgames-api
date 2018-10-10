@@ -26,11 +26,11 @@ function defineEndpoint($path, $endpointIndex) {
 
   if (endsWith($path, "schema")) {
     $referencePath = str_replace("/schema", "", $path);
-    $structure["description"] = "Returns a JSON schema to verify the contents of $path";
+    $structure["description"] = "Returns a JSON schema which can be used to verify $referencePath, and $referencePath/sample";
     $structure["schema"] = "https://json-schema.org/draft-07/schema";
   } else if(endsWith($path, "sample")) {
     $referencePath = str_replace("/schema", "", $path);
-    $structure["description"] = "Returns simple sample data equivalent to $path";
+    $structure["description"] = "Returns sample data representative of $referencePath";
     $structure["schema"] = str_replace("/sample", "/schema", $path);
   }
 
