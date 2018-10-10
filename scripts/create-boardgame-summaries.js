@@ -20,8 +20,8 @@ Complete List of Games Played In September:`
 
 const monthsOfTheYear = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 
-function daysInMonth (month, year) {
-  return new Date(year, month, 0).getDate();
+function daysInMonth(month, year) {
+  return new Date(year, month + 1, 0).getDate();
 }
 
 function fmn(n) {
@@ -46,6 +46,7 @@ async function start () {
     const date = new Date(dateCode)
     const year = date.getUTCFullYear()
     const month = date.getUTCMonth()
+    report('Processing', dateCode, 'Y:', year, 'M:', month, 'D:', daysInMonth(month, year))
     return {
       dateCode,
       daysInMonth: daysInMonth(month, year),
@@ -72,6 +73,25 @@ async function start () {
       gameCountList.push(entry)
     })
     gameCountList = gameCountList.sort((a, b) => a.plays < b.plays ? 1 : -1)
+
+    const daysPlayedIndex = {}
+    let n = 0
+    while (n < month.daysInMonth) {
+      n++
+      daysPlayedIndex[n] = 0
+    }
+    games.forEach(item => {
+      const dayNumber = (new Date(item.date)).getUTCDate()
+      daysPlayedIndex[dayNumber]++
+    })
+    const daysPlayedList = Object.keys(daysPlayedIndex).map(n => {
+      return {
+        dayOfMonth: n,
+        gamesPlayed: daysPlayedIndex[n]
+      }
+    })
+    month.daysWithUnplayedGames = daysPlayedList.filter(d => d.gamesPlayed === 0).map(d => d.dayOfMonth).length
+    month.gamesPlayedPerDay = daysPlayedIndex
 
     const dayCountIndex = games.reduce((acc, item) => {
       const entry = acc[item.date] || {
