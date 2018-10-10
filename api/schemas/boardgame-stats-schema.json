@@ -7,48 +7,97 @@
 			"items": {
 				"type": "object",
 				"properties": {
-					"date": {
+					"dateCode": {
 						"type": "string",
-						"pattern": "^\\d{4}(-\\d{2}){2}$"
+						"pattern": "^\\d{4}-\\d{2}$"
 					},
-					"game": {
-						"type": "string",
-						"pattern": "^.*$"
+					"daysInMonth": {
+						"type": "integer"
 					},
-					"coOp": {
-						"type": "string",
-						"pattern": "^([Yy]es)|([Nn]o)$"
+					"title": {
+						"type": "string"
 					},
-					"coOpOutcome": {
-						"type": "string",
-						"pattern": "^([Ww]in)|([Ww]on)|([Ll]os[te])$"
+					"daysWithUnplayedGames": {
+						"type": "integer"
 					},
-					"note": {
-						"type": "string",
-						"pattern": "^.*$"
+					"gamesPlayedPerDay": {
+						"type": "object"
 					},
-					"winner": {
-						"type": "string",
-						"pattern": "^.*$"
+					"gamesPlayed": {
+						"type": "array"
+					},
+					"totalGamesPlayed": {
+						"type": "integer"
+					},
+					"averageGamesPlayedPerDay": {
+						"type": "number"
+					},
+					"mostGamesPlayedInADay": {
+						"type": "array"
+					},
+					"mostPlayedGamesThisMonth": {
+						"type": "array"
+					},
+					"coOpGamesPlayedCount": {
+						"type": "integer"
+					},
+					"coOpGamesPlayedPercentage": {
+						"type": "number"
+					},
+					"coOpGameWins": {
+						"type": "integer"
+					},
+					"coOpGameLoses": {
+						"type": "integer"
+					},
+					"winCountHannah": {
+						"type": "integer"
+					},
+					"winCountJohn": {
+						"type": "integer"
+					},
+					"winCountOther": {
+						"type": "integer"
+					},
+					"winCountDraw": {
+						"type": "integer"
+					},
+					"winnableGamesTotal": {
+						"type": "integer"
+					},
+					"winRateHannah": {
+						"type": "number"
+					},
+					"winRateJohn": {
+						"type": "number"
+					},
+					"winRateOther": {
+						"type": "number"
+					},
+					"winRateDraw": {
+						"type": "number"
+					},
+					"mostWonGames": {
+						"type": "string"
 					}
 				},
 				"additionalProperties": false
 			}
+		},
+		"byYear": {
+			"type": "array",
+			"items": {
+				"type": "object"
+			}
+		},
+		"earliestDate": {
+			"type": "string",
+			"pattern": "^\\d{4}(-\\d{2}){2}$"
+		},
+		"latestDate": {
+			"type": "string",
+			"pattern": "^\\d{4}(-\\d{2}){2}$"
 		}
-	},
-	"byYear": {
-		"type": "array",
-		"items": {
-			"type": "object"
-		}
-	},
-	"earliestDate": {
-		"type": "string",
-		"pattern": "^\\d{4}-\\d{2}-\\d{2}$"
-	},
-	"latestDate": {
-		"type": "string",
-		"pattern": "^\\d{4}-\\d{2}-\\d{2}$"
 	},
 	"additionalProperties": false
 }
