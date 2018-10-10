@@ -109,7 +109,17 @@ async function start () {
       return outcome === 'win' || outcome === 'won' || false
     }).length
     month.coOpGameLoses = month.coOpGamesPlayedCount - month.coOpGameWins
-    month.coOpGames = coOpGames
+    month.winCountHannah = games.filter(n => (n.winner + '').toLowerCase().trim() === 'hannah').length
+    month.winCountJohn = games.filter(n => (n.winner + '').toLowerCase().trim() === 'john').length
+    month.winCountOther = games.filter(n => (n.winner + '').toLowerCase().trim() === 'other').length
+    month.winCountDraw = games.filter(n => (n.winner + '').toLowerCase().trim() === 'draw').length
+    month.winnableGamesTotal = month.winCountHannah + month.winCountJohn + month.winCountOther + month.winCountDraw
+    month.winRateHannah = fmn(month.winCountHannah / month.winnableGamesTotal)
+    month.winRateJohn = fmn(month.winCountJohn / month.winnableGamesTotal)
+    month.winRateOther = fmn(month.winCountOther / month.winnableGamesTotal)
+    month.winRateDraw = fmn(month.winCountDraw / month.winnableGamesTotal)
+    month.mostWonGames = month.winCountHannah > month.winCountJohn ? 'Hannah' : 'John'
+    month.mostWonGames = month.winCountHannah === month.winCountJohn ? 'Draw' : month.mostWonGames
   })
 
   summaries.earliestDate = new Date(earliestTime).toISOString().substring(0, 10)

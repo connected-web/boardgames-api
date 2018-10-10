@@ -313,134 +313,16 @@
       "coOpGamesPlayedPercentage": 0.44,
       "coOpGameWins": 12,
       "coOpGameLoses": 7,
-      "coOpGames": [
-        {
-          "date": "2018-01-01",
-          "game": "Harry Potter: Hogwarts Battle",
-          "coOp": "Yes",
-          "coOpOutcome": "Won",
-          "note": "Game 1"
-        },
-        {
-          "date": "2018-01-03",
-          "game": "Dungeons & Dragons Roleplaying Game Starter Set",
-          "coOp": "Yes"
-        },
-        {
-          "date": "2018-01-07",
-          "game": "Pandemic: Iberia",
-          "coOp": "Yes",
-          "coOpOutcome": "Won"
-        },
-        {
-          "date": "2018-01-11",
-          "game": "Betrayal at House on the Hill",
-          "coOp": "Yes",
-          "coOpOutcome": "Heroes won"
-        },
-        {
-          "date": "2018-01-13",
-          "game": "Arkham Horror: The Card Game",
-          "coOp": "Yes",
-          "coOpOutcome": "Won",
-          "note": "OP event at FB3"
-        },
-        {
-          "date": "2018-01-14",
-          "game": "Harry Potter: Hogwarts Battle",
-          "coOp": "Yes",
-          "coOpOutcome": "Won",
-          "note": "Game 2"
-        },
-        {
-          "date": "2018-01-14",
-          "game": "Harry Potter: Hogwarts Battle",
-          "coOp": "Yes",
-          "coOpOutcome": "Won",
-          "note": "Game 3"
-        },
-        {
-          "date": "2018-01-17",
-          "game": "Carcassonne: The River",
-          "coOp": "Yes",
-          "note": "Co-op score: 340"
-        },
-        {
-          "date": "2018-01-17",
-          "game": "Harry Potter: Hogwarts Battle",
-          "coOp": "Yes",
-          "coOpOutcome": "Won",
-          "note": "Game 4"
-        },
-        {
-          "date": "2018-01-19",
-          "game": "Harry Potter: Hogwarts Battle",
-          "coOp": "Yes",
-          "coOpOutcome": "Won",
-          "note": "Game 5"
-        },
-        {
-          "date": "2018-01-24",
-          "game": "Pandemic Legacy: Season 1",
-          "coOp": "Yes",
-          "coOpOutcome": "Won",
-          "note": "Month 4 - 4 player"
-        },
-        {
-          "date": "2018-01-25",
-          "game": "Harry Potter: Hogwarts Battle",
-          "coOp": "Yes",
-          "coOpOutcome": "Won",
-          "note": "Game 6"
-        },
-        {
-          "date": "2018-01-25",
-          "game": "Codenames",
-          "coOp": "Yes",
-          "note": "3 player"
-        },
-        {
-          "date": "2018-01-27",
-          "game": "Battlestar Galactica: The Board Game",
-          "winner": "Hannah",
-          "coOp": "Yes",
-          "note": "Cylons won. Hannah was a Cylon"
-        },
-        {
-          "date": "2018-01-28",
-          "game": "Harry Potter: Hogwarts Battle",
-          "coOp": "Yes",
-          "coOpOutcome": "Won",
-          "note": "Game 7"
-        },
-        {
-          "date": "2018-01-29",
-          "game": "Codenames",
-          "coOp": "Yes",
-          "coOpOutcome": "Won",
-          "note": "2 player"
-        },
-        {
-          "date": "2018-01-29",
-          "game": "Codenames",
-          "coOp": "Yes",
-          "coOpOutcome": "Won",
-          "note": "2 player"
-        },
-        {
-          "date": "2018-01-31",
-          "game": "Harry Potter: Hogwarts Battle – The Monster Box of Monsters Expansion",
-          "coOp": "Yes",
-          "coOpOutcome": "Lost",
-          "note": "Box 1"
-        },
-        {
-          "date": "2018-01-31",
-          "game": "Carcassonne: The River",
-          "coOp": "Yes",
-          "note": "Score: 295"
-        }
-      ]
+      "winCountHannah": 13,
+      "winCountJohn": 12,
+      "winCountOther": 0,
+      "winCountDraw": 0,
+      "winnableGamesTotal": 25,
+      "winRateHannah": 0.52,
+      "winRateJohn": 0.48,
+      "winRateOther": 0,
+      "winRateDraw": 0,
+      "mostWonGames": "Hannah"
     },
     {
       "dateCode": "2018-02",
@@ -739,92 +621,16 @@
       "coOpGamesPlayedPercentage": 0.3,
       "coOpGameWins": 8,
       "coOpGameLoses": 5,
-      "coOpGames": [
-        {
-          "date": "2018-02-01",
-          "game": "Harry Potter: Hogwarts Battle – The Monster Box of Monsters Expansion",
-          "coOp": "Yes",
-          "coOpOutcome": "Won"
-        },
-        {
-          "date": "2018-02-04",
-          "game": "Pandemic: Reign of Cthulhu",
-          "coOp": "Yes",
-          "coOpOutcome": "Won"
-        },
-        {
-          "date": "2018-02-09",
-          "game": "Codenames",
-          "coOp": "Yes",
-          "coOpOutcome": "Won",
-          "note": "2-player co-op"
-        },
-        {
-          "date": "2018-02-10",
-          "game": "Betrayal at House on the Hill",
-          "coOp": "Yes",
-          "coOpOutcome": "Heroes lost",
-          "note": "2 player, each playing two characters"
-        },
-        {
-          "date": "2018-02-18",
-          "game": "Pandemic: Rising Tide",
-          "coOp": "Yes",
-          "coOpOutcome": "Won"
-        },
-        {
-          "date": "2018-02-18",
-          "game": "Betrayal at Baldur's Gate",
-          "coOp": "Yes",
-          "coOpOutcome": "Heroes won",
-          "note": "John was betrayer"
-        },
-        {
-          "date": "2018-02-18",
-          "game": "Unicornus Knights",
-          "coOp": "Yes",
-          "coOpOutcome": "Won",
-          "note": "Tutorial game"
-        },
-        {
-          "date": "2018-02-19",
-          "game": "Flash Point: Fire Rescue",
-          "coOp": "Yes",
-          "coOpOutcome": "Lost"
-        },
-        {
-          "date": "2018-02-20",
-          "game": "Flash Point: Fire Rescue",
-          "coOp": "Yes",
-          "coOpOutcome": "Won",
-          "note": "Just about!"
-        },
-        {
-          "date": "2018-02-22",
-          "game": "Carcassonne: The River",
-          "coOp": "Yes",
-          "note": "Score: 344"
-        },
-        {
-          "date": "2018-02-22",
-          "game": "Flash Point: Fire Rescue",
-          "coOp": "Yes",
-          "coOpOutcome": "Won"
-        },
-        {
-          "date": "2018-02-25",
-          "game": "Betrayal at House on the Hill",
-          "coOp": "Yes",
-          "coOpOutcome": "Heroes lost",
-          "note": "John was betrayer"
-        },
-        {
-          "date": "2018-02-27",
-          "game": "Pandemic Legacy: Season 1",
-          "coOp": "Yes",
-          "coOpOutcome": "Won"
-        }
-      ]
+      "winCountHannah": 15,
+      "winCountJohn": 13,
+      "winCountOther": 0,
+      "winCountDraw": 0,
+      "winnableGamesTotal": 28,
+      "winRateHannah": 0.54,
+      "winRateJohn": 0.46,
+      "winRateOther": 0,
+      "winRateDraw": 0,
+      "mostWonGames": "Hannah"
     },
     {
       "dateCode": "2018-03",
@@ -1185,74 +991,16 @@
       "coOpGamesPlayedPercentage": 0.2,
       "coOpGameWins": 7,
       "coOpGameLoses": 3,
-      "coOpGames": [
-        {
-          "date": "2018-03-05",
-          "game": "Codenames",
-          "coOp": "Yes",
-          "coOpOutcome": "Won"
-        },
-        {
-          "date": "2018-03-09",
-          "game": "Pandemic",
-          "coOp": "Yes",
-          "coOpOutcome": "Lost"
-        },
-        {
-          "date": "2018-03-10",
-          "game": "Arkham Horror: The Card Game",
-          "coOp": "Yes",
-          "coOpOutcome": "Won",
-          "note": "Night of the Zealot: Part 3"
-        },
-        {
-          "date": "2018-03-10",
-          "game": "Arkham Horror: The Card Game",
-          "coOp": "Yes",
-          "coOpOutcome": "Won",
-          "note": "Night of the Zealot: Part 2"
-        },
-        {
-          "date": "2018-03-10",
-          "game": "Arkham Horror: The Card Game",
-          "coOp": "Yes",
-          "coOpOutcome": "Won",
-          "note": "Night of the Zealot: Part 1"
-        },
-        {
-          "date": "2018-03-21",
-          "game": "Pandemic: Rising Tide",
-          "coOp": "Yes",
-          "coOpOutcome": "Won"
-        },
-        {
-          "date": "2018-03-22",
-          "game": "Codenames",
-          "coOp": "Yes",
-          "coOpOutcome": "Won",
-          "note": "Via Slack"
-        },
-        {
-          "date": "2018-03-24",
-          "game": "Legendary Encounters: A Firefly Deck Building Game",
-          "coOp": "Yes",
-          "coOpOutcome": "Lost"
-        },
-        {
-          "date": "2018-03-30",
-          "game": "Pandemic Legacy: Season 1",
-          "coOp": "Yes",
-          "coOpOutcome": "Won",
-          "note": "June game 1 - 4 player"
-        },
-        {
-          "date": "2018-03-30",
-          "game": "Tortuga 1667",
-          "coOp": "Yes",
-          "coOpOutcome": "Lost",
-          "note": "4 player"
-        }
-      ]
+      "winCountHannah": 18,
+      "winCountJohn": 19,
+      "winCountOther": 0,
+      "winCountDraw": 2,
+      "winnableGamesTotal": 39,
+      "winRateHannah": 0.46,
+      "winRateJohn": 0.49,
+      "winRateOther": 0,
+      "winRateDraw": 0.05,
+      "mostWonGames": "John"
     },
     {
       "dateCode": "2018-04",
@@ -1554,92 +1302,16 @@
       "coOpGamesPlayedPercentage": 0.3,
       "coOpGameWins": 9,
       "coOpGameLoses": 4,
-      "coOpGames": [
-        {
-          "date": "2018-04-01",
-          "game": "Sherlock Holmes Consulting Detective: The Thames Murders & Other Cases",
-          "coOp": "Yes",
-          "coOpOutcome": "Win"
-        },
-        {
-          "date": "2018-04-02",
-          "game": "Gloomhaven",
-          "coOp": "Yes",
-          "coOpOutcome": "Win",
-          "note": "Scenario 1"
-        },
-        {
-          "date": "2018-04-03",
-          "game": "Flash Point: Fire Rescue",
-          "coOp": "Yes",
-          "coOpOutcome": "Win"
-        },
-        {
-          "date": "2018-04-06",
-          "game": "Codenames Duet",
-          "coOp": "Yes",
-          "coOpOutcome": "Lost"
-        },
-        {
-          "date": "2018-04-07",
-          "game": "Gloomhaven",
-          "coOp": "Yes",
-          "coOpOutcome": "Lost",
-          "note": "Scenario 2"
-        },
-        {
-          "date": "2018-04-12",
-          "game": "Deep Sea Adventure",
-          "coOp": "Yes",
-          "coOpOutcome": "Win",
-          "note": "Score: 93"
-        },
-        {
-          "date": "2018-04-14",
-          "game": "Secret Hitler",
-          "winner": "Hannah",
-          "coOp": "Yes",
-          "coOpOutcome": "Win",
-          "note": "6 player at Fanfest"
-        },
-        {
-          "date": "2018-04-16",
-          "game": "Carcassonne: The River",
-          "coOp": "Yes",
-          "coOpOutcome": "Win",
-          "note": "Score: 337"
-        },
-        {
-          "date": "2018-04-18",
-          "game": "Codenames",
-          "coOp": "Yes",
-          "coOpOutcome": "Win"
-        },
-        {
-          "date": "2018-04-18",
-          "game": "Codenames",
-          "coOp": "Yes",
-          "coOpOutcome": "Win"
-        },
-        {
-          "date": "2018-04-29",
-          "game": "T.I.M.E Stories",
-          "coOp": "Yes",
-          "coOpOutcome": "Win"
-        },
-        {
-          "date": "2018-04-29",
-          "game": "T.I.M.E Stories",
-          "coOp": "Yes",
-          "coOpOutcome": "Lost"
-        },
-        {
-          "date": "2018-04-29",
-          "game": "T.I.M.E Stories",
-          "coOp": "Yes",
-          "coOpOutcome": "Lost"
-        }
-      ]
+      "winCountHannah": 10,
+      "winCountJohn": 21,
+      "winCountOther": 0,
+      "winCountDraw": 0,
+      "winnableGamesTotal": 31,
+      "winRateHannah": 0.32,
+      "winRateJohn": 0.68,
+      "winRateOther": 0,
+      "winRateDraw": 0,
+      "mostWonGames": "John"
     },
     {
       "dateCode": "2018-05",
@@ -1962,121 +1634,16 @@
       "coOpGamesPlayedPercentage": 0.39,
       "coOpGameWins": 9,
       "coOpGameLoses": 9,
-      "coOpGames": [
-        {
-          "date": "2018-05-01",
-          "game": "Pandemic Legacy: Season 1",
-          "coOp": "Yes",
-          "coOpOutcome": "Won"
-        },
-        {
-          "date": "2018-05-03",
-          "game": "Pandemic",
-          "coOp": "Yes",
-          "coOpOutcome": "Won",
-          "note": "With house rule"
-        },
-        {
-          "date": "2018-05-05",
-          "game": "T.I.M.E Stories: The Marcy Case",
-          "coOp": "Yes",
-          "coOpOutcome": "Lost",
-          "note": "Marcy case"
-        },
-        {
-          "date": "2018-05-05",
-          "game": "T.I.M.E Stories: The Marcy Case",
-          "coOp": "Yes",
-          "coOpOutcome": "Lost",
-          "note": "Marcy case"
-        },
-        {
-          "date": "2018-05-06",
-          "game": "T.I.M.E Stories: The Marcy Case",
-          "coOp": "Yes",
-          "coOpOutcome": "Won",
-          "note": "Marcy case"
-        },
-        {
-          "date": "2018-05-12",
-          "game": "Codenames",
-          "coOp": "Yes",
-          "coOpOutcome": "Lost",
-          "note": "Hannah and John lost against 2 others"
-        },
-        {
-          "date": "2018-05-13",
-          "game": "Betrayal at House on the Hill",
-          "coOp": "Yes",
-          "coOpOutcome": "Won"
-        },
-        {
-          "date": "2018-05-18",
-          "game": "Pandemic: Iberia",
-          "coOp": "Yes",
-          "coOpOutcome": "Won"
-        },
-        {
-          "date": "2018-05-20",
-          "game": "T.I.M.E Stories: A Prophecy of Dragons",
-          "coOp": "Yes",
-          "coOpOutcome": "Lost"
-        },
-        {
-          "date": "2018-05-21",
-          "game": "Carcassonne Big Box 6",
-          "coOp": "Yes",
-          "coOpOutcome": "Won",
-          "note": "Inns and Cathedrals - 594"
-        },
-        {
-          "date": "2018-05-21",
-          "game": "T.I.M.E Stories: A Prophecy of Dragons",
-          "coOp": "Yes",
-          "coOpOutcome": "Won"
-        },
-        {
-          "date": "2018-05-22",
-          "game": "Pandemic: Reign of Cthulhu",
-          "coOp": "Yes",
-          "coOpOutcome": "Lost"
-        },
-        {
-          "date": "2018-05-27",
-          "game": "Harry Potter: Hogwarts Battle – The Monster Box of Monsters Expansion",
-          "coOp": "Yes",
-          "coOpOutcome": "Lost"
-        },
-        {
-          "date": "2018-05-28",
-          "game": "Forbidden Island",
-          "coOp": "Yes"
-        },
-        {
-          "date": "2018-05-30",
-          "game": "Pandemic Legacy: Season 1",
-          "coOp": "Yes",
-          "coOpOutcome": "Won"
-        },
-        {
-          "date": "2018-05-31",
-          "game": "Codenames Duet",
-          "coOp": "Yes",
-          "coOpOutcome": "Lost"
-        },
-        {
-          "date": "2018-05-31",
-          "game": "Codenames Duet",
-          "coOp": "Yes",
-          "coOpOutcome": "Won"
-        },
-        {
-          "date": "2018-05-31",
-          "game": "Codenames Duet",
-          "coOp": "Yes",
-          "coOpOutcome": "Lost"
-        }
-      ]
+      "winCountHannah": 10,
+      "winCountJohn": 12,
+      "winCountOther": 3,
+      "winCountDraw": 2,
+      "winnableGamesTotal": 27,
+      "winRateHannah": 0.37,
+      "winRateJohn": 0.44,
+      "winRateOther": 0.11,
+      "winRateDraw": 0.07,
+      "mostWonGames": "John"
     },
     {
       "dateCode": "2018-06",
@@ -2411,107 +1978,16 @@
       "coOpGamesPlayedPercentage": 0.33,
       "coOpGameWins": 11,
       "coOpGameLoses": 5,
-      "coOpGames": [
-        {
-          "date": "2018-06-02",
-          "game": "Shadows Amsterdam",
-          "coOp": "Yes",
-          "coOpOutcome": "Lost",
-          "note": "5P"
-        },
-        {
-          "date": "2018-06-02",
-          "game": "Fog of Love",
-          "winner": "Hannah",
-          "coOp": "Yes",
-          "coOpOutcome": "Lost"
-        },
-        {
-          "date": "2018-06-02",
-          "game": "Shadows Amsterdam",
-          "coOp": "Yes",
-          "coOpOutcome": "Lost",
-          "note": "5P"
-        },
-        {
-          "date": "2018-06-03",
-          "game": "Fog of Love",
-          "coOp": "Yes",
-          "coOpOutcome": "Won"
-        },
-        {
-          "date": "2018-06-03",
-          "game": "Pandemic: The Cure",
-          "coOp": "Yes",
-          "coOpOutcome": "Won"
-        },
-        {
-          "date": "2018-06-09",
-          "game": "Carcassonne Big Box 6",
-          "coOp": "Yes",
-          "coOpOutcome": "Won"
-        },
-        {
-          "date": "2018-06-11",
-          "game": "Pandemic: The Cure",
-          "coOp": "Yes",
-          "coOpOutcome": "Won"
-        },
-        {
-          "date": "2018-06-21",
-          "game": "Pandemic Legacy: Season 1",
-          "coOp": "Yes",
-          "coOpOutcome": "Won"
-        },
-        {
-          "date": "2018-06-22",
-          "game": "Pandemic: On the Brink",
-          "coOp": "Yes",
-          "coOpOutcome": "Won"
-        },
-        {
-          "date": "2018-06-23",
-          "game": "Pandemic: On the Brink",
-          "coOp": "Yes",
-          "coOpOutcome": "Won"
-        },
-        {
-          "date": "2018-06-25",
-          "game": "Pandemic: On the Brink",
-          "coOp": "Yes",
-          "coOpOutcome": "Won"
-        },
-        {
-          "date": "2018-06-26",
-          "game": "Pandemic: In the Lab",
-          "coOp": "Yes",
-          "coOpOutcome": "Lost"
-        },
-        {
-          "date": "2018-06-27",
-          "game": "Pandemic: In the Lab",
-          "coOp": "Yes",
-          "coOpOutcome": "Won"
-        },
-        {
-          "date": "2018-06-28",
-          "game": "Codenames",
-          "coOp": "Yes",
-          "coOpOutcome": "Won"
-        },
-        {
-          "date": "2018-06-28",
-          "game": "Codenames",
-          "coOp": "Yes",
-          "coOpOutcome": "Lost"
-        },
-        {
-          "date": "2018-06-29",
-          "game": "Pandemic",
-          "coOp": "Yes",
-          "coOpOutcome": "Won"
-        }
-      ]
+      "winCountHannah": 17,
+      "winCountJohn": 14,
+      "winCountOther": 1,
+      "winCountDraw": 1,
+      "winnableGamesTotal": 33,
+      "winRateHannah": 0.52,
+      "winRateJohn": 0.42,
+      "winRateOther": 0.03,
+      "winRateDraw": 0.03,
+      "mostWonGames": "Hannah"
     },
     {
       "dateCode": "2018-07",
@@ -2743,53 +2219,16 @@
       "coOpGamesPlayedPercentage": 0.24,
       "coOpGameWins": 3,
       "coOpGameLoses": 5,
-      "coOpGames": [
-        {
-          "date": "2018-07-02",
-          "game": "Codenames",
-          "coOp": "Yes",
-          "coOpOutcome": "Win"
-        },
-        {
-          "date": "2018-07-04",
-          "game": "Pandemic Legacy: Season 1",
-          "coOp": "Yes"
-        },
-        {
-          "date": "2018-07-08",
-          "game": "Pandemic Legacy: Season 1",
-          "coOp": "Yes",
-          "coOpOutcome": "Win"
-        },
-        {
-          "date": "2018-07-08",
-          "game": "Pandemic Legacy: Season 1",
-          "coOp": "Yes",
-          "coOpOutcome": "Lose"
-        },
-        {
-          "date": "2018-07-08",
-          "game": "Pandemic Legacy: Season 1",
-          "coOp": "Yes",
-          "coOpOutcome": "Win"
-        },
-        {
-          "date": "2018-07-13",
-          "game": "Deep Sea Adventure",
-          "coOp": "Yes"
-        },
-        {
-          "date": "2018-07-16",
-          "game": "Untold: Adventures Await",
-          "coOp": "Yes"
-        },
-        {
-          "date": "2018-07-30",
-          "game": "Carcassonne Big Box 6",
-          "coOp": "Yes",
-          "note": "Flying Machines"
-        }
-      ]
+      "winCountHannah": 9,
+      "winCountJohn": 14,
+      "winCountOther": 0,
+      "winCountDraw": 3,
+      "winnableGamesTotal": 26,
+      "winRateHannah": 0.35,
+      "winRateJohn": 0.54,
+      "winRateOther": 0,
+      "winRateDraw": 0.12,
+      "mostWonGames": "John"
     },
     {
       "dateCode": "2018-08",
@@ -3122,60 +2561,16 @@
       "coOpGamesPlayedPercentage": 0.17,
       "coOpGameWins": 4,
       "coOpGameLoses": 4,
-      "coOpGames": [
-        {
-          "date": "2018-08-02",
-          "game": "Codenames",
-          "coOp": "Yes",
-          "coOpOutcome": "Lost"
-        },
-        {
-          "date": "2018-08-04",
-          "game": "The Mind",
-          "coOp": "Yes",
-          "coOpOutcome": "lost",
-          "note": "level 6"
-        },
-        {
-          "date": "2018-08-08",
-          "game": "The Mind",
-          "coOp": "Yes",
-          "coOpOutcome": "lost",
-          "note": "level 8"
-        },
-        {
-          "date": "2018-08-11",
-          "game": "Forbidden Island",
-          "coOp": "Yes",
-          "coOpOutcome": "Won"
-        },
-        {
-          "date": "2018-08-12",
-          "game": "Dead of Winter: A Crossroads Game",
-          "coOp": "Yes",
-          "coOpOutcome": "Lost"
-        },
-        {
-          "date": "2018-08-18",
-          "game": "Pandemic: The Cure",
-          "coOp": "Yes",
-          "coOpOutcome": "Won"
-        },
-        {
-          "date": "2018-08-29",
-          "game": "Codenames",
-          "coOp": "Yes",
-          "coOpOutcome": "Won",
-          "note": "John=spymaster"
-        },
-        {
-          "date": "2018-08-29",
-          "game": "Codenames",
-          "coOp": "Yes",
-          "coOpOutcome": "Won",
-          "note": "Hannah-spymaster"
-        }
-      ]
+      "winCountHannah": 16,
+      "winCountJohn": 18,
+      "winCountOther": 3,
+      "winCountDraw": 1,
+      "winnableGamesTotal": 38,
+      "winRateHannah": 0.42,
+      "winRateJohn": 0.47,
+      "winRateOther": 0.08,
+      "winRateDraw": 0.03,
+      "mostWonGames": "John"
     },
     {
       "dateCode": "2018-09",
@@ -3451,75 +2846,16 @@
       "coOpGamesPlayedPercentage": 0.26,
       "coOpGameWins": 4,
       "coOpGameLoses": 6,
-      "coOpGames": [
-        {
-          "date": "2018-09-02",
-          "game": "The Mind",
-          "coOp": "Yes",
-          "coOpOutcome": "lost",
-          "note": "4-player"
-        },
-        {
-          "date": "2018-09-02",
-          "game": "The Mind",
-          "coOp": "Yes",
-          "coOpOutcome": "lost",
-          "note": "4-player"
-        },
-        {
-          "date": "2018-09-02",
-          "game": "The Mind",
-          "coOp": "Yes",
-          "coOpOutcome": "lost",
-          "note": "4-player"
-        },
-        {
-          "date": "2018-09-05",
-          "game": "Deep Sea Adventure",
-          "coOp": "Yes",
-          "coOpOutcome": "won"
-        },
-        {
-          "date": "2018-09-15",
-          "game": "Arkham Horror: LCG",
-          "coOp": "Yes",
-          "coOpOutcome": "won"
-        },
-        {
-          "date": "2018-09-16",
-          "game": "Arkham Horror: LCG",
-          "coOp": "Yes",
-          "coOpOutcome": "won"
-        },
-        {
-          "date": "2018-09-18",
-          "game": "Carcassone",
-          "coOp": "Yes",
-          "coOpOutcome": "won",
-          "note": "base game at work"
-        },
-        {
-          "date": "2018-09-22",
-          "game": "Arkham Horror: LCG",
-          "coOp": "Yes",
-          "coOpOutcome": "lost",
-          "note": "Curse of the Rougarou"
-        },
-        {
-          "date": "2018-09-27",
-          "game": "Carcassonne ",
-          "coOp": "Yes",
-          "coOpOutcome": "lost"
-        },
-        {
-          "date": "2018-09-28",
-          "game": "Betrayal at Baldur's Gate",
-          "winner": "Hannah",
-          "coOp": "Yes",
-          "coOpOutcome": "lost",
-          "note": "Traitor won. Hannah was traitor"
-        }
-      ]
+      "winCountHannah": 19,
+      "winCountJohn": 9,
+      "winCountOther": 2,
+      "winCountDraw": 0,
+      "winnableGamesTotal": 30,
+      "winRateHannah": 0.63,
+      "winRateJohn": 0.3,
+      "winRateOther": 0.07,
+      "winRateDraw": 0,
+      "mostWonGames": "Hannah"
     },
     {
       "dateCode": "2018-10",
@@ -3626,15 +2962,16 @@
       "coOpGamesPlayedPercentage": 0.14,
       "coOpGameWins": 0,
       "coOpGameLoses": 1,
-      "coOpGames": [
-        {
-          "date": "2018-10-07",
-          "game": "Pandemic Iberia",
-          "coOp": "Yes",
-          "coOpOutcome": "Lost",
-          "note": "Lost with one red card short to research the final disease on the final turn; only two out breaks all game."
-        }
-      ]
+      "winCountHannah": 3,
+      "winCountJohn": 1,
+      "winCountOther": 0,
+      "winCountDraw": 2,
+      "winnableGamesTotal": 6,
+      "winRateHannah": 0.5,
+      "winRateJohn": 0.17,
+      "winRateOther": 0,
+      "winRateDraw": 0.33,
+      "mostWonGames": "Hannah"
     }
   ],
   "byYear": [],
