@@ -14,7 +14,8 @@ nav {
 }
 endpoint {
   display: block;
-  padding-left: 20px;
+  padding: 5px 0 10px 20px;
+  border: 1px solid #DDD;
   border-left: 10px solid #DDD;
   margin: 0 0 10px 0;
 }
@@ -40,9 +41,8 @@ content > heading {
   margin-bottom: 10px;
 }
 code {
-  display: inline-block;
+  display: block;
   position: relative;
-  min-width: 50%;
   font-family: monospace;
   white-space: pre;
   margin: 1em 0;
