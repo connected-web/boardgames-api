@@ -11,7 +11,9 @@ describe('Docs /docs/', () => {
 
   it('should contain a navigation section', async () => {
     const body = await fetch(docsPath)
-    expect(body).to.match(/<nav>.*<\/nav>/)
+    expect(body).to.match(/<nav>/)
+    expect(body).to.match(/<a href="\/docs\/">.*<\/a>/)
+    expect(body).to.match(/<\/nav>/)
   })
 
   it('should contain a content body that explains the purpose of the page', async () => {
