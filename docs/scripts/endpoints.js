@@ -43,4 +43,12 @@ $.getJSON('/api/', function(data) {
         $schema.html(JSON.stringify(data, null, 2))
       })
     }
+
+    registerExpandables()
 })
+
+function registerExpandables() {
+  $('code.schema').addClass('expandable').on('click', (ev) => {
+    $(ev.target).toggleClass('expanded')
+  })
+}

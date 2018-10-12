@@ -41,6 +41,7 @@ content > heading {
 }
 code {
   display: inline-block;
+  position: relative;
   min-width: 50%;
   font-family: monospace;
   white-space: pre;
@@ -50,15 +51,35 @@ code {
   margin: 0 24px 0 0;
 }
 code.sample {
-  background:#69B;
+  background: #69B;
   color: #eee;
 }
 code.schema {
-  background:#567;
+  background: #567;
   color: #eee;
-  max-height: 120px;
-  overflow: scroll;
+  height: 120px;
+  overflow: hidden;
   border-bottom: 4px solid #345;
+}
+code.schema.expandable:hover::after {
+  content: 'Click to expand';
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(90,120,150,0.8);
+  color: #eee;
+  font-weight: bold;
+  text-align: center;;
+  padding: 10px 10px 10px 10px;
+}
+code.schema.expanded {
+  height: auto;
+}
+code.schema.expandable.expanded:hover::after {
+  content: 'Click to collapse';
 }
 code:hover {
   color: white;
