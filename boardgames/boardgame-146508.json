@@ -94,7 +94,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "245"
+                "totalvotes": "246"
               },
               "results": [
                 {
@@ -117,7 +117,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "134"
+                        "numvotes": "135"
                       }
                     }
                   ]
@@ -142,7 +142,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "96"
+                        "numvotes": "97"
                       }
                     }
                   ]
@@ -161,7 +161,7 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "135"
+                        "numvotes": "136"
                       }
                     },
                     {
@@ -180,7 +180,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "185"
+                        "numvotes": "186"
                       }
                     },
                     {
@@ -217,7 +217,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "98"
+                        "numvotes": "99"
                       }
                     }
                   ]
@@ -320,35 +320,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "61",
+                        "level": "1",
                         "value": "No necessary in-game text",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "62",
+                        "level": "2",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "63",
+                        "level": "3",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "64",
+                        "level": "4",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "15"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "65",
+                        "level": "5",
                         "value": "Unplayable in another language",
                         "numvotes": "42"
                       }
@@ -427,20 +427,6 @@
                 "type": "boardgamemechanic",
                 "id": "2072",
                 "value": "Dice Rolling"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamemechanic",
-                "id": "2028",
-                "value": "Role Playing"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamemechanic",
-                "id": "2027",
-                "value": "Storytelling"
               }
             },
             {
@@ -553,6 +539,13 @@
                 "type": "boardgameexpansion",
                 "id": "242894",
                 "value": "Heresy (fan expansion to T.I.M.E Stories)"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "262613",
+                "value": "Hora fugit facta manent (fan expansion for T.I.M.E. Stories)"
               }
             },
             {
@@ -825,21 +818,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "16873"
+                        "value": "16981"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.84505"
+                        "value": "7.84044"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "7.64779"
+                        "value": "7.64353"
                       }
                     }
                   ],
@@ -853,7 +846,7 @@
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
                             "value": "56",
-                            "bayesaverage": "7.64779"
+                            "bayesaverage": "7.64353"
                           }
                         },
                         {
@@ -863,7 +856,7 @@
                             "name": "thematic",
                             "friendlyname": "Thematic Rank",
                             "value": "16",
-                            "bayesaverage": "7.68559"
+                            "bayesaverage": "7.68066"
                           }
                         }
                       ]
@@ -872,7 +865,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.65685"
+                        "value": "1.65997"
                       }
                     }
                   ],
@@ -886,14 +879,14 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "25755"
+                        "value": "25902"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "386"
+                        "value": "393"
                       }
                     }
                   ],
@@ -907,14 +900,14 @@
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "6048"
+                        "value": "6068"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "2682"
+                        "value": "2695"
                       }
                     }
                   ],

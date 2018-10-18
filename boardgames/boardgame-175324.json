@@ -242,35 +242,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "21",
+                        "level": "1",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "22",
+                        "level": "2",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "23",
+                        "level": "3",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "24",
+                        "level": "4",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "5"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "25",
+                        "level": "5",
                         "value": "Unplayable in another language",
                         "numvotes": "2"
                       }
@@ -445,6 +445,13 @@
             {
               "_attributes": {
                 "type": "boardgameartist",
+                "id": "112506",
+                "value": "Cecilie Fossheim"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
                 "id": "102693",
                 "value": "Mike Højgaard"
               }
@@ -474,21 +481,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "1663"
+                        "value": "1702"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.42925"
+                        "value": "7.41866"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.59188"
+                        "value": "6.5959"
                       }
                     }
                   ],
@@ -501,8 +508,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "769",
-                            "bayesaverage": "6.59188"
+                            "value": "761",
+                            "bayesaverage": "6.5959"
                           }
                         },
                         {
@@ -512,7 +519,7 @@
                             "name": "thematic",
                             "friendlyname": "Thematic Rank",
                             "value": "147",
-                            "bayesaverage": "6.84152"
+                            "bayesaverage": "6.84157"
                           }
                         }
                       ]
@@ -521,7 +528,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.56082"
+                        "value": "1.56477"
                       }
                     }
                   ],
@@ -535,7 +542,7 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "4092"
+                        "value": "4127"
                       }
                     }
                   ],
@@ -556,28 +563,28 @@
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "1862"
+                        "value": "1899"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "495"
+                        "value": "500"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "36"
+                        "value": "37"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2.1944"
+                        "value": "2.1892"
                       }
                     }
                   ]

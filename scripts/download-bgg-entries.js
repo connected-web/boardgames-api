@@ -40,6 +40,12 @@ function start () {
     }
   }
 
+  let resolveWork, rejectWork
+  const callbackPromise = new Promise((resolve, reject) => {
+    resolveWork = resolve
+    rejectWork = reject
+  })
+
   const results = []
   async function doWork (work) {
     const itemsPerBatch = 1
@@ -53,9 +59,14 @@ function start () {
       results.concat(block)
       setTimeout(doWork, delayPerBatch + (rateLimitFailureCount * rateDelayInMs), work)
     }
+    else {
+      resolveWork(results)
+    }
   }
 
-  return doWork(workQueue)
+  doWork(workQueue)
+
+  return callbackPromise
 }
 
 module.exports = start

@@ -73,7 +73,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "4"
+                "totalvotes": "5"
               },
               "results": [
                 {
@@ -109,7 +109,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "4"
+                        "numvotes": "5"
                       }
                     },
                     {
@@ -146,7 +146,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "2"
+                        "numvotes": "3"
                       }
                     }
                   ]
@@ -157,7 +157,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "3"
+                "totalvotes": "4"
               },
               "results": [
                 {
@@ -201,7 +201,7 @@
                     {
                       "_attributes": {
                         "value": "10",
-                        "numvotes": "1"
+                        "numvotes": "2"
                       }
                     },
                     {
@@ -249,35 +249,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "126",
+                        "level": "1",
                         "value": "No necessary in-game text",
                         "numvotes": "2"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "127",
+                        "level": "2",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "128",
+                        "level": "3",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "129",
+                        "level": "4",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "130",
+                        "level": "5",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -335,6 +335,13 @@
                 "type": "boardgamemechanic",
                 "id": "2009",
                 "value": "Trick-taking"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
+                "id": "51280",
+                "value": "Claim universe"
               }
             },
             {
@@ -397,21 +404,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "292"
+                        "value": "300"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.02223"
+                        "value": "7.0223"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "5.80613"
+                        "value": "5.81066"
                       }
                     }
                   ],
@@ -424,8 +431,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "3140",
-                            "bayesaverage": "5.80613"
+                            "value": "3112",
+                            "bayesaverage": "5.81066"
                           }
                         }
                       ]
@@ -434,7 +441,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.20035"
+                        "value": "1.18305"
                       }
                     }
                   ],
@@ -448,35 +455,35 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "632"
+                        "value": "649"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "10"
+                        "value": "9"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "71"
+                        "value": "72"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "320"
+                        "value": "322"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "96"
+                        "value": "103"
                       }
                     }
                   ],
