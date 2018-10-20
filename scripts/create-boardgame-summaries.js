@@ -146,9 +146,19 @@ async function start () {
   summaries.latestDate = new Date(latestTime).toISOString().substring(0, 10)
   summaries.byMonth = monthsInUse
 
+  async function writeMonth(month) {
+    const filename = `boardgame-summary-${month.dateCode}.json`
+    const summaryBody = JSON.stringify(month, null, 2)
+    report('Writing file:', filename, summaryBody.substring(0, 100) + '...')
+    return write(datapath(filename), summaryBody, 'utf8')
+  }
+
+  await Promise.all(monthsInUse.map(writeMonth))
+
   const filename = 'boardgame-summaries.json'
-  report('Writing file:', filename, summaries)
-  return write(datapath(filename), JSON.stringify(summaries, null, 2), 'utf8')
+  const summariesBody = JSON.stringify(summaries, null, 2)
+  report('Writing file:', filename, summariesBody.substring(0, 100) + '...')
+  return write(datapath(filename), summariesBody, 'utf8')
 }
 
 module.exports = start
