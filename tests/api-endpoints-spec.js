@@ -46,8 +46,8 @@ describe('API Endpoints', () => {
 
   endpointData.endpoints.forEach((endpoint) => {
     const testPath = endpoint.example || endpoint.path
-    it(`${endpoint.method} ${endpoint.path} should '${endpoint.description}'`, async () => test(testPath, endpoint.schema))
-    it(`${endpoint.method} ${endpoint.path}/schema should provide a valid schema`, async () => test(`${endpoint.path}/schema`, 'https://json-schema.org/draft-07/schema'))
-    it(`${endpoint.method} ${endpoint.path}/sample should provide a valid sample`, async () => test(`${endpoint.path}/sample`, endpoint.schema))
+    it(`${endpoint.method} ${testPath} should '${endpoint.description}'`, async () => test(testPath, endpoint.schema))
+    it(`${endpoint.method} ${testPath}/schema should provide a valid schema`, async () => test(`${testPath}/schema`, 'https://json-schema.org/draft-07/schema'))
+    it(`${endpoint.method} ${testPath}/sample should provide a valid sample`, async () => test(`${testPath}/sample`, endpoint.schema))
   })
 })

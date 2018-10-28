@@ -29,7 +29,13 @@ function render (phpScriptPath) {
       if (err) {
         res.status(500).send({ error: err })
       } else {
-        res.send(body)
+        try {
+          const data = JSON.parse(body)
+          res.json(data)
+        }
+        catch (ex) {
+          res.send(body)
+        }
       }
     })
   }

@@ -5,41 +5,47 @@
     "description": "Return a list of available endpoints.",
     "accepts": "application/json",
     "schema": "/api/schema",
-    "sample": "/api/sample"
+    "sample": "/api/sample",
+    "sourceId": "endpoints"
   }, {
     "path": "/api/boardgame/feed",
     "method": "GET",
     "description": "Return a feed of board games played by John and Hannah.",
     "accepts": "application/json",
     "schema": "/api/boardgame/feed/schema",
-    "sample": "/api/boardgame/feed/sample"
+    "sample": "/api/boardgame/feed/sample",
+    "sourceId": "boardgame-feed"
   }, {
     "path": "/api/boardgame/stats",
     "method": "GET",
     "description": "Return a summary of board games stats by month and year played by John and Hannah.",
     "accepts": "application/json",
     "schema": "/api/boardgame/stats/schema",
-    "sample": "/api/boardgame/stats/sample"
+    "sample": "/api/boardgame/stats/sample",
+    "sourceId": "boardgame-stats"
   }, {
     "path": "/api/boardgame/stats/byMonth/:dateCode",
+    "regex": "/\\/api\\/boardgame\\/stats\\/byMonth\\/(\\d{4}-\\d{2})/",
     "example": "/api/boardgame/stats/byMonth/2018-10",
     "method": "GET",
     "description": "Return a summary of board games stats for a specific month played by John and Hannah. ",
     "properties": {
-      "dateCode": {
+      ":dateCode": {
         "description": "Date codes come in the form yyyy-mm, for example: 2018-10",
         "regex": "\\d{4}-\\d{2}"
       }
     },
     "accepts": "application/json",
-    "schema": "/api/boardgame/stats/schema",
-    "sample": "/api/boardgame/stats/sample"
+    "schema": "/api/boardgame/stats/byMonth/:dateCode/schema",
+    "sample": "/api/boardgame/stats/byMonth/:dateCode/sample",
+    "sourceId": "boardgame-stats-byMonth"
   }, {
     "path": "/api/boardgame/unique/games/played",
     "method": "GET",
     "description": "Return a list of unique board games played since Hannah and John started keeping records.",
     "accepts": "application/json",
     "schema": "/api/boardgame/unique/games/played/schema",
-    "sample": "/api/boardgame/unique/games/played/sample"
+    "sample": "/api/boardgame/unique/games/played/sample",
+    "sourceId": "boardgame-unique-games-played"
   }]
 }
