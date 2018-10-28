@@ -16,13 +16,13 @@ if (!isset($_SERVER['HTTPS'])) {
 }
 
 function sanitizeUri($string) {
-  return preg_replace("/[^A-Za-z0-9\s\/:]/", '', $string);
+  return preg_replace("/[^A-Za-z0-9\s\/:-]/", '', $string);
 }
 
 function findRequestHandler($requestUri, $path, $endpoints) {
   $basePath = $path;
-  $basePath = endsWith($basePath, '/schema') ? str_replace('/schema', '/', $basePath) : $basePath;
-  $basePath = endsWith($basePath, '/sample') ? str_replace('/sample', '/', $basePath) : $basePath;
+  $basePath = endsWith($basePath, '/schema') ? str_replace('/schema', '', $basePath) : $basePath;
+  $basePath = endsWith($basePath, '/sample') ? str_replace('/sample', '', $basePath) : $basePath;
 
   foreach ($endpoints as $endpointKey => $endpoint) {
     $endpointRegex = $endpoint['data']->regex;

@@ -31,13 +31,14 @@ async function test(apiPath, apiSchemaPath) {
   const endpointData = await fetchJSON(apiPath)
   const schemaValidation = validate(endpointData, apiSchema)
 
+  expect(endpointData).to.not.have.property('status', '404');
   expect(schemaValidation.errors).to.deep.equal([])
 }
 
 describe('API Endpoints', () => {
-  it('GET /api/ should list all available endpoints', async () => test(`${config.serverPath}/api/`, `${config.serverPath}/api/schema`))
-  it('GET /api/ should match the local data used to generate these tests', async () => {
-    const actual = await fetchJSON(`${config.serverPath}/api/`)
+  it('GET /api/endpoints should list all available endpoints', async () => test(`${config.serverPath}/api/endpoints`, `${config.serverPath}/api/schema`))
+  it('GET /api/endpoints should match the local data used to generate these tests', async () => {
+    const actual = await fetchJSON(`${config.serverPath}/api/endpoints`)
     const actualEndpoints = actual && actual.endpoints || []
     endpointData.endpoints.forEach((expectedEndpoint, i) => {
       expect(actualEndpoints[i]).to.deep.equal(expectedEndpoint)

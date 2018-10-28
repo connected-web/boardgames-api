@@ -1,11 +1,11 @@
 {
   "endpoints": [{
-    "path": "/api/",
+    "path": "/api/endpoints",
     "method": "GET",
     "description": "Return a list of available endpoints.",
     "accepts": "application/json",
-    "schema": "/api/schema",
-    "sample": "/api/sample",
+    "schema": "/api/endpoints/schema",
+    "sample": "/api/endpoints/sample",
     "sourceId": "endpoints"
   }, {
     "path": "/api/boardgame/feed",
