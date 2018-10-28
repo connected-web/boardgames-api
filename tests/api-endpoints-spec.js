@@ -31,13 +31,14 @@ async function test(apiPath, apiSchemaPath) {
   const endpointData = await fetchJSON(apiPath)
   const schemaValidation = validate(endpointData, apiSchema)
 
+  expect(endpointData).to.not.have.property('status', '404');
   expect(schemaValidation.errors).to.deep.equal([])
 }
 
 describe('API Endpoints', () => {
-  it('GET /api/ should list all available endpoints', async () => test(`${config.serverPath}/api/`, `${config.serverPath}/api/schema`))
-  it('GET /api/ should match the local data used to generate these tests', async () => {
-    const actual = await fetchJSON(`${config.serverPath}/api/`)
+  it('GET /api/endpoints should list all available endpoints', async () => test(`${config.serverPath}/api/endpoints`, `${config.serverPath}/api/schema`))
+  it('GET /api/endpoints should match the local data used to generate these tests', async () => {
+    const actual = await fetchJSON(`${config.serverPath}/api/endpoints`)
     const actualEndpoints = actual && actual.endpoints || []
     endpointData.endpoints.forEach((expectedEndpoint, i) => {
       expect(actualEndpoints[i]).to.deep.equal(expectedEndpoint)
@@ -45,8 +46,9 @@ describe('API Endpoints', () => {
   })
 
   endpointData.endpoints.forEach((endpoint) => {
-    it(`${endpoint.method} ${endpoint.path} should '${endpoint.description}'`, async () => test(endpoint.path, endpoint.schema))
-    it(`${endpoint.method} ${endpoint.path}/schema should provide a valid schema`, async () => test(`${endpoint.path}/schema`, 'https://json-schema.org/draft-07/schema'))
-    it(`${endpoint.method} ${endpoint.path}/sample should provide a valid sample`, async () => test(`${endpoint.path}/sample`, endpoint.schema))
+    const testPath = endpoint.example || endpoint.path
+    it(`${endpoint.method} ${testPath} should '${endpoint.description}'`, async () => test(testPath, endpoint.schema))
+    it(`${endpoint.method} ${testPath}/schema should provide a valid schema`, async () => test(`${testPath}/schema`, 'https://json-schema.org/draft-07/schema'))
+    it(`${endpoint.method} ${testPath}/sample should provide a valid sample`, async () => test(`${testPath}/sample`, endpoint.schema))
   })
 })
