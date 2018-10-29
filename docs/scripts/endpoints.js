@@ -1,4 +1,4 @@
-$.getJSON('/api/', function(data) {
+$.getJSON('/api/endpoints', function(data) {
     data.endpoints = data.endpoints || []
 
     const apiEndpoints = data.endpoints.filter(e => e.schema && e.sample)

@@ -1,5 +1,9 @@
-const serverPath = 'http://localhost:4000'
+const devServerPath = 'http://localhost:4000'
 
-module.exports = {
-  serverPath
+const devEnvironment = {
+  serverPath: devServerPath,
+  name: 'Dev',
+  docsUrl: devServerPath + '/docs/'
 }
+
+module.exports = devEnvironment

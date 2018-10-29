@@ -4,8 +4,8 @@ require('./functions/endsWith.php');
 require('./functions/registerEndpoints.php');
 require('./functions/startsWith.php');
 require('./functions/stringContains.php');
-require('./endpoints/schema/handler.php');
-require('./endpoints/sample/handler.php');
+require('./handlers/schema/handler.php');
+require('./handlers/sample/handler.php');
 
 header('Content-Type: application/json');
 
@@ -36,7 +36,7 @@ function findRequestHandler($requestUri, $path, $endpoints) {
 
 function includeRequestHandler($handler) {
   $sourceId = $handler['data']->sourceId;
-  $handlerPath = './endpoints/' . $sourceId . '/handler.php';
+  $handlerPath = './handlers/' . $sourceId . '/handler.php';
   return @include($handlerPath);
 }
 
