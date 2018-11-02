@@ -25,7 +25,7 @@ function daysInMonth(month, year) {
 }
 
 function fmn(n) {
-  return Number.parseFloat(n.toFixed(2))
+  return Number.parseFloat(n.toFixed(4))
 }
 
 async function start () {
