@@ -1,24 +1,8 @@
 const { write, position } = require('promise-path')
+const pluralise = require('./util/pluralise')
+const convertGSheetsDate = require('./util/convertGSheetsDate')
 const datapath = position(__dirname, '../data')
 const report = (...messages) => console.log('[Create Board Game Index]', ...messages)
-
-const pluralMap = {
-  date: 'dates',
-  winner: 'winners',
-  coOpOutcome: 'coOpOutcomes',
-  notes: 'notes',
-  coOp: 'coOpTypes',
-  mechanics: 'mechanics'
-}
-
-function pluralise(key) {
-  return pluralMap[key] || false
-}
-
-function convertGSheetsDate(gsheetsDate) {
-  const date = new Date((gsheetsDate - 25567 - 2) * 86400 * 1000)
-  return date.toISOString().substring(0, 10)
-}
 
 const expectedProperties = ['date', 'game', 'winner', 'coOpOutcome', 'coOp', 'notes', 'mechanics']
 
