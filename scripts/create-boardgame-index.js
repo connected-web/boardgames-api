@@ -6,6 +6,10 @@ const report = (...messages) => console.log('[Create Board Game Index]', ...mess
 
 const expectedProperties = ['date', 'game', 'winner', 'coOpOutcome', 'coOp', 'notes', 'mechanics']
 
+function reduceNameToBoardGameApiId(name) {
+  return name.toLowerCase().replace(/[^a-z\d\-]/g, ' ').trim().replace(/(\s)+/g, '-')
+}
+
 async function start () {
   report('Requires data/bgg-collection.json')
   report('Requires data/cali-playstats.json')
@@ -23,14 +27,16 @@ async function start () {
     accumulator[name] = {
       boardGameGeekGameId: id,
       boardGameGeekName: name,
-      game: name
+      game: name,
+      boardGameApiId: reduceNameToBoardGameApiId(name)
     }
     return accumulator
   }
 
   function mapCaliPlayStatGame (accumulator, item) {
     const name = item.game
-    const entry = accumulator[name] || {}
+    const boardGameApiId = reduceNameToBoardGameApiId(name)
+    const entry = accumulator[name] || {boardGameApiId}
     expectedProperties.forEach(key => {
       const keyplural = pluralise(key)
       let value = item[key]
@@ -54,10 +60,16 @@ async function start () {
     return accumulator
   }
 
-  const filename = 'boardgame-index.json'
-  report('Writing Board Game Index', boardGameIndex, 'to', filename)
+  const boardGameApiIds = Object.entries(boardGameIndex).map(kvp => kvp[1].boardGameApiId).sort()
 
-  return write(datapath(filename), JSON.stringify(boardGameIndex, null, 2), 'utf8')
+  await writeFile('Board Game API IDs', 'boardgame-api-ids.json', {boardGameApiIds})
+  return writeFile('Board Game Index', 'boardgame-index.json', boardGameIndex)
+}
+
+function writeFile(description, filename, data) {
+  const fileContents = JSON.stringify(data, null, 2)
+  report('Writing', description, fileContents.length, 'bytes to', filename)
+  return write(datapath(filename), fileContents, 'utf8')
 }
 
 module.exports = start
