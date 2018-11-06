@@ -7,7 +7,7 @@ const report = (...messages) => console.log('[Create Board Game Index]', ...mess
 const expectedProperties = ['date', 'game', 'winner', 'coOpOutcome', 'coOp', 'notes', 'mechanics']
 
 function reduceNameToBoardGameApiId(name) {
-  return name.toLowerCase().replace(/[^a-z\d\-]/g, ' ').trim().replace(/(\s)+/g, '-')
+  return name.toLowerCase().replace(/[.]/g, '').replace(/[^a-z\d\-]/g, ' ').trim().replace(/(\s)+/g, '-')
 }
 
 async function start () {
