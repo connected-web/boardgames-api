@@ -62,7 +62,14 @@ async function start () {
   const boardGameApiIds = Object.entries(boardGameIndex).map(kvp => kvp[1].boardGameApiId).sort()
 
   await writeFile('Board Game API IDs', 'boardgame-api-ids.json', {boardGameApiIds}, report)
-  return writeFile('Board Game Index', 'boardgame-index.json', boardGameIndex, report)
+
+  await Promise.all(Object.entries(boardGameIndex).map(kvp => {
+    const boardGameApiId = kvp[0]
+    const entry = kvp[1]
+    return writeFile(entry.game, `index/${boardGameApiId}.json`, entry)
+  }))
+
+  return writeFile('Board Game Index', 'boardgame-index.json', boardGameIndex)
 }
 
 module.exports = start

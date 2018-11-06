@@ -2,7 +2,7 @@
   "dateCode": "2018-10",
   "daysInMonth": 31,
   "title": "October 2018",
-  "daysWithUnplayedGames": 13,
+  "daysWithUnplayedGames": 0,
   "gamesPlayedPerDay": {
     "1": 1,
     "2": 1,
@@ -22,24 +22,24 @@
     "16": 1,
     "17": 3,
     "18": 1,
-    "19": 0,
-    "20": 0,
-    "21": 0,
-    "22": 0,
-    "23": 0,
-    "24": 0,
-    "25": 0,
-    "26": 0,
-    "27": 0,
-    "28": 0,
-    "29": 0,
-    "30": 0,
-    "31": 0
+    "19": 1,
+    "20": 1,
+    "21": 2,
+    "22": 2,
+    "23": 1,
+    "24": 1,
+    "25": 1,
+    "26": 1,
+    "27": 1,
+    "28": 1,
+    "29": 1,
+    "30": 1,
+    "31": 3
   },
   "gamesPlayed": [
     {
       "date": "2018-10-01",
-      "game": "Ticket to Ride Old West",
+      "game": "Ticket to Ride Map Collection: Volume 6 – France & Old West",
       "winner": "Hannah",
       "coOp": "No"
     },
@@ -82,7 +82,7 @@
     },
     {
       "date": "2018-10-08",
-      "game": "Archer Love Letter",
+      "game": "Archer: Once You Go Blackmail...",
       "winner": "Hannah",
       "coOp": "No"
     },
@@ -100,7 +100,7 @@
     },
     {
       "date": "2018-10-11",
-      "game": "Archer Love Letter",
+      "game": "Archer: Once You Go Blackmail...",
       "winner": "Hannah",
       "coOp": "No"
     },
@@ -125,7 +125,7 @@
     },
     {
       "date": "2018-10-14",
-      "game": "Carcassonne ",
+      "game": "Carcassonne: The River",
       "coOp": "Yes"
     },
     {
@@ -136,35 +136,152 @@
     },
     {
       "date": "2018-10-16",
-      "game": "Dominion: Intrigue",
+      "game": "Dominion: Intrigue (Second Edition)",
       "winner": "John",
       "coOp": "No"
     },
     {
       "date": "2018-10-17",
       "game": "Werewolf",
+      "coOp": "No",
       "note": "20 player"
     },
     {
       "date": "2018-10-17",
       "game": "Werewolf",
-      "note": "19 player"
+      "coOp": "Yes",
+      "coOpOutcome": "Won",
+      "note": "18-player "
     },
     {
       "date": "2018-10-17",
       "game": "Werewolf",
-      "note": "18-player "
+      "coOp": "Yes",
+      "coOpOutcome": "Won",
+      "note": "19 player"
     },
     {
       "date": "2018-10-18",
       "game": "Coup",
       "winner": "Hannah",
+      "coOp": "No",
+      "note": "Played at work. best of three."
+    },
+    {
+      "date": "2018-10-19",
+      "game": "The Castles of Burgundy",
+      "winner": "John",
       "coOp": "No"
+    },
+    {
+      "date": "2018-10-20",
+      "game": "Dominion: Seaside",
+      "winner": "Hannah",
+      "coOp": "No",
+      "note": "High Seas"
+    },
+    {
+      "date": "2018-10-21",
+      "game": "Between Two Castles of Mad King Ludwig",
+      "winner": "Other",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-10-21",
+      "game": "Deadwood 1876",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-10-22",
+      "game": "Codenames",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2018-10-22",
+      "game": "Codenames",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
+    },
+    {
+      "date": "2018-10-23",
+      "game": "Pandemic",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
+    },
+    {
+      "date": "2018-10-24",
+      "game": "Dominion: Seaside",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-10-25",
+      "game": "Ticket to Ride: Europe",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-10-26",
+      "game": "Pandemic: Contagion",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-10-27",
+      "game": "Heart of Crown",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-10-28",
+      "game": "Heart of Crown",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-10-29",
+      "game": "Topiary",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-10-30",
+      "game": "Love Letter: Batman",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-10-31",
+      "game": "Betrayal at House on the Hill: Widow's Walk",
+      "winner": "Hannah",
+      "coOp": "Yes"
+    },
+    {
+      "date": "2018-10-31",
+      "game": "Codenames",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2018-10-31",
+      "game": "Codenames",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
     }
   ],
-  "totalGamesPlayed": 21,
-  "averageGamesPlayedPerDay": 0.6774,
+  "totalGamesPlayed": 38,
+  "averageGamesPlayedPerDay": 1.2258,
   "mostGamesPlayedInADay": [
+    {
+      "date": "2018-10-31",
+      "games": [
+        "Betrayal at House on the Hill: Widow's Walk",
+        "Codenames",
+        "Codenames"
+      ]
+    },
     {
       "date": "2018-10-17",
       "games": [
@@ -176,26 +293,22 @@
   ],
   "mostPlayedGamesThisMonth": [
     {
-      "game": "Werewolf",
-      "plays": 3
-    },
-    {
-      "game": "Hive Pocket",
-      "plays": 3
+      "game": "Codenames",
+      "plays": 4
     }
   ],
-  "coOpGamesPlayedCount": 3,
-  "coOpGamesPlayedPercentage": 0.1429,
-  "coOpGameWins": 0,
-  "coOpGameLoses": 3,
-  "winCountHannah": 8,
-  "winCountJohn": 5,
-  "winCountOther": 0,
+  "coOpGamesPlayedCount": 11,
+  "coOpGamesPlayedPercentage": 0.2895,
+  "coOpGameWins": 5,
+  "coOpGameLoses": 6,
+  "winCountHannah": 15,
+  "winCountJohn": 9,
+  "winCountOther": 1,
   "winCountDraw": 2,
-  "winnableGamesTotal": 15,
-  "winRateHannah": 0.5333,
+  "winnableGamesTotal": 27,
+  "winRateHannah": 0.5556,
   "winRateJohn": 0.3333,
-  "winRateOther": 0,
-  "winRateDraw": 0.1333,
+  "winRateOther": 0.037,
+  "winRateDraw": 0.0741,
   "mostWonGames": "Hannah"
 }

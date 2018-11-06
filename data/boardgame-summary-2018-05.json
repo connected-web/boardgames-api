@@ -71,16 +71,16 @@
     },
     {
       "date": "2018-05-05",
+      "game": "Archer: Once You Go Blackmail...",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-05-05",
       "game": "T.I.M.E Stories: The Marcy Case",
       "coOp": "Yes",
       "coOpOutcome": "Lost",
       "note": "Marcy case"
-    },
-    {
-      "date": "2018-05-05",
-      "game": "Archer: Once You Go Blackmail...",
-      "winner": "John",
-      "coOp": "No"
     },
     {
       "date": "2018-05-06",
@@ -110,14 +110,14 @@
     },
     {
       "date": "2018-05-09",
-      "game": "Ticket to Ride: Europe",
-      "winner": "John",
+      "game": "Bad Beets",
+      "winner": "Draw",
       "coOp": "No"
     },
     {
       "date": "2018-05-09",
-      "game": "Bad Beets",
-      "winner": "Draw",
+      "game": "Ticket to Ride: Europe",
+      "winner": "John",
       "coOp": "No"
     },
     {
@@ -134,17 +134,17 @@
     },
     {
       "date": "2018-05-12",
-      "game": "Azul",
-      "winner": "John",
-      "coOp": "No",
-      "note": "Three player"
-    },
-    {
-      "date": "2018-05-12",
       "game": "Codenames",
       "coOp": "Yes",
       "coOpOutcome": "Lost",
       "note": "Hannah and John lost against 2 others"
+    },
+    {
+      "date": "2018-05-12",
+      "game": "Azul",
+      "winner": "John",
+      "coOp": "No",
+      "note": "Three player"
     },
     {
       "date": "2018-05-13",
@@ -196,15 +196,15 @@
     },
     {
       "date": "2018-05-21",
-      "game": "T.I.M.E Stories: A Prophecy of Dragons",
-      "coOp": "Yes",
-      "coOpOutcome": "Won"
-    },
-    {
-      "date": "2018-05-21",
       "game": "Azul",
       "winner": "John",
       "coOp": "No"
+    },
+    {
+      "date": "2018-05-21",
+      "game": "T.I.M.E Stories: A Prophecy of Dragons",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
     },
     {
       "date": "2018-05-21",
@@ -239,20 +239,6 @@
     },
     {
       "date": "2018-05-26",
-      "game": "Azul",
-      "winner": "Other",
-      "coOp": "No",
-      "note": "Boardgames party"
-    },
-    {
-      "date": "2018-05-26",
-      "game": "Lovecraft Letter",
-      "winner": "Hannah",
-      "coOp": "No",
-      "note": "Boardgames party"
-    },
-    {
-      "date": "2018-05-26",
       "game": "Coup: Reformation",
       "winner": "Other",
       "coOp": "No",
@@ -274,10 +260,30 @@
     },
     {
       "date": "2018-05-26",
+      "game": "Lovecraft Letter",
+      "winner": "Hannah",
+      "coOp": "No",
+      "note": "Boardgames party"
+    },
+    {
+      "date": "2018-05-26",
       "game": "Ticket to Ride: Europe",
       "winner": "Hannah",
       "coOp": "No",
       "note": "Boardgames party"
+    },
+    {
+      "date": "2018-05-26",
+      "game": "Azul",
+      "winner": "Other",
+      "coOp": "No",
+      "note": "Boardgames party"
+    },
+    {
+      "date": "2018-05-27",
+      "game": "Harry Potter: Hogwarts Battle – The Monster Box of Monsters Expansion",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
     },
     {
       "date": "2018-05-27",
@@ -285,12 +291,6 @@
       "winner": "Hannah",
       "coOp": "No",
       "note": "Asia"
-    },
-    {
-      "date": "2018-05-27",
-      "game": "Harry Potter: Hogwarts Battle – The Monster Box of Monsters Expansion",
-      "coOp": "Yes",
-      "coOpOutcome": "Lost"
     },
     {
       "date": "2018-05-28",
@@ -313,19 +313,19 @@
       "date": "2018-05-31",
       "game": "Codenames Duet",
       "coOp": "Yes",
-      "coOpOutcome": "Lost"
-    },
-    {
-      "date": "2018-05-31",
-      "game": "Codenames Duet",
-      "coOp": "Yes",
-      "coOpOutcome": "Lost"
-    },
-    {
-      "date": "2018-05-31",
-      "game": "Codenames Duet",
-      "coOp": "Yes",
       "coOpOutcome": "Won"
+    },
+    {
+      "date": "2018-05-31",
+      "game": "Codenames Duet",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
+    },
+    {
+      "date": "2018-05-31",
+      "game": "Codenames Duet",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
     }
   ],
   "totalGamesPlayed": 46,
@@ -334,12 +334,12 @@
     {
       "date": "2018-05-26",
       "games": [
+        "Dinosaur Island",
+        "Coup: Reformation",
         "Coup: Reformation",
         "Azul",
         "Lovecraft Letter",
-        "Ticket to Ride: Europe",
-        "Coup: Reformation",
-        "Dinosaur Island"
+        "Ticket to Ride: Europe"
       ]
     }
   ],
