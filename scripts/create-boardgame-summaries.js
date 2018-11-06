@@ -1,4 +1,5 @@
-const { write, position } = require('promise-path')
+const { position } = require('promise-path')
+const writeFile = require('./util/writeFile')
 const datapath = position(__dirname, '../data')
 const report = (...messages) => console.log('[Create Board Game Summaries]', ...messages)
 
@@ -148,17 +149,12 @@ async function start () {
 
   async function writeMonth(month) {
     const filename = `boardgame-summary-${month.dateCode}.json`
-    const summaryBody = JSON.stringify(month, null, 2)
-    report('Writing file:', filename, summaryBody.substring(0, 100) + '...')
-    return write(datapath(filename), summaryBody, 'utf8')
+    return writeFile('Board Game Summary', filename, month)
   }
 
   await Promise.all(monthsInUse.map(writeMonth))
 
-  const filename = 'boardgame-summaries.json'
-  const summariesBody = JSON.stringify(summaries, null, 2)
-  report('Writing file:', filename, summariesBody.substring(0, 100) + '...')
-  return write(datapath(filename), summariesBody, 'utf8')
+  return writeFile('Board Game Summaries', 'boardgame-summaries.json', summaries)
 }
 
 module.exports = start

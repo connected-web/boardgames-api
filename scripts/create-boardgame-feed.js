@@ -1,4 +1,5 @@
-const { write, position } = require('promise-path')
+const { position } = require('promise-path')
+const writeFile = require('./util/writeFile')
 const datapath = position(__dirname, '../data')
 const report = (...messages) => console.log('[Create Board Game Feed]', ...messages)
 
@@ -42,11 +43,7 @@ async function start () {
     return da > db ? 1 : -1
   })
 
-  const filename = 'boardgame-feed.json'
-  const body = JSON.stringify({ feed }, null, 2)
-  report('Writing Feed:', body.length, 'bytes to', filename)
-
-  return write(datapath(filename), body, 'utf8')
+  return writeFile('Board Game Feed', 'boardgame-feed.json', { feed })
 }
 
 module.exports = start

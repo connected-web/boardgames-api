@@ -1,5 +1,6 @@
-const { write, position } = require('promise-path')
+const { position } = require('promise-path')
 const pluralise = require('./util/pluralise')
+const writeFile = require('./util/writeFile')
 const convertGSheetsDate = require('./util/convertGSheetsDate')
 const datapath = position(__dirname, '../data')
 const report = (...messages) => console.log('[Create Board Game Index]', ...messages)
@@ -62,14 +63,8 @@ async function start () {
 
   const boardGameApiIds = Object.entries(boardGameIndex).map(kvp => kvp[1].boardGameApiId).sort()
 
-  await writeFile('Board Game API IDs', 'boardgame-api-ids.json', {boardGameApiIds})
-  return writeFile('Board Game Index', 'boardgame-index.json', boardGameIndex)
-}
-
-function writeFile(description, filename, data) {
-  const fileContents = JSON.stringify(data, null, 2)
-  report('Writing', description, fileContents.length, 'bytes to', filename)
-  return write(datapath(filename), fileContents, 'utf8')
+  await writeFile('Board Game API IDs', 'boardgame-api-ids.json', {boardGameApiIds}, report)
+  return writeFile('Board Game Index', 'boardgame-index.json', boardGameIndex, report)
 }
 
 module.exports = start

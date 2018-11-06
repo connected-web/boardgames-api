@@ -1,4 +1,5 @@
-const { write, position } = require('promise-path')
+const { position } = require('promise-path')
+const writeFile = require('./util/writeFile')
 const datapath = position(__dirname, '../data')
 const report = (...messages) => console.log('[Create Unique List of Played Games]', ...messages)
 
@@ -18,11 +19,8 @@ async function start () {
   const uniqueGamesCount = uniqueGames.length
   report('Unique games', uniqueGames, 'Count:', uniqueGamesCount)
 
-  const filename = 'unique-list-of-games-played.json'
-  const body = JSON.stringify({ uniqueGames, uniqueGamesCount, earliestDate, latestDate }, null, 2)
-  report('Writing:', body.length, 'bytes to', filename)
-
-  return write(datapath(filename), body, 'utf8')
+  const uniqueListOfGamesPlayed = { uniqueGames, uniqueGamesCount, earliestDate, latestDate }
+  return writeFile('Unique List of Games Played', 'unique-list-of-games-played.json', uniqueListOfGamesPlayed)
 }
 
 module.exports = start
