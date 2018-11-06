@@ -19,13 +19,13 @@ async function start () {
   const boardGameIndex = require(datapath('boardgame-index.json'))
   let feed = []
 
-  Object.keys(boardGameIndex).forEach(game => {
-    const entry = boardGameIndex[game]
+  Object.keys(boardGameIndex).forEach(boardGameApiId => {
+    const entry = boardGameIndex[boardGameApiId]
     entry.dates = entry.dates || []
     entry.dates.forEach((date, pos, dates) => {
       const feedItem = {
         date,
-        game,
+        game: entry.game,
         winner: entry.winners && entry.winners[pos],
         coOp: entry.coOpTypes && entry.coOpTypes[pos],
         coOpOutcome: entry.coOpOutcomes && entry.coOpOutcomes[pos],

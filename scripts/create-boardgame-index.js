@@ -2,14 +2,11 @@ const { position } = require('promise-path')
 const pluralise = require('./util/pluralise')
 const writeFile = require('./util/writeFile')
 const convertGSheetsDate = require('./util/convertGSheetsDate')
+const reduceNameToBoardGameApiId = require('./util/reduceNameToBoardGameApiId')
 const datapath = position(__dirname, '../data')
 const report = (...messages) => console.log('[Create Board Game Index]', ...messages)
 
 const expectedProperties = ['date', 'game', 'winner', 'coOpOutcome', 'coOp', 'notes', 'mechanics']
-
-function reduceNameToBoardGameApiId(name) {
-  return name.toLowerCase().replace(/[.]/g, '').replace(/[^a-z\d\-]/g, ' ').trim().replace(/(\s)+/g, '-')
-}
 
 async function start () {
   report('Requires data/bgg-collection.json')
@@ -25,11 +22,12 @@ async function start () {
   function mapBoardGameGeekGame (accumulator, item) {
     const name = item.name[0]._text[0]
     const id = item._attributes.objectid
-    accumulator[name] = {
+    const boardGameApiId = reduceNameToBoardGameApiId(name)
+    accumulator[boardGameApiId] = {
       boardGameGeekGameId: id,
       boardGameGeekName: name,
-      game: name,
-      boardGameApiId: reduceNameToBoardGameApiId(name)
+      boardGameApiId: boardGameApiId,
+      game: name
     }
     return accumulator
   }
@@ -37,7 +35,7 @@ async function start () {
   function mapCaliPlayStatGame (accumulator, item) {
     const name = item.game
     const boardGameApiId = reduceNameToBoardGameApiId(name)
-    const entry = accumulator[name] || {boardGameApiId}
+    const entry = accumulator[boardGameApiId] || {boardGameApiId}
     expectedProperties.forEach(key => {
       const keyplural = pluralise(key)
       let value = item[key]
@@ -57,7 +55,7 @@ async function start () {
         entry[key] = value
       }
     })
-    accumulator[name] = entry
+    accumulator[boardGameApiId] = entry
     return accumulator
   }
 

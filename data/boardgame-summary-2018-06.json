@@ -44,9 +44,37 @@
     },
     {
       "date": "2018-06-02",
+      "game": "Fog of Love",
+      "winner": "Hannah",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
+    },
+    {
+      "date": "2018-06-02",
+      "game": "Shadows Amsterdam",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost",
+      "note": "5P"
+    },
+    {
+      "date": "2018-06-02",
+      "game": "Space Base",
+      "winner": "John",
+      "coOp": "No",
+      "note": "3P"
+    },
+    {
+      "date": "2018-06-02",
       "game": "Jurassic Snack",
       "winner": "John",
       "coOp": "No"
+    },
+    {
+      "date": "2018-06-02",
+      "game": "Dominion (Second Edition)",
+      "winner": "Hannah",
+      "coOp": "No",
+      "note": "Base game"
     },
     {
       "date": "2018-06-02",
@@ -62,50 +90,10 @@
       "coOp": "No"
     },
     {
-      "date": "2018-06-02",
-      "game": "Fog of Love",
-      "winner": "Hannah",
-      "coOp": "Yes",
-      "coOpOutcome": "Lost"
-    },
-    {
-      "date": "2018-06-02",
-      "game": "Space Base",
-      "winner": "John",
-      "coOp": "No",
-      "note": "3P"
-    },
-    {
-      "date": "2018-06-02",
-      "game": "Shadows Amsterdam",
-      "coOp": "Yes",
-      "coOpOutcome": "Lost",
-      "note": "5P"
-    },
-    {
-      "date": "2018-06-02",
-      "game": "Dominion (Second Edition)",
-      "winner": "Hannah",
-      "coOp": "No",
-      "note": "Base game"
-    },
-    {
       "date": "2018-06-03",
       "game": "Heroica: Fortaan",
       "winner": "Hannah",
       "coOp": "No"
-    },
-    {
-      "date": "2018-06-03",
-      "game": "Pandemic: The Cure",
-      "coOp": "Yes",
-      "coOpOutcome": "Won"
-    },
-    {
-      "date": "2018-06-03",
-      "game": "Fog of Love",
-      "coOp": "Yes",
-      "coOpOutcome": "Won"
     },
     {
       "date": "2018-06-03",
@@ -114,15 +102,27 @@
       "coOp": "No"
     },
     {
-      "date": "2018-06-04",
-      "game": "HATSUDEN",
-      "winner": "John",
-      "coOp": "No"
+      "date": "2018-06-03",
+      "game": "Fog of Love",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2018-06-03",
+      "game": "Pandemic: The Cure",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
     },
     {
       "date": "2018-06-04",
       "game": "HATSUDEN",
       "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-06-04",
+      "game": "HATSUDEN",
+      "winner": "John",
       "coOp": "No"
     },
     {
@@ -253,21 +253,15 @@
     },
     {
       "date": "2018-06-23",
-      "game": "Pandemic: On the Brink",
-      "coOp": "Yes",
-      "coOpOutcome": "Won"
-    },
-    {
-      "date": "2018-06-23",
       "game": "Space Base",
       "winner": "Hannah",
       "coOp": "No"
     },
     {
-      "date": "2018-06-24",
-      "game": "Valeria: Card Kingdoms",
-      "winner": "Hannah",
-      "coOp": "No"
+      "date": "2018-06-23",
+      "game": "Pandemic: On the Brink",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
     },
     {
       "date": "2018-06-24",
@@ -282,6 +276,12 @@
       "coOp": "No"
     },
     {
+      "date": "2018-06-24",
+      "game": "Valeria: Card Kingdoms",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
       "date": "2018-06-25",
       "game": "Pandemic: On the Brink",
       "coOp": "Yes",
@@ -289,15 +289,15 @@
     },
     {
       "date": "2018-06-26",
-      "game": "Pandemic: In the Lab",
-      "coOp": "Yes",
-      "coOpOutcome": "Lost"
-    },
-    {
-      "date": "2018-06-26",
       "game": "HATSUDEN",
       "winner": "Draw",
       "coOp": "No"
+    },
+    {
+      "date": "2018-06-26",
+      "game": "Pandemic: In the Lab",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
     },
     {
       "date": "2018-06-27",
@@ -336,27 +336,27 @@
     {
       "date": "2018-06-02",
       "games": [
-        "Dominion (Second Edition)",
-        "Shadows Amsterdam",
-        "Jurassic Snack",
-        "Shadows Amsterdam",
         "Ticket to Ride: New York",
+        "Shadows Amsterdam",
         "Fog of Love",
-        "Space Base"
+        "Shadows Amsterdam",
+        "Space Base",
+        "Jurassic Snack",
+        "Dominion (Second Edition)"
       ]
     }
   ],
   "mostPlayedGamesThisMonth": [
-    {
-      "game": "Troika",
-      "plays": 4
-    },
     {
       "game": "Space Base",
       "plays": 4
     },
     {
       "game": "Valeria: Card Kingdoms",
+      "plays": 4
+    },
+    {
+      "game": "Troika",
       "plays": 4
     }
   ],
