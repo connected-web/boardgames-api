@@ -1,6 +1,12 @@
 # Boardgames API
 
-An API for personalized boardgame data, sourced from boardgamesgeek.com and other locations.
+An API for personalized boardgame data, sourced from boardgamesgeek.com and other locations. This project helps gather board game ownership and play stats; collate and analyse that data, and present that data as its own API with documentation.
+
+## Prerequisites
+
+You should already have installed:
+- node LTS and npm
+- php >= 7
 
 ## Setup
 
@@ -15,19 +21,32 @@ npm start
 For a list of commands, use `node run`; this outputs:
 ```
 [Board Game API Run] Available scripts to run:
+  node run all
+  node run create-all
   node run create-bgg-index
+  node run create-boardgame-feed
   node run create-boardgame-index
   node run create-boardgame-list
+  node run create-boardgame-summaries
+  node run create-unique-list-of-played-games
+  node run download-all
   node run download-bgg-collection
   node run download-bgg-entries
   node run download-cali-playstats
+  node run update-owned-lists
 ```
 
 ### Run All
 
 `node run all`
 
-Runs all of the following commands; all at once, in parallel.
+Runs download-all, then create-all, in sequence.
+
+### Create All
+
+`node run create-All`
+
+Runs all of the `create-*` commands, in sequence. Logically should be run after downloading updated data from remote servers.
 
 ### Create Board Game Geek Index
 
@@ -35,17 +54,41 @@ Runs all of the following commands; all at once, in parallel.
 
 Creates `data/bgg-index.json` based on data from our Board Game Geek collection; `data/bgg-collection.json`
 
+### Create Board Game Feed
+
+`node run create-boardgame-feed`
+
+Creates `data/boardgame-feed.json` as a date sequenced game feed based on the Cali Play Stats.
+
 ### Create Board Game Index
 
 `node run create-boardgame-index`
 
-Creates `data/boardgame-index.json` based on a unified view of Cali Play Stats and the Board Game Geek collection.
+Creates `data/boardgame-index.json` based on a unified view of Cali Play Stats and the Board Game Geek collection as well as individual game entries in `data/index/{board-game-api-id}.json`.
 
 ### Create Board Game List
 
 `node run create-boardgame-list`
 
 Creates `data/boardgame-names.json` based on a unified view of Cali Play Stats and the Board Game Geek collection.
+
+### Create Board Game Summaries
+
+`node run create-boardgame-summaries`
+
+Creates `data/boardgame-summaries.json` and entries for `data/boardgame-summary-{yyyy}-{dd}.json` containing play stats summarised for a given months of the year.
+
+### Create Unique List of Played Games
+
+`node run create-unique-list-of-played-games`
+
+Creates `data/unique-list-of-games-played.json` containing a unique, sorted list of games that have been played based on the Board Game Feed.
+
+### Download All
+
+`node run download-all`
+
+Runs all of the `download-*` commands in sequence. This will take several minutes to complete as it includes running `download-bgg-entries`; but it should ensure all the available data is up to date.
 
 ### Download Board Game Geek Collection
 
@@ -64,6 +107,16 @@ Downloads individual board game entries to `boardgames/boardgame-${bggGameId}.js
 `node run download-cali-playstats`
 
 Downloads `data/cali-playstats.json` from Google Sheets and converts to JSON.
+
+### Updated Owned Lists
+
+`node run update-owned-lists`
+
+To help update and analyse owned games, this command runs:
+- Download Cali Play Stats
+- Download Board Game Geek Collection
+- Create Unique List of Played Games
+- Create Board Game List
 
 ## APIs
 Data is sourced from the following APIs:
