@@ -16,6 +16,21 @@ npm install
 npm start
 ```
 
+This should start a local webserver:
+```
+[PHP Test Server] listening at http://localhost:4000/
+```
+
+## Tests
+
+If the webserver is running ok, then you should be able to run:
+
+```
+npm test
+```
+
+These tests are run when attempting to commit or push back to the central repo.
+
 ## Usage
 
 For a list of commands, use `node run`; this outputs:
