@@ -17,7 +17,7 @@ async function start () {
 
   const uniqueGames = (new Array(...new Set(feed.map(g => g.game)))).sort()
   const uniqueGamesCount = uniqueGames.length
-  report('Unique games', uniqueGames, 'Count:', uniqueGamesCount)
+  report('Unique games count:', uniqueGamesCount, 'Earliest date', earliestDate, 'Latest Date', latestDate)
 
   const uniqueListOfGamesPlayed = { uniqueGames, uniqueGamesCount, earliestDate, latestDate }
   return writeFile('Unique List of Games Played', 'unique-list-of-games-played.json', uniqueListOfGamesPlayed)

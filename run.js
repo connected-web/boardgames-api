@@ -39,6 +39,15 @@ async function start () {
     ], scripts)
   }
 
+  scripts['update-owned-lists'] = async () => {
+    return processScripts([
+      'download-cali-playstats',
+      'download-bgg-collection',
+      'create-unique-list-of-played-games',
+      'create-boardgame-list'
+    ], scripts)
+  }
+
   scripts.all = async () => {
     return processScripts([
       'download-all',
@@ -67,7 +76,7 @@ async function start () {
     await scripts[scriptToRun]()
   } else {
     console.log('[Board Game API Run] Available scripts to run:')
-    scriptNames.forEach(n => console.log(' ', `node run ${n}`))
+    Object.keys(scripts).sort().forEach(n => console.log(' ', `node run ${n}`))
   }
 }
 
