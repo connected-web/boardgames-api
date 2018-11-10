@@ -1,0 +1,5 @@
+# Start Force SSL directives
+RewriteEngine On
+RewriteCond %{HTTPS} !on
+RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
+# End Force SSL directives

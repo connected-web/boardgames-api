@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ^.*$ index.php [NC,L,QSA]
+
+DirectoryIndex index.php
