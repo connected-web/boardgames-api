@@ -2,59 +2,43 @@
   "boardGameGeekGameId": "2591",
   "boardGameGeekName": "Carcassonne: The River",
   "boardGameApiId": "carcassonne-the-river",
-  "game": "Carcassonne: The River",
-  "dates": [
-    "2018-01-31",
-    "2018-02-17",
-    "2018-02-22",
-    "2018-04-16",
-    "2018-09-18",
-    "2018-09-27",
-    "2018-10-14"
-  ],
-  "winners": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-  ],
-  "coOpOutcomes": [
-    null,
-    null,
-    null,
-    "Win",
-    "won",
-    "lost",
-    null
-  ],
-  "coOpTypes": [
-    "Yes",
-    "Yes",
-    "Yes",
-    "Yes",
-    "Yes",
-    "Yes",
-    "Yes"
-  ],
-  "notes": [
-    "Score: 295",
-    "Co-op score: 340",
-    "Score: 344",
-    "Score: 337",
-    "base game at work",
-    null,
-    null
-  ],
-  "mechanics": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
+  "name": "Carcassonne: The River",
+  "playRecords": [
+    {
+      "date": "2018-01-31",
+      "coOp": "Yes",
+      "notes": "Score: 295"
+    },
+    {
+      "date": "2018-02-17",
+      "coOp": "Yes",
+      "notes": "Co-op score: 340"
+    },
+    {
+      "date": "2018-02-22",
+      "coOp": "Yes",
+      "notes": "Score: 344"
+    },
+    {
+      "date": "2018-04-16",
+      "coOpOutcome": "Win",
+      "coOp": "Yes",
+      "notes": "Score: 337"
+    },
+    {
+      "date": "2018-09-18",
+      "coOpOutcome": "won",
+      "coOp": "Yes",
+      "notes": "base game at work"
+    },
+    {
+      "date": "2018-09-27",
+      "coOpOutcome": "lost",
+      "coOp": "Yes"
+    },
+    {
+      "date": "2018-10-14",
+      "coOp": "Yes"
+    }
   ]
 }

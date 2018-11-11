@@ -3,5234 +3,3605 @@
     "boardGameGeekGameId": "1275",
     "boardGameGeekName": "221B Baker Street: The Master Detective Game",
     "boardGameApiId": "221b-baker-street-the-master-detective-game",
-    "game": "221B Baker Street: The Master Detective Game"
+    "name": "221B Baker Street: The Master Detective Game",
+    "playRecords": []
   },
   "7-wonders": {
     "boardGameGeekGameId": "68448",
     "boardGameGeekName": "7 Wonders",
     "boardGameApiId": "7-wonders",
-    "game": "7 Wonders",
-    "dates": [
-      "2018-03-12"
-    ],
-    "winners": [
-      "John"
-    ],
-    "coOpOutcomes": [
-      null
-    ],
-    "coOpTypes": [
-      "No"
-    ],
-    "notes": [
-      null
-    ],
-    "mechanics": [
-      null
+    "name": "7 Wonders",
+    "playRecords": [
+      {
+        "date": "2018-03-12",
+        "winner": "John",
+        "coOp": "No"
+      }
     ]
   },
   "7-wonders-duel": {
     "boardGameGeekGameId": "173346",
     "boardGameGeekName": "7 Wonders Duel",
     "boardGameApiId": "7-wonders-duel",
-    "game": "7 Wonders Duel",
-    "dates": [
-      "2018-01-15"
-    ],
-    "winners": [
-      "John"
-    ],
-    "coOpOutcomes": [
-      null
-    ],
-    "coOpTypes": [
-      "No"
-    ],
-    "notes": [
-      null
-    ],
-    "mechanics": [
-      null
+    "name": "7 Wonders Duel",
+    "playRecords": [
+      {
+        "date": "2018-01-15",
+        "winner": "John",
+        "coOp": "No"
+      }
     ]
   },
   "adventure-time-card-wars-princess-bubblegum-vs-lumpy-space-princess": {
     "boardGameGeekGameId": "158978",
     "boardGameGeekName": "Adventure Time Card Wars: Princess Bubblegum vs. Lumpy Space Princess",
     "boardGameApiId": "adventure-time-card-wars-princess-bubblegum-vs-lumpy-space-princess",
-    "game": "Adventure Time Card Wars: Princess Bubblegum vs. Lumpy Space Princess"
+    "name": "Adventure Time Card Wars: Princess Bubblegum vs. Lumpy Space Princess",
+    "playRecords": []
   },
   "adventure-time-love-letter": {
     "boardGameGeekGameId": "175307",
     "boardGameGeekName": "Adventure Time Love Letter",
     "boardGameApiId": "adventure-time-love-letter",
-    "game": "Adventure Time Love Letter",
-    "dates": [
-      "2018-11-05"
-    ],
-    "winners": [
-      "John"
-    ],
-    "coOpOutcomes": [
-      null
-    ],
-    "coOpTypes": [
-      "No"
-    ],
-    "notes": [
-      null
-    ],
-    "mechanics": [
-      null
+    "name": "Adventure Time Love Letter",
+    "playRecords": [
+      {
+        "date": "2018-11-05",
+        "winner": "John",
+        "coOp": "No"
+      }
     ]
   },
   "el-alamein": {
     "boardGameGeekGameId": "86167",
     "boardGameGeekName": "El Alamein",
     "boardGameApiId": "el-alamein",
-    "game": "El Alamein",
-    "dates": [
-      "2018-07-03",
-      "2018-07-05"
-    ],
-    "winners": [
-      "Draw",
-      "John"
-    ],
-    "coOpOutcomes": [
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null
+    "name": "El Alamein",
+    "playRecords": [
+      {
+        "date": "2018-07-03",
+        "winner": "Draw",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-07-05",
+        "winner": "John",
+        "coOp": "No"
+      }
     ]
   },
   "android-mainframe": {
     "boardGameGeekGameId": "193557",
     "boardGameGeekName": "Android: Mainframe",
     "boardGameApiId": "android-mainframe",
-    "game": "Android: Mainframe",
-    "dates": [
-      "2018-03-11"
-    ],
-    "winners": [
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null
-    ],
-    "coOpTypes": [
-      "No"
-    ],
-    "notes": [
-      null
-    ],
-    "mechanics": [
-      null
+    "name": "Android: Mainframe",
+    "playRecords": [
+      {
+        "date": "2018-03-11",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
     ]
   },
   "android-netrunner": {
     "boardGameGeekGameId": "124742",
     "boardGameGeekName": "Android: Netrunner",
     "boardGameApiId": "android-netrunner",
-    "game": "Android: Netrunner",
-    "dates": [
-      "2018-08-27",
-      "2018-09-20"
-    ],
-    "winners": [
-      "Hannah",
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No"
-    ],
-    "notes": [
-      "Hannah = runner",
-      "as the corp"
-    ],
-    "mechanics": [
-      null,
-      null
+    "name": "Android: Netrunner",
+    "playRecords": [
+      {
+        "date": "2018-08-27",
+        "winner": "Hannah",
+        "coOp": "No",
+        "notes": "Hannah = runner"
+      },
+      {
+        "date": "2018-09-20",
+        "winner": "Hannah",
+        "coOp": "No",
+        "notes": "as the corp"
+      }
     ]
   },
   "archer-once-you-go-blackmail": {
     "boardGameGeekGameId": "198522",
     "boardGameGeekName": "Archer: Once You Go Blackmail...",
     "boardGameApiId": "archer-once-you-go-blackmail",
-    "game": "Archer: Once You Go Blackmail...",
-    "dates": [
-      "2018-03-08",
-      "2018-03-13",
-      "2018-03-20",
-      "2018-03-20",
-      "2018-04-11",
-      "2018-05-05",
-      "2018-08-30",
-      "2018-09-23",
-      "2018-10-08",
-      "2018-10-11"
-    ],
-    "winners": [
-      "John",
-      "Hannah",
-      "John",
-      "Hannah",
-      "John",
-      "John",
-      "John",
-      "Hannah",
-      "Hannah",
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+    "name": "Archer: Once You Go Blackmail...",
+    "playRecords": [
+      {
+        "date": "2018-03-08",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-03-13",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-03-20",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-03-20",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-04-11",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-05-05",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-08-30",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-09-23",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-10-08",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-10-11",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
     ]
   },
   "arkham-horror-the-card-game": {
     "boardGameGeekGameId": "205637",
     "boardGameGeekName": "Arkham Horror: The Card Game",
     "boardGameApiId": "arkham-horror-the-card-game",
-    "game": "Arkham Horror: The Card Game",
-    "dates": [
-      "2018-01-13",
-      "2018-03-10",
-      "2018-03-10",
-      "2018-03-10"
-    ],
-    "winners": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpOutcomes": [
-      "Won",
-      "Won",
-      "Won",
-      "Won"
-    ],
-    "coOpTypes": [
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes"
-    ],
-    "notes": [
-      "OP event at FB3",
-      "Night of the Zealot: Part 1",
-      "Night of the Zealot: Part 2",
-      "Night of the Zealot: Part 3"
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null
+    "name": "Arkham Horror: The Card Game",
+    "playRecords": [
+      {
+        "date": "2018-01-13",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "notes": "OP event at FB3"
+      },
+      {
+        "date": "2018-03-10",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "notes": "Night of the Zealot: Part 1"
+      },
+      {
+        "date": "2018-03-10",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "notes": "Night of the Zealot: Part 2"
+      },
+      {
+        "date": "2018-03-10",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "notes": "Night of the Zealot: Part 3"
+      }
     ]
   },
   "arkham-horror-the-card-game-carnevale-of-horrors-scenario-pack": {
     "boardGameGeekGameId": "215510",
     "boardGameGeekName": "Arkham Horror: The Card Game – Carnevale of Horrors: Scenario Pack",
     "boardGameApiId": "arkham-horror-the-card-game-carnevale-of-horrors-scenario-pack",
-    "game": "Arkham Horror: The Card Game – Carnevale of Horrors: Scenario Pack"
+    "name": "Arkham Horror: The Card Game – Carnevale of Horrors: Scenario Pack",
+    "playRecords": []
   },
   "arkham-horror-the-card-game-curse-of-the-rougarou-scenario-pack": {
     "boardGameGeekGameId": "209728",
     "boardGameGeekName": "Arkham Horror: The Card Game – Curse of the Rougarou: Scenario Pack",
     "boardGameApiId": "arkham-horror-the-card-game-curse-of-the-rougarou-scenario-pack",
-    "game": "Arkham Horror: The Card Game – Curse of the Rougarou: Scenario Pack",
-    "dates": [
-      "2018-09-22"
-    ],
-    "winners": [
-      null
-    ],
-    "coOpOutcomes": [
-      "lost"
-    ],
-    "coOpTypes": [
-      "Yes"
-    ],
-    "notes": [
-      "Curse of the Rougarou"
-    ],
-    "mechanics": [
-      null
+    "name": "Arkham Horror: The Card Game – Curse of the Rougarou: Scenario Pack",
+    "playRecords": [
+      {
+        "date": "2018-09-22",
+        "coOpOutcome": "lost",
+        "coOp": "Yes",
+        "notes": "Curse of the Rougarou"
+      }
     ]
   },
   "arkham-horror-the-card-game-the-dunwich-legacy-expansion": {
     "boardGameGeekGameId": "208545",
     "boardGameGeekName": "Arkham Horror: The Card Game – The Dunwich Legacy: Expansion",
     "boardGameApiId": "arkham-horror-the-card-game-the-dunwich-legacy-expansion",
-    "game": "Arkham Horror: The Card Game – The Dunwich Legacy: Expansion",
-    "dates": [
-      "2018-09-15",
-      "2018-09-16"
-    ],
-    "winners": [
-      null,
-      null
-    ],
-    "coOpOutcomes": [
-      "won",
-      "won"
-    ],
-    "coOpTypes": [
-      "Yes",
-      "Yes"
-    ],
-    "notes": [
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null
+    "name": "Arkham Horror: The Card Game – The Dunwich Legacy: Expansion",
+    "playRecords": [
+      {
+        "date": "2018-09-15",
+        "coOpOutcome": "won",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-09-16",
+        "coOpOutcome": "won",
+        "coOp": "Yes"
+      }
     ]
   },
   "azul": {
     "boardGameGeekGameId": "230802",
     "boardGameGeekName": "Azul",
     "boardGameApiId": "azul",
-    "game": "Azul",
-    "dates": [
-      "2018-04-28",
-      "2018-04-28",
-      "2018-05-02",
-      "2018-05-11",
-      "2018-05-12",
-      "2018-05-21",
-      "2018-05-26",
-      "2018-06-19",
-      "2018-08-31"
-    ],
-    "winners": [
-      "John",
-      "Hannah",
-      "John",
-      "Hannah",
-      "John",
-      "John",
-      "Other",
-      "John",
-      "John"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null,
-      null,
-      null,
-      "Three player",
-      null,
-      "Boardgames party",
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      "4 player",
-      null,
-      null
+    "name": "Azul",
+    "playRecords": [
+      {
+        "date": "2018-04-28",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-04-28",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-05-02",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-05-11",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-05-12",
+        "winner": "John",
+        "coOp": "No",
+        "notes": "Three player"
+      },
+      {
+        "date": "2018-05-21",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-05-26",
+        "winner": "Other",
+        "coOp": "No",
+        "notes": "Boardgames party",
+        "mechanics": "4 player"
+      },
+      {
+        "date": "2018-06-19",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-08-31",
+        "winner": "John",
+        "coOp": "No"
+      }
     ]
   },
   "bad-beets": {
     "boardGameGeekGameId": "175458",
     "boardGameGeekName": "Bad Beets",
     "boardGameApiId": "bad-beets",
-    "game": "Bad Beets",
-    "dates": [
-      "2018-05-09"
-    ],
-    "winners": [
-      "Draw"
-    ],
-    "coOpOutcomes": [
-      null
-    ],
-    "coOpTypes": [
-      "No"
-    ],
-    "notes": [
-      null
-    ],
-    "mechanics": [
-      null
+    "name": "Bad Beets",
+    "playRecords": [
+      {
+        "date": "2018-05-09",
+        "winner": "Draw",
+        "coOp": "No"
+      }
     ]
   },
   "barbarossa": {
     "boardGameGeekGameId": "72809",
     "boardGameGeekName": "Barbarossa",
     "boardGameApiId": "barbarossa",
-    "game": "Barbarossa",
-    "dates": [
-      "2018-06-05",
-      "2018-06-10"
-    ],
-    "winners": [
-      "Hannah",
-      "John"
-    ],
-    "coOpOutcomes": [
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null
+    "name": "Barbarossa",
+    "playRecords": [
+      {
+        "date": "2018-06-05",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-06-10",
+        "winner": "John",
+        "coOp": "No"
+      }
     ]
   },
   "battlestar-galactica-the-board-game": {
     "boardGameGeekGameId": "37111",
     "boardGameGeekName": "Battlestar Galactica: The Board Game",
     "boardGameApiId": "battlestar-galactica-the-board-game",
-    "game": "Battlestar Galactica: The Board Game",
-    "dates": [
-      "2018-01-27"
-    ],
-    "winners": [
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null
-    ],
-    "coOpTypes": [
-      "Yes"
-    ],
-    "notes": [
-      "Cylons won. Hannah was a Cylon"
-    ],
-    "mechanics": [
-      null
+    "name": "Battlestar Galactica: The Board Game",
+    "playRecords": [
+      {
+        "date": "2018-01-27",
+        "winner": "Hannah",
+        "coOp": "Yes",
+        "notes": "Cylons won. Hannah was a Cylon"
+      }
     ]
   },
   "betrayal-at-baldurs-gate": {
     "boardGameGeekGameId": "228660",
     "boardGameGeekName": "Betrayal at Baldur's Gate",
     "boardGameApiId": "betrayal-at-baldurs-gate",
-    "game": "Betrayal at Baldur's Gate",
-    "dates": [
-      "2018-02-18",
-      "2018-09-28"
-    ],
-    "winners": [
-      null,
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      "Heroes won",
-      "lost"
-    ],
-    "coOpTypes": [
-      "Yes",
-      "Yes"
-    ],
-    "notes": [
-      "John was betrayer",
-      "Traitor won. Hannah was traitor"
-    ],
-    "mechanics": [
-      null,
-      null
+    "name": "Betrayal at Baldur's Gate",
+    "playRecords": [
+      {
+        "date": "2018-02-18",
+        "coOpOutcome": "Heroes won",
+        "coOp": "Yes",
+        "notes": "John was betrayer"
+      },
+      {
+        "date": "2018-09-28",
+        "winner": "Hannah",
+        "coOpOutcome": "lost",
+        "coOp": "Yes",
+        "notes": "Traitor won. Hannah was traitor"
+      }
     ]
   },
   "betrayal-at-house-on-the-hill": {
     "boardGameGeekGameId": "10547",
     "boardGameGeekName": "Betrayal at House on the Hill",
     "boardGameApiId": "betrayal-at-house-on-the-hill",
-    "game": "Betrayal at House on the Hill",
-    "dates": [
-      "2018-01-11",
-      "2018-02-10",
-      "2018-02-25",
-      "2018-05-13"
-    ],
-    "winners": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpOutcomes": [
-      "Heroes won",
-      "Heroes lost",
-      "Heroes lost",
-      "Won"
-    ],
-    "coOpTypes": [
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes"
-    ],
-    "notes": [
-      null,
-      "2 player, each playing two characters",
-      "John was betrayer",
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null
+    "name": "Betrayal at House on the Hill",
+    "playRecords": [
+      {
+        "date": "2018-01-11",
+        "coOpOutcome": "Heroes won",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-02-10",
+        "coOpOutcome": "Heroes lost",
+        "coOp": "Yes",
+        "notes": "2 player, each playing two characters"
+      },
+      {
+        "date": "2018-02-25",
+        "coOpOutcome": "Heroes lost",
+        "coOp": "Yes",
+        "notes": "John was betrayer"
+      },
+      {
+        "date": "2018-05-13",
+        "coOpOutcome": "Won",
+        "coOp": "Yes"
+      }
     ]
   },
   "betrayal-at-house-on-the-hill-widows-walk": {
     "boardGameGeekGameId": "198452",
     "boardGameGeekName": "Betrayal at House on the Hill: Widow's Walk",
     "boardGameApiId": "betrayal-at-house-on-the-hill-widows-walk",
-    "game": "Betrayal at House on the Hill: Widow's Walk",
-    "dates": [
-      "2018-10-31"
-    ],
-    "winners": [
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null
-    ],
-    "coOpTypes": [
-      "Yes"
-    ],
-    "notes": [
-      null
-    ],
-    "mechanics": [
-      null
+    "name": "Betrayal at House on the Hill: Widow's Walk",
+    "playRecords": [
+      {
+        "date": "2018-10-31",
+        "winner": "Hannah",
+        "coOp": "Yes"
+      }
     ]
   },
   "between-two-castles-of-mad-king-ludwig": {
     "boardGameGeekGameId": "258036",
     "boardGameGeekName": "Between Two Castles of Mad King Ludwig",
     "boardGameApiId": "between-two-castles-of-mad-king-ludwig",
-    "game": "Between Two Castles of Mad King Ludwig",
-    "dates": [
-      "2018-10-21"
-    ],
-    "winners": [
-      "Other"
-    ],
-    "coOpOutcomes": [
-      null
-    ],
-    "coOpTypes": [
-      "No"
-    ],
-    "notes": [
-      null
-    ],
-    "mechanics": [
-      null
+    "name": "Between Two Castles of Mad King Ludwig",
+    "playRecords": [
+      {
+        "date": "2018-10-21",
+        "winner": "Other",
+        "coOp": "No"
+      }
     ]
   },
   "bioshock-infinite-the-siege-of-columbia": {
     "boardGameGeekGameId": "132428",
     "boardGameGeekName": "BioShock Infinite: The Siege of Columbia",
     "boardGameApiId": "bioshock-infinite-the-siege-of-columbia",
-    "game": "BioShock Infinite: The Siege of Columbia",
-    "dates": [
-      "2018-07-21"
-    ],
-    "winners": [
-      "Draw"
-    ],
-    "coOpOutcomes": [
-      null
-    ],
-    "coOpTypes": [
-      "No"
-    ],
-    "notes": [
-      null
-    ],
-    "mechanics": [
-      null
+    "name": "BioShock Infinite: The Siege of Columbia",
+    "playRecords": [
+      {
+        "date": "2018-07-21",
+        "winner": "Draw",
+        "coOp": "No"
+      }
     ]
   },
   "bunny-kingdom": {
     "boardGameGeekGameId": "184921",
     "boardGameGeekName": "Bunny Kingdom",
     "boardGameApiId": "bunny-kingdom",
-    "game": "Bunny Kingdom",
-    "dates": [
-      "2018-08-25"
-    ],
-    "winners": [
-      "John"
-    ],
-    "coOpOutcomes": [
-      null
-    ],
-    "coOpTypes": [
-      "No"
-    ],
-    "notes": [
-      null
-    ],
-    "mechanics": [
-      null
+    "name": "Bunny Kingdom",
+    "playRecords": [
+      {
+        "date": "2018-08-25",
+        "winner": "John",
+        "coOp": "No"
+      }
     ]
   },
   "carcassonne-big-box-6": {
     "boardGameGeekGameId": "230914",
     "boardGameGeekName": "Carcassonne Big Box 6",
     "boardGameApiId": "carcassonne-big-box-6",
-    "game": "Carcassonne Big Box 6",
-    "dates": [
-      "2018-05-21",
-      "2018-06-09",
-      "2018-07-30"
-    ],
-    "winners": [
-      null,
-      null,
-      null
-    ],
-    "coOpOutcomes": [
-      "Won",
-      "Won",
-      null
-    ],
-    "coOpTypes": [
-      "Yes",
-      "Yes",
-      "Yes"
-    ],
-    "notes": [
-      "Inns and Cathedrals - 594",
-      null,
-      "Flying Machines"
-    ],
-    "mechanics": [
-      null,
-      null,
-      null
+    "name": "Carcassonne Big Box 6",
+    "playRecords": [
+      {
+        "date": "2018-05-21",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "notes": "Inns and Cathedrals - 594"
+      },
+      {
+        "date": "2018-06-09",
+        "coOpOutcome": "Won",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-07-30",
+        "coOp": "Yes",
+        "notes": "Flying Machines"
+      }
     ]
   },
   "carcassonne-the-river": {
     "boardGameGeekGameId": "2591",
     "boardGameGeekName": "Carcassonne: The River",
     "boardGameApiId": "carcassonne-the-river",
-    "game": "Carcassonne: The River",
-    "dates": [
-      "2018-01-31",
-      "2018-02-17",
-      "2018-02-22",
-      "2018-04-16",
-      "2018-09-18",
-      "2018-09-27",
-      "2018-10-14"
-    ],
-    "winners": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null,
-      "Win",
-      "won",
-      "lost",
-      null
-    ],
-    "coOpTypes": [
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes"
-    ],
-    "notes": [
-      "Score: 295",
-      "Co-op score: 340",
-      "Score: 344",
-      "Score: 337",
-      "base game at work",
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+    "name": "Carcassonne: The River",
+    "playRecords": [
+      {
+        "date": "2018-01-31",
+        "coOp": "Yes",
+        "notes": "Score: 295"
+      },
+      {
+        "date": "2018-02-17",
+        "coOp": "Yes",
+        "notes": "Co-op score: 340"
+      },
+      {
+        "date": "2018-02-22",
+        "coOp": "Yes",
+        "notes": "Score: 344"
+      },
+      {
+        "date": "2018-04-16",
+        "coOpOutcome": "Win",
+        "coOp": "Yes",
+        "notes": "Score: 337"
+      },
+      {
+        "date": "2018-09-18",
+        "coOpOutcome": "won",
+        "coOp": "Yes",
+        "notes": "base game at work"
+      },
+      {
+        "date": "2018-09-27",
+        "coOpOutcome": "lost",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-10-14",
+        "coOp": "Yes"
+      }
     ]
   },
   "the-castles-of-burgundy": {
     "boardGameGeekGameId": "84876",
     "boardGameGeekName": "The Castles of Burgundy",
     "boardGameApiId": "the-castles-of-burgundy",
-    "game": "The Castles of Burgundy",
-    "dates": [
-      "2018-01-18",
-      "2018-01-22",
-      "2018-05-29",
-      "2018-06-01",
-      "2018-06-09",
-      "2018-07-23",
-      "2018-10-19"
-    ],
-    "winners": [
-      "Hannah",
-      "John",
-      "John",
-      "Hannah",
-      "John",
-      "John",
-      "John"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+    "name": "The Castles of Burgundy",
+    "playRecords": [
+      {
+        "date": "2018-01-18",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-01-22",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-05-29",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-06-01",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-06-09",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-07-23",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-10-19",
+        "winner": "John",
+        "coOp": "No"
+      }
     ]
   },
   "castles-of-mad-king-ludwig": {
     "boardGameGeekGameId": "155426",
     "boardGameGeekName": "Castles of Mad King Ludwig",
     "boardGameApiId": "castles-of-mad-king-ludwig",
-    "game": "Castles of Mad King Ludwig",
-    "dates": [
-      "2018-03-18",
-      "2018-09-09"
-    ],
-    "winners": [
-      "Hannah",
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null
+    "name": "Castles of Mad King Ludwig",
+    "playRecords": [
+      {
+        "date": "2018-03-18",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-09-09",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
     ]
   },
   "cat-lady": {
     "boardGameGeekGameId": "228504",
     "boardGameGeekName": "Cat Lady",
     "boardGameApiId": "cat-lady",
-    "game": "Cat Lady",
-    "dates": [
-      "2018-08-07",
-      "2018-08-17",
-      "2018-08-18",
-      "2018-10-15"
-    ],
-    "winners": [
-      "John",
-      "Hannah",
-      "John",
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null
+    "name": "Cat Lady",
+    "playRecords": [
+      {
+        "date": "2018-08-07",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-08-17",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-08-18",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-10-15",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
     ]
   },
   "citadels": {
     "boardGameGeekGameId": "205398",
     "boardGameGeekName": "Citadels",
     "boardGameApiId": "citadels",
-    "game": "Citadels",
-    "dates": [
-      "2018-01-30",
-      "2018-03-14",
-      "2018-04-14",
-      "2018-08-16"
-    ],
-    "winners": [
-      "Hannah",
-      "John",
-      "John",
-      "John"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null
+    "name": "Citadels",
+    "playRecords": [
+      {
+        "date": "2018-01-30",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-03-14",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-04-14",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-08-16",
+        "winner": "John",
+        "coOp": "No"
+      }
     ]
   },
   "claim": {
     "boardGameGeekGameId": "233961",
     "boardGameGeekName": "Claim",
     "boardGameApiId": "claim",
-    "game": "Claim",
-    "dates": [
-      "2018-01-05",
-      "2018-02-07",
-      "2018-04-18"
-    ],
-    "winners": [
-      "John",
-      "John",
-      "John"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null
+    "name": "Claim",
+    "playRecords": [
+      {
+        "date": "2018-01-05",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-02-07",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-04-18",
+        "winner": "John",
+        "coOp": "No"
+      }
     ]
   },
   "codenames": {
     "boardGameGeekGameId": "178900",
     "boardGameGeekName": "Codenames",
     "boardGameApiId": "codenames",
-    "game": "Codenames",
-    "dates": [
-      "2018-01-25",
-      "2018-01-29",
-      "2018-01-29",
-      "2018-02-09",
-      "2018-03-05",
-      "2018-03-22",
-      "2018-04-18",
-      "2018-04-18",
-      "2018-05-12",
-      "2018-06-28",
-      "2018-06-28",
-      "2018-07-02",
-      "2018-08-02",
-      "2018-08-29",
-      "2018-08-29",
-      "2018-10-22",
-      "2018-10-22",
-      "2018-10-31",
-      "2018-10-31"
-    ],
-    "winners": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpOutcomes": [
-      null,
-      "Won",
-      "Won",
-      "Won",
-      "Won",
-      "Won",
-      "Win",
-      "Win",
-      "Lost",
-      "Lost",
-      "Won",
-      "Win",
-      "Lost",
-      "Won",
-      "Won",
-      "Lost",
-      "Won",
-      "Won",
-      "Won"
-    ],
-    "coOpTypes": [
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes"
-    ],
-    "notes": [
-      "3 player",
-      "2 player",
-      "2 player",
-      "2-player co-op",
-      null,
-      "Via Slack",
-      null,
-      null,
-      "Hannah and John lost against 2 others",
-      null,
-      null,
-      null,
-      null,
-      "Hannah-spymaster",
-      "John=spymaster",
-      null,
-      null,
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+    "name": "Codenames",
+    "playRecords": [
+      {
+        "date": "2018-01-25",
+        "coOp": "Yes",
+        "notes": "3 player"
+      },
+      {
+        "date": "2018-01-29",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "notes": "2 player"
+      },
+      {
+        "date": "2018-01-29",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "notes": "2 player"
+      },
+      {
+        "date": "2018-02-09",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "notes": "2-player co-op"
+      },
+      {
+        "date": "2018-03-05",
+        "coOpOutcome": "Won",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-03-22",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "notes": "Via Slack"
+      },
+      {
+        "date": "2018-04-18",
+        "coOpOutcome": "Win",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-04-18",
+        "coOpOutcome": "Win",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-05-12",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes",
+        "notes": "Hannah and John lost against 2 others"
+      },
+      {
+        "date": "2018-06-28",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-06-28",
+        "coOpOutcome": "Won",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-07-02",
+        "coOpOutcome": "Win",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-08-02",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-08-29",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "notes": "Hannah-spymaster"
+      },
+      {
+        "date": "2018-08-29",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "notes": "John=spymaster"
+      },
+      {
+        "date": "2018-10-22",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-10-22",
+        "coOpOutcome": "Won",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-10-31",
+        "coOpOutcome": "Won",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-10-31",
+        "coOpOutcome": "Won",
+        "coOp": "Yes"
+      }
     ]
   },
   "codenames-duet": {
     "boardGameGeekGameId": "224037",
     "boardGameGeekName": "Codenames Duet",
     "boardGameApiId": "codenames-duet",
-    "game": "Codenames Duet",
-    "dates": [
-      "2018-04-06",
-      "2018-05-31",
-      "2018-05-31",
-      "2018-05-31"
-    ],
-    "winners": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpOutcomes": [
-      "Lost",
-      "Lost",
-      "Lost",
-      "Won"
-    ],
-    "coOpTypes": [
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes"
-    ],
-    "notes": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null
+    "name": "Codenames Duet",
+    "playRecords": [
+      {
+        "date": "2018-04-06",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-05-31",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-05-31",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-05-31",
+        "coOpOutcome": "Won",
+        "coOp": "Yes"
+      }
     ]
   },
   "coup": {
     "boardGameGeekGameId": "131357",
     "boardGameGeekName": "Coup",
     "boardGameApiId": "coup",
-    "game": "Coup",
-    "dates": [
-      "2018-04-05",
-      "2018-04-20",
-      "2018-08-05",
-      "2018-09-01",
-      "2018-09-01",
-      "2018-10-18"
-    ],
-    "winners": [
-      "John",
-      "John",
-      "John",
-      "Hannah",
-      "John",
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      "Played at work. best of three."
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+    "name": "Coup",
+    "playRecords": [
+      {
+        "date": "2018-04-05",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-04-20",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-08-05",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-09-01",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-09-01",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-10-18",
+        "winner": "Hannah",
+        "coOp": "No",
+        "notes": "Played at work. best of three."
+      }
     ]
   },
   "coup-rebellion-g54": {
     "boardGameGeekGameId": "148943",
     "boardGameGeekName": "Coup: Rebellion G54",
     "boardGameApiId": "coup-rebellion-g54",
-    "game": "Coup: Rebellion G54"
+    "name": "Coup: Rebellion G54",
+    "playRecords": []
   },
   "coup-reformation": {
     "boardGameGeekGameId": "148931",
     "boardGameGeekName": "Coup: Reformation",
     "boardGameApiId": "coup-reformation",
-    "game": "Coup: Reformation",
-    "dates": [
-      "2018-05-26",
-      "2018-05-26"
-    ],
-    "winners": [
-      "Hannah",
-      "Other"
-    ],
-    "coOpOutcomes": [
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No"
-    ],
-    "notes": [
-      "Boardgames party",
-      "Boardgames party"
-    ],
-    "mechanics": [
-      "5 player",
-      "5 player"
+    "name": "Coup: Reformation",
+    "playRecords": [
+      {
+        "date": "2018-05-26",
+        "winner": "Hannah",
+        "coOp": "No",
+        "notes": "Boardgames party",
+        "mechanics": "5 player"
+      },
+      {
+        "date": "2018-05-26",
+        "winner": "Other",
+        "coOp": "No",
+        "notes": "Boardgames party",
+        "mechanics": "5 player"
+      }
     ]
   },
   "dead-of-winter-a-crossroads-game": {
     "boardGameGeekGameId": "150376",
     "boardGameGeekName": "Dead of Winter: A Crossroads Game",
     "boardGameApiId": "dead-of-winter-a-crossroads-game",
-    "game": "Dead of Winter: A Crossroads Game",
-    "dates": [
-      "2018-08-12"
-    ],
-    "winners": [
-      null
-    ],
-    "coOpOutcomes": [
-      "Lost"
-    ],
-    "coOpTypes": [
-      "Yes"
-    ],
-    "notes": [
-      null
-    ],
-    "mechanics": [
-      null
+    "name": "Dead of Winter: A Crossroads Game",
+    "playRecords": [
+      {
+        "date": "2018-08-12",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes"
+      }
     ]
   },
   "deadly-premonition-the-board-game": {
     "boardGameGeekGameId": "227318",
     "boardGameGeekName": "Deadly Premonition: The Board Game",
     "boardGameApiId": "deadly-premonition-the-board-game",
-    "game": "Deadly Premonition: The Board Game",
-    "dates": [
-      "2018-01-08"
-    ],
-    "winners": [
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null
-    ],
-    "coOpTypes": [
-      "No"
-    ],
-    "notes": [
-      null
-    ],
-    "mechanics": [
-      null
+    "name": "Deadly Premonition: The Board Game",
+    "playRecords": [
+      {
+        "date": "2018-01-08",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
     ]
   },
   "deadwood-1876": {
     "boardGameGeekGameId": "245197",
     "boardGameGeekName": "Deadwood 1876",
     "boardGameApiId": "deadwood-1876",
-    "game": "Deadwood 1876",
-    "dates": [
-      "2018-10-21",
-      "2018-11-03"
-    ],
-    "winners": [
-      "Hannah",
-      "Other"
-    ],
-    "coOpOutcomes": [
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null
+    "name": "Deadwood 1876",
+    "playRecords": [
+      {
+        "date": "2018-10-21",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-11-03",
+        "winner": "Other",
+        "coOp": "No"
+      }
     ]
   },
   "deep-sea-adventure": {
     "boardGameGeekGameId": "169654",
     "boardGameGeekName": "Deep Sea Adventure",
     "boardGameApiId": "deep-sea-adventure",
-    "game": "Deep Sea Adventure",
-    "dates": [
-      "2018-02-05",
-      "2018-03-24",
-      "2018-04-12",
-      "2018-05-24",
-      "2018-07-13",
-      "2018-09-05"
-    ],
-    "winners": [
-      "Hannah",
-      "John",
-      null,
-      "Hannah",
-      null,
-      null
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      "Win",
-      null,
-      null,
-      "won"
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "Yes",
-      "No",
-      "Yes",
-      "Yes"
-    ],
-    "notes": [
-      "three player at lunch in work",
-      null,
-      "Score: 93",
-      null,
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+    "name": "Deep Sea Adventure",
+    "playRecords": [
+      {
+        "date": "2018-02-05",
+        "winner": "Hannah",
+        "coOp": "No",
+        "notes": "three player at lunch in work"
+      },
+      {
+        "date": "2018-03-24",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-04-12",
+        "coOpOutcome": "Win",
+        "coOp": "Yes",
+        "notes": "Score: 93"
+      },
+      {
+        "date": "2018-05-24",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-07-13",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-09-05",
+        "coOpOutcome": "won",
+        "coOp": "Yes"
+      }
     ]
   },
   "diamonsters": {
     "boardGameGeekGameId": "144036",
     "boardGameGeekName": "Diamonsters",
     "boardGameApiId": "diamonsters",
-    "game": "Diamonsters",
-    "dates": [
-      "2018-02-06",
-      "2018-03-26",
-      "2018-04-19",
-      "2018-08-01"
-    ],
-    "winners": [
-      "Hannah",
-      "John",
-      "Hannah",
-      "John"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      "at work",
-      null,
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null
+    "name": "Diamonsters",
+    "playRecords": [
+      {
+        "date": "2018-02-06",
+        "winner": "Hannah",
+        "coOp": "No",
+        "notes": "at work"
+      },
+      {
+        "date": "2018-03-26",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-04-19",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-08-01",
+        "winner": "John",
+        "coOp": "No"
+      }
     ]
   },
   "dinosaur-island": {
     "boardGameGeekGameId": "221194",
     "boardGameGeekName": "Dinosaur Island",
     "boardGameApiId": "dinosaur-island",
-    "game": "Dinosaur Island",
-    "dates": [
-      "2018-01-22",
-      "2018-01-23",
-      "2018-02-02",
-      "2018-02-03",
-      "2018-03-25",
-      "2018-04-09",
-      "2018-05-26",
-      "2018-09-30"
-    ],
-    "winners": [
-      "Hannah",
-      "John",
-      "Hannah",
-      "Hannah",
-      "John",
-      "John",
-      "Other",
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      "At Wharf. 3 player.",
-      null,
-      null,
-      null,
-      null,
-      null,
-      "Boardgames party",
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      "4 player",
-      null
+    "name": "Dinosaur Island",
+    "playRecords": [
+      {
+        "date": "2018-01-22",
+        "winner": "Hannah",
+        "coOp": "No",
+        "notes": "At Wharf. 3 player."
+      },
+      {
+        "date": "2018-01-23",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-02-02",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-02-03",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-03-25",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-04-09",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-05-26",
+        "winner": "Other",
+        "coOp": "No",
+        "notes": "Boardgames party",
+        "mechanics": "4 player"
+      },
+      {
+        "date": "2018-09-30",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
     ]
   },
   "dominion-second-edition": {
     "boardGameGeekGameId": "209418",
     "boardGameGeekName": "Dominion (Second Edition)",
     "boardGameApiId": "dominion-second-edition",
-    "game": "Dominion (Second Edition)",
-    "dates": [
-      "2018-02-23",
-      "2018-02-25",
-      "2018-03-02",
-      "2018-03-02",
-      "2018-03-07",
-      "2018-03-16",
-      "2018-03-23",
-      "2018-06-02"
-    ],
-    "winners": [
-      "Hannah",
-      "John",
-      "John",
-      "Hannah",
-      "John",
-      "John",
-      "Draw",
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null,
-      "\"Deck top\"",
-      "\"Deck top\"",
-      null,
-      null,
-      null,
-      "Base game"
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+    "name": "Dominion (Second Edition)",
+    "playRecords": [
+      {
+        "date": "2018-02-23",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-02-25",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-03-02",
+        "winner": "John",
+        "coOp": "No",
+        "notes": "\"Deck top\""
+      },
+      {
+        "date": "2018-03-02",
+        "winner": "Hannah",
+        "coOp": "No",
+        "notes": "\"Deck top\""
+      },
+      {
+        "date": "2018-03-07",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-03-16",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-03-23",
+        "winner": "Draw",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-06-02",
+        "winner": "Hannah",
+        "coOp": "No",
+        "notes": "Base game"
+      }
     ]
   },
   "dominion-alchemy": {
     "boardGameGeekGameId": "66098",
     "boardGameGeekName": "Dominion: Alchemy",
     "boardGameApiId": "dominion-alchemy",
-    "game": "Dominion: Alchemy"
+    "name": "Dominion: Alchemy",
+    "playRecords": []
   },
   "dominion-dark-ages": {
     "boardGameGeekGameId": "125403",
     "boardGameGeekName": "Dominion: Dark Ages",
     "boardGameApiId": "dominion-dark-ages",
-    "game": "Dominion: Dark Ages"
+    "name": "Dominion: Dark Ages",
+    "playRecords": []
   },
   "dominion-empires": {
     "boardGameGeekGameId": "192951",
     "boardGameGeekName": "Dominion: Empires",
     "boardGameApiId": "dominion-empires",
-    "game": "Dominion: Empires"
+    "name": "Dominion: Empires",
+    "playRecords": []
   },
   "dominion-intrigue-second-edition": {
     "boardGameGeekGameId": "209419",
     "boardGameGeekName": "Dominion: Intrigue (Second Edition)",
     "boardGameApiId": "dominion-intrigue-second-edition",
-    "game": "Dominion: Intrigue (Second Edition)",
-    "dates": [
-      "2018-04-02",
-      "2018-04-08",
-      "2018-05-08",
-      "2018-05-25",
-      "2018-07-20",
-      "2018-09-29",
-      "2018-10-16"
-    ],
-    "winners": [
-      "Hannah",
-      "John",
-      "John",
-      "Draw",
-      "John",
-      "Hannah",
-      "John"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+    "name": "Dominion: Intrigue (Second Edition)",
+    "playRecords": [
+      {
+        "date": "2018-04-02",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-04-08",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-05-08",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-05-25",
+        "winner": "Draw",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-07-20",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-09-29",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-10-16",
+        "winner": "John",
+        "coOp": "No"
+      }
     ]
   },
   "dominion-seaside": {
     "boardGameGeekGameId": "51811",
     "boardGameGeekName": "Dominion: Seaside",
     "boardGameApiId": "dominion-seaside",
-    "game": "Dominion: Seaside",
-    "dates": [
-      "2018-10-20",
-      "2018-10-24",
-      "2018-11-03"
-    ],
-    "winners": [
-      "Hannah",
-      "Hannah",
-      "John"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      "High Seas",
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null
+    "name": "Dominion: Seaside",
+    "playRecords": [
+      {
+        "date": "2018-10-20",
+        "winner": "Hannah",
+        "coOp": "No",
+        "notes": "High Seas"
+      },
+      {
+        "date": "2018-10-24",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-11-03",
+        "winner": "John",
+        "coOp": "No"
+      }
     ]
   },
   "dungeons-dragons-starter-set": {
     "boardGameGeekGameId": "94902",
     "boardGameGeekName": "Dungeons & Dragons Starter Set",
     "boardGameApiId": "dungeons-dragons-starter-set",
-    "game": "Dungeons & Dragons Starter Set",
-    "dates": [
-      "2018-01-03"
-    ],
-    "winners": [
-      null
-    ],
-    "coOpOutcomes": [
-      null
-    ],
-    "coOpTypes": [
-      "Yes"
-    ],
-    "notes": [
-      null
-    ],
-    "mechanics": [
-      null
+    "name": "Dungeons & Dragons Starter Set",
+    "playRecords": [
+      {
+        "date": "2018-01-03",
+        "coOp": "Yes"
+      }
     ]
   },
   "empire-engine": {
     "boardGameGeekGameId": "145928",
     "boardGameGeekName": "Empire Engine",
     "boardGameApiId": "empire-engine",
-    "game": "Empire Engine"
+    "name": "Empire Engine",
+    "playRecords": []
   },
   "eve-the-second-genesis": {
     "boardGameGeekGameId": "24085",
     "boardGameGeekName": "EVE: The Second Genesis",
     "boardGameApiId": "eve-the-second-genesis",
-    "game": "EVE: The Second Genesis"
+    "name": "EVE: The Second Genesis",
+    "playRecords": []
   },
   "evolution": {
     "boardGameGeekGameId": "155703",
     "boardGameGeekName": "Evolution",
     "boardGameApiId": "evolution",
-    "game": "Evolution"
+    "name": "Evolution",
+    "playRecords": []
   },
   "exit-the-game-the-secret-lab": {
     "boardGameGeekGameId": "203417",
     "boardGameGeekName": "Exit: The Game – The Secret Lab",
     "boardGameApiId": "exit-the-game-the-secret-lab",
-    "game": "Exit: The Game – The Secret Lab"
+    "name": "Exit: The Game – The Secret Lab",
+    "playRecords": []
   },
   "fallout": {
     "boardGameGeekGameId": "232918",
     "boardGameGeekName": "Fallout",
     "boardGameApiId": "fallout",
-    "game": "Fallout",
-    "dates": [
-      "2018-01-21",
-      "2018-01-26",
-      "2018-07-22"
-    ],
-    "winners": [
-      "Hannah",
-      "Hannah",
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      "The Commonwealth",
-      "Far Harbour",
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null
+    "name": "Fallout",
+    "playRecords": [
+      {
+        "date": "2018-01-21",
+        "winner": "Hannah",
+        "coOp": "No",
+        "notes": "The Commonwealth"
+      },
+      {
+        "date": "2018-01-26",
+        "winner": "Hannah",
+        "coOp": "No",
+        "notes": "Far Harbour"
+      },
+      {
+        "date": "2018-07-22",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
     ]
   },
   "flash-point-fire-rescue": {
     "boardGameGeekGameId": "100901",
     "boardGameGeekName": "Flash Point: Fire Rescue",
     "boardGameApiId": "flash-point-fire-rescue",
-    "game": "Flash Point: Fire Rescue",
-    "dates": [
-      "2018-02-19",
-      "2018-02-20",
-      "2018-02-22",
-      "2018-04-03"
-    ],
-    "winners": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpOutcomes": [
-      "Lost",
-      "Won",
-      "Won",
-      "Win"
-    ],
-    "coOpTypes": [
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes"
-    ],
-    "notes": [
-      null,
-      "Just about!",
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null
+    "name": "Flash Point: Fire Rescue",
+    "playRecords": [
+      {
+        "date": "2018-02-19",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-02-20",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "notes": "Just about!"
+      },
+      {
+        "date": "2018-02-22",
+        "coOpOutcome": "Won",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-04-03",
+        "coOpOutcome": "Win",
+        "coOp": "Yes"
+      }
     ]
   },
   "fluxx": {
     "boardGameGeekGameId": "258",
     "boardGameGeekName": "Fluxx",
     "boardGameApiId": "fluxx",
-    "game": "Fluxx",
-    "dates": [
-      "2018-08-24"
-    ],
-    "winners": [
-      "John"
-    ],
-    "coOpOutcomes": [
-      null
-    ],
-    "coOpTypes": [
-      "No"
-    ],
-    "notes": [
-      "4 player"
-    ],
-    "mechanics": [
-      null
+    "name": "Fluxx",
+    "playRecords": [
+      {
+        "date": "2018-08-24",
+        "winner": "John",
+        "coOp": "No",
+        "notes": "4 player"
+      }
     ]
   },
   "fog-of-love": {
     "boardGameGeekGameId": "175324",
     "boardGameGeekName": "Fog of Love",
     "boardGameApiId": "fog-of-love",
-    "game": "Fog of Love",
-    "dates": [
-      "2018-06-02",
-      "2018-06-03"
-    ],
-    "winners": [
-      "Hannah",
-      null
-    ],
-    "coOpOutcomes": [
-      "Lost",
-      "Won"
-    ],
-    "coOpTypes": [
-      "Yes",
-      "Yes"
-    ],
-    "notes": [
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null
+    "name": "Fog of Love",
+    "playRecords": [
+      {
+        "date": "2018-06-02",
+        "winner": "Hannah",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-06-03",
+        "coOpOutcome": "Won",
+        "coOp": "Yes"
+      }
     ]
   },
   "forbidden-island": {
     "boardGameGeekGameId": "65244",
     "boardGameGeekName": "Forbidden Island",
     "boardGameApiId": "forbidden-island",
-    "game": "Forbidden Island",
-    "dates": [
-      "2018-05-28",
-      "2018-08-11"
-    ],
-    "winners": [
-      null,
-      null
-    ],
-    "coOpOutcomes": [
-      null,
-      "Won"
-    ],
-    "coOpTypes": [
-      "Yes",
-      "Yes"
-    ],
-    "notes": [
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null
+    "name": "Forbidden Island",
+    "playRecords": [
+      {
+        "date": "2018-05-28",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-08-11",
+        "coOpOutcome": "Won",
+        "coOp": "Yes"
+      }
     ]
   },
   "founders-of-gloomhaven": {
     "boardGameGeekGameId": "214032",
     "boardGameGeekName": "Founders of Gloomhaven",
     "boardGameApiId": "founders-of-gloomhaven",
-    "game": "Founders of Gloomhaven"
+    "name": "Founders of Gloomhaven",
+    "playRecords": []
   },
   "galaxy-trucker": {
     "boardGameGeekGameId": "31481",
     "boardGameGeekName": "Galaxy Trucker",
     "boardGameApiId": "galaxy-trucker",
-    "game": "Galaxy Trucker",
-    "dates": [
-      "2018-06-17"
-    ],
-    "winners": [
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null
-    ],
-    "coOpTypes": [
-      "No"
-    ],
-    "notes": [
-      null
-    ],
-    "mechanics": [
-      null
+    "name": "Galaxy Trucker",
+    "playRecords": [
+      {
+        "date": "2018-06-17",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
     ]
   },
   "a-game-of-thrones-the-card-game-second-edition": {
     "boardGameGeekGameId": "169255",
     "boardGameGeekName": "A Game of Thrones: The Card Game (Second Edition)",
     "boardGameApiId": "a-game-of-thrones-the-card-game-second-edition",
-    "game": "A Game of Thrones: The Card Game (Second Edition)",
-    "dates": [
-      "2018-01-18"
-    ],
-    "winners": [
-      "John"
-    ],
-    "coOpOutcomes": [
-      null
-    ],
-    "coOpTypes": [
-      "No"
-    ],
-    "notes": [
-      "New decks trial"
-    ],
-    "mechanics": [
-      null
+    "name": "A Game of Thrones: The Card Game (Second Edition)",
+    "playRecords": [
+      {
+        "date": "2018-01-18",
+        "winner": "John",
+        "coOp": "No",
+        "notes": "New decks trial"
+      }
     ]
   },
   "a-game-of-thrones-the-card-game-second-edition-lions-of-casterly-rock": {
     "boardGameGeekGameId": "201277",
     "boardGameGeekName": "A Game of Thrones: The Card Game (Second Edition) – Lions of Casterly Rock",
     "boardGameApiId": "a-game-of-thrones-the-card-game-second-edition-lions-of-casterly-rock",
-    "game": "A Game of Thrones: The Card Game (Second Edition) – Lions of Casterly Rock"
+    "name": "A Game of Thrones: The Card Game (Second Edition) – Lions of Casterly Rock",
+    "playRecords": []
   },
   "a-game-of-thrones-the-card-game-second-edition-taking-the-black": {
     "boardGameGeekGameId": "179601",
     "boardGameGeekName": "A Game of Thrones: The Card Game (Second edition) – Taking the Black",
     "boardGameApiId": "a-game-of-thrones-the-card-game-second-edition-taking-the-black",
-    "game": "A Game of Thrones: The Card Game (Second edition) – Taking the Black"
+    "name": "A Game of Thrones: The Card Game (Second edition) – Taking the Black",
+    "playRecords": []
   },
   "a-game-of-thrones-the-card-game-second-edition-wolves-of-the-north": {
     "boardGameGeekGameId": "189169",
     "boardGameGeekName": "A Game of Thrones: The Card Game (Second Edition) – Wolves of the North",
     "boardGameApiId": "a-game-of-thrones-the-card-game-second-edition-wolves-of-the-north",
-    "game": "A Game of Thrones: The Card Game (Second Edition) – Wolves of the North"
+    "name": "A Game of Thrones: The Card Game (Second Edition) – Wolves of the North",
+    "playRecords": []
   },
   "game-of-thrones-westeros-intrigue": {
     "boardGameGeekGameId": "155693",
     "boardGameGeekName": "Game of Thrones: Westeros Intrigue",
     "boardGameApiId": "game-of-thrones-westeros-intrigue",
-    "game": "Game of Thrones: Westeros Intrigue",
-    "dates": [
-      "2018-01-11",
-      "2018-02-12",
-      "2018-04-30"
-    ],
-    "winners": [
-      "John",
-      "Hannah",
-      "John"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null
+    "name": "Game of Thrones: Westeros Intrigue",
+    "playRecords": [
+      {
+        "date": "2018-01-11",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-02-12",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-04-30",
+        "winner": "John",
+        "coOp": "No"
+      }
     ]
   },
   "gloomhaven": {
     "boardGameGeekGameId": "174430",
     "boardGameGeekName": "Gloomhaven",
     "boardGameApiId": "gloomhaven",
-    "game": "Gloomhaven",
-    "dates": [
-      "2018-04-02",
-      "2018-04-07"
-    ],
-    "winners": [
-      null,
-      null
-    ],
-    "coOpOutcomes": [
-      "Win",
-      "Lost"
-    ],
-    "coOpTypes": [
-      "Yes",
-      "Yes"
-    ],
-    "notes": [
-      "Scenario 1",
-      "Scenario 2"
-    ],
-    "mechanics": [
-      null,
-      null
+    "name": "Gloomhaven",
+    "playRecords": [
+      {
+        "date": "2018-04-02",
+        "coOpOutcome": "Win",
+        "coOp": "Yes",
+        "notes": "Scenario 1"
+      },
+      {
+        "date": "2018-04-07",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes",
+        "notes": "Scenario 2"
+      }
     ]
   },
   "grifters": {
     "boardGameGeekGameId": "168054",
     "boardGameGeekName": "Grifters",
     "boardGameApiId": "grifters",
-    "game": "Grifters",
-    "dates": [
-      "2018-02-07",
-      "2018-02-21",
-      "2018-09-06"
-    ],
-    "winners": [
-      "John",
-      "John",
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null
+    "name": "Grifters",
+    "playRecords": [
+      {
+        "date": "2018-02-07",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-02-21",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-09-06",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
     ]
   },
   "harry-potter-hogwarts": {
     "boardGameGeekGameId": "67436",
     "boardGameGeekName": "Harry Potter Hogwarts",
     "boardGameApiId": "harry-potter-hogwarts",
-    "game": "Harry Potter Hogwarts"
+    "name": "Harry Potter Hogwarts",
+    "playRecords": []
   },
   "harry-potter-hogwarts-battle": {
     "boardGameGeekGameId": "199042",
     "boardGameGeekName": "Harry Potter: Hogwarts Battle",
     "boardGameApiId": "harry-potter-hogwarts-battle",
-    "game": "Harry Potter: Hogwarts Battle",
-    "dates": [
-      "2018-01-01",
-      "2018-01-14",
-      "2018-01-14",
-      "2018-01-17",
-      "2018-01-19",
-      "2018-01-25",
-      "2018-01-28"
-    ],
-    "winners": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpOutcomes": [
-      "Won",
-      "Won",
-      "Won",
-      "Won",
-      "Won",
-      "Won",
-      "Won"
-    ],
-    "coOpTypes": [
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes"
-    ],
-    "notes": [
-      "Game 1",
-      "Game 2",
-      "Game 3",
-      "Game 4",
-      "Game 5",
-      "Game 6",
-      "Game 7"
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+    "name": "Harry Potter: Hogwarts Battle",
+    "playRecords": [
+      {
+        "date": "2018-01-01",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "notes": "Game 1"
+      },
+      {
+        "date": "2018-01-14",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "notes": "Game 2"
+      },
+      {
+        "date": "2018-01-14",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "notes": "Game 3"
+      },
+      {
+        "date": "2018-01-17",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "notes": "Game 4"
+      },
+      {
+        "date": "2018-01-19",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "notes": "Game 5"
+      },
+      {
+        "date": "2018-01-25",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "notes": "Game 6"
+      },
+      {
+        "date": "2018-01-28",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "notes": "Game 7"
+      }
     ]
   },
   "harry-potter-hogwarts-battle-the-monster-box-of-monsters-expansion": {
     "boardGameGeekGameId": "223494",
     "boardGameGeekName": "Harry Potter: Hogwarts Battle – The Monster Box of Monsters Expansion",
     "boardGameApiId": "harry-potter-hogwarts-battle-the-monster-box-of-monsters-expansion",
-    "game": "Harry Potter: Hogwarts Battle – The Monster Box of Monsters Expansion",
-    "dates": [
-      "2018-01-31",
-      "2018-02-01",
-      "2018-05-27"
-    ],
-    "winners": [
-      null,
-      null,
-      null
-    ],
-    "coOpOutcomes": [
-      "Lost",
-      "Won",
-      "Lost"
-    ],
-    "coOpTypes": [
-      "Yes",
-      "Yes",
-      "Yes"
-    ],
-    "notes": [
-      "Box 1",
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null
+    "name": "Harry Potter: Hogwarts Battle – The Monster Box of Monsters Expansion",
+    "playRecords": [
+      {
+        "date": "2018-01-31",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes",
+        "notes": "Box 1"
+      },
+      {
+        "date": "2018-02-01",
+        "coOpOutcome": "Won",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-05-27",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes"
+      }
     ]
   },
   "hatsuden": {
     "boardGameGeekGameId": "228234",
     "boardGameGeekName": "HATSUDEN",
     "boardGameApiId": "hatsuden",
-    "game": "HATSUDEN",
-    "dates": [
-      "2018-06-04",
-      "2018-06-04",
-      "2018-06-26",
-      "2018-07-26"
-    ],
-    "winners": [
-      "Hannah",
-      "John",
-      "Draw",
-      "John"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null
+    "name": "HATSUDEN",
+    "playRecords": [
+      {
+        "date": "2018-06-04",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-06-04",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-06-26",
+        "winner": "Draw",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-07-26",
+        "winner": "John",
+        "coOp": "No"
+      }
     ]
   },
   "heart-of-crown": {
     "boardGameGeekGameId": "131904",
     "boardGameGeekName": "Heart of Crown",
     "boardGameApiId": "heart-of-crown",
-    "game": "Heart of Crown",
-    "dates": [
-      "2018-01-06",
-      "2018-01-09",
-      "2018-02-05",
-      "2018-02-26",
-      "2018-03-08",
-      "2018-06-14",
-      "2018-10-27",
-      "2018-10-28"
-    ],
-    "winners": [
-      "Hannah",
-      "John",
-      "Hannah",
-      "Hannah",
-      "John",
-      "John",
-      "Hannah",
-      "John"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+    "name": "Heart of Crown",
+    "playRecords": [
+      {
+        "date": "2018-01-06",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-01-09",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-02-05",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-02-26",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-03-08",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-06-14",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-10-27",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-10-28",
+        "winner": "John",
+        "coOp": "No"
+      }
     ]
   },
   "heart-of-crown-far-east-territory": {
     "boardGameGeekGameId": "141810",
     "boardGameGeekName": "Heart of Crown: Far East Territory",
     "boardGameApiId": "heart-of-crown-far-east-territory",
-    "game": "Heart of Crown: Far East Territory"
+    "name": "Heart of Crown: Far East Territory",
+    "playRecords": []
   },
   "heart-of-crown-northern-enchantress": {
     "boardGameGeekGameId": "141811",
     "boardGameGeekName": "Heart of Crown: Northern Enchantress",
     "boardGameApiId": "heart-of-crown-northern-enchantress",
-    "game": "Heart of Crown: Northern Enchantress"
+    "name": "Heart of Crown: Northern Enchantress",
+    "playRecords": []
   },
   "heroica-fortaan": {
     "boardGameGeekGameId": "94731",
     "boardGameGeekName": "Heroica: Fortaan",
     "boardGameApiId": "heroica-fortaan",
-    "game": "Heroica: Fortaan",
-    "dates": [
-      "2018-06-03"
-    ],
-    "winners": [
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null
-    ],
-    "coOpTypes": [
-      "No"
-    ],
-    "notes": [
-      null
-    ],
-    "mechanics": [
-      null
+    "name": "Heroica: Fortaan",
+    "playRecords": [
+      {
+        "date": "2018-06-03",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
     ]
   },
   "heroica-waldurk": {
     "boardGameGeekGameId": "94733",
     "boardGameGeekName": "Heroica: Waldurk",
     "boardGameApiId": "heroica-waldurk",
-    "game": "Heroica: Waldurk"
+    "name": "Heroica: Waldurk",
+    "playRecords": []
   },
   "hey-thats-my-fish": {
     "boardGameGeekGameId": "8203",
     "boardGameGeekName": "Hey, That's My Fish!",
     "boardGameApiId": "hey-thats-my-fish",
-    "game": "Hey, That's My Fish!",
-    "dates": [
-      "2018-02-13",
-      "2018-03-29",
-      "2018-05-10",
-      "2018-10-12"
-    ],
-    "winners": [
-      "John",
-      "John",
-      "John",
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null
+    "name": "Hey, That's My Fish!",
+    "playRecords": [
+      {
+        "date": "2018-02-13",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-03-29",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-05-10",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-10-12",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
     ]
   },
   "hive-pocket": {
     "boardGameGeekGameId": "154597",
     "boardGameGeekName": "Hive Pocket",
     "boardGameApiId": "hive-pocket",
-    "game": "Hive Pocket",
-    "dates": [
-      "2018-10-02",
-      "2018-10-06",
-      "2018-10-13"
-    ],
-    "winners": [
-      "Draw",
-      "John",
-      "John"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null
+    "name": "Hive Pocket",
+    "playRecords": [
+      {
+        "date": "2018-10-02",
+        "winner": "Draw",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-10-06",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-10-13",
+        "winner": "John",
+        "coOp": "No"
+      }
     ]
   },
   "jurassic-snack": {
     "boardGameGeekGameId": "241164",
     "boardGameGeekName": "Jurassic Snack",
     "boardGameApiId": "jurassic-snack",
-    "game": "Jurassic Snack",
-    "dates": [
-      "2018-06-02",
-      "2018-07-25",
-      "2018-08-15",
-      "2018-08-22",
-      "2018-09-19",
-      "2018-11-10"
-    ],
-    "winners": [
-      "John",
-      "John",
-      "Hannah",
-      "John",
-      "John",
-      "John"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+    "name": "Jurassic Snack",
+    "playRecords": [
+      {
+        "date": "2018-06-02",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-07-25",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-08-15",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-08-22",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-09-19",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-11-10",
+        "winner": "John",
+        "coOp": "No"
+      }
     ]
   },
   "kanagawa": {
     "boardGameGeekGameId": "200147",
     "boardGameGeekName": "Kanagawa",
     "boardGameApiId": "kanagawa",
-    "game": "Kanagawa",
-    "dates": [
-      "2018-09-22"
-    ],
-    "winners": [
-      "John"
-    ],
-    "coOpOutcomes": [
-      null
-    ],
-    "coOpTypes": [
-      "No"
-    ],
-    "notes": [
-      null
-    ],
-    "mechanics": [
-      null
+    "name": "Kanagawa",
+    "playRecords": [
+      {
+        "date": "2018-09-22",
+        "winner": "John",
+        "coOp": "No"
+      }
     ]
   },
   "letters-to-santa": {
     "boardGameGeekGameId": "129622",
     "boardGameGeekName": "Letters to Santa",
     "boardGameApiId": "letters-to-santa",
-    "game": "Letters to Santa"
+    "name": "Letters to Santa",
+    "playRecords": []
   },
   "love-letter": {
     "boardGameGeekGameId": "129622",
     "boardGameGeekName": "Love Letter",
     "boardGameApiId": "love-letter",
-    "game": "Love Letter",
-    "dates": [
-      "2018-02-07",
-      "2018-02-19",
-      "2018-02-26",
-      "2018-02-26",
-      "2018-02-26",
-      "2018-03-06",
-      "2018-03-19",
-      "2018-03-19",
-      "2018-03-21",
-      "2018-04-24",
-      "2018-06-06",
-      "2018-06-12",
-      "2018-07-01",
-      "2018-07-14",
-      "2018-08-05",
-      "2018-08-05",
-      "2018-08-23"
-    ],
-    "winners": [
-      "Hannah",
-      "John",
-      "Hannah",
-      "X",
-      "John",
-      "Hannah",
-      "John",
-      "Hannah",
-      "Hannah",
-      "John",
-      "John",
-      "Hannah",
-      "Hannah",
-      "Hannah",
-      "Hannah",
-      "Hannah",
-      "John"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      "3 player at work",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+    "name": "Love Letter",
+    "playRecords": [
+      {
+        "date": "2018-02-07",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-02-19",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-02-26",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-02-26",
+        "winner": "X",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-02-26",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-03-06",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-03-19",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-03-19",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-03-21",
+        "winner": "Hannah",
+        "coOp": "No",
+        "notes": "3 player at work"
+      },
+      {
+        "date": "2018-04-24",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-06-06",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-06-12",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-07-01",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-07-14",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-08-05",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-08-05",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-08-23",
+        "winner": "John",
+        "coOp": "No"
+      }
     ]
   },
   "love-letter-nordic": {
     "boardGameGeekGameId": "129622",
     "boardGameGeekName": "Love Letter Nordic",
     "boardGameApiId": "love-letter-nordic",
-    "game": "Love Letter Nordic",
-    "dates": [
-      "2018-08-05",
-      "2018-08-09"
-    ],
-    "winners": [
-      "Hannah",
-      "John"
-    ],
-    "coOpOutcomes": [
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null
+    "name": "Love Letter Nordic",
+    "playRecords": [
+      {
+        "date": "2018-08-05",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-08-09",
+        "winner": "John",
+        "coOp": "No"
+      }
     ]
   },
   "love-letter-premium": {
     "boardGameGeekGameId": "196326",
     "boardGameGeekName": "Love Letter Premium",
     "boardGameApiId": "love-letter-premium",
-    "game": "Love Letter Premium",
-    "dates": [
-      "2018-11-07"
-    ],
-    "winners": [
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null
-    ],
-    "coOpTypes": [
-      "No"
-    ],
-    "notes": [
-      null
-    ],
-    "mechanics": [
-      null
+    "name": "Love Letter Premium",
+    "playRecords": [
+      {
+        "date": "2018-11-07",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
     ]
   },
   "love-letter-batman": {
     "boardGameGeekGameId": "168584",
     "boardGameGeekName": "Love Letter: Batman",
     "boardGameApiId": "love-letter-batman",
-    "game": "Love Letter: Batman",
-    "dates": [
-      "2018-02-05",
-      "2018-07-31",
-      "2018-09-08",
-      "2018-10-30"
-    ],
-    "winners": [
-      "John",
-      "Hannah",
-      "Hannah",
-      "John"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null
+    "name": "Love Letter: Batman",
+    "playRecords": [
+      {
+        "date": "2018-02-05",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-07-31",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-09-08",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-10-30",
+        "winner": "John",
+        "coOp": "No"
+      }
     ]
   },
   "love-letter-legend-of-the-five-rings": {
     "boardGameGeekGameId": "129622",
     "boardGameGeekName": "Love Letter: Legend of the Five Rings",
     "boardGameApiId": "love-letter-legend-of-the-five-rings",
-    "game": "Love Letter: Legend of the Five Rings",
-    "dates": [
-      "2018-03-27",
-      "2018-04-27",
-      "2018-05-17",
-      "2018-08-18"
-    ],
-    "winners": [
-      "John",
-      "John",
-      "Hannah",
-      "John"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null
+    "name": "Love Letter: Legend of the Five Rings",
+    "playRecords": [
+      {
+        "date": "2018-03-27",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-04-27",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-05-17",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-08-18",
+        "winner": "John",
+        "coOp": "No"
+      }
     ]
   },
   "love-letter-the-hobbit-the-battle-of-the-five-armies": {
     "boardGameGeekGameId": "169611",
     "boardGameGeekName": "Love Letter: The Hobbit – The Battle of the Five Armies",
     "boardGameApiId": "love-letter-the-hobbit-the-battle-of-the-five-armies",
-    "game": "Love Letter: The Hobbit – The Battle of the Five Armies",
-    "dates": [
-      "2018-11-06"
-    ],
-    "winners": [
-      "John"
-    ],
-    "coOpOutcomes": [
-      null
-    ],
-    "coOpTypes": [
-      "No"
-    ],
-    "notes": [
-      null
-    ],
-    "mechanics": [
-      null
+    "name": "Love Letter: The Hobbit – The Battle of the Five Armies",
+    "playRecords": [
+      {
+        "date": "2018-11-06",
+        "winner": "John",
+        "coOp": "No"
+      }
     ]
   },
   "lovecraft-letter": {
     "boardGameGeekGameId": "198740",
     "boardGameGeekName": "Lovecraft Letter",
     "boardGameApiId": "lovecraft-letter",
-    "game": "Lovecraft Letter",
-    "dates": [
-      "2018-01-02",
-      "2018-01-04",
-      "2018-02-11",
-      "2018-02-28",
-      "2018-03-05",
-      "2018-04-10",
-      "2018-04-13",
-      "2018-04-15",
-      "2018-04-21",
-      "2018-05-15",
-      "2018-05-26",
-      "2018-06-20",
-      "2018-07-11",
-      "2018-08-24",
-      "2018-09-04",
-      "2018-09-10",
-      "2018-10-03",
-      "2018-11-02"
-    ],
-    "winners": [
-      "John",
-      "John",
-      "John",
-      "Hannah",
-      "Hannah",
-      "Hannah",
-      "Hannah",
-      "Hannah",
-      "Hannah",
-      "John",
-      "Hannah",
-      "John",
-      "John",
-      "Other",
-      "John",
-      "John",
-      "Hannah",
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      "Boardgames party",
-      null,
-      null,
-      "3 player",
-      null,
-      null,
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      "5 player",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+    "name": "Lovecraft Letter",
+    "playRecords": [
+      {
+        "date": "2018-01-02",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-01-04",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-02-11",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-02-28",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-03-05",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-04-10",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-04-13",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-04-15",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-04-21",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-05-15",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-05-26",
+        "winner": "Hannah",
+        "coOp": "No",
+        "notes": "Boardgames party",
+        "mechanics": "5 player"
+      },
+      {
+        "date": "2018-06-20",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-07-11",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-08-24",
+        "winner": "Other",
+        "coOp": "No",
+        "notes": "3 player"
+      },
+      {
+        "date": "2018-09-04",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-09-10",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-10-03",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-11-02",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
     ]
   },
   "lunar-command": {
     "boardGameGeekGameId": "41834",
     "boardGameGeekName": "Lunar Command",
     "boardGameApiId": "lunar-command",
-    "game": "Lunar Command"
+    "name": "Lunar Command",
+    "playRecords": []
   },
   "machi-koro": {
     "boardGameGeekGameId": "143884",
     "boardGameGeekName": "Machi Koro",
     "boardGameApiId": "machi-koro",
-    "game": "Machi Koro",
-    "dates": [
-      "2018-01-01",
-      "2018-01-29",
-      "2018-02-16",
-      "2018-02-26",
-      "2018-02-26",
-      "2018-05-07",
-      "2018-07-15"
-    ],
-    "winners": [
-      "John",
-      "Hannah",
-      "Hannah",
-      "X",
-      "Hannah",
-      "John",
-      "John"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+    "name": "Machi Koro",
+    "playRecords": [
+      {
+        "date": "2018-01-01",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-01-29",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-02-16",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-02-26",
+        "winner": "X",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-02-26",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-05-07",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-07-15",
+        "winner": "John",
+        "coOp": "No"
+      }
     ]
   },
   "machi-koro-bright-lights-big-city": {
     "boardGameGeekGameId": "205494",
     "boardGameGeekName": "Machi Koro: Bright Lights, Big City",
     "boardGameApiId": "machi-koro-bright-lights-big-city",
-    "game": "Machi Koro: Bright Lights, Big City",
-    "dates": [
-      "2018-03-04",
-      "2018-03-04"
-    ],
-    "winners": [
-      "John",
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null
+    "name": "Machi Koro: Bright Lights, Big City",
+    "playRecords": [
+      {
+        "date": "2018-03-04",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-03-04",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
     ]
   },
   "machi-koro-harbor": {
     "boardGameGeekGameId": "143789",
     "boardGameGeekName": "Machi Koro: Harbor",
     "boardGameApiId": "machi-koro-harbor",
-    "game": "Machi Koro: Harbor"
+    "name": "Machi Koro: Harbor",
+    "playRecords": []
   },
   "machi-koro-millionaires-row": {
     "boardGameGeekGameId": "160154",
     "boardGameGeekName": "Machi Koro: Millionaire's Row",
     "boardGameApiId": "machi-koro-millionaires-row",
-    "game": "Machi Koro: Millionaire's Row"
+    "name": "Machi Koro: Millionaire's Row",
+    "playRecords": []
   },
   "marrying-mr-darcy": {
     "boardGameGeekGameId": "145308",
     "boardGameGeekName": "Marrying Mr. Darcy",
     "boardGameApiId": "marrying-mr-darcy",
-    "game": "Marrying Mr. Darcy",
-    "dates": [
-      "2018-01-20",
-      "2018-02-14",
-      "2018-04-05",
-      "2018-04-17",
-      "2018-06-08"
-    ],
-    "winners": [
-      "Hannah",
-      "John",
-      "Hannah",
-      "John",
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null,
-      null
+    "name": "Marrying Mr. Darcy",
+    "playRecords": [
+      {
+        "date": "2018-01-20",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-02-14",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-04-05",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-04-17",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-06-08",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
     ]
   },
   "marrying-mr-darcy-the-emma-expansion": {
     "boardGameGeekGameId": "180524",
     "boardGameGeekName": "Marrying Mr. Darcy: the Emma Expansion",
     "boardGameApiId": "marrying-mr-darcy-the-emma-expansion",
-    "game": "Marrying Mr. Darcy: the Emma Expansion",
-    "dates": [
-      "2018-08-10"
-    ],
-    "winners": [
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null
-    ],
-    "coOpTypes": [
-      "No"
-    ],
-    "notes": [
-      null
-    ],
-    "mechanics": [
-      null
+    "name": "Marrying Mr. Darcy: the Emma Expansion",
+    "playRecords": [
+      {
+        "date": "2018-08-10",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
     ]
   },
   "the-mind": {
     "boardGameGeekGameId": "244992",
     "boardGameGeekName": "The Mind",
     "boardGameApiId": "the-mind",
-    "game": "The Mind",
-    "dates": [
-      "2018-08-04",
-      "2018-08-08",
-      "2018-09-02",
-      "2018-09-02",
-      "2018-09-02",
-      "2018-10-12"
-    ],
-    "winners": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpOutcomes": [
-      "lost",
-      "lost",
-      "lost",
-      "lost",
-      "lost",
-      "Lost"
-    ],
-    "coOpTypes": [
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes"
-    ],
-    "notes": [
-      "level 6",
-      "level 8",
-      "4-player",
-      "4-player",
-      "4-player",
-      "Level 10"
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+    "name": "The Mind",
+    "playRecords": [
+      {
+        "date": "2018-08-04",
+        "coOpOutcome": "lost",
+        "coOp": "Yes",
+        "notes": "level 6"
+      },
+      {
+        "date": "2018-08-08",
+        "coOpOutcome": "lost",
+        "coOp": "Yes",
+        "notes": "level 8"
+      },
+      {
+        "date": "2018-09-02",
+        "coOpOutcome": "lost",
+        "coOp": "Yes",
+        "notes": "4-player"
+      },
+      {
+        "date": "2018-09-02",
+        "coOpOutcome": "lost",
+        "coOp": "Yes",
+        "notes": "4-player"
+      },
+      {
+        "date": "2018-09-02",
+        "coOpOutcome": "lost",
+        "coOp": "Yes",
+        "notes": "4-player"
+      },
+      {
+        "date": "2018-10-12",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes",
+        "notes": "Level 10"
+      }
     ]
   },
   "mistborn-house-war": {
     "boardGameGeekGameId": "182626",
     "boardGameGeekName": "Mistborn: House War",
     "boardGameApiId": "mistborn-house-war",
-    "game": "Mistborn: House War"
+    "name": "Mistborn: House War",
+    "playRecords": []
   },
   "munchkin-loot-letter": {
     "boardGameGeekGameId": "129622",
     "boardGameGeekName": "Munchkin Loot Letter",
     "boardGameApiId": "munchkin-loot-letter",
-    "game": "Munchkin Loot Letter",
-    "dates": [
-      "2018-02-08"
-    ],
-    "winners": [
-      "John"
-    ],
-    "coOpOutcomes": [
-      null
-    ],
-    "coOpTypes": [
-      "No"
-    ],
-    "notes": [
-      null
-    ],
-    "mechanics": [
-      null
+    "name": "Munchkin Loot Letter",
+    "playRecords": [
+      {
+        "date": "2018-02-08",
+        "winner": "John",
+        "coOp": "No"
+      }
     ]
   },
   "pandemic": {
     "boardGameGeekGameId": "30549",
     "boardGameGeekName": "Pandemic",
     "boardGameApiId": "pandemic",
-    "game": "Pandemic",
-    "dates": [
-      "2018-03-09",
-      "2018-05-03",
-      "2018-06-29",
-      "2018-10-23"
-    ],
-    "winners": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpOutcomes": [
-      "Lost",
-      "Won",
-      "Won",
-      "Lost"
-    ],
-    "coOpTypes": [
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes"
-    ],
-    "notes": [
-      null,
-      "With house rule",
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null
+    "name": "Pandemic",
+    "playRecords": [
+      {
+        "date": "2018-03-09",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-05-03",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "notes": "With house rule"
+      },
+      {
+        "date": "2018-06-29",
+        "coOpOutcome": "Won",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-10-23",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes"
+      }
     ]
   },
   "pandemic-legacy-season-1": {
     "boardGameGeekGameId": "161936",
     "boardGameGeekName": "Pandemic Legacy: Season 1",
     "boardGameApiId": "pandemic-legacy-season-1",
-    "game": "Pandemic Legacy: Season 1",
-    "dates": [
-      "2018-01-24",
-      "2018-02-27",
-      "2018-03-30",
-      "2018-05-01",
-      "2018-05-30",
-      "2018-06-21",
-      "2018-07-04",
-      "2018-07-08",
-      "2018-07-08",
-      "2018-07-08"
-    ],
-    "winners": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpOutcomes": [
-      "Won",
-      "Won",
-      "Won",
-      "Won",
-      "Won",
-      "Won",
-      null,
-      "Win",
-      "Lose",
-      "Win"
-    ],
-    "coOpTypes": [
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes",
-      "Yes"
-    ],
-    "notes": [
-      "Month 4 - 4 player",
-      null,
-      "June game 1 - 4 player",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+    "name": "Pandemic Legacy: Season 1",
+    "playRecords": [
+      {
+        "date": "2018-01-24",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "notes": "Month 4 - 4 player"
+      },
+      {
+        "date": "2018-02-27",
+        "coOpOutcome": "Won",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-03-30",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "notes": "June game 1 - 4 player"
+      },
+      {
+        "date": "2018-05-01",
+        "coOpOutcome": "Won",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-05-30",
+        "coOpOutcome": "Won",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-06-21",
+        "coOpOutcome": "Won",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-07-04",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-07-08",
+        "coOpOutcome": "Win",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-07-08",
+        "coOpOutcome": "Lose",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-07-08",
+        "coOpOutcome": "Win",
+        "coOp": "Yes"
+      }
     ]
   },
   "pandemic-legacy-season-2": {
     "boardGameGeekGameId": "221107",
     "boardGameGeekName": "Pandemic Legacy: Season 2",
     "boardGameApiId": "pandemic-legacy-season-2",
-    "game": "Pandemic Legacy: Season 2"
+    "name": "Pandemic Legacy: Season 2",
+    "playRecords": []
   },
   "pandemic-contagion": {
     "boardGameGeekGameId": "157789",
     "boardGameGeekName": "Pandemic: Contagion",
     "boardGameApiId": "pandemic-contagion",
-    "game": "Pandemic: Contagion",
-    "dates": [
-      "2018-09-26",
-      "2018-10-05",
-      "2018-10-09",
-      "2018-10-26"
-    ],
-    "winners": [
-      "John",
-      "Draw",
-      "John",
-      "John"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null
+    "name": "Pandemic: Contagion",
+    "playRecords": [
+      {
+        "date": "2018-09-26",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-10-05",
+        "winner": "Draw",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-10-09",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-10-26",
+        "winner": "John",
+        "coOp": "No"
+      }
     ]
   },
   "pandemic-iberia": {
     "boardGameGeekGameId": "198928",
     "boardGameGeekName": "Pandemic: Iberia",
     "boardGameApiId": "pandemic-iberia",
-    "game": "Pandemic: Iberia",
-    "dates": [
-      "2018-01-07",
-      "2018-05-18",
-      "2018-10-07"
-    ],
-    "winners": [
-      null,
-      null,
-      null
-    ],
-    "coOpOutcomes": [
-      "Won",
-      "Won",
-      "Lost"
-    ],
-    "coOpTypes": [
-      "Yes",
-      "Yes",
-      "Yes"
-    ],
-    "notes": [
-      null,
-      null,
-      "Lost with one red card short to research the final disease on the final turn; only two out breaks all game."
-    ],
-    "mechanics": [
-      null,
-      null,
-      null
+    "name": "Pandemic: Iberia",
+    "playRecords": [
+      {
+        "date": "2018-01-07",
+        "coOpOutcome": "Won",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-05-18",
+        "coOpOutcome": "Won",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-10-07",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes",
+        "notes": "Lost with one red card short to research the final disease on the final turn; only two out breaks all game."
+      }
     ]
   },
   "pandemic-in-the-lab": {
     "boardGameGeekGameId": "137136",
     "boardGameGeekName": "Pandemic: In the Lab",
     "boardGameApiId": "pandemic-in-the-lab",
-    "game": "Pandemic: In the Lab",
-    "dates": [
-      "2018-06-26",
-      "2018-06-27"
-    ],
-    "winners": [
-      null,
-      null
-    ],
-    "coOpOutcomes": [
-      "Lost",
-      "Won"
-    ],
-    "coOpTypes": [
-      "Yes",
-      "Yes"
-    ],
-    "notes": [
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null
+    "name": "Pandemic: In the Lab",
+    "playRecords": [
+      {
+        "date": "2018-06-26",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-06-27",
+        "coOpOutcome": "Won",
+        "coOp": "Yes"
+      }
     ]
   },
   "pandemic-on-the-brink": {
     "boardGameGeekGameId": "40849",
     "boardGameGeekName": "Pandemic: On the Brink",
     "boardGameApiId": "pandemic-on-the-brink",
-    "game": "Pandemic: On the Brink",
-    "dates": [
-      "2018-06-22",
-      "2018-06-23",
-      "2018-06-25"
-    ],
-    "winners": [
-      null,
-      null,
-      null
-    ],
-    "coOpOutcomes": [
-      "Won",
-      "Won",
-      "Won"
-    ],
-    "coOpTypes": [
-      "Yes",
-      "Yes",
-      "Yes"
-    ],
-    "notes": [
-      null,
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null
+    "name": "Pandemic: On the Brink",
+    "playRecords": [
+      {
+        "date": "2018-06-22",
+        "coOpOutcome": "Won",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-06-23",
+        "coOpOutcome": "Won",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-06-25",
+        "coOpOutcome": "Won",
+        "coOp": "Yes"
+      }
     ]
   },
   "pandemic-reign-of-cthulhu": {
     "boardGameGeekGameId": "192153",
     "boardGameGeekName": "Pandemic: Reign of Cthulhu",
     "boardGameApiId": "pandemic-reign-of-cthulhu",
-    "game": "Pandemic: Reign of Cthulhu",
-    "dates": [
-      "2018-02-04",
-      "2018-05-22",
-      "2018-05-23"
-    ],
-    "winners": [
-      null,
-      null,
-      null
-    ],
-    "coOpOutcomes": [
-      "Won",
-      "Lost",
-      "Lost"
-    ],
-    "coOpTypes": [
-      "Yes",
-      "Yes",
-      "No"
-    ],
-    "notes": [
-      null,
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null
+    "name": "Pandemic: Reign of Cthulhu",
+    "playRecords": [
+      {
+        "date": "2018-02-04",
+        "coOpOutcome": "Won",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-05-22",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-05-23",
+        "coOpOutcome": "Lost",
+        "coOp": "No"
+      }
     ]
   },
   "pandemic-rising-tide": {
     "boardGameGeekGameId": "234671",
     "boardGameGeekName": "Pandemic: Rising Tide",
     "boardGameApiId": "pandemic-rising-tide",
-    "game": "Pandemic: Rising Tide",
-    "dates": [
-      "2018-02-18",
-      "2018-03-21"
-    ],
-    "winners": [
-      null,
-      null
-    ],
-    "coOpOutcomes": [
-      "Won",
-      "Won"
-    ],
-    "coOpTypes": [
-      "Yes",
-      "Yes"
-    ],
-    "notes": [
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null
+    "name": "Pandemic: Rising Tide",
+    "playRecords": [
+      {
+        "date": "2018-02-18",
+        "coOpOutcome": "Won",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-03-21",
+        "coOpOutcome": "Won",
+        "coOp": "Yes"
+      }
     ]
   },
   "pandemic-the-cure": {
     "boardGameGeekGameId": "150658",
     "boardGameGeekName": "Pandemic: The Cure",
     "boardGameApiId": "pandemic-the-cure",
-    "game": "Pandemic: The Cure",
-    "dates": [
-      "2018-06-03",
-      "2018-06-11",
-      "2018-08-18"
-    ],
-    "winners": [
-      null,
-      null,
-      null
-    ],
-    "coOpOutcomes": [
-      "Won",
-      "Won",
-      "Won"
-    ],
-    "coOpTypes": [
-      "Yes",
-      "Yes",
-      "Yes"
-    ],
-    "notes": [
-      null,
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null
+    "name": "Pandemic: The Cure",
+    "playRecords": [
+      {
+        "date": "2018-06-03",
+        "coOpOutcome": "Won",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-06-11",
+        "coOpOutcome": "Won",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-08-18",
+        "coOpOutcome": "Won",
+        "coOp": "Yes"
+      }
     ]
   },
   "photosynthesis": {
     "boardGameGeekGameId": "218603",
     "boardGameGeekName": "Photosynthesis",
     "boardGameApiId": "photosynthesis",
-    "game": "Photosynthesis",
-    "dates": [
-      "2018-04-25",
-      "2018-04-26",
-      "2018-05-14",
-      "2018-07-17"
-    ],
-    "winners": [
-      "John",
-      "Hannah",
-      "John",
-      "John"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null
+    "name": "Photosynthesis",
+    "playRecords": [
+      {
+        "date": "2018-04-25",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-04-26",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-05-14",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-07-17",
+        "winner": "John",
+        "coOp": "No"
+      }
     ]
   },
   "the-pyramids-deadline": {
     "boardGameGeekGameId": "215469",
     "boardGameGeekName": "The Pyramid's Deadline",
     "boardGameApiId": "the-pyramids-deadline",
-    "game": "The Pyramid's Deadline",
-    "dates": [
-      "2018-08-05",
-      "2018-08-28"
-    ],
-    "winners": [
-      "John",
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null
+    "name": "The Pyramid's Deadline",
+    "playRecords": [
+      {
+        "date": "2018-08-05",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-08-28",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
     ]
   },
   "ramses-return": {
     "boardGameGeekGameId": "89927",
     "boardGameGeekName": "Ramses Return",
     "boardGameApiId": "ramses-return",
-    "game": "Ramses Return"
+    "name": "Ramses Return",
+    "playRecords": []
   },
   "the-resistance": {
     "boardGameGeekGameId": "41114",
     "boardGameGeekName": "The Resistance",
     "boardGameApiId": "the-resistance",
-    "game": "The Resistance",
-    "dates": [
-      "2018-11-09"
-    ],
-    "winners": [
-      null
-    ],
-    "coOpOutcomes": [
-      "Lost"
-    ],
-    "coOpTypes": [
-      "Yes"
-    ],
-    "notes": [
-      null
-    ],
-    "mechanics": [
-      null
+    "name": "The Resistance",
+    "playRecords": [
+      {
+        "date": "2018-11-09",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes"
+      }
     ]
   },
   "the-resistance-hidden-agenda": {
     "boardGameGeekGameId": "162890",
     "boardGameGeekName": "The Resistance: Hidden Agenda",
     "boardGameApiId": "the-resistance-hidden-agenda",
-    "game": "The Resistance: Hidden Agenda"
+    "name": "The Resistance: Hidden Agenda",
+    "playRecords": []
   },
   "the-resistance-hostile-intent": {
     "boardGameGeekGameId": "162889",
     "boardGameGeekName": "The Resistance: Hostile Intent",
     "boardGameApiId": "the-resistance-hostile-intent",
-    "game": "The Resistance: Hostile Intent"
+    "name": "The Resistance: Hostile Intent",
+    "playRecords": []
   },
   "the-resistance-the-plot-thickens": {
     "boardGameGeekGameId": "200630",
     "boardGameGeekName": "The Resistance: The Plot Thickens",
     "boardGameApiId": "the-resistance-the-plot-thickens",
-    "game": "The Resistance: The Plot Thickens"
+    "name": "The Resistance: The Plot Thickens",
+    "playRecords": []
   },
   "sagrada": {
     "boardGameGeekGameId": "199561",
     "boardGameGeekName": "Sagrada",
     "boardGameApiId": "sagrada",
-    "game": "Sagrada",
-    "dates": [
-      "2018-03-15",
-      "2018-05-19",
-      "2018-07-12"
-    ],
-    "winners": [
-      "Hannah",
-      "Hannah",
-      "John"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null
+    "name": "Sagrada",
+    "playRecords": [
+      {
+        "date": "2018-03-15",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-05-19",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-07-12",
+        "winner": "John",
+        "coOp": "No"
+      }
     ]
   },
   "sherlock-holmes-consulting-detective-the-thames-murders-other-cases": {
     "boardGameGeekGameId": "2511",
     "boardGameGeekName": "Sherlock Holmes Consulting Detective: The Thames Murders & Other Cases",
     "boardGameApiId": "sherlock-holmes-consulting-detective-the-thames-murders-other-cases",
-    "game": "Sherlock Holmes Consulting Detective: The Thames Murders & Other Cases",
-    "dates": [
-      "2018-04-01"
-    ],
-    "winners": [
-      null
-    ],
-    "coOpOutcomes": [
-      "Win"
-    ],
-    "coOpTypes": [
-      "Yes"
-    ],
-    "notes": [
-      null
-    ],
-    "mechanics": [
-      null
+    "name": "Sherlock Holmes Consulting Detective: The Thames Murders & Other Cases",
+    "playRecords": [
+      {
+        "date": "2018-04-01",
+        "coOpOutcome": "Win",
+        "coOp": "Yes"
+      }
     ]
   },
   "space-base": {
     "boardGameGeekGameId": "242302",
     "boardGameGeekName": "Space Base",
     "boardGameApiId": "space-base",
-    "game": "Space Base",
-    "dates": [
-      "2018-06-02",
-      "2018-06-13",
-      "2018-06-15",
-      "2018-06-23",
-      "2018-08-20",
-      "2018-09-14"
-    ],
-    "winners": [
-      "John",
-      "Hannah",
-      "Hannah",
-      "Hannah",
-      "Hannah",
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      "3P",
-      null,
-      null,
-      null,
-      null,
-      "4-player"
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+    "name": "Space Base",
+    "playRecords": [
+      {
+        "date": "2018-06-02",
+        "winner": "John",
+        "coOp": "No",
+        "notes": "3P"
+      },
+      {
+        "date": "2018-06-13",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-06-15",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-06-23",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-08-20",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-09-14",
+        "winner": "Hannah",
+        "coOp": "No",
+        "notes": "4-player"
+      }
     ]
   },
   "spynet": {
     "boardGameGeekGameId": "229006",
     "boardGameGeekName": "SpyNet",
     "boardGameApiId": "spynet",
-    "game": "SpyNet",
-    "dates": [
-      "2018-08-18"
-    ],
-    "winners": [
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null
-    ],
-    "coOpTypes": [
-      "No"
-    ],
-    "notes": [
-      null
-    ],
-    "mechanics": [
-      null
+    "name": "SpyNet",
+    "playRecords": [
+      {
+        "date": "2018-08-18",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
     ]
   },
   "sushi-go": {
     "boardGameGeekGameId": "133473",
     "boardGameGeekName": "Sushi Go!",
     "boardGameApiId": "sushi-go",
-    "game": "Sushi Go!",
-    "dates": [
-      "2018-03-07",
-      "2018-03-28"
-    ],
-    "winners": [
-      "John",
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null
+    "name": "Sushi Go!",
+    "playRecords": [
+      {
+        "date": "2018-03-07",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-03-28",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
     ]
   },
   "sword-art-online-board-game-sword-of-fellows": {
     "boardGameGeekGameId": "220368",
     "boardGameGeekName": "Sword Art Online Board Game: Sword of Fellows",
     "boardGameApiId": "sword-art-online-board-game-sword-of-fellows",
-    "game": "Sword Art Online Board Game: Sword of Fellows"
+    "name": "Sword Art Online Board Game: Sword of Fellows",
+    "playRecords": []
   },
   "time-stories": {
     "boardGameGeekGameId": "146508",
     "boardGameGeekName": "T.I.M.E Stories",
     "boardGameApiId": "time-stories",
-    "game": "T.I.M.E Stories",
-    "dates": [
-      "2018-04-29",
-      "2018-04-29",
-      "2018-04-29"
-    ],
-    "winners": [
-      null,
-      null,
-      null
-    ],
-    "coOpOutcomes": [
-      "Lost",
-      "Lost",
-      "Win"
-    ],
-    "coOpTypes": [
-      "Yes",
-      "Yes",
-      "Yes"
-    ],
-    "notes": [
-      null,
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null
+    "name": "T.I.M.E Stories",
+    "playRecords": [
+      {
+        "date": "2018-04-29",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-04-29",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-04-29",
+        "coOpOutcome": "Win",
+        "coOp": "Yes"
+      }
     ]
   },
   "time-stories-a-prophecy-of-dragons": {
     "boardGameGeekGameId": "189035",
     "boardGameGeekName": "T.I.M.E Stories: A Prophecy of Dragons",
     "boardGameApiId": "time-stories-a-prophecy-of-dragons",
-    "game": "T.I.M.E Stories: A Prophecy of Dragons",
-    "dates": [
-      "2018-05-20",
-      "2018-05-21"
-    ],
-    "winners": [
-      null,
-      null
-    ],
-    "coOpOutcomes": [
-      "Lost",
-      "Won"
-    ],
-    "coOpTypes": [
-      "Yes",
-      "Yes"
-    ],
-    "notes": [
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null
+    "name": "T.I.M.E Stories: A Prophecy of Dragons",
+    "playRecords": [
+      {
+        "date": "2018-05-20",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-05-21",
+        "coOpOutcome": "Won",
+        "coOp": "Yes"
+      }
     ]
   },
   "time-stories-estrella-drive": {
     "boardGameGeekGameId": "220836",
     "boardGameGeekName": "T.I.M.E Stories: Estrella Drive",
     "boardGameApiId": "time-stories-estrella-drive",
-    "game": "T.I.M.E Stories: Estrella Drive"
+    "name": "T.I.M.E Stories: Estrella Drive",
+    "playRecords": []
   },
   "time-stories-expedition-endurance": {
     "boardGameGeekGameId": "193527",
     "boardGameGeekName": "T.I.M.E Stories: Expedition – Endurance",
     "boardGameApiId": "time-stories-expedition-endurance",
-    "game": "T.I.M.E Stories: Expedition – Endurance"
+    "name": "T.I.M.E Stories: Expedition – Endurance",
+    "playRecords": []
   },
   "time-stories-lumen-fidei": {
     "boardGameGeekGameId": "213099",
     "boardGameGeekName": "T.I.M.E Stories: Lumen Fidei",
     "boardGameApiId": "time-stories-lumen-fidei",
-    "game": "T.I.M.E Stories: Lumen Fidei"
+    "name": "T.I.M.E Stories: Lumen Fidei",
+    "playRecords": []
   },
   "time-stories-the-marcy-case": {
     "boardGameGeekGameId": "180585",
     "boardGameGeekName": "T.I.M.E Stories: The Marcy Case",
     "boardGameApiId": "time-stories-the-marcy-case",
-    "game": "T.I.M.E Stories: The Marcy Case",
-    "dates": [
-      "2018-05-05",
-      "2018-05-05",
-      "2018-05-06"
-    ],
-    "winners": [
-      null,
-      null,
-      null
-    ],
-    "coOpOutcomes": [
-      "Lost",
-      "Lost",
-      "Won"
-    ],
-    "coOpTypes": [
-      "Yes",
-      "Yes",
-      "Yes"
-    ],
-    "notes": [
-      "Marcy case",
-      "Marcy case",
-      "Marcy case"
-    ],
-    "mechanics": [
-      null,
-      null,
-      null
+    "name": "T.I.M.E Stories: The Marcy Case",
+    "playRecords": [
+      {
+        "date": "2018-05-05",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes",
+        "notes": "Marcy case"
+      },
+      {
+        "date": "2018-05-05",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes",
+        "notes": "Marcy case"
+      },
+      {
+        "date": "2018-05-06",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "notes": "Marcy case"
+      }
     ]
   },
   "time-stories-under-the-mask": {
     "boardGameGeekGameId": "189686",
     "boardGameGeekName": "T.I.M.E Stories: Under the Mask",
     "boardGameApiId": "time-stories-under-the-mask",
-    "game": "T.I.M.E Stories: Under the Mask",
-    "dates": [
-      "2018-11-04"
-    ],
-    "winners": [
-      null
-    ],
-    "coOpOutcomes": [
-      "Lost"
-    ],
-    "coOpTypes": [
-      "Yes"
-    ],
-    "notes": [
-      null
-    ],
-    "mechanics": [
-      null
+    "name": "T.I.M.E Stories: Under the Mask",
+    "playRecords": [
+      {
+        "date": "2018-11-04",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes"
+      }
     ]
   },
   "tanto-cuore": {
     "boardGameGeekGameId": "65282",
     "boardGameGeekName": "Tanto Cuore",
     "boardGameApiId": "tanto-cuore",
-    "game": "Tanto Cuore",
-    "dates": [
-      "2018-03-31",
-      "2018-04-28"
-    ],
-    "winners": [
-      "Hannah",
-      "John"
-    ],
-    "coOpOutcomes": [
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null
+    "name": "Tanto Cuore",
+    "playRecords": [
+      {
+        "date": "2018-03-31",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-04-28",
+        "winner": "John",
+        "coOp": "No"
+      }
     ]
   },
   "tanto-cuore-expanding-the-house": {
     "boardGameGeekGameId": "68858",
     "boardGameGeekName": "Tanto Cuore: Expanding the House",
     "boardGameApiId": "tanto-cuore-expanding-the-house",
-    "game": "Tanto Cuore: Expanding the House",
-    "dates": [
-      "2018-03-03"
-    ],
-    "winners": [
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null
-    ],
-    "coOpTypes": [
-      "No"
-    ],
-    "notes": [
-      null
-    ],
-    "mechanics": [
-      null
+    "name": "Tanto Cuore: Expanding the House",
+    "playRecords": [
+      {
+        "date": "2018-03-03",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
     ]
   },
   "tanto-cuore-oktoberfest": {
     "boardGameGeekGameId": "158130",
     "boardGameGeekName": "Tanto Cuore: Oktoberfest",
     "boardGameApiId": "tanto-cuore-oktoberfest",
-    "game": "Tanto Cuore: Oktoberfest",
-    "dates": [
-      "2018-02-10",
-      "2018-03-04",
-      "2018-07-09",
-      "2018-09-07"
-    ],
-    "winners": [
-      "Hannah",
-      "Hannah",
-      "Hannah",
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      "Mix of \"Expanding The House\" and \"Oktoberfest\"",
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null
+    "name": "Tanto Cuore: Oktoberfest",
+    "playRecords": [
+      {
+        "date": "2018-02-10",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-03-04",
+        "winner": "Hannah",
+        "coOp": "No",
+        "notes": "Mix of \"Expanding The House\" and \"Oktoberfest\""
+      },
+      {
+        "date": "2018-07-09",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-09-07",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
     ]
   },
   "tanto-cuore-romantic-vacation": {
     "boardGameGeekGameId": "75448",
     "boardGameGeekName": "Tanto Cuore: Romantic Vacation",
     "boardGameApiId": "tanto-cuore-romantic-vacation",
-    "game": "Tanto Cuore: Romantic Vacation",
-    "dates": [
-      "2018-11-04"
-    ],
-    "winners": [
-      "John"
-    ],
-    "coOpOutcomes": [
-      null
-    ],
-    "coOpTypes": [
-      "No"
-    ],
-    "notes": [
-      null
-    ],
-    "mechanics": [
-      null
+    "name": "Tanto Cuore: Romantic Vacation",
+    "playRecords": [
+      {
+        "date": "2018-11-04",
+        "winner": "John",
+        "coOp": "No"
+      }
     ]
   },
   "ticket-to-ride": {
     "boardGameGeekGameId": "9209",
     "boardGameGeekName": "Ticket to Ride",
     "boardGameApiId": "ticket-to-ride",
-    "game": "Ticket to Ride",
-    "dates": [
-      "2018-01-06",
-      "2018-04-22",
-      "2018-07-06",
-      "2018-07-10"
-    ],
-    "winners": [
-      "John",
-      "John",
-      "John",
-      "Draw"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null
+    "name": "Ticket to Ride",
+    "playRecords": [
+      {
+        "date": "2018-01-06",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-04-22",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-07-06",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-07-10",
+        "winner": "Draw",
+        "coOp": "No"
+      }
     ]
   },
   "ticket-to-ride-map-collection-volume-1-team-asia-legendary-asia": {
     "boardGameGeekGameId": "106637",
     "boardGameGeekName": "Ticket to Ride Map Collection: Volume 1 – Team Asia & Legendary Asia",
     "boardGameApiId": "ticket-to-ride-map-collection-volume-1-team-asia-legendary-asia",
-    "game": "Ticket to Ride Map Collection: Volume 1 – Team Asia & Legendary Asia",
-    "dates": [
-      "2018-01-10",
-      "2018-01-12",
-      "2018-05-27"
-    ],
-    "winners": [
-      "John",
-      "Hannah",
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      "Asia",
-      "Legendary Asia",
-      "Asia"
-    ],
-    "mechanics": [
-      null,
-      null,
-      null
+    "name": "Ticket to Ride Map Collection: Volume 1 – Team Asia & Legendary Asia",
+    "playRecords": [
+      {
+        "date": "2018-01-10",
+        "winner": "John",
+        "coOp": "No",
+        "notes": "Asia"
+      },
+      {
+        "date": "2018-01-12",
+        "winner": "Hannah",
+        "coOp": "No",
+        "notes": "Legendary Asia"
+      },
+      {
+        "date": "2018-05-27",
+        "winner": "Hannah",
+        "coOp": "No",
+        "notes": "Asia"
+      }
     ]
   },
   "ticket-to-ride-map-collection-volume-2-india-switzerland": {
     "boardGameGeekGameId": "106645",
     "boardGameGeekName": "Ticket to Ride Map Collection: Volume 2 – India & Switzerland",
     "boardGameApiId": "ticket-to-ride-map-collection-volume-2-india-switzerland",
-    "game": "Ticket to Ride Map Collection: Volume 2 – India & Switzerland",
-    "dates": [
-      "2018-03-02",
-      "2018-05-07",
-      "2018-07-28"
-    ],
-    "winners": [
-      "John",
-      "John",
-      "John"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      "Switzerland map",
-      "Switzerland",
-      "India"
-    ],
-    "mechanics": [
-      null,
-      null,
-      null
+    "name": "Ticket to Ride Map Collection: Volume 2 – India & Switzerland",
+    "playRecords": [
+      {
+        "date": "2018-03-02",
+        "winner": "John",
+        "coOp": "No",
+        "notes": "Switzerland map"
+      },
+      {
+        "date": "2018-05-07",
+        "winner": "John",
+        "coOp": "No",
+        "notes": "Switzerland"
+      },
+      {
+        "date": "2018-07-28",
+        "winner": "John",
+        "coOp": "No",
+        "notes": "India"
+      }
     ]
   },
   "ticket-to-ride-map-collection-volume-3-the-heart-of-africa": {
     "boardGameGeekGameId": "131188",
     "boardGameGeekName": "Ticket to Ride Map Collection: Volume 3 – The Heart of Africa",
     "boardGameApiId": "ticket-to-ride-map-collection-volume-3-the-heart-of-africa",
-    "game": "Ticket to Ride Map Collection: Volume 3 – The Heart of Africa",
-    "dates": [
-      "2018-03-17"
-    ],
-    "winners": [
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null
-    ],
-    "coOpTypes": [
-      "No"
-    ],
-    "notes": [
-      null
-    ],
-    "mechanics": [
-      null
+    "name": "Ticket to Ride Map Collection: Volume 3 – The Heart of Africa",
+    "playRecords": [
+      {
+        "date": "2018-03-17",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
     ]
   },
   "ticket-to-ride-map-collection-volume-4-nederland": {
     "boardGameGeekGameId": "147938",
     "boardGameGeekName": "Ticket to Ride Map Collection: Volume 4 – Nederland",
     "boardGameApiId": "ticket-to-ride-map-collection-volume-4-nederland",
-    "game": "Ticket to Ride Map Collection: Volume 4 – Nederland",
-    "dates": [
-      "2018-08-13"
-    ],
-    "winners": [
-      "John"
-    ],
-    "coOpOutcomes": [
-      null
-    ],
-    "coOpTypes": [
-      "No"
-    ],
-    "notes": [
-      null
-    ],
-    "mechanics": [
-      null
+    "name": "Ticket to Ride Map Collection: Volume 4 – Nederland",
+    "playRecords": [
+      {
+        "date": "2018-08-13",
+        "winner": "John",
+        "coOp": "No"
+      }
     ]
   },
   "ticket-to-ride-map-collection-volume-5-united-kingdom-pennsylvania": {
     "boardGameGeekGameId": "182078",
     "boardGameGeekName": "Ticket to Ride Map Collection: Volume 5 – United Kingdom & Pennsylvania",
     "boardGameApiId": "ticket-to-ride-map-collection-volume-5-united-kingdom-pennsylvania",
-    "game": "Ticket to Ride Map Collection: Volume 5 – United Kingdom & Pennsylvania",
-    "dates": [
-      "2018-03-03",
-      "2018-06-24"
-    ],
-    "winners": [
-      "Draw",
-      "John"
-    ],
-    "coOpOutcomes": [
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No"
-    ],
-    "notes": [
-      "Pennslyvania map",
-      null
-    ],
-    "mechanics": [
-      null,
-      null
+    "name": "Ticket to Ride Map Collection: Volume 5 – United Kingdom & Pennsylvania",
+    "playRecords": [
+      {
+        "date": "2018-03-03",
+        "winner": "Draw",
+        "coOp": "No",
+        "notes": "Pennslyvania map"
+      },
+      {
+        "date": "2018-06-24",
+        "winner": "John",
+        "coOp": "No"
+      }
     ]
   },
   "ticket-to-ride-map-collection-volume-6-france-old-west": {
     "boardGameGeekGameId": "233891",
     "boardGameGeekName": "Ticket to Ride Map Collection: Volume 6 – France & Old West",
     "boardGameApiId": "ticket-to-ride-map-collection-volume-6-france-old-west",
-    "game": "Ticket to Ride Map Collection: Volume 6 – France & Old West",
-    "dates": [
-      "2018-01-06",
-      "2018-03-01",
-      "2018-05-04",
-      "2018-10-01"
-    ],
-    "winners": [
-      "Hannah",
-      "Hannah",
-      "Hannah",
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      "France",
-      "Wild West map",
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null
+    "name": "Ticket to Ride Map Collection: Volume 6 – France & Old West",
+    "playRecords": [
+      {
+        "date": "2018-01-06",
+        "winner": "Hannah",
+        "coOp": "No",
+        "notes": "France"
+      },
+      {
+        "date": "2018-03-01",
+        "winner": "Hannah",
+        "coOp": "No",
+        "notes": "Wild West map"
+      },
+      {
+        "date": "2018-05-04",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-10-01",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
     ]
   },
   "ticket-to-ride-europa-1912": {
     "boardGameGeekGameId": "53383",
     "boardGameGeekName": "Ticket to Ride: Europa 1912",
     "boardGameApiId": "ticket-to-ride-europa-1912",
-    "game": "Ticket to Ride: Europa 1912",
-    "dates": [
-      "2018-11-08"
-    ],
-    "winners": [
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null
-    ],
-    "coOpTypes": [
-      "No"
-    ],
-    "notes": [
-      null
-    ],
-    "mechanics": [
-      null
+    "name": "Ticket to Ride: Europa 1912",
+    "playRecords": [
+      {
+        "date": "2018-11-08",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
     ]
   },
   "ticket-to-ride-europe": {
     "boardGameGeekGameId": "14996",
     "boardGameGeekName": "Ticket to Ride: Europe",
     "boardGameApiId": "ticket-to-ride-europe",
-    "game": "Ticket to Ride: Europe",
-    "dates": [
-      "2018-03-19",
-      "2018-05-09",
-      "2018-05-26",
-      "2018-06-24",
-      "2018-10-25"
-    ],
-    "winners": [
-      "John",
-      "John",
-      "Hannah",
-      "Hannah",
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null,
-      "Boardgames party",
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      "5 player",
-      null,
-      null
+    "name": "Ticket to Ride: Europe",
+    "playRecords": [
+      {
+        "date": "2018-03-19",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-05-09",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-05-26",
+        "winner": "Hannah",
+        "coOp": "No",
+        "notes": "Boardgames party",
+        "mechanics": "5 player"
+      },
+      {
+        "date": "2018-06-24",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-10-25",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
     ]
   },
   "ticket-to-ride-first-journey-europe": {
     "boardGameGeekGameId": "218208",
     "boardGameGeekName": "Ticket to Ride: First Journey (Europe)",
     "boardGameApiId": "ticket-to-ride-first-journey-europe",
-    "game": "Ticket to Ride: First Journey (Europe)",
-    "dates": [
-      "2018-02-14",
-      "2018-02-15",
-      "2018-04-04",
-      "2018-04-04",
-      "2018-09-21"
-    ],
-    "winners": [
-      "Hannah",
-      "John",
-      "John",
-      "John",
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null,
-      null
+    "name": "Ticket to Ride: First Journey (Europe)",
+    "playRecords": [
+      {
+        "date": "2018-02-14",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-02-15",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-04-04",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-04-04",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-09-21",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
     ]
   },
   "ticket-to-ride-germany": {
     "boardGameGeekGameId": "225244",
     "boardGameGeekName": "Ticket to Ride: Germany",
     "boardGameApiId": "ticket-to-ride-germany",
-    "game": "Ticket to Ride: Germany",
-    "dates": [
-      "2018-04-28",
-      "2018-04-28"
-    ],
-    "winners": [
-      "John",
-      "John"
-    ],
-    "coOpOutcomes": [
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null
+    "name": "Ticket to Ride: Germany",
+    "playRecords": [
+      {
+        "date": "2018-04-28",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-04-28",
+        "winner": "John",
+        "coOp": "No"
+      }
     ]
   },
   "ticket-to-ride-new-york": {
     "boardGameGeekGameId": "253284",
     "boardGameGeekName": "Ticket to Ride: New York",
     "boardGameApiId": "ticket-to-ride-new-york",
-    "game": "Ticket to Ride: New York",
-    "dates": [
-      "2018-06-02",
-      "2018-07-27",
-      "2018-07-29",
-      "2018-08-03",
-      "2018-08-19",
-      "2018-09-12",
-      "2018-10-04",
-      "2018-11-01"
-    ],
-    "winners": [
-      "Hannah",
-      "Hannah",
-      "John",
-      "John",
-      "Hannah",
-      "Hannah",
-      "Hannah",
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+    "name": "Ticket to Ride: New York",
+    "playRecords": [
+      {
+        "date": "2018-06-02",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-07-27",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-07-29",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-08-03",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-08-19",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-09-12",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-10-04",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-11-01",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
     ]
   },
   "ticket-to-ride-nordic-countries": {
     "boardGameGeekGameId": "31627",
     "boardGameGeekName": "Ticket to Ride: Nordic Countries",
     "boardGameApiId": "ticket-to-ride-nordic-countries",
-    "game": "Ticket to Ride: Nordic Countries",
-    "dates": [
-      "2018-04-02"
-    ],
-    "winners": [
-      "John"
-    ],
-    "coOpOutcomes": [
-      null
-    ],
-    "coOpTypes": [
-      "No"
-    ],
-    "notes": [
-      null
-    ],
-    "mechanics": [
-      null
+    "name": "Ticket to Ride: Nordic Countries",
+    "playRecords": [
+      {
+        "date": "2018-04-02",
+        "winner": "John",
+        "coOp": "No"
+      }
     ]
   },
   "ticket-to-ride-rails-sails": {
     "boardGameGeekGameId": "202670",
     "boardGameGeekName": "Ticket to Ride: Rails & Sails",
     "boardGameApiId": "ticket-to-ride-rails-sails",
-    "game": "Ticket to Ride: Rails & Sails",
-    "dates": [
-      "2018-01-16",
-      "2018-03-31",
-      "2018-04-23",
-      "2018-09-24"
-    ],
-    "winners": [
-      "Hannah",
-      "Hannah",
-      "John",
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null
+    "name": "Ticket to Ride: Rails & Sails",
+    "playRecords": [
+      {
+        "date": "2018-01-16",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-03-31",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-04-23",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-09-24",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
     ]
   },
   "ticket-to-ride-the-card-game": {
     "boardGameGeekGameId": "34127",
     "boardGameGeekName": "Ticket to Ride: The Card Game",
     "boardGameApiId": "ticket-to-ride-the-card-game",
-    "game": "Ticket to Ride: The Card Game"
+    "name": "Ticket to Ride: The Card Game",
+    "playRecords": []
   },
   "ticket-to-ride-the-dice-expansion": {
     "boardGameGeekGameId": "38454",
     "boardGameGeekName": "Ticket to Ride: The Dice Expansion",
     "boardGameApiId": "ticket-to-ride-the-dice-expansion",
-    "game": "Ticket to Ride: The Dice Expansion",
-    "dates": [
-      "2018-08-06"
-    ],
-    "winners": [
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null
-    ],
-    "coOpTypes": [
-      "No"
-    ],
-    "notes": [
-      "Europe map"
-    ],
-    "mechanics": [
-      null
+    "name": "Ticket to Ride: The Dice Expansion",
+    "playRecords": [
+      {
+        "date": "2018-08-06",
+        "winner": "Hannah",
+        "coOp": "No",
+        "notes": "Europe map"
+      }
     ]
   },
   "ticket-to-ride-usa-1910": {
     "boardGameGeekGameId": "24439",
     "boardGameGeekName": "Ticket to Ride: USA 1910",
     "boardGameApiId": "ticket-to-ride-usa-1910",
-    "game": "Ticket to Ride: USA 1910",
-    "dates": [
-      "2018-03-17",
-      "2018-05-16",
-      "2018-09-03"
-    ],
-    "winners": [
-      "John",
-      "Hannah",
-      "John"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null
+    "name": "Ticket to Ride: USA 1910",
+    "playRecords": [
+      {
+        "date": "2018-03-17",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-05-16",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-09-03",
+        "winner": "John",
+        "coOp": "No"
+      }
     ]
   },
   "topiary": {
     "boardGameGeekGameId": "210900",
     "boardGameGeekName": "Topiary",
     "boardGameApiId": "topiary",
-    "game": "Topiary",
-    "dates": [
-      "2018-07-18",
-      "2018-07-19",
-      "2018-07-24",
-      "2018-08-14",
-      "2018-08-21",
-      "2018-09-11",
-      "2018-10-29"
-    ],
-    "winners": [
-      "John",
-      "Hannah",
-      "Hannah",
-      "Hannah",
-      "John",
-      "Hannah",
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null,
-      null,
-      null,
-      "4 player",
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+    "name": "Topiary",
+    "playRecords": [
+      {
+        "date": "2018-07-18",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-07-19",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-07-24",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-08-14",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-08-21",
+        "winner": "John",
+        "coOp": "No",
+        "notes": "4 player"
+      },
+      {
+        "date": "2018-09-11",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-10-29",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
     ]
   },
   "tortuga-1667": {
     "boardGameGeekGameId": "218530",
     "boardGameGeekName": "Tortuga 1667",
     "boardGameApiId": "tortuga-1667",
-    "game": "Tortuga 1667",
-    "dates": [
-      "2018-02-23",
-      "2018-03-30",
-      "2018-08-18"
-    ],
-    "winners": [
-      "John",
-      null,
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null,
-      "Lost",
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "Yes",
-      "No"
-    ],
-    "notes": [
-      null,
-      "4 player",
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null
+    "name": "Tortuga 1667",
+    "playRecords": [
+      {
+        "date": "2018-02-23",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-03-30",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes",
+        "notes": "4 player"
+      },
+      {
+        "date": "2018-08-18",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
     ]
   },
   "troika": {
     "boardGameGeekGameId": "240822",
     "boardGameGeekName": "Troika",
     "boardGameApiId": "troika",
-    "game": "Troika",
-    "dates": [
-      "2018-06-03",
-      "2018-06-07",
-      "2018-06-18",
-      "2018-06-21",
-      "2018-07-07",
-      "2018-08-03",
-      "2018-08-18",
-      "2018-08-24",
-      "2018-09-13",
-      "2018-10-10"
-    ],
-    "winners": [
-      "John",
-      "John",
-      "John",
-      "Other",
-      "John",
-      "Hannah",
-      "Draw",
-      "John",
-      "John",
-      "John"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      "3 player",
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+    "name": "Troika",
+    "playRecords": [
+      {
+        "date": "2018-06-03",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-06-07",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-06-18",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-06-21",
+        "winner": "Other",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-07-07",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-08-03",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-08-18",
+        "winner": "Draw",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-08-24",
+        "winner": "John",
+        "coOp": "No",
+        "notes": "3 player"
+      },
+      {
+        "date": "2018-09-13",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-10-10",
+        "winner": "John",
+        "coOp": "No"
+      }
     ]
   },
   "twilight-struggle": {
     "boardGameGeekGameId": "12333",
     "boardGameGeekName": "Twilight Struggle",
     "boardGameApiId": "twilight-struggle",
-    "game": "Twilight Struggle",
-    "dates": [
-      "2018-07-21"
-    ],
-    "winners": [
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null
-    ],
-    "coOpTypes": [
-      "No"
-    ],
-    "notes": [
-      null
-    ],
-    "mechanics": [
-      null
+    "name": "Twilight Struggle",
+    "playRecords": [
+      {
+        "date": "2018-07-21",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
     ]
   },
   "unicornus-knights": {
     "boardGameGeekGameId": "204605",
     "boardGameGeekName": "Unicornus Knights",
     "boardGameApiId": "unicornus-knights",
-    "game": "Unicornus Knights",
-    "dates": [
-      "2018-02-18"
-    ],
-    "winners": [
-      null
-    ],
-    "coOpOutcomes": [
-      "Won"
-    ],
-    "coOpTypes": [
-      "Yes"
-    ],
-    "notes": [
-      "Tutorial game"
-    ],
-    "mechanics": [
-      null
+    "name": "Unicornus Knights",
+    "playRecords": [
+      {
+        "date": "2018-02-18",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "notes": "Tutorial game"
+      }
     ]
   },
   "untold-adventures-await": {
     "boardGameGeekGameId": "226588",
     "boardGameGeekName": "Untold: Adventures Await",
     "boardGameApiId": "untold-adventures-await",
-    "game": "Untold: Adventures Await",
-    "dates": [
-      "2018-07-16"
-    ],
-    "winners": [
-      null
-    ],
-    "coOpOutcomes": [
-      null
-    ],
-    "coOpTypes": [
-      "Yes"
-    ],
-    "notes": [
-      null
-    ],
-    "mechanics": [
-      null
+    "name": "Untold: Adventures Await",
+    "playRecords": [
+      {
+        "date": "2018-07-16",
+        "coOp": "Yes"
+      }
     ]
   },
   "valeria-card-kingdoms": {
     "boardGameGeekGameId": "170561",
     "boardGameGeekName": "Valeria: Card Kingdoms",
     "boardGameApiId": "valeria-card-kingdoms",
-    "game": "Valeria: Card Kingdoms",
-    "dates": [
-      "2018-06-16",
-      "2018-06-17",
-      "2018-06-24",
-      "2018-06-30",
-      "2018-08-26"
-    ],
-    "winners": [
-      "Hannah",
-      "John",
-      "Hannah",
-      "Hannah",
-      "Other"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null,
-      null
+    "name": "Valeria: Card Kingdoms",
+    "playRecords": [
+      {
+        "date": "2018-06-16",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-06-17",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-06-24",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-06-30",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-08-26",
+        "winner": "Other",
+        "coOp": "No"
+      }
     ]
   },
   "valeria-card-kingdoms-flames-frost": {
     "boardGameGeekGameId": "194247",
     "boardGameGeekName": "Valeria: Card Kingdoms – Flames & Frost",
     "boardGameApiId": "valeria-card-kingdoms-flames-frost",
-    "game": "Valeria: Card Kingdoms – Flames & Frost"
+    "name": "Valeria: Card Kingdoms – Flames & Frost",
+    "playRecords": []
   },
   "villainous": {
     "boardGameGeekGameId": "256382",
     "boardGameGeekName": "Villainous",
     "boardGameApiId": "villainous",
-    "game": "Villainous",
-    "dates": [
-      "2018-09-17"
-    ],
-    "winners": [
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null
-    ],
-    "coOpTypes": [
-      "No"
-    ],
-    "notes": [
-      null
-    ],
-    "mechanics": [
-      null
+    "name": "Villainous",
+    "playRecords": [
+      {
+        "date": "2018-09-17",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
     ]
   },
   "werewolf": {
     "boardGameGeekGameId": "925",
     "boardGameGeekName": "Werewolf",
     "boardGameApiId": "werewolf",
-    "game": "Werewolf",
-    "dates": [
-      "2018-10-17",
-      "2018-10-17",
-      "2018-10-17"
-    ],
-    "winners": [
-      null,
-      null,
-      null
-    ],
-    "coOpOutcomes": [
-      "Won",
-      "Won",
-      null
-    ],
-    "coOpTypes": [
-      "Yes",
-      "Yes",
-      "No"
-    ],
-    "notes": [
-      "18-player ",
-      "19 player",
-      "20 player"
-    ],
-    "mechanics": [
-      "Team-based",
-      null,
-      null
+    "name": "Werewolf",
+    "playRecords": [
+      {
+        "date": "2018-10-17",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "notes": "18-player ",
+        "mechanics": "Team-based"
+      },
+      {
+        "date": "2018-10-17",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "notes": "19 player"
+      },
+      {
+        "date": "2018-10-17",
+        "coOp": "No",
+        "notes": "20 player"
+      }
     ]
   },
   "who-goes-there": {
     "boardGameGeekGameId": "230769",
     "boardGameGeekName": "Who Goes There?",
     "boardGameApiId": "who-goes-there",
-    "game": "Who Goes There?"
+    "name": "Who Goes There?",
+    "playRecords": []
   },
   "yam-yam": {
     "boardGameGeekGameId": "218958",
     "boardGameGeekName": "Yam Yam",
     "boardGameApiId": "yam-yam",
-    "game": "Yam Yam",
-    "dates": [
-      "2018-09-09",
-      "2018-09-09",
-      "2018-09-14",
-      "2018-09-25"
-    ],
-    "winners": [
-      "John",
-      "Hannah",
-      "Hannah",
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No",
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "mechanics": [
-      null,
-      null,
-      null,
-      null
+    "name": "Yam Yam",
+    "playRecords": [
+      {
+        "date": "2018-09-09",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-09-09",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-09-14",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-09-25",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
     ]
   },
   "legendary-encounters-a-firefly-deck-building-game": {
     "boardGameApiId": "legendary-encounters-a-firefly-deck-building-game",
-    "dates": [
-      "2018-02-24"
+    "playRecords": [
+      {
+        "date": "2018-02-24",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes"
+      }
     ],
-    "game": "Legendary Encounters: A Firefly Deck Building Game",
-    "winners": [
-      null
-    ],
-    "coOpOutcomes": [
-      "Lost"
-    ],
-    "coOpTypes": [
-      "Yes"
-    ],
-    "notes": [
-      null
-    ],
-    "mechanics": [
-      null
-    ]
+    "name": "Legendary Encounters: A Firefly Deck Building Game"
   },
   "secret-hitler": {
     "boardGameApiId": "secret-hitler",
-    "dates": [
-      "2018-04-14"
+    "playRecords": [
+      {
+        "date": "2018-04-14",
+        "winner": "Hannah",
+        "coOpOutcome": "Win",
+        "coOp": "Yes",
+        "notes": "6 player at Fanfest"
+      }
     ],
-    "game": "Secret Hitler",
-    "winners": [
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      "Win"
-    ],
-    "coOpTypes": [
-      "Yes"
-    ],
-    "notes": [
-      "6 player at Fanfest"
-    ],
-    "mechanics": [
-      null
-    ]
+    "name": "Secret Hitler"
   },
   "cards-against-humanity-eve-edition": {
     "boardGameApiId": "cards-against-humanity-eve-edition",
-    "dates": [
-      "2018-04-15"
+    "playRecords": [
+      {
+        "date": "2018-04-15",
+        "coOp": "No",
+        "notes": "6 player at Fanfest"
+      }
     ],
-    "game": "Cards Against Humanity: EVE Edition",
-    "winners": [
-      null
-    ],
-    "coOpOutcomes": [
-      null
-    ],
-    "coOpTypes": [
-      "No"
-    ],
-    "notes": [
-      "6 player at Fanfest"
-    ],
-    "mechanics": [
-      null
-    ]
+    "name": "Cards Against Humanity: EVE Edition"
   },
   "shadows-amsterdam": {
     "boardGameApiId": "shadows-amsterdam",
-    "dates": [
-      "2018-06-02",
-      "2018-06-02"
+    "playRecords": [
+      {
+        "date": "2018-06-02",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes",
+        "notes": "5P"
+      },
+      {
+        "date": "2018-06-02",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes",
+        "notes": "5P"
+      }
     ],
-    "game": "Shadows Amsterdam",
-    "winners": [
-      null,
-      null
-    ],
-    "coOpOutcomes": [
-      "Lost",
-      "Lost"
-    ],
-    "coOpTypes": [
-      "Yes",
-      "Yes"
-    ],
-    "notes": [
-      "5P",
-      "5P"
-    ],
-    "mechanics": [
-      null,
-      null
-    ]
+    "name": "Shadows Amsterdam"
   },
   "lords-of-vegas": {
     "boardGameApiId": "lords-of-vegas",
-    "dates": [
-      "2018-08-21"
+    "playRecords": [
+      {
+        "date": "2018-08-21",
+        "winner": "Hannah",
+        "coOp": "No",
+        "notes": "4 player"
+      }
     ],
-    "game": "Lords of Vegas",
-    "winners": [
-      "Hannah"
-    ],
-    "coOpOutcomes": [
-      null
-    ],
-    "coOpTypes": [
-      "No"
-    ],
-    "notes": [
-      "4 player"
-    ],
-    "mechanics": [
-      null
-    ]
+    "name": "Lords of Vegas"
   },
   "exploding-kittens": {
     "boardGameApiId": "exploding-kittens",
-    "dates": [
-      "2018-08-24",
-      "2018-09-14"
+    "playRecords": [
+      {
+        "date": "2018-08-24",
+        "winner": "Other",
+        "coOp": "No",
+        "notes": "3 player"
+      },
+      {
+        "date": "2018-09-14",
+        "winner": "Other",
+        "coOp": "No",
+        "notes": "4-player"
+      }
     ],
-    "game": "Exploding Kittens",
-    "winners": [
-      "Other",
-      "Other"
-    ],
-    "coOpOutcomes": [
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No"
-    ],
-    "notes": [
-      "3 player",
-      "4-player"
-    ],
-    "mechanics": [
-      null,
-      null
-    ]
+    "name": "Exploding Kittens"
   },
   "skull": {
     "boardGameApiId": "skull",
-    "dates": [
-      "2018-09-14"
+    "playRecords": [
+      {
+        "date": "2018-09-14",
+        "winner": "Other",
+        "coOp": "No",
+        "notes": "4-player"
+      }
     ],
-    "game": "Skull",
-    "winners": [
-      "Other"
-    ],
-    "coOpOutcomes": [
-      null
-    ],
-    "coOpTypes": [
-      "No"
-    ],
-    "notes": [
-      "4-player"
-    ],
-    "mechanics": [
-      null
-    ]
+    "name": "Skull"
   },
   "battlestar-galactica": {
     "boardGameApiId": "battlestar-galactica",
-    "dates": [
-      "2018-11-09"
+    "playRecords": [
+      {
+        "date": "2018-11-09",
+        "coOpOutcome": "Won",
+        "coOp": "Yes"
+      }
     ],
-    "game": "Battlestar Galactica",
-    "winners": [
-      null
-    ],
-    "coOpOutcomes": [
-      "Won"
-    ],
-    "coOpTypes": [
-      "Yes"
-    ],
-    "notes": [
-      null
-    ],
-    "mechanics": [
-      null
-    ]
+    "name": "Battlestar Galactica"
   }
 }

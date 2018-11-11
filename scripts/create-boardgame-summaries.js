@@ -43,12 +43,12 @@ async function start () {
     const games = collection.feed.filter(n => n.date.substring(0, 7) === month.dateCode)
     const coOpGames = games.filter(n => (n.coOp + '').toLowerCase().trim() === 'yes')
     const gameCountIndex = games.reduce((acc, item) => {
-      const entry = acc[item.game] || {
-        game: item.game,
+      const entry = acc[item.name] || {
+        name: item.name,
         plays: 0
       }
       entry.plays++
-      acc[item.game] = entry
+      acc[item.name] = entry
       return acc
     }, {})
 
@@ -83,7 +83,7 @@ async function start () {
         date: item.date,
         games: []
       }
-      entry.games.push(item.game)
+      entry.games.push(item.name)
       acc[item.date] = entry
       return acc
     }, {})

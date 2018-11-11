@@ -2,41 +2,28 @@
   "boardGameGeekGameId": "100901",
   "boardGameGeekName": "Flash Point: Fire Rescue",
   "boardGameApiId": "flash-point-fire-rescue",
-  "game": "Flash Point: Fire Rescue",
-  "dates": [
-    "2018-02-19",
-    "2018-02-20",
-    "2018-02-22",
-    "2018-04-03"
-  ],
-  "winners": [
-    null,
-    null,
-    null,
-    null
-  ],
-  "coOpOutcomes": [
-    "Lost",
-    "Won",
-    "Won",
-    "Win"
-  ],
-  "coOpTypes": [
-    "Yes",
-    "Yes",
-    "Yes",
-    "Yes"
-  ],
-  "notes": [
-    null,
-    "Just about!",
-    null,
-    null
-  ],
-  "mechanics": [
-    null,
-    null,
-    null,
-    null
+  "name": "Flash Point: Fire Rescue",
+  "playRecords": [
+    {
+      "date": "2018-02-19",
+      "coOpOutcome": "Lost",
+      "coOp": "Yes"
+    },
+    {
+      "date": "2018-02-20",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "notes": "Just about!"
+    },
+    {
+      "date": "2018-02-22",
+      "coOpOutcome": "Won",
+      "coOp": "Yes"
+    },
+    {
+      "date": "2018-04-03",
+      "coOpOutcome": "Win",
+      "coOp": "Yes"
+    }
   ]
 }

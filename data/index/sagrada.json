@@ -2,35 +2,22 @@
   "boardGameGeekGameId": "199561",
   "boardGameGeekName": "Sagrada",
   "boardGameApiId": "sagrada",
-  "game": "Sagrada",
-  "dates": [
-    "2018-03-15",
-    "2018-05-19",
-    "2018-07-12"
-  ],
-  "winners": [
-    "Hannah",
-    "Hannah",
-    "John"
-  ],
-  "coOpOutcomes": [
-    null,
-    null,
-    null
-  ],
-  "coOpTypes": [
-    "No",
-    "No",
-    "No"
-  ],
-  "notes": [
-    null,
-    null,
-    null
-  ],
-  "mechanics": [
-    null,
-    null,
-    null
+  "name": "Sagrada",
+  "playRecords": [
+    {
+      "date": "2018-03-15",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-05-19",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-07-12",
+      "winner": "John",
+      "coOp": "No"
+    }
   ]
 }

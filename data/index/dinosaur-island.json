@@ -2,65 +2,50 @@
   "boardGameGeekGameId": "221194",
   "boardGameGeekName": "Dinosaur Island",
   "boardGameApiId": "dinosaur-island",
-  "game": "Dinosaur Island",
-  "dates": [
-    "2018-01-22",
-    "2018-01-23",
-    "2018-02-02",
-    "2018-02-03",
-    "2018-03-25",
-    "2018-04-09",
-    "2018-05-26",
-    "2018-09-30"
-  ],
-  "winners": [
-    "Hannah",
-    "John",
-    "Hannah",
-    "Hannah",
-    "John",
-    "John",
-    "Other",
-    "Hannah"
-  ],
-  "coOpOutcomes": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-  ],
-  "coOpTypes": [
-    "No",
-    "No",
-    "No",
-    "No",
-    "No",
-    "No",
-    "No",
-    "No"
-  ],
-  "notes": [
-    "At Wharf. 3 player.",
-    null,
-    null,
-    null,
-    null,
-    null,
-    "Boardgames party",
-    null
-  ],
-  "mechanics": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    "4 player",
-    null
+  "name": "Dinosaur Island",
+  "playRecords": [
+    {
+      "date": "2018-01-22",
+      "winner": "Hannah",
+      "coOp": "No",
+      "notes": "At Wharf. 3 player."
+    },
+    {
+      "date": "2018-01-23",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-02-02",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-02-03",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-03-25",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-04-09",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-05-26",
+      "winner": "Other",
+      "coOp": "No",
+      "notes": "Boardgames party",
+      "mechanics": "4 player"
+    },
+    {
+      "date": "2018-09-30",
+      "winner": "Hannah",
+      "coOp": "No"
+    }
   ]
 }

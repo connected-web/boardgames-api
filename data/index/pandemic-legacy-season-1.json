@@ -2,77 +2,58 @@
   "boardGameGeekGameId": "161936",
   "boardGameGeekName": "Pandemic Legacy: Season 1",
   "boardGameApiId": "pandemic-legacy-season-1",
-  "game": "Pandemic Legacy: Season 1",
-  "dates": [
-    "2018-01-24",
-    "2018-02-27",
-    "2018-03-30",
-    "2018-05-01",
-    "2018-05-30",
-    "2018-06-21",
-    "2018-07-04",
-    "2018-07-08",
-    "2018-07-08",
-    "2018-07-08"
-  ],
-  "winners": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-  ],
-  "coOpOutcomes": [
-    "Won",
-    "Won",
-    "Won",
-    "Won",
-    "Won",
-    "Won",
-    null,
-    "Win",
-    "Lose",
-    "Win"
-  ],
-  "coOpTypes": [
-    "Yes",
-    "Yes",
-    "Yes",
-    "Yes",
-    "Yes",
-    "Yes",
-    "Yes",
-    "Yes",
-    "Yes",
-    "Yes"
-  ],
-  "notes": [
-    "Month 4 - 4 player",
-    null,
-    "June game 1 - 4 player",
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-  ],
-  "mechanics": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
+  "name": "Pandemic Legacy: Season 1",
+  "playRecords": [
+    {
+      "date": "2018-01-24",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "notes": "Month 4 - 4 player"
+    },
+    {
+      "date": "2018-02-27",
+      "coOpOutcome": "Won",
+      "coOp": "Yes"
+    },
+    {
+      "date": "2018-03-30",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "notes": "June game 1 - 4 player"
+    },
+    {
+      "date": "2018-05-01",
+      "coOpOutcome": "Won",
+      "coOp": "Yes"
+    },
+    {
+      "date": "2018-05-30",
+      "coOpOutcome": "Won",
+      "coOp": "Yes"
+    },
+    {
+      "date": "2018-06-21",
+      "coOpOutcome": "Won",
+      "coOp": "Yes"
+    },
+    {
+      "date": "2018-07-04",
+      "coOp": "Yes"
+    },
+    {
+      "date": "2018-07-08",
+      "coOpOutcome": "Win",
+      "coOp": "Yes"
+    },
+    {
+      "date": "2018-07-08",
+      "coOpOutcome": "Lose",
+      "coOp": "Yes"
+    },
+    {
+      "date": "2018-07-08",
+      "coOpOutcome": "Win",
+      "coOp": "Yes"
+    }
   ]
 }

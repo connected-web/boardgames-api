@@ -2,29 +2,16 @@
   "boardGameGeekGameId": "65244",
   "boardGameGeekName": "Forbidden Island",
   "boardGameApiId": "forbidden-island",
-  "game": "Forbidden Island",
-  "dates": [
-    "2018-05-28",
-    "2018-08-11"
-  ],
-  "winners": [
-    null,
-    null
-  ],
-  "coOpOutcomes": [
-    null,
-    "Won"
-  ],
-  "coOpTypes": [
-    "Yes",
-    "Yes"
-  ],
-  "notes": [
-    null,
-    null
-  ],
-  "mechanics": [
-    null,
-    null
+  "name": "Forbidden Island",
+  "playRecords": [
+    {
+      "date": "2018-05-28",
+      "coOp": "Yes"
+    },
+    {
+      "date": "2018-08-11",
+      "coOpOutcome": "Won",
+      "coOp": "Yes"
+    }
   ]
 }

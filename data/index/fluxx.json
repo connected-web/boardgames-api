@@ -2,23 +2,13 @@
   "boardGameGeekGameId": "258",
   "boardGameGeekName": "Fluxx",
   "boardGameApiId": "fluxx",
-  "game": "Fluxx",
-  "dates": [
-    "2018-08-24"
-  ],
-  "winners": [
-    "John"
-  ],
-  "coOpOutcomes": [
-    null
-  ],
-  "coOpTypes": [
-    "No"
-  ],
-  "notes": [
-    "4 player"
-  ],
-  "mechanics": [
-    null
+  "name": "Fluxx",
+  "playRecords": [
+    {
+      "date": "2018-08-24",
+      "winner": "John",
+      "coOp": "No",
+      "notes": "4 player"
+    }
   ]
 }

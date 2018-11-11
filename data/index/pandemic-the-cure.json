@@ -2,35 +2,22 @@
   "boardGameGeekGameId": "150658",
   "boardGameGeekName": "Pandemic: The Cure",
   "boardGameApiId": "pandemic-the-cure",
-  "game": "Pandemic: The Cure",
-  "dates": [
-    "2018-06-03",
-    "2018-06-11",
-    "2018-08-18"
-  ],
-  "winners": [
-    null,
-    null,
-    null
-  ],
-  "coOpOutcomes": [
-    "Won",
-    "Won",
-    "Won"
-  ],
-  "coOpTypes": [
-    "Yes",
-    "Yes",
-    "Yes"
-  ],
-  "notes": [
-    null,
-    null,
-    null
-  ],
-  "mechanics": [
-    null,
-    null,
-    null
+  "name": "Pandemic: The Cure",
+  "playRecords": [
+    {
+      "date": "2018-06-03",
+      "coOpOutcome": "Won",
+      "coOp": "Yes"
+    },
+    {
+      "date": "2018-06-11",
+      "coOpOutcome": "Won",
+      "coOp": "Yes"
+    },
+    {
+      "date": "2018-08-18",
+      "coOpOutcome": "Won",
+      "coOp": "Yes"
+    }
   ]
 }

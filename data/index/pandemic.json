@@ -2,41 +2,28 @@
   "boardGameGeekGameId": "30549",
   "boardGameGeekName": "Pandemic",
   "boardGameApiId": "pandemic",
-  "game": "Pandemic",
-  "dates": [
-    "2018-03-09",
-    "2018-05-03",
-    "2018-06-29",
-    "2018-10-23"
-  ],
-  "winners": [
-    null,
-    null,
-    null,
-    null
-  ],
-  "coOpOutcomes": [
-    "Lost",
-    "Won",
-    "Won",
-    "Lost"
-  ],
-  "coOpTypes": [
-    "Yes",
-    "Yes",
-    "Yes",
-    "Yes"
-  ],
-  "notes": [
-    null,
-    "With house rule",
-    null,
-    null
-  ],
-  "mechanics": [
-    null,
-    null,
-    null,
-    null
+  "name": "Pandemic",
+  "playRecords": [
+    {
+      "date": "2018-03-09",
+      "coOpOutcome": "Lost",
+      "coOp": "Yes"
+    },
+    {
+      "date": "2018-05-03",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "notes": "With house rule"
+    },
+    {
+      "date": "2018-06-29",
+      "coOpOutcome": "Won",
+      "coOp": "Yes"
+    },
+    {
+      "date": "2018-10-23",
+      "coOpOutcome": "Lost",
+      "coOp": "Yes"
+    }
   ]
 }

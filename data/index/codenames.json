@@ -2,131 +2,109 @@
   "boardGameGeekGameId": "178900",
   "boardGameGeekName": "Codenames",
   "boardGameApiId": "codenames",
-  "game": "Codenames",
-  "dates": [
-    "2018-01-25",
-    "2018-01-29",
-    "2018-01-29",
-    "2018-02-09",
-    "2018-03-05",
-    "2018-03-22",
-    "2018-04-18",
-    "2018-04-18",
-    "2018-05-12",
-    "2018-06-28",
-    "2018-06-28",
-    "2018-07-02",
-    "2018-08-02",
-    "2018-08-29",
-    "2018-08-29",
-    "2018-10-22",
-    "2018-10-22",
-    "2018-10-31",
-    "2018-10-31"
-  ],
-  "winners": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-  ],
-  "coOpOutcomes": [
-    null,
-    "Won",
-    "Won",
-    "Won",
-    "Won",
-    "Won",
-    "Win",
-    "Win",
-    "Lost",
-    "Lost",
-    "Won",
-    "Win",
-    "Lost",
-    "Won",
-    "Won",
-    "Lost",
-    "Won",
-    "Won",
-    "Won"
-  ],
-  "coOpTypes": [
-    "Yes",
-    "Yes",
-    "Yes",
-    "Yes",
-    "Yes",
-    "Yes",
-    "Yes",
-    "Yes",
-    "Yes",
-    "Yes",
-    "Yes",
-    "Yes",
-    "Yes",
-    "Yes",
-    "Yes",
-    "Yes",
-    "Yes",
-    "Yes",
-    "Yes"
-  ],
-  "notes": [
-    "3 player",
-    "2 player",
-    "2 player",
-    "2-player co-op",
-    null,
-    "Via Slack",
-    null,
-    null,
-    "Hannah and John lost against 2 others",
-    null,
-    null,
-    null,
-    null,
-    "Hannah-spymaster",
-    "John=spymaster",
-    null,
-    null,
-    null,
-    null
-  ],
-  "mechanics": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
+  "name": "Codenames",
+  "playRecords": [
+    {
+      "date": "2018-01-25",
+      "coOp": "Yes",
+      "notes": "3 player"
+    },
+    {
+      "date": "2018-01-29",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "notes": "2 player"
+    },
+    {
+      "date": "2018-01-29",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "notes": "2 player"
+    },
+    {
+      "date": "2018-02-09",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "notes": "2-player co-op"
+    },
+    {
+      "date": "2018-03-05",
+      "coOpOutcome": "Won",
+      "coOp": "Yes"
+    },
+    {
+      "date": "2018-03-22",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "notes": "Via Slack"
+    },
+    {
+      "date": "2018-04-18",
+      "coOpOutcome": "Win",
+      "coOp": "Yes"
+    },
+    {
+      "date": "2018-04-18",
+      "coOpOutcome": "Win",
+      "coOp": "Yes"
+    },
+    {
+      "date": "2018-05-12",
+      "coOpOutcome": "Lost",
+      "coOp": "Yes",
+      "notes": "Hannah and John lost against 2 others"
+    },
+    {
+      "date": "2018-06-28",
+      "coOpOutcome": "Lost",
+      "coOp": "Yes"
+    },
+    {
+      "date": "2018-06-28",
+      "coOpOutcome": "Won",
+      "coOp": "Yes"
+    },
+    {
+      "date": "2018-07-02",
+      "coOpOutcome": "Win",
+      "coOp": "Yes"
+    },
+    {
+      "date": "2018-08-02",
+      "coOpOutcome": "Lost",
+      "coOp": "Yes"
+    },
+    {
+      "date": "2018-08-29",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "notes": "Hannah-spymaster"
+    },
+    {
+      "date": "2018-08-29",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "notes": "John=spymaster"
+    },
+    {
+      "date": "2018-10-22",
+      "coOpOutcome": "Lost",
+      "coOp": "Yes"
+    },
+    {
+      "date": "2018-10-22",
+      "coOpOutcome": "Won",
+      "coOp": "Yes"
+    },
+    {
+      "date": "2018-10-31",
+      "coOpOutcome": "Won",
+      "coOp": "Yes"
+    },
+    {
+      "date": "2018-10-31",
+      "coOpOutcome": "Won",
+      "coOp": "Yes"
+    }
   ]
 }

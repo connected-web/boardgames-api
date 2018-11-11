@@ -21,15 +21,15 @@ async function start () {
 
   Object.keys(boardGameIndex).forEach(boardGameApiId => {
     const entry = boardGameIndex[boardGameApiId]
-    entry.dates = entry.dates || []
-    entry.dates.forEach((date, pos, dates) => {
+    entry.playRecords = entry.playRecords || []
+    entry.playRecords.forEach((record, pos, dates) => {
       const feedItem = {
-        date,
-        game: entry.game,
-        winner: entry.winners && entry.winners[pos],
-        coOp: entry.coOpTypes && entry.coOpTypes[pos],
-        coOpOutcome: entry.coOpOutcomes && entry.coOpOutcomes[pos],
-        note: entry.notes && entry.notes[pos]
+        date: record.date,
+        name: entry.name,
+        winner: record.winner,
+        coOp: record.coOp,
+        coOpOutcome: record.coOpOutcome,
+        note: record.notes
       }
       feed.push(feedItem)
     })

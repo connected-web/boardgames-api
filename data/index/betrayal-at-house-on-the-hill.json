@@ -2,41 +2,29 @@
   "boardGameGeekGameId": "10547",
   "boardGameGeekName": "Betrayal at House on the Hill",
   "boardGameApiId": "betrayal-at-house-on-the-hill",
-  "game": "Betrayal at House on the Hill",
-  "dates": [
-    "2018-01-11",
-    "2018-02-10",
-    "2018-02-25",
-    "2018-05-13"
-  ],
-  "winners": [
-    null,
-    null,
-    null,
-    null
-  ],
-  "coOpOutcomes": [
-    "Heroes won",
-    "Heroes lost",
-    "Heroes lost",
-    "Won"
-  ],
-  "coOpTypes": [
-    "Yes",
-    "Yes",
-    "Yes",
-    "Yes"
-  ],
-  "notes": [
-    null,
-    "2 player, each playing two characters",
-    "John was betrayer",
-    null
-  ],
-  "mechanics": [
-    null,
-    null,
-    null,
-    null
+  "name": "Betrayal at House on the Hill",
+  "playRecords": [
+    {
+      "date": "2018-01-11",
+      "coOpOutcome": "Heroes won",
+      "coOp": "Yes"
+    },
+    {
+      "date": "2018-02-10",
+      "coOpOutcome": "Heroes lost",
+      "coOp": "Yes",
+      "notes": "2 player, each playing two characters"
+    },
+    {
+      "date": "2018-02-25",
+      "coOpOutcome": "Heroes lost",
+      "coOp": "Yes",
+      "notes": "John was betrayer"
+    },
+    {
+      "date": "2018-05-13",
+      "coOpOutcome": "Won",
+      "coOp": "Yes"
+    }
   ]
 }

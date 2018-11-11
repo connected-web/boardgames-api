@@ -2,71 +2,55 @@
   "boardGameGeekGameId": "230802",
   "boardGameGeekName": "Azul",
   "boardGameApiId": "azul",
-  "game": "Azul",
-  "dates": [
-    "2018-04-28",
-    "2018-04-28",
-    "2018-05-02",
-    "2018-05-11",
-    "2018-05-12",
-    "2018-05-21",
-    "2018-05-26",
-    "2018-06-19",
-    "2018-08-31"
-  ],
-  "winners": [
-    "John",
-    "Hannah",
-    "John",
-    "Hannah",
-    "John",
-    "John",
-    "Other",
-    "John",
-    "John"
-  ],
-  "coOpOutcomes": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-  ],
-  "coOpTypes": [
-    "No",
-    "No",
-    "No",
-    "No",
-    "No",
-    "No",
-    "No",
-    "No",
-    "No"
-  ],
-  "notes": [
-    null,
-    null,
-    null,
-    null,
-    "Three player",
-    null,
-    "Boardgames party",
-    null,
-    null
-  ],
-  "mechanics": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    "4 player",
-    null,
-    null
+  "name": "Azul",
+  "playRecords": [
+    {
+      "date": "2018-04-28",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-04-28",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-05-02",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-05-11",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-05-12",
+      "winner": "John",
+      "coOp": "No",
+      "notes": "Three player"
+    },
+    {
+      "date": "2018-05-21",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-05-26",
+      "winner": "Other",
+      "coOp": "No",
+      "notes": "Boardgames party",
+      "mechanics": "4 player"
+    },
+    {
+      "date": "2018-06-19",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-08-31",
+      "winner": "John",
+      "coOp": "No"
+    }
   ]
 }

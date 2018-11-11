@@ -2,35 +2,23 @@
   "boardGameGeekGameId": "223494",
   "boardGameGeekName": "Harry Potter: Hogwarts Battle – The Monster Box of Monsters Expansion",
   "boardGameApiId": "harry-potter-hogwarts-battle-the-monster-box-of-monsters-expansion",
-  "game": "Harry Potter: Hogwarts Battle – The Monster Box of Monsters Expansion",
-  "dates": [
-    "2018-01-31",
-    "2018-02-01",
-    "2018-05-27"
-  ],
-  "winners": [
-    null,
-    null,
-    null
-  ],
-  "coOpOutcomes": [
-    "Lost",
-    "Won",
-    "Lost"
-  ],
-  "coOpTypes": [
-    "Yes",
-    "Yes",
-    "Yes"
-  ],
-  "notes": [
-    "Box 1",
-    null,
-    null
-  ],
-  "mechanics": [
-    null,
-    null,
-    null
+  "name": "Harry Potter: Hogwarts Battle – The Monster Box of Monsters Expansion",
+  "playRecords": [
+    {
+      "date": "2018-01-31",
+      "coOpOutcome": "Lost",
+      "coOp": "Yes",
+      "notes": "Box 1"
+    },
+    {
+      "date": "2018-02-01",
+      "coOpOutcome": "Won",
+      "coOp": "Yes"
+    },
+    {
+      "date": "2018-05-27",
+      "coOpOutcome": "Lost",
+      "coOp": "Yes"
+    }
   ]
 }

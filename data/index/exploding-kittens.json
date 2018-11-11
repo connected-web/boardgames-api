@@ -1,28 +1,18 @@
 {
   "boardGameApiId": "exploding-kittens",
-  "dates": [
-    "2018-08-24",
-    "2018-09-14"
+  "playRecords": [
+    {
+      "date": "2018-08-24",
+      "winner": "Other",
+      "coOp": "No",
+      "notes": "3 player"
+    },
+    {
+      "date": "2018-09-14",
+      "winner": "Other",
+      "coOp": "No",
+      "notes": "4-player"
+    }
   ],
-  "game": "Exploding Kittens",
-  "winners": [
-    "Other",
-    "Other"
-  ],
-  "coOpOutcomes": [
-    null,
-    null
-  ],
-  "coOpTypes": [
-    "No",
-    "No"
-  ],
-  "notes": [
-    "3 player",
-    "4-player"
-  ],
-  "mechanics": [
-    null,
-    null
-  ]
+  "name": "Exploding Kittens"
 }

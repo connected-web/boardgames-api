@@ -2,29 +2,17 @@
   "boardGameGeekGameId": "189035",
   "boardGameGeekName": "T.I.M.E Stories: A Prophecy of Dragons",
   "boardGameApiId": "time-stories-a-prophecy-of-dragons",
-  "game": "T.I.M.E Stories: A Prophecy of Dragons",
-  "dates": [
-    "2018-05-20",
-    "2018-05-21"
-  ],
-  "winners": [
-    null,
-    null
-  ],
-  "coOpOutcomes": [
-    "Lost",
-    "Won"
-  ],
-  "coOpTypes": [
-    "Yes",
-    "Yes"
-  ],
-  "notes": [
-    null,
-    null
-  ],
-  "mechanics": [
-    null,
-    null
+  "name": "T.I.M.E Stories: A Prophecy of Dragons",
+  "playRecords": [
+    {
+      "date": "2018-05-20",
+      "coOpOutcome": "Lost",
+      "coOp": "Yes"
+    },
+    {
+      "date": "2018-05-21",
+      "coOpOutcome": "Won",
+      "coOp": "Yes"
+    }
   ]
 }

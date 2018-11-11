@@ -9,7 +9,7 @@ async function start () {
   const boardGameIndex = require(datapath('boardgame-index.json'))
 
   const bggBoardGameNames = bggCollection.items[0].item.map(item => item.name[0]._text[0])
-  const caliBoardGameNames = Array.from(new Set(caliCollection.map(item => item.game)))
+  const caliBoardGameNames = Array.from(new Set(caliCollection.map(item => item.name)))
 
   const overlap = bggBoardGameNames.filter(n => caliBoardGameNames.includes(n)).sort()
   const bggOnly = bggBoardGameNames.filter(n => !caliBoardGameNames.includes(n)).sort()
@@ -24,8 +24,8 @@ async function start () {
   }
 
   caliCollection.forEach(item => {
-    if (!item.game) {
-      report('No game property found on item:', item, new Date(1900, 0, item.date))
+    if (!item.name) {
+      report('No name property found on item:', item, new Date(1900, 0, item.date))
     }
   })
 
@@ -42,7 +42,7 @@ async function start () {
     const boardGameApiId = kvp[0]
     const entry = kvp[1]
     return {
-      name: entry.game,
+      name: entry.name,
       boardGameApiId
     }
   }) }

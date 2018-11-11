@@ -1,28 +1,18 @@
 {
   "boardGameApiId": "shadows-amsterdam",
-  "dates": [
-    "2018-06-02",
-    "2018-06-02"
+  "playRecords": [
+    {
+      "date": "2018-06-02",
+      "coOpOutcome": "Lost",
+      "coOp": "Yes",
+      "notes": "5P"
+    },
+    {
+      "date": "2018-06-02",
+      "coOpOutcome": "Lost",
+      "coOp": "Yes",
+      "notes": "5P"
+    }
   ],
-  "game": "Shadows Amsterdam",
-  "winners": [
-    null,
-    null
-  ],
-  "coOpOutcomes": [
-    "Lost",
-    "Lost"
-  ],
-  "coOpTypes": [
-    "Yes",
-    "Yes"
-  ],
-  "notes": [
-    "5P",
-    "5P"
-  ],
-  "mechanics": [
-    null,
-    null
-  ]
+  "name": "Shadows Amsterdam"
 }

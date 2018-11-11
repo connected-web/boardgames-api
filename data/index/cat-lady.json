@@ -2,41 +2,27 @@
   "boardGameGeekGameId": "228504",
   "boardGameGeekName": "Cat Lady",
   "boardGameApiId": "cat-lady",
-  "game": "Cat Lady",
-  "dates": [
-    "2018-08-07",
-    "2018-08-17",
-    "2018-08-18",
-    "2018-10-15"
-  ],
-  "winners": [
-    "John",
-    "Hannah",
-    "John",
-    "Hannah"
-  ],
-  "coOpOutcomes": [
-    null,
-    null,
-    null,
-    null
-  ],
-  "coOpTypes": [
-    "No",
-    "No",
-    "No",
-    "No"
-  ],
-  "notes": [
-    null,
-    null,
-    null,
-    null
-  ],
-  "mechanics": [
-    null,
-    null,
-    null,
-    null
+  "name": "Cat Lady",
+  "playRecords": [
+    {
+      "date": "2018-08-07",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-08-17",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-08-18",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-10-15",
+      "winner": "Hannah",
+      "coOp": "No"
+    }
   ]
 }

@@ -2,35 +2,23 @@
   "boardGameGeekGameId": "51811",
   "boardGameGeekName": "Dominion: Seaside",
   "boardGameApiId": "dominion-seaside",
-  "game": "Dominion: Seaside",
-  "dates": [
-    "2018-10-20",
-    "2018-10-24",
-    "2018-11-03"
-  ],
-  "winners": [
-    "Hannah",
-    "Hannah",
-    "John"
-  ],
-  "coOpOutcomes": [
-    null,
-    null,
-    null
-  ],
-  "coOpTypes": [
-    "No",
-    "No",
-    "No"
-  ],
-  "notes": [
-    "High Seas",
-    null,
-    null
-  ],
-  "mechanics": [
-    null,
-    null,
-    null
+  "name": "Dominion: Seaside",
+  "playRecords": [
+    {
+      "date": "2018-10-20",
+      "winner": "Hannah",
+      "coOp": "No",
+      "notes": "High Seas"
+    },
+    {
+      "date": "2018-10-24",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-11-03",
+      "winner": "John",
+      "coOp": "No"
+    }
   ]
 }

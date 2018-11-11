@@ -2,53 +2,43 @@
   "boardGameGeekGameId": "244992",
   "boardGameGeekName": "The Mind",
   "boardGameApiId": "the-mind",
-  "game": "The Mind",
-  "dates": [
-    "2018-08-04",
-    "2018-08-08",
-    "2018-09-02",
-    "2018-09-02",
-    "2018-09-02",
-    "2018-10-12"
-  ],
-  "winners": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-  ],
-  "coOpOutcomes": [
-    "lost",
-    "lost",
-    "lost",
-    "lost",
-    "lost",
-    "Lost"
-  ],
-  "coOpTypes": [
-    "Yes",
-    "Yes",
-    "Yes",
-    "Yes",
-    "Yes",
-    "Yes"
-  ],
-  "notes": [
-    "level 6",
-    "level 8",
-    "4-player",
-    "4-player",
-    "4-player",
-    "Level 10"
-  ],
-  "mechanics": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
+  "name": "The Mind",
+  "playRecords": [
+    {
+      "date": "2018-08-04",
+      "coOpOutcome": "lost",
+      "coOp": "Yes",
+      "notes": "level 6"
+    },
+    {
+      "date": "2018-08-08",
+      "coOpOutcome": "lost",
+      "coOp": "Yes",
+      "notes": "level 8"
+    },
+    {
+      "date": "2018-09-02",
+      "coOpOutcome": "lost",
+      "coOp": "Yes",
+      "notes": "4-player"
+    },
+    {
+      "date": "2018-09-02",
+      "coOpOutcome": "lost",
+      "coOp": "Yes",
+      "notes": "4-player"
+    },
+    {
+      "date": "2018-09-02",
+      "coOpOutcome": "lost",
+      "coOp": "Yes",
+      "notes": "4-player"
+    },
+    {
+      "date": "2018-10-12",
+      "coOpOutcome": "Lost",
+      "coOp": "Yes",
+      "notes": "Level 10"
+    }
   ]
 }

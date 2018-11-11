@@ -2,29 +2,19 @@
   "boardGameGeekGameId": "124742",
   "boardGameGeekName": "Android: Netrunner",
   "boardGameApiId": "android-netrunner",
-  "game": "Android: Netrunner",
-  "dates": [
-    "2018-08-27",
-    "2018-09-20"
-  ],
-  "winners": [
-    "Hannah",
-    "Hannah"
-  ],
-  "coOpOutcomes": [
-    null,
-    null
-  ],
-  "coOpTypes": [
-    "No",
-    "No"
-  ],
-  "notes": [
-    "Hannah = runner",
-    "as the corp"
-  ],
-  "mechanics": [
-    null,
-    null
+  "name": "Android: Netrunner",
+  "playRecords": [
+    {
+      "date": "2018-08-27",
+      "winner": "Hannah",
+      "coOp": "No",
+      "notes": "Hannah = runner"
+    },
+    {
+      "date": "2018-09-20",
+      "winner": "Hannah",
+      "coOp": "No",
+      "notes": "as the corp"
+    }
   ]
 }

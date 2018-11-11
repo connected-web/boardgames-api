@@ -15,7 +15,7 @@ async function start () {
   const earliestDate = new Date(earliestTime).toISOString().substring(0, 10)
   const latestDate = new Date(latestTime).toISOString().substring(0, 10)
 
-  const uniqueGames = (new Array(...new Set(feed.map(g => g.game)))).sort()
+  const uniqueGames = (new Array(...new Set(feed.map(g => g.name)))).sort()
   const uniqueGamesCount = uniqueGames.length
   report('Unique games count:', uniqueGamesCount, 'Earliest date', earliestDate, 'Latest Date', latestDate)
 

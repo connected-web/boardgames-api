@@ -2,35 +2,22 @@
   "boardGameGeekGameId": "40849",
   "boardGameGeekName": "Pandemic: On the Brink",
   "boardGameApiId": "pandemic-on-the-brink",
-  "game": "Pandemic: On the Brink",
-  "dates": [
-    "2018-06-22",
-    "2018-06-23",
-    "2018-06-25"
-  ],
-  "winners": [
-    null,
-    null,
-    null
-  ],
-  "coOpOutcomes": [
-    "Won",
-    "Won",
-    "Won"
-  ],
-  "coOpTypes": [
-    "Yes",
-    "Yes",
-    "Yes"
-  ],
-  "notes": [
-    null,
-    null,
-    null
-  ],
-  "mechanics": [
-    null,
-    null,
-    null
+  "name": "Pandemic: On the Brink",
+  "playRecords": [
+    {
+      "date": "2018-06-22",
+      "coOpOutcome": "Won",
+      "coOp": "Yes"
+    },
+    {
+      "date": "2018-06-23",
+      "coOpOutcome": "Won",
+      "coOp": "Yes"
+    },
+    {
+      "date": "2018-06-25",
+      "coOpOutcome": "Won",
+      "coOp": "Yes"
+    }
   ]
 }

@@ -2,53 +2,38 @@
   "boardGameGeekGameId": "169654",
   "boardGameGeekName": "Deep Sea Adventure",
   "boardGameApiId": "deep-sea-adventure",
-  "game": "Deep Sea Adventure",
-  "dates": [
-    "2018-02-05",
-    "2018-03-24",
-    "2018-04-12",
-    "2018-05-24",
-    "2018-07-13",
-    "2018-09-05"
-  ],
-  "winners": [
-    "Hannah",
-    "John",
-    null,
-    "Hannah",
-    null,
-    null
-  ],
-  "coOpOutcomes": [
-    null,
-    null,
-    "Win",
-    null,
-    null,
-    "won"
-  ],
-  "coOpTypes": [
-    "No",
-    "No",
-    "Yes",
-    "No",
-    "Yes",
-    "Yes"
-  ],
-  "notes": [
-    "three player at lunch in work",
-    null,
-    "Score: 93",
-    null,
-    null,
-    null
-  ],
-  "mechanics": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
+  "name": "Deep Sea Adventure",
+  "playRecords": [
+    {
+      "date": "2018-02-05",
+      "winner": "Hannah",
+      "coOp": "No",
+      "notes": "three player at lunch in work"
+    },
+    {
+      "date": "2018-03-24",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-04-12",
+      "coOpOutcome": "Win",
+      "coOp": "Yes",
+      "notes": "Score: 93"
+    },
+    {
+      "date": "2018-05-24",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-07-13",
+      "coOp": "Yes"
+    },
+    {
+      "date": "2018-09-05",
+      "coOpOutcome": "won",
+      "coOp": "Yes"
+    }
   ]
 }

@@ -2,59 +2,43 @@
   "boardGameGeekGameId": "210900",
   "boardGameGeekName": "Topiary",
   "boardGameApiId": "topiary",
-  "game": "Topiary",
-  "dates": [
-    "2018-07-18",
-    "2018-07-19",
-    "2018-07-24",
-    "2018-08-14",
-    "2018-08-21",
-    "2018-09-11",
-    "2018-10-29"
-  ],
-  "winners": [
-    "John",
-    "Hannah",
-    "Hannah",
-    "Hannah",
-    "John",
-    "Hannah",
-    "Hannah"
-  ],
-  "coOpOutcomes": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-  ],
-  "coOpTypes": [
-    "No",
-    "No",
-    "No",
-    "No",
-    "No",
-    "No",
-    "No"
-  ],
-  "notes": [
-    null,
-    null,
-    null,
-    null,
-    "4 player",
-    null,
-    null
-  ],
-  "mechanics": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
+  "name": "Topiary",
+  "playRecords": [
+    {
+      "date": "2018-07-18",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-07-19",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-07-24",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-08-14",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-08-21",
+      "winner": "John",
+      "coOp": "No",
+      "notes": "4 player"
+    },
+    {
+      "date": "2018-09-11",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-10-29",
+      "winner": "Hannah",
+      "coOp": "No"
+    }
   ]
 }

@@ -2,35 +2,25 @@
   "boardGameGeekGameId": "925",
   "boardGameGeekName": "Werewolf",
   "boardGameApiId": "werewolf",
-  "game": "Werewolf",
-  "dates": [
-    "2018-10-17",
-    "2018-10-17",
-    "2018-10-17"
-  ],
-  "winners": [
-    null,
-    null,
-    null
-  ],
-  "coOpOutcomes": [
-    "Won",
-    "Won",
-    null
-  ],
-  "coOpTypes": [
-    "Yes",
-    "Yes",
-    "No"
-  ],
-  "notes": [
-    "18-player ",
-    "19 player",
-    "20 player"
-  ],
-  "mechanics": [
-    "Team-based",
-    null,
-    null
+  "name": "Werewolf",
+  "playRecords": [
+    {
+      "date": "2018-10-17",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "notes": "18-player ",
+      "mechanics": "Team-based"
+    },
+    {
+      "date": "2018-10-17",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "notes": "19 player"
+    },
+    {
+      "date": "2018-10-17",
+      "coOp": "No",
+      "notes": "20 player"
+    }
   ]
 }

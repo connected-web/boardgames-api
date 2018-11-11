@@ -2,65 +2,50 @@
   "boardGameGeekGameId": "209418",
   "boardGameGeekName": "Dominion (Second Edition)",
   "boardGameApiId": "dominion-second-edition",
-  "game": "Dominion (Second Edition)",
-  "dates": [
-    "2018-02-23",
-    "2018-02-25",
-    "2018-03-02",
-    "2018-03-02",
-    "2018-03-07",
-    "2018-03-16",
-    "2018-03-23",
-    "2018-06-02"
-  ],
-  "winners": [
-    "Hannah",
-    "John",
-    "John",
-    "Hannah",
-    "John",
-    "John",
-    "Draw",
-    "Hannah"
-  ],
-  "coOpOutcomes": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-  ],
-  "coOpTypes": [
-    "No",
-    "No",
-    "No",
-    "No",
-    "No",
-    "No",
-    "No",
-    "No"
-  ],
-  "notes": [
-    null,
-    null,
-    "\"Deck top\"",
-    "\"Deck top\"",
-    null,
-    null,
-    null,
-    "Base game"
-  ],
-  "mechanics": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
+  "name": "Dominion (Second Edition)",
+  "playRecords": [
+    {
+      "date": "2018-02-23",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-02-25",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-03-02",
+      "winner": "John",
+      "coOp": "No",
+      "notes": "\"Deck top\""
+    },
+    {
+      "date": "2018-03-02",
+      "winner": "Hannah",
+      "coOp": "No",
+      "notes": "\"Deck top\""
+    },
+    {
+      "date": "2018-03-07",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-03-16",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-03-23",
+      "winner": "Draw",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-06-02",
+      "winner": "Hannah",
+      "coOp": "No",
+      "notes": "Base game"
+    }
   ]
 }

@@ -2,35 +2,22 @@
   "boardGameGeekGameId": "146508",
   "boardGameGeekName": "T.I.M.E Stories",
   "boardGameApiId": "time-stories",
-  "game": "T.I.M.E Stories",
-  "dates": [
-    "2018-04-29",
-    "2018-04-29",
-    "2018-04-29"
-  ],
-  "winners": [
-    null,
-    null,
-    null
-  ],
-  "coOpOutcomes": [
-    "Lost",
-    "Lost",
-    "Win"
-  ],
-  "coOpTypes": [
-    "Yes",
-    "Yes",
-    "Yes"
-  ],
-  "notes": [
-    null,
-    null,
-    null
-  ],
-  "mechanics": [
-    null,
-    null,
-    null
+  "name": "T.I.M.E Stories",
+  "playRecords": [
+    {
+      "date": "2018-04-29",
+      "coOpOutcome": "Lost",
+      "coOp": "Yes"
+    },
+    {
+      "date": "2018-04-29",
+      "coOpOutcome": "Lost",
+      "coOp": "Yes"
+    },
+    {
+      "date": "2018-04-29",
+      "coOpOutcome": "Win",
+      "coOp": "Yes"
+    }
   ]
 }

@@ -2,29 +2,18 @@
   "boardGameGeekGameId": "175324",
   "boardGameGeekName": "Fog of Love",
   "boardGameApiId": "fog-of-love",
-  "game": "Fog of Love",
-  "dates": [
-    "2018-06-02",
-    "2018-06-03"
-  ],
-  "winners": [
-    "Hannah",
-    null
-  ],
-  "coOpOutcomes": [
-    "Lost",
-    "Won"
-  ],
-  "coOpTypes": [
-    "Yes",
-    "Yes"
-  ],
-  "notes": [
-    null,
-    null
-  ],
-  "mechanics": [
-    null,
-    null
+  "name": "Fog of Love",
+  "playRecords": [
+    {
+      "date": "2018-06-02",
+      "winner": "Hannah",
+      "coOpOutcome": "Lost",
+      "coOp": "Yes"
+    },
+    {
+      "date": "2018-06-03",
+      "coOpOutcome": "Won",
+      "coOp": "Yes"
+    }
   ]
 }

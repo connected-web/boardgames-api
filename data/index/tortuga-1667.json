@@ -2,35 +2,23 @@
   "boardGameGeekGameId": "218530",
   "boardGameGeekName": "Tortuga 1667",
   "boardGameApiId": "tortuga-1667",
-  "game": "Tortuga 1667",
-  "dates": [
-    "2018-02-23",
-    "2018-03-30",
-    "2018-08-18"
-  ],
-  "winners": [
-    "John",
-    null,
-    "Hannah"
-  ],
-  "coOpOutcomes": [
-    null,
-    "Lost",
-    null
-  ],
-  "coOpTypes": [
-    "No",
-    "Yes",
-    "No"
-  ],
-  "notes": [
-    null,
-    "4 player",
-    null
-  ],
-  "mechanics": [
-    null,
-    null,
-    null
+  "name": "Tortuga 1667",
+  "playRecords": [
+    {
+      "date": "2018-02-23",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-03-30",
+      "coOpOutcome": "Lost",
+      "coOp": "Yes",
+      "notes": "4 player"
+    },
+    {
+      "date": "2018-08-18",
+      "winner": "Hannah",
+      "coOp": "No"
+    }
   ]
 }
