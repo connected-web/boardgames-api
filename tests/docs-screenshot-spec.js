@@ -1,12 +1,7 @@
-const { expect } = require('chai')
 const Nightmare = require('nightmare')
 const config = require('./helpers/config')
 const screenshotPath = require('./helpers/screenshotPath')
 const dreamCatcher = require('./helpers/dreamCatcher')
-
-function box(x, y, width, height) {
-  return { x, y, width, height }
-}
 
 describe(`Boardgame API Docs Screenshots [${config.name}]`, () => {
   it(`should render a mobile view of the documentation website`, () => {

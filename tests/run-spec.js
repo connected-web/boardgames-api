@@ -1,4 +1,3 @@
-const config = require('./helpers/config')
 const { run, position } = require('promise-path')
 const { expect } = require('chai')
 const basepath = position(__dirname, '../')
@@ -17,7 +16,7 @@ const expected = `[Board Game API Run] Available scripts to run:
   node run download-bgg-entries
   node run download-cali-playstats
   node run update-owned-lists
-`;
+`
 
 describe('Board Game API Run', async () => {
   it('should list all available commands', async () => {

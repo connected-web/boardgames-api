@@ -6,24 +6,24 @@ const { validate } = require('jsonschema')
 const apiPath = position(__dirname, '../api/')
 const endpointData = require(apiPath('endpoints.json'))
 
-async function fetchJSON(url) {
+async function fetchJSON (url) {
   let body
   try {
     body = await fetch(url)
     return JSON.parse(body)
-  } catch(ex) {
+  } catch (ex) {
     throw new Error(`Unable to parse body as valid JSON: ${body}, ${ex}`)
   }
 }
 
-function checkForRelativeUrl(path) {
+function checkForRelativeUrl (path) {
   if (path && path.substring(0, 1) === '/') {
     return config.serverPath + path
   }
   return path
 }
 
-async function test(apiPath, apiSchemaPath) {
+async function test (apiPath, apiSchemaPath) {
   apiPath = checkForRelativeUrl(apiPath)
   apiSchemaPath = checkForRelativeUrl(apiSchemaPath)
 
@@ -31,7 +31,7 @@ async function test(apiPath, apiSchemaPath) {
   const endpointData = await fetchJSON(apiPath)
   const schemaValidation = validate(endpointData, apiSchema)
 
-  expect(endpointData).to.not.have.property('status', '404');
+  expect(endpointData).to.not.have.property('status', '404')
   expect(schemaValidation.errors).to.deep.equal([])
 }
 
@@ -39,7 +39,7 @@ describe('API Endpoints', () => {
   it('GET /api/endpoints should list all available endpoints', async () => test(`${config.serverPath}/api/endpoints`, `${config.serverPath}/api/schema`))
   it('GET /api/endpoints should match the local data used to generate these tests', async () => {
     const actual = await fetchJSON(`${config.serverPath}/api/endpoints`)
-    const actualEndpoints = actual && actual.endpoints || []
+    const actualEndpoints = (actual && actual.endpoints) || []
     endpointData.endpoints.forEach((expectedEndpoint, i) => {
       expect(actualEndpoints[i]).to.deep.equal(expectedEndpoint)
     })

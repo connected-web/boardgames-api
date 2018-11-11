@@ -3,29 +3,13 @@ const writeFile = require('./util/writeFile')
 const datapath = position(__dirname, '../data')
 const report = (...messages) => console.log('[Create Board Game Summaries]', ...messages)
 
-const template = `Total games played: 39
-
-Days missed: 0
-
-Most games played in a day: 4
-
-Most played game: Yam Yam with 4 plays
-
-Percentage of co-operative games played: 25.6% (10 games), 4 wins and 6 losses
-
-Win rates between Hannah and John in versus games: 30% (9 games) to John, 63.3% (19 games) to Hannah, and 6.7% (2 games) to other people
-
-Largest game played: The Mind, Space Base, Skull, and Exploding Kittens each with 4 players
-
-Complete List of Games Played In September:`
-
 const monthsOfTheYear = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 
-function daysInMonth(month, year) {
-  return new Date(year, month + 1, 0).getDate();
+function daysInMonth (month, year) {
+  return new Date(year, month + 1, 0).getDate()
 }
 
-function fmn(n) {
+function fmn (n) {
   return Number.parseFloat(n.toFixed(4))
 }
 
@@ -147,7 +131,7 @@ async function start () {
   summaries.latestDate = new Date(latestTime).toISOString().substring(0, 10)
   summaries.byMonth = monthsInUse
 
-  async function writeMonth(month) {
+  async function writeMonth (month) {
     const filename = `boardgame-summary-${month.dateCode}.json`
     return writeFile('Board Game Summary', filename, month)
   }

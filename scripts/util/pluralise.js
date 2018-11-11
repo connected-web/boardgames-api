@@ -7,7 +7,7 @@ const pluralMap = {
   mechanics: 'mechanics'
 }
 
-function pluralise(key) {
+function pluralise (key) {
   return pluralMap[key] || false
 }
 

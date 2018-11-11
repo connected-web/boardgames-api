@@ -2,7 +2,7 @@ const config = require('./helpers/config')
 const { fetch } = require('promise-path')
 const { expect } = require('chai')
 
-function createStandardHTMLTests(path) {
+function createStandardHTMLTests (path) {
   it('should return valid HTML', async () => {
     const body = await fetch(path)
     expect(body).to.contain('<!DOCTYPE html>')

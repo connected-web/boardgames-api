@@ -11,11 +11,10 @@ async function start () {
     return acc
   }, {})
 
-  function runScriptIfFunction(n) {
+  function runScriptIfFunction (n) {
     if (typeof scripts[n] === 'function') {
       return scripts[n]()
-    }
-    else {
+    } else {
       return console.log('[Board Game API Run] Script', n, 'is not a function')
     }
   }
@@ -35,7 +34,7 @@ async function start () {
     return processScripts([
       'download-cali-playstats',
       'download-bgg-collection',
-      'download-bgg-entries',
+      'download-bgg-entries'
     ], scripts)
   }
 
@@ -55,7 +54,7 @@ async function start () {
     ], scripts)
   }
 
-  async function processScripts(scriptsToRun, scriptIndex) {
+  async function processScripts (scriptsToRun, scriptIndex) {
     let nextScript
     const remainingScripts = [].concat(...scriptsToRun)
     try {
@@ -73,7 +72,7 @@ async function start () {
 
   if (scripts[scriptToRun]) {
     console.log('[Board Game API Run] Running', scriptToRun)
-    await scripts[scriptToRun]()
+    await runScriptIfFunction(scriptToRun)
   } else {
     console.log('[Board Game API Run] Available scripts to run:')
     Object.keys(scripts).sort().forEach(n => console.log(' ', `node run ${n}`))

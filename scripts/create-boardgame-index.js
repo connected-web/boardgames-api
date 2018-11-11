@@ -47,11 +47,9 @@ async function start () {
         const values = entry[keyplural] || []
         values.push(value)
         entry[keyplural] = values
-      }
-      else if(entry[key] && entry[key] !== value) {
+      } else if (entry[key] && entry[key] !== value) {
         entry[`${key}_conflict`] = value
-      }
-      else {
+      } else {
         entry[key] = value
       }
     })

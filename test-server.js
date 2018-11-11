@@ -32,8 +32,7 @@ function render (phpScriptPath) {
         try {
           const data = JSON.parse(body)
           res.json(data)
-        }
-        catch (ex) {
+        } catch (ex) {
           res.send(body)
         }
       }

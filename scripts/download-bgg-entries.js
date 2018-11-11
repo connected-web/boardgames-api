@@ -51,16 +51,20 @@ function start () {
     const itemsPerBatch = 1
     const delayPerBatch = 600
     const rateDelayInMs = 100 // ms
-    if (work.length > 0) {
-      let items = work.splice(0, itemsPerBatch)
-      report('Fetching next entry:', items.length, 'items;', work.length, 'remaining;', Math.min(items.length, rateLimitFailureCount), 'rate limit retries waiting.')
-      let activeWork = items.map(n => n())
-      let block = await Promise.all(activeWork)
-      results.concat(block)
-      setTimeout(doWork, delayPerBatch + (rateLimitFailureCount * rateDelayInMs), work)
-    }
-    else {
-      resolveWork(results)
+    try {
+      if (work.length > 0) {
+        let items = work.splice(0, itemsPerBatch)
+        report('Fetching next entry:', items.length, 'items;', work.length, 'remaining;', Math.min(items.length, rateLimitFailureCount), 'rate limit retries waiting.')
+        let activeWork = items.map(n => n())
+        let block = await Promise.all(activeWork)
+        results.concat(block)
+        setTimeout(doWork, delayPerBatch + (rateLimitFailureCount * rateDelayInMs), work)
+      } else {
+        resolveWork(results)
+      }
+    } catch (ex) {
+      report('Unable to complete work', ex)
+      rejectWork(ex)
     }
   }
 

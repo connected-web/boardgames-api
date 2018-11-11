@@ -1,38 +1,37 @@
-$.getJSON('/api/endpoints', function(data) {
-    data.endpoints = data.endpoints || []
+/* global $ */
+$.getJSON('/api/endpoints', function (data) {
+  data.endpoints = data.endpoints || []
 
-    const schemaEndpoints = data.endpoints
+  const schemaEndpoints = data.endpoints
+  const $content = $('<content/>')
 
-    $content = $('<content/>')
+  $content.append('<heading>API Schemas</heading>')
+  $.each(schemaEndpoints, renderEndpoint)
 
-    $content.append('<heading>API Schemas</heading>')
-    $.each(schemaEndpoints, renderEndpoint)
+  $('content:first-of-type').append($content)
 
-    $('content:first-of-type').append($content)
+  function renderEndpoint (key, endpoint) {
+    let $endpoint = $('<endpoint/>')
+    let $schema = $('<code class="json schema" />')
 
-    function renderEndpoint(key, endpoint) {
-      let $endpoint = $('<endpoint/>')
-      let $sample = $('<code class="json sample" />')
-      let $schema = $('<code class="json schema" />')
+    $endpoint.append($('<heading><a href="' + endpoint.schema + '">' + endpoint.method + ' ' + endpoint.schema + '</a></heading>'))
+    $endpoint.append($('<p>' + endpoint.description + '</p>'))
+    $endpoint.append($('<p>Accepts: ' + endpoint.accepts + '</p>'))
+    $content.append($endpoint)
 
-      $endpoint.append($('<heading><a href="' + endpoint.schema + '">' + endpoint.method + ' ' + endpoint.schema + '</a></heading>'))
-      $endpoint.append($('<p>' + endpoint.description + '</p>'))
-      $endpoint.append($('<p>Accepts: ' + endpoint.accepts + '</p>'))
-      $content.append($endpoint)
-
-      if (endpoint.schema) {
-        $.getJSON(endpoint.schema, (data) => {
-          $schema.html(JSON.stringify(data, null, 2))
-        })
-        $endpoint.append($('<p>Schema: <a href="' + endpoint.schema + '">' + endpoint.schema + '</a></p>'))
-        $endpoint.append($schema)
-      }
+    if (endpoint.schema) {
+      $.getJSON(endpoint.schema, (data) => {
+        $schema.html(JSON.stringify(data, null, 2))
+      })
+      $endpoint.append($('<p>Schema: <a href="' + endpoint.schema + '">' + endpoint.schema + '</a></p>'))
+      $endpoint.append($schema)
     }
+  }
 
-    registerExpandables()
+  registerExpandables()
 })
 
-function registerExpandables() {
+function registerExpandables () {
   $('code.schema').addClass('expandable').on('click', (ev) => {
     $(ev.target).toggleClass('expanded')
   })

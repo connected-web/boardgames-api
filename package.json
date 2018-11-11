@@ -5,8 +5,8 @@
   "main": "run.js",
   "scripts": {
     "start": "node test-server.js",
-    "lint": "standard --fix",
-    "test": "npm run lint --env mocha && mocha --recursive tests/**/*spec.js"
+    "lint": "standard --fix --env mocha ",
+    "test": "npm run lint && mocha --recursive tests/**/*spec.js"
   },
   "author": "John Beech",
   "license": "ISC",
