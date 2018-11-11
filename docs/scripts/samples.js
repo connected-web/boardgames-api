@@ -1,7 +1,7 @@
-$.getJSON('/api/', function(data) {
+$.getJSON('/api/endpoints', function(data) {
     data.endpoints = data.endpoints || []
 
-    const sampleEndpoints = data.endpoints.filter(e => e.path.includes('/sample'))
+    const sampleEndpoints = data.endpoints
 
     $content = $('<content/>')
 
@@ -15,13 +15,13 @@ $.getJSON('/api/', function(data) {
       let $sample = $('<code class="json sample" />')
       let $schema = $('<code class="json schema" />')
 
-      $endpoint.append($('<heading><a href="' + endpoint.path + '">' + endpoint.method + ' ' + endpoint.path + '</a></heading>'))
+      $endpoint.append($('<heading><a href="' + endpoint.sample + '">' + endpoint.method + ' ' + endpoint.sample + '</a></heading>'))
       $endpoint.append($('<p>' + endpoint.description + '</p>'))
       $endpoint.append($('<p>Accepts: ' + endpoint.accepts + '</p>'))
       $content.append($endpoint)
 
-      if (endpoint.path) {
-        $.getJSON(endpoint.path, (data) => {
+      if (endpoint.sample) {
+        $.getJSON(endpoint.sample, (data) => {
           $sample.html(JSON.stringify(data, null, 2))
         })
         $endpoint.append($('<p>Contents:</p>'))
