@@ -6,6 +6,7 @@ const report = (...messages) => console.log('[Create Board Game List]', ...messa
 async function start () {
   const bggCollection = require(datapath('bgg-collection.json'))
   const caliCollection = require(datapath('cali-playstats.json'))
+  const boardGameIndex = require(datapath('boardgame-index.json'))
 
   const bggBoardGameNames = bggCollection.items[0].item.map(item => item.name[0]._text[0])
   const caliBoardGameNames = Array.from(new Set(caliCollection.map(item => item.game)))
@@ -36,7 +37,20 @@ async function start () {
     caliOnly,
     stats
   }
-  return writeFile('Board Game List', 'boardgame-names.json', boardGameNames)
+
+  const boardGameList = { games: Object.entries(boardGameIndex).map(kvp => {
+    const boardGameApiId = kvp[0]
+    const entry = kvp[1]
+    return {
+      name: entry.game,
+      boardGameApiId
+    }
+  }) }
+
+  return Promise.all([
+    writeFile('Board Game Names', 'boardgame-names.json', boardGameNames),
+    writeFile('Board Game List', 'boardgame-list.json', boardGameList)
+  ])
 }
 
 module.exports = start

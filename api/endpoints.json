@@ -8,6 +8,14 @@
     "sample": "/api/endpoints/sample",
     "sourceId": "endpoints"
   }, {
+    "path": "/api/boardgame/list",
+    "method": "GET",
+    "description": "Return a summarised list of board games played by John and Hannah, sorted alphabetically.",
+    "accepts": "application/json",
+    "schema": "/api/boardgame/list/schema",
+    "sample": "/api/boardgame/list/sample",
+    "sourceId": "boardgame-list"
+  }, {
     "path": "/api/boardgame/feed",
     "method": "GET",
     "description": "Return a feed of board games played by John and Hannah.",
