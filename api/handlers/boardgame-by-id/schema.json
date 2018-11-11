@@ -1,0 +1,21 @@
+{
+	"id": "/",
+	"type": "object",
+	"properties": {
+		"game": {
+			"type": "object",
+			"properties": {
+				"name": {
+					"type": "string",
+					"pattern": "^.*$"
+				},
+				"boardGameApiId": {
+					"type": "string",
+					"pattern": "^[a-z-\\d]+$"
+				}
+			},
+			"additionalProperties": true
+		}
+	},
+	"additionalProperties": false
+}

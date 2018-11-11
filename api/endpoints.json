@@ -16,6 +16,22 @@
     "sample": "/api/boardgame/list/sample",
     "sourceId": "boardgame-list"
   }, {
+    "path": "/api/boardgame/by/:boardGameApiId",
+    "regex": "/\\/api\\/boardgame\\/by\\/([a-z\\d-]+)/",
+    "example": "/api/boardgame/by/love-letter",
+    "method": "GET",
+    "description": "Return information about an individual board game by providing a board game api id.",
+    "properties": {
+      ":boardGameApiId": {
+        "description": "A board game api id; made out of alpha-numeric characters and dashes.",
+        "regex": "/[a-z\\d]+/"
+      }
+    },
+    "accepts": "application/json",
+    "schema": "/api/boardgame/by/:boardGameApiId/schema",
+    "sample": "/api/boardgame/by/:boardGameApiId/sample",
+    "sourceId": "boardgame-by-id"
+  }, {
     "path": "/api/boardgame/feed",
     "method": "GET",
     "description": "Return a feed of board games played by John and Hannah.",
@@ -40,7 +56,7 @@
     "properties": {
       ":dateCode": {
         "description": "Date codes come in the form yyyy-mm, for example: 2018-10",
-        "regex": "\\d{4}-\\d{2}"
+        "regex": "/\\d{4}-\\d{2}/"
       }
     },
     "accepts": "application/json",
