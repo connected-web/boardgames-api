@@ -132,7 +132,7 @@ async function start () {
   summaries.byMonth = monthsInUse
 
   async function writeMonth (month) {
-    const filename = `boardgame-summary-${month.dateCode}.json`
+    const filename = `summaries/boardgame-summary-${month.dateCode}.json`
     return writeFile('Board Game Summary', filename, month)
   }
 

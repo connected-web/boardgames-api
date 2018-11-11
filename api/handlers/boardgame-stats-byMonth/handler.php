@@ -5,7 +5,7 @@ class Handler {
     $result = array('byMonth' => array());
     $dateCode = $matches[1];
 
-    $source = __DIR__ . '/../../../data/boardgame-summary-' . $dateCode  . '.json';
+    $source = __DIR__ . '/../../../data/summaries/boardgame-summary-' . $dateCode  . '.json';
     $monthData = @json_decode(@file_get_contents($source));
 
     if ($monthData) {
