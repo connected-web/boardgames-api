@@ -2,18 +2,18 @@
   "dateCode": "2018-11",
   "daysInMonth": 30,
   "title": "November 2018",
-  "daysWithUnplayedGames": 25,
+  "daysWithUnplayedGames": 20,
   "gamesPlayedPerDay": {
     "1": 1,
     "2": 1,
     "3": 2,
     "4": 2,
     "5": 1,
-    "6": 0,
-    "7": 0,
-    "8": 0,
-    "9": 0,
-    "10": 0,
+    "6": 1,
+    "7": 1,
+    "8": 1,
+    "9": 2,
+    "10": 1,
     "11": 0,
     "12": 0,
     "13": 0,
@@ -51,18 +51,14 @@
     {
       "date": "2018-11-03",
       "game": "Deadwood 1876",
-      "winner": "Other"
+      "winner": "Other",
+      "coOp": "No"
     },
     {
       "date": "2018-11-03",
       "game": "Dominion: Seaside",
-      "winner": "John"
-    },
-    {
-      "date": "2018-11-04",
-      "game": "T.I.M.E Stories: Under the Mask",
-      "coOp": "Yes",
-      "coOpOutcome": "Lost"
+      "winner": "John",
+      "coOp": "No"
     },
     {
       "date": "2018-11-04",
@@ -71,14 +67,56 @@
       "coOp": "No"
     },
     {
+      "date": "2018-11-04",
+      "game": "T.I.M.E Stories: Under the Mask",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
+    },
+    {
       "date": "2018-11-05",
       "game": "Adventure Time Love Letter",
       "winner": "John",
       "coOp": "No"
+    },
+    {
+      "date": "2018-11-06",
+      "game": "Love Letter: The Hobbit – The Battle of the Five Armies",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-11-07",
+      "game": "Love Letter Premium",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-11-08",
+      "game": "Ticket to Ride: Europa 1912",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-11-09",
+      "game": "The Resistance",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
+    },
+    {
+      "date": "2018-11-09",
+      "game": "Battlestar Galactica",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2018-11-10",
+      "game": "Jurassic Snack",
+      "winner": "John",
+      "coOp": "No"
     }
   ],
-  "totalGamesPlayed": 7,
-  "averageGamesPlayedPerDay": 0.2333,
+  "totalGamesPlayed": 13,
+  "averageGamesPlayedPerDay": 0.4333,
   "mostGamesPlayedInADay": [
     {
       "date": "2018-11-03",
@@ -90,8 +128,15 @@
     {
       "date": "2018-11-04",
       "games": [
-        "T.I.M.E Stories: Under the Mask",
-        "Tanto Cuore: Romantic Vacation"
+        "Tanto Cuore: Romantic Vacation",
+        "T.I.M.E Stories: Under the Mask"
+      ]
+    },
+    {
+      "date": "2018-11-09",
+      "games": [
+        "The Resistance",
+        "Battlestar Galactica"
       ]
     }
   ],
@@ -101,19 +146,7 @@
       "plays": 1
     },
     {
-      "game": "Lovecraft Letter",
-      "plays": 1
-    },
-    {
-      "game": "Deadwood 1876",
-      "plays": 1
-    },
-    {
       "game": "Dominion: Seaside",
-      "plays": 1
-    },
-    {
-      "game": "T.I.M.E Stories: Under the Mask",
       "plays": 1
     },
     {
@@ -121,22 +154,58 @@
       "plays": 1
     },
     {
+      "game": "T.I.M.E Stories: Under the Mask",
+      "plays": 1
+    },
+    {
+      "game": "Deadwood 1876",
+      "plays": 1
+    },
+    {
+      "game": "Love Letter: The Hobbit – The Battle of the Five Armies",
+      "plays": 1
+    },
+    {
+      "game": "Love Letter Premium",
+      "plays": 1
+    },
+    {
+      "game": "Ticket to Ride: Europa 1912",
+      "plays": 1
+    },
+    {
+      "game": "The Resistance",
+      "plays": 1
+    },
+    {
+      "game": "Battlestar Galactica",
+      "plays": 1
+    },
+    {
+      "game": "Lovecraft Letter",
+      "plays": 1
+    },
+    {
+      "game": "Jurassic Snack",
+      "plays": 1
+    },
+    {
       "game": "Adventure Time Love Letter",
       "plays": 1
     }
   ],
-  "coOpGamesPlayedCount": 1,
-  "coOpGamesPlayedPercentage": 0.1429,
-  "coOpGameWins": 0,
-  "coOpGameLoses": 1,
-  "winCountHannah": 2,
-  "winCountJohn": 3,
+  "coOpGamesPlayedCount": 3,
+  "coOpGamesPlayedPercentage": 0.2308,
+  "coOpGameWins": 1,
+  "coOpGameLoses": 2,
+  "winCountHannah": 4,
+  "winCountJohn": 5,
   "winCountOther": 1,
   "winCountDraw": 0,
-  "winnableGamesTotal": 6,
-  "winRateHannah": 0.3333,
+  "winnableGamesTotal": 10,
+  "winRateHannah": 0.4,
   "winRateJohn": 0.5,
-  "winRateOther": 0.1667,
+  "winRateOther": 0.1,
   "winRateDraw": 0,
   "mostWonGames": "John"
 }

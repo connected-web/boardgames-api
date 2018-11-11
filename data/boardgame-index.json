@@ -821,12 +821,6 @@
       null
     ]
   },
-  "the-castles-of-burgundy-the-card-game": {
-    "boardGameGeekGameId": "191977",
-    "boardGameGeekName": "The Castles of Burgundy: The Card Game",
-    "boardGameApiId": "the-castles-of-burgundy-the-card-game",
-    "game": "The Castles of Burgundy: The Card Game"
-  },
   "castles-of-mad-king-ludwig": {
     "boardGameGeekGameId": "155426",
     "boardGameGeekName": "Castles of Mad King Ludwig",
@@ -1151,12 +1145,6 @@
       null
     ]
   },
-  "codenames-pictures": {
-    "boardGameGeekGameId": "198773",
-    "boardGameGeekName": "Codenames: Pictures",
-    "boardGameApiId": "codenames-pictures",
-    "game": "Codenames: Pictures"
-  },
   "coup": {
     "boardGameGeekGameId": "131357",
     "boardGameGeekName": "Coup",
@@ -1314,7 +1302,7 @@
     ],
     "coOpTypes": [
       "No",
-      null
+      "No"
     ],
     "notes": [
       null,
@@ -1654,7 +1642,7 @@
     "coOpTypes": [
       "No",
       "No",
-      null
+      "No"
     ],
     "notes": [
       "High Seas",
@@ -1666,12 +1654,6 @@
       null,
       null
     ]
-  },
-  "dungeonquest-revised-edition": {
-    "boardGameGeekGameId": "157958",
-    "boardGameGeekName": "DungeonQuest Revised Edition",
-    "boardGameApiId": "dungeonquest-revised-edition",
-    "game": "DungeonQuest Revised Edition"
   },
   "dungeons-dragons-starter-set": {
     "boardGameGeekGameId": "94902",
@@ -1756,12 +1738,6 @@
       null,
       null
     ]
-  },
-  "firefly-the-game": {
-    "boardGameGeekGameId": "138161",
-    "boardGameGeekName": "Firefly: The Game",
-    "boardGameApiId": "firefly-the-game",
-    "game": "Firefly: The Game"
   },
   "flash-point-fire-rescue": {
     "boardGameGeekGameId": "100901",
@@ -2393,12 +2369,6 @@
       null
     ]
   },
-  "homeland-the-game": {
-    "boardGameGeekGameId": "160968",
-    "boardGameGeekName": "Homeland: The Game",
-    "boardGameApiId": "homeland-the-game",
-    "game": "Homeland: The Game"
-  },
   "jurassic-snack": {
     "boardGameGeekGameId": "241164",
     "boardGameGeekName": "Jurassic Snack",
@@ -2409,16 +2379,19 @@
       "2018-07-25",
       "2018-08-15",
       "2018-08-22",
-      "2018-09-19"
+      "2018-09-19",
+      "2018-11-10"
     ],
     "winners": [
       "John",
       "John",
       "Hannah",
       "John",
+      "John",
       "John"
     ],
     "coOpOutcomes": [
+      null,
       null,
       null,
       null,
@@ -2430,6 +2403,7 @@
       "No",
       "No",
       "No",
+      "No",
       "No"
     ],
     "notes": [
@@ -2437,9 +2411,11 @@
       null,
       null,
       null,
+      null,
       null
     ],
     "mechanics": [
+      null,
       null,
       null,
       null,
@@ -2463,30 +2439,6 @@
     ],
     "coOpTypes": [
       "No"
-    ],
-    "notes": [
-      null
-    ],
-    "mechanics": [
-      null
-    ]
-  },
-  "legendary-encounters-a-firefly-deck-building-game": {
-    "boardGameGeekGameId": "195571",
-    "boardGameGeekName": "Legendary Encounters: A Firefly Deck Building Game",
-    "boardGameApiId": "legendary-encounters-a-firefly-deck-building-game",
-    "game": "Legendary Encounters: A Firefly Deck Building Game",
-    "dates": [
-      "2018-02-24"
-    ],
-    "winners": [
-      null
-    ],
-    "coOpOutcomes": [
-      "Lost"
-    ],
-    "coOpTypes": [
-      "Yes"
     ],
     "notes": [
       null
@@ -2621,11 +2573,59 @@
       null
     ]
   },
+  "love-letter-nordic": {
+    "boardGameGeekGameId": "129622",
+    "boardGameGeekName": "Love Letter Nordic",
+    "boardGameApiId": "love-letter-nordic",
+    "game": "Love Letter Nordic",
+    "dates": [
+      "2018-08-05",
+      "2018-08-09"
+    ],
+    "winners": [
+      "Hannah",
+      "John"
+    ],
+    "coOpOutcomes": [
+      null,
+      null
+    ],
+    "coOpTypes": [
+      "No",
+      "No"
+    ],
+    "notes": [
+      null,
+      null
+    ],
+    "mechanics": [
+      null,
+      null
+    ]
+  },
   "love-letter-premium": {
     "boardGameGeekGameId": "196326",
     "boardGameGeekName": "Love Letter Premium",
     "boardGameApiId": "love-letter-premium",
-    "game": "Love Letter Premium"
+    "game": "Love Letter Premium",
+    "dates": [
+      "2018-11-07"
+    ],
+    "winners": [
+      "Hannah"
+    ],
+    "coOpOutcomes": [
+      null
+    ],
+    "coOpTypes": [
+      "No"
+    ],
+    "notes": [
+      null
+    ],
+    "mechanics": [
+      null
+    ]
   },
   "love-letter-batman": {
     "boardGameGeekGameId": "168584",
@@ -2715,7 +2715,25 @@
     "boardGameGeekGameId": "169611",
     "boardGameGeekName": "Love Letter: The Hobbit – The Battle of the Five Armies",
     "boardGameApiId": "love-letter-the-hobbit-the-battle-of-the-five-armies",
-    "game": "Love Letter: The Hobbit – The Battle of the Five Armies"
+    "game": "Love Letter: The Hobbit – The Battle of the Five Armies",
+    "dates": [
+      "2018-11-06"
+    ],
+    "winners": [
+      "John"
+    ],
+    "coOpOutcomes": [
+      null
+    ],
+    "coOpTypes": [
+      "No"
+    ],
+    "notes": [
+      null
+    ],
+    "mechanics": [
+      null
+    ]
   },
   "lovecraft-letter": {
     "boardGameGeekGameId": "198740",
@@ -3561,7 +3579,25 @@
     "boardGameGeekGameId": "41114",
     "boardGameGeekName": "The Resistance",
     "boardGameApiId": "the-resistance",
-    "game": "The Resistance"
+    "game": "The Resistance",
+    "dates": [
+      "2018-11-09"
+    ],
+    "winners": [
+      null
+    ],
+    "coOpOutcomes": [
+      "Lost"
+    ],
+    "coOpTypes": [
+      "Yes"
+    ],
+    "notes": [
+      null
+    ],
+    "mechanics": [
+      null
+    ]
   },
   "the-resistance-hidden-agenda": {
     "boardGameGeekGameId": "162890",
@@ -4257,7 +4293,25 @@
     "boardGameGeekGameId": "53383",
     "boardGameGeekName": "Ticket to Ride: Europa 1912",
     "boardGameApiId": "ticket-to-ride-europa-1912",
-    "game": "Ticket to Ride: Europa 1912"
+    "game": "Ticket to Ride: Europa 1912",
+    "dates": [
+      "2018-11-08"
+    ],
+    "winners": [
+      "Hannah"
+    ],
+    "coOpOutcomes": [
+      null
+    ],
+    "coOpTypes": [
+      "No"
+    ],
+    "notes": [
+      null
+    ],
+    "mechanics": [
+      null
+    ]
   },
   "ticket-to-ride-europe": {
     "boardGameGeekGameId": "14996",
@@ -4991,6 +5045,28 @@
       null
     ]
   },
+  "legendary-encounters-a-firefly-deck-building-game": {
+    "boardGameApiId": "legendary-encounters-a-firefly-deck-building-game",
+    "dates": [
+      "2018-02-24"
+    ],
+    "game": "Legendary Encounters: A Firefly Deck Building Game",
+    "winners": [
+      null
+    ],
+    "coOpOutcomes": [
+      "Lost"
+    ],
+    "coOpTypes": [
+      "Yes"
+    ],
+    "notes": [
+      null
+    ],
+    "mechanics": [
+      null
+    ]
+  },
   "secret-hitler": {
     "boardGameApiId": "secret-hitler",
     "dates": [
@@ -5057,34 +5133,6 @@
     "notes": [
       "5P",
       "5P"
-    ],
-    "mechanics": [
-      null,
-      null
-    ]
-  },
-  "love-letter-nordic-edition-2014": {
-    "boardGameApiId": "love-letter-nordic-edition-2014",
-    "dates": [
-      "2018-08-05",
-      "2018-08-09"
-    ],
-    "game": "Love Letter (Nordic edition 2014)",
-    "winners": [
-      "Hannah",
-      "John"
-    ],
-    "coOpOutcomes": [
-      null,
-      null
-    ],
-    "coOpTypes": [
-      "No",
-      "No"
-    ],
-    "notes": [
-      null,
-      null
     ],
     "mechanics": [
       null,
@@ -5158,6 +5206,28 @@
     ],
     "notes": [
       "4-player"
+    ],
+    "mechanics": [
+      null
+    ]
+  },
+  "battlestar-galactica": {
+    "boardGameApiId": "battlestar-galactica",
+    "dates": [
+      "2018-11-09"
+    ],
+    "game": "Battlestar Galactica",
+    "winners": [
+      null
+    ],
+    "coOpOutcomes": [
+      "Won"
+    ],
+    "coOpTypes": [
+      "Yes"
+    ],
+    "notes": [
+      null
     ],
     "mechanics": [
       null

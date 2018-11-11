@@ -143,12 +143,6 @@
     {
       "date": "2018-10-17",
       "game": "Werewolf",
-      "coOp": "No",
-      "note": "20 player"
-    },
-    {
-      "date": "2018-10-17",
-      "game": "Werewolf",
       "coOp": "Yes",
       "coOpOutcome": "Won",
       "note": "18-player "
@@ -159,6 +153,12 @@
       "coOp": "Yes",
       "coOpOutcome": "Won",
       "note": "19 player"
+    },
+    {
+      "date": "2018-10-17",
+      "game": "Werewolf",
+      "coOp": "No",
+      "note": "20 player"
     },
     {
       "date": "2018-10-18",
@@ -196,13 +196,13 @@
       "date": "2018-10-22",
       "game": "Codenames",
       "coOp": "Yes",
-      "coOpOutcome": "Won"
+      "coOpOutcome": "Lost"
     },
     {
       "date": "2018-10-22",
       "game": "Codenames",
       "coOp": "Yes",
-      "coOpOutcome": "Lost"
+      "coOpOutcome": "Won"
     },
     {
       "date": "2018-10-23",
@@ -254,21 +254,21 @@
     },
     {
       "date": "2018-10-31",
+      "game": "Codenames",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2018-10-31",
+      "game": "Codenames",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2018-10-31",
       "game": "Betrayal at House on the Hill: Widow's Walk",
       "winner": "Hannah",
       "coOp": "Yes"
-    },
-    {
-      "date": "2018-10-31",
-      "game": "Codenames",
-      "coOp": "Yes",
-      "coOpOutcome": "Won"
-    },
-    {
-      "date": "2018-10-31",
-      "game": "Codenames",
-      "coOp": "Yes",
-      "coOpOutcome": "Won"
     }
   ],
   "totalGamesPlayed": 38,
@@ -277,9 +277,9 @@
     {
       "date": "2018-10-31",
       "games": [
-        "Betrayal at House on the Hill: Widow's Walk",
         "Codenames",
-        "Codenames"
+        "Codenames",
+        "Betrayal at House on the Hill: Widow's Walk"
       ]
     },
     {
