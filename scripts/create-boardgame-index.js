@@ -1,4 +1,4 @@
-const { position } = require('promise-path')
+const { position, clean } = require('promise-path')
 const pluralise = require('./util/pluralise')
 const writeFile = require('./util/writeFile')
 const convertGSheetsDate = require('./util/convertGSheetsDate')
@@ -59,6 +59,8 @@ async function start () {
 
   const boardGameApiIds = Object.entries(boardGameIndex).map(kvp => kvp[1].boardGameApiId).sort()
 
+  report('Cleaning out the /data/index/ path')
+  await clean(datapath('/index'))
   await writeFile('Board Game API IDs', 'boardgame-api-ids.json', {boardGameApiIds}, report)
 
   await Promise.all(Object.entries(boardGameIndex).map(kvp => {
