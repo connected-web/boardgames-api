@@ -38,6 +38,12 @@
 				}
 			}
 		},
+		"uniqueGamesPlayed": {
+			"type": "array",
+			"items": {
+				"type": "string"
+			}
+		},
 		"totalGamesPlayed": {
 			"type": "integer"
 		},

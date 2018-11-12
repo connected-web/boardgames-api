@@ -101,6 +101,8 @@ async function start () {
       return da > db ? 1 : -1
     })
 
+    month.uniqueGamesPlayed = [...new Set(games.map(g => g.name))].sort()
+
     month.totalGamesPlayed = games.length
     month.averageGamesPlayedPerDay = fmn(month.totalGamesPlayed / month.daysInMonth)
     const highestDayPlayCount = dayCountList[0].games.length
