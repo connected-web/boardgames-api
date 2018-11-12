@@ -50,10 +50,35 @@ code {
   padding: 8px 16px;
   margin: 0 24px 0 0;
 }
+
 code.sample {
   background: #69B;
   color: #eee;
+  height: 120px;
+  overflow: hidden;
+  border-bottom: 4px solid #345;
 }
+code.sample.expandable:hover::after {
+  content: 'Click to expand';
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(90,120,150,0.8);
+  color: #eee;
+  font-weight: bold;
+  text-align: center;;
+  padding: 10px 10px 10px 10px;
+}
+code.sample.expanded {
+  height: auto;
+}
+code.sample.expandable.expanded:hover::after {
+  content: 'Click to collapse';
+}
+
 code.schema {
   background: #567;
   color: #eee;

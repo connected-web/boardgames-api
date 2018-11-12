@@ -13,26 +13,25 @@ $.getJSON('/api/endpoints', function (data) {
   function renderEndpoint (key, endpoint) {
     let $endpoint = $('<endpoint/>')
     let $sample = $('<code class="json sample" />')
-    let $schema = $('<code class="json schema" />')
 
     $endpoint.append($('<heading><a href="' + endpoint.path + '">' + endpoint.method + ' ' + endpoint.path + '</a></heading>'))
     $endpoint.append($('<p>' + endpoint.description + '</p>'))
     $endpoint.append($('<p>Accepts: ' + endpoint.accepts + '</p>'))
 
-    if (endpoint.sample) {
-      $.getJSON(endpoint.sample, (data) => {
+    const displayExample = endpoint.example || endpoint.path
+    if (displayExample) {
+      $.getJSON(displayExample, (data) => {
         $sample.html(JSON.stringify(data, null, 2))
       })
-      $endpoint.append($('<p>Sample: <a href="' + endpoint.sample + '">' + endpoint.sample + '</a></p>'))
       $endpoint.append($sample)
     }
 
+    if (endpoint.sample) {
+      $endpoint.append($('<p>Sample: <a href="' + endpoint.sample + '">' + endpoint.sample + '</a></p>'))
+    }
+
     if (endpoint.schema) {
-      $.getJSON(endpoint.schema, (data) => {
-        $schema.html(JSON.stringify(data, null, 2))
-      })
       $endpoint.append($('<p>Schema: <a href="' + endpoint.schema + '">' + endpoint.schema + '</a></p>'))
-      $endpoint.append($schema)
     }
 
     $content.append($endpoint)
@@ -42,7 +41,7 @@ $.getJSON('/api/endpoints', function (data) {
 })
 
 function registerExpandables () {
-  $('code.schema').addClass('expandable').on('click', (ev) => {
+  $('code.sample').addClass('expandable').on('click', (ev) => {
     $(ev.target).toggleClass('expanded')
   })
 }
