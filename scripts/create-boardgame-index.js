@@ -7,6 +7,11 @@ const report = (...messages) => console.log('[Create Board Game Index]', ...mess
 
 const expectedProperties = ['date', 'game', 'winner', 'coOpOutcome', 'coOp', 'notes', 'mechanics']
 const playRecordProperties = ['date', 'winner', 'coOpOutcome', 'notes', 'coOp', 'mechanics']
+const clone = d => JSON.parse(JSON.stringify(d))
+
+function fmn (n) {
+  return (n && Number.parseFloat(n.toFixed(4))) || 0
+}
 
 async function start () {
   report('Requires data/bgg-collection.json')
@@ -62,10 +67,42 @@ async function start () {
   await Promise.all(Object.entries(boardGameIndex).map(kvp => {
     const boardGameApiId = kvp[0]
     const entry = kvp[1]
-    return writeFile(entry.name, `index/${boardGameApiId}.json`, entry)
+    let revisedEntry = performFurtherAnalysis(entry)
+    return writeFile(entry.name, `index/${boardGameApiId}.json`, revisedEntry)
   }))
 
   return writeFile('Board Game Index', 'boardgame-index.json', boardGameIndex)
+}
+
+function performFurtherAnalysis (entry) {
+  const result = clone(entry)
+
+  const playRecords = result.playRecords
+  result.totalGamesPlayed = playRecords.length
+
+  const coOpGames = playRecords.filter(n => (n.coOp + '').toLowerCase().trim() === 'yes')
+  result.coOpGamesPlayedCount = coOpGames.length
+  result.coOpGamesPlayedPercentage = fmn(result.coOpGamesPlayedCount / result.totalGamesPlayed)
+  result.coOpGameWins = coOpGames.filter(n => {
+    let outcome = (n.coOpOutcome + '').toLowerCase().trim()
+    return outcome === 'win' || outcome === 'won' || false
+  }).length
+  result.coOpGameLoses = result.coOpGamesPlayedCount - result.coOpGameWins
+  result.coOpWinRate = fmn(result.coOpGameWins / result.coOpGamesPlayedCount)
+  result.coOpLossRate = fmn(result.coOpGameLoses / result.coOpGamesPlayedCount)
+  result.winCountHannah = playRecords.filter(r => (r.winner + '').toLowerCase() === 'hannah').length
+  result.winCountJohn = playRecords.filter(r => (r.winner + '').toLowerCase() === 'john').length
+  result.winCountOther = playRecords.filter(r => (r.winner + '').toLowerCase() === 'other').length
+  result.winCountDraw = playRecords.filter(r => (r.winner + '').toLowerCase() === 'draw').length
+  result.winnableGamesTotal = result.winCountHannah + result.winCountJohn + result.winCountOther + result.winCountDraw
+  result.winRateHannah = fmn(result.winCountHannah / result.winnableGamesTotal)
+  result.winRateJohn = fmn(result.winCountJohn / result.winnableGamesTotal)
+  result.winRateOther = fmn(result.winCountOther / result.winnableGamesTotal)
+  result.winRateDraw = fmn(result.winCountDraw / result.winnableGamesTotal)
+  result.mostWonGames = result.winCountHannah > result.winCountJohn ? 'Hannah' : 'John'
+  result.mostWonGames = result.winCountHannah === result.winCountJohn ? 'Draw' : result.mostWonGames
+
+  return result
 }
 
 module.exports = start
