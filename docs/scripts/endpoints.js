@@ -14,11 +14,12 @@ $.getJSON('/api/endpoints', function (data) {
     let $endpoint = $('<endpoint/>')
     let $sample = $('<code class="json sample" />')
 
-    $endpoint.append($('<heading><a href="' + endpoint.path + '">' + endpoint.method + ' ' + endpoint.path + '</a></heading>'))
+    const displayExample = endpoint.example || endpoint.path
+
+    $endpoint.append($('<heading><a href="' + displayExample + '">' + endpoint.method + ' ' + endpoint.path + '</a></heading>'))
     $endpoint.append($('<p>' + endpoint.description + '</p>'))
     $endpoint.append($('<p>Accepts: ' + endpoint.accepts + '</p>'))
 
-    const displayExample = endpoint.example || endpoint.path
     if (displayExample) {
       $.getJSON(displayExample, (data) => {
         $sample.html(JSON.stringify(data, null, 2))
