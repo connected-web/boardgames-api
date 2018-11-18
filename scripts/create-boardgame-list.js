@@ -24,8 +24,8 @@ async function start () {
   }
 
   caliCollection.forEach(item => {
-    if (!item.name) {
-      report('No name property found on item:', item, new Date(1900, 0, item.date))
+    if (!item.game) {
+      report('No game name property found on item:', item, new Date(1900, 0, item.date), 'please check column headings in Google Sheets.')
     }
   })
 
