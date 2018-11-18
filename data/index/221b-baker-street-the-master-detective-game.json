@@ -3,22 +3,28 @@
   "boardGameGeekName": "221B Baker Street: The Master Detective Game",
   "boardGameApiId": "221b-baker-street-the-master-detective-game",
   "name": "221B Baker Street: The Master Detective Game",
-  "playRecords": [],
-  "totalGamesPlayed": 0,
+  "playRecords": [
+    {
+      "date": "2018-11-11",
+      "winner": "Hannah",
+      "coOp": "No"
+    }
+  ],
+  "totalGamesPlayed": 1,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
   "coOpGameLoses": 0,
   "coOpWinRate": 0,
   "coOpLossRate": 0,
-  "winCountHannah": 0,
+  "winCountHannah": 1,
   "winCountJohn": 0,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 0,
-  "winRateHannah": 0,
+  "winnableGamesTotal": 1,
+  "winRateHannah": 1,
   "winRateJohn": 0,
   "winRateOther": 0,
   "winRateDraw": 0,
-  "mostWonGames": "Draw"
+  "mostWonGames": "Hannah"
 }

@@ -4,7 +4,13 @@
     "boardGameGeekName": "221B Baker Street: The Master Detective Game",
     "boardGameApiId": "221b-baker-street-the-master-detective-game",
     "name": "221B Baker Street: The Master Detective Game",
-    "playRecords": []
+    "playRecords": [
+      {
+        "date": "2018-11-11",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
+    ]
   },
   "7-wonders": {
     "boardGameGeekGameId": "68448",
@@ -37,7 +43,13 @@
     "boardGameGeekName": "Adventure Time Card Wars: Princess Bubblegum vs. Lumpy Space Princess",
     "boardGameApiId": "adventure-time-card-wars-princess-bubblegum-vs-lumpy-space-princess",
     "name": "Adventure Time Card Wars: Princess Bubblegum vs. Lumpy Space Princess",
-    "playRecords": []
+    "playRecords": [
+      {
+        "date": "2018-11-12",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
+    ]
   },
   "adventure-time-love-letter": {
     "boardGameGeekGameId": "175307",
@@ -285,6 +297,10 @@
         "date": "2018-08-31",
         "winner": "John",
         "coOp": "No"
+      },
+      {
+        "date": "2018-11-14",
+        "winner": "Hannah"
       }
     ]
   },
@@ -330,6 +346,11 @@
         "winner": "Hannah",
         "coOp": "Yes",
         "notes": "Cylons won. Hannah was a Cylon"
+      },
+      {
+        "date": "2018-11-09",
+        "coOpOutcome": "Won",
+        "coOp": "Yes"
       }
     ]
   },
@@ -2324,6 +2345,10 @@
         "date": "2018-10-26",
         "winner": "John",
         "coOp": "No"
+      },
+      {
+        "date": "2018-11-16",
+        "winner": "John"
       }
     ]
   },
@@ -3259,6 +3284,10 @@
         "date": "2018-10-29",
         "winner": "Hannah",
         "coOp": "No"
+      },
+      {
+        "date": "2018-11-15",
+        "winner": "Other"
       }
     ]
   },
@@ -3593,15 +3622,28 @@
     ],
     "name": "Skull"
   },
-  "battlestar-galactica": {
-    "boardGameApiId": "battlestar-galactica",
+  "batman-love-letter": {
+    "boardGameApiId": "batman-love-letter",
     "playRecords": [
       {
-        "date": "2018-11-09",
-        "coOpOutcome": "Won",
-        "coOp": "Yes"
+        "date": "2018-11-13",
+        "winner": "John"
       }
     ],
-    "name": "Battlestar Galactica"
+    "name": "Batman: Love Letter"
+  },
+  "salem": {
+    "boardGameApiId": "salem",
+    "playRecords": [
+      {
+        "date": "2018-11-15",
+        "coOpOutcome": "Win"
+      },
+      {
+        "date": "2018-11-15",
+        "winner": "John"
+      }
+    ],
+    "name": "Salem"
   }
 }
