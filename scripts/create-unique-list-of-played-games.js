@@ -1,4 +1,4 @@
-const { position } = require('promise-path')
+const { position, write } = require('promise-path')
 const writeFile = require('./util/writeFile')
 const datapath = position(__dirname, '../data')
 const report = (...messages) => console.log('[Create Unique List of Played Games]', ...messages)
@@ -18,6 +18,8 @@ async function start () {
   const uniqueGames = (new Array(...new Set(feed.map(g => g.name)))).sort()
   const uniqueGamesCount = uniqueGames.length
   report('Unique games count:', uniqueGamesCount, 'Earliest date', earliestDate, 'Latest Date', latestDate)
+
+  await write(datapath('list-of-all-games.txt'), uniqueGames.join('\n'), 'utf8')
 
   const uniqueListOfGamesPlayed = { uniqueGames, uniqueGamesCount, earliestDate, latestDate }
   return writeFile('Unique List of Games Played', 'unique-list-of-games-played.json', uniqueListOfGamesPlayed)
