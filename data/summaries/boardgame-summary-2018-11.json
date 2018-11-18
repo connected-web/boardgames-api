@@ -2,7 +2,7 @@
   "dateCode": "2018-11",
   "daysInMonth": 30,
   "title": "November 2018",
-  "daysWithUnplayedGames": 20,
+  "daysWithUnplayedGames": 14,
   "gamesPlayedPerDay": {
     "1": 1,
     "2": 1,
@@ -14,12 +14,12 @@
     "8": 1,
     "9": 2,
     "10": 1,
-    "11": 0,
-    "12": 0,
-    "13": 0,
-    "14": 0,
-    "15": 0,
-    "16": 0,
+    "11": 1,
+    "12": 1,
+    "13": 1,
+    "14": 1,
+    "15": 3,
+    "16": 1,
     "17": 0,
     "18": 0,
     "19": 0,
@@ -50,20 +50,14 @@
     },
     {
       "date": "2018-11-03",
-      "name": "Deadwood 1876",
-      "winner": "Other",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-11-03",
       "name": "Dominion: Seaside",
       "winner": "John",
       "coOp": "No"
     },
     {
-      "date": "2018-11-04",
-      "name": "Tanto Cuore: Romantic Vacation",
-      "winner": "John",
+      "date": "2018-11-03",
+      "name": "Deadwood 1876",
+      "winner": "Other",
       "coOp": "No"
     },
     {
@@ -71,6 +65,12 @@
       "name": "T.I.M.E Stories: Under the Mask",
       "coOp": "Yes",
       "coOpOutcome": "Lost"
+    },
+    {
+      "date": "2018-11-04",
+      "name": "Tanto Cuore: Romantic Vacation",
+      "winner": "John",
+      "coOp": "No"
     },
     {
       "date": "2018-11-05",
@@ -104,7 +104,7 @@
     },
     {
       "date": "2018-11-09",
-      "name": "Battlestar Galactica",
+      "name": "Battlestar Galactica: The Board Game",
       "coOp": "Yes",
       "coOpOutcome": "Won"
     },
@@ -113,114 +113,102 @@
       "name": "Jurassic Snack",
       "winner": "John",
       "coOp": "No"
+    },
+    {
+      "date": "2018-11-11",
+      "name": "221B Baker Street: The Master Detective Game",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-11-12",
+      "name": "Adventure Time Card Wars: Princess Bubblegum vs. Lumpy Space Princess",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-11-13",
+      "name": "Batman: Love Letter",
+      "winner": "John"
+    },
+    {
+      "date": "2018-11-14",
+      "name": "Azul",
+      "winner": "Hannah"
+    },
+    {
+      "date": "2018-11-15",
+      "name": "Topiary",
+      "winner": "Other"
+    },
+    {
+      "date": "2018-11-15",
+      "name": "Salem",
+      "coOpOutcome": "Win"
+    },
+    {
+      "date": "2018-11-15",
+      "name": "Salem",
+      "winner": "John"
+    },
+    {
+      "date": "2018-11-16",
+      "name": "Pandemic: Contagion",
+      "winner": "John"
     }
   ],
   "uniqueGamesPlayed": [
+    "221B Baker Street: The Master Detective Game",
+    "Adventure Time Card Wars: Princess Bubblegum vs. Lumpy Space Princess",
     "Adventure Time Love Letter",
-    "Battlestar Galactica",
+    "Azul",
+    "Batman: Love Letter",
+    "Battlestar Galactica: The Board Game",
     "Deadwood 1876",
     "Dominion: Seaside",
     "Jurassic Snack",
     "Love Letter Premium",
     "Love Letter: The Hobbit – The Battle of the Five Armies",
     "Lovecraft Letter",
+    "Pandemic: Contagion",
+    "Salem",
     "T.I.M.E Stories: Under the Mask",
     "Tanto Cuore: Romantic Vacation",
     "The Resistance",
     "Ticket to Ride: Europa 1912",
-    "Ticket to Ride: New York"
+    "Ticket to Ride: New York",
+    "Topiary"
   ],
-  "totalGamesPlayed": 13,
-  "averageGamesPlayedPerDay": 0.4333,
+  "totalGamesPlayed": 21,
+  "averageGamesPlayedPerDay": 0.7,
   "mostGamesPlayedInADay": [
     {
-      "date": "2018-11-03",
+      "date": "2018-11-15",
       "games": [
-        "Deadwood 1876",
-        "Dominion: Seaside"
-      ]
-    },
-    {
-      "date": "2018-11-04",
-      "games": [
-        "Tanto Cuore: Romantic Vacation",
-        "T.I.M.E Stories: Under the Mask"
-      ]
-    },
-    {
-      "date": "2018-11-09",
-      "games": [
-        "The Resistance",
-        "Battlestar Galactica"
+        "Topiary",
+        "Salem",
+        "Salem"
       ]
     }
   ],
   "mostPlayedGamesThisMonth": [
     {
-      "name": "Ticket to Ride: New York",
-      "plays": 1
-    },
-    {
-      "name": "Dominion: Seaside",
-      "plays": 1
-    },
-    {
-      "name": "Tanto Cuore: Romantic Vacation",
-      "plays": 1
-    },
-    {
-      "name": "T.I.M.E Stories: Under the Mask",
-      "plays": 1
-    },
-    {
-      "name": "Deadwood 1876",
-      "plays": 1
-    },
-    {
-      "name": "Love Letter: The Hobbit – The Battle of the Five Armies",
-      "plays": 1
-    },
-    {
-      "name": "Love Letter Premium",
-      "plays": 1
-    },
-    {
-      "name": "Ticket to Ride: Europa 1912",
-      "plays": 1
-    },
-    {
-      "name": "The Resistance",
-      "plays": 1
-    },
-    {
-      "name": "Battlestar Galactica",
-      "plays": 1
-    },
-    {
-      "name": "Lovecraft Letter",
-      "plays": 1
-    },
-    {
-      "name": "Jurassic Snack",
-      "plays": 1
-    },
-    {
-      "name": "Adventure Time Love Letter",
-      "plays": 1
+      "name": "Salem",
+      "plays": 2
     }
   ],
   "coOpGamesPlayedCount": 3,
-  "coOpGamesPlayedPercentage": 0.2308,
+  "coOpGamesPlayedPercentage": 0.1429,
   "coOpGameWins": 1,
   "coOpGameLoses": 2,
-  "winCountHannah": 4,
-  "winCountJohn": 5,
-  "winCountOther": 1,
+  "winCountHannah": 7,
+  "winCountJohn": 8,
+  "winCountOther": 2,
   "winCountDraw": 0,
-  "winnableGamesTotal": 10,
-  "winRateHannah": 0.4,
-  "winRateJohn": 0.5,
-  "winRateOther": 0.1,
+  "winnableGamesTotal": 17,
+  "winRateHannah": 0.4118,
+  "winRateJohn": 0.4706,
+  "winRateOther": 0.1176,
   "winRateDraw": 0,
   "mostWonGames": "John"
 }
