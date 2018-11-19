@@ -32,6 +32,7 @@ async function start () {
 
   scripts['download-all'] = async () => {
     return processScripts([
+      'download-cali-game-index',
       'download-cali-playstats',
       'download-bgg-collection',
       'download-bgg-entries'
@@ -40,6 +41,7 @@ async function start () {
 
   scripts['update-owned-lists'] = async () => {
     return processScripts([
+      'download-cali-game-index',
       'download-cali-playstats',
       'download-bgg-collection',
       'create-unique-list-of-played-games',
