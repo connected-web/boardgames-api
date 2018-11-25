@@ -8,6 +8,7 @@ require('./handlers/schema/handler.php');
 require('./handlers/sample/handler.php');
 
 header('Content-Type: application/json');
+header("Access-Control-Allow-Origin: *");
 
 if (!isset($_SERVER['HTTPS'])) {
   $url = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
