@@ -1,7 +1,12 @@
-const { position } = require('promise-path')
+const { position, read } = require('promise-path')
 const writeFile = require('./util/writeFile')
 const datapath = position(__dirname, '../data')
 const report = (...messages) => console.log('[Create Board Game Feed]', ...messages)
+
+async function readJson (path) {
+  const body = await read(path, 'utf8')
+  return JSON.parse(body)
+}
 
 const mutateRemoveEmpty = (obj) => {
   Object.keys(obj).forEach(key => {
@@ -16,7 +21,7 @@ const mutateRemoveEmpty = (obj) => {
 async function start () {
   report('Requires', 'data/boardgame-index.json')
 
-  const boardGameIndex = require(datapath('boardgame-index.json'))
+  const boardGameIndex = await readJson(datapath('boardgame-index.json'))
   let feed = []
 
   Object.keys(boardGameIndex).forEach(boardGameApiId => {
