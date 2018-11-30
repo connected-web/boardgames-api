@@ -1,7 +1,9 @@
 {
   "dateCode": "2018-03",
-  "daysInMonth": 31,
   "title": "March 2018",
+  "sequenceStartDate": "2018-03-01",
+  "sequenceEndDate": "2018-03-31",
+  "daysInSequence": 30,
   "daysWithUnplayedGames": 0,
   "gamesPlayedPerDay": {
     "1": 1,
@@ -67,21 +69,27 @@
     },
     {
       "date": "2018-03-03",
+      "name": "Tanto Cuore: Expanding the House",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-03-03",
       "name": "Ticket to Ride Map Collection: Volume 5 – United Kingdom & Pennsylvania",
       "winner": "Draw",
       "coOp": "No",
       "note": "Pennslyvania map"
     },
     {
-      "date": "2018-03-03",
-      "name": "Tanto Cuore: Expanding the House",
-      "winner": "Hannah",
+      "date": "2018-03-04",
+      "name": "Machi Koro: Bright Lights, Big City",
+      "winner": "John",
       "coOp": "No"
     },
     {
       "date": "2018-03-04",
       "name": "Machi Koro: Bright Lights, Big City",
-      "winner": "John",
+      "winner": "Hannah",
       "coOp": "No"
     },
     {
@@ -92,22 +100,16 @@
       "note": "Mix of \"Expanding The House\" and \"Oktoberfest\""
     },
     {
-      "date": "2018-03-04",
-      "name": "Machi Koro: Bright Lights, Big City",
-      "winner": "Hannah",
-      "coOp": "No"
+      "date": "2018-03-05",
+      "name": "Codenames",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
     },
     {
       "date": "2018-03-05",
       "name": "Lovecraft Letter",
       "winner": "Hannah",
       "coOp": "No"
-    },
-    {
-      "date": "2018-03-05",
-      "name": "Codenames",
-      "coOp": "Yes",
-      "coOpOutcome": "Won"
     },
     {
       "date": "2018-03-06",
@@ -117,25 +119,25 @@
     },
     {
       "date": "2018-03-07",
-      "name": "Dominion (Second Edition)",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-03-07",
       "name": "Sushi Go!",
       "winner": "John",
       "coOp": "No"
     },
     {
-      "date": "2018-03-08",
-      "name": "Heart of Crown",
+      "date": "2018-03-07",
+      "name": "Dominion (Second Edition)",
       "winner": "John",
       "coOp": "No"
     },
     {
       "date": "2018-03-08",
       "name": "Archer: Once You Go Blackmail...",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-03-08",
+      "name": "Heart of Crown",
       "winner": "John",
       "coOp": "No"
     },
@@ -150,13 +152,6 @@
       "name": "Arkham Horror: The Card Game",
       "coOp": "Yes",
       "coOpOutcome": "Won",
-      "note": "Night of the Zealot: Part 3"
-    },
-    {
-      "date": "2018-03-10",
-      "name": "Arkham Horror: The Card Game",
-      "coOp": "Yes",
-      "coOpOutcome": "Won",
       "note": "Night of the Zealot: Part 2"
     },
     {
@@ -165,6 +160,13 @@
       "coOp": "Yes",
       "coOpOutcome": "Won",
       "note": "Night of the Zealot: Part 1"
+    },
+    {
+      "date": "2018-03-10",
+      "name": "Arkham Horror: The Card Game",
+      "coOp": "Yes",
+      "coOpOutcome": "Won",
+      "note": "Night of the Zealot: Part 3"
     },
     {
       "date": "2018-03-11",
@@ -229,25 +231,25 @@
     {
       "date": "2018-03-19",
       "name": "Love Letter",
-      "winner": "Hannah",
+      "winner": "John",
       "coOp": "No"
     },
     {
       "date": "2018-03-19",
       "name": "Love Letter",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-03-20",
-      "name": "Archer: Once You Go Blackmail...",
-      "winner": "John",
+      "winner": "Hannah",
       "coOp": "No"
     },
     {
       "date": "2018-03-20",
       "name": "Archer: Once You Go Blackmail...",
       "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-03-20",
+      "name": "Archer: Once You Go Blackmail...",
+      "winner": "John",
       "coOp": "No"
     },
     {
@@ -328,13 +330,13 @@
     },
     {
       "date": "2018-03-31",
-      "name": "Tanto Cuore",
+      "name": "Ticket to Ride: Rails & Sails",
       "winner": "Hannah",
       "coOp": "No"
     },
     {
       "date": "2018-03-31",
-      "name": "Ticket to Ride: Rails & Sails",
+      "name": "Tanto Cuore",
       "winner": "Hannah",
       "coOp": "No"
     }
@@ -375,7 +377,7 @@
     "Tortuga 1667"
   ],
   "totalGamesPlayed": 48,
-  "averageGamesPlayedPerDay": 1.5484,
+  "averageGamesPlayedPerDay": 1.6,
   "mostGamesPlayedInADay": [
     {
       "date": "2018-03-02",
@@ -388,9 +390,9 @@
     {
       "date": "2018-03-04",
       "games": [
+        "Tanto Cuore: Oktoberfest",
         "Machi Koro: Bright Lights, Big City",
-        "Machi Koro: Bright Lights, Big City",
-        "Tanto Cuore: Oktoberfest"
+        "Machi Koro: Bright Lights, Big City"
       ]
     },
     {
@@ -410,7 +412,7 @@
       ]
     }
   ],
-  "mostPlayedGamesThisMonth": [
+  "mostPlayedGames": [
     {
       "name": "Dominion (Second Edition)",
       "plays": 5

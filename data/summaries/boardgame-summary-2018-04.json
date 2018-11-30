@@ -1,7 +1,9 @@
 {
   "dateCode": "2018-04",
-  "daysInMonth": 30,
   "title": "April 2018",
+  "sequenceStartDate": "2018-04-01",
+  "sequenceEndDate": "2018-04-30",
+  "daysInSequence": 29,
   "daysWithUnplayedGames": 0,
   "gamesPlayedPerDay": {
     "1": 1,
@@ -44,13 +46,6 @@
     },
     {
       "date": "2018-04-02",
-      "name": "Gloomhaven",
-      "coOp": "Yes",
-      "coOpOutcome": "Win",
-      "note": "Scenario 1"
-    },
-    {
-      "date": "2018-04-02",
       "name": "Dominion: Intrigue (Second Edition)",
       "winner": "Hannah",
       "coOp": "No"
@@ -60,6 +55,13 @@
       "name": "Ticket to Ride: Nordic Countries",
       "winner": "John",
       "coOp": "No"
+    },
+    {
+      "date": "2018-04-02",
+      "name": "Gloomhaven",
+      "coOp": "Yes",
+      "coOpOutcome": "Win",
+      "note": "Scenario 1"
     },
     {
       "date": "2018-04-03",
@@ -143,12 +145,6 @@
     },
     {
       "date": "2018-04-14",
-      "name": "Citadels",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-04-14",
       "name": "Secret Hitler",
       "winner": "Hannah",
       "coOp": "Yes",
@@ -156,9 +152,9 @@
       "note": "6 player at Fanfest"
     },
     {
-      "date": "2018-04-15",
-      "name": "Lovecraft Letter",
-      "winner": "Hannah",
+      "date": "2018-04-14",
+      "name": "Citadels",
+      "winner": "John",
       "coOp": "No"
     },
     {
@@ -166,6 +162,12 @@
       "name": "Cards Against Humanity: EVE Edition",
       "coOp": "No",
       "note": "6 player at Fanfest"
+    },
+    {
+      "date": "2018-04-15",
+      "name": "Lovecraft Letter",
+      "winner": "Hannah",
+      "coOp": "No"
     },
     {
       "date": "2018-04-16",
@@ -182,21 +184,21 @@
     },
     {
       "date": "2018-04-18",
-      "name": "Codenames",
-      "coOp": "Yes",
-      "coOpOutcome": "Win"
-    },
-    {
-      "date": "2018-04-18",
-      "name": "Codenames",
-      "coOp": "Yes",
-      "coOpOutcome": "Win"
-    },
-    {
-      "date": "2018-04-18",
       "name": "Claim",
       "winner": "John",
       "coOp": "No"
+    },
+    {
+      "date": "2018-04-18",
+      "name": "Codenames",
+      "coOp": "Yes",
+      "coOpOutcome": "Win"
+    },
+    {
+      "date": "2018-04-18",
+      "name": "Codenames",
+      "coOp": "Yes",
+      "coOpOutcome": "Win"
     },
     {
       "date": "2018-04-19",
@@ -255,7 +257,7 @@
     {
       "date": "2018-04-28",
       "name": "Azul",
-      "winner": "John",
+      "winner": "Hannah",
       "coOp": "No"
     },
     {
@@ -279,26 +281,26 @@
     {
       "date": "2018-04-28",
       "name": "Azul",
-      "winner": "Hannah",
+      "winner": "John",
       "coOp": "No"
     },
     {
       "date": "2018-04-29",
       "name": "T.I.M.E Stories",
       "coOp": "Yes",
-      "coOpOutcome": "Lost"
-    },
-    {
-      "date": "2018-04-29",
-      "name": "T.I.M.E Stories",
-      "coOp": "Yes",
-      "coOpOutcome": "Lost"
-    },
-    {
-      "date": "2018-04-29",
-      "name": "T.I.M.E Stories",
-      "coOp": "Yes",
       "coOpOutcome": "Win"
+    },
+    {
+      "date": "2018-04-29",
+      "name": "T.I.M.E Stories",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
+    },
+    {
+      "date": "2018-04-29",
+      "name": "T.I.M.E Stories",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
     },
     {
       "date": "2018-04-30",
@@ -340,7 +342,7 @@
     "Ticket to Ride: Rails & Sails"
   ],
   "totalGamesPlayed": 44,
-  "averageGamesPlayedPerDay": 1.4667,
+  "averageGamesPlayedPerDay": 1.5172,
   "mostGamesPlayedInADay": [
     {
       "date": "2018-04-28",
@@ -353,7 +355,7 @@
       ]
     }
   ],
-  "mostPlayedGamesThisMonth": [
+  "mostPlayedGames": [
     {
       "name": "Lovecraft Letter",
       "plays": 4

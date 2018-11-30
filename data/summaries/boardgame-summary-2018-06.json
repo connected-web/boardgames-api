@@ -1,7 +1,9 @@
 {
   "dateCode": "2018-06",
-  "daysInMonth": 30,
   "title": "June 2018",
+  "sequenceStartDate": "2018-06-01",
+  "sequenceEndDate": "2018-06-30",
+  "daysInSequence": 29,
   "daysWithUnplayedGames": 0,
   "gamesPlayedPerDay": {
     "1": 1,
@@ -44,6 +46,27 @@
     },
     {
       "date": "2018-06-02",
+      "name": "Shadows Amsterdam",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost",
+      "note": "5P"
+    },
+    {
+      "date": "2018-06-02",
+      "name": "Shadows Amsterdam",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost",
+      "note": "5P"
+    },
+    {
+      "date": "2018-06-02",
+      "name": "Dominion (Second Edition)",
+      "winner": "Hannah",
+      "coOp": "No",
+      "note": "Base game"
+    },
+    {
+      "date": "2018-06-02",
       "name": "Ticket to Ride: New York",
       "winner": "Hannah",
       "coOp": "No"
@@ -57,13 +80,6 @@
     },
     {
       "date": "2018-06-02",
-      "name": "Dominion (Second Edition)",
-      "winner": "Hannah",
-      "coOp": "No",
-      "note": "Base game"
-    },
-    {
-      "date": "2018-06-02",
       "name": "Space Base",
       "winner": "John",
       "coOp": "No",
@@ -71,23 +87,9 @@
     },
     {
       "date": "2018-06-02",
-      "name": "Shadows Amsterdam",
-      "coOp": "Yes",
-      "coOpOutcome": "Lost",
-      "note": "5P"
-    },
-    {
-      "date": "2018-06-02",
       "name": "Jurassic Snack",
       "winner": "John",
       "coOp": "No"
-    },
-    {
-      "date": "2018-06-02",
-      "name": "Shadows Amsterdam",
-      "coOp": "Yes",
-      "coOpOutcome": "Lost",
-      "note": "5P"
     },
     {
       "date": "2018-06-03",
@@ -116,13 +118,13 @@
     {
       "date": "2018-06-04",
       "name": "HATSUDEN",
-      "winner": "Hannah",
+      "winner": "John",
       "coOp": "No"
     },
     {
       "date": "2018-06-04",
       "name": "HATSUDEN",
-      "winner": "John",
+      "winner": "Hannah",
       "coOp": "No"
     },
     {
@@ -253,25 +255,13 @@
     },
     {
       "date": "2018-06-23",
-      "name": "Space Base",
-      "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-06-23",
       "name": "Pandemic: On the Brink",
       "coOp": "Yes",
       "coOpOutcome": "Won"
     },
     {
-      "date": "2018-06-24",
-      "name": "Ticket to Ride: Europe",
-      "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-06-24",
-      "name": "Valeria: Card Kingdoms",
+      "date": "2018-06-23",
+      "name": "Space Base",
       "winner": "Hannah",
       "coOp": "No"
     },
@@ -282,6 +272,18 @@
       "coOp": "No"
     },
     {
+      "date": "2018-06-24",
+      "name": "Valeria: Card Kingdoms",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-06-24",
+      "name": "Ticket to Ride: Europe",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
       "date": "2018-06-25",
       "name": "Pandemic: On the Brink",
       "coOp": "Yes",
@@ -289,15 +291,15 @@
     },
     {
       "date": "2018-06-26",
-      "name": "Pandemic: In the Lab",
-      "coOp": "Yes",
-      "coOpOutcome": "Lost"
-    },
-    {
-      "date": "2018-06-26",
       "name": "HATSUDEN",
       "winner": "Draw",
       "coOp": "No"
+    },
+    {
+      "date": "2018-06-26",
+      "name": "Pandemic: In the Lab",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
     },
     {
       "date": "2018-06-27",
@@ -360,28 +362,28 @@
     "Valeria: Card Kingdoms"
   ],
   "totalGamesPlayed": 48,
-  "averageGamesPlayedPerDay": 1.6,
+  "averageGamesPlayedPerDay": 1.6552,
   "mostGamesPlayedInADay": [
     {
       "date": "2018-06-02",
       "games": [
-        "Shadows Amsterdam",
         "Jurassic Snack",
-        "Ticket to Ride: New York",
-        "Fog of Love",
-        "Dominion (Second Edition)",
         "Space Base",
-        "Shadows Amsterdam"
+        "Shadows Amsterdam",
+        "Shadows Amsterdam",
+        "Dominion (Second Edition)",
+        "Ticket to Ride: New York",
+        "Fog of Love"
       ]
     }
   ],
-  "mostPlayedGamesThisMonth": [
+  "mostPlayedGames": [
     {
-      "name": "Valeria: Card Kingdoms",
+      "name": "Space Base",
       "plays": 4
     },
     {
-      "name": "Space Base",
+      "name": "Valeria: Card Kingdoms",
       "plays": 4
     },
     {

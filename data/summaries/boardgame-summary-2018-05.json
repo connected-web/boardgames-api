@@ -1,7 +1,9 @@
 {
   "dateCode": "2018-05",
-  "daysInMonth": 31,
   "title": "May 2018",
+  "sequenceStartDate": "2018-05-01",
+  "sequenceEndDate": "2018-05-31",
+  "daysInSequence": 30,
   "daysWithUnplayedGames": 0,
   "gamesPlayedPerDay": {
     "1": 1,
@@ -134,17 +136,17 @@
     },
     {
       "date": "2018-05-12",
-      "name": "Azul",
-      "winner": "John",
-      "coOp": "No",
-      "note": "Three player"
-    },
-    {
-      "date": "2018-05-12",
       "name": "Codenames",
       "coOp": "Yes",
       "coOpOutcome": "Lost",
       "note": "Hannah and John lost against 2 others"
+    },
+    {
+      "date": "2018-05-12",
+      "name": "Azul",
+      "winner": "John",
+      "coOp": "No",
+      "note": "Three player"
     },
     {
       "date": "2018-05-13",
@@ -196,16 +198,16 @@
     },
     {
       "date": "2018-05-21",
-      "name": "Azul",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-05-21",
       "name": "Carcassonne Big Box 6",
       "coOp": "Yes",
       "coOpOutcome": "Won",
       "note": "Inns and Cathedrals - 594"
+    },
+    {
+      "date": "2018-05-21",
+      "name": "Azul",
+      "winner": "John",
+      "coOp": "No"
     },
     {
       "date": "2018-05-21",
@@ -239,6 +241,34 @@
     },
     {
       "date": "2018-05-26",
+      "name": "Azul",
+      "winner": "Other",
+      "coOp": "No",
+      "note": "Boardgames party"
+    },
+    {
+      "date": "2018-05-26",
+      "name": "Coup: Reformation",
+      "winner": "Hannah",
+      "coOp": "No",
+      "note": "Boardgames party"
+    },
+    {
+      "date": "2018-05-26",
+      "name": "Coup: Reformation",
+      "winner": "Other",
+      "coOp": "No",
+      "note": "Boardgames party"
+    },
+    {
+      "date": "2018-05-26",
+      "name": "Ticket to Ride: Europe",
+      "winner": "Hannah",
+      "coOp": "No",
+      "note": "Boardgames party"
+    },
+    {
+      "date": "2018-05-26",
       "name": "Lovecraft Letter",
       "winner": "Hannah",
       "coOp": "No",
@@ -248,34 +278,6 @@
       "date": "2018-05-26",
       "name": "Dinosaur Island",
       "winner": "Other",
-      "coOp": "No",
-      "note": "Boardgames party"
-    },
-    {
-      "date": "2018-05-26",
-      "name": "Coup: Reformation",
-      "winner": "Hannah",
-      "coOp": "No",
-      "note": "Boardgames party"
-    },
-    {
-      "date": "2018-05-26",
-      "name": "Coup: Reformation",
-      "winner": "Other",
-      "coOp": "No",
-      "note": "Boardgames party"
-    },
-    {
-      "date": "2018-05-26",
-      "name": "Azul",
-      "winner": "Other",
-      "coOp": "No",
-      "note": "Boardgames party"
-    },
-    {
-      "date": "2018-05-26",
-      "name": "Ticket to Ride: Europe",
-      "winner": "Hannah",
       "coOp": "No",
       "note": "Boardgames party"
     },
@@ -313,13 +315,13 @@
       "date": "2018-05-31",
       "name": "Codenames Duet",
       "coOp": "Yes",
-      "coOpOutcome": "Won"
+      "coOpOutcome": "Lost"
     },
     {
       "date": "2018-05-31",
       "name": "Codenames Duet",
       "coOp": "Yes",
-      "coOpOutcome": "Lost"
+      "coOpOutcome": "Won"
     },
     {
       "date": "2018-05-31",
@@ -362,21 +364,21 @@
     "Ticket to Ride: USA 1910"
   ],
   "totalGamesPlayed": 46,
-  "averageGamesPlayedPerDay": 1.4839,
+  "averageGamesPlayedPerDay": 1.5333,
   "mostGamesPlayedInADay": [
     {
       "date": "2018-05-26",
       "games": [
         "Coup: Reformation",
-        "Lovecraft Letter",
+        "Azul",
+        "Coup: Reformation",
         "Dinosaur Island",
         "Ticket to Ride: Europe",
-        "Coup: Reformation",
-        "Azul"
+        "Lovecraft Letter"
       ]
     }
   ],
-  "mostPlayedGamesThisMonth": [
+  "mostPlayedGames": [
     {
       "name": "Azul",
       "plays": 5

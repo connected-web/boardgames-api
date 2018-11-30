@@ -3,20 +3,22 @@
   "playRecords": [
     {
       "date": "2018-11-15",
-      "coOpOutcome": "Win"
+      "coOpOutcome": "Win",
+      "coOp": "Yes"
     },
     {
       "date": "2018-11-15",
-      "winner": "John"
+      "winner": "John",
+      "coOp": "No"
     }
   ],
   "name": "Salem",
   "totalGamesPlayed": 2,
-  "coOpGamesPlayedCount": 0,
-  "coOpGamesPlayedPercentage": 0,
-  "coOpGameWins": 0,
+  "coOpGamesPlayedCount": 1,
+  "coOpGamesPlayedPercentage": 0.5,
+  "coOpGameWins": 1,
   "coOpGameLoses": 0,
-  "coOpWinRate": 0,
+  "coOpWinRate": 1,
   "coOpLossRate": 0,
   "winCountHannah": 0,
   "winCountJohn": 1,

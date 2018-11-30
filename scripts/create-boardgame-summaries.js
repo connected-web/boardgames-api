@@ -25,7 +25,7 @@ async function start () {
   const timesInUse = collection.feed.map(n => new Date(n.date).getTime())
   const earliestTime = Math.min(...timesInUse)
   const latestTime = Math.max(...timesInUse)
-  const monthsInUse = [...new Set(timesInUse.map((t) => {
+  const monthsInUse = [...new Set(timesInUse.map(t => {
     return new Date(t).toISOString().substring(0, 7)
   }))].map(dateCode => {
     const date = new Date(dateCode)
@@ -34,13 +34,30 @@ async function start () {
     report('Processing', dateCode, 'Y:', year, 'M:', month, 'D:', daysInMonth(month, year))
     return {
       dateCode,
-      daysInMonth: daysInMonth(month, year),
       title: [monthsOfTheYear[month], year].join(' ')
     }
   })
 
-  monthsInUse.forEach((month) => {
-    const games = collection.feed.filter(n => n.date.substring(0, 7) === month.dateCode)
+  const yearsInUse = [...new Set(timesInUse.map(t => {
+    return new Date(t).toISOString().substring(0, 4)
+  }))].map(dateCode => {
+    const date = new Date(dateCode)
+    const year = date.getUTCFullYear()
+    report('Processing', dateCode, 'Y:', year)
+    return {
+      dateCode,
+      title: dateCode
+    }
+  })
+
+  function summariseGames (games) {
+    const startDate = new Date(games.map(g => new Date(g.date).getTime()).sort((a, b) => a - b)[0])
+    const endDate = new Date(games.map(g => new Date(g.date).getTime()).sort((a, b) => b - a)[0])
+    const daysInSequence = daysBetween(startDate, endDate)
+    const result = {
+      sequenceStartDate: startDate.toISOString().substring(0, 10),
+      sequenceEndDate: endDate.toISOString().substring(0, 10)
+    }
     const coOpGames = games.filter(n => (n.coOp + '').toLowerCase().trim() === 'yes')
     const gameCountIndex = games.reduce((acc, item) => {
       const entry = acc[item.name] || {
@@ -61,22 +78,23 @@ async function start () {
 
     const daysPlayedIndex = {}
     let n = 0
-    while (n < month.daysInMonth) {
+    while (n <= daysInSequence) {
       n++
       daysPlayedIndex[n] = 0
     }
     games.forEach(item => {
-      const dayNumber = (new Date(item.date)).getUTCDate()
+      const dayNumber = daysBetween(startDate, new Date(item.date)) + 1
       daysPlayedIndex[dayNumber]++
     })
     const daysPlayedList = Object.keys(daysPlayedIndex).map(n => {
       return {
-        dayOfMonth: n,
+        dayOfSequence: n,
         gamesPlayed: daysPlayedIndex[n]
       }
     })
-    month.daysWithUnplayedGames = daysPlayedList.filter(d => d.gamesPlayed === 0).map(d => d.dayOfMonth).length
-    month.gamesPlayedPerDay = daysPlayedIndex
+    result.daysInSequence = daysInSequence
+    result.daysWithUnplayedGames = daysPlayedList.filter(d => d.gamesPlayed === 0).map(d => d.dayOfMonth).length
+    result.gamesPlayedPerDay = daysPlayedIndex
 
     const dayCountIndex = games.reduce((acc, item) => {
       const entry = acc[item.date] || {
@@ -95,50 +113,89 @@ async function start () {
     })
     dayCountList = dayCountList.sort((a, b) => a.games.length < b.games.length ? 1 : -1)
 
-    month.gamesPlayed = games.sort((a, b) => {
+    result.gamesPlayed = games.sort((a, b) => {
       const da = new Date(a.date).getTime()
       const db = new Date(b.date).getTime()
       return da > db ? 1 : -1
     })
 
-    month.uniqueGamesPlayed = [...new Set(games.map(g => g.name))].sort()
+    result.uniqueGamesPlayed = [...new Set(games.map(g => g.name))].sort()
 
-    month.totalGamesPlayed = games.length
-    month.averageGamesPlayedPerDay = fmn(month.totalGamesPlayed / month.daysInMonth)
+    result.totalGamesPlayed = games.length
+    result.averageGamesPlayedPerDay = fmn(result.totalGamesPlayed / daysInSequence)
     const highestDayPlayCount = dayCountList[0].games.length
-    month.mostGamesPlayedInADay = dayCountList.filter(n => n.games.length === highestDayPlayCount)
+    result.mostGamesPlayedInADay = dayCountList.filter(n => n.games.length === highestDayPlayCount)
     const highestGamePlayCount = gameCountList[0].plays
-    month.mostPlayedGamesThisMonth = gameCountList.filter(n => n.plays === highestGamePlayCount)
-    month.coOpGamesPlayedCount = coOpGames.length
-    month.coOpGamesPlayedPercentage = fmn(month.coOpGamesPlayedCount / month.totalGamesPlayed)
-    month.coOpGameWins = coOpGames.filter(n => {
+    result.mostPlayedGames = gameCountList.filter(n => n.plays === highestGamePlayCount)
+    result.coOpGamesPlayedCount = coOpGames.length
+    result.coOpGamesPlayedPercentage = fmn(result.coOpGamesPlayedCount / result.totalGamesPlayed)
+    result.coOpGameWins = coOpGames.filter(n => {
       let outcome = (n.coOpOutcome + '').toLowerCase().trim()
       return outcome === 'win' || outcome === 'won' || false
     }).length
-    month.coOpGameLoses = month.coOpGamesPlayedCount - month.coOpGameWins
-    month.winCountHannah = games.filter(n => (n.winner + '').toLowerCase().trim() === 'hannah').length
-    month.winCountJohn = games.filter(n => (n.winner + '').toLowerCase().trim() === 'john').length
-    month.winCountOther = games.filter(n => (n.winner + '').toLowerCase().trim() === 'other').length
-    month.winCountDraw = games.filter(n => (n.winner + '').toLowerCase().trim() === 'draw').length
-    month.winnableGamesTotal = month.winCountHannah + month.winCountJohn + month.winCountOther + month.winCountDraw
-    month.winRateHannah = fmn(month.winCountHannah / month.winnableGamesTotal)
-    month.winRateJohn = fmn(month.winCountJohn / month.winnableGamesTotal)
-    month.winRateOther = fmn(month.winCountOther / month.winnableGamesTotal)
-    month.winRateDraw = fmn(month.winCountDraw / month.winnableGamesTotal)
-    month.mostWonGames = month.winCountHannah > month.winCountJohn ? 'Hannah' : 'John'
-    month.mostWonGames = month.winCountHannah === month.winCountJohn ? 'Draw' : month.mostWonGames
+    result.coOpGameLoses = result.coOpGamesPlayedCount - result.coOpGameWins
+    result.winCountHannah = games.filter(n => (n.winner + '').toLowerCase().trim() === 'hannah').length
+    result.winCountJohn = games.filter(n => (n.winner + '').toLowerCase().trim() === 'john').length
+    result.winCountOther = games.filter(n => (n.winner + '').toLowerCase().trim() === 'other').length
+    result.winCountDraw = games.filter(n => (n.winner + '').toLowerCase().trim() === 'draw').length
+    result.winnableGamesTotal = result.winCountHannah + result.winCountJohn + result.winCountOther + result.winCountDraw
+    result.winRateHannah = fmn(result.winCountHannah / result.winnableGamesTotal)
+    result.winRateJohn = fmn(result.winCountJohn / result.winnableGamesTotal)
+    result.winRateOther = fmn(result.winCountOther / result.winnableGamesTotal)
+    result.winRateDraw = fmn(result.winCountDraw / result.winnableGamesTotal)
+    result.mostWonGames = result.winCountHannah > result.winCountJohn ? 'Hannah' : 'John'
+    result.mostWonGames = result.winCountHannah === result.winCountJohn ? 'Draw' : result.mostWonGames
+
+    return result
+  }
+
+  monthsInUse.forEach((month) => {
+    const games = collection.feed.filter(n => n.date.substring(0, 7) === month.dateCode)
+    const result = summariseGames(games)
+    Object.entries(result).forEach(kvp => {
+      month[kvp[0]] = kvp[1]
+    })
   })
 
-  summaries.earliestDate = new Date(earliestTime).toISOString().substring(0, 10)
-  summaries.latestDate = new Date(latestTime).toISOString().substring(0, 10)
+  yearsInUse.forEach((year) => {
+    const games = collection.feed.filter(n => n.date.substring(0, 4) === year.dateCode)
+    const result = summariseGames(games)
+    Object.entries(result).forEach(kvp => {
+      year[kvp[0]] = kvp[1]
+    })
+  })
+
+  function daysBetween (firstDate, secondDate) {
+    const oneDayInMilliseconds = 24 * 60 * 60 * 1000
+    const firstTime = firstDate.getTime()
+    const secondTime = secondDate.getTime()
+    const millisecondsBetween = Math.abs(firstTime - secondTime)
+    return Math.round(millisecondsBetween / oneDayInMilliseconds)
+  }
+
+  const earliestDate = new Date(earliestTime)
+  const latestDate = new Date(latestTime)
+  summaries.earliestDate = earliestDate.toISOString().substring(0, 10)
+  summaries.latestDate = latestDate.toISOString().substring(0, 10)
+  summaries.numberOfDaysCovered = daysBetween(earliestDate, latestDate)
   summaries.byMonth = monthsInUse
+  summaries.byYear = yearsInUse
+
+  const byAllTime = summariseGames(collection.feed, summaries.numberOfDaysCovered)
 
   async function writeMonth (month) {
     const filename = `summaries/boardgame-summary-${month.dateCode}.json`
     return writeFile('Board Game Summary', filename, month)
   }
 
+  async function writeYear (year) {
+    const filename = `summaries/boardgame-summary-${year.dateCode}.json`
+    return writeFile('Board Game Summary', filename, year)
+  }
+
   await Promise.all(monthsInUse.map(writeMonth))
+  await Promise.all(yearsInUse.map(writeYear))
+  await writeFile('All time board game summary', 'summaries/boardgame-summary-all-time.json', byAllTime)
 
   return writeFile('Board Game Summaries', 'boardgame-summaries.json', summaries)
 }

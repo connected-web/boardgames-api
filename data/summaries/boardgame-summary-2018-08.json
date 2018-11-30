@@ -1,7 +1,9 @@
 {
   "dateCode": "2018-08",
-  "daysInMonth": 31,
   "title": "August 2018",
+  "sequenceStartDate": "2018-08-01",
+  "sequenceEndDate": "2018-08-31",
+  "daysInSequence": 30,
   "daysWithUnplayedGames": 0,
   "gamesPlayedPerDay": {
     "1": 1,
@@ -70,20 +72,14 @@
     },
     {
       "date": "2018-08-05",
-      "name": "Love Letter Nordic",
-      "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-08-05",
       "name": "Love Letter",
       "winner": "Hannah",
       "coOp": "No"
     },
     {
       "date": "2018-08-05",
-      "name": "Love Letter",
-      "winner": "Hannah",
+      "name": "The Pyramid's Deadline",
+      "winner": "John",
       "coOp": "No"
     },
     {
@@ -94,8 +90,14 @@
     },
     {
       "date": "2018-08-05",
-      "name": "The Pyramid's Deadline",
-      "winner": "John",
+      "name": "Love Letter",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-08-05",
+      "name": "Love Letter Nordic",
+      "winner": "Hannah",
       "coOp": "No"
     },
     {
@@ -192,15 +194,15 @@
     },
     {
       "date": "2018-08-18",
-      "name": "Pandemic: The Cure",
-      "coOp": "Yes",
-      "coOpOutcome": "Won"
-    },
-    {
-      "date": "2018-08-18",
       "name": "Troika",
       "winner": "Draw",
       "coOp": "No"
+    },
+    {
+      "date": "2018-08-18",
+      "name": "Pandemic: The Cure",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
     },
     {
       "date": "2018-08-18",
@@ -262,15 +264,15 @@
     },
     {
       "date": "2018-08-24",
-      "name": "Lovecraft Letter",
-      "winner": "Other",
+      "name": "Troika",
+      "winner": "John",
       "coOp": "No",
       "note": "3 player"
     },
     {
       "date": "2018-08-24",
-      "name": "Troika",
-      "winner": "John",
+      "name": "Lovecraft Letter",
+      "winner": "Other",
       "coOp": "No",
       "note": "3 player"
     },
@@ -361,21 +363,21 @@
     "Valeria: Card Kingdoms"
   ],
   "totalGamesPlayed": 46,
-  "averageGamesPlayedPerDay": 1.4839,
+  "averageGamesPlayedPerDay": 1.5333,
   "mostGamesPlayedInADay": [
     {
       "date": "2018-08-18",
       "games": [
-        "Troika",
+        "Pandemic: The Cure",
         "Cat Lady",
         "Tortuga 1667",
         "Love Letter: Legend of the Five Rings",
         "SpyNet",
-        "Pandemic: The Cure"
+        "Troika"
       ]
     }
   ],
-  "mostPlayedGamesThisMonth": [
+  "mostPlayedGames": [
     {
       "name": "Codenames",
       "plays": 3

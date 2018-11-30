@@ -300,7 +300,8 @@
       },
       {
         "date": "2018-11-14",
-        "winner": "Hannah"
+        "winner": "Hannah",
+        "coOp": "No"
       }
     ]
   },
@@ -839,6 +840,11 @@
         "winner": "Hannah",
         "coOp": "No",
         "notes": "Played at work. best of three."
+      },
+      {
+        "date": "2018-11-27",
+        "winner": "Hannah",
+        "coOp": "No"
       }
     ]
   },
@@ -1168,6 +1174,11 @@
       },
       {
         "date": "2018-11-03",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-11-24",
         "winner": "John",
         "coOp": "No"
       }
@@ -1761,7 +1772,7 @@
       },
       {
         "date": "2018-02-26",
-        "winner": "X",
+        "winner": "Other",
         "coOp": "No"
       },
       {
@@ -1828,6 +1839,16 @@
       {
         "date": "2018-08-23",
         "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-11-26",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-11-29",
+        "winner": "Hannah",
         "coOp": "No"
       }
     ]
@@ -2063,7 +2084,7 @@
       },
       {
         "date": "2018-02-26",
-        "winner": "X",
+        "winner": "Other",
         "coOp": "No"
       },
       {
@@ -2078,6 +2099,16 @@
       },
       {
         "date": "2018-07-15",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-11-22",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-11-23",
         "winner": "John",
         "coOp": "No"
       }
@@ -2348,7 +2379,8 @@
       },
       {
         "date": "2018-11-16",
-        "winner": "John"
+        "winner": "John",
+        "coOp": "No"
       }
     ]
   },
@@ -2413,6 +2445,11 @@
       {
         "date": "2018-06-25",
         "coOpOutcome": "Won",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-11-25",
+        "coOpOutcome": "Lost",
         "coOp": "Yes"
       }
     ]
@@ -2504,6 +2541,11 @@
       },
       {
         "date": "2018-07-17",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-11-20",
         "winner": "John",
         "coOp": "No"
       }
@@ -2811,6 +2853,11 @@
         "date": "2018-03-03",
         "winner": "Hannah",
         "coOp": "No"
+      },
+      {
+        "date": "2018-11-28",
+        "winner": "Hannah",
+        "coOp": "No"
       }
     ]
   },
@@ -3107,6 +3154,11 @@
         "date": "2018-04-28",
         "winner": "John",
         "coOp": "No"
+      },
+      {
+        "date": "2018-11-24",
+        "winner": "Hannah",
+        "coOp": "No"
       }
     ]
   },
@@ -3155,6 +3207,11 @@
         "date": "2018-11-01",
         "winner": "Hannah",
         "coOp": "No"
+      },
+      {
+        "date": "2018-11-23",
+        "winner": "Hannah",
+        "coOp": "No"
       }
     ]
   },
@@ -3166,6 +3223,11 @@
     "playRecords": [
       {
         "date": "2018-04-02",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-11-17",
         "winner": "John",
         "coOp": "No"
       }
@@ -3287,7 +3349,8 @@
       },
       {
         "date": "2018-11-15",
-        "winner": "Other"
+        "winner": "Other",
+        "coOp": "No"
       }
     ]
   },
@@ -3489,6 +3552,22 @@
         "date": "2018-10-17",
         "coOp": "No",
         "notes": "20 player"
+      },
+      {
+        "date": "2018-11-21",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-11-21",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2018-11-21",
+        "winner": "Other",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes"
       }
     ]
   },
@@ -3627,7 +3706,8 @@
     "playRecords": [
       {
         "date": "2018-11-13",
-        "winner": "John"
+        "winner": "John",
+        "coOp": "No"
       }
     ],
     "name": "Batman: Love Letter"
@@ -3637,13 +3717,48 @@
     "playRecords": [
       {
         "date": "2018-11-15",
-        "coOpOutcome": "Win"
+        "coOpOutcome": "Win",
+        "coOp": "Yes"
       },
       {
         "date": "2018-11-15",
-        "winner": "John"
+        "winner": "John",
+        "coOp": "No"
       }
     ],
     "name": "Salem"
+  },
+  "fallout-new-california": {
+    "boardGameApiId": "fallout-new-california",
+    "playRecords": [
+      {
+        "date": "2018-11-18",
+        "coOpOutcome": "Won",
+        "coOp": "Yes"
+      }
+    ],
+    "name": "Fallout: New California"
+  },
+  "ticket-to-ride-asia": {
+    "boardGameApiId": "ticket-to-ride-asia",
+    "playRecords": [
+      {
+        "date": "2018-11-19",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
+    ],
+    "name": "Ticket to Ride: Asia"
+  },
+  "sherlock-holmes-consulting-detective": {
+    "boardGameApiId": "sherlock-holmes-consulting-detective",
+    "playRecords": [
+      {
+        "date": "2018-11-25",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes"
+      }
+    ],
+    "name": "Sherlock Holmes Consulting Detective"
   }
 }

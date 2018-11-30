@@ -1,8 +1,10 @@
 {
   "dateCode": "2018-11",
-  "daysInMonth": 30,
   "title": "November 2018",
-  "daysWithUnplayedGames": 14,
+  "sequenceStartDate": "2018-11-01",
+  "sequenceEndDate": "2018-11-29",
+  "daysInSequence": 28,
+  "daysWithUnplayedGames": 0,
   "gamesPlayedPerDay": {
     "1": 1,
     "2": 1,
@@ -20,20 +22,19 @@
     "14": 1,
     "15": 3,
     "16": 1,
-    "17": 0,
-    "18": 0,
-    "19": 0,
-    "20": 0,
-    "21": 0,
-    "22": 0,
-    "23": 0,
-    "24": 0,
-    "25": 0,
-    "26": 0,
-    "27": 0,
-    "28": 0,
-    "29": 0,
-    "30": 0
+    "17": 1,
+    "18": 1,
+    "19": 1,
+    "20": 1,
+    "21": 3,
+    "22": 1,
+    "23": 2,
+    "24": 2,
+    "25": 2,
+    "26": 1,
+    "27": 1,
+    "28": 1,
+    "29": 1
   },
   "gamesPlayed": [
     {
@@ -62,15 +63,15 @@
     },
     {
       "date": "2018-11-04",
-      "name": "T.I.M.E Stories: Under the Mask",
-      "coOp": "Yes",
-      "coOpOutcome": "Lost"
-    },
-    {
-      "date": "2018-11-04",
       "name": "Tanto Cuore: Romantic Vacation",
       "winner": "John",
       "coOp": "No"
+    },
+    {
+      "date": "2018-11-04",
+      "name": "T.I.M.E Stories: Under the Mask",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
     },
     {
       "date": "2018-11-05",
@@ -129,32 +130,147 @@
     {
       "date": "2018-11-13",
       "name": "Batman: Love Letter",
-      "winner": "John"
+      "winner": "John",
+      "coOp": "No"
     },
     {
       "date": "2018-11-14",
       "name": "Azul",
-      "winner": "Hannah"
-    },
-    {
-      "date": "2018-11-15",
-      "name": "Topiary",
-      "winner": "Other"
+      "winner": "Hannah",
+      "coOp": "No"
     },
     {
       "date": "2018-11-15",
       "name": "Salem",
+      "coOp": "Yes",
       "coOpOutcome": "Win"
     },
     {
       "date": "2018-11-15",
       "name": "Salem",
-      "winner": "John"
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-11-15",
+      "name": "Topiary",
+      "winner": "Other",
+      "coOp": "No"
     },
     {
       "date": "2018-11-16",
       "name": "Pandemic: Contagion",
-      "winner": "John"
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-11-17",
+      "name": "Ticket to Ride: Nordic Countries",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-11-18",
+      "name": "Fallout: New California",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2018-11-19",
+      "name": "Ticket to Ride: Asia",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-11-20",
+      "name": "Photosynthesis",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-11-21",
+      "name": "Werewolf",
+      "winner": "Other",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
+    },
+    {
+      "date": "2018-11-21",
+      "name": "Werewolf",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
+    },
+    {
+      "date": "2018-11-21",
+      "name": "Werewolf",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-11-22",
+      "name": "Machi Koro",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-11-23",
+      "name": "Ticket to Ride: New York",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-11-23",
+      "name": "Machi Koro",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-11-24",
+      "name": "Dominion: Seaside",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-11-24",
+      "name": "Ticket to Ride: Germany",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-11-25",
+      "name": "Pandemic: On the Brink",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
+    },
+    {
+      "date": "2018-11-25",
+      "name": "Sherlock Holmes Consulting Detective",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
+    },
+    {
+      "date": "2018-11-26",
+      "name": "Love Letter",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-11-27",
+      "name": "Coup",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-11-28",
+      "name": "Tanto Cuore: Expanding the House",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-11-29",
+      "name": "Love Letter",
+      "winner": "Hannah",
+      "coOp": "No"
     }
   ],
   "uniqueGamesPlayed": [
@@ -164,51 +280,71 @@
     "Azul",
     "Batman: Love Letter",
     "Battlestar Galactica: The Board Game",
+    "Coup",
     "Deadwood 1876",
     "Dominion: Seaside",
+    "Fallout: New California",
     "Jurassic Snack",
+    "Love Letter",
     "Love Letter Premium",
     "Love Letter: The Hobbit – The Battle of the Five Armies",
     "Lovecraft Letter",
+    "Machi Koro",
     "Pandemic: Contagion",
+    "Pandemic: On the Brink",
+    "Photosynthesis",
     "Salem",
+    "Sherlock Holmes Consulting Detective",
     "T.I.M.E Stories: Under the Mask",
+    "Tanto Cuore: Expanding the House",
     "Tanto Cuore: Romantic Vacation",
     "The Resistance",
+    "Ticket to Ride: Asia",
     "Ticket to Ride: Europa 1912",
+    "Ticket to Ride: Germany",
     "Ticket to Ride: New York",
-    "Topiary"
+    "Ticket to Ride: Nordic Countries",
+    "Topiary",
+    "Werewolf"
   ],
-  "totalGamesPlayed": 21,
-  "averageGamesPlayedPerDay": 0.7,
+  "totalGamesPlayed": 39,
+  "averageGamesPlayedPerDay": 1.3929,
   "mostGamesPlayedInADay": [
     {
       "date": "2018-11-15",
       "games": [
-        "Topiary",
         "Salem",
-        "Salem"
+        "Salem",
+        "Topiary"
+      ]
+    },
+    {
+      "date": "2018-11-21",
+      "games": [
+        "Werewolf",
+        "Werewolf",
+        "Werewolf"
       ]
     }
   ],
-  "mostPlayedGamesThisMonth": [
+  "mostPlayedGames": [
     {
-      "name": "Salem",
-      "plays": 2
+      "name": "Werewolf",
+      "plays": 3
     }
   ],
-  "coOpGamesPlayedCount": 3,
-  "coOpGamesPlayedPercentage": 0.1429,
-  "coOpGameWins": 1,
-  "coOpGameLoses": 2,
-  "winCountHannah": 7,
-  "winCountJohn": 8,
-  "winCountOther": 2,
+  "coOpGamesPlayedCount": 9,
+  "coOpGamesPlayedPercentage": 0.2308,
+  "coOpGameWins": 3,
+  "coOpGameLoses": 6,
+  "winCountHannah": 15,
+  "winCountJohn": 13,
+  "winCountOther": 3,
   "winCountDraw": 0,
-  "winnableGamesTotal": 17,
-  "winRateHannah": 0.4118,
-  "winRateJohn": 0.4706,
-  "winRateOther": 0.1176,
+  "winnableGamesTotal": 31,
+  "winRateHannah": 0.4839,
+  "winRateJohn": 0.4194,
+  "winRateOther": 0.0968,
   "winRateDraw": 0,
-  "mostWonGames": "John"
+  "mostWonGames": "Hannah"
 }

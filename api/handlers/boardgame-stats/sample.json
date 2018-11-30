@@ -1,8 +1,10 @@
 {
 	"byMonth": [{
 		"dateCode": "2018-04",
-		"daysInMonth": 4,
 		"title": "MadeUpApril 2018",
+		"sequenceStartDate": "2018-04-01",
+		"sequenceEndDate": "2018-04-02",
+		"daysInSequence": 2,
 		"daysWithUnplayedGames": 0,
 		"gamesPlayedPerDay": {
 			"1": 2,
@@ -39,7 +41,7 @@
 				"Machi Koro"
 			]
 		}],
-		"mostPlayedGamesThisMonth": [{
+		"mostPlayedGames": [{
 			"game": "Machi Koro",
 			"plays": 2
 		}],

@@ -21,23 +21,39 @@
       "date": "2018-10-17",
       "coOp": "No",
       "notes": "20 player"
+    },
+    {
+      "date": "2018-11-21",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-11-21",
+      "coOpOutcome": "Lost",
+      "coOp": "Yes"
+    },
+    {
+      "date": "2018-11-21",
+      "winner": "Other",
+      "coOpOutcome": "Lost",
+      "coOp": "Yes"
     }
   ],
-  "totalGamesPlayed": 3,
-  "coOpGamesPlayedCount": 2,
+  "totalGamesPlayed": 6,
+  "coOpGamesPlayedCount": 4,
   "coOpGamesPlayedPercentage": 0.6667,
   "coOpGameWins": 2,
-  "coOpGameLoses": 0,
-  "coOpWinRate": 1,
-  "coOpLossRate": 0,
-  "winCountHannah": 0,
+  "coOpGameLoses": 2,
+  "coOpWinRate": 0.5,
+  "coOpLossRate": 0.5,
+  "winCountHannah": 1,
   "winCountJohn": 0,
-  "winCountOther": 0,
+  "winCountOther": 1,
   "winCountDraw": 0,
-  "winnableGamesTotal": 0,
-  "winRateHannah": 0,
+  "winnableGamesTotal": 2,
+  "winRateHannah": 0.5,
   "winRateJohn": 0,
-  "winRateOther": 0,
+  "winRateOther": 0.5,
   "winRateDraw": 0,
-  "mostWonGames": "Draw"
+  "mostWonGames": "Hannah"
 }

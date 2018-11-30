@@ -11,11 +11,19 @@
 						"type": "string",
 						"pattern": "^\\d{4}-\\d{2}$"
 					},
-					"daysInMonth": {
-						"type": "integer"
-					},
 					"title": {
 						"type": "string"
+					},
+					"sequenceStartDate": {
+						"type": "string",
+						"pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+					},
+					"sequenceEndDate": {
+						"type": "string",
+						"pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+					},
+					"daysInSequence": {
+						"type": "integer"
 					},
 					"daysWithUnplayedGames": {
 						"type": "integer"
@@ -73,7 +81,7 @@
 							}
 						}
 					},
-					"mostPlayedGamesThisMonth": {
+					"mostPlayedGames": {
 						"type": "array",
 						"items": {
 							"type": "object",
@@ -146,6 +154,9 @@
 		"latestDate": {
 			"type": "string",
 			"pattern": "^\\d{4}(-\\d{2}){2}$"
+		},
+		"numberOfDaysCovered": {
+			"type": "integer"
 		}
 	},
 	"additionalProperties": false
