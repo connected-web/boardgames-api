@@ -10,7 +10,7 @@ function createStandardHTMLTests (path) {
 
   it('should contain a navigation section', async () => {
     const body = await fetch(path)
-    expect(body).to.match(/<nav>/)
+    expect(body).to.match(/<nav class="primary">/)
     expect(body).to.match(/<a href="\/docs\/">.*<\/a>/)
     expect(body).to.match(/<\/nav>/)
   })
