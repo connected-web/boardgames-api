@@ -2,7 +2,7 @@ html, body {
   font-family: Lato, Helvetica, Arial, sans-serif;
   padding: 10px;
 }
-heading { display: block; font-weight: bold; margin: 6px 0 12px 0; }
+heading { display: block; font-weight: bold; margin: 0; }
 a { text-decoration: none; color: black; font-weight: bold; }
 a:visited { color: #333; }
 a:hover { color: red; }
@@ -11,6 +11,24 @@ nav {
   padding: 0 0 10px 0;
   margin-bottom: 10px;
   border-bottom: 4px solid #DDD;
+}
+nav > heading {
+  display: inline-block;
+  margin: 6px 0 0 0;
+  padding: 0 6px 0 0;
+  cursor: pointer;
+  vertical-align: middle;
+}
+nav > links {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+}
+nav > links > a {
+  display: inline-block;
+  padding: 0 6px 0 6px;
+  margin: 6px 0 0 0;
+  border-left: 2px solid #666;
 }
 endpoint {
   display: block;
