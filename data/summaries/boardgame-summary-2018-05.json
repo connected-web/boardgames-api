@@ -66,16 +66,16 @@
     },
     {
       "date": "2018-05-05",
-      "name": "Archer: Once You Go Blackmail...",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-05-05",
       "name": "T.I.M.E Stories: The Marcy Case",
       "coOp": "Yes",
       "coOpOutcome": "Lost",
       "note": "Marcy case"
+    },
+    {
+      "date": "2018-05-05",
+      "name": "Archer: Once You Go Blackmail...",
+      "winner": "John",
+      "coOp": "No"
     },
     {
       "date": "2018-05-05",
@@ -112,14 +112,14 @@
     },
     {
       "date": "2018-05-09",
-      "name": "Bad Beets",
-      "winner": "Draw",
+      "name": "Ticket to Ride: Europe",
+      "winner": "John",
       "coOp": "No"
     },
     {
       "date": "2018-05-09",
-      "name": "Ticket to Ride: Europe",
-      "winner": "John",
+      "name": "Bad Beets",
+      "winner": "Draw",
       "coOp": "No"
     },
     {
@@ -136,17 +136,17 @@
     },
     {
       "date": "2018-05-12",
-      "name": "Codenames",
-      "coOp": "Yes",
-      "coOpOutcome": "Lost",
-      "note": "Hannah and John lost against 2 others"
-    },
-    {
-      "date": "2018-05-12",
       "name": "Azul",
       "winner": "John",
       "coOp": "No",
       "note": "Three player"
+    },
+    {
+      "date": "2018-05-12",
+      "name": "Codenames",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost",
+      "note": "Hannah and John lost against 2 others"
     },
     {
       "date": "2018-05-13",
@@ -198,16 +198,16 @@
     },
     {
       "date": "2018-05-21",
+      "name": "Azul",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-05-21",
       "name": "Carcassonne Big Box 6",
       "coOp": "Yes",
       "coOpOutcome": "Won",
       "note": "Inns and Cathedrals - 594"
-    },
-    {
-      "date": "2018-05-21",
-      "name": "Azul",
-      "winner": "John",
-      "coOp": "No"
     },
     {
       "date": "2018-05-21",
@@ -241,20 +241,6 @@
     },
     {
       "date": "2018-05-26",
-      "name": "Azul",
-      "winner": "Other",
-      "coOp": "No",
-      "note": "Boardgames party"
-    },
-    {
-      "date": "2018-05-26",
-      "name": "Coup: Reformation",
-      "winner": "Hannah",
-      "coOp": "No",
-      "note": "Boardgames party"
-    },
-    {
-      "date": "2018-05-26",
       "name": "Coup: Reformation",
       "winner": "Other",
       "coOp": "No",
@@ -269,7 +255,14 @@
     },
     {
       "date": "2018-05-26",
-      "name": "Lovecraft Letter",
+      "name": "Azul",
+      "winner": "Other",
+      "coOp": "No",
+      "note": "Boardgames party"
+    },
+    {
+      "date": "2018-05-26",
+      "name": "Coup: Reformation",
       "winner": "Hannah",
       "coOp": "No",
       "note": "Boardgames party"
@@ -282,10 +275,11 @@
       "note": "Boardgames party"
     },
     {
-      "date": "2018-05-27",
-      "name": "Harry Potter: Hogwarts Battle – The Monster Box of Monsters Expansion",
-      "coOp": "Yes",
-      "coOpOutcome": "Lost"
+      "date": "2018-05-26",
+      "name": "Lovecraft Letter",
+      "winner": "Hannah",
+      "coOp": "No",
+      "note": "Boardgames party"
     },
     {
       "date": "2018-05-27",
@@ -293,6 +287,12 @@
       "winner": "Hannah",
       "coOp": "No",
       "note": "Asia"
+    },
+    {
+      "date": "2018-05-27",
+      "name": "Harry Potter: Hogwarts Battle – The Monster Box of Monsters Expansion",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
     },
     {
       "date": "2018-05-28",
@@ -315,13 +315,13 @@
       "date": "2018-05-31",
       "name": "Codenames Duet",
       "coOp": "Yes",
-      "coOpOutcome": "Lost"
+      "coOpOutcome": "Won"
     },
     {
       "date": "2018-05-31",
       "name": "Codenames Duet",
       "coOp": "Yes",
-      "coOpOutcome": "Won"
+      "coOpOutcome": "Lost"
     },
     {
       "date": "2018-05-31",
@@ -369,12 +369,12 @@
     {
       "date": "2018-05-26",
       "games": [
-        "Coup: Reformation",
         "Azul",
         "Coup: Reformation",
-        "Dinosaur Island",
         "Ticket to Ride: Europe",
-        "Lovecraft Letter"
+        "Lovecraft Letter",
+        "Coup: Reformation",
+        "Dinosaur Island"
       ]
     }
   ],

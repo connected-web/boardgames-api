@@ -2,8 +2,8 @@
   "dateCode": "2018-11",
   "title": "November 2018",
   "sequenceStartDate": "2018-11-01",
-  "sequenceEndDate": "2018-11-29",
-  "daysInSequence": 28,
+  "sequenceEndDate": "2018-11-30",
+  "daysInSequence": 29,
   "daysWithUnplayedGames": 0,
   "gamesPlayedPerDay": {
     "1": 1,
@@ -34,7 +34,8 @@
     "26": 1,
     "27": 1,
     "28": 1,
-    "29": 1
+    "29": 1,
+    "30": 1
   },
   "gamesPlayed": [
     {
@@ -51,14 +52,14 @@
     },
     {
       "date": "2018-11-03",
-      "name": "Dominion: Seaside",
-      "winner": "John",
+      "name": "Deadwood 1876",
+      "winner": "Other",
       "coOp": "No"
     },
     {
       "date": "2018-11-03",
-      "name": "Deadwood 1876",
-      "winner": "Other",
+      "name": "Dominion: Seaside",
+      "winner": "John",
       "coOp": "No"
     },
     {
@@ -99,15 +100,15 @@
     },
     {
       "date": "2018-11-09",
-      "name": "The Resistance",
-      "coOp": "Yes",
-      "coOpOutcome": "Lost"
-    },
-    {
-      "date": "2018-11-09",
       "name": "Battlestar Galactica: The Board Game",
       "coOp": "Yes",
       "coOpOutcome": "Won"
+    },
+    {
+      "date": "2018-11-09",
+      "name": "The Resistance",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
     },
     {
       "date": "2018-11-10",
@@ -142,14 +143,14 @@
     {
       "date": "2018-11-15",
       "name": "Salem",
-      "coOp": "Yes",
-      "coOpOutcome": "Win"
+      "winner": "John",
+      "coOp": "No"
     },
     {
       "date": "2018-11-15",
       "name": "Salem",
-      "winner": "John",
-      "coOp": "No"
+      "coOp": "Yes",
+      "coOpOutcome": "Win"
     },
     {
       "date": "2018-11-15",
@@ -190,21 +191,21 @@
     {
       "date": "2018-11-21",
       "name": "Werewolf",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-11-21",
+      "name": "Werewolf",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
+    },
+    {
+      "date": "2018-11-21",
+      "name": "Werewolf",
       "winner": "Other",
       "coOp": "Yes",
       "coOpOutcome": "Lost"
-    },
-    {
-      "date": "2018-11-21",
-      "name": "Werewolf",
-      "coOp": "Yes",
-      "coOpOutcome": "Lost"
-    },
-    {
-      "date": "2018-11-21",
-      "name": "Werewolf",
-      "winner": "Hannah",
-      "coOp": "No"
     },
     {
       "date": "2018-11-22",
@@ -214,14 +215,14 @@
     },
     {
       "date": "2018-11-23",
-      "name": "Ticket to Ride: New York",
-      "winner": "Hannah",
+      "name": "Machi Koro",
+      "winner": "John",
       "coOp": "No"
     },
     {
       "date": "2018-11-23",
-      "name": "Machi Koro",
-      "winner": "John",
+      "name": "Ticket to Ride: New York",
+      "winner": "Hannah",
       "coOp": "No"
     },
     {
@@ -271,6 +272,12 @@
       "name": "Love Letter",
       "winner": "Hannah",
       "coOp": "No"
+    },
+    {
+      "date": "2018-11-30",
+      "name": "Ticket to Ride: New York",
+      "winner": "Hannah",
+      "coOp": "No"
     }
   ],
   "uniqueGamesPlayed": [
@@ -307,17 +314,9 @@
     "Topiary",
     "Werewolf"
   ],
-  "totalGamesPlayed": 39,
-  "averageGamesPlayedPerDay": 1.3929,
+  "totalGamesPlayed": 40,
+  "averageGamesPlayedPerDay": 1.3793,
   "mostGamesPlayedInADay": [
-    {
-      "date": "2018-11-15",
-      "games": [
-        "Salem",
-        "Salem",
-        "Topiary"
-      ]
-    },
     {
       "date": "2018-11-21",
       "games": [
@@ -325,26 +324,38 @@
         "Werewolf",
         "Werewolf"
       ]
+    },
+    {
+      "date": "2018-11-15",
+      "games": [
+        "Salem",
+        "Salem",
+        "Topiary"
+      ]
     }
   ],
   "mostPlayedGames": [
+    {
+      "name": "Ticket to Ride: New York",
+      "plays": 3
+    },
     {
       "name": "Werewolf",
       "plays": 3
     }
   ],
   "coOpGamesPlayedCount": 9,
-  "coOpGamesPlayedPercentage": 0.2308,
+  "coOpGamesPlayedPercentage": 0.225,
   "coOpGameWins": 3,
   "coOpGameLoses": 6,
-  "winCountHannah": 15,
+  "winCountHannah": 16,
   "winCountJohn": 13,
   "winCountOther": 3,
   "winCountDraw": 0,
-  "winnableGamesTotal": 31,
-  "winRateHannah": 0.4839,
-  "winRateJohn": 0.4194,
-  "winRateOther": 0.0968,
+  "winnableGamesTotal": 32,
+  "winRateHannah": 0.5,
+  "winRateJohn": 0.4063,
+  "winRateOther": 0.0938,
   "winRateDraw": 0,
   "mostWonGames": "Hannah"
 }

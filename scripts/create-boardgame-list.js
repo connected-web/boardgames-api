@@ -1,4 +1,4 @@
-const { position } = require('promise-path')
+const { position, write } = require('promise-path')
 const writeFile = require('./util/writeFile')
 const datapath = position(__dirname, '../data')
 const report = (...messages) => console.log('[Create Board Game List]', ...messages)
@@ -47,9 +47,12 @@ async function start () {
     }
   }) }
 
+  const listOfAllGames = boardGameList.games.map(n => n.name).sort()
+
   return Promise.all([
     writeFile('Board Game Names', 'boardgame-names.json', boardGameNames),
-    writeFile('Board Game List', 'boardgame-list.json', boardGameList)
+    writeFile('Board Game List', 'boardgame-list.json', boardGameList),
+    write(datapath('list-of-all-games.txt'), listOfAllGames.join('\n'), 'utf8')
   ])
 }
 

@@ -19,8 +19,6 @@ async function start () {
   const uniqueGamesCount = uniqueGames.length
   report('Unique games count:', uniqueGamesCount, 'Earliest date', earliestDate, 'Latest Date', latestDate)
 
-  await write(datapath('list-of-all-games.txt'), uniqueGames.join('\n'), 'utf8')
-
   const uniqueListOfGamesPlayed = { uniqueGames, uniqueGamesCount, earliestDate, latestDate }
   return writeFile('Unique List of Games Played', 'unique-list-of-games-played.json', uniqueListOfGamesPlayed)
 }

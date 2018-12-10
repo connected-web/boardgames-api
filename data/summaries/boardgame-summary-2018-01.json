@@ -41,16 +41,16 @@
   "gamesPlayed": [
     {
       "date": "2018-01-01",
-      "name": "Machi Koro",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-01-01",
       "name": "Harry Potter: Hogwarts Battle",
       "coOp": "Yes",
       "coOpOutcome": "Won",
       "note": "Game 1"
+    },
+    {
+      "date": "2018-01-01",
+      "name": "Machi Koro",
+      "winner": "John",
+      "coOp": "No"
     },
     {
       "date": "2018-01-02",
@@ -77,12 +77,6 @@
     },
     {
       "date": "2018-01-06",
-      "name": "Ticket to Ride",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-01-06",
       "name": "Ticket to Ride Map Collection: Volume 6 – France & Old West",
       "winner": "Hannah",
       "coOp": "No",
@@ -92,6 +86,12 @@
       "date": "2018-01-06",
       "name": "Heart of Crown",
       "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-01-06",
+      "name": "Ticket to Ride",
+      "winner": "John",
       "coOp": "No"
     },
     {
@@ -239,16 +239,16 @@
     },
     {
       "date": "2018-01-25",
-      "name": "Codenames",
-      "coOp": "Yes",
-      "note": "3 player"
-    },
-    {
-      "date": "2018-01-25",
       "name": "Harry Potter: Hogwarts Battle",
       "coOp": "Yes",
       "coOpOutcome": "Won",
       "note": "Game 6"
+    },
+    {
+      "date": "2018-01-25",
+      "name": "Codenames",
+      "coOp": "Yes",
+      "note": "3 player"
     },
     {
       "date": "2018-01-26",
@@ -273,23 +273,23 @@
     },
     {
       "date": "2018-01-29",
-      "name": "Codenames",
-      "coOp": "Yes",
-      "coOpOutcome": "Won",
-      "note": "2 player"
-    },
-    {
-      "date": "2018-01-29",
-      "name": "Codenames",
-      "coOp": "Yes",
-      "coOpOutcome": "Won",
-      "note": "2 player"
-    },
-    {
-      "date": "2018-01-29",
       "name": "Machi Koro",
       "winner": "Hannah",
       "coOp": "No"
+    },
+    {
+      "date": "2018-01-29",
+      "name": "Codenames",
+      "coOp": "Yes",
+      "coOpOutcome": "Won",
+      "note": "2 player"
+    },
+    {
+      "date": "2018-01-29",
+      "name": "Codenames",
+      "coOp": "Yes",
+      "coOpOutcome": "Won",
+      "note": "2 player"
     },
     {
       "date": "2018-01-30",
@@ -346,17 +346,17 @@
     {
       "date": "2018-01-29",
       "games": [
+        "Machi Koro",
         "Codenames",
-        "Codenames",
-        "Machi Koro"
+        "Codenames"
       ]
     },
     {
       "date": "2018-01-06",
       "games": [
-        "Ticket to Ride",
         "Ticket to Ride Map Collection: Volume 6 – France & Old West",
-        "Heart of Crown"
+        "Heart of Crown",
+        "Ticket to Ride"
       ]
     }
   ],

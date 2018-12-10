@@ -22,6 +22,17 @@
         "date": "2018-03-12",
         "winner": "John",
         "coOp": "No"
+      },
+      {
+        "date": "2018-12-08",
+        "winner": "Other",
+        "coOp": "No",
+        "notes": "6 player"
+      },
+      {
+        "date": "2018-12-10",
+        "winner": "John",
+        "coOp": "No"
       }
     ]
   },
@@ -1850,6 +1861,11 @@
         "date": "2018-11-29",
         "winner": "Hannah",
         "coOp": "No"
+      },
+      {
+        "date": "2018-12-01",
+        "winner": "John",
+        "coOp": "No"
       }
     ]
   },
@@ -2887,6 +2903,11 @@
         "date": "2018-09-07",
         "winner": "Hannah",
         "coOp": "No"
+      },
+      {
+        "date": "2018-12-07",
+        "winner": "Hannah",
+        "coOp": "No"
       }
     ]
   },
@@ -2899,6 +2920,11 @@
       {
         "date": "2018-11-04",
         "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-12-06",
+        "winner": "Draw",
         "coOp": "No"
       }
     ]
@@ -3103,6 +3129,11 @@
         "date": "2018-10-25",
         "winner": "Hannah",
         "coOp": "No"
+      },
+      {
+        "date": "2018-12-02",
+        "winner": "Draw",
+        "coOp": "No"
       }
     ]
   },
@@ -3210,6 +3241,11 @@
       },
       {
         "date": "2018-11-23",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-11-30",
         "winner": "Hannah",
         "coOp": "No"
       }
@@ -3432,6 +3468,11 @@
       },
       {
         "date": "2018-10-10",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2018-12-04",
         "winner": "John",
         "coOp": "No"
       }
@@ -3760,5 +3801,37 @@
       }
     ],
     "name": "Sherlock Holmes Consulting Detective"
+  },
+  "carcassonne": {
+    "boardGameApiId": "carcassonne",
+    "playRecords": [
+      {
+        "date": "2018-12-03",
+        "coOp": "Yes"
+      }
+    ],
+    "name": "Carcassonne"
+  },
+  "the-castles-of-burghundy": {
+    "boardGameApiId": "the-castles-of-burghundy",
+    "playRecords": [
+      {
+        "date": "2018-12-05",
+        "winner": "John",
+        "coOp": "No"
+      }
+    ],
+    "name": "The Castles of Burghundy"
+  },
+  "pandemic-fall-of-rome": {
+    "boardGameApiId": "pandemic-fall-of-rome",
+    "playRecords": [
+      {
+        "date": "2018-12-09",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes"
+      }
+    ],
+    "name": "Pandemic: Fall of Rome"
   }
 }

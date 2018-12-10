@@ -8,9 +8,20 @@
       "date": "2018-03-12",
       "winner": "John",
       "coOp": "No"
+    },
+    {
+      "date": "2018-12-08",
+      "winner": "Other",
+      "coOp": "No",
+      "notes": "6 player"
+    },
+    {
+      "date": "2018-12-10",
+      "winner": "John",
+      "coOp": "No"
     }
   ],
-  "totalGamesPlayed": 1,
+  "totalGamesPlayed": 3,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
@@ -18,13 +29,13 @@
   "coOpWinRate": 0,
   "coOpLossRate": 0,
   "winCountHannah": 0,
-  "winCountJohn": 1,
-  "winCountOther": 0,
+  "winCountJohn": 2,
+  "winCountOther": 1,
   "winCountDraw": 0,
-  "winnableGamesTotal": 1,
+  "winnableGamesTotal": 3,
   "winRateHannah": 0,
-  "winRateJohn": 1,
-  "winRateOther": 0,
+  "winRateJohn": 0.6667,
+  "winRateOther": 0.3333,
   "winRateDraw": 0,
   "mostWonGames": "John"
 }
