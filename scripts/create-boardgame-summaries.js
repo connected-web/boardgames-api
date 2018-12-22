@@ -120,6 +120,7 @@ async function start () {
     })
 
     result.uniqueGamesPlayed = [...new Set(games.map(g => g.name))].sort()
+    result.uniqueGamesPlayedCount = result.uniqueGamesPlayed.length
 
     result.totalGamesPlayed = games.length
     result.averageGamesPlayedPerDay = fmn(result.totalGamesPlayed / daysInSequence)

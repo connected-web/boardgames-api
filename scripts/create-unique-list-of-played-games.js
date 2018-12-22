@@ -1,4 +1,4 @@
-const { position, write } = require('promise-path')
+const { position } = require('promise-path')
 const writeFile = require('./util/writeFile')
 const datapath = position(__dirname, '../data')
 const report = (...messages) => console.log('[Create Unique List of Played Games]', ...messages)
