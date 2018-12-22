@@ -1,8 +1,10 @@
 const { position, clean } = require('promise-path')
 const writeFile = require('./util/writeFile')
+const readJson = require('./util/readJson')
 const convertGSheetsDate = require('./util/convertGSheetsDate')
 const reduceNameToBoardGameApiId = require('./util/reduceNameToBoardGameApiId')
 const datapath = position(__dirname, '../data')
+const bggGamePath = position(__dirname, '../boardgames')
 const report = (...messages) => console.log('[Create Board Game Index]', ...messages)
 
 const expectedProperties = ['date', 'game', 'winner', 'coOpOutcome', 'coOp', 'notes', 'mechanics']
@@ -64,10 +66,11 @@ async function start () {
   await clean(datapath('/index'))
   await writeFile('Board Game API IDs', 'boardgame-api-ids.json', {boardGameApiIds}, report)
 
-  await Promise.all(Object.entries(boardGameIndex).map(kvp => {
+  await Promise.all(Object.entries(boardGameIndex).map(async kvp => {
     const boardGameApiId = kvp[0]
     const entry = kvp[1]
     let revisedEntry = performFurtherAnalysis(entry)
+    revisedEntry = await addBGGData(revisedEntry)
     return writeFile(entry.name, `index/${boardGameApiId}.json`, revisedEntry)
   }))
 
@@ -101,6 +104,25 @@ function performFurtherAnalysis (entry) {
   result.winRateDraw = fmn(result.winCountDraw / result.winnableGamesTotal)
   result.mostWonGames = result.winCountHannah > result.winCountJohn ? 'Hannah' : 'John'
   result.mostWonGames = result.winCountHannah === result.winCountJohn ? 'Draw' : result.mostWonGames
+
+  return result
+}
+
+async function addBGGData (entry) {
+  const result = clone(entry)
+  const bggId = entry.boardGameGeekGameId
+  if (!bggId) {
+    report(entry, 'has no Board Game Geek Game Id', bggId)
+    return result
+  }
+
+  try {
+    const bggGameData = await readJson(bggGamePath(`boardgame-${bggId}.json`))
+    const bggGameEntry = bggGameData.items[0].item[0]
+    result.description = entry.description || bggGameEntry.description[0]._text[0].split('&#10;').filter(n => n)
+  } catch (ex) {
+    report('No description found for board game geek entry', `boardgame-${bggId}.json`, ex)
+  }
 
   return result
 }
