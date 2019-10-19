@@ -143,12 +143,6 @@
     {
       "date": "2018-11-15",
       "name": "Salem",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-11-15",
-      "name": "Salem",
       "coOp": "Yes",
       "coOpOutcome": "Win"
     },
@@ -156,6 +150,12 @@
       "date": "2018-11-15",
       "name": "Topiary",
       "winner": "Other",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-11-15",
+      "name": "Salem",
+      "winner": "John",
       "coOp": "No"
     },
     {
@@ -191,19 +191,19 @@
     {
       "date": "2018-11-21",
       "name": "Werewolf",
-      "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-11-21",
-      "name": "Werewolf",
+      "winner": "Other",
       "coOp": "Yes",
       "coOpOutcome": "Lost"
     },
     {
       "date": "2018-11-21",
       "name": "Werewolf",
-      "winner": "Other",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-11-21",
+      "name": "Werewolf",
       "coOp": "Yes",
       "coOpOutcome": "Lost"
     },
@@ -215,19 +215,13 @@
     },
     {
       "date": "2018-11-23",
-      "name": "Machi Koro",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-11-23",
       "name": "Ticket to Ride: New York",
       "winner": "Hannah",
       "coOp": "No"
     },
     {
-      "date": "2018-11-24",
-      "name": "Dominion: Seaside",
+      "date": "2018-11-23",
+      "name": "Machi Koro",
       "winner": "John",
       "coOp": "No"
     },
@@ -238,14 +232,20 @@
       "coOp": "No"
     },
     {
+      "date": "2018-11-24",
+      "name": "Dominion: Seaside",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
       "date": "2018-11-25",
-      "name": "Pandemic: On the Brink",
+      "name": "Sherlock Holmes Consulting Detective",
       "coOp": "Yes",
       "coOpOutcome": "Lost"
     },
     {
       "date": "2018-11-25",
-      "name": "Sherlock Holmes Consulting Detective",
+      "name": "Pandemic: On the Brink",
       "coOp": "Yes",
       "coOpOutcome": "Lost"
     },
@@ -330,8 +330,8 @@
       "date": "2018-11-15",
       "games": [
         "Salem",
-        "Salem",
-        "Topiary"
+        "Topiary",
+        "Salem"
       ]
     }
   ],

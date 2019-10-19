@@ -41,13 +41,13 @@
     {
       "date": "2018-09-01",
       "name": "Coup",
-      "winner": "John",
+      "winner": "Hannah",
       "coOp": "No"
     },
     {
       "date": "2018-09-01",
       "name": "Coup",
-      "winner": "Hannah",
+      "winner": "John",
       "coOp": "No"
     },
     {
@@ -115,13 +115,13 @@
     },
     {
       "date": "2018-09-09",
-      "name": "Yam Yam",
+      "name": "Castles of Mad King Ludwig",
       "winner": "Hannah",
       "coOp": "No"
     },
     {
       "date": "2018-09-09",
-      "name": "Castles of Mad King Ludwig",
+      "name": "Yam Yam",
       "winner": "Hannah",
       "coOp": "No"
     },
@@ -151,6 +151,19 @@
     },
     {
       "date": "2018-09-14",
+      "name": "Yam Yam",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-09-14",
+      "name": "Skull",
+      "winner": "Other",
+      "coOp": "No",
+      "note": "4-player"
+    },
+    {
+      "date": "2018-09-14",
       "name": "Space Base",
       "winner": "Hannah",
       "coOp": "No",
@@ -159,19 +172,6 @@
     {
       "date": "2018-09-14",
       "name": "Exploding Kittens",
-      "winner": "Other",
-      "coOp": "No",
-      "note": "4-player"
-    },
-    {
-      "date": "2018-09-14",
-      "name": "Yam Yam",
-      "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-09-14",
-      "name": "Skull",
       "winner": "Other",
       "coOp": "No",
       "note": "4-player"
@@ -222,16 +222,16 @@
     },
     {
       "date": "2018-09-22",
-      "name": "Kanagawa",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-09-22",
       "name": "Arkham Horror: The Card Game – Curse of the Rougarou: Scenario Pack",
       "coOp": "Yes",
       "coOpOutcome": "lost",
       "note": "Curse of the Rougarou"
+    },
+    {
+      "date": "2018-09-22",
+      "name": "Kanagawa",
+      "winner": "John",
+      "coOp": "No"
     },
     {
       "date": "2018-09-23",
@@ -323,10 +323,10 @@
     {
       "date": "2018-09-14",
       "games": [
-        "Space Base",
-        "Skull",
+        "Yam Yam",
         "Exploding Kittens",
-        "Yam Yam"
+        "Skull",
+        "Space Base"
       ]
     }
   ],

@@ -34,7 +34,7 @@ async function start () {
         winner: record.winner,
         coOp: record.coOp,
         coOpOutcome: record.coOpOutcome,
-        note: record.notes
+        note: record.notes + ''
       }
       feed.push(feedItem)
     })

@@ -2,16 +2,16 @@
   "feed": [
     {
       "date": "2018-01-01",
+      "name": "Machi Koro",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-01-01",
       "name": "Harry Potter: Hogwarts Battle",
       "coOp": "Yes",
       "coOpOutcome": "Won",
       "note": "Game 1"
-    },
-    {
-      "date": "2018-01-01",
-      "name": "Machi Koro",
-      "winner": "John",
-      "coOp": "No"
     },
     {
       "date": "2018-01-02",
@@ -45,14 +45,14 @@
     },
     {
       "date": "2018-01-06",
-      "name": "Heart of Crown",
-      "winner": "Hannah",
+      "name": "Ticket to Ride",
+      "winner": "John",
       "coOp": "No"
     },
     {
       "date": "2018-01-06",
-      "name": "Ticket to Ride",
-      "winner": "John",
+      "name": "Heart of Crown",
+      "winner": "Hannah",
       "coOp": "No"
     },
     {
@@ -111,14 +111,14 @@
       "name": "Harry Potter: Hogwarts Battle",
       "coOp": "Yes",
       "coOpOutcome": "Won",
-      "note": "Game 3"
+      "note": "Game 2"
     },
     {
       "date": "2018-01-14",
       "name": "Harry Potter: Hogwarts Battle",
       "coOp": "Yes",
       "coOpOutcome": "Won",
-      "note": "Game 2"
+      "note": "Game 3"
     },
     {
       "date": "2018-01-15",
@@ -174,16 +174,16 @@
     },
     {
       "date": "2018-01-22",
+      "name": "The Castles of Burgundy",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-01-22",
       "name": "Dinosaur Island",
       "winner": "Hannah",
       "coOp": "No",
       "note": "At Wharf. 3 player."
-    },
-    {
-      "date": "2018-01-22",
-      "name": "The Castles of Burgundy",
-      "winner": "John",
-      "coOp": "No"
     },
     {
       "date": "2018-01-23",
@@ -200,16 +200,16 @@
     },
     {
       "date": "2018-01-25",
+      "name": "Codenames",
+      "coOp": "Yes",
+      "note": "3 player"
+    },
+    {
+      "date": "2018-01-25",
       "name": "Harry Potter: Hogwarts Battle",
       "coOp": "Yes",
       "coOpOutcome": "Won",
       "note": "Game 6"
-    },
-    {
-      "date": "2018-01-25",
-      "name": "Codenames",
-      "coOp": "Yes",
-      "note": "3 player"
     },
     {
       "date": "2018-01-26",
@@ -260,16 +260,16 @@
     },
     {
       "date": "2018-01-31",
+      "name": "Carcassonne: The River",
+      "coOp": "Yes",
+      "note": "Score: 295"
+    },
+    {
+      "date": "2018-01-31",
       "name": "Harry Potter: Hogwarts Battle – The Monster Box of Monsters Expansion",
       "coOp": "Yes",
       "coOpOutcome": "Lost",
       "note": "Box 1"
-    },
-    {
-      "date": "2018-01-31",
-      "name": "Carcassonne: The River",
-      "coOp": "Yes",
-      "note": "Score: 295"
     },
     {
       "date": "2018-02-01",
@@ -297,6 +297,12 @@
     },
     {
       "date": "2018-02-05",
+      "name": "Love Letter: Batman",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-02-05",
       "name": "Deep Sea Adventure",
       "winner": "Hannah",
       "coOp": "No",
@@ -306,12 +312,6 @@
       "date": "2018-02-05",
       "name": "Heart of Crown",
       "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-02-05",
-      "name": "Love Letter: Batman",
-      "winner": "John",
       "coOp": "No"
     },
     {
@@ -422,28 +422,28 @@
     },
     {
       "date": "2018-02-18",
-      "name": "Pandemic: Rising Tide",
-      "coOp": "Yes",
-      "coOpOutcome": "Won"
-    },
-    {
-      "date": "2018-02-18",
       "name": "Unicornus Knights",
       "coOp": "Yes",
       "coOpOutcome": "Won",
       "note": "Tutorial game"
     },
     {
-      "date": "2018-02-19",
-      "name": "Love Letter",
-      "winner": "John",
-      "coOp": "No"
+      "date": "2018-02-18",
+      "name": "Pandemic: Rising Tide",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
     },
     {
       "date": "2018-02-19",
       "name": "Flash Point: Fire Rescue",
       "coOp": "Yes",
       "coOpOutcome": "Lost"
+    },
+    {
+      "date": "2018-02-19",
+      "name": "Love Letter",
+      "winner": "John",
+      "coOp": "No"
     },
     {
       "date": "2018-02-20",
@@ -472,14 +472,14 @@
     },
     {
       "date": "2018-02-23",
-      "name": "Dominion (Second Edition)",
-      "winner": "Hannah",
+      "name": "Tortuga 1667",
+      "winner": "John",
       "coOp": "No"
     },
     {
       "date": "2018-02-23",
-      "name": "Tortuga 1667",
-      "winner": "John",
+      "name": "Dominion (Second Edition)",
+      "winner": "Hannah",
       "coOp": "No"
     },
     {
@@ -490,15 +490,33 @@
     },
     {
       "date": "2018-02-25",
+      "name": "Dominion (Second Edition)",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-02-25",
       "name": "Betrayal at House on the Hill",
       "coOp": "Yes",
       "coOpOutcome": "Heroes lost",
       "note": "John was betrayer"
     },
     {
-      "date": "2018-02-25",
-      "name": "Dominion (Second Edition)",
+      "date": "2018-02-26",
+      "name": "Love Letter",
       "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-02-26",
+      "name": "Machi Koro",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-02-26",
+      "name": "Machi Koro",
+      "winner": "Other",
       "coOp": "No"
     },
     {
@@ -516,24 +534,6 @@
     {
       "date": "2018-02-26",
       "name": "Love Letter",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-02-26",
-      "name": "Love Letter",
-      "winner": "Other",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-02-26",
-      "name": "Machi Koro",
-      "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-02-26",
-      "name": "Machi Koro",
       "winner": "Other",
       "coOp": "No"
     },
@@ -611,15 +611,15 @@
     },
     {
       "date": "2018-03-05",
-      "name": "Lovecraft Letter",
-      "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-03-05",
       "name": "Codenames",
       "coOp": "Yes",
       "coOpOutcome": "Won"
+    },
+    {
+      "date": "2018-03-05",
+      "name": "Lovecraft Letter",
+      "winner": "Hannah",
+      "coOp": "No"
     },
     {
       "date": "2018-03-06",
@@ -629,13 +629,13 @@
     },
     {
       "date": "2018-03-07",
-      "name": "Dominion (Second Edition)",
+      "name": "Sushi Go!",
       "winner": "John",
       "coOp": "No"
     },
     {
       "date": "2018-03-07",
-      "name": "Sushi Go!",
+      "name": "Dominion (Second Edition)",
       "winner": "John",
       "coOp": "No"
     },
@@ -669,14 +669,14 @@
       "name": "Arkham Horror: The Card Game",
       "coOp": "Yes",
       "coOpOutcome": "Won",
-      "note": "Night of the Zealot: Part 3"
+      "note": "Night of the Zealot: Part 1"
     },
     {
       "date": "2018-03-10",
       "name": "Arkham Horror: The Card Game",
       "coOp": "Yes",
       "coOpOutcome": "Won",
-      "note": "Night of the Zealot: Part 1"
+      "note": "Night of the Zealot: Part 3"
     },
     {
       "date": "2018-03-11",
@@ -716,14 +716,14 @@
     },
     {
       "date": "2018-03-17",
-      "name": "Ticket to Ride: USA 1910",
-      "winner": "John",
+      "name": "Ticket to Ride Map Collection: Volume 3 – The Heart of Africa",
+      "winner": "Hannah",
       "coOp": "No"
     },
     {
       "date": "2018-03-17",
-      "name": "Ticket to Ride Map Collection: Volume 3 – The Heart of Africa",
-      "winner": "Hannah",
+      "name": "Ticket to Ride: USA 1910",
+      "winner": "John",
       "coOp": "No"
     },
     {
@@ -735,13 +735,13 @@
     {
       "date": "2018-03-19",
       "name": "Love Letter",
-      "winner": "John",
+      "winner": "Hannah",
       "coOp": "No"
     },
     {
       "date": "2018-03-19",
       "name": "Love Letter",
-      "winner": "Hannah",
+      "winner": "John",
       "coOp": "No"
     },
     {
@@ -753,13 +753,13 @@
     {
       "date": "2018-03-20",
       "name": "Archer: Once You Go Blackmail...",
-      "winner": "John",
+      "winner": "Hannah",
       "coOp": "No"
     },
     {
       "date": "2018-03-20",
       "name": "Archer: Once You Go Blackmail...",
-      "winner": "Hannah",
+      "winner": "John",
       "coOp": "No"
     },
     {
@@ -840,13 +840,13 @@
     },
     {
       "date": "2018-03-31",
-      "name": "Ticket to Ride: Rails & Sails",
+      "name": "Tanto Cuore",
       "winner": "Hannah",
       "coOp": "No"
     },
     {
       "date": "2018-03-31",
-      "name": "Tanto Cuore",
+      "name": "Ticket to Ride: Rails & Sails",
       "winner": "Hannah",
       "coOp": "No"
     },
@@ -855,6 +855,12 @@
       "name": "Sherlock Holmes Consulting Detective: The Thames Murders & Other Cases",
       "coOp": "Yes",
       "coOpOutcome": "Win"
+    },
+    {
+      "date": "2018-04-02",
+      "name": "Dominion: Intrigue (Second Edition)",
+      "winner": "Hannah",
+      "coOp": "No"
     },
     {
       "date": "2018-04-02",
@@ -868,12 +874,6 @@
       "coOp": "Yes",
       "coOpOutcome": "Win",
       "note": "Scenario 1"
-    },
-    {
-      "date": "2018-04-02",
-      "name": "Dominion: Intrigue (Second Edition)",
-      "winner": "Hannah",
-      "coOp": "No"
     },
     {
       "date": "2018-04-03",
@@ -895,19 +895,19 @@
     },
     {
       "date": "2018-04-05",
-      "name": "Marrying Mr. Darcy",
-      "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-04-05",
       "name": "Coup",
       "winner": "John",
       "coOp": "No"
     },
     {
+      "date": "2018-04-05",
+      "name": "Marrying Mr. Darcy",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
       "date": "2018-04-06",
-      "name": "Codenames Duet",
+      "name": "Codenames: Duet",
       "coOp": "Yes",
       "coOpOutcome": "Lost"
     },
@@ -957,6 +957,12 @@
     },
     {
       "date": "2018-04-14",
+      "name": "Citadels",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-04-14",
       "name": "Secret Hitler",
       "winner": "Hannah",
       "coOp": "Yes",
@@ -964,9 +970,9 @@
       "note": "6 player at Fanfest"
     },
     {
-      "date": "2018-04-14",
-      "name": "Citadels",
-      "winner": "John",
+      "date": "2018-04-15",
+      "name": "Lovecraft Letter",
+      "winner": "Hannah",
       "coOp": "No"
     },
     {
@@ -974,12 +980,6 @@
       "name": "Cards Against Humanity: EVE Edition",
       "coOp": "No",
       "note": "6 player at Fanfest"
-    },
-    {
-      "date": "2018-04-15",
-      "name": "Lovecraft Letter",
-      "winner": "Hannah",
-      "coOp": "No"
     },
     {
       "date": "2018-04-16",
@@ -996,15 +996,15 @@
     },
     {
       "date": "2018-04-18",
-      "name": "Claim",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-04-18",
       "name": "Codenames",
       "coOp": "Yes",
       "coOpOutcome": "Win"
+    },
+    {
+      "date": "2018-04-18",
+      "name": "Claim",
+      "winner": "John",
+      "coOp": "No"
     },
     {
       "date": "2018-04-18",
@@ -1080,6 +1080,12 @@
     },
     {
       "date": "2018-04-28",
+      "name": "Tanto Cuore",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-04-28",
       "name": "Azul",
       "winner": "John",
       "coOp": "No"
@@ -1089,18 +1095,6 @@
       "name": "Azul",
       "winner": "Hannah",
       "coOp": "No"
-    },
-    {
-      "date": "2018-04-28",
-      "name": "Tanto Cuore",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-04-29",
-      "name": "T.I.M.E Stories",
-      "coOp": "Yes",
-      "coOpOutcome": "Lost"
     },
     {
       "date": "2018-04-29",
@@ -1113,6 +1107,12 @@
       "name": "T.I.M.E Stories",
       "coOp": "Yes",
       "coOpOutcome": "Win"
+    },
+    {
+      "date": "2018-04-29",
+      "name": "T.I.M.E Stories",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
     },
     {
       "date": "2018-04-30",
@@ -1147,23 +1147,23 @@
     },
     {
       "date": "2018-05-05",
-      "name": "T.I.M.E Stories: The Marcy Case",
-      "coOp": "Yes",
-      "coOpOutcome": "Lost",
-      "note": "Marcy case"
-    },
-    {
-      "date": "2018-05-05",
-      "name": "T.I.M.E Stories: The Marcy Case",
-      "coOp": "Yes",
-      "coOpOutcome": "Lost",
-      "note": "Marcy case"
-    },
-    {
-      "date": "2018-05-05",
       "name": "Archer: Once You Go Blackmail...",
       "winner": "John",
       "coOp": "No"
+    },
+    {
+      "date": "2018-05-05",
+      "name": "T.I.M.E Stories: The Marcy Case",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost",
+      "note": "Marcy case"
+    },
+    {
+      "date": "2018-05-05",
+      "name": "T.I.M.E Stories: The Marcy Case",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost",
+      "note": "Marcy case"
     },
     {
       "date": "2018-05-06",
@@ -1174,16 +1174,16 @@
     },
     {
       "date": "2018-05-07",
+      "name": "Machi Koro",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-05-07",
       "name": "Ticket to Ride Map Collection: Volume 2 – India & Switzerland",
       "winner": "John",
       "coOp": "No",
       "note": "Switzerland"
-    },
-    {
-      "date": "2018-05-07",
-      "name": "Machi Koro",
-      "winner": "John",
-      "coOp": "No"
     },
     {
       "date": "2018-05-08",
@@ -1193,14 +1193,14 @@
     },
     {
       "date": "2018-05-09",
-      "name": "Ticket to Ride: Europe",
-      "winner": "John",
+      "name": "Bad Beets",
+      "winner": "Draw",
       "coOp": "No"
     },
     {
       "date": "2018-05-09",
-      "name": "Bad Beets",
-      "winner": "Draw",
+      "name": "Ticket to Ride: Europe",
+      "winner": "John",
       "coOp": "No"
     },
     {
@@ -1279,12 +1279,6 @@
     },
     {
       "date": "2018-05-21",
-      "name": "T.I.M.E Stories: A Prophecy of Dragons",
-      "coOp": "Yes",
-      "coOpOutcome": "Won"
-    },
-    {
-      "date": "2018-05-21",
       "name": "Carcassonne Big Box 6",
       "coOp": "Yes",
       "coOpOutcome": "Won",
@@ -1295,6 +1289,12 @@
       "name": "Azul",
       "winner": "John",
       "coOp": "No"
+    },
+    {
+      "date": "2018-05-21",
+      "name": "T.I.M.E Stories: A Prophecy of Dragons",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
     },
     {
       "date": "2018-05-22",
@@ -1329,8 +1329,22 @@
     },
     {
       "date": "2018-05-26",
-      "name": "Coup: Reformation",
+      "name": "Lovecraft Letter",
+      "winner": "Hannah",
+      "coOp": "No",
+      "note": "Boardgames party"
+    },
+    {
+      "date": "2018-05-26",
+      "name": "Dinosaur Island",
       "winner": "Other",
+      "coOp": "No",
+      "note": "Boardgames party"
+    },
+    {
+      "date": "2018-05-26",
+      "name": "Coup: Reformation",
+      "winner": "Hannah",
       "coOp": "No",
       "note": "Boardgames party"
     },
@@ -1343,21 +1357,7 @@
     },
     {
       "date": "2018-05-26",
-      "name": "Lovecraft Letter",
-      "winner": "Hannah",
-      "coOp": "No",
-      "note": "Boardgames party"
-    },
-    {
-      "date": "2018-05-26",
       "name": "Coup: Reformation",
-      "winner": "Hannah",
-      "coOp": "No",
-      "note": "Boardgames party"
-    },
-    {
-      "date": "2018-05-26",
-      "name": "Dinosaur Island",
       "winner": "Other",
       "coOp": "No",
       "note": "Boardgames party"
@@ -1394,21 +1394,21 @@
     },
     {
       "date": "2018-05-31",
-      "name": "Codenames Duet",
+      "name": "Codenames: Duet",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
+    },
+    {
+      "date": "2018-05-31",
+      "name": "Codenames: Duet",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
+    },
+    {
+      "date": "2018-05-31",
+      "name": "Codenames: Duet",
       "coOp": "Yes",
       "coOpOutcome": "Won"
-    },
-    {
-      "date": "2018-05-31",
-      "name": "Codenames Duet",
-      "coOp": "Yes",
-      "coOpOutcome": "Lost"
-    },
-    {
-      "date": "2018-05-31",
-      "name": "Codenames Duet",
-      "coOp": "Yes",
-      "coOpOutcome": "Lost"
     },
     {
       "date": "2018-06-01",
@@ -1425,25 +1425,6 @@
     },
     {
       "date": "2018-06-02",
-      "name": "Jurassic Snack",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-06-02",
-      "name": "Ticket to Ride: New York",
-      "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-06-02",
-      "name": "Shadows Amsterdam",
-      "coOp": "Yes",
-      "coOpOutcome": "Lost",
-      "note": "5P"
-    },
-    {
-      "date": "2018-06-02",
       "name": "Shadows Amsterdam",
       "coOp": "Yes",
       "coOpOutcome": "Lost",
@@ -1458,16 +1439,35 @@
     },
     {
       "date": "2018-06-02",
+      "name": "Shadows Amsterdam",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost",
+      "note": "5P"
+    },
+    {
+      "date": "2018-06-02",
       "name": "Dominion (Second Edition)",
       "winner": "Hannah",
       "coOp": "No",
       "note": "Base game"
     },
     {
-      "date": "2018-06-03",
-      "name": "Heroica: Fortaan",
+      "date": "2018-06-02",
+      "name": "Jurassic Snack",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-06-02",
+      "name": "Ticket to Ride: New York",
       "winner": "Hannah",
       "coOp": "No"
+    },
+    {
+      "date": "2018-06-03",
+      "name": "Fog of Love",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
     },
     {
       "date": "2018-06-03",
@@ -1483,13 +1483,7 @@
     },
     {
       "date": "2018-06-03",
-      "name": "Fog of Love",
-      "coOp": "Yes",
-      "coOpOutcome": "Won"
-    },
-    {
-      "date": "2018-06-04",
-      "name": "HATSUDEN",
+      "name": "Heroica: Fortaan",
       "winner": "Hannah",
       "coOp": "No"
     },
@@ -1497,6 +1491,12 @@
       "date": "2018-06-04",
       "name": "HATSUDEN",
       "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-06-04",
+      "name": "HATSUDEN",
+      "winner": "Hannah",
       "coOp": "No"
     },
     {
@@ -1525,15 +1525,15 @@
     },
     {
       "date": "2018-06-09",
-      "name": "Carcassonne Big Box 6",
-      "coOp": "Yes",
-      "coOpOutcome": "Won"
-    },
-    {
-      "date": "2018-06-09",
       "name": "The Castles of Burgundy",
       "winner": "John",
       "coOp": "No"
+    },
+    {
+      "date": "2018-06-09",
+      "name": "Carcassonne Big Box 6",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
     },
     {
       "date": "2018-06-10",
@@ -1627,19 +1627,19 @@
     },
     {
       "date": "2018-06-23",
-      "name": "Space Base",
-      "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-06-23",
       "name": "Pandemic: On the Brink",
       "coOp": "Yes",
       "coOpOutcome": "Won"
     },
     {
+      "date": "2018-06-23",
+      "name": "Space Base",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
       "date": "2018-06-24",
-      "name": "Valeria: Card Kingdoms",
+      "name": "Ticket to Ride: Europe",
       "winner": "Hannah",
       "coOp": "No"
     },
@@ -1651,7 +1651,7 @@
     },
     {
       "date": "2018-06-24",
-      "name": "Ticket to Ride: Europe",
+      "name": "Valeria: Card Kingdoms",
       "winner": "Hannah",
       "coOp": "No"
     },
@@ -1754,13 +1754,13 @@
       "date": "2018-07-08",
       "name": "Pandemic Legacy: Season 1",
       "coOp": "Yes",
-      "coOpOutcome": "Win"
+      "coOpOutcome": "Lose"
     },
     {
       "date": "2018-07-08",
       "name": "Pandemic Legacy: Season 1",
       "coOp": "Yes",
-      "coOpOutcome": "Lose"
+      "coOpOutcome": "Win"
     },
     {
       "date": "2018-07-09",
@@ -1834,14 +1834,14 @@
     },
     {
       "date": "2018-07-21",
-      "name": "BioShock Infinite: The Siege of Columbia",
-      "winner": "Draw",
+      "name": "Twilight Struggle",
+      "winner": "Hannah",
       "coOp": "No"
     },
     {
       "date": "2018-07-21",
-      "name": "Twilight Struggle",
-      "winner": "Hannah",
+      "name": "BioShock Infinite: The Siege of Columbia",
+      "winner": "Draw",
       "coOp": "No"
     },
     {
@@ -1938,32 +1938,32 @@
     },
     {
       "date": "2018-08-05",
+      "name": "The Pyramid's Deadline",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-08-05",
       "name": "Coup",
       "winner": "John",
       "coOp": "No"
     },
     {
       "date": "2018-08-05",
+      "name": "Love Letter",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-08-05",
+      "name": "Love Letter",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-08-05",
       "name": "Love Letter Nordic",
       "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-08-05",
-      "name": "Love Letter",
-      "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-08-05",
-      "name": "Love Letter",
-      "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-08-05",
-      "name": "The Pyramid's Deadline",
-      "winner": "John",
       "coOp": "No"
     },
     {
@@ -2048,6 +2048,18 @@
     },
     {
       "date": "2018-08-18",
+      "name": "Pandemic: The Cure",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2018-08-18",
+      "name": "Tortuga 1667",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-08-18",
       "name": "Troika",
       "winner": "Draw",
       "coOp": "No"
@@ -2065,18 +2077,6 @@
       "coOp": "No"
     },
     {
-      "date": "2018-08-18",
-      "name": "Pandemic: The Cure",
-      "coOp": "Yes",
-      "coOpOutcome": "Won"
-    },
-    {
-      "date": "2018-08-18",
-      "name": "Tortuga 1667",
-      "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
       "date": "2018-08-19",
       "name": "Ticket to Ride: New York",
       "winner": "Hannah",
@@ -2090,15 +2090,15 @@
     },
     {
       "date": "2018-08-21",
-      "name": "Lords of Vegas",
-      "winner": "Hannah",
+      "name": "Topiary",
+      "winner": "John",
       "coOp": "No",
       "note": "4 player"
     },
     {
       "date": "2018-08-21",
-      "name": "Topiary",
-      "winner": "John",
+      "name": "Lords of Vegas",
+      "winner": "Hannah",
       "coOp": "No",
       "note": "4 player"
     },
@@ -2123,6 +2123,13 @@
     },
     {
       "date": "2018-08-24",
+      "name": "Troika",
+      "winner": "John",
+      "coOp": "No",
+      "note": "3 player"
+    },
+    {
+      "date": "2018-08-24",
       "name": "Exploding Kittens",
       "winner": "Other",
       "coOp": "No",
@@ -2132,13 +2139,6 @@
       "date": "2018-08-24",
       "name": "Lovecraft Letter",
       "winner": "Other",
-      "coOp": "No",
-      "note": "3 player"
-    },
-    {
-      "date": "2018-08-24",
-      "name": "Troika",
-      "winner": "John",
       "coOp": "No",
       "note": "3 player"
     },
@@ -2172,14 +2172,14 @@
       "name": "Codenames",
       "coOp": "Yes",
       "coOpOutcome": "Won",
-      "note": "John=spymaster"
+      "note": "Hannah-spymaster"
     },
     {
       "date": "2018-08-29",
       "name": "Codenames",
       "coOp": "Yes",
       "coOpOutcome": "Won",
-      "note": "Hannah-spymaster"
+      "note": "John=spymaster"
     },
     {
       "date": "2018-08-30",
@@ -2196,13 +2196,13 @@
     {
       "date": "2018-09-01",
       "name": "Coup",
-      "winner": "John",
+      "winner": "Hannah",
       "coOp": "No"
     },
     {
       "date": "2018-09-01",
       "name": "Coup",
-      "winner": "Hannah",
+      "winner": "John",
       "coOp": "No"
     },
     {
@@ -2264,7 +2264,7 @@
     },
     {
       "date": "2018-09-09",
-      "name": "Castles of Mad King Ludwig",
+      "name": "Yam Yam",
       "winner": "Hannah",
       "coOp": "No"
     },
@@ -2276,7 +2276,7 @@
     },
     {
       "date": "2018-09-09",
-      "name": "Yam Yam",
+      "name": "Castles of Mad King Ludwig",
       "winner": "Hannah",
       "coOp": "No"
     },
@@ -2306,8 +2306,14 @@
     },
     {
       "date": "2018-09-14",
-      "name": "Space Base",
+      "name": "Yam Yam",
       "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-09-14",
+      "name": "Exploding Kittens",
+      "winner": "Other",
       "coOp": "No",
       "note": "4-player"
     },
@@ -2320,16 +2326,10 @@
     },
     {
       "date": "2018-09-14",
-      "name": "Exploding Kittens",
-      "winner": "Other",
+      "name": "Space Base",
+      "winner": "Hannah",
       "coOp": "No",
       "note": "4-player"
-    },
-    {
-      "date": "2018-09-14",
-      "name": "Yam Yam",
-      "winner": "Hannah",
-      "coOp": "No"
     },
     {
       "date": "2018-09-15",
@@ -2377,16 +2377,16 @@
     },
     {
       "date": "2018-09-22",
-      "name": "Kanagawa",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-09-22",
       "name": "Arkham Horror: The Card Game – Curse of the Rougarou: Scenario Pack",
       "coOp": "Yes",
       "coOpOutcome": "lost",
       "note": "Curse of the Rougarou"
+    },
+    {
+      "date": "2018-09-22",
+      "name": "Kanagawa",
+      "winner": "John",
+      "coOp": "No"
     },
     {
       "date": "2018-09-23",
@@ -2551,15 +2551,15 @@
     {
       "date": "2018-10-17",
       "name": "Werewolf",
-      "coOp": "No",
-      "note": "20 player"
+      "coOp": "Yes",
+      "coOpOutcome": "Won",
+      "note": "19 player"
     },
     {
       "date": "2018-10-17",
       "name": "Werewolf",
-      "coOp": "Yes",
-      "coOpOutcome": "Won",
-      "note": "19 player"
+      "coOp": "No",
+      "note": "20 player"
     },
     {
       "date": "2018-10-18",
@@ -2597,13 +2597,13 @@
       "date": "2018-10-22",
       "name": "Codenames",
       "coOp": "Yes",
-      "coOpOutcome": "Lost"
+      "coOpOutcome": "Won"
     },
     {
       "date": "2018-10-22",
       "name": "Codenames",
       "coOp": "Yes",
-      "coOpOutcome": "Won"
+      "coOpOutcome": "Lost"
     },
     {
       "date": "2018-10-23",
@@ -2661,15 +2661,15 @@
     },
     {
       "date": "2018-10-31",
-      "name": "Betrayal at House on the Hill: Widow's Walk",
-      "winner": "Hannah",
-      "coOp": "Yes"
-    },
-    {
-      "date": "2018-10-31",
       "name": "Codenames",
       "coOp": "Yes",
       "coOpOutcome": "Won"
+    },
+    {
+      "date": "2018-10-31",
+      "name": "Betrayal at House on the Hill: Widow's Walk",
+      "winner": "Hannah",
+      "coOp": "Yes"
     },
     {
       "date": "2018-11-01",
@@ -2776,12 +2776,6 @@
     {
       "date": "2018-11-15",
       "name": "Salem",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-11-15",
-      "name": "Salem",
       "coOp": "Yes",
       "coOpOutcome": "Win"
     },
@@ -2789,6 +2783,12 @@
       "date": "2018-11-15",
       "name": "Topiary",
       "winner": "Other",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-11-15",
+      "name": "Salem",
+      "winner": "John",
       "coOp": "No"
     },
     {
@@ -2824,19 +2824,19 @@
     {
       "date": "2018-11-21",
       "name": "Werewolf",
-      "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-11-21",
-      "name": "Werewolf",
+      "winner": "Other",
       "coOp": "Yes",
       "coOpOutcome": "Lost"
     },
     {
       "date": "2018-11-21",
       "name": "Werewolf",
-      "winner": "Other",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-11-21",
+      "name": "Werewolf",
       "coOp": "Yes",
       "coOpOutcome": "Lost"
     },
@@ -2848,19 +2848,13 @@
     },
     {
       "date": "2018-11-23",
-      "name": "Machi Koro",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-11-23",
       "name": "Ticket to Ride: New York",
       "winner": "Hannah",
       "coOp": "No"
     },
     {
-      "date": "2018-11-24",
-      "name": "Dominion: Seaside",
+      "date": "2018-11-23",
+      "name": "Machi Koro",
       "winner": "John",
       "coOp": "No"
     },
@@ -2871,14 +2865,20 @@
       "coOp": "No"
     },
     {
+      "date": "2018-11-24",
+      "name": "Dominion: Seaside",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
       "date": "2018-11-25",
-      "name": "Pandemic: On the Brink",
+      "name": "Sherlock Holmes Consulting Detective",
       "coOp": "Yes",
       "coOpOutcome": "Lost"
     },
     {
       "date": "2018-11-25",
-      "name": "Sherlock Holmes Consulting Detective",
+      "name": "Pandemic: On the Brink",
       "coOp": "Yes",
       "coOpOutcome": "Lost"
     },
@@ -2971,6 +2971,183 @@
       "name": "7 Wonders",
       "winner": "John",
       "coOp": "No"
+    },
+    {
+      "date": "2018-12-11",
+      "name": "Codenames",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2018-12-11",
+      "name": "Codenames",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2018-12-12",
+      "name": "Pandemic: Contagion",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-12-13",
+      "name": "Bunny Kingdom",
+      "winner": "Other",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-12-14",
+      "name": "Heart of Crown",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-12-15",
+      "name": "Duelosaur Island",
+      "winner": "Draw",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-12-15",
+      "name": "Letters to Santa",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-12-16",
+      "name": "Codenames",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2018-12-16",
+      "name": "Codenames",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
+    },
+    {
+      "date": "2018-12-17",
+      "name": "Love Letter (Kanai)",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-12-18",
+      "name": "Pandemic: Fall of Rome",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2018-12-19",
+      "name": "Werewolf",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost",
+      "note": 13
+    },
+    {
+      "date": "2018-12-19",
+      "name": "Werewolf",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost",
+      "note": 15
+    },
+    {
+      "date": "2018-12-19",
+      "name": "Werewolf",
+      "coOp": "Yes",
+      "coOpOutcome": "Won",
+      "note": 15
+    },
+    {
+      "date": "2018-12-19",
+      "name": "Love Letter",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-12-20",
+      "name": "My Little Scythe",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-12-20",
+      "name": "My Little Scythe",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-12-21",
+      "name": "Aeon's End",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2018-12-22",
+      "name": "Ticket to Ride: Africa",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-12-23",
+      "name": "Tanto Cuore",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-12-24",
+      "name": "Aeon's End",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2018-12-25",
+      "name": "Mint Works",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-12-26",
+      "name": "Mint Works",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-12-27",
+      "name": "Discover: Lands Unknown",
+      "winner": "Draw",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-12-28",
+      "name": "Lovecraft Letter",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-12-29",
+      "name": "Archer Love Letter",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-12-30",
+      "name": "Cat Lady",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-12-30",
+      "name": "Hey, That's My Fish!",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-12-31",
+      "name": "Pandemic: Fall of Rome",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
     }
   ]
 }
