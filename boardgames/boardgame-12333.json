@@ -50,6 +50,13 @@
               "_attributes": {
                 "type": "alternate",
                 "sortindex": "1",
+                "value": "Twilight Struggle: Zimna wojna 1945-1989"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
                 "value": "Zimna wojna 1945-1989"
               }
             },
@@ -122,7 +129,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "646"
+                "totalvotes": "696"
               },
               "results": [
                 {
@@ -139,13 +146,13 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "22"
+                        "numvotes": "25"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "421"
+                        "numvotes": "460"
                       }
                     }
                   ]
@@ -158,7 +165,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "597"
+                        "numvotes": "646"
                       }
                     },
                     {
@@ -170,7 +177,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "5"
+                        "numvotes": "6"
                       }
                     }
                   ]
@@ -183,19 +190,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "5"
+                        "numvotes": "6"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "13"
+                        "numvotes": "15"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "410"
+                        "numvotes": "443"
                       }
                     }
                   ]
@@ -206,7 +213,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "293"
+                "totalvotes": "310"
               },
               "results": [
                 {
@@ -250,25 +257,25 @@
                     {
                       "_attributes": {
                         "value": "10",
-                        "numvotes": "7"
+                        "numvotes": "8"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "12",
-                        "numvotes": "51"
+                        "numvotes": "55"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "14",
-                        "numvotes": "143"
+                        "numvotes": "147"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "16",
-                        "numvotes": "74"
+                        "numvotes": "82"
                       }
                     },
                     {
@@ -389,8 +396,22 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
+                "id": "2840",
+                "value": "Action/Event"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2847",
+                "value": "Advantage Token"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
                 "id": "2080",
-                "value": "Area Control / Area Influence"
+                "value": "Area Majority / Influence"
               }
             },
             {
@@ -417,8 +438,29 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
+                "id": "2070",
+                "value": "Simulation"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
                 "id": "2020",
                 "value": "Simultaneous Action Selection"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2888",
+                "value": "Tug of War"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
+                "id": "46190",
+                "value": "Cold War"
               }
             },
             {
@@ -445,8 +487,8 @@
             {
               "_attributes": {
                 "type": "boardgamefamily",
-                "id": "46190",
-                "value": "Theme:  Cold War"
+                "id": "51380",
+                "value": "Twilight Struggle"
               }
             },
             {
@@ -475,6 +517,13 @@
                 "type": "boardgameexpansion",
                 "id": "123262",
                 "value": "Twilight Struggle: \"Referendum NATO\" Promo Card"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "280500",
+                "value": "Twilight Struggle: \"Финляндизация\" Promo Card"
               }
             },
             {
@@ -620,6 +669,13 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "36186",
+                "value": "PHALANX"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "570",
                 "value": "Udo Grebe Gamedesign"
               }
@@ -642,21 +698,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "32377"
+                        "value": "36794"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "8.33185"
+                        "value": "8.312"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "8.18727"
+                        "value": "8.16006"
                       }
                     }
                   ],
@@ -669,8 +725,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "5",
-                            "bayesaverage": "8.18727"
+                            "value": "7",
+                            "bayesaverage": "8.16006"
                           }
                         },
                         {
@@ -680,7 +736,7 @@
                             "name": "wargames",
                             "friendlyname": "War Game Rank",
                             "value": "1",
-                            "bayesaverage": "8.28359"
+                            "bayesaverage": "8.26804"
                           }
                         },
                         {
@@ -689,8 +745,8 @@
                             "id": "5497",
                             "name": "strategygames",
                             "friendlyname": "Strategy Game Rank",
-                            "value": "7",
-                            "bayesaverage": "8.16776"
+                            "value": "9",
+                            "bayesaverage": "8.14086"
                           }
                         }
                       ]
@@ -699,7 +755,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.59179"
+                        "value": "1.58316"
                       }
                     }
                   ],
@@ -713,49 +769,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "44325"
+                        "value": "50701"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "703"
+                        "value": "808"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "1353"
+                        "value": "1336"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "8559"
+                        "value": "9329"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "7418"
+                        "value": "8114"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "3153"
+                        "value": "3350"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "3.5585"
+                        "value": "3.5719"
                       }
                     }
                   ]

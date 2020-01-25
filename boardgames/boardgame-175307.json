@@ -66,7 +66,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "24"
+                "totalvotes": "28"
               },
               "results": [
                 {
@@ -89,7 +89,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "12"
+                        "numvotes": "16"
                       }
                     }
                   ]
@@ -108,13 +108,13 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "7"
+                        "numvotes": "10"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "10"
+                        "numvotes": "11"
                       }
                     }
                   ]
@@ -127,13 +127,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "4"
+                        "numvotes": "6"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "15"
+                        "numvotes": "17"
                       }
                     },
                     {
@@ -152,7 +152,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "20"
+                        "numvotes": "24"
                       }
                     },
                     {
@@ -189,7 +189,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "6"
+                        "numvotes": "8"
                       }
                     }
                   ]
@@ -200,7 +200,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "4"
+                "totalvotes": "6"
               },
               "results": [
                 {
@@ -232,13 +232,13 @@
                     {
                       "_attributes": {
                         "value": "6",
-                        "numvotes": "1"
+                        "numvotes": "2"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "8",
-                        "numvotes": "1"
+                        "numvotes": "2"
                       }
                     },
                     {
@@ -292,35 +292,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "21",
+                        "level": "126",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "22",
+                        "level": "127",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "2"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "23",
+                        "level": "128",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "24",
+                        "level": "129",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "25",
+                        "level": "130",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -340,7 +340,7 @@
           "minplaytime": [
             {
               "_attributes": {
-                "value": "0"
+                "value": "20"
               }
             }
           ],
@@ -371,6 +371,13 @@
                 "type": "boardgamecategory",
                 "id": "1039",
                 "value": "Deduction"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamecategory",
+                "id": "1064",
+                "value": "Movies / TV / Radio theme"
               }
             },
             {
@@ -476,21 +483,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "1303"
+                        "value": "1481"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.28046"
+                        "value": "7.24022"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.3867"
+                        "value": "6.34696"
                       }
                     }
                   ],
@@ -503,8 +510,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "1078",
-                            "bayesaverage": "6.3867"
+                            "value": "1250",
+                            "bayesaverage": "6.34696"
                           }
                         },
                         {
@@ -513,8 +520,8 @@
                             "id": "5499",
                             "name": "familygames",
                             "friendlyname": "Family Game Rank",
-                            "value": "248",
-                            "bayesaverage": "6.51677"
+                            "value": "312",
+                            "bayesaverage": "6.4872"
                           }
                         }
                       ]
@@ -523,7 +530,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.28599"
+                        "value": "1.31827"
                       }
                     }
                   ],
@@ -537,49 +544,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "2913"
+                        "value": "3255"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "36"
+                        "value": "45"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "22"
+                        "value": "25"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "136"
+                        "value": "167"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "286"
+                        "value": "311"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "37"
+                        "value": "39"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "1.027"
+                        "value": "1.0256"
                       }
                     }
                   ]

@@ -66,7 +66,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "0"
+                "totalvotes": "1"
               },
               "results": [
                 {
@@ -89,7 +89,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     }
                   ]
@@ -102,7 +102,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     },
                     {
@@ -133,7 +133,7 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     },
                     {
@@ -164,7 +164,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     }
                   ]
@@ -189,7 +189,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     }
                   ]
@@ -285,42 +285,42 @@
               "_attributes": {
                 "name": "language_dependence",
                 "title": "Language Dependence",
-                "totalvotes": "0"
+                "totalvotes": "1"
               },
               "results": [
                 {
                   "result": [
                     {
                       "_attributes": {
-                        "level": "136",
+                        "level": "91",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "137",
+                        "level": "92",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "138",
+                        "level": "93",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "139",
+                        "level": "94",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "140",
+                        "level": "95",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -377,7 +377,7 @@
               "_attributes": {
                 "type": "boardgamemechanic",
                 "id": "2664",
-                "value": "Deck / Pool Building"
+                "value": "Deck, Bag, and Pool Building"
               }
             },
             {
@@ -434,6 +434,13 @@
                 "type": "boardgameexpansion",
                 "id": "242249",
                 "value": "Tanto Cuore: Foil Card Set"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "192399",
+                "value": "Tanto Cuore: Kickstarter Big Box and Maid Randomizer"
               }
             },
             {
@@ -524,21 +531,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "218"
+                        "value": "266"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.45899"
+                        "value": "7.41751"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "5.78738"
+                        "value": "5.7876"
                       }
                     }
                   ],
@@ -551,8 +558,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "3289",
-                            "bayesaverage": "5.78738"
+                            "value": "3598",
+                            "bayesaverage": "5.7876"
                           }
                         }
                       ]
@@ -561,7 +568,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.34084"
+                        "value": "1.3988"
                       }
                     }
                   ],
@@ -575,35 +582,35 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "872"
+                        "value": "1025"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "13"
+                        "value": "10"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "23"
+                        "value": "24"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "129"
+                        "value": "139"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "64"
+                        "value": "73"
                       }
                     }
                   ],

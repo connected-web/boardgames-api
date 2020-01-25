@@ -52,20 +52,14 @@
     },
     {
       "date": "2018-11-03",
-      "name": "Deadwood 1876",
-      "winner": "Other",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-11-03",
       "name": "Dominion: Seaside",
       "winner": "John",
       "coOp": "No"
     },
     {
-      "date": "2018-11-04",
-      "name": "Tanto Cuore: Romantic Vacation",
-      "winner": "John",
+      "date": "2018-11-03",
+      "name": "Deadwood 1876",
+      "winner": "Other",
       "coOp": "No"
     },
     {
@@ -73,6 +67,12 @@
       "name": "T.I.M.E Stories: Under the Mask",
       "coOp": "Yes",
       "coOpOutcome": "Lost"
+    },
+    {
+      "date": "2018-11-04",
+      "name": "Tanto Cuore: Romantic Vacation",
+      "winner": "John",
+      "coOp": "No"
     },
     {
       "date": "2018-11-05",
@@ -100,15 +100,15 @@
     },
     {
       "date": "2018-11-09",
-      "name": "Battlestar Galactica: The Board Game",
-      "coOp": "Yes",
-      "coOpOutcome": "Won"
-    },
-    {
-      "date": "2018-11-09",
       "name": "The Resistance",
       "coOp": "Yes",
       "coOpOutcome": "Lost"
+    },
+    {
+      "date": "2018-11-09",
+      "name": "Battlestar Galactica: The Board Game",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
     },
     {
       "date": "2018-11-10",
@@ -142,12 +142,6 @@
     },
     {
       "date": "2018-11-15",
-      "name": "Salem",
-      "coOp": "Yes",
-      "coOpOutcome": "Win"
-    },
-    {
-      "date": "2018-11-15",
       "name": "Topiary",
       "winner": "Other",
       "coOp": "No"
@@ -157,6 +151,12 @@
       "name": "Salem",
       "winner": "John",
       "coOp": "No"
+    },
+    {
+      "date": "2018-11-15",
+      "name": "Salem",
+      "coOp": "Yes",
+      "coOpOutcome": "Win"
     },
     {
       "date": "2018-11-16",
@@ -191,15 +191,15 @@
     {
       "date": "2018-11-21",
       "name": "Werewolf",
-      "winner": "Other",
-      "coOp": "Yes",
-      "coOpOutcome": "Lost"
+      "winner": "Hannah",
+      "coOp": "No"
     },
     {
       "date": "2018-11-21",
       "name": "Werewolf",
-      "winner": "Hannah",
-      "coOp": "No"
+      "winner": "Other",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
     },
     {
       "date": "2018-11-21",
@@ -215,14 +215,14 @@
     },
     {
       "date": "2018-11-23",
-      "name": "Ticket to Ride: New York",
-      "winner": "Hannah",
+      "name": "Machi Koro",
+      "winner": "John",
       "coOp": "No"
     },
     {
       "date": "2018-11-23",
-      "name": "Machi Koro",
-      "winner": "John",
+      "name": "Ticket to Ride: New York",
+      "winner": "Hannah",
       "coOp": "No"
     },
     {
@@ -239,13 +239,13 @@
     },
     {
       "date": "2018-11-25",
-      "name": "Sherlock Holmes Consulting Detective",
+      "name": "Pandemic: On the Brink",
       "coOp": "Yes",
       "coOpOutcome": "Lost"
     },
     {
       "date": "2018-11-25",
-      "name": "Pandemic: On the Brink",
+      "name": "Sherlock Holmes Consulting Detective",
       "coOp": "Yes",
       "coOpOutcome": "Lost"
     },
@@ -329,8 +329,8 @@
     {
       "date": "2018-11-15",
       "games": [
-        "Salem",
         "Topiary",
+        "Salem",
         "Salem"
       ]
     }

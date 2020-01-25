@@ -43,6 +43,13 @@
               "_attributes": {
                 "type": "alternate",
                 "sortindex": "1",
+                "value": "Ticket to Ride: Trilhos e Velas"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
                 "value": "Ticket to Ride: Vagoni & Velieri"
               }
             },
@@ -101,7 +108,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "17"
+                "totalvotes": "24"
               },
               "results": [
                 {
@@ -124,7 +131,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "9"
+                        "numvotes": "13"
                       }
                     }
                   ]
@@ -143,13 +150,13 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "8"
+                        "numvotes": "12"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "2"
+                        "numvotes": "3"
                       }
                     }
                   ]
@@ -162,7 +169,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "3"
+                        "numvotes": "6"
                       }
                     },
                     {
@@ -187,13 +194,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "11"
+                        "numvotes": "13"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "3"
+                        "numvotes": "4"
                       }
                     },
                     {
@@ -218,13 +225,13 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "8"
+                        "numvotes": "11"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "2"
+                        "numvotes": "4"
                       }
                     }
                   ]
@@ -249,7 +256,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "8"
+                        "numvotes": "12"
                       }
                     }
                   ]
@@ -345,7 +352,7 @@
               "_attributes": {
                 "name": "language_dependence",
                 "title": "Language Dependence",
-                "totalvotes": "3"
+                "totalvotes": "4"
               },
               "results": [
                 {
@@ -354,7 +361,7 @@
                       "_attributes": {
                         "level": "21",
                         "value": "No necessary in-game text",
-                        "numvotes": "3"
+                        "numvotes": "4"
                       }
                     },
                     {
@@ -444,7 +451,7 @@
               "_attributes": {
                 "type": "boardgamemechanic",
                 "id": "2081",
-                "value": "Route/Network Building"
+                "value": "Network and Route Building"
               }
             },
             {
@@ -556,6 +563,20 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "15605",
+                "value": "Galápagos Jogos"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "9634",
+                "value": "KADABRA"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "7466",
                 "value": "Rebel"
               }
@@ -571,21 +592,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "1561"
+                        "value": "2297"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.42557"
+                        "value": "7.40256"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.55017"
+                        "value": "6.62948"
                       }
                     }
                   ],
@@ -598,8 +619,18 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "813",
-                            "bayesaverage": "6.55017"
+                            "value": "779",
+                            "bayesaverage": "6.62948"
+                          }
+                        },
+                        {
+                          "_attributes": {
+                            "type": "family",
+                            "id": "5499",
+                            "name": "familygames",
+                            "friendlyname": "Family Game Rank",
+                            "value": "164",
+                            "bayesaverage": "6.78287"
                           }
                         }
                       ]
@@ -608,7 +639,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.45085"
+                        "value": "1.45204"
                       }
                     }
                   ],
@@ -622,49 +653,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "3364"
+                        "value": "5052"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "26"
+                        "value": "52"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "226"
+                        "value": "211"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "1044"
+                        "value": "1071"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "296"
+                        "value": "428"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "32"
+                        "value": "44"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2.6562"
+                        "value": "2.6136"
                       }
                     }
                   ]

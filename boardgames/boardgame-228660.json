@@ -66,7 +66,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "15"
+                "totalvotes": "27"
               },
               "results": [
                 {
@@ -89,7 +89,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "11"
+                        "numvotes": "21"
                       }
                     }
                   ]
@@ -114,7 +114,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "12"
+                        "numvotes": "21"
                       }
                     }
                   ]
@@ -133,13 +133,13 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "9"
+                        "numvotes": "16"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "5"
+                        "numvotes": "7"
                       }
                     }
                   ]
@@ -152,13 +152,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "5"
+                        "numvotes": "10"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "7"
+                        "numvotes": "13"
                       }
                     },
                     {
@@ -177,19 +177,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "8"
+                        "numvotes": "14"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "5"
+                        "numvotes": "8"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     }
                   ]
@@ -202,19 +202,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "4"
+                        "numvotes": "6"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "7"
+                        "numvotes": "13"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "1"
+                        "numvotes": "2"
                       }
                     }
                   ]
@@ -239,7 +239,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "6"
+                        "numvotes": "14"
                       }
                     }
                   ]
@@ -250,7 +250,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "9"
+                "totalvotes": "13"
               },
               "results": [
                 {
@@ -300,13 +300,13 @@
                     {
                       "_attributes": {
                         "value": "12",
-                        "numvotes": "3"
+                        "numvotes": "6"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "14",
-                        "numvotes": "4"
+                        "numvotes": "5"
                       }
                     },
                     {
@@ -335,7 +335,7 @@
               "_attributes": {
                 "name": "language_dependence",
                 "title": "Language Dependence",
-                "totalvotes": "2"
+                "totalvotes": "3"
               },
               "results": [
                 {
@@ -372,7 +372,7 @@
                       "_attributes": {
                         "level": "20",
                         "value": "Unplayable in another language",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     }
                   ]
@@ -441,7 +441,7 @@
               "_attributes": {
                 "type": "boardgamemechanic",
                 "id": "2023",
-                "value": "Cooperative Play"
+                "value": "Cooperative Game"
               }
             },
             {
@@ -461,13 +461,6 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
-                "id": "2019",
-                "value": "Partnerships"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamemechanic",
                 "id": "2028",
                 "value": "Role Playing"
               }
@@ -482,8 +475,29 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
+                "id": "2019",
+                "value": "Team-Based Game"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2814",
+                "value": "Traitor Game"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
                 "id": "2015",
                 "value": "Variable Player Powers"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
+                "id": "54060",
+                "value": "Betrayal family"
               }
             },
             {
@@ -496,8 +510,22 @@
             {
               "_attributes": {
                 "type": "boardgamefamily",
+                "id": "59218",
+                "value": "Dungeon Crawler"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
                 "id": "7307",
                 "value": "Dungeons & Dragons"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
+                "id": "49383",
+                "value": "One versus Many"
               }
             },
             {
@@ -531,6 +559,48 @@
             },
             {
               "_attributes": {
+                "type": "boardgameartist",
+                "id": "77055",
+                "value": "Aaron Hübrich"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "28288",
+                "value": "Tyler Jacobson"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "12658",
+                "value": "Scott Okumura"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "16823",
+                "value": "Emi Tanji"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "30359",
+                "value": "Cory Trego-Erdner"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "24739",
+                "value": "Richard Whitters"
+              }
+            },
+            {
+              "_attributes": {
                 "type": "boardgamepublisher",
                 "id": "4871",
                 "value": "Avalon Hill Games, Inc."
@@ -554,21 +624,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "1270"
+                        "value": "2205"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.25781"
+                        "value": "7.18134"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.32473"
+                        "value": "6.45141"
                       }
                     }
                   ],
@@ -581,8 +651,18 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "1206",
-                            "bayesaverage": "6.32473"
+                            "value": "1056",
+                            "bayesaverage": "6.45141"
+                          }
+                        },
+                        {
+                          "_attributes": {
+                            "type": "family",
+                            "id": "5496",
+                            "name": "thematic",
+                            "friendlyname": "Thematic Rank",
+                            "value": "259",
+                            "bayesaverage": "6.58747"
                           }
                         }
                       ]
@@ -591,7 +671,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.44352"
+                        "value": "1.41169"
                       }
                     }
                   ],
@@ -605,49 +685,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "3357"
+                        "value": "5495"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "29"
+                        "value": "79"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "156"
+                        "value": "137"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "1031"
+                        "value": "1159"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "291"
+                        "value": "459"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "24"
+                        "value": "40"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2.4583"
+                        "value": "2.55"
                       }
                     }
                   ]

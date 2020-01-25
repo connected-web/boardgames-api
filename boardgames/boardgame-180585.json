@@ -87,6 +87,20 @@
                 "sortindex": "1",
                 "value": "Агентство «ВРЕМЯ»: Дело Марси"
               }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "时间守望：玛茜疑案"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "타임 스토리즈: 마시 사건"
+              }
             }
           ],
           "description": [
@@ -122,7 +136,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "29"
+                "totalvotes": "31"
               },
               "results": [
                 {
@@ -145,7 +159,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "15"
+                        "numvotes": "16"
                       }
                     }
                   ]
@@ -170,7 +184,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "6"
+                        "numvotes": "7"
                       }
                     }
                   ]
@@ -208,13 +222,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "19"
+                        "numvotes": "20"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "2"
+                        "numvotes": "3"
                       }
                     },
                     {
@@ -245,7 +259,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "12"
+                        "numvotes": "13"
                       }
                     }
                   ]
@@ -256,7 +270,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "11"
+                "totalvotes": "12"
               },
               "results": [
                 {
@@ -306,7 +320,7 @@
                     {
                       "_attributes": {
                         "value": "12",
-                        "numvotes": "6"
+                        "numvotes": "7"
                       }
                     },
                     {
@@ -341,44 +355,44 @@
               "_attributes": {
                 "name": "language_dependence",
                 "title": "Language Dependence",
-                "totalvotes": "12"
+                "totalvotes": "13"
               },
               "results": [
                 {
                   "result": [
                     {
                       "_attributes": {
-                        "level": "396",
+                        "level": "351",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "397",
+                        "level": "352",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "398",
+                        "level": "353",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "399",
+                        "level": "354",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "6"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "400",
+                        "level": "355",
                         "value": "Unplayable in another language",
-                        "numvotes": "6"
+                        "numvotes": "7"
                       }
                     }
                   ]
@@ -454,7 +468,7 @@
               "_attributes": {
                 "type": "boardgamemechanic",
                 "id": "2023",
-                "value": "Cooperative Play"
+                "value": "Cooperative Game"
               }
             },
             {
@@ -481,13 +495,6 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
-                "id": "2663",
-                "value": "Time Track"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamemechanic",
                 "id": "2015",
                 "value": "Variable Player Powers"
               }
@@ -504,6 +511,13 @@
                 "type": "boardgamefamily",
                 "id": "35759",
                 "value": "T.I.M.E Stories"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
+                "id": "55922",
+                "value": "T.I.M.E Stories - White Cycle"
               }
             },
             {
@@ -560,7 +574,14 @@
               "_attributes": {
                 "type": "boardgamepublisher",
                 "id": "34522",
-                "value": "Crowd Games"
+                "value": "CrowD Games"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "40244",
+                "value": "Delight"
               }
             },
             {
@@ -602,21 +623,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "4526"
+                        "value": "5476"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.71072"
+                        "value": "7.64"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "7.24356"
+                        "value": "7.19444"
                       }
                     }
                   ],
@@ -630,7 +651,7 @@
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "7.24356"
+                            "bayesaverage": "7.19444"
                           }
                         },
                         {
@@ -640,7 +661,7 @@
                             "name": "thematic",
                             "friendlyname": "Thematic Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "7.44485"
+                            "bayesaverage": "7.3976"
                           }
                         }
                       ]
@@ -649,7 +670,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.40126"
+                        "value": "1.3957"
                       }
                     }
                   ],
@@ -663,49 +684,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "11457"
+                        "value": "13441"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "259"
+                        "value": "374"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "175"
+                        "value": "150"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "572"
+                        "value": "543"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "698"
+                        "value": "855"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "64"
+                        "value": "74"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2.6094"
+                        "value": "2.6216"
                       }
                     }
                   ]

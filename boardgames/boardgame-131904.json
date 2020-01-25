@@ -73,7 +73,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "13"
+                "totalvotes": "19"
               },
               "results": [
                 {
@@ -90,13 +90,13 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "7"
+                        "numvotes": "11"
                       }
                     }
                   ]
@@ -109,13 +109,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "3"
+                        "numvotes": "4"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "8"
+                        "numvotes": "11"
                       }
                     },
                     {
@@ -134,13 +134,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "6"
+                        "numvotes": "10"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "4"
+                        "numvotes": "6"
                       }
                     },
                     {
@@ -159,13 +159,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "8"
+                        "numvotes": "13"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "2"
+                        "numvotes": "3"
                       }
                     },
                     {
@@ -196,7 +196,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "6"
+                        "numvotes": "10"
                       }
                     }
                   ]
@@ -207,7 +207,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "1"
+                "totalvotes": "2"
               },
               "results": [
                 {
@@ -239,7 +239,7 @@
                     {
                       "_attributes": {
                         "value": "6",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     },
                     {
@@ -299,35 +299,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "16",
+                        "level": "66",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "17",
+                        "level": "67",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "18",
+                        "level": "68",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "5"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "19",
+                        "level": "69",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "2"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "20",
+                        "level": "70",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -340,7 +340,7 @@
           "playingtime": [
             {
               "_attributes": {
-                "value": "30"
+                "value": "60"
               }
             }
           ],
@@ -354,7 +354,7 @@
           "maxplaytime": [
             {
               "_attributes": {
-                "value": "30"
+                "value": "60"
               }
             }
           ],
@@ -391,7 +391,7 @@
               "_attributes": {
                 "type": "boardgamemechanic",
                 "id": "2664",
-                "value": "Deck / Pool Building"
+                "value": "Deck, Bag, and Pool Building"
               }
             },
             {
@@ -420,6 +420,20 @@
                 "type": "boardgamefamily",
                 "id": "25310",
                 "value": "Heart of Crown"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "286984",
+                "value": "Heart of Crown: Fairy Garden – Advanced Play Mini Expansion"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "294554",
+                "value": "Heart of Crown: Fairy Princess Elrune promo card"
               }
             },
             {
@@ -516,6 +530,13 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "43758",
+                "value": "Hangom Games"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "16687",
                 "value": "Japanime Games"
               }
@@ -538,21 +559,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "426"
+                        "value": "628"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.71632"
+                        "value": "7.67651"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.0272"
+                        "value": "6.12368"
                       }
                     }
                   ],
@@ -565,8 +586,18 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "2033",
-                            "bayesaverage": "6.0272"
+                            "value": "1860",
+                            "bayesaverage": "6.12368"
+                          }
+                        },
+                        {
+                          "_attributes": {
+                            "type": "family",
+                            "id": "5496",
+                            "name": "thematic",
+                            "friendlyname": "Thematic Rank",
+                            "value": "347",
+                            "bayesaverage": "6.37612"
                           }
                         },
                         {
@@ -575,8 +606,8 @@
                             "id": "5497",
                             "name": "strategygames",
                             "friendlyname": "Strategy Game Rank",
-                            "value": "910",
-                            "bayesaverage": "6.14841"
+                            "value": "881",
+                            "bayesaverage": "6.24441"
                           }
                         }
                       ]
@@ -585,7 +616,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.44079"
+                        "value": "1.43858"
                       }
                     }
                   ],
@@ -599,49 +630,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "876"
+                        "value": "1242"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "13"
+                        "value": "24"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "59"
+                        "value": "57"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "300"
+                        "value": "321"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "127"
+                        "value": "180"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "27"
+                        "value": "31"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2.4444"
+                        "value": "2.5161"
                       }
                     }
                   ]

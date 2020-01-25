@@ -36,6 +36,13 @@
               "_attributes": {
                 "type": "alternate",
                 "sortindex": "1",
+                "value": "Jurassic Snack ไดโนเสาร์จอมเขมือบ"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
                 "value": "Merienda Jurásica"
               }
             }
@@ -73,7 +80,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "2"
+                "totalvotes": "4"
               },
               "results": [
                 {
@@ -96,7 +103,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "2"
+                        "numvotes": "4"
                       }
                     }
                   ]
@@ -109,7 +116,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "2"
+                        "numvotes": "4"
                       }
                     },
                     {
@@ -146,7 +153,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "1"
+                        "numvotes": "3"
                       }
                     }
                   ]
@@ -157,7 +164,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "1"
+                "totalvotes": "2"
               },
               "results": [
                 {
@@ -189,7 +196,7 @@
                     {
                       "_attributes": {
                         "value": "6",
-                        "numvotes": "1"
+                        "numvotes": "2"
                       }
                     },
                     {
@@ -242,42 +249,42 @@
               "_attributes": {
                 "name": "language_dependence",
                 "title": "Language Dependence",
-                "totalvotes": "0"
+                "totalvotes": "1"
               },
               "results": [
                 {
                   "result": [
                     {
                       "_attributes": {
-                        "level": "186",
+                        "level": "166",
                         "value": "No necessary in-game text",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "187",
+                        "level": "167",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "188",
+                        "level": "168",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "189",
+                        "level": "169",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "190",
+                        "level": "170",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -353,6 +360,48 @@
             },
             {
               "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "288677",
+                "value": "Jurassic Snack: 4-in-a-Rex Promo Card"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "288674",
+                "value": "Jurassic Snack: Herbivorex Promo Card"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "288675",
+                "value": "Jurassic Snack: Kangoudocus Promo Card"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "288678",
+                "value": "Jurassic Snack: Locomotus Promo Card"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "288676",
+                "value": "Jurassic Snack: Strikebackosaurus Promo Card"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameintegration",
+                "id": "297666",
+                "value": "Jurassic Snack II"
+              }
+            },
+            {
+              "_attributes": {
                 "type": "boardgameimplementation",
                 "id": "4327",
                 "value": "War & Sheep",
@@ -383,6 +432,20 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "40171",
+                "value": "Funiverse"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "36210",
+                "value": "Lanlalen"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "30677",
                 "value": "Maldito Games"
               }
@@ -405,21 +468,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "52"
+                        "value": "306"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.26904"
+                        "value": "6.87199"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "5.57295"
+                        "value": "5.73875"
                       }
                     }
                   ],
@@ -432,8 +495,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "7237",
-                            "bayesaverage": "5.57295"
+                            "value": "4079",
+                            "bayesaverage": "5.73875"
                           }
                         }
                       ]
@@ -442,7 +505,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.38492"
+                        "value": "1.16102"
                       }
                     }
                   ],
@@ -456,49 +519,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "95"
+                        "value": "571"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "0"
+                        "value": "6"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "20"
+                        "value": "35"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "128"
+                        "value": "167"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "16"
+                        "value": "64"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "1"
+                        "value": "4"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2"
+                        "value": "1.25"
                       }
                     }
                   ]

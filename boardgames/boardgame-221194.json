@@ -31,6 +31,34 @@
                 "sortindex": "1",
                 "value": "Dinosaur Island"
               }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "Ilha dos Dinossauros"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "Остров юрского периода"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "恐龍島 Dinosaur Island"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "공룡섬"
+              }
             }
           ],
           "description": [
@@ -66,7 +94,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "43"
+                "totalvotes": "92"
               },
               "results": [
                 {
@@ -83,13 +111,13 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "17"
+                        "numvotes": "30"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "6"
+                        "numvotes": "14"
                       }
                     }
                   ]
@@ -102,19 +130,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "4"
+                        "numvotes": "8"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "24"
+                        "numvotes": "53"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "4"
+                        "numvotes": "8"
                       }
                     }
                   ]
@@ -127,13 +155,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "19"
+                        "numvotes": "42"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "16"
+                        "numvotes": "26"
                       }
                     },
                     {
@@ -152,19 +180,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "17"
+                        "numvotes": "33"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "9"
+                        "numvotes": "23"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "4"
+                        "numvotes": "6"
                       }
                     }
                   ]
@@ -177,19 +205,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "0"
-                      }
-                    },
-                    {
-                      "_attributes": {
-                        "value": "Recommended",
                         "numvotes": "2"
                       }
                     },
                     {
                       "_attributes": {
+                        "value": "Recommended",
+                        "numvotes": "4"
+                      }
+                    },
+                    {
+                      "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "14"
+                        "numvotes": "28"
                       }
                     }
                   ]
@@ -200,7 +228,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "12"
+                "totalvotes": "28"
               },
               "results": [
                 {
@@ -226,7 +254,7 @@
                     {
                       "_attributes": {
                         "value": "5",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     },
                     {
@@ -238,25 +266,25 @@
                     {
                       "_attributes": {
                         "value": "8",
-                        "numvotes": "5"
+                        "numvotes": "7"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "10",
-                        "numvotes": "2"
+                        "numvotes": "10"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "12",
-                        "numvotes": "4"
+                        "numvotes": "8"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "14",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     },
                     {
@@ -285,42 +313,42 @@
               "_attributes": {
                 "name": "language_dependence",
                 "title": "Language Dependence",
-                "totalvotes": "5"
+                "totalvotes": "10"
               },
               "results": [
                 {
                   "result": [
                     {
                       "_attributes": {
-                        "level": "1",
+                        "level": "71",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "2",
+                        "level": "72",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "3",
+                        "level": "73",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
+                        "numvotes": "7"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "74",
+                        "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "3"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "4",
-                        "value": "Extensive use of text - massive conversion needed to be playable",
-                        "numvotes": "2"
-                      }
-                    },
-                    {
-                      "_attributes": {
-                        "level": "5",
+                        "level": "75",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -362,13 +390,6 @@
             {
               "_attributes": {
                 "type": "boardgamecategory",
-                "id": "1017",
-                "value": "Dice"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamecategory",
                 "id": "1021",
                 "value": "Economic"
               }
@@ -384,7 +405,7 @@
               "_attributes": {
                 "type": "boardgamemechanic",
                 "id": "2001",
-                "value": "Action Point Allowance System"
+                "value": "Action Points"
               }
             },
             {
@@ -427,6 +448,55 @@
                 "type": "boardgamefamily",
                 "id": "8374",
                 "value": "Crowdfunding: Kickstarter"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
+                "id": "56992",
+                "value": "Dinosaur Island"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "272394",
+                "value": "Dinosaur Island:  Dice Tower – Mandi and Suzanne Promo Card"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "272395",
+                "value": "Dinosaur Island:  Dice Tower – Sam and Zee Promo Card"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "272396",
+                "value": "Dinosaur Island:  Dice Tower – Tom and Eric Promo Card"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "265086",
+                "value": "Dinosaur Island: Dice Tower Promo Cards"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "266839",
+                "value": "Dinosaur Island: Mascot Promo Card"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "289938",
+                "value": "Dinosaur Island: Space Dinosaur Promo"
               }
             },
             {
@@ -484,6 +554,55 @@
                 "id": "21847",
                 "value": "Pandasaurus Games"
               }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "38809",
+                "value": "Angry Lion Games"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "157",
+                "value": "Asmodee"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "2366",
+                "value": "Devir"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "22380",
+                "value": "Feuerland Spiele"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "4785",
+                "value": "Ghenos Games"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "18852",
+                "value": "Hobby World"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "32591",
+                "value": "Meeple BR Jogos"
+              }
             }
           ],
           "statistics": [
@@ -496,21 +615,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "3073"
+                        "value": "8565"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.91047"
+                        "value": "7.79662"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "7.15724"
+                        "value": "7.41265"
                       }
                     }
                   ],
@@ -523,8 +642,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "238",
-                            "bayesaverage": "7.15724"
+                            "value": "115",
+                            "bayesaverage": "7.41265"
                           }
                         },
                         {
@@ -533,8 +652,8 @@
                             "id": "5497",
                             "name": "strategygames",
                             "friendlyname": "Strategy Game Rank",
-                            "value": "136",
-                            "bayesaverage": "7.27285"
+                            "value": "87",
+                            "bayesaverage": "7.46235"
                           }
                         }
                       ]
@@ -543,7 +662,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.41574"
+                        "value": "1.33767"
                       }
                     }
                   ],
@@ -557,49 +676,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "5521"
+                        "value": "15109"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "33"
+                        "value": "212"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "720"
+                        "value": "799"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "2683"
+                        "value": "3834"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "913"
+                        "value": "1788"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "120"
+                        "value": "255"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2.9417"
+                        "value": "2.9843"
                       }
                     }
                   ]

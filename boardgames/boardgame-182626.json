@@ -66,7 +66,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "6"
+                "totalvotes": "8"
               },
               "results": [
                 {
@@ -89,7 +89,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "4"
+                        "numvotes": "6"
                       }
                     }
                   ]
@@ -114,7 +114,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "4"
+                        "numvotes": "6"
                       }
                     }
                   ]
@@ -133,7 +133,7 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "5"
+                        "numvotes": "7"
                       }
                     },
                     {
@@ -152,7 +152,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "4"
+                        "numvotes": "6"
                       }
                     },
                     {
@@ -177,13 +177,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "2"
+                        "numvotes": "3"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "3"
+                        "numvotes": "4"
                       }
                     },
                     {
@@ -214,7 +214,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "3"
+                        "numvotes": "4"
                       }
                     }
                   ]
@@ -317,35 +317,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "46",
+                        "level": "1",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "47",
+                        "level": "2",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "48",
+                        "level": "3",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "49",
+                        "level": "4",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "50",
+                        "level": "5",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -422,6 +422,13 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
+                "id": "2686",
+                "value": "Take That"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
                 "id": "2015",
                 "value": "Variable Player Powers"
               }
@@ -457,6 +464,13 @@
             {
               "_attributes": {
                 "type": "boardgameexpansion",
+                "id": "286098",
+                "value": "Mistborn: House War – Rabble Rouser Promo Card"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
                 "id": "208122",
                 "value": "Mistborn: The Siege of Luthadel"
               }
@@ -487,6 +501,13 @@
                 "type": "boardgameartist",
                 "id": "97271",
                 "value": "Anna Kay"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "120249",
+                "value": "Thomas Lishman"
               }
             },
             {
@@ -528,21 +549,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "202"
+                        "value": "277"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "6.97847"
+                        "value": "6.99134"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "5.68684"
+                        "value": "5.72136"
                       }
                     }
                   ],
@@ -555,8 +576,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "4300",
-                            "bayesaverage": "5.68684"
+                            "value": "4252",
+                            "bayesaverage": "5.72136"
                           }
                         }
                       ]
@@ -565,7 +586,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.68721"
+                        "value": "1.63139"
                       }
                     }
                   ],
@@ -579,35 +600,35 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "566"
+                        "value": "788"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "17"
+                        "value": "24"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "33"
+                        "value": "44"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "199"
+                        "value": "222"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "68"
+                        "value": "85"
                       }
                     }
                   ],
@@ -621,7 +642,7 @@
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2.6"
+                        "value": "2.4"
                       }
                     }
                   ]

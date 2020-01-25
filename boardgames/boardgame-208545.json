@@ -73,6 +73,13 @@
                 "sortindex": "1",
                 "value": "Ужас Аркхэма: Карточная игра – Наследие Данвича"
               }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "アーカムホラー　ザ・カードゲーム拡張 ダンウィッチ続章"
+              }
             }
           ],
           "description": [
@@ -108,7 +115,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "15"
+                "totalvotes": "19"
               },
               "results": [
                 {
@@ -125,7 +132,7 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "7"
+                        "numvotes": "11"
                       }
                     },
                     {
@@ -144,7 +151,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "10"
+                        "numvotes": "13"
                       }
                     },
                     {
@@ -175,13 +182,13 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "5"
+                        "numvotes": "6"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "1"
+                        "numvotes": "3"
                       }
                     }
                   ]
@@ -192,7 +199,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "3"
+                "totalvotes": "4"
               },
               "results": [
                 {
@@ -248,7 +255,7 @@
                     {
                       "_attributes": {
                         "value": "14",
-                        "numvotes": "2"
+                        "numvotes": "3"
                       }
                     },
                     {
@@ -284,35 +291,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "1",
+                        "level": "11",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "2",
+                        "level": "12",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "3",
+                        "level": "13",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "4",
+                        "level": "14",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "2"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "5",
+                        "level": "15",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -390,7 +397,7 @@
               "_attributes": {
                 "type": "boardgamemechanic",
                 "id": "2023",
-                "value": "Cooperative Play"
+                "value": "Cooperative Game"
               }
             },
             {
@@ -398,6 +405,13 @@
                 "type": "boardgamemechanic",
                 "id": "2040",
                 "value": "Hand Management"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2819",
+                "value": "Solo / Solitaire Game"
               }
             },
             {
@@ -544,6 +558,13 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "3475",
+                "value": "Arclight"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "15889",
                 "value": "Asterion Press"
               }
@@ -594,21 +615,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "1383"
+                        "value": "2063"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "8.54993"
+                        "value": "8.47006"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "7.07877"
+                        "value": "7.22186"
                       }
                     }
                   ],
@@ -622,7 +643,17 @@
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "7.07877"
+                            "bayesaverage": "7.22186"
+                          }
+                        },
+                        {
+                          "_attributes": {
+                            "type": "family",
+                            "id": "4667",
+                            "name": "cgs",
+                            "friendlyname": "Customizable Rank",
+                            "value": "Not Ranked",
+                            "bayesaverage": "8.00097"
                           }
                         }
                       ]
@@ -631,7 +662,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.1108"
+                        "value": "1.12728"
                       }
                     }
                   ],
@@ -645,42 +676,42 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "9077"
+                        "value": "12301"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "52"
+                        "value": "100"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "140"
+                        "value": "147"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "401"
+                        "value": "478"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "273"
+                        "value": "406"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "16"
+                        "value": "26"
                       }
                     }
                   ],

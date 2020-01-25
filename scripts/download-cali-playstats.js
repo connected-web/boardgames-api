@@ -10,16 +10,23 @@ async function downloadData (filename, spreadsheetId) {
     const worksheets = await gsjson({ spreadsheetId, allWorksheets: true })
     report('Downloaded data:', (worksheets + '').length, 'bytes')
     const entries = worksheets.reduce((acc, item) => acc.concat(item), [])
-    report('Writing combined data to:', filename)
-    return write(datapath(filename), JSON.stringify(entries, null, 2), 'utf8')
+    return entries
+
   } catch (ex) {
     report('Unable to download data:', ex)
   }
 }
 
 async function start () {
-  await downloadData('cali-playstats.json', spreadsheetId)
-  await downloadData('cali-playstats-2020.json', spreadsheetId2020)
+  const combinedData = await Promise.all([
+    downloadData('cali-playstats.json', spreadsheetId),
+    downloadData('cali-playstats-2020.json', spreadsheetId2020)
+  ])
+  const flattenedData = combinedData.reduce((acc, item) => acc.concat(item), [])
+
+  const filename = 'cali-playstats.json'
+  report('Writing combined data to:', filename)
+  return write(datapath(filename), JSON.stringify(flattenedData, null, 2), 'utf8')
 }
 
 module.exports = start

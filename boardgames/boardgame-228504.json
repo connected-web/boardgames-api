@@ -31,12 +31,26 @@
                 "sortindex": "1",
                 "value": "Cat Lady"
               }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "Kočičí klub"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "トルネコ"
+              }
             }
           ],
           "description": [
             {
               "_text": [
-                "Description from the publisher:&#10;&#10;In Cat Lady, players are cat ladies, part of an elite group of people including Marie Antoinette and Ernest Hemingway. During the game, you and your fellow cat ladies will draft cards three at a time, collecting toys, food, catnip, costumes, and of course lovable cats. But watch out! Make sure you have enough food for all of your feline friends or your hungry cats will subtract points from your score. The player with the highest total victory points wins the game!&#10;&#10;"
+                "In Cat Lady, players are cat ladies, part of an elite group of people including Marie Antoinette and Ernest Hemingway. During the game, you and your fellow cat ladies will draft cards three at a time, collecting toys, food, catnip, costumes, and of course lovable cats. But watch out! Make sure you have enough food for all of your feline friends or your hungry cats will subtract points from your score. The player with the highest total victory points wins!&#10;&#10;"
               ]
             }
           ],
@@ -66,7 +80,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "32"
+                "totalvotes": "53"
               },
               "results": [
                 {
@@ -89,7 +103,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "18"
+                        "numvotes": "31"
                       }
                     }
                   ]
@@ -102,13 +116,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "6"
+                        "numvotes": "17"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "16"
+                        "numvotes": "24"
                       }
                     },
                     {
@@ -127,19 +141,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "12"
-                      }
-                    },
-                    {
-                      "_attributes": {
-                        "value": "Recommended",
                         "numvotes": "17"
                       }
                     },
                     {
                       "_attributes": {
+                        "value": "Recommended",
+                        "numvotes": "30"
+                      }
+                    },
+                    {
+                      "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     }
                   ]
@@ -152,19 +166,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "14"
+                        "numvotes": "16"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "15"
+                        "numvotes": "29"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "0"
+                        "numvotes": "2"
                       }
                     }
                   ]
@@ -189,7 +203,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "13"
+                        "numvotes": "27"
                       }
                     }
                   ]
@@ -200,7 +214,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "9"
+                "totalvotes": "17"
               },
               "results": [
                 {
@@ -226,25 +240,25 @@
                     {
                       "_attributes": {
                         "value": "5",
-                        "numvotes": "0"
-                      }
-                    },
-                    {
-                      "_attributes": {
-                        "value": "6",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
+                        "value": "6",
+                        "numvotes": "3"
+                      }
+                    },
+                    {
+                      "_attributes": {
                         "value": "8",
-                        "numvotes": "8"
+                        "numvotes": "12"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "10",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     },
                     {
@@ -285,42 +299,42 @@
               "_attributes": {
                 "name": "language_dependence",
                 "title": "Language Dependence",
-                "totalvotes": "6"
+                "totalvotes": "9"
               },
               "results": [
                 {
                   "result": [
                     {
                       "_attributes": {
-                        "level": "116",
+                        "level": "26",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "117",
+                        "level": "27",
                         "value": "Some necessary text - easily memorized or small crib sheet",
-                        "numvotes": "2"
+                        "numvotes": "5"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "118",
+                        "level": "28",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "4"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "119",
+                        "level": "29",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "120",
+                        "level": "30",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -396,6 +410,20 @@
             },
             {
               "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "298070",
+                "value": "Cat Lady: Box of Treats"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamecompilation",
+                "id": "281073",
+                "value": "Cat Lady: Premium Edition"
+              }
+            },
+            {
+              "_attributes": {
                 "type": "boardgamedesigner",
                 "id": "101567",
                 "value": "Josh Wood"
@@ -410,9 +438,44 @@
             },
             {
               "_attributes": {
+                "type": "boardgameartist",
+                "id": "5918",
+                "value": "Joshua Wood (I)"
+              }
+            },
+            {
+              "_attributes": {
                 "type": "boardgamepublisher",
                 "id": "396",
                 "value": "Alderac Entertainment Group"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "3475",
+                "value": "Arclight"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "2973",
+                "value": "Edge Entertainment"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "30490",
+                "value": "Ediciones Primigenio"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "7992",
+                "value": "MINDOK"
               }
             },
             {
@@ -433,21 +496,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "1075"
+                        "value": "2268"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.22586"
+                        "value": "7.0997"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.31119"
+                        "value": "6.47189"
                       }
                     }
                   ],
@@ -460,8 +523,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "1242",
-                            "bayesaverage": "6.31119"
+                            "value": "1025",
+                            "bayesaverage": "6.47189"
                           }
                         },
                         {
@@ -470,8 +533,8 @@
                             "id": "5499",
                             "name": "familygames",
                             "friendlyname": "Family Game Rank",
-                            "value": "267",
-                            "bayesaverage": "6.48486"
+                            "value": "237",
+                            "bayesaverage": "6.61189"
                           }
                         }
                       ]
@@ -480,7 +543,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.1536"
+                        "value": "1.1703"
                       }
                     }
                   ],
@@ -494,49 +557,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "2026"
+                        "value": "3821"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "19"
+                        "value": "60"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "112"
+                        "value": "116"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "526"
+                        "value": "632"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "258"
+                        "value": "506"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "27"
+                        "value": "49"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "1.4074"
+                        "value": "1.4694"
                       }
                     }
                   ]

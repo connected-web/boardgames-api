@@ -131,27 +131,27 @@
     },
     {
       "date": "2018-12-15",
-      "name": "Duelosaur Island",
-      "winner": "Draw",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-12-15",
       "name": "Letters to Santa",
       "winner": "Hannah",
       "coOp": "No"
     },
     {
-      "date": "2018-12-16",
-      "name": "Codenames",
-      "coOp": "Yes",
-      "coOpOutcome": "Won"
+      "date": "2018-12-15",
+      "name": "Duelosaur Island",
+      "winner": "Draw",
+      "coOp": "No"
     },
     {
       "date": "2018-12-16",
       "name": "Codenames",
       "coOp": "Yes",
       "coOpOutcome": "Lost"
+    },
+    {
+      "date": "2018-12-16",
+      "name": "Codenames",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
     },
     {
       "date": "2018-12-17",
@@ -169,13 +169,6 @@
       "date": "2018-12-19",
       "name": "Werewolf",
       "coOp": "Yes",
-      "coOpOutcome": "Lost",
-      "note": "15"
-    },
-    {
-      "date": "2018-12-19",
-      "name": "Werewolf",
-      "coOp": "Yes",
       "coOpOutcome": "Won",
       "note": "15"
     },
@@ -184,6 +177,13 @@
       "name": "Love Letter",
       "winner": "Hannah",
       "coOp": "No"
+    },
+    {
+      "date": "2018-12-19",
+      "name": "Werewolf",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost",
+      "note": "15"
     },
     {
       "date": "2018-12-19",
@@ -315,8 +315,8 @@
       "games": [
         "Werewolf",
         "Werewolf",
-        "Werewolf",
-        "Love Letter"
+        "Love Letter",
+        "Werewolf"
       ]
     }
   ],

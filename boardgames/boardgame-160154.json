@@ -129,7 +129,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "6"
+                "totalvotes": "8"
               },
               "results": [
                 {
@@ -177,7 +177,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     }
                   ]
@@ -190,13 +190,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "3"
+                        "numvotes": "4"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "1"
+                        "numvotes": "2"
                       }
                     },
                     {
@@ -215,7 +215,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "3"
+                        "numvotes": "5"
                       }
                     },
                     {
@@ -355,35 +355,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "1",
+                        "level": "331",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "2",
+                        "level": "332",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "3",
+                        "level": "333",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "4",
+                        "level": "334",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "5",
+                        "level": "335",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -481,6 +481,21 @@
             },
             {
               "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "185817",
+                "value": "Metropolia",
+                "inbound": "true"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamecompilation",
+                "id": "280191",
+                "value": "Machi Koro: 5th Anniversary Expansions"
+              }
+            },
+            {
+              "_attributes": {
                 "type": "boardgamecompilation",
                 "id": "175239",
                 "value": "Machi Koro: Deluxe Edition"
@@ -516,6 +531,13 @@
             },
             {
               "_attributes": {
+                "type": "boardgameartist",
+                "id": "118473",
+                "value": "Taro Hino"
+              }
+            },
+            {
+              "_attributes": {
                 "type": "boardgamepublisher",
                 "id": "25355",
                 "value": "Grounding"
@@ -532,7 +554,7 @@
               "_attributes": {
                 "type": "boardgamepublisher",
                 "id": "26380",
-                "value": "Foxgames (Poland)"
+                "value": "FoxGames"
               }
             },
             {
@@ -602,21 +624,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "1745"
+                        "value": "1970"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "6.79275"
+                        "value": "6.75357"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.25555"
+                        "value": "6.22149"
                       }
                     }
                   ],
@@ -630,7 +652,7 @@
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "6.25555"
+                            "bayesaverage": "6.22149"
                           }
                         }
                       ]
@@ -639,7 +661,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.36809"
+                        "value": "1.38114"
                       }
                     }
                   ],
@@ -653,49 +675,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "6688"
+                        "value": "7291"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "150"
+                        "value": "162"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "84"
+                        "value": "80"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "357"
+                        "value": "344"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "358"
+                        "value": "425"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "47"
+                        "value": "51"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "1.766"
+                        "value": "1.7647"
                       }
                     }
                   ]

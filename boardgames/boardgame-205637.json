@@ -71,6 +71,13 @@
               "_attributes": {
                 "type": "alternate",
                 "sortindex": "1",
+                "value": "Жах Аркгема: Карткова Гра"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
                 "value": "Ужас Аркхэма: Карточная игра"
               }
             },
@@ -93,6 +100,13 @@
                 "type": "alternate",
                 "sortindex": "1",
                 "value": "魔鎮驚魂卡牌版"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "아컴 호러: 카드 게임"
               }
             }
           ],
@@ -129,7 +143,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "351"
+                "totalvotes": "516"
               },
               "results": [
                 {
@@ -140,19 +154,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "96"
+                        "numvotes": "145"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "188"
+                        "numvotes": "272"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "19"
+                        "numvotes": "30"
                       }
                     }
                   ]
@@ -165,19 +179,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "235"
+                        "numvotes": "345"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "80"
+                        "numvotes": "116"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "5"
+                        "numvotes": "6"
                       }
                     }
                   ]
@@ -190,19 +204,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "46"
+                        "numvotes": "73"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "119"
+                        "numvotes": "174"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "63"
+                        "numvotes": "95"
                       }
                     }
                   ]
@@ -213,7 +227,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "65"
+                "totalvotes": "105"
               },
               "results": [
                 {
@@ -251,31 +265,31 @@
                     {
                       "_attributes": {
                         "value": "8",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "10",
-                        "numvotes": "8"
+                        "numvotes": "11"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "12",
-                        "numvotes": "24"
+                        "numvotes": "32"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "14",
-                        "numvotes": "25"
+                        "numvotes": "46"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "16",
-                        "numvotes": "5"
+                        "numvotes": "12"
                       }
                     },
                     {
@@ -298,7 +312,7 @@
               "_attributes": {
                 "name": "language_dependence",
                 "title": "Language Dependence",
-                "totalvotes": "21"
+                "totalvotes": "29"
               },
               "results": [
                 {
@@ -328,14 +342,14 @@
                       "_attributes": {
                         "level": "9",
                         "value": "Extensive use of text - massive conversion needed to be playable",
-                        "numvotes": "19"
+                        "numvotes": "25"
                       }
                     },
                     {
                       "_attributes": {
                         "level": "10",
                         "value": "Unplayable in another language",
-                        "numvotes": "2"
+                        "numvotes": "4"
                       }
                     }
                   ]
@@ -418,21 +432,14 @@
               "_attributes": {
                 "type": "boardgamemechanic",
                 "id": "2001",
-                "value": "Action Point Allowance System"
+                "value": "Action Points"
               }
             },
             {
               "_attributes": {
                 "type": "boardgamemechanic",
                 "id": "2023",
-                "value": "Cooperative Play"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamemechanic",
-                "id": "2664",
-                "value": "Deck / Pool Building"
+                "value": "Cooperative Game"
               }
             },
             {
@@ -447,6 +454,13 @@
                 "type": "boardgamemechanic",
                 "id": "2028",
                 "value": "Role Playing"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2819",
+                "value": "Solo / Solitaire Game"
               }
             },
             {
@@ -508,8 +522,29 @@
             {
               "_attributes": {
                 "type": "boardgameexpansion",
+                "id": "288607",
+                "value": "Arkham Horror: The Card Game – A Thousand Shapes of Horror: Mythos Pack"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "276291",
+                "value": "Arkham Horror: The Card Game – Before the Black Throne: Mythos Pack"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
                 "id": "238530",
                 "value": "Arkham Horror: The Card Game – Beta Cards from Arkham Night 2017"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "275585",
+                "value": "Arkham Horror: The Card Game – Beta Cards from Arkham Night 2018"
               }
             },
             {
@@ -550,6 +585,20 @@
             {
               "_attributes": {
                 "type": "boardgameexpansion",
+                "id": "291559",
+                "value": "Arkham Horror: The Card Game – Dark Side of the Moon: Mythos Pack"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "298128",
+                "value": "Arkham Horror: The Card Game – Dexter Drake Promo Cards"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
                 "id": "242088",
                 "value": "Arkham Horror: The Card Game – Dim Carcosa: Mythos Pack"
               }
@@ -564,6 +613,13 @@
             {
               "_attributes": {
                 "type": "boardgameexpansion",
+                "id": "267974",
+                "value": "Arkham Horror: The Card Game – For the Greater Good: Mythos Pack"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
                 "id": "252899",
                 "value": "Arkham Horror: The Card Game – Guardians of the Abyss: Scenario Pack"
               }
@@ -573,6 +629,13 @@
                 "type": "boardgameexpansion",
                 "id": "251733",
                 "value": "Arkham Horror: The Card Game – Heart of the Elders: Mythos Pack"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "272752",
+                "value": "Arkham Horror: The Card Game – In The Clutches of Chaos: Mythos Pack"
               }
             },
             {
@@ -599,8 +662,22 @@
             {
               "_attributes": {
                 "type": "boardgameexpansion",
+                "id": "284354",
+                "value": "Arkham Horror: The Card Game – Murder at the Excelsior Hotel: Scenario Pack"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
                 "id": "241622",
                 "value": "Arkham Horror: The Card Game – Norman Withers Promo Cards"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "293271",
+                "value": "Arkham Horror: The Card Game – Point of No Return: Mythos Pack"
               }
             },
             {
@@ -615,6 +692,13 @@
                 "type": "boardgameexpansion",
                 "id": "244145",
                 "value": "Arkham Horror: The Card Game – Return to the Night of the Zealot"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "279196",
+                "value": "Arkham Horror: The Card Game – Return to the Path to Carcosa"
               }
             },
             {
@@ -636,6 +720,13 @@
                 "type": "boardgameexpansion",
                 "id": "248199",
                 "value": "Arkham Horror: The Card Game – Silas Marsh Promo Cards"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "280714",
+                "value": "Arkham Horror: The Card Game – The Blob That Ate Everything: Scenario Pack"
               }
             },
             {
@@ -664,6 +755,13 @@
                 "type": "boardgameexpansion",
                 "id": "255900",
                 "value": "Arkham Horror: The Card Game – The Depths of Yoth: Mythos Pack"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "281541",
+                "value": "Arkham Horror: The Card Game – The Dream-Eaters: Expansion"
               }
             },
             {
@@ -732,8 +830,29 @@
             {
               "_attributes": {
                 "type": "boardgameexpansion",
+                "id": "286257",
+                "value": "Arkham Horror: The Card Game – The Search for Kadath: Mythos Pack"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "264459",
+                "value": "Arkham Horror: The Card Game – The Secret Name: Mythos Pack"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
                 "id": "230510",
                 "value": "Arkham Horror: The Card Game – The Unspeakable Oath: Mythos Pack"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "266377",
+                "value": "Arkham Horror: The Card Game – The Wages of Sin: Mythos Pack"
               }
             },
             {
@@ -753,8 +872,36 @@
             {
               "_attributes": {
                 "type": "boardgameexpansion",
+                "id": "271056",
+                "value": "Arkham Horror: The Card Game – Union and Disillusion: Mythos Pack"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "297471",
+                "value": "Arkham Horror: The Card Game – Weaver of the Cosmos: Mythos Pack"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
                 "id": "221725",
                 "value": "Arkham Horror: The Card Game – Where Doom Awaits: Mythos Pack"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "297200",
+                "value": "Arkham Horror: The Card Game – Where the Gods Dwell: Mythos Pack"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "295594",
+                "value": "Barkham Horror: The Card Game – The Meddling of Meowlathotep: Scenario Pack"
               }
             },
             {
@@ -875,6 +1022,20 @@
                 "id": "18852",
                 "value": "Hobby World"
               }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "8291",
+                "value": "Korea Boardgames co., Ltd."
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "44209",
+                "value": "Ігромаг"
+              }
             }
           ],
           "statistics": [
@@ -887,21 +1048,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "14006"
+                        "value": "21364"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "8.24851"
+                        "value": "8.18976"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "7.91803"
+                        "value": "7.91627"
                       }
                     }
                   ],
@@ -914,8 +1075,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "18",
-                            "bayesaverage": "7.91803"
+                            "value": "21",
+                            "bayesaverage": "7.91627"
                           }
                         },
                         {
@@ -925,7 +1086,7 @@
                             "name": "cgs",
                             "friendlyname": "Customizable Rank",
                             "value": "1",
-                            "bayesaverage": "7.96635"
+                            "bayesaverage": "7.99936"
                           }
                         },
                         {
@@ -935,7 +1096,7 @@
                             "name": "thematic",
                             "friendlyname": "Thematic Rank",
                             "value": "8",
-                            "bayesaverage": "7.97714"
+                            "bayesaverage": "7.94485"
                           }
                         }
                       ]
@@ -944,7 +1105,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.4245"
+                        "value": "1.45395"
                       }
                     }
                   ],
@@ -958,49 +1119,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "26282"
+                        "value": "38569"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "303"
+                        "value": "542"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "731"
+                        "value": "741"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "4847"
+                        "value": "6088"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "2292"
+                        "value": "3443"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "400"
+                        "value": "635"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "3.27"
+                        "value": "3.3496"
                       }
                     }
                   ]

@@ -215,7 +215,48 @@
                 "name": "language_dependence",
                 "title": "Language Dependence",
                 "totalvotes": "0"
-              }
+              },
+              "results": [
+                {
+                  "result": [
+                    {
+                      "_attributes": {
+                        "level": "1",
+                        "value": "No necessary in-game text",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "2",
+                        "value": "Some necessary text - easily memorized or small crib sheet",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "3",
+                        "value": "Moderate in-game text - needs crib sheet or paste ups",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "4",
+                        "value": "Extensive use of text - massive conversion needed to be playable",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "5",
+                        "value": "Unplayable in another language",
+                        "numvotes": "0"
+                      }
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "playingtime": [
@@ -272,7 +313,7 @@
               "_attributes": {
                 "type": "boardgamemechanic",
                 "id": "2664",
-                "value": "Deck / Pool Building"
+                "value": "Deck, Bag, and Pool Building"
               }
             },
             {
@@ -378,6 +419,13 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "43758",
+                "value": "Hangom Games"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "16687",
                 "value": "Japanime Games"
               }
@@ -393,21 +441,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "61"
+                        "value": "98"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.87459"
+                        "value": "7.91867"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "5.61302"
+                        "value": "5.65665"
                       }
                     }
                   ],
@@ -421,7 +469,7 @@
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "5.61302"
+                            "bayesaverage": "5.65665"
                           }
                         }
                       ]
@@ -430,7 +478,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.43797"
+                        "value": "1.30031"
                       }
                     }
                   ],
@@ -444,35 +492,35 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "335"
+                        "value": "513"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "5"
+                        "value": "8"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "7"
+                        "value": "12"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "33"
+                        "value": "34"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "16"
+                        "value": "22"
                       }
                     }
                   ],

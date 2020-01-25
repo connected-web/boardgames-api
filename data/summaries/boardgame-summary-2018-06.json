@@ -67,15 +67,16 @@
     },
     {
       "date": "2018-06-02",
-      "name": "Jurassic Snack",
-      "winner": "John",
+      "name": "Ticket to Ride: New York",
+      "winner": "Hannah",
       "coOp": "No"
     },
     {
       "date": "2018-06-02",
-      "name": "Ticket to Ride: New York",
-      "winner": "Hannah",
-      "coOp": "No"
+      "name": "Space Base",
+      "winner": "John",
+      "coOp": "No",
+      "note": "3P"
     },
     {
       "date": "2018-06-02",
@@ -86,16 +87,15 @@
     },
     {
       "date": "2018-06-02",
-      "name": "Space Base",
+      "name": "Jurassic Snack",
       "winner": "John",
-      "coOp": "No",
-      "note": "3P"
+      "coOp": "No"
     },
     {
       "date": "2018-06-03",
-      "name": "Troika",
-      "winner": "John",
-      "coOp": "No"
+      "name": "Pandemic: The Cure",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
     },
     {
       "date": "2018-06-03",
@@ -111,9 +111,9 @@
     },
     {
       "date": "2018-06-03",
-      "name": "Pandemic: The Cure",
-      "coOp": "Yes",
-      "coOpOutcome": "Won"
+      "name": "Troika",
+      "winner": "John",
+      "coOp": "No"
     },
     {
       "date": "2018-06-04",
@@ -153,15 +153,15 @@
     },
     {
       "date": "2018-06-09",
-      "name": "The Castles of Burgundy",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-06-09",
       "name": "Carcassonne Big Box 6",
       "coOp": "Yes",
       "coOpOutcome": "Won"
+    },
+    {
+      "date": "2018-06-09",
+      "name": "The Castles of Burgundy",
+      "winner": "John",
+      "coOp": "No"
     },
     {
       "date": "2018-06-10",
@@ -207,14 +207,14 @@
     },
     {
       "date": "2018-06-17",
-      "name": "Valeria: Card Kingdoms",
-      "winner": "John",
+      "name": "Galaxy Trucker",
+      "winner": "Hannah",
       "coOp": "No"
     },
     {
       "date": "2018-06-17",
-      "name": "Galaxy Trucker",
-      "winner": "Hannah",
+      "name": "Valeria: Card Kingdoms",
+      "winner": "John",
       "coOp": "No"
     },
     {
@@ -255,20 +255,20 @@
     },
     {
       "date": "2018-06-23",
-      "name": "Pandemic: On the Brink",
-      "coOp": "Yes",
-      "coOpOutcome": "Won"
-    },
-    {
-      "date": "2018-06-23",
       "name": "Space Base",
       "winner": "Hannah",
       "coOp": "No"
     },
     {
+      "date": "2018-06-23",
+      "name": "Pandemic: On the Brink",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
       "date": "2018-06-24",
-      "name": "Ticket to Ride: Europe",
-      "winner": "Hannah",
+      "name": "Ticket to Ride Map Collection: Volume 5 – United Kingdom & Pennsylvania",
+      "winner": "John",
       "coOp": "No"
     },
     {
@@ -279,8 +279,8 @@
     },
     {
       "date": "2018-06-24",
-      "name": "Ticket to Ride Map Collection: Volume 5 – United Kingdom & Pennsylvania",
-      "winner": "John",
+      "name": "Ticket to Ride: Europe",
+      "winner": "Hannah",
       "coOp": "No"
     },
     {
@@ -291,15 +291,15 @@
     },
     {
       "date": "2018-06-26",
-      "name": "HATSUDEN",
-      "winner": "Draw",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-06-26",
       "name": "Pandemic: In the Lab",
       "coOp": "Yes",
       "coOpOutcome": "Lost"
+    },
+    {
+      "date": "2018-06-26",
+      "name": "HATSUDEN",
+      "winner": "Draw",
+      "coOp": "No"
     },
     {
       "date": "2018-06-27",
@@ -311,13 +311,13 @@
       "date": "2018-06-28",
       "name": "Codenames",
       "coOp": "Yes",
-      "coOpOutcome": "Lost"
+      "coOpOutcome": "Won"
     },
     {
       "date": "2018-06-28",
       "name": "Codenames",
       "coOp": "Yes",
-      "coOpOutcome": "Won"
+      "coOpOutcome": "Lost"
     },
     {
       "date": "2018-06-29",
@@ -368,27 +368,27 @@
     {
       "date": "2018-06-02",
       "games": [
-        "Space Base",
+        "Jurassic Snack",
         "Shadows Amsterdam",
         "Fog of Love",
         "Shadows Amsterdam",
         "Dominion (Second Edition)",
-        "Jurassic Snack",
-        "Ticket to Ride: New York"
+        "Ticket to Ride: New York",
+        "Space Base"
       ]
     }
   ],
   "mostPlayedGames": [
+    {
+      "name": "Troika",
+      "plays": 4
+    },
     {
       "name": "Space Base",
       "plays": 4
     },
     {
       "name": "Valeria: Card Kingdoms",
-      "plays": 4
-    },
-    {
-      "name": "Troika",
       "plays": 4
     }
   ],

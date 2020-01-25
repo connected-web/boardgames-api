@@ -66,6 +66,13 @@
                 "sortindex": "1",
                 "value": "Horror w Arkham: Gra karciana – Klątwa Rougarou: Scenariusz"
               }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "Ужас Аркхэма. Карточная игра: Проклятие ругару"
+              }
             }
           ],
           "description": [
@@ -137,13 +144,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "5"
+                        "numvotes": "4"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "2"
+                        "numvotes": "3"
                       }
                     },
                     {
@@ -162,13 +169,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "1"
+                        "numvotes": "2"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "1"
+                        "numvotes": "0"
                       }
                     },
                     {
@@ -187,7 +194,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     },
                     {
@@ -199,7 +206,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "3"
+                        "numvotes": "2"
                       }
                     }
                   ]
@@ -235,7 +242,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "2"
+                "totalvotes": "3"
               },
               "results": [
                 {
@@ -291,7 +298,7 @@
                     {
                       "_attributes": {
                         "value": "14",
-                        "numvotes": "1"
+                        "numvotes": "2"
                       }
                     },
                     {
@@ -327,35 +334,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "6",
+                        "level": "21",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "7",
+                        "level": "22",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "8",
+                        "level": "23",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "9",
+                        "level": "24",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "10",
+                        "level": "25",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -397,8 +404,22 @@
             {
               "_attributes": {
                 "type": "boardgamecategory",
+                "id": "1022",
+                "value": "Adventure"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamecategory",
                 "id": "1002",
                 "value": "Card Game"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamecategory",
+                "id": "1044",
+                "value": "Collectible Components"
               }
             },
             {
@@ -432,8 +453,22 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
+                "id": "2001",
+                "value": "Action Points"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
                 "id": "2023",
-                "value": "Cooperative Play"
+                "value": "Cooperative Game"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2664",
+                "value": "Deck, Bag, and Pool Building"
               }
             },
             {
@@ -441,6 +476,13 @@
                 "type": "boardgamemechanic",
                 "id": "2040",
                 "value": "Hand Management"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2028",
+                "value": "Role Playing"
               }
             },
             {
@@ -517,8 +559,134 @@
             {
               "_attributes": {
                 "type": "boardgameartist",
-                "id": "50786",
-                "value": "Christopher Hosch"
+                "id": "12101",
+                "value": "Andreas Adamek"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "122470",
+                "value": "Alex Aguilar"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "62264",
+                "value": "Helge C. Balzer"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "78030",
+                "value": "Arden Beckwith"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "78059",
+                "value": "Michael Berube"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "29339",
+                "value": "Sara Biddle"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "77570",
+                "value": "Grzegorz Bobrowski"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "63040",
+                "value": "Jon Bosco"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "68432",
+                "value": "Marius Bota"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "21091",
+                "value": "Jason Caffoe"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "67030",
+                "value": "J. B. Casacop"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "75483",
+                "value": "Anthony Devine"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "122442",
+                "value": "Daniel Dulitzky"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "77084",
+                "value": "Alexandr Elichev"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "78038",
+                "value": "Allen Michael N. Geneta"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "69493",
+                "value": "Nicholas Gregory"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "89694",
+                "value": "James Ives"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "122471",
+                "value": "Kim Artem"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "122472",
+                "value": "Kim Chi Zutyn"
               }
             },
             {
@@ -526,13 +694,6 @@
                 "type": "boardgameartist",
                 "id": "46353",
                 "value": "Ignacio Bazán Lazcano"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgameartist",
-                "id": "24858",
-                "value": "Henning Ludvigsen"
               }
             },
             {
@@ -559,8 +720,57 @@
             {
               "_attributes": {
                 "type": "boardgameartist",
+                "id": "64155",
+                "value": "Tadas Sidlauskas"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
                 "id": "59148",
                 "value": "Evan Simonet"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "93631",
+                "value": "Preston Stone"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "49384",
+                "value": "Nikolay Stoyanov"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "41191",
+                "value": "Allison Theus"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "70291",
+                "value": "Damon Westenhofer"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "17932",
+                "value": "Darek Zabrocki"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "68133",
+                "value": "Andreas Zafiratos"
               }
             },
             {
@@ -590,6 +800,13 @@
                 "id": "4617",
                 "value": "Galakta"
               }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "18852",
+                "value": "Hobby World"
+              }
             }
           ],
           "statistics": [
@@ -602,21 +819,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "612"
+                        "value": "822"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.97629"
+                        "value": "7.89907"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.28963"
+                        "value": "6.33998"
                       }
                     }
                   ],
@@ -630,7 +847,7 @@
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "6.28963"
+                            "bayesaverage": "6.33998"
                           }
                         }
                       ]
@@ -639,7 +856,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.311"
+                        "value": "1.33535"
                       }
                     }
                   ],
@@ -653,49 +870,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "5213"
+                        "value": "6555"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "31"
+                        "value": "45"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "92"
+                        "value": "108"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "297"
+                        "value": "328"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "146"
+                        "value": "185"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "7"
+                        "value": "10"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "3.4286"
+                        "value": "3.4"
                       }
                     }
                   ]

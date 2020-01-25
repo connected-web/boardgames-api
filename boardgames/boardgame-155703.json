@@ -52,6 +52,20 @@
                 "sortindex": "1",
                 "value": "Эволюция. Естественный отбор"
               }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "เกมวิวัฒนาการ"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "物种演化"
+              }
             }
           ],
           "description": [
@@ -87,7 +101,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "146"
+                "totalvotes": "175"
               },
               "results": [
                 {
@@ -104,13 +118,13 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "1"
+                        "numvotes": "3"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "73"
+                        "numvotes": "94"
                       }
                     }
                   ]
@@ -123,19 +137,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "13"
+                        "numvotes": "15"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "63"
+                        "numvotes": "78"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "41"
+                        "numvotes": "48"
                       }
                     }
                   ]
@@ -148,13 +162,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "38"
+                        "numvotes": "48"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "76"
+                        "numvotes": "90"
                       }
                     },
                     {
@@ -173,19 +187,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "100"
+                        "numvotes": "121"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "25"
+                        "numvotes": "31"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "1"
+                        "numvotes": "2"
                       }
                     }
                   ]
@@ -198,19 +212,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "34"
+                        "numvotes": "40"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "67"
+                        "numvotes": "80"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "7"
+                        "numvotes": "11"
                       }
                     }
                   ]
@@ -223,19 +237,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "10"
+                        "numvotes": "9"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "53"
+                        "numvotes": "67"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "33"
+                        "numvotes": "40"
                       }
                     }
                   ]
@@ -260,7 +274,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "57"
+                        "numvotes": "75"
                       }
                     }
                   ]
@@ -271,7 +285,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "38"
+                "totalvotes": "47"
               },
               "results": [
                 {
@@ -303,19 +317,19 @@
                     {
                       "_attributes": {
                         "value": "6",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "8",
-                        "numvotes": "9"
+                        "numvotes": "14"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "10",
-                        "numvotes": "16"
+                        "numvotes": "19"
                       }
                     },
                     {
@@ -356,42 +370,42 @@
               "_attributes": {
                 "name": "language_dependence",
                 "title": "Language Dependence",
-                "totalvotes": "31"
+                "totalvotes": "34"
               },
               "results": [
                 {
                   "result": [
                     {
                       "_attributes": {
-                        "level": "46",
+                        "level": "141",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "47",
+                        "level": "142",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "4"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "48",
+                        "level": "143",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
-                        "numvotes": "23"
+                        "numvotes": "25"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "49",
+                        "level": "144",
                         "value": "Extensive use of text - massive conversion needed to be playable",
-                        "numvotes": "4"
+                        "numvotes": "5"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "50",
+                        "level": "145",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -483,7 +497,7 @@
               "_attributes": {
                 "type": "boardgamemechanic",
                 "id": "2001",
-                "value": "Action Point Allowance System"
+                "value": "Action Points"
               }
             },
             {
@@ -497,7 +511,7 @@
               "_attributes": {
                 "type": "boardgamemechanic",
                 "id": "2661",
-                "value": "Press Your Luck"
+                "value": "Push Your Luck"
               }
             },
             {
@@ -531,6 +545,20 @@
             {
               "_attributes": {
                 "type": "boardgamefamily",
+                "id": "16886",
+                "value": "Biological evolution"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
+                "id": "59442",
+                "value": "Biology"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
                 "id": "8374",
                 "value": "Crowdfunding: Kickstarter"
               }
@@ -540,13 +568,6 @@
                 "type": "boardgamefamily",
                 "id": "48786",
                 "value": "Evolution (North Star Games)"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamefamily",
-                "id": "16886",
-                "value": "Theme: Biological Evolution"
               }
             },
             {
@@ -588,7 +609,7 @@
               "_attributes": {
                 "type": "boardgameexpansion",
                 "id": "240266",
-                "value": "Evolution: Last Frontier"
+                "value": "Evolution: Last Stand"
               }
             },
             {
@@ -622,8 +643,22 @@
             {
               "_attributes": {
                 "type": "boardgameexpansion",
+                "id": "291341",
+                "value": "Evolution: Promo Pack IV"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
                 "id": "195586",
                 "value": "Evolution: Scenario Cards"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "297276",
+                "value": "Evolution: Venom"
               }
             },
             {
@@ -631,6 +666,13 @@
                 "type": "boardgameimplementation",
                 "id": "182134",
                 "value": "Evolution: Climate"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameimplementation",
+                "id": "232414",
+                "value": "Oceans"
               }
             },
             {
@@ -728,6 +770,13 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "38209",
+                "value": "Gameland 游戏大陆"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "8820",
                 "value": "Gém Klub Kft."
               }
@@ -752,6 +801,13 @@
                 "id": "38",
                 "value": "Schmidt Spiele"
               }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "33998",
+                "value": "Siam Board Games"
+              }
             }
           ],
           "statistics": [
@@ -764,21 +820,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "9741"
+                        "value": "11961"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.22509"
+                        "value": "7.17444"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "7.0058"
+                        "value": "6.96291"
                       }
                     }
                   ],
@@ -791,8 +847,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "339",
-                            "bayesaverage": "7.0058"
+                            "value": "402",
+                            "bayesaverage": "6.96291"
                           }
                         },
                         {
@@ -801,8 +857,8 @@
                             "id": "5497",
                             "name": "strategygames",
                             "friendlyname": "Strategy Game Rank",
-                            "value": "251",
-                            "bayesaverage": "7.01881"
+                            "value": "287",
+                            "bayesaverage": "6.97415"
                           }
                         }
                       ]
@@ -811,7 +867,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.29384"
+                        "value": "1.30635"
                       }
                     }
                   ],
@@ -825,49 +881,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "13662"
+                        "value": "16345"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "344"
+                        "value": "438"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "480"
+                        "value": "463"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "2521"
+                        "value": "2759"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "1876"
+                        "value": "2254"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "429"
+                        "value": "483"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2.4569"
+                        "value": "2.4348"
                       }
                     }
                   ]

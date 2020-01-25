@@ -101,7 +101,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "22"
+                "totalvotes": "48"
               },
               "results": [
                 {
@@ -118,13 +118,13 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "15"
+                        "numvotes": "35"
                       }
                     }
                   ]
@@ -137,13 +137,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "13"
+                        "numvotes": "28"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "7"
+                        "numvotes": "17"
                       }
                     },
                     {
@@ -162,19 +162,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "11"
+                        "numvotes": "23"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "9"
+                        "numvotes": "20"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     }
                   ]
@@ -187,19 +187,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "4"
+                        "numvotes": "11"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "12"
+                        "numvotes": "24"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "4"
+                        "numvotes": "7"
                       }
                     }
                   ]
@@ -218,13 +218,13 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "1"
+                        "numvotes": "5"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "12"
+                        "numvotes": "24"
                       }
                     }
                   ]
@@ -235,7 +235,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "5"
+                "totalvotes": "11"
               },
               "results": [
                 {
@@ -273,7 +273,7 @@
                     {
                       "_attributes": {
                         "value": "8",
-                        "numvotes": "2"
+                        "numvotes": "6"
                       }
                     },
                     {
@@ -285,7 +285,7 @@
                     {
                       "_attributes": {
                         "value": "12",
-                        "numvotes": "3"
+                        "numvotes": "5"
                       }
                     },
                     {
@@ -419,7 +419,7 @@
               "_attributes": {
                 "type": "boardgamemechanic",
                 "id": "2664",
-                "value": "Deck / Pool Building"
+                "value": "Deck, Bag, and Pool Building"
               }
             },
             {
@@ -453,6 +453,13 @@
             {
               "_attributes": {
                 "type": "boardgameexpansion",
+                "id": "172592",
+                "value": "Dominion: Alchemisten & Reiche Ernte – Mixbox"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
                 "id": "66098",
                 "value": "Dominion: Alchemy"
               }
@@ -462,6 +469,20 @@
                 "type": "boardgameexpansion",
                 "id": "41105",
                 "value": "Dominion: Black Market Promo Card"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "285887",
+                "value": "Dominion: Captain Promo Card"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "285888",
+                "value": "Dominion: Church Promo Card"
               }
             },
             {
@@ -544,6 +565,13 @@
             {
               "_attributes": {
                 "type": "boardgameexpansion",
+                "id": "298055",
+                "value": "Dominion: Menagerie"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
                 "id": "232452",
                 "value": "Dominion: Nocturne"
               }
@@ -621,16 +649,15 @@
             {
               "_attributes": {
                 "type": "boardgamecompilation",
-                "id": "209357",
-                "value": "Dominion: Update Pack",
-                "inbound": "true"
+                "id": "216849",
+                "value": "Dominion (Second Edition) Big Box"
               }
             },
             {
               "_attributes": {
                 "type": "boardgamecompilation",
-                "id": "216849",
-                "value": "Dominion (Second Edition) Big Box"
+                "id": "275626",
+                "value": "Dominion Einsteiger-Bigbox"
               }
             },
             {
@@ -722,21 +749,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "1149"
+                        "value": "2572"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "8.21417"
+                        "value": "8.00565"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.74469"
+                        "value": "7.05037"
                       }
                     }
                   ],
@@ -749,8 +776,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "Not Ranked",
-                            "bayesaverage": "6.74469"
+                            "value": "325",
+                            "bayesaverage": "7.05037"
                           }
                         },
                         {
@@ -759,8 +786,8 @@
                             "id": "5497",
                             "name": "strategygames",
                             "friendlyname": "Strategy Game Rank",
-                            "value": "Not Ranked",
-                            "bayesaverage": "6.82911"
+                            "value": "214",
+                            "bayesaverage": "7.11586"
                           }
                         }
                       ]
@@ -769,7 +796,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.22177"
+                        "value": "1.3592"
                       }
                     }
                   ],
@@ -783,49 +810,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "2542"
+                        "value": "4612"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "29"
+                        "value": "40"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "57"
+                        "value": "79"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "484"
+                        "value": "807"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "215"
+                        "value": "373"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "40"
+                        "value": "68"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2.225"
+                        "value": "2.25"
                       }
                     }
                   ]

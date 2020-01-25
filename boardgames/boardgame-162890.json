@@ -36,6 +36,13 @@
               "_attributes": {
                 "type": "alternate",
                 "sortindex": "5",
+                "value": "The Resistance: Projet Secret"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "5",
                 "value": "Der Widerstand: Geheime Pläne"
               }
             }
@@ -43,7 +50,7 @@
           "description": [
             {
               "_text": [
-                "Hidden Agenda is an expansion to The Resistance that consists of three different modules:&#10;&#10;Assassin Module:  Ever since we announced The Resistance: Avalon the request has been to take the exciting new roles from Avalon and make them available for The Resistance.  We are very excited to now make that available - the Assassin module of Hidden Agenda contains all the Avalon roles, rethemed and renamed to fit into The Resistance Universe.&#10;&#10;Defector Module: Two variants in one, the Defectors were included as part of the Avalon promos.  In one variant, the Defectors can switch allegiance during the game - ensuring that players are never quite certain who to trust.  In the second variant version the two Defectors know each other - ensuring that the accusations of deceit begin from the very opening of the game.&#10;&#10;Trapper Module: Every proposed Mission Team includes an extra person that won't go on the mission.  The leader will isolate a team member and watch their every move - making sure they can't make the mission fail. If you are a spy on the Mission Team, you&rsquo;ll never know if you will cause a mission to fail or simply be giving your identity away. But resistance members will have to approve some missions knowing that a spy is on them and trust that the leader chooses to isolate the spy.&#10;&#10;The first printing of Hidden Agenda omitted the rules for optional character powers.  Those rules can be found here elsewhere on this site.&#10;&#10;"
+                "Hidden Agenda is an expansion to The Resistance that consists of three different modules:&#10;&#10;Assassin Module:  Ever since we announced The Resistance: Avalon the request has been to take the exciting new roles from Avalon and make them available for The Resistance.  We are very excited to now make that available - the Assassin module of Hidden Agenda contains all the Avalon roles, rethemed and renamed to fit into The Resistance Universe.&#10;&#10;Defector Module: Two variants in one, the Defectors were included as part of the Avalon promos.  In one variant, the Defectors can switch allegiance during the game - ensuring that players are never quite certain who to trust.  In the second variant version the two Defectors know each other - ensuring that the accusations of deceit begin from the very opening of the game.&#10;&#10;Trapper Module: Every proposed Mission Team includes an extra person that won't go on the mission.  The leader will isolate a team member and watch their every move - making sure they can't make the mission fail. If you are a spy on the Mission Team, you&rsquo;ll never know if you will cause a mission to fail or simply be giving your identity away. But resistance members will have to approve some missions knowing that a spy is on them and trust that the leader chooses to isolate the spy.&#10;&#10;The first printing of Hidden Agenda omitted the rules for optional character powers.  Those rules can be found here elsewhere on this site.&#10;&#10;Includes 25 new cards (89mm x 64mm) and 1 team token.&#10;&#10;"
               ]
             }
           ],
@@ -357,7 +364,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "1"
+                "totalvotes": "2"
               },
               "results": [
                 {
@@ -413,7 +420,7 @@
                     {
                       "_attributes": {
                         "value": "14",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     },
                     {
@@ -449,35 +456,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "6",
+                        "level": "16",
                         "value": "No necessary in-game text",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "7",
+                        "level": "17",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "8",
+                        "level": "18",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "9",
+                        "level": "19",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "10",
+                        "level": "20",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -568,15 +575,22 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
-                "id": "2019",
-                "value": "Partnerships"
+                "id": "2020",
+                "value": "Simultaneous Action Selection"
               }
             },
             {
               "_attributes": {
                 "type": "boardgamemechanic",
-                "id": "2020",
-                "value": "Simultaneous Action Selection"
+                "id": "2019",
+                "value": "Team-Based Game"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2814",
+                "value": "Traitor Game"
               }
             },
             {
@@ -662,6 +676,13 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "2973",
+                "value": "Edge Entertainment"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "264",
                 "value": "Heidelberger Spieleverlag"
               }
@@ -684,21 +705,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "541"
+                        "value": "644"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.80601"
+                        "value": "7.7704"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.19549"
+                        "value": "6.19365"
                       }
                     }
                   ],
@@ -712,7 +733,7 @@
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "6.19549"
+                            "bayesaverage": "6.19365"
                           }
                         }
                       ]
@@ -721,7 +742,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.38261"
+                        "value": "1.36309"
                       }
                     }
                   ],
@@ -735,49 +756,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "2867"
+                        "value": "3366"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "31"
+                        "value": "39"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "26"
+                        "value": "24"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "168"
+                        "value": "181"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "166"
+                        "value": "195"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "21"
+                        "value": "24"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "1.9048"
+                        "value": "1.9167"
                       }
                     }
                   ]

@@ -3,22 +3,33 @@
   "boardGameGeekName": "Splendor",
   "boardGameApiId": "splendor",
   "name": "Splendor",
-  "playRecords": [],
-  "totalGamesPlayed": 0,
+  "playRecords": [
+    {
+      "date": "2020-01-20",
+      "winner": "Hannah",
+      "coOp": "No"
+    }
+  ],
+  "totalGamesPlayed": 1,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
   "coOpGameLoses": 0,
   "coOpWinRate": 0,
   "coOpLossRate": 0,
-  "winCountHannah": 0,
+  "winCountHannah": 1,
   "winCountJohn": 0,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 0,
-  "winRateHannah": 0,
+  "winnableGamesTotal": 1,
+  "winRateHannah": 1,
   "winRateJohn": 0,
   "winRateOther": 0,
   "winRateDraw": 0,
-  "mostWonGames": "Draw"
+  "mostWonGames": "Hannah",
+  "description": [
+    "Splendor is a game of chip-collecting and card development. Players are merchants of the Renaissance trying to buy gem mines, means of transportation, shops&mdash;all in order to acquire the most prestige points. If you're wealthy enough, you might even receive a visit from a noble at some point, which of course will further increase your prestige.",
+    "On your turn, you may (1) collect chips (gems), or (2) buy and build a card, or (3) reserve one card. If you collect chips, you take either three different kinds of chips or two chips of the same kind. If you buy a card, you pay its price in chips and add it to your playing area. To reserve a card&mdash;in order to make sure you get it, or, why not, your opponents don't get it&mdash;you place it in front of you face down for later building; this costs you a round, but you also get gold in the form of a joker chip, which you can use as any gem.",
+    "All of the cards you buy increase your wealth as they give you a permanent gem bonus for later buys; some of the cards also give you prestige points. In order to win the game, you must reach 15 prestige points before your opponents do."
+  ]
 }

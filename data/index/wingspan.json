@@ -3,8 +3,14 @@
   "boardGameGeekName": "Wingspan",
   "boardGameApiId": "wingspan",
   "name": "Wingspan",
-  "playRecords": [],
-  "totalGamesPlayed": 0,
+  "playRecords": [
+    {
+      "date": "2020-01-18",
+      "winner": "John",
+      "coOp": "No"
+    }
+  ],
+  "totalGamesPlayed": 1,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
@@ -12,13 +18,24 @@
   "coOpWinRate": 0,
   "coOpLossRate": 0,
   "winCountHannah": 0,
-  "winCountJohn": 0,
+  "winCountJohn": 1,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 0,
+  "winnableGamesTotal": 1,
   "winRateHannah": 0,
-  "winRateJohn": 0,
+  "winRateJohn": 1,
   "winRateOther": 0,
   "winRateDraw": 0,
-  "mostWonGames": "Draw"
+  "mostWonGames": "John",
+  "description": [
+    "Wingspan is&nbsp;a competitive, medium-weight, card-driven, engine-building board game from Stonemaier Games.",
+    "You are bird enthusiasts&mdash;researchers, bird watchers, ornithologists, and collectors&mdash;seeking to discover and attract the best birds to your network of wildlife preserves. Each bird extends a chain of powerful combinations in one of your habitats (actions). These habitats  focus on several key aspects of growth:",
+    "     Gain food tokens via custom dice in a birdfeeder dice tower",
+    "     Lay eggs using egg miniatures in a variety of colors",
+    "     Draw from hundreds of unique bird cards and play them",
+    "The winner is the player with the most points after 4 rounds.",
+    "If you enjoy Terraforming Mars and Gizmos, we think this game will take flight at your table.",
+    "&mdash;description from the publisher",
+    "From the 7th printing on, the base game box includes Wingspan: Swift-Start Promo Pack."
+  ]
 }
