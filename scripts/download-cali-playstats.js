@@ -11,7 +11,6 @@ async function downloadData (filename, spreadsheetId) {
     report('Downloaded data:', (worksheets + '').length, 'bytes')
     const entries = worksheets.reduce((acc, item) => acc.concat(item), [])
     return entries
-
   } catch (ex) {
     report('Unable to download data:', ex)
   }

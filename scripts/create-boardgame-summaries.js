@@ -53,7 +53,7 @@ async function start () {
   function summariseGames (games) {
     const startDate = new Date(games.map(g => new Date(g.date).getTime()).sort((a, b) => a - b)[0])
     const endDate = new Date(games.map(g => new Date(g.date).getTime()).sort((a, b) => b - a)[0])
-    const daysInSequence = daysBetween(startDate, endDate)
+    const daysInSequence = daysBetween(startDate, endDate) + 1
     const result = {
       sequenceStartDate: startDate.toISOString().substring(0, 10),
       sequenceEndDate: endDate.toISOString().substring(0, 10)
@@ -78,7 +78,7 @@ async function start () {
 
     const daysPlayedIndex = {}
     let n = 0
-    while (n <= daysInSequence) {
+    while (n < daysInSequence) {
       n++
       daysPlayedIndex[n] = 0
     }
