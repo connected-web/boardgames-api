@@ -2,8 +2,8 @@
   "dateCode": "2020-01",
   "title": "January 2020",
   "sequenceStartDate": "2020-01-01",
-  "sequenceEndDate": "2020-01-25",
-  "daysInSequence": 24,
+  "sequenceEndDate": "2020-01-26",
+  "daysInSequence": 26,
   "daysWithUnplayedGames": 6,
   "gamesPlayedPerDay": {
     "1": 2,
@@ -30,20 +30,21 @@
     "22": 1,
     "23": 1,
     "24": 0,
-    "25": 2
+    "25": 2,
+    "26": 3
   },
   "gamesPlayed": [
-    {
-      "date": "2020-01-01",
-      "name": "Ticket to Ride: Europe",
-      "winner": "Hannah",
-      "coOp": "No"
-    },
     {
       "date": "2020-01-01",
       "name": "The Mind",
       "coOp": "Yes",
       "coOpOutcome": "Lost"
+    },
+    {
+      "date": "2020-01-01",
+      "name": "Ticket to Ride: Europe",
+      "winner": "Hannah",
+      "coOp": "No"
     },
     {
       "date": "2020-01-02",
@@ -95,13 +96,13 @@
     },
     {
       "date": "2020-01-12",
-      "name": "Jurassic Snack",
+      "name": "Topiary",
       "winner": "John",
       "coOp": "No"
     },
     {
       "date": "2020-01-12",
-      "name": "Topiary",
+      "name": "Jurassic Snack",
       "winner": "John",
       "coOp": "No"
     },
@@ -119,6 +120,12 @@
     },
     {
       "date": "2020-01-18",
+      "name": "T.I.M.E Stories: A Prophecy of Dragons",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
+    },
+    {
+      "date": "2020-01-18",
       "name": "Wingspan",
       "winner": "John",
       "coOp": "No"
@@ -130,12 +137,6 @@
       "coOp": "No"
     },
     {
-      "date": "2020-01-18",
-      "name": "T.I.M.E Stories: A Prophecy of Dragons",
-      "coOp": "Yes",
-      "coOpOutcome": "Lost"
-    },
-    {
       "date": "2020-01-19",
       "name": "Star Realms",
       "winner": "Hannah",
@@ -143,13 +144,13 @@
     },
     {
       "date": "2020-01-20",
-      "name": "Love Letter",
+      "name": "Splendor",
       "winner": "Hannah",
       "coOp": "No"
     },
     {
       "date": "2020-01-20",
-      "name": "Splendor",
+      "name": "Love Letter",
       "winner": "Hannah",
       "coOp": "No"
     },
@@ -183,6 +184,25 @@
       "name": "Tanto Cuore",
       "winner": "Hannah",
       "coOp": "No"
+    },
+    {
+      "date": "2020-01-26",
+      "name": "Pandemic: Iberia",
+      "coOp": "Yes",
+      "coOpOutcome": "Win",
+      "note": "Won by the skin of our teeth!"
+    },
+    {
+      "date": "2020-01-26",
+      "name": "Splendor",
+      "winner": "John",
+      "coOp": "Yes"
+    },
+    {
+      "date": "2020-01-26",
+      "name": "Ticket to Ride: Poland",
+      "winner": "Hannah",
+      "coOp": "No"
     }
   ],
   "uniqueGamesPlayed": [
@@ -195,6 +215,7 @@
     "Love Letter",
     "Mint Works",
     "Pandemic Legacy: Season 2",
+    "Pandemic: Iberia",
     "Splendor",
     "Star Realms",
     "T.I.M.E Stories: A Prophecy of Dragons",
@@ -203,21 +224,30 @@
     "Ticket to Ride: Europe",
     "Ticket to Ride: First Journey",
     "Ticket to Ride: Germany",
+    "Ticket to Ride: Poland",
     "Tinker Tailor",
     "Topiary",
     "Viticulture",
     "Wingspan"
   ],
-  "uniqueGamesPlayedCount": 21,
-  "totalGamesPlayed": 25,
-  "averageGamesPlayedPerDay": 1.0417,
+  "uniqueGamesPlayedCount": 23,
+  "totalGamesPlayed": 28,
+  "averageGamesPlayedPerDay": 1.0769,
   "mostGamesPlayedInADay": [
+    {
+      "date": "2020-01-26",
+      "games": [
+        "Pandemic: Iberia",
+        "Splendor",
+        "Ticket to Ride: Poland"
+      ]
+    },
     {
       "date": "2020-01-18",
       "games": [
+        "Ticket to Ride: First Journey",
         "T.I.M.E Stories: A Prophecy of Dragons",
-        "Wingspan",
-        "Ticket to Ride: First Journey"
+        "Wingspan"
       ]
     }
   ],
@@ -227,17 +257,17 @@
       "plays": 3
     }
   ],
-  "coOpGamesPlayedCount": 5,
-  "coOpGamesPlayedPercentage": 0.2,
-  "coOpGameWins": 2,
-  "coOpGameLoses": 3,
-  "winCountHannah": 13,
-  "winCountJohn": 7,
+  "coOpGamesPlayedCount": 7,
+  "coOpGamesPlayedPercentage": 0.25,
+  "coOpGameWins": 3,
+  "coOpGameLoses": 4,
+  "winCountHannah": 14,
+  "winCountJohn": 8,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 20,
-  "winRateHannah": 0.65,
-  "winRateJohn": 0.35,
+  "winnableGamesTotal": 22,
+  "winRateHannah": 0.6364,
+  "winRateJohn": 0.3636,
   "winRateOther": 0,
   "winRateDraw": 0,
   "mostWonGames": "Hannah"

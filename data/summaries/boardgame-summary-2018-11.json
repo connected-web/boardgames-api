@@ -3,7 +3,7 @@
   "title": "November 2018",
   "sequenceStartDate": "2018-11-01",
   "sequenceEndDate": "2018-11-30",
-  "daysInSequence": 29,
+  "daysInSequence": 30,
   "daysWithUnplayedGames": 0,
   "gamesPlayedPerDay": {
     "1": 1,
@@ -52,14 +52,14 @@
     },
     {
       "date": "2018-11-03",
-      "name": "Dominion: Seaside",
-      "winner": "John",
+      "name": "Deadwood 1876",
+      "winner": "Other",
       "coOp": "No"
     },
     {
       "date": "2018-11-03",
-      "name": "Deadwood 1876",
-      "winner": "Other",
+      "name": "Dominion: Seaside",
+      "winner": "John",
       "coOp": "No"
     },
     {
@@ -142,12 +142,6 @@
     },
     {
       "date": "2018-11-15",
-      "name": "Topiary",
-      "winner": "Other",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-11-15",
       "name": "Salem",
       "winner": "John",
       "coOp": "No"
@@ -157,6 +151,12 @@
       "name": "Salem",
       "coOp": "Yes",
       "coOpOutcome": "Win"
+    },
+    {
+      "date": "2018-11-15",
+      "name": "Topiary",
+      "winner": "Other",
+      "coOp": "No"
     },
     {
       "date": "2018-11-16",
@@ -191,8 +191,8 @@
     {
       "date": "2018-11-21",
       "name": "Werewolf",
-      "winner": "Hannah",
-      "coOp": "No"
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
     },
     {
       "date": "2018-11-21",
@@ -204,8 +204,8 @@
     {
       "date": "2018-11-21",
       "name": "Werewolf",
-      "coOp": "Yes",
-      "coOpOutcome": "Lost"
+      "winner": "Hannah",
+      "coOp": "No"
     },
     {
       "date": "2018-11-22",
@@ -316,7 +316,7 @@
   ],
   "uniqueGamesPlayedCount": 32,
   "totalGamesPlayed": 40,
-  "averageGamesPlayedPerDay": 1.3793,
+  "averageGamesPlayedPerDay": 1.3333,
   "mostGamesPlayedInADay": [
     {
       "date": "2018-11-21",
@@ -329,9 +329,9 @@
     {
       "date": "2018-11-15",
       "games": [
-        "Topiary",
         "Salem",
-        "Salem"
+        "Salem",
+        "Topiary"
       ]
     }
   ],

@@ -2791,6 +2791,12 @@
         "coOpOutcome": "Lost",
         "coOp": "Yes",
         "notes": "Lost with one red card short to research the final disease on the final turn; only two out breaks all game."
+      },
+      {
+        "date": "2020-01-26",
+        "coOpOutcome": "Win",
+        "coOp": "Yes",
+        "notes": "Won by the skin of our teeth!"
       }
     ]
   },
@@ -3146,6 +3152,11 @@
         "date": "2020-01-20",
         "winner": "Hannah",
         "coOp": "No"
+      },
+      {
+        "date": "2020-01-26",
+        "winner": "John",
+        "coOp": "Yes"
       }
     ]
   },
@@ -4560,5 +4571,16 @@
       }
     ],
     "name": "Ticket to Ride: First Journey"
+  },
+  "ticket-to-ride-poland": {
+    "boardGameApiId": "ticket-to-ride-poland",
+    "playRecords": [
+      {
+        "date": "2020-01-26",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
+    ],
+    "name": "Ticket to Ride: Poland"
   }
 }

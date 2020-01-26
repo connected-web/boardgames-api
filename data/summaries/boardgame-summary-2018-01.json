@@ -3,7 +3,7 @@
   "title": "January 2018",
   "sequenceStartDate": "2018-01-01",
   "sequenceEndDate": "2018-01-31",
-  "daysInSequence": 30,
+  "daysInSequence": 31,
   "daysWithUnplayedGames": 0,
   "gamesPlayedPerDay": {
     "1": 2,
@@ -77,9 +77,10 @@
     },
     {
       "date": "2018-01-06",
-      "name": "Heart of Crown",
+      "name": "Ticket to Ride Map Collection: Volume 6 – France & Old West",
       "winner": "Hannah",
-      "coOp": "No"
+      "coOp": "No",
+      "note": "France"
     },
     {
       "date": "2018-01-06",
@@ -89,10 +90,9 @@
     },
     {
       "date": "2018-01-06",
-      "name": "Ticket to Ride Map Collection: Volume 6 – France & Old West",
+      "name": "Heart of Crown",
       "winner": "Hannah",
-      "coOp": "No",
-      "note": "France"
+      "coOp": "No"
     },
     {
       "date": "2018-01-07",
@@ -273,23 +273,23 @@
     },
     {
       "date": "2018-01-29",
-      "name": "Codenames",
-      "coOp": "Yes",
-      "coOpOutcome": "Won",
-      "note": "2 player"
-    },
-    {
-      "date": "2018-01-29",
-      "name": "Codenames",
-      "coOp": "Yes",
-      "coOpOutcome": "Won",
-      "note": "2 player"
-    },
-    {
-      "date": "2018-01-29",
       "name": "Machi Koro",
       "winner": "Hannah",
       "coOp": "No"
+    },
+    {
+      "date": "2018-01-29",
+      "name": "Codenames",
+      "coOp": "Yes",
+      "coOpOutcome": "Won",
+      "note": "2 player"
+    },
+    {
+      "date": "2018-01-29",
+      "name": "Codenames",
+      "coOp": "Yes",
+      "coOpOutcome": "Won",
+      "note": "2 player"
     },
     {
       "date": "2018-01-30",
@@ -299,16 +299,16 @@
     },
     {
       "date": "2018-01-31",
-      "name": "Carcassonne: The River",
-      "coOp": "Yes",
-      "note": "Score: 295"
-    },
-    {
-      "date": "2018-01-31",
       "name": "Harry Potter: Hogwarts Battle – The Monster Box of Monsters Expansion",
       "coOp": "Yes",
       "coOpOutcome": "Lost",
       "note": "Box 1"
+    },
+    {
+      "date": "2018-01-31",
+      "name": "Carcassonne: The River",
+      "coOp": "Yes",
+      "note": "Score: 295"
     }
   ],
   "uniqueGamesPlayed": [
@@ -342,22 +342,22 @@
   ],
   "uniqueGamesPlayedCount": 27,
   "totalGamesPlayed": 42,
-  "averageGamesPlayedPerDay": 1.4,
+  "averageGamesPlayedPerDay": 1.3548,
   "mostGamesPlayedInADay": [
     {
       "date": "2018-01-29",
       "games": [
+        "Machi Koro",
         "Codenames",
-        "Codenames",
-        "Machi Koro"
+        "Codenames"
       ]
     },
     {
       "date": "2018-01-06",
       "games": [
-        "Heart of Crown",
+        "Ticket to Ride Map Collection: Volume 6 – France & Old West",
         "Ticket to Ride",
-        "Ticket to Ride Map Collection: Volume 6 – France & Old West"
+        "Heart of Crown"
       ]
     }
   ],

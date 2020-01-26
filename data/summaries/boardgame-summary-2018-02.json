@@ -3,7 +3,7 @@
   "title": "February 2018",
   "sequenceStartDate": "2018-02-01",
   "sequenceEndDate": "2018-02-28",
-  "daysInSequence": 27,
+  "daysInSequence": 28,
   "daysWithUnplayedGames": 0,
   "gamesPlayedPerDay": {
     "1": 1,
@@ -88,6 +88,12 @@
     },
     {
       "date": "2018-02-07",
+      "name": "Claim",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-02-07",
       "name": "Grifters",
       "winner": "John",
       "coOp": "No"
@@ -96,12 +102,6 @@
       "date": "2018-02-07",
       "name": "Love Letter",
       "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-02-07",
-      "name": "Claim",
-      "winner": "John",
       "coOp": "No"
     },
     {
@@ -119,16 +119,16 @@
     },
     {
       "date": "2018-02-10",
-      "name": "Tanto Cuore: Oktoberfest",
-      "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-02-10",
       "name": "Betrayal at House on the Hill",
       "coOp": "Yes",
       "coOpOutcome": "Heroes lost",
       "note": "2 player, each playing two characters"
+    },
+    {
+      "date": "2018-02-10",
+      "name": "Tanto Cuore: Oktoberfest",
+      "winner": "Hannah",
+      "coOp": "No"
     },
     {
       "date": "2018-02-11",
@@ -180,13 +180,6 @@
     },
     {
       "date": "2018-02-18",
-      "name": "Unicornus Knights",
-      "coOp": "Yes",
-      "coOpOutcome": "Won",
-      "note": "Tutorial game"
-    },
-    {
-      "date": "2018-02-18",
       "name": "Pandemic: Rising Tide",
       "coOp": "Yes",
       "coOpOutcome": "Won"
@@ -199,16 +192,23 @@
       "note": "John was betrayer"
     },
     {
-      "date": "2018-02-19",
-      "name": "Love Letter",
-      "winner": "John",
-      "coOp": "No"
+      "date": "2018-02-18",
+      "name": "Unicornus Knights",
+      "coOp": "Yes",
+      "coOpOutcome": "Won",
+      "note": "Tutorial game"
     },
     {
       "date": "2018-02-19",
       "name": "Flash Point: Fire Rescue",
       "coOp": "Yes",
       "coOpOutcome": "Lost"
+    },
+    {
+      "date": "2018-02-19",
+      "name": "Love Letter",
+      "winner": "John",
+      "coOp": "No"
     },
     {
       "date": "2018-02-20",
@@ -225,26 +225,26 @@
     },
     {
       "date": "2018-02-22",
-      "name": "Flash Point: Fire Rescue",
-      "coOp": "Yes",
-      "coOpOutcome": "Won"
-    },
-    {
-      "date": "2018-02-22",
       "name": "Carcassonne: The River",
       "coOp": "Yes",
       "note": "Score: 344"
     },
     {
-      "date": "2018-02-23",
-      "name": "Tortuga 1667",
-      "winner": "John",
-      "coOp": "No"
+      "date": "2018-02-22",
+      "name": "Flash Point: Fire Rescue",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
     },
     {
       "date": "2018-02-23",
       "name": "Dominion (Second Edition)",
       "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-02-23",
+      "name": "Tortuga 1667",
+      "winner": "John",
       "coOp": "No"
     },
     {
@@ -255,15 +255,39 @@
     },
     {
       "date": "2018-02-25",
+      "name": "Dominion (Second Edition)",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-02-25",
       "name": "Betrayal at House on the Hill",
       "coOp": "Yes",
       "coOpOutcome": "Heroes lost",
       "note": "John was betrayer"
     },
     {
-      "date": "2018-02-25",
-      "name": "Dominion (Second Edition)",
+      "date": "2018-02-26",
+      "name": "Love Letter",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-02-26",
+      "name": "Love Letter",
+      "winner": "Other",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-02-26",
+      "name": "Love Letter",
       "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-02-26",
+      "name": "Machi Koro",
+      "winner": "Other",
       "coOp": "No"
     },
     {
@@ -276,30 +300,6 @@
       "date": "2018-02-26",
       "name": "Machi Koro",
       "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-02-26",
-      "name": "Machi Koro",
-      "winner": "Other",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-02-26",
-      "name": "Love Letter",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-02-26",
-      "name": "Love Letter",
-      "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-02-26",
-      "name": "Love Letter",
-      "winner": "Other",
       "coOp": "No"
     },
     {
@@ -348,17 +348,17 @@
   ],
   "uniqueGamesPlayedCount": 29,
   "totalGamesPlayed": 45,
-  "averageGamesPlayedPerDay": 1.6667,
+  "averageGamesPlayedPerDay": 1.6071,
   "mostGamesPlayedInADay": [
     {
       "date": "2018-02-26",
       "games": [
+        "Love Letter",
+        "Love Letter",
+        "Love Letter",
+        "Machi Koro",
         "Heart of Crown",
-        "Machi Koro",
-        "Machi Koro",
-        "Love Letter",
-        "Love Letter",
-        "Love Letter"
+        "Machi Koro"
       ]
     }
   ],
