@@ -18,4 +18,11 @@ describe('Boardgames API', () => {
     ]
     expect(actual).to.deep.equal(expected)
   })
+
+  const functions = Object.keys(api)
+  functions.forEach((key) => {
+    it(`api.${key} should be a function`, () => {
+      expect(typeof api[key]).to.equal('function')
+    })
+  })
 })
