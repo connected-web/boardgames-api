@@ -1,7 +1,7 @@
 function init (model) {
-  return () => {
+  return async () => {
     return {
-      message: 'Not implemented'
+      warning: 'This action takes forever; please see local repo for cached implementation using `node run download-bgg-entries`'
     }
   }
 }

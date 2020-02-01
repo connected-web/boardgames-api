@@ -53,4 +53,11 @@ describe('Boardgames API', () => {
       expect(gameIndex[0]).to.deep.equal(firstGameInList)
     }).timeout(5000)
   })
+
+  describe('Download Board Game Geek Entries', () => {
+    it('should return a warning by default', async () => {
+      const { warning } = await api.downloadBggEntries()
+      expect(warning).to.include('node run download-bgg-entries')
+    })
+  })
 })
