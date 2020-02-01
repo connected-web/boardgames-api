@@ -1,8 +1,10 @@
 const gsjson = require('google-spreadsheet-to-json')
+const { fetch } = require('promise-path')
 
 const model = {
   fetchers: {
-    gsjson
+    gsjson,
+    fetch
   },
   boardGameGeek: {},
   calisaurus: {}

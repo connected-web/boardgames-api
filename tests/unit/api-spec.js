@@ -67,4 +67,23 @@ describe('Boardgames API', () => {
       expect(warning).to.include('node run download-bgg-entries')
     })
   })
+
+  describe('Download Board Game Geek Collection', () => {
+    it('should return all the games entered in board game geek under our account', async () => {
+      const expectedXMLtoJSON = { item: [{
+          '_attributes': {
+            'some': 'Game Data'
+          }
+        }]
+      }
+      model.fetchers.fetch = () => {
+        return `
+          <?xml version="1.0" encoding="UTF-8"?>
+          <item some='Game Data' />
+        `
+      }
+      const { collection } = await api.downloadBggCollection()
+      expect(collection).to.deep.equal(expectedXMLtoJSON)
+    })
+  })
 })
