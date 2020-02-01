@@ -3,7 +3,7 @@ const { fetch, position } = require('promise-path')
 const { expect } = require('chai')
 const { validate } = require('jsonschema')
 
-const apiPath = position(__dirname, '../api/')
+const apiPath = position(__dirname, '../../api/')
 const endpointData = require(apiPath('endpoints.json'))
 
 async function fetchJSON (url) {

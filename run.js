@@ -79,7 +79,7 @@ async function start () {
     console.log('[Board Game API Run] Available scripts to run:')
     Object.keys(scripts).sort().forEach(n => console.log(' ', `node run ${n}`))
   }
-  
+
   return scripts
 }
 

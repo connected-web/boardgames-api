@@ -1,6 +1,6 @@
 const { run, position } = require('promise-path')
 const { expect } = require('chai')
-const basepath = position(__dirname, '../')
+const basepath = position(__dirname, '../../')
 
 const expected = `[Board Game API Run] Available scripts to run:
   node run all

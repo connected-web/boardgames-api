@@ -2,11 +2,13 @@
   "name": "boardgames-api",
   "version": "1.0.0",
   "description": "A browser for personalized boardgame data, sourced from boardgamesgeek.com and other locations.",
-  "main": "run.js",
+  "main": "api.js",
   "scripts": {
     "start": "node test-server.js",
-    "lint": "standard --fix --env mocha ",
-    "test": "node run create-all && npm run lint && mocha --recursive tests/**/*spec.js"
+    "lint": "standard --fix --env mocha",
+    "test:unit": "mocha --recursive tests/unit/**/*spec.js",
+    "test:integration": "node run create-all && npm run lint && mocha --recursive tests/integration/**/*spec.js",
+    "test": "standard --env mocha && npm run test:unit && npm run test:integration"
   },
   "author": "John Beech",
   "license": "ISC",
