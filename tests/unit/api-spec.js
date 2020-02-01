@@ -42,4 +42,15 @@ describe('Boardgames API', () => {
       expect(playstats[0]).to.deep.equal(firstGameInJanuary)
     }).timeout(5000)
   })
+
+  describe('Download Cali Game Index', () => {
+    it('should return the game index from gsheets', async () => {
+      const { gameIndex } = await api.downloadCaliGameIndex()
+      const firstGameInList = {
+        boardGameName: '221B Baker Street: The Master Detective Game',
+        purchaseDate: 2017
+      }
+      expect(gameIndex[0]).to.deep.equal(firstGameInList)
+    }).timeout(5000)
+  })
 })

@@ -26,9 +26,9 @@ async function updatePlaystats () {
 
 function init (model) {
   return async () => {
-    model.caliPlaystats = await updatePlaystats()
+    model.calisaurus.playstats = await updatePlaystats()
     return {
-      playstats: model.caliPlaystats,
+      playstats: model.calisaurus.playstats,
       log
     }
   }
