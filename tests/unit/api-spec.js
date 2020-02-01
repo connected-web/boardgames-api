@@ -1,5 +1,6 @@
 const { expect } = require('chai')
 const api = require('../../')
+const model = require('../../src/model')
 
 describe('Boardgames API', () => {
   describe('Basic properties', () => {
@@ -30,7 +31,6 @@ describe('Boardgames API', () => {
 
   describe('Download Cali Playstats', () => {
     it('should return a list of playstats from gsheets', async () => {
-      const { playstats } = await api.downloadCaliPlaystats()
       const firstGameInJanuary = {
         'coOp': 'Yes',
         'coOpOutcome': 'Won',
@@ -39,19 +39,26 @@ describe('Boardgames API', () => {
         'notes': 'Game 1',
         'tag': 'Deckbuilder'
       }
+      model.fetchers.gsjson = () => {
+        return [firstGameInJanuary]
+      }
+      const { playstats } = await api.downloadCaliPlaystats()
       expect(playstats[0]).to.deep.equal(firstGameInJanuary)
-    }).timeout(5000)
+    })
   })
 
   describe('Download Cali Game Index', () => {
     it('should return the game index from gsheets', async () => {
-      const { gameIndex } = await api.downloadCaliGameIndex()
       const firstGameInList = {
         boardGameName: '221B Baker Street: The Master Detective Game',
         purchaseDate: 2017
       }
+      model.fetchers.gsjson = () => {
+        return [firstGameInList]
+      }
+      const { gameIndex } = await api.downloadCaliGameIndex()
       expect(gameIndex[0]).to.deep.equal(firstGameInList)
-    }).timeout(5000)
+    })
   })
 
   describe('Download Board Game Geek Entries', () => {

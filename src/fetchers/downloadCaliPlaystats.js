@@ -1,10 +1,9 @@
-const gsjson = require('google-spreadsheet-to-json')
 const spreadsheetId2018 = '1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4'
 const spreadsheetId2020 = '1FyeEeWPKch4jVoBoD_lB89GbsUPkYTESkfIeknUhyJw'
 const log = []
 const report = (...messages) => log.push(['[Download Cali Play Stats]', ...messages].join(' '))
 
-async function downloadData (spreadsheetId) {
+async function downloadData ({ gsjson }, spreadsheetId) {
   try {
     const worksheets = await gsjson({ spreadsheetId, allWorksheets: true })
     report('Downloaded data:', (worksheets + '').length, 'bytes')
@@ -15,10 +14,10 @@ async function downloadData (spreadsheetId) {
   }
 }
 
-async function updatePlaystats () {
+async function updatePlaystats (model) {
   const combinedData = await Promise.all([
-    downloadData(spreadsheetId2018),
-    downloadData(spreadsheetId2020)
+    downloadData(model.fetchers, spreadsheetId2018),
+    downloadData(model.fetchers, spreadsheetId2020)
   ])
 
   return combinedData.reduce((acc, item) => acc.concat(item), [])
@@ -26,7 +25,7 @@ async function updatePlaystats () {
 
 function init (model) {
   return async () => {
-    model.calisaurus.playstats = await updatePlaystats()
+    model.calisaurus.playstats = await updatePlaystats(model)
     return {
       playstats: model.calisaurus.playstats,
       log
