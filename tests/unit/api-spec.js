@@ -71,10 +71,10 @@ describe('Boardgames API', () => {
   describe('Download Board Game Geek Collection', () => {
     it('should return all the games entered in board game geek under our account', async () => {
       const expectedXMLtoJSON = { item: [{
-          '_attributes': {
-            'some': 'Game Data'
-          }
-        }]
+        '_attributes': {
+          'some': 'Game Data'
+        }
+      }]
       }
       model.fetchers.fetch = () => {
         return `
