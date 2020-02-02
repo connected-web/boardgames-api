@@ -2,8 +2,8 @@
   "dateCode": "2020-01",
   "title": "January 2020",
   "sequenceStartDate": "2020-01-01",
-  "sequenceEndDate": "2020-01-26",
-  "daysInSequence": 26,
+  "sequenceEndDate": "2020-01-28",
+  "daysInSequence": 28,
   "daysWithUnplayedGames": 6,
   "gamesPlayedPerDay": {
     "1": 2,
@@ -31,20 +31,23 @@
     "23": 1,
     "24": 0,
     "25": 2,
-    "26": 3
+    "26": 3,
+    "27": 1,
+    "28": 2
   },
   "gamesPlayed": [
-    {
-      "date": "2020-01-01",
-      "name": "The Mind",
-      "coOp": "Yes",
-      "coOpOutcome": "Lost"
-    },
     {
       "date": "2020-01-01",
       "name": "Ticket to Ride: Europe",
       "winner": "Hannah",
       "coOp": "No"
+    },
+    {
+      "date": "2020-01-01",
+      "name": "The Mind",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost",
+      "note": "5 player"
     },
     {
       "date": "2020-01-02",
@@ -120,21 +123,23 @@
     },
     {
       "date": "2020-01-18",
-      "name": "T.I.M.E Stories: A Prophecy of Dragons",
-      "coOp": "Yes",
-      "coOpOutcome": "Lost"
+      "name": "Ticket to Ride: First Journey",
+      "winner": "Hannah",
+      "coOp": "No"
     },
     {
       "date": "2020-01-18",
       "name": "Wingspan",
       "winner": "John",
-      "coOp": "No"
+      "coOp": "No",
+      "note": "3 player"
     },
     {
       "date": "2020-01-18",
-      "name": "Ticket to Ride: First Journey",
-      "winner": "Hannah",
-      "coOp": "No"
+      "name": "T.I.M.E Stories: A Prophecy of Dragons",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost",
+      "note": "3 player"
     },
     {
       "date": "2020-01-19",
@@ -159,7 +164,7 @@
       "name": "Pandemic Legacy: Season 2",
       "coOp": "Yes",
       "coOpOutcome": "Win",
-      "note": "Whaaaaaat? HOW did we win?!"
+      "note": "4 player"
     },
     {
       "date": "2020-01-22",
@@ -171,7 +176,8 @@
       "date": "2020-01-23",
       "name": "T.I.M.E Stories: A Prophecy of Dragons",
       "coOp": "Yes",
-      "coOpOutcome": "Win"
+      "coOpOutcome": "Win",
+      "note": "3 player"
     },
     {
       "date": "2020-01-25",
@@ -187,10 +193,9 @@
     },
     {
       "date": "2020-01-26",
-      "name": "Pandemic: Iberia",
-      "coOp": "Yes",
-      "coOpOutcome": "Win",
-      "note": "Won by the skin of our teeth!"
+      "name": "Ticket to Ride: Poland",
+      "winner": "Hannah",
+      "coOp": "No"
     },
     {
       "date": "2020-01-26",
@@ -200,13 +205,34 @@
     },
     {
       "date": "2020-01-26",
-      "name": "Ticket to Ride: Poland",
-      "winner": "Hannah",
+      "name": "Pandemic: Iberia",
+      "coOp": "Yes",
+      "coOpOutcome": "Win"
+    },
+    {
+      "date": "2020-01-27",
+      "name": "Azul",
+      "winner": "John",
       "coOp": "No"
+    },
+    {
+      "date": "2020-01-28",
+      "name": "Pandemic Legacy: Season 2",
+      "coOp": "Yes",
+      "coOpOutcome": "Win",
+      "note": "4 player"
+    },
+    {
+      "date": "2020-01-28",
+      "name": "The Game",
+      "coOp": "Yes",
+      "coOpOutcome": "Win",
+      "note": "4 player"
     }
   ],
   "uniqueGamesPlayed": [
     "7 Wonders",
+    "Azul",
     "Cat Lady",
     "Coup",
     "Deep Sea Adventure",
@@ -220,6 +246,7 @@
     "Star Realms",
     "T.I.M.E Stories: A Prophecy of Dragons",
     "Tanto Cuore",
+    "The Game",
     "The Mind",
     "Ticket to Ride: Europe",
     "Ticket to Ride: First Journey",
@@ -230,16 +257,16 @@
     "Viticulture",
     "Wingspan"
   ],
-  "uniqueGamesPlayedCount": 23,
-  "totalGamesPlayed": 28,
-  "averageGamesPlayedPerDay": 1.0769,
+  "uniqueGamesPlayedCount": 25,
+  "totalGamesPlayed": 31,
+  "averageGamesPlayedPerDay": 1.1071,
   "mostGamesPlayedInADay": [
     {
       "date": "2020-01-26",
       "games": [
-        "Pandemic: Iberia",
+        "Ticket to Ride: Poland",
         "Splendor",
-        "Ticket to Ride: Poland"
+        "Pandemic: Iberia"
       ]
     },
     {
@@ -257,17 +284,17 @@
       "plays": 3
     }
   ],
-  "coOpGamesPlayedCount": 7,
-  "coOpGamesPlayedPercentage": 0.25,
-  "coOpGameWins": 3,
+  "coOpGamesPlayedCount": 9,
+  "coOpGamesPlayedPercentage": 0.2903,
+  "coOpGameWins": 5,
   "coOpGameLoses": 4,
   "winCountHannah": 14,
-  "winCountJohn": 8,
+  "winCountJohn": 9,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 22,
-  "winRateHannah": 0.6364,
-  "winRateJohn": 0.3636,
+  "winnableGamesTotal": 23,
+  "winRateHannah": 0.6087,
+  "winRateJohn": 0.3913,
   "winRateOther": 0,
   "winRateDraw": 0,
   "mostWonGames": "Hannah"

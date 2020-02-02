@@ -72,14 +72,14 @@
     },
     {
       "date": "2018-08-05",
-      "name": "The Pyramid's Deadline",
+      "name": "Coup",
       "winner": "John",
       "coOp": "No"
     },
     {
       "date": "2018-08-05",
-      "name": "Love Letter",
-      "winner": "Hannah",
+      "name": "The Pyramid's Deadline",
+      "winner": "John",
       "coOp": "No"
     },
     {
@@ -96,8 +96,8 @@
     },
     {
       "date": "2018-08-05",
-      "name": "Coup",
-      "winner": "John",
+      "name": "Love Letter",
+      "winner": "Hannah",
       "coOp": "No"
     },
     {
@@ -176,6 +176,12 @@
     },
     {
       "date": "2018-08-18",
+      "name": "Love Letter: Legend of the Five Rings",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-08-18",
       "name": "Pandemic: The Cure",
       "coOp": "Yes",
       "coOpOutcome": "Won"
@@ -190,12 +196,6 @@
       "date": "2018-08-18",
       "name": "Troika",
       "winner": "Draw",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-08-18",
-      "name": "Love Letter: Legend of the Five Rings",
-      "winner": "John",
       "coOp": "No"
     },
     {
@@ -250,6 +250,13 @@
     },
     {
       "date": "2018-08-24",
+      "name": "Fluxx",
+      "winner": "John",
+      "coOp": "No",
+      "note": "4 player"
+    },
+    {
+      "date": "2018-08-24",
       "name": "Exploding Kittens",
       "winner": "Other",
       "coOp": "No",
@@ -268,13 +275,6 @@
       "winner": "Other",
       "coOp": "No",
       "note": "3 player"
-    },
-    {
-      "date": "2018-08-24",
-      "name": "Fluxx",
-      "winner": "John",
-      "coOp": "No",
-      "note": "4 player"
     },
     {
       "date": "2018-08-25",
@@ -306,14 +306,14 @@
       "name": "Codenames",
       "coOp": "Yes",
       "coOpOutcome": "Won",
-      "note": "John=spymaster"
+      "note": "Hannah-spymaster"
     },
     {
       "date": "2018-08-29",
       "name": "Codenames",
       "coOp": "Yes",
       "coOpOutcome": "Won",
-      "note": "Hannah-spymaster"
+      "note": "John=spymaster"
     },
     {
       "date": "2018-08-30",
@@ -371,10 +371,10 @@
       "games": [
         "Tortuga 1667",
         "SpyNet",
+        "Love Letter: Legend of the Five Rings",
         "Pandemic: The Cure",
         "Cat Lady",
-        "Troika",
-        "Love Letter: Legend of the Five Rings"
+        "Troika"
       ]
     }
   ],
@@ -384,11 +384,11 @@
       "plays": 3
     },
     {
-      "name": "Love Letter",
+      "name": "Troika",
       "plays": 3
     },
     {
-      "name": "Troika",
+      "name": "Love Letter",
       "plays": 3
     },
     {

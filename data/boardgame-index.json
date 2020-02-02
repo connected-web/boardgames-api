@@ -379,6 +379,11 @@
         "date": "2018-11-14",
         "winner": "Hannah",
         "coOp": "No"
+      },
+      {
+        "date": "2020-01-27",
+        "winner": "John",
+        "coOp": "No"
       }
     ]
   },
@@ -2544,7 +2549,8 @@
       {
         "date": "2020-01-01",
         "coOpOutcome": "Lost",
-        "coOp": "Yes"
+        "coOp": "Yes",
+        "notes": "5 player"
       }
     ]
   },
@@ -2728,7 +2734,13 @@
         "date": "2020-01-21",
         "coOpOutcome": "Win",
         "coOp": "Yes",
-        "notes": "Whaaaaaat? HOW did we win?!"
+        "notes": "4 player"
+      },
+      {
+        "date": "2020-01-28",
+        "coOpOutcome": "Win",
+        "coOp": "Yes",
+        "notes": "4 player"
       }
     ]
   },
@@ -2795,8 +2807,7 @@
       {
         "date": "2020-01-26",
         "coOpOutcome": "Win",
-        "coOp": "Yes",
-        "notes": "Won by the skin of our teeth!"
+        "coOp": "Yes"
       }
     ]
   },
@@ -3265,12 +3276,14 @@
       {
         "date": "2020-01-18",
         "coOpOutcome": "Lost",
-        "coOp": "Yes"
+        "coOp": "Yes",
+        "notes": "3 player"
       },
       {
         "date": "2020-01-23",
         "coOpOutcome": "Win",
-        "coOp": "Yes"
+        "coOp": "Yes",
+        "notes": "3 player"
       }
     ]
   },
@@ -3821,6 +3834,11 @@
         "date": "2018-11-17",
         "winner": "John",
         "coOp": "No"
+      },
+      {
+        "date": "2020-02-01",
+        "winner": "Hannah",
+        "coOp": "No"
       }
     ]
   },
@@ -4181,7 +4199,8 @@
       {
         "date": "2020-01-18",
         "winner": "John",
-        "coOp": "No"
+        "coOp": "No",
+        "notes": "3 player"
       }
     ]
   },
@@ -4582,5 +4601,17 @@
       }
     ],
     "name": "Ticket to Ride: Poland"
+  },
+  "the-game": {
+    "boardGameApiId": "the-game",
+    "playRecords": [
+      {
+        "date": "2020-01-28",
+        "coOpOutcome": "Win",
+        "coOp": "Yes",
+        "notes": "4 player"
+      }
+    ],
+    "name": "The Game"
   }
 }
