@@ -10,7 +10,7 @@ const boardgameList = require('./src/processors/boardgameList')(model)
 const boardgameFeed = require('./src/processors/boardgameFeed')(model)
 const boardgameIndex = require('./src/processors/boardgameIndex')(model)
 const boardgameSummaries = require('./src/processors/boardgameSummaries')(model)
-const uniqueListOfPlayedGames = require('./src/processors/uniqueListOfPlayedGames')(model)
+const uniqueListOfGamesPlayed = require('./src/processors/uniqueListOfGamesPlayed')(model)
 
 const api = {
   downloadBggCollection,
@@ -22,7 +22,7 @@ const api = {
   boardgameIndex,
   boardgameFeed,
   boardgameSummaries,
-  uniqueListOfPlayedGames
+  uniqueListOfGamesPlayed
 }
 
 module.exports = api

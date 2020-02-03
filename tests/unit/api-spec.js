@@ -4,6 +4,7 @@ const model = require('../../src/model')
 
 describe('Boardgames API', () => {
   beforeEach(() => {
+    model.calisaurus.feed = []
     model.calisaurus.index = {}
     model.calisaurus.playstats = []
     model.boardGameGeek.collection = model.defaultBoardGameGeekCollection()
@@ -22,7 +23,7 @@ describe('Boardgames API', () => {
         'boardgameIndex',
         'boardgameFeed',
         'boardgameSummaries',
-        'uniqueListOfPlayedGames'
+        'uniqueListOfGamesPlayed'
       ]
       expect(actual).to.deep.equal(expected)
     })
@@ -251,6 +252,31 @@ describe('Boardgames API', () => {
         name: 'Love Letter',
         boardGameApiId: 'love-letter'
       }])
+    })
+  })
+
+  describe('Create Unique List of Games Played', () => {
+    it('should create a list of unique games played, and other stats', async () => {
+      model.calisaurus.feed = [{
+        date: '2020-02-02',
+        name: 'Love Letter',
+        winner: 'John',
+        coOp: false,
+        note: ''
+      }, {
+        date: '2018-04-05',
+        name: 'Love Letter',
+        winner: 'Hannah',
+        coOp: false,
+        note: ''
+      }]
+      const actual = await api.uniqueListOfGamesPlayed()
+      expect(actual.uniqueListOfGamesPlayed).to.deep.equal({
+        earliestDate: '2018-04-05',
+        latestDate: '2020-02-02',
+        uniqueGames: ['Love Letter'],
+        uniqueGamesCount: 1
+      })
     })
   })
 })
