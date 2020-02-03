@@ -3,6 +3,12 @@ const api = require('../../')
 const model = require('../../src/model')
 
 describe('Boardgames API', () => {
+  beforeEach(() => {
+    model.calisaurus.index = {}
+    model.calisaurus.playstats = []
+    model.boardGameGeek.collection = model.defaultBoardGameGeekCollection()
+  })
+
   describe('Basic properties', () => {
     it('should return an object with expected properties', () => {
       const actual = Object.keys(api)
@@ -125,6 +131,71 @@ describe('Boardgames API', () => {
         coOp: false,
         note: ''
       }])
+    })
+  })
+
+  describe('Create Board Game Index', () => {
+    it('should build an empty board game index from no data', async () => {
+      const actual = await api.boardgameIndex()
+      const expected = {}
+      expect(actual.index).to.deep.equal(expected)
+    })
+
+    it('should build a board game index out of all available information', async () => {
+      const examplePlaystat = {
+        'coOp': 'Yes',
+        'coOpOutcome': 'Won',
+        'date': 43101,
+        'game': 'Harry Potter: Hogwarts Battle',
+        'notes': 'Game 1',
+        'tag': 'Deckbuilder'
+      }
+      model.calisaurus.playstats = [examplePlaystat, examplePlaystat, examplePlaystat]
+      const actual = await api.boardgameIndex()
+      const expected = {
+        'harry-potter-hogwarts-battle': {
+          'boardGameApiId': 'harry-potter-hogwarts-battle',
+          'playRecords': [
+            {
+              'date': '2018-01-01',
+              'coOpOutcome': 'Won',
+              'coOp': 'Yes',
+              'notes': 'Game 1'
+            },
+            {
+              'date': '2018-01-01',
+              'coOpOutcome': 'Won',
+              'coOp': 'Yes',
+              'notes': 'Game 1'
+            },
+            {
+              'date': '2018-01-01',
+              'coOpOutcome': 'Won',
+              'coOp': 'Yes',
+              'notes': 'Game 1'
+            }
+          ],
+          'name': 'Harry Potter: Hogwarts Battle',
+          'totalGamesPlayed': 3,
+          'coOpGamesPlayedCount': 3,
+          'coOpGamesPlayedPercentage': 1,
+          'coOpGameWins': 3,
+          'coOpGameLoses': 0,
+          'coOpWinRate': 1,
+          'coOpLossRate': 0,
+          'winCountHannah': 0,
+          'winCountJohn': 0,
+          'winCountOther': 0,
+          'winCountDraw': 0,
+          'winnableGamesTotal': 0,
+          'winRateHannah': 0,
+          'winRateJohn': 0,
+          'winRateOther': 0,
+          'winRateDraw': 0,
+          'mostWonGames': 'Draw'
+        }
+      }
+      expect(actual.index).to.deep.equal(expected)
     })
   })
 })

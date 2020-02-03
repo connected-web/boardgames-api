@@ -1,18 +1,25 @@
 const gsjson = require('google-spreadsheet-to-json')
 const { fetch } = require('promise-path')
 
+function defaultBoardGameGeekCollection () {
+  return { items: [{ item: [] }] }
+}
+
 const model = {
   fetchers: {
     gsjson,
     fetch
   },
   boardGameGeek: {
-    collection: { items: [{ item: [] }] },
+    collection: defaultBoardGameGeekCollection(),
     index: {}
   },
   calisaurus: {
-    index: {}
-  }
+    index: {},
+    feed: []
+  },
+  games: {},
+  defaultBoardGameGeekCollection
 }
 
 module.exports = model
