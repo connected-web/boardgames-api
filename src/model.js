@@ -6,7 +6,9 @@ const model = {
     gsjson,
     fetch
   },
-  boardGameGeek: {},
+  boardGameGeek: {
+    collection: { items: [{ item: [] }] }
+  },
   calisaurus: {}
 }
 

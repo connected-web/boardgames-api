@@ -86,4 +86,19 @@ describe('Boardgames API', () => {
       expect(collection).to.deep.equal(expectedXMLtoJSON)
     })
   })
+
+  describe('Create Board Game Geek Index', () => {
+    it('should reduce the board game geek collection into an index', async () => {
+      model.boardGameGeek.collection = { items: [{ item: [
+        {
+          name: [{ _text: ['Love Letter'] }],
+          _attributes: { objectid: '51253142' }
+        }
+      ]}] }
+      const actual = await api.bggIndex()
+      expect(actual.index).to.deep.equal({
+        'Love Letter': { boardGameGeekGameId: '51253142' }
+      })
+    })
+  })
 })
