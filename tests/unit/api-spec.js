@@ -198,4 +198,59 @@ describe('Boardgames API', () => {
       expect(actual.index).to.deep.equal(expected)
     })
   })
+
+  describe('Create Board Game Lists', () => {
+    let actual
+    before(async () => {
+      const now = new Date()
+      model.calisaurus.index = {
+        'love-letter': {
+          name: 'Love Letter',
+          playRecords: [{
+            date: now,
+            winner: 'John',
+            coOp: false,
+            coOpOutcome: undefined,
+            notes: ''
+          }]
+        }
+      }
+      const examplePlaystat = {
+        'winner': 'John',
+        'date': 43101,
+        'name': 'Love Letter'
+      }
+      model.calisaurus.playstats = [examplePlaystat]
+      model.boardGameGeek.collection = model.defaultBoardGameGeekCollection()
+      actual = await api.boardgameList()
+    })
+
+    it('should create a list of board games grouped by source', async () => {
+      expect(actual.boardgameGroups).to.deep.equal({
+        'bggOnly': [],
+        'boardGameGeek': [],
+        'cali': ['Love Letter'],
+        'caliOnly': ['Love Letter'],
+        'overlap': [],
+        'stats': {
+          'Board Game Geek only games': 0,
+          'Cali only games': 1,
+          'Number of Board Game Geek board games': 0,
+          'Number of Cali board games': 1,
+          'Overlap size between lists': 0
+        }
+      })
+    })
+
+    it('should create a sorted list of board game names', async () => {
+      expect(actual.boardgameNames).to.deep.equal(['Love Letter'])
+    })
+
+    it('should create a list of board games mapping name to id', async () => {
+      expect(actual.boardgameList).to.deep.equal([{
+        name: 'Love Letter',
+        boardGameApiId: 'love-letter'
+      }])
+    })
+  })
 })
