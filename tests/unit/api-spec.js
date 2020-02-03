@@ -101,4 +101,30 @@ describe('Boardgames API', () => {
       })
     })
   })
+
+  describe('Create Board Game Feed', () => {
+    it('should map game entries into a date sorted feed', async () => {
+      const now = new Date()
+      model.calisaurus.index = {
+        'love-letter': {
+          name: 'Love Letter',
+          playRecords: [{
+            date: now,
+            winner: 'John',
+            coOp: false,
+            coOpOutcome: undefined,
+            notes: ''
+          }]
+        }
+      }
+      const actual = await api.boardgameFeed()
+      expect(actual.feed).to.deep.equal([{
+        date: now,
+        name: 'Love Letter',
+        winner: 'John',
+        coOp: false,
+        note: ''
+      }])
+    })
+  })
 })

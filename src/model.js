@@ -7,9 +7,12 @@ const model = {
     fetch
   },
   boardGameGeek: {
-    collection: { items: [{ item: [] }] }
+    collection: { items: [{ item: [] }] },
+    index: {}
   },
-  calisaurus: {}
+  calisaurus: {
+    index: {}
+  }
 }
 
 module.exports = model
