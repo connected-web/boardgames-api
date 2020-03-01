@@ -1,6 +1,11 @@
 const { expect } = require('chai')
+const { validate } = require('jsonschema')
 const api = require('../../')
 const model = require('../../src/model')
+
+const boardGameStatsSchema = require('../../api/handlers/boardgame-stats/schema.json')
+const boardGameStatsByMonthSchema = require('../../api/handlers/boardgame-stats-byMonth/schema.json')
+const boardGameStatsByYearSchema = require('../../api/handlers/boardgame-stats-byYear/schema.json')
 
 describe('Boardgames API', () => {
   beforeEach(() => {
@@ -277,6 +282,61 @@ describe('Boardgames API', () => {
         uniqueGames: ['Love Letter'],
         uniqueGamesCount: 1
       })
+    })
+  })
+
+  describe('Create a list of Board Game Summaries', () => {
+    let actual =
+    before(async () => {
+      model.calisaurus.feed = [{
+        date: '2020-02-02',
+        name: 'Love Letter',
+        winner: 'John',
+        coOp: false,
+        note: ''
+      }, {
+        date: '2018-04-05',
+        name: 'Love Letter',
+        winner: 'Hannah',
+        coOp: false,
+        note: ''
+      }]
+      actual = await api.boardgameSummaries()
+    })
+
+    it('should create a set of boardgame summaries', async () => {
+      expect(typeof actual.boardgameSummaries).to.equal('object')
+      expect(Array.isArray(actual.monthsInUse)).to.equal(true)
+      expect(Array.isArray(actual.yearsInUse)).to.equal(true)
+      expect(typeof actual.byAllTime).to.equal('object')
+    })
+
+    it('should summarise the feed by the first month in sequence', () => {
+      const schemaValidation = validate(actual.monthsInUse[0], boardGameStatsByMonthSchema)
+      expect(schemaValidation.errors, 'Schema validation errors for first month').to.deep.equal([])
+    })
+
+    it('should summarise the feed by the last month in sequence', () => {
+      const schemaValidation = validate(actual.monthsInUse[1], boardGameStatsByMonthSchema)
+      expect(schemaValidation.errors, 'Schema validation errors for last month').to.deep.equal([])
+    })
+
+    it('should summarise the feed by the first year in sequence', () => {
+      const schemaValidation = validate(actual.yearsInUse[0], boardGameStatsByYearSchema)
+      expect(schemaValidation.errors, 'Schema validation errors for first year').to.deep.equal([])
+    })
+
+    it('should summarise the feed by the last year in sequence', () => {
+      const schemaValidation = validate(actual.yearsInUse[1], boardGameStatsByYearSchema)
+      expect(schemaValidation.errors, 'Schema validation errors for last year').to.deep.equal([])
+    })
+
+    it('should summarise the feed by all time', () => {
+      const schemaValidation = validate({
+        byMonth: actual.byMonth,
+        byYear: actual.byYear
+      }, boardGameStatsSchema)
+      expect(schemaValidation.errors, 'Schema validation errors for all time feed').to.deep.equal([])
     })
   })
 })
