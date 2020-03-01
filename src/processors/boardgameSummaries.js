@@ -19,7 +19,7 @@ function daysBetween (firstDate, secondDate) {
   return Math.round(millisecondsBetween / oneDayInMilliseconds)
 }
 
-function copy(data) {
+function copy (data) {
   return JSON.parse(JSON.stringify(data))
 }
 
