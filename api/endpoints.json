@@ -64,6 +64,22 @@
     "sample": "/api/boardgame/stats/byMonth/:dateCode/sample",
     "sourceId": "boardgame-stats-byMonth"
   }, {
+    "path": "/api/boardgame/stats/byYear/:yearCode",
+    "regex": "/\\/api\\/boardgame\\/stats\\/byYear\\/(\\d{4})/",
+    "example": "/api/boardgame/stats/byYear/2018",
+    "method": "GET",
+    "description": "Return a summary of board games stats for a specific year played by John and Hannah. ",
+    "properties": {
+      ":dateCode": {
+        "description": "Year codes come in the form yyyy, for example: 2018",
+        "regex": "/\\d{4}/"
+      }
+    },
+    "accepts": "application/json",
+    "schema": "/api/boardgame/stats/byYear/:dateCode/schema",
+    "sample": "/api/boardgame/stats/byYear/:dateCode/sample",
+    "sourceId": "boardgame-stats-byYear"
+  }, {
     "path": "/api/boardgame/unique/games/played",
     "method": "GET",
     "description": "Return a list of unique board games played since Hannah and John started keeping records.",
