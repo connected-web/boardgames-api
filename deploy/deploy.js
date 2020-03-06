@@ -1,4 +1,4 @@
-const ftpDeploy = require('ftp-deploy')
+const FtpDeploy = require('ftp-deploy')
 const fs = require('fs')
 const path = require('path')
 
@@ -6,7 +6,6 @@ const passwords = JSON.parse(fs.readFileSync(path.join(__dirname, '.ftppass')))
 const mode = process.argv[2] || false
 
 const FTP_HOST = 'ftp.calisaurus.net'
-const FTP_ROOT_PATH = ''
 
 const liveUser = passwords['boardgames-api']
 
@@ -36,24 +35,24 @@ const modes = {
   })
 }
 
-function createDeployer() {
-  const deployer = new ftpDeploy()
-  deployer.on('uploading', function(data) {
+function createDeployer () {
+  const deployer = new FtpDeploy()
+  deployer.on('uploading', function (data) {
     console.log('[Deploy] Uploading :', `${data.transferredFileCount} / ${data.totalFilesCount} ::: ${data.filename}`)
   })
 
-  deployer.on('uploaded', function(data) {
+  deployer.on('uploaded', function (data) {
     console.log('[Deploy] Uploaded  :', `${data.transferredFileCount} / ${data.totalFilesCount} ::: ${data.filename}`)
   })
 
-  deployer.on('log', function(data) {
+  deployer.on('log', function (data) {
     console.log('[Deploy]', data)
   })
 
   return deployer
 }
 
-async function deploy(variation, passwordId) {
+async function deploy (variation, passwordId) {
   try {
     console.log('[Deploy]', mode, ':', variation)
 
@@ -70,23 +69,12 @@ async function deploy(variation, passwordId) {
     const result = await deployer.deploy(ftpConfig)
 
     console.log('[Deploy] Finished:', result)
-  }
-  catch (ex) {
+  } catch (ex) {
     console.log('[Deploy] Error:', ex)
   }
 }
 
-async function runModes(modes) {
-  const results = []
-  while(modes.length > 0) {
-    const mode = modes.shift()
-    let result = await run(mode)
-    results.push(results)
-  }
-  return results
-}
-
-async function run(mode) {
+async function run (mode) {
   console.log('[Deploy]', mode)
   const fn = modes[mode]
   if (fn) {
