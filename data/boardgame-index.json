@@ -745,6 +745,10 @@
         "date": "2018-08-16",
         "winner": "John",
         "coOp": "No"
+      },
+      {
+        "date": "2020-02-19",
+        "winner": "John"
       }
     ]
   },
@@ -2175,6 +2179,19 @@
         "date": "2020-01-25",
         "winner": "John",
         "coOp": "No"
+      },
+      {
+        "date": "2020-02-03",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2020-02-19",
+        "winner": "Hannah"
+      },
+      {
+        "date": "2020-02-24",
+        "winner": "Hannah"
       }
     ]
   },
@@ -2581,6 +2598,10 @@
         "date": "2020-01-06",
         "winner": "Hannah",
         "coOp": "No"
+      },
+      {
+        "date": "2020-02-12",
+        "winner": "John"
       }
     ]
   },
@@ -2741,6 +2762,11 @@
         "coOpOutcome": "Win",
         "coOp": "Yes",
         "notes": "4 player"
+      },
+      {
+        "date": "2020-02-06",
+        "coOpOutcome": "Won",
+        "notes": "Finished on 13th Feb"
       }
     ]
   },
@@ -2940,7 +2966,12 @@
     "boardGameGeekName": "Patchwork",
     "boardGameApiId": "patchwork",
     "name": "Patchwork",
-    "playRecords": []
+    "playRecords": [
+      {
+        "date": "2020-02-16",
+        "winner": "Hannah"
+      }
+    ]
   },
   "photosynthesis": {
     "boardGameGeekGameId": "218603",
@@ -3199,6 +3230,15 @@
         "date": "2020-01-19",
         "winner": "Hannah",
         "coOp": "No"
+      },
+      {
+        "date": "2020-02-05",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2020-02-08",
+        "winner": "Hannah"
       }
     ]
   },
@@ -3207,7 +3247,21 @@
     "boardGameGeekName": "Star Realms: Frontiers",
     "boardGameApiId": "star-realms-frontiers",
     "name": "Star Realms: Frontiers",
-    "playRecords": []
+    "playRecords": [
+      {
+        "date": "2020-05-08",
+        "winner": "Hannah"
+      },
+      {
+        "date": "2020-02-12",
+        "winner": "John"
+      },
+      {
+        "date": "2020-02-13",
+        "winner": "Other",
+        "notes": "4 player"
+      }
+    ]
   },
   "sushi-go": {
     "boardGameGeekGameId": "133473",
@@ -3372,6 +3426,10 @@
         "date": "2020-01-25",
         "winner": "Hannah",
         "coOp": "No"
+      },
+      {
+        "date": "2020-02-16",
+        "winner": "Hannah"
       }
     ]
   },
@@ -3498,6 +3556,10 @@
         "date": "2018-07-10",
         "winner": "Draw",
         "coOp": "No"
+      },
+      {
+        "date": "2020-02-15",
+        "winner": "Hannah"
       }
     ]
   },
@@ -3690,6 +3752,10 @@
         "date": "2020-01-01",
         "winner": "Hannah",
         "coOp": "No"
+      },
+      {
+        "date": "2020-02-23",
+        "winner": "John"
       }
     ]
   },
@@ -4543,6 +4609,14 @@
         "date": "2018-12-29",
         "winner": "Hannah",
         "coOp": "No"
+      },
+      {
+        "date": "2020-02-10",
+        "winner": "John"
+      },
+      {
+        "date": "2020-02-28",
+        "winner": "Hannah"
       }
     ],
     "name": "Archer Love Letter"
@@ -4613,5 +4687,56 @@
       }
     ],
     "name": "The Game"
+  },
+  "ticket-to-ride-netherlands": {
+    "boardGameApiId": "ticket-to-ride-netherlands",
+    "playRecords": [
+      {
+        "date": "2020-02-02",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
+    ],
+    "name": "Ticket to Ride: Netherlands"
+  },
+  "castles-of-burghandy": {
+    "boardGameApiId": "castles-of-burghandy",
+    "playRecords": [
+      {
+        "date": "2020-02-09",
+        "winner": "John"
+      }
+    ],
+    "name": "Castles of Burghandy"
+  },
+  "star-realms-colony-wars": {
+    "boardGameApiId": "star-realms-colony-wars",
+    "playRecords": [
+      {
+        "date": "2020-02-09",
+        "winner": "John"
+      }
+    ],
+    "name": "Star Realms: Colony Wars"
+  },
+  "azul-summer-pavilion": {
+    "boardGameApiId": "azul-summer-pavilion",
+    "playRecords": [
+      {
+        "date": "2020-02-19",
+        "winner": "John"
+      }
+    ],
+    "name": "Azul Summer Pavilion"
+  },
+  "ticket-to-ride-japan": {
+    "boardGameApiId": "ticket-to-ride-japan",
+    "playRecords": [
+      {
+        "date": "2020-02-20",
+        "winner": "Hannah"
+      }
+    ],
+    "name": "Ticket to Ride: Japan"
   }
 }

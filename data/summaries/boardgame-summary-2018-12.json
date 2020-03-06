@@ -170,7 +170,7 @@
       "name": "Werewolf",
       "coOp": "Yes",
       "coOpOutcome": "Lost",
-      "note": "13"
+      "note": "15"
     },
     {
       "date": "2018-12-19",
@@ -181,16 +181,16 @@
     },
     {
       "date": "2018-12-19",
-      "name": "Werewolf",
-      "coOp": "Yes",
-      "coOpOutcome": "Lost",
-      "note": "15"
-    },
-    {
-      "date": "2018-12-19",
       "name": "Love Letter",
       "winner": "Hannah",
       "coOp": "No"
+    },
+    {
+      "date": "2018-12-19",
+      "name": "Werewolf",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost",
+      "note": "13"
     },
     {
       "date": "2018-12-20",
@@ -260,13 +260,13 @@
     },
     {
       "date": "2018-12-30",
-      "name": "Hey, That's My Fish!",
+      "name": "Cat Lady",
       "winner": "Hannah",
       "coOp": "No"
     },
     {
       "date": "2018-12-30",
-      "name": "Cat Lady",
+      "name": "Hey, That's My Fish!",
       "winner": "Hannah",
       "coOp": "No"
     },
@@ -313,10 +313,10 @@
     {
       "date": "2018-12-19",
       "games": [
-        "Love Letter",
         "Werewolf",
         "Werewolf",
-        "Werewolf"
+        "Werewolf",
+        "Love Letter"
       ]
     }
   ],

@@ -46,16 +46,16 @@
     },
     {
       "date": "2018-04-02",
-      "name": "Dominion: Intrigue (Second Edition)",
-      "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-04-02",
       "name": "Gloomhaven",
       "coOp": "Yes",
       "coOpOutcome": "Win",
       "note": "Scenario 1"
+    },
+    {
+      "date": "2018-04-02",
+      "name": "Dominion: Intrigue (Second Edition)",
+      "winner": "Hannah",
+      "coOp": "No"
     },
     {
       "date": "2018-04-02",
@@ -83,14 +83,14 @@
     },
     {
       "date": "2018-04-05",
-      "name": "Marrying Mr. Darcy",
-      "winner": "Hannah",
+      "name": "Coup",
+      "winner": "John",
       "coOp": "No"
     },
     {
       "date": "2018-04-05",
-      "name": "Coup",
-      "winner": "John",
+      "name": "Marrying Mr. Darcy",
+      "winner": "Hannah",
       "coOp": "No"
     },
     {
@@ -145,12 +145,6 @@
     },
     {
       "date": "2018-04-14",
-      "name": "Citadels",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-04-14",
       "name": "Secret Hitler",
       "winner": "Hannah",
       "coOp": "Yes",
@@ -158,16 +152,22 @@
       "note": "6 player at Fanfest"
     },
     {
-      "date": "2018-04-15",
-      "name": "Cards Against Humanity: EVE Edition",
-      "coOp": "No",
-      "note": "6 player at Fanfest"
+      "date": "2018-04-14",
+      "name": "Citadels",
+      "winner": "John",
+      "coOp": "No"
     },
     {
       "date": "2018-04-15",
       "name": "Lovecraft Letter",
       "winner": "Hannah",
       "coOp": "No"
+    },
+    {
+      "date": "2018-04-15",
+      "name": "Cards Against Humanity: EVE Edition",
+      "coOp": "No",
+      "note": "6 player at Fanfest"
     },
     {
       "date": "2018-04-16",
@@ -256,18 +256,6 @@
     },
     {
       "date": "2018-04-28",
-      "name": "Azul",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-04-28",
-      "name": "Tanto Cuore",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-04-28",
       "name": "Ticket to Ride: Germany",
       "winner": "John",
       "coOp": "No"
@@ -285,22 +273,34 @@
       "coOp": "No"
     },
     {
+      "date": "2018-04-28",
+      "name": "Tanto Cuore",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-04-28",
+      "name": "Azul",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-04-29",
+      "name": "T.I.M.E Stories",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
+    },
+    {
+      "date": "2018-04-29",
+      "name": "T.I.M.E Stories",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
+    },
+    {
       "date": "2018-04-29",
       "name": "T.I.M.E Stories",
       "coOp": "Yes",
       "coOpOutcome": "Win"
-    },
-    {
-      "date": "2018-04-29",
-      "name": "T.I.M.E Stories",
-      "coOp": "Yes",
-      "coOpOutcome": "Lost"
-    },
-    {
-      "date": "2018-04-29",
-      "name": "T.I.M.E Stories",
-      "coOp": "Yes",
-      "coOpOutcome": "Lost"
     },
     {
       "date": "2018-04-30",
@@ -348,11 +348,11 @@
     {
       "date": "2018-04-28",
       "games": [
-        "Azul",
-        "Tanto Cuore",
         "Ticket to Ride: Germany",
         "Azul",
-        "Ticket to Ride: Germany"
+        "Ticket to Ride: Germany",
+        "Tanto Cuore",
+        "Azul"
       ]
     }
   ],

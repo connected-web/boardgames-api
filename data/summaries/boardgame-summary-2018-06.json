@@ -46,6 +46,26 @@
     },
     {
       "date": "2018-06-02",
+      "name": "Jurassic Snack",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-06-02",
+      "name": "Fog of Love",
+      "winner": "Hannah",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
+    },
+    {
+      "date": "2018-06-02",
+      "name": "Shadows Amsterdam",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost",
+      "note": "5P"
+    },
+    {
+      "date": "2018-06-02",
       "name": "Shadows Amsterdam",
       "coOp": "Yes",
       "coOpOutcome": "Lost",
@@ -57,13 +77,6 @@
       "winner": "Hannah",
       "coOp": "No",
       "note": "Base game"
-    },
-    {
-      "date": "2018-06-02",
-      "name": "Shadows Amsterdam",
-      "coOp": "Yes",
-      "coOpOutcome": "Lost",
-      "note": "5P"
     },
     {
       "date": "2018-06-02",
@@ -79,23 +92,10 @@
       "coOp": "No"
     },
     {
-      "date": "2018-06-02",
-      "name": "Fog of Love",
-      "winner": "Hannah",
-      "coOp": "Yes",
-      "coOpOutcome": "Lost"
-    },
-    {
-      "date": "2018-06-02",
-      "name": "Jurassic Snack",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
       "date": "2018-06-03",
-      "name": "Fog of Love",
-      "coOp": "Yes",
-      "coOpOutcome": "Won"
+      "name": "Heroica: Fortaan",
+      "winner": "Hannah",
+      "coOp": "No"
     },
     {
       "date": "2018-06-03",
@@ -111,9 +111,9 @@
     },
     {
       "date": "2018-06-03",
-      "name": "Heroica: Fortaan",
-      "winner": "Hannah",
-      "coOp": "No"
+      "name": "Fog of Love",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
     },
     {
       "date": "2018-06-04",
@@ -153,15 +153,15 @@
     },
     {
       "date": "2018-06-09",
-      "name": "Carcassonne Big Box 6",
-      "coOp": "Yes",
-      "coOpOutcome": "Won"
-    },
-    {
-      "date": "2018-06-09",
       "name": "The Castles of Burgundy",
       "winner": "John",
       "coOp": "No"
+    },
+    {
+      "date": "2018-06-09",
+      "name": "Carcassonne Big Box 6",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
     },
     {
       "date": "2018-06-10",
@@ -255,13 +255,19 @@
     },
     {
       "date": "2018-06-23",
+      "name": "Space Base",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-06-23",
       "name": "Pandemic: On the Brink",
       "coOp": "Yes",
       "coOpOutcome": "Won"
     },
     {
-      "date": "2018-06-23",
-      "name": "Space Base",
+      "date": "2018-06-24",
+      "name": "Valeria: Card Kingdoms",
       "winner": "Hannah",
       "coOp": "No"
     },
@@ -269,12 +275,6 @@
       "date": "2018-06-24",
       "name": "Ticket to Ride Map Collection: Volume 5 – United Kingdom & Pennsylvania",
       "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-06-24",
-      "name": "Valeria: Card Kingdoms",
-      "winner": "Hannah",
       "coOp": "No"
     },
     {
@@ -311,13 +311,13 @@
       "date": "2018-06-28",
       "name": "Codenames",
       "coOp": "Yes",
-      "coOpOutcome": "Lost"
+      "coOpOutcome": "Won"
     },
     {
       "date": "2018-06-28",
       "name": "Codenames",
       "coOp": "Yes",
-      "coOpOutcome": "Won"
+      "coOpOutcome": "Lost"
     },
     {
       "date": "2018-06-29",
@@ -368,27 +368,27 @@
     {
       "date": "2018-06-02",
       "games": [
+        "Ticket to Ride: New York",
+        "Space Base",
         "Jurassic Snack",
         "Fog of Love",
         "Shadows Amsterdam",
-        "Dominion (Second Edition)",
         "Shadows Amsterdam",
-        "Space Base",
-        "Ticket to Ride: New York"
+        "Dominion (Second Edition)"
       ]
     }
   ],
   "mostPlayedGames": [
-    {
-      "name": "Valeria: Card Kingdoms",
-      "plays": 4
-    },
     {
       "name": "Space Base",
       "plays": 4
     },
     {
       "name": "Troika",
+      "plays": 4
+    },
+    {
+      "name": "Valeria: Card Kingdoms",
       "plays": 4
     }
   ],
