@@ -317,35 +317,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "26",
+                        "level": "16",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "27",
+                        "level": "17",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "28",
+                        "level": "18",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "2"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "29",
+                        "level": "19",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "30",
+                        "level": "20",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -393,6 +393,20 @@
             },
             {
               "_attributes": {
+                "type": "boardgamecategory",
+                "id": "1086",
+                "value": "Territory Building"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2850",
+                "value": "Events"
+              }
+            },
+            {
+              "_attributes": {
                 "type": "boardgamemechanic",
                 "id": "2040",
                 "value": "Hand Management"
@@ -408,8 +422,22 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
+                "id": "2819",
+                "value": "Solo / Solitaire Game"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
                 "id": "2002",
                 "value": "Tile Placement"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2826",
+                "value": "Turn Order: Stat-Based"
               }
             },
             {
@@ -465,21 +493,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "855"
+                        "value": "884"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.68727"
+                        "value": "7.6876"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.29181"
+                        "value": "6.30261"
                       }
                     }
                   ],
@@ -492,8 +520,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "1383",
-                            "bayesaverage": "6.29181"
+                            "value": "1354",
+                            "bayesaverage": "6.30261"
                           }
                         },
                         {
@@ -502,8 +530,8 @@
                             "id": "5496",
                             "name": "thematic",
                             "friendlyname": "Thematic Rank",
-                            "value": "257",
-                            "bayesaverage": "6.5901"
+                            "value": "253",
+                            "bayesaverage": "6.60562"
                           }
                         }
                       ]
@@ -512,7 +540,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.36705"
+                        "value": "1.38129"
                       }
                     }
                   ],
@@ -526,35 +554,35 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "1478"
+                        "value": "1506"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "12"
+                        "value": "9"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "266"
+                        "value": "275"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "934"
+                        "value": "950"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "288"
+                        "value": "297"
                       }
                     }
                   ],

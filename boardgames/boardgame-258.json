@@ -87,7 +87,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "105"
+                "totalvotes": "106"
               },
               "results": [
                 {
@@ -129,7 +129,7 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "53"
+                        "numvotes": "54"
                       }
                     },
                     {
@@ -154,7 +154,7 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "55"
+                        "numvotes": "56"
                       }
                     },
                     {
@@ -179,7 +179,7 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "32"
+                        "numvotes": "33"
                       }
                     },
                     {
@@ -363,35 +363,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "11",
+                        "level": "1",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "12",
+                        "level": "2",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "13",
+                        "level": "3",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "3"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "14",
+                        "level": "4",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "26"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "15",
+                        "level": "5",
                         "value": "Unplayable in another language",
                         "numvotes": "14"
                       }
@@ -475,13 +475,6 @@
             {
               "_attributes": {
                 "type": "boardgameexpansion",
-                "id": "31321",
-                "value": "Fluxx 10th Anniversary Party Promos"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgameexpansion",
                 "id": "27295",
                 "value": "Fluxx Blanxx"
               }
@@ -498,6 +491,13 @@
                 "type": "boardgameexpansion",
                 "id": "44489",
                 "value": "Fluxx Promo Cards"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "31321",
+                "value": "Fluxx: 10th Anniversary Party Promos – Expansion Card Pack"
               }
             },
             {
@@ -554,6 +554,13 @@
                 "type": "boardgameexpansion",
                 "id": "186885",
                 "value": "Stadt Land Spielt Limitierte Sonderdrucke 2015"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameintegration",
+                "id": "302421",
+                "value": "SpongeBob SquarePants Fluxx"
               }
             },
             {
@@ -924,21 +931,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "14938"
+                        "value": "15073"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "5.67933"
+                        "value": "5.67883"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "5.56721"
+                        "value": "5.56831"
                       }
                     }
                   ],
@@ -951,8 +958,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "8227",
-                            "bayesaverage": "5.56721"
+                            "value": "8162",
+                            "bayesaverage": "5.56831"
                           }
                         },
                         {
@@ -961,8 +968,8 @@
                             "id": "5498",
                             "name": "partygames",
                             "friendlyname": "Party Game Rank",
-                            "value": "510",
-                            "bayesaverage": "5.31397"
+                            "value": "515",
+                            "bayesaverage": "5.31277"
                           }
                         },
                         {
@@ -971,8 +978,8 @@
                             "id": "5499",
                             "name": "familygames",
                             "friendlyname": "Family Game Rank",
-                            "value": "1757",
-                            "bayesaverage": "5.48314"
+                            "value": "1779",
+                            "bayesaverage": "5.48444"
                           }
                         }
                       ]
@@ -981,7 +988,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.81233"
+                        "value": "1.81213"
                       }
                     }
                   ],
@@ -995,49 +1002,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "25132"
+                        "value": "25389"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "724"
+                        "value": "729"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "36"
+                        "value": "37"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "655"
+                        "value": "668"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "3891"
+                        "value": "3915"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "1035"
+                        "value": "1036"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "1.3874"
+                        "value": "1.3871"
                       }
                     }
                   ]

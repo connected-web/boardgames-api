@@ -243,7 +243,48 @@
                 "name": "language_dependence",
                 "title": "Language Dependence",
                 "totalvotes": "0"
-              }
+              },
+              "results": [
+                {
+                  "result": [
+                    {
+                      "_attributes": {
+                        "level": "1",
+                        "value": "No necessary in-game text",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "2",
+                        "value": "Some necessary text - easily memorized or small crib sheet",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "3",
+                        "value": "Moderate in-game text - needs crib sheet or paste ups",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "4",
+                        "value": "Extensive use of text - massive conversion needed to be playable",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "5",
+                        "value": "Unplayable in another language",
+                        "numvotes": "0"
+                      }
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "playingtime": [
@@ -420,14 +461,14 @@
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.66014"
+                        "value": "7.6427"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "5.70665"
+                        "value": "5.69981"
                       }
                     }
                   ],
@@ -441,7 +482,7 @@
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "5.70665"
+                            "bayesaverage": "5.69981"
                           }
                         }
                       ]
@@ -450,7 +491,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.55836"
+                        "value": "1.59982"
                       }
                     }
                   ],
@@ -464,7 +505,7 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "1220"
+                        "value": "1224"
                       }
                     }
                   ],
@@ -485,7 +526,7 @@
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "29"
+                        "value": "31"
                       }
                     }
                   ],

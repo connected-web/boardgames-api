@@ -101,6 +101,20 @@
                 "sortindex": "1",
                 "value": "ドミニオン：繁栄"
               }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "도미니언: 번영"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "도미니언: 번영"
+              }
             }
           ],
           "description": [
@@ -362,35 +376,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "26",
+                        "level": "11",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "27",
+                        "level": "12",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "3"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "28",
+                        "level": "13",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "12"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "29",
+                        "level": "14",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "15"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "30",
+                        "level": "15",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -772,6 +786,13 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "8291",
+                "value": "Korea Boardgames co., Ltd."
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "3218",
                 "value": "Lautapelit.fi"
               }
@@ -801,21 +822,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "12617"
+                        "value": "12718"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "8.26624"
+                        "value": "8.26397"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "7.96003"
+                        "value": "7.95321"
                       }
                     }
                   ],
@@ -829,7 +850,7 @@
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "7.96003"
+                            "bayesaverage": "7.95321"
                           }
                         },
                         {
@@ -839,7 +860,7 @@
                             "name": "strategygames",
                             "friendlyname": "Strategy Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "8.01377"
+                            "bayesaverage": "8.00813"
                           }
                         }
                       ]
@@ -848,7 +869,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.16416"
+                        "value": "1.16417"
                       }
                     }
                   ],
@@ -862,49 +883,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "26574"
+                        "value": "26801"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "283"
+                        "value": "287"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "386"
+                        "value": "385"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "1866"
+                        "value": "1884"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "2257"
+                        "value": "2273"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "475"
+                        "value": "476"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2.4905"
+                        "value": "2.4895"
                       }
                     }
                   ]

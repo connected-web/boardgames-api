@@ -99,6 +99,13 @@
               "_attributes": {
                 "type": "alternate",
                 "sortindex": "1",
+                "value": "เหมันต์มรณะ"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
                 "value": "デッド・オブ・ウィンター"
               }
             },
@@ -150,7 +157,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "539"
+                "totalvotes": "543"
               },
               "results": [
                 {
@@ -167,13 +174,13 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "19"
+                        "numvotes": "20"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "310"
+                        "numvotes": "312"
                       }
                     }
                   ]
@@ -192,13 +199,13 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "116"
+                        "numvotes": "118"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "245"
+                        "numvotes": "246"
                       }
                     }
                   ]
@@ -211,13 +218,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "58"
+                        "numvotes": "59"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "346"
+                        "numvotes": "348"
                       }
                     },
                     {
@@ -236,7 +243,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "366"
+                        "numvotes": "370"
                       }
                     },
                     {
@@ -261,13 +268,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "162"
+                        "numvotes": "165"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "205"
+                        "numvotes": "206"
                       }
                     },
                     {
@@ -298,7 +305,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "223"
+                        "numvotes": "226"
                       }
                     }
                   ]
@@ -394,44 +401,44 @@
               "_attributes": {
                 "name": "language_dependence",
                 "title": "Language Dependence",
-                "totalvotes": "118"
+                "totalvotes": "119"
               },
               "results": [
                 {
                   "result": [
                     {
                       "_attributes": {
-                        "level": "16",
+                        "level": "21",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "17",
+                        "level": "22",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "18",
+                        "level": "23",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "6"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "19",
+                        "level": "24",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "90"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "20",
+                        "level": "25",
                         "value": "Unplayable in another language",
-                        "numvotes": "21"
+                        "numvotes": "22"
                       }
                     }
                   ]
@@ -765,6 +772,13 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "42032",
+                "value": "Asmodee Italia"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "24042",
                 "value": "Cube Factory of Ideas"
               }
@@ -838,6 +852,13 @@
                 "id": "3242",
                 "value": "Raven Distribution"
               }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "33998",
+                "value": "Siam Board Games"
+              }
             }
           ],
           "statistics": [
@@ -850,21 +871,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "35652"
+                        "value": "36214"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.63086"
+                        "value": "7.61989"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "7.48578"
+                        "value": "7.47489"
                       }
                     }
                   ],
@@ -877,8 +898,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "90",
-                            "bayesaverage": "7.48578"
+                            "value": "95",
+                            "bayesaverage": "7.47489"
                           }
                         },
                         {
@@ -888,7 +909,7 @@
                             "name": "thematic",
                             "friendlyname": "Thematic Rank",
                             "value": "33",
-                            "bayesaverage": "7.44273"
+                            "bayesaverage": "7.43149"
                           }
                         }
                       ]
@@ -897,7 +918,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.42206"
+                        "value": "1.42549"
                       }
                     }
                   ],
@@ -911,49 +932,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "48209"
+                        "value": "48888"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "1042"
+                        "value": "1069"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "874"
+                        "value": "862"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "7996"
+                        "value": "8062"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "5126"
+                        "value": "5180"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "1351"
+                        "value": "1368"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "3.0067"
+                        "value": "3.008"
                       }
                     }
                   ]

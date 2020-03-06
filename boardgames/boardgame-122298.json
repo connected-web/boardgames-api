@@ -43,6 +43,13 @@
               "_attributes": {
                 "type": "alternate",
                 "sortindex": "1",
+                "value": "Funghi"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
                 "value": "Fungi"
               }
             },
@@ -65,6 +72,13 @@
                 "type": "alternate",
                 "sortindex": "1",
                 "value": "美味菇釀"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "펀자이"
               }
             }
           ],
@@ -277,35 +291,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "26",
+                        "level": "6",
                         "value": "No necessary in-game text",
                         "numvotes": "26"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "27",
+                        "level": "7",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "28",
+                        "level": "8",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "29",
+                        "level": "9",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "30",
+                        "level": "10",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -473,6 +487,13 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "41030",
+                "value": "Lotus Frog Games"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "23756",
                 "value": "MYBG Co., Ltd."
               }
@@ -509,21 +530,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "6476"
+                        "value": "6570"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.01794"
+                        "value": "7.01317"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.72194"
+                        "value": "6.71763"
                       }
                     }
                   ],
@@ -536,8 +557,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "666",
-                            "bayesaverage": "6.72194"
+                            "value": "673",
+                            "bayesaverage": "6.71763"
                           }
                         },
                         {
@@ -546,8 +567,8 @@
                             "id": "5499",
                             "name": "familygames",
                             "friendlyname": "Family Game Rank",
-                            "value": "162",
-                            "bayesaverage": "6.78809"
+                            "value": "169",
+                            "bayesaverage": "6.78351"
                           }
                         }
                       ]
@@ -556,7 +577,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.21123"
+                        "value": "1.21379"
                       }
                     }
                   ],
@@ -570,49 +591,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "11074"
+                        "value": "11225"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "266"
+                        "value": "279"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "337"
+                        "value": "334"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "1556"
+                        "value": "1559"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "1572"
+                        "value": "1589"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "296"
+                        "value": "299"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "1.7331"
+                        "value": "1.7358"
                       }
                     }
                   ]

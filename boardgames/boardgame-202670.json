@@ -267,7 +267,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "4"
+                "totalvotes": "5"
               },
               "results": [
                 {
@@ -311,7 +311,7 @@
                     {
                       "_attributes": {
                         "value": "10",
-                        "numvotes": "3"
+                        "numvotes": "4"
                       }
                     },
                     {
@@ -352,42 +352,42 @@
               "_attributes": {
                 "name": "language_dependence",
                 "title": "Language Dependence",
-                "totalvotes": "4"
+                "totalvotes": "5"
               },
               "results": [
                 {
                   "result": [
                     {
                       "_attributes": {
-                        "level": "21",
+                        "level": "1",
                         "value": "No necessary in-game text",
-                        "numvotes": "4"
+                        "numvotes": "5"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "22",
+                        "level": "2",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "23",
+                        "level": "3",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "24",
+                        "level": "4",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "25",
+                        "level": "5",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -592,21 +592,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "2297"
+                        "value": "2386"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.40256"
+                        "value": "7.40319"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.62948"
+                        "value": "6.638"
                       }
                     }
                   ],
@@ -619,8 +619,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "779",
-                            "bayesaverage": "6.62948"
+                            "value": "777",
+                            "bayesaverage": "6.638"
                           }
                         },
                         {
@@ -629,8 +629,8 @@
                             "id": "5499",
                             "name": "familygames",
                             "friendlyname": "Family Game Rank",
-                            "value": "164",
-                            "bayesaverage": "6.78287"
+                            "value": "166",
+                            "bayesaverage": "6.78639"
                           }
                         }
                       ]
@@ -639,7 +639,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.45204"
+                        "value": "1.45158"
                       }
                     }
                   ],
@@ -653,7 +653,7 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "5052"
+                        "value": "5208"
                       }
                     }
                   ],
@@ -667,35 +667,35 @@
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "211"
+                        "value": "207"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "1071"
+                        "value": "1082"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "428"
+                        "value": "440"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "44"
+                        "value": "48"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2.6136"
+                        "value": "2.5833"
                       }
                     }
                   ]

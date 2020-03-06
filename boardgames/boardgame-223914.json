@@ -31,6 +31,13 @@
                 "sortindex": "1",
                 "value": "Aeon's End: The Void"
               }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "Aeon's End: Pustka"
+              }
             }
           ],
           "description": [
@@ -214,35 +221,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "16",
+                        "level": "1",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "17",
+                        "level": "2",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "18",
+                        "level": "3",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "19",
+                        "level": "4",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "20",
+                        "level": "5",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -401,6 +408,13 @@
                 "id": "10290",
                 "value": "Indie Boards & Cards"
               }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "2726",
+                "value": "Portal Games"
+              }
             }
           ],
           "statistics": [
@@ -413,21 +427,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "455"
+                        "value": "472"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "8.50729"
+                        "value": "8.49961"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.23597"
+                        "value": "6.23532"
                       }
                     }
                   ],
@@ -441,7 +455,7 @@
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "6.23597"
+                            "bayesaverage": "6.23532"
                           }
                         }
                       ]
@@ -450,7 +464,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.02782"
+                        "value": "1.04653"
                       }
                     }
                   ],
@@ -464,35 +478,35 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "3075"
+                        "value": "3172"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "29"
+                        "value": "32"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "72"
+                        "value": "74"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "187"
+                        "value": "206"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "128"
+                        "value": "132"
                       }
                     }
                   ],

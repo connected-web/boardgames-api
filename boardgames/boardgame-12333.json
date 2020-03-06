@@ -129,7 +129,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "696"
+                "totalvotes": "707"
               },
               "results": [
                 {
@@ -152,7 +152,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "460"
+                        "numvotes": "470"
                       }
                     }
                   ]
@@ -165,7 +165,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "646"
+                        "numvotes": "657"
                       }
                     },
                     {
@@ -202,7 +202,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "443"
+                        "numvotes": "453"
                       }
                     }
                   ]
@@ -213,7 +213,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "310"
+                "totalvotes": "314"
               },
               "results": [
                 {
@@ -263,19 +263,19 @@
                     {
                       "_attributes": {
                         "value": "12",
-                        "numvotes": "55"
+                        "numvotes": "56"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "14",
-                        "numvotes": "147"
+                        "numvotes": "148"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "16",
-                        "numvotes": "82"
+                        "numvotes": "84"
                       }
                     },
                     {
@@ -298,44 +298,44 @@
               "_attributes": {
                 "name": "language_dependence",
                 "title": "Language Dependence",
-                "totalvotes": "292"
+                "totalvotes": "293"
               },
               "results": [
                 {
                   "result": [
                     {
                       "_attributes": {
-                        "level": "6",
+                        "level": "1",
                         "value": "No necessary in-game text",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "7",
+                        "level": "2",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "2"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "8",
+                        "level": "3",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "13"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "9",
+                        "level": "4",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "236"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "10",
+                        "level": "5",
                         "value": "Unplayable in another language",
-                        "numvotes": "40"
+                        "numvotes": "41"
                       }
                     }
                   ]
@@ -556,6 +556,13 @@
             },
             {
               "_attributes": {
+                "type": "boardgameintegration",
+                "id": "300192",
+                "value": "Twilight Struggle: Red Sea, Conflict in the Horn of Africa"
+              }
+            },
+            {
+              "_attributes": {
                 "type": "boardgamedesigner",
                 "id": "3876",
                 "value": "Ananda Gupta"
@@ -698,21 +705,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "36794"
+                        "value": "37275"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "8.312"
+                        "value": "8.31031"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "8.16006"
+                        "value": "8.15654"
                       }
                     }
                   ],
@@ -726,7 +733,7 @@
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
                             "value": "7",
-                            "bayesaverage": "8.16006"
+                            "bayesaverage": "8.15654"
                           }
                         },
                         {
@@ -736,7 +743,7 @@
                             "name": "wargames",
                             "friendlyname": "War Game Rank",
                             "value": "1",
-                            "bayesaverage": "8.26804"
+                            "bayesaverage": "8.26618"
                           }
                         },
                         {
@@ -746,7 +753,7 @@
                             "name": "strategygames",
                             "friendlyname": "Strategy Game Rank",
                             "value": "9",
-                            "bayesaverage": "8.14086"
+                            "bayesaverage": "8.13768"
                           }
                         }
                       ]
@@ -755,7 +762,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.58316"
+                        "value": "1.58274"
                       }
                     }
                   ],
@@ -769,49 +776,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "50701"
+                        "value": "51310"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "808"
+                        "value": "814"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "1336"
+                        "value": "1361"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "9329"
+                        "value": "9423"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "8114"
+                        "value": "8208"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "3350"
+                        "value": "3382"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "3.5719"
+                        "value": "3.5742"
                       }
                     }
                   ]

@@ -31,6 +31,13 @@
                 "sortindex": "1",
                 "value": "Pirate 21"
               }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "캡틴 블랙잭"
+              }
             }
           ],
           "description": [
@@ -342,35 +349,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "86",
+                        "level": "621",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "87",
+                        "level": "622",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "88",
+                        "level": "623",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "89",
+                        "level": "624",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "90",
+                        "level": "625",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -485,6 +492,13 @@
                 "id": "10290",
                 "value": "Indie Boards & Cards"
               }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "8291",
+                "value": "Korea Boardgames co., Ltd."
+              }
             }
           ],
           "statistics": [
@@ -504,14 +518,14 @@
                   "average": [
                     {
                       "_attributes": {
-                        "value": "6.34266"
+                        "value": "6.31818"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "5.55534"
+                        "value": "5.55325"
                       }
                     }
                   ],
@@ -524,8 +538,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "9035",
-                            "bayesaverage": "5.55534"
+                            "value": "9224",
+                            "bayesaverage": "5.55325"
                           }
                         }
                       ]
@@ -534,7 +548,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.48331"
+                        "value": "1.48699"
                       }
                     }
                   ],
@@ -548,7 +562,7 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "388"
+                        "value": "393"
                       }
                     }
                   ],
@@ -569,28 +583,28 @@
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "23"
+                        "value": "24"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "43"
+                        "value": "45"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "5"
+                        "value": "6"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "1.4"
+                        "value": "1.3333"
                       }
                     }
                   ]

@@ -66,7 +66,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "5"
+                "totalvotes": "6"
               },
               "results": [
                 {
@@ -89,7 +89,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     }
                   ]
@@ -114,7 +114,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "1"
+                        "numvotes": "2"
                       }
                     }
                   ]
@@ -139,7 +139,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     }
                   ]
@@ -164,7 +164,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     }
                   ]
@@ -200,7 +200,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "1"
+                "totalvotes": "2"
               },
               "results": [
                 {
@@ -256,7 +256,7 @@
                     {
                       "_attributes": {
                         "value": "14",
-                        "numvotes": "1"
+                        "numvotes": "2"
                       }
                     },
                     {
@@ -285,7 +285,7 @@
               "_attributes": {
                 "name": "language_dependence",
                 "title": "Language Dependence",
-                "totalvotes": "1"
+                "totalvotes": "2"
               },
               "results": [
                 {
@@ -322,7 +322,7 @@
                       "_attributes": {
                         "level": "5",
                         "value": "Unplayable in another language",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     }
                   ]
@@ -560,21 +560,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "509"
+                        "value": "595"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "8.42482"
+                        "value": "8.38762"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.18255"
+                        "value": "6.26275"
                       }
                     }
                   ],
@@ -588,7 +588,7 @@
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "6.18255"
+                            "bayesaverage": "6.26275"
                           }
                         },
                         {
@@ -598,7 +598,17 @@
                             "name": "thematic",
                             "friendlyname": "Thematic Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "6.63137"
+                            "bayesaverage": "6.71555"
+                          }
+                        },
+                        {
+                          "_attributes": {
+                            "type": "family",
+                            "id": "5497",
+                            "name": "strategygames",
+                            "friendlyname": "Strategy Game Rank",
+                            "value": "Not Ranked",
+                            "bayesaverage": "6.37562"
                           }
                         }
                       ]
@@ -607,7 +617,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.95031"
+                        "value": "1.93829"
                       }
                     }
                   ],
@@ -621,49 +631,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "6156"
+                        "value": "6597"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "38"
+                        "value": "42"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "130"
+                        "value": "138"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "1282"
+                        "value": "1284"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "220"
+                        "value": "251"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "11"
+                        "value": "14"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "3.9091"
+                        "value": "3.9286"
                       }
                     }
                   ]
