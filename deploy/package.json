@@ -1,0 +1,21 @@
+{
+  "name": "mkv25-deployment-system",
+  "version": "1.0.0",
+  "description": "A way to deploy files via FTP to mkv25.net",
+  "main": "deploy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ftp",
+    "deploy",
+    "files",
+    "node",
+    "js"
+  ],
+  "author": "John Beech",
+  "license": "ISC",
+  "dependencies": {
+    "ftp-deploy": "^2.3.6"
+  }
+}
