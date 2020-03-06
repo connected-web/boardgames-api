@@ -28,7 +28,8 @@ describe('Boardgames API', () => {
         'boardgameIndex',
         'boardgameFeed',
         'boardgameSummaries',
-        'uniqueListOfGamesPlayed'
+        'uniqueListOfGamesPlayed',
+        'model'
       ]
       expect(actual).to.deep.equal(expected)
     })

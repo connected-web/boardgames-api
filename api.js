@@ -22,7 +22,8 @@ const api = {
   boardgameIndex,
   boardgameFeed,
   boardgameSummaries,
-  uniqueListOfGamesPlayed
+  uniqueListOfGamesPlayed,
+  model: async () => model
 }
 
 module.exports = api
