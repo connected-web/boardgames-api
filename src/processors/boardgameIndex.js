@@ -56,8 +56,7 @@ async function createIndex (model) {
   model.calisaurus.index = boardGameIndex
 
   await Promise.all(Object.entries(boardGameIndex).map(async kvp => {
-    const boardGameApiId = kvp[0]
-    const entry = kvp[1]
+    const [boardGameApiId, entry] = kvp
     let revisedEntry = performFurtherAnalysis(entry)
     revisedEntry = await addBGGData(revisedEntry, model)
     model.calisaurus.index[boardGameApiId] = revisedEntry

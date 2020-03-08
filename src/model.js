@@ -16,7 +16,8 @@ const model = {
   },
   calisaurus: {
     index: {},
-    feed: []
+    feed: [],
+    playstats: []
   },
   games: {},
   defaultBoardGameGeekCollection
