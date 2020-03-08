@@ -1,7 +1,8 @@
 const gsjson = require('google-spreadsheet-to-json')
-const { fetch } = require('promise-path')
+const { fetch, position, read, write } = require('promise-path')
 const readJson = require('./util/readJson')
 const writeJson = require('./util/writeJson')
+const datapath = position(__dirname, '../../data')
 
 function defaultBoardGameGeekCollection () {
   return { items: [{ item: [] }] }
@@ -12,10 +13,15 @@ const model = {
     gsjson,
     fetch
   },
+  positions: {
+    datapath
+  },
   readers: {
+    read,
     readJson
   },
   writers: {
+    write,
     writeJson
   },
   boardGameGeek: {

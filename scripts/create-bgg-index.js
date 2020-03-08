@@ -1,16 +1,17 @@
-const { write, position } = require('promise-path')
-const datapath = position(__dirname, '../data')
 const report = (...messages) => console.log('[Create Board Game Geek Index]', ...messages)
 const { model, bggIndex } = require('../')
 
 async function start () {
-  const { boardGameGeek } = await model()
-  report('Requires', 'data/bgg-collection.json')
-  boardGameGeek.collection = require(datapath('bgg-collection.json'))
-  const { index } = await bggIndex()
+  const { boardGameGeek, readers, writers } = await model()
+  const { readJson } = readers
+  const { writeJson } = writers
 
-  report('Index', index)
-  return write(datapath('bgg-index.json'), JSON.stringify(index, null, 2), 'utf8')
+  report('Reading BGG Collection')
+  boardGameGeek.collection = await readJson('bgg-collection.json')
+
+  report('Creating BGG Index from Collection')
+  const { index } = await bggIndex()
+  return writeJson('Board Game Geek Index', 'bgg-index.json', index)
 }
 
 module.exports = start
