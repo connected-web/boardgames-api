@@ -1,5 +1,5 @@
 const { position } = require('promise-path')
-const writeFile = require('./util/writeFile')
+const writeFile = require('../src/util/writeJson')
 const datapath = position(__dirname, '../data')
 const report = (...messages) => console.log('[Create Board Game Summaries]', ...messages)
 

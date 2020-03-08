@@ -1,5 +1,5 @@
 const { position, clean } = require('promise-path')
-const writeFile = require('./util/writeFile')
+const writeFile = require('../src/util/writeJson')
 const datapath = position(__dirname, '../data')
 const report = (...messages) => console.log('[Create Board Game Index]', ...messages)
 const { model, boardgameIndex } = require('../')
@@ -8,7 +8,7 @@ async function start () {
   report('Requires data/bgg-collection.json')
   report('Requires data/cali-playstats.json')
 
-  const { calisaurus } = model
+  const { calisaurus } = await model()
   calisaurus.collection = require(datapath('bgg-collection.json'))
   calisaurus.playstats = require(datapath('cali-playstats.json'))
   const { index } = await boardgameIndex()

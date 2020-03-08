@@ -1,57 +1,28 @@
 const { position, write } = require('promise-path')
-const writeFile = require('./util/writeFile')
+const writeFile = require('../src/util/writeJson')
 const datapath = position(__dirname, '../data')
-const report = (...messages) => console.log('[Create Board Game List]', ...messages)
+const report = (...messages) => console.log('[Create Board Game Lists]', ...messages)
+const { model, boardgameList } = require('../')
 
 async function start () {
-  const bggCollection = require(datapath('bgg-collection.json'))
-  const caliCollection = require(datapath('cali-playstats.json'))
-  const boardGameIndex = require(datapath('boardgame-index.json'))
+  report('Loading boardgame data from file system')
 
-  const bggBoardGameNames = bggCollection.items[0].item.map(item => item.name[0]._text[0])
-  const caliBoardGameNames = Array.from(new Set(caliCollection.map(item => item.name)))
+  const { calisaurus, boardGameGeek } = await model()
 
-  const overlap = bggBoardGameNames.filter(n => caliBoardGameNames.includes(n)).sort()
-  const bggOnly = bggBoardGameNames.filter(n => !caliBoardGameNames.includes(n)).sort()
-  const caliOnly = caliBoardGameNames.filter(n => !bggBoardGameNames.includes(n)).sort()
+  boardGameGeek.collection = require(datapath('bgg-collection.json'))
+  calisaurus.playstats = require(datapath('cali-playstats.json'))
+  calisaurus.index = require(datapath('boardgame-index.json'))
 
-  const stats = {
-    'Number of Board Game Geek board games': bggBoardGameNames.length,
-    'Number of Cali board games': caliBoardGameNames.length,
-    'Overlap size between lists': overlap.length,
-    'Board Game Geek only games': bggOnly.length,
-    'Cali only games': caliOnly.length
-  }
+  report('Processing boardgame lists')
 
-  caliCollection.forEach(item => {
-    if (!item.game) {
-      report('No game name property found on item:', item, new Date(1900, 0, item.date), 'please check column headings in Google Sheets.')
-    }
-  })
+  const result = await boardgameList()
 
-  const boardGameNames = {
-    boardGameGeek: bggBoardGameNames,
-    cali: caliBoardGameNames,
-    overlap,
-    bggOnly,
-    caliOnly,
-    stats
-  }
-
-  const boardGameList = { games: Object.entries(boardGameIndex).map(kvp => {
-    const boardGameApiId = kvp[0]
-    const entry = kvp[1]
-    return {
-      name: entry.name,
-      boardGameApiId
-    }
-  }) }
-
-  const listOfAllGames = boardGameList.games.map(n => n.name).sort()
+  const listOfAllGames = result.boardgameList.map(n => n.name).sort()
 
   return Promise.all([
-    writeFile('Board Game Names', 'boardgame-names.json', boardGameNames),
-    writeFile('Board Game List', 'boardgame-list.json', boardGameList),
+    writeFile('Board Game Groups', 'boardgame-groups.json', result.boardgameGroups),
+    writeFile('Board Game Names', 'boardgame-names.json', result.boardgameNames),
+    writeFile('Board Game List', 'boardgame-list.json', result.boardgameList),
     write(datapath('list-of-all-games.txt'), listOfAllGames.join('\n'), 'utf8')
   ])
 }

@@ -1,5 +1,5 @@
-const convertGSheetsDate = require('../../scripts/util/convertGSheetsDate')
-const reduceNameToBoardGameApiId = require('../../scripts/util/reduceNameToBoardGameApiId')
+const convertGSheetsDate = require('../util/convertGSheetsDate')
+const reduceNameToBoardGameApiId = require('../util/reduceNameToBoardGameApiId')
 const log = []
 const report = (...messages) => log.push(['[Create Board Game Index]', ...messages].join(' '))
 
