@@ -17,7 +17,7 @@ async function createList (model) {
   const uniqueListOfGamesPlayed = { uniqueGames, uniqueGamesCount, earliestDate, latestDate }
 
   model.uniqueListOfGamesPlayed = uniqueListOfGamesPlayed
-  return { uniqueListOfGamesPlayed: model.uniqueListOfGamesPlayed, log }
+  return { uniqueGames, uniqueGamesCount, earliestDate, latestDate, log }
 }
 
 function init (model) {

@@ -277,11 +277,14 @@ describe('Boardgames API', () => {
         note: ''
       }]
       const actual = await api.uniqueListOfGamesPlayed()
-      expect(actual.uniqueListOfGamesPlayed).to.deep.equal({
+      expect(actual).to.deep.equal({
         earliestDate: '2018-04-05',
         latestDate: '2020-02-02',
         uniqueGames: ['Love Letter'],
-        uniqueGamesCount: 1
+        uniqueGamesCount: 1,
+        log: [
+          '[Create Unique List of Played Games] Unique games count: 1 Earliest date 2018-04-05 Latest Date 2020-02-02'
+        ]
       })
     })
   })
