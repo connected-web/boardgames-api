@@ -306,7 +306,7 @@ describe('Boardgames API', () => {
     })
 
     it('should create a set of boardgame summaries', async () => {
-      expect(typeof actual.boardgameSummaries).to.equal('object')
+      expect(typeof actual.summaries).to.equal('object')
       expect(Array.isArray(actual.monthsInUse)).to.equal(true)
       expect(Array.isArray(actual.yearsInUse)).to.equal(true)
       expect(typeof actual.byAllTime).to.equal('object')

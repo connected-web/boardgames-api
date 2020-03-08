@@ -185,7 +185,7 @@ async function createBoardGameSummaries (model) {
   const byAllTime = summariseGames(collection.feed, summaries.numberOfDaysCovered)
 
   return {
-    boardgameSummaries: copy(summaries),
+    summaries: copy(summaries),
     monthsInUse: copy(monthsInUse),
     yearsInUse: copy(yearsInUse),
     byAllTime: copy(byAllTime),
