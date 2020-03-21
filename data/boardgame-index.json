@@ -1060,8 +1060,14 @@
     "boardGameGeekName": "Brass: Birmingham",
     "boardGameApiId": "brass-birmingham",
     "name": "Brass: Birmingham",
-    "playRecords": [],
-    "totalGamesPlayed": 0,
+    "playRecords": [
+      {
+        "date": "2020-03-14",
+        "winner": "John",
+        "coOp": "No"
+      }
+    ],
+    "totalGamesPlayed": 1,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
@@ -1069,15 +1075,15 @@
     "coOpWinRate": 0,
     "coOpLossRate": 0,
     "winCountHannah": 0,
-    "winCountJohn": 0,
+    "winCountJohn": 1,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 0,
+    "winnableGamesTotal": 1,
     "winRateHannah": 0,
-    "winRateJohn": 0,
+    "winRateJohn": 1,
     "winRateOther": 0,
     "winRateDraw": 0,
-    "mostWonGames": "Draw"
+    "mostWonGames": "John"
   },
   "bunny-kingdom": {
     "boardGameGeekGameId": "184921",
@@ -1394,7 +1400,8 @@
       },
       {
         "date": "2020-02-19",
-        "winner": "John"
+        "winner": "John",
+        "coOp": "No"
       }
     ],
     "totalGamesPlayed": 5,
@@ -1693,25 +1700,30 @@
         "date": "2020-01-03",
         "winner": "Hannah",
         "coOp": "No"
+      },
+      {
+        "date": "2020-03-12",
+        "winner": "Hannah",
+        "coOp": "No"
       }
     ],
-    "totalGamesPlayed": 8,
+    "totalGamesPlayed": 9,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
     "coOpGameLoses": 0,
     "coOpWinRate": 0,
     "coOpLossRate": 0,
-    "winCountHannah": 4,
+    "winCountHannah": 5,
     "winCountJohn": 4,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 8,
-    "winRateHannah": 0.5,
-    "winRateJohn": 0.5,
+    "winnableGamesTotal": 9,
+    "winRateHannah": 0.5556,
+    "winRateJohn": 0.4444,
     "winRateOther": 0,
     "winRateDraw": 0,
-    "mostWonGames": "Draw"
+    "mostWonGames": "Hannah"
   },
   "coup-rebellion-g54": {
     "boardGameGeekGameId": "148943",
@@ -1976,6 +1988,41 @@
     "winnableGamesTotal": 3,
     "winRateHannah": 0.6667,
     "winRateJohn": 0.3333,
+    "winRateOther": 0,
+    "winRateDraw": 0,
+    "mostWonGames": "Hannah"
+  },
+  "design-town": {
+    "boardGameGeekGameId": "207370",
+    "boardGameGeekName": "Design Town",
+    "boardGameApiId": "design-town",
+    "name": "Design Town",
+    "playRecords": [
+      {
+        "date": "2020-03-18",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2020-03-19",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
+    ],
+    "totalGamesPlayed": 2,
+    "coOpGamesPlayedCount": 0,
+    "coOpGamesPlayedPercentage": 0,
+    "coOpGameWins": 0,
+    "coOpGameLoses": 0,
+    "coOpWinRate": 0,
+    "coOpLossRate": 0,
+    "winCountHannah": 2,
+    "winCountJohn": 0,
+    "winCountOther": 0,
+    "winCountDraw": 0,
+    "winnableGamesTotal": 2,
+    "winRateHannah": 1,
+    "winRateJohn": 0,
     "winRateOther": 0,
     "winRateDraw": 0,
     "mostWonGames": "Hannah"
@@ -2520,6 +2567,46 @@
     "winRateDraw": 1,
     "mostWonGames": "Draw"
   },
+  "dungeon-of-mandom-viii": {
+    "boardGameGeekGameId": "227110",
+    "boardGameGeekName": "Dungeon of Mandom VIII",
+    "boardGameApiId": "dungeon-of-mandom-viii",
+    "name": "Dungeon of Mandom VIII",
+    "playRecords": [
+      {
+        "date": "2020-03-19",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2020-03-19",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2020-03-21",
+        "winner": "John",
+        "coOp": "No"
+      }
+    ],
+    "totalGamesPlayed": 3,
+    "coOpGamesPlayedCount": 0,
+    "coOpGamesPlayedPercentage": 0,
+    "coOpGameWins": 0,
+    "coOpGameLoses": 0,
+    "coOpWinRate": 0,
+    "coOpLossRate": 0,
+    "winCountHannah": 1,
+    "winCountJohn": 2,
+    "winCountOther": 0,
+    "winCountDraw": 0,
+    "winnableGamesTotal": 3,
+    "winRateHannah": 0.3333,
+    "winRateJohn": 0.6667,
+    "winRateOther": 0,
+    "winRateDraw": 0,
+    "mostWonGames": "John"
+  },
   "dungeons-dragons-starter-set": {
     "boardGameGeekGameId": "94902",
     "boardGameGeekName": "Dungeons & Dragons Starter Set",
@@ -2644,6 +2731,36 @@
     "winRateOther": 0,
     "winRateDraw": 0,
     "mostWonGames": "Draw"
+  },
+  "fafnir": {
+    "boardGameGeekGameId": "294233",
+    "boardGameGeekName": "Fafnir",
+    "boardGameApiId": "fafnir",
+    "name": "Fafnir",
+    "playRecords": [
+      {
+        "date": "2020-03-17",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
+    ],
+    "totalGamesPlayed": 1,
+    "coOpGamesPlayedCount": 0,
+    "coOpGamesPlayedPercentage": 0,
+    "coOpGameWins": 0,
+    "coOpGameLoses": 0,
+    "coOpWinRate": 0,
+    "coOpLossRate": 0,
+    "winCountHannah": 1,
+    "winCountJohn": 0,
+    "winCountOther": 0,
+    "winCountDraw": 0,
+    "winnableGamesTotal": 1,
+    "winRateHannah": 1,
+    "winRateJohn": 0,
+    "winRateOther": 0,
+    "winRateDraw": 0,
+    "mostWonGames": "Hannah"
   },
   "fallout": {
     "boardGameGeekGameId": "232918",
@@ -2787,6 +2904,36 @@
     "winRateDraw": 0,
     "mostWonGames": "Draw"
   },
+  "flotsam-fight": {
+    "boardGameGeekGameId": "256478",
+    "boardGameGeekName": "Flotsam Fight",
+    "boardGameApiId": "flotsam-fight",
+    "name": "Flotsam Fight",
+    "playRecords": [
+      {
+        "date": "2020-03-20",
+        "winner": "John",
+        "coOp": "No"
+      }
+    ],
+    "totalGamesPlayed": 1,
+    "coOpGamesPlayedCount": 0,
+    "coOpGamesPlayedPercentage": 0,
+    "coOpGameWins": 0,
+    "coOpGameLoses": 0,
+    "coOpWinRate": 0,
+    "coOpLossRate": 0,
+    "winCountHannah": 0,
+    "winCountJohn": 1,
+    "winCountOther": 0,
+    "winCountDraw": 0,
+    "winnableGamesTotal": 1,
+    "winRateHannah": 0,
+    "winRateJohn": 1,
+    "winRateOther": 0,
+    "winRateDraw": 0,
+    "mostWonGames": "John"
+  },
   "fluxx": {
     "boardGameGeekGameId": "258",
     "boardGameGeekName": "Fluxx",
@@ -2877,6 +3024,30 @@
     "coOpGameLoses": 1,
     "coOpWinRate": 0.5,
     "coOpLossRate": 0.5,
+    "winCountHannah": 0,
+    "winCountJohn": 0,
+    "winCountOther": 0,
+    "winCountDraw": 0,
+    "winnableGamesTotal": 0,
+    "winRateHannah": 0,
+    "winRateJohn": 0,
+    "winRateOther": 0,
+    "winRateDraw": 0,
+    "mostWonGames": "Draw"
+  },
+  "the-fox-in-the-forest-duet": {
+    "boardGameGeekGameId": "288169",
+    "boardGameGeekName": "The Fox in the Forest Duet",
+    "boardGameApiId": "the-fox-in-the-forest-duet",
+    "name": "The Fox in the Forest Duet",
+    "playRecords": [],
+    "totalGamesPlayed": 0,
+    "coOpGamesPlayedCount": 0,
+    "coOpGamesPlayedPercentage": 0,
+    "coOpGameWins": 0,
+    "coOpGameLoses": 0,
+    "coOpWinRate": 0,
+    "coOpLossRate": 0,
     "winCountHannah": 0,
     "winCountJohn": 0,
     "winCountOther": 0,
@@ -3785,9 +3956,14 @@
         "date": "2020-01-12",
         "winner": "John",
         "coOp": "No"
+      },
+      {
+        "date": "2020-03-10",
+        "winner": "Draw",
+        "coOp": "No"
       }
     ],
-    "totalGamesPlayed": 7,
+    "totalGamesPlayed": 8,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
@@ -3797,12 +3973,12 @@
     "winCountHannah": 1,
     "winCountJohn": 6,
     "winCountOther": 0,
-    "winCountDraw": 0,
-    "winnableGamesTotal": 7,
-    "winRateHannah": 0.1429,
-    "winRateJohn": 0.8571,
+    "winCountDraw": 1,
+    "winnableGamesTotal": 8,
+    "winRateHannah": 0.125,
+    "winRateJohn": 0.75,
     "winRateOther": 0,
-    "winRateDraw": 0,
+    "winRateDraw": 0.125,
     "mostWonGames": "John"
   },
   "kamigami-battles-battle-of-the-nine-realms": {
@@ -4023,28 +4199,40 @@
       },
       {
         "date": "2020-02-19",
-        "winner": "Hannah"
+        "winner": "Hannah",
+        "coOp": "No"
       },
       {
         "date": "2020-02-24",
-        "winner": "Hannah"
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2020-03-12",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2020-03-14",
+        "winner": "Hannah",
+        "coOp": "No"
       }
     ],
-    "totalGamesPlayed": 27,
+    "totalGamesPlayed": 29,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
     "coOpGameLoses": 0,
     "coOpWinRate": 0,
     "coOpLossRate": 0,
-    "winCountHannah": 17,
+    "winCountHannah": 19,
     "winCountJohn": 9,
     "winCountOther": 1,
     "winCountDraw": 0,
-    "winnableGamesTotal": 27,
-    "winRateHannah": 0.6296,
-    "winRateJohn": 0.3333,
-    "winRateOther": 0.037,
+    "winnableGamesTotal": 29,
+    "winRateHannah": 0.6552,
+    "winRateJohn": 0.3103,
+    "winRateOther": 0.0345,
     "winRateDraw": 0,
     "mostWonGames": "Hannah"
   },
@@ -4625,13 +4813,49 @@
         "coOpOutcome": "Lost",
         "coOp": "Yes",
         "notes": "5 player"
+      },
+      {
+        "date": "2020-03-09",
+        "coOpOutcome": "Won",
+        "coOp": "Yes"
       }
     ],
-    "totalGamesPlayed": 7,
-    "coOpGamesPlayedCount": 7,
+    "totalGamesPlayed": 8,
+    "coOpGamesPlayedCount": 8,
+    "coOpGamesPlayedPercentage": 1,
+    "coOpGameWins": 1,
+    "coOpGameLoses": 7,
+    "coOpWinRate": 0.125,
+    "coOpLossRate": 0.875,
+    "winCountHannah": 0,
+    "winCountJohn": 0,
+    "winCountOther": 0,
+    "winCountDraw": 0,
+    "winnableGamesTotal": 0,
+    "winRateHannah": 0,
+    "winRateJohn": 0,
+    "winRateOther": 0,
+    "winRateDraw": 0,
+    "mostWonGames": "Draw"
+  },
+  "the-mind-extreme": {
+    "boardGameGeekGameId": "287607",
+    "boardGameGeekName": "The Mind Extreme",
+    "boardGameApiId": "the-mind-extreme",
+    "name": "The Mind Extreme",
+    "playRecords": [
+      {
+        "date": "2020-03-16",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes",
+        "notes": "Made it to level 8"
+      }
+    ],
+    "totalGamesPlayed": 1,
+    "coOpGamesPlayedCount": 1,
     "coOpGamesPlayedPercentage": 1,
     "coOpGameWins": 0,
-    "coOpGameLoses": 7,
+    "coOpGameLoses": 1,
     "coOpWinRate": 0,
     "coOpLossRate": 1,
     "winCountHannah": 0,
@@ -4650,8 +4874,14 @@
     "boardGameGeekName": "Mint Delivery",
     "boardGameApiId": "mint-delivery",
     "name": "Mint Delivery",
-    "playRecords": [],
-    "totalGamesPlayed": 0,
+    "playRecords": [
+      {
+        "date": "2020-03-14",
+        "winner": "John",
+        "coOp": "No"
+      }
+    ],
+    "totalGamesPlayed": 1,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
@@ -4659,15 +4889,15 @@
     "coOpWinRate": 0,
     "coOpLossRate": 0,
     "winCountHannah": 0,
-    "winCountJohn": 0,
+    "winCountJohn": 1,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 0,
+    "winnableGamesTotal": 1,
     "winRateHannah": 0,
-    "winRateJohn": 0,
+    "winRateJohn": 1,
     "winRateOther": 0,
     "winRateDraw": 0,
-    "mostWonGames": "Draw"
+    "mostWonGames": "John"
   },
   "mint-works": {
     "boardGameGeekGameId": "200077",
@@ -4692,10 +4922,16 @@
       },
       {
         "date": "2020-02-12",
-        "winner": "John"
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2020-03-08",
+        "winner": "John",
+        "coOp": "No"
       }
     ],
-    "totalGamesPlayed": 4,
+    "totalGamesPlayed": 5,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
@@ -4703,15 +4939,15 @@
     "coOpWinRate": 0,
     "coOpLossRate": 0,
     "winCountHannah": 2,
-    "winCountJohn": 2,
+    "winCountJohn": 3,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 4,
-    "winRateHannah": 0.5,
-    "winRateJohn": 0.5,
+    "winnableGamesTotal": 5,
+    "winRateHannah": 0.4,
+    "winRateJohn": 0.6,
     "winRateOther": 0,
     "winRateDraw": 0,
-    "mostWonGames": "Draw"
+    "mostWonGames": "John"
   },
   "mistborn-house-war": {
     "boardGameGeekGameId": "182626",
@@ -4820,6 +5056,36 @@
     "winCountOther": 0,
     "winCountDraw": 0,
     "winnableGamesTotal": 2,
+    "winRateHannah": 0,
+    "winRateJohn": 1,
+    "winRateOther": 0,
+    "winRateDraw": 0,
+    "mostWonGames": "John"
+  },
+  "nine-tiles-panic": {
+    "boardGameGeekGameId": "279869",
+    "boardGameGeekName": "Nine Tiles Panic",
+    "boardGameApiId": "nine-tiles-panic",
+    "name": "Nine Tiles Panic",
+    "playRecords": [
+      {
+        "date": "2020-03-19",
+        "winner": "John",
+        "coOp": "No"
+      }
+    ],
+    "totalGamesPlayed": 1,
+    "coOpGamesPlayedCount": 0,
+    "coOpGamesPlayedPercentage": 0,
+    "coOpGameWins": 0,
+    "coOpGameLoses": 0,
+    "coOpWinRate": 0,
+    "coOpLossRate": 0,
+    "winCountHannah": 0,
+    "winCountJohn": 1,
+    "winCountOther": 0,
+    "winCountDraw": 0,
+    "winnableGamesTotal": 1,
     "winRateHannah": 0,
     "winRateJohn": 1,
     "winRateOther": 0,
@@ -4993,16 +5259,32 @@
       {
         "date": "2020-02-06",
         "coOpOutcome": "Won",
+        "coOp": "Yes",
         "notes": "Finished on 13th Feb"
+      },
+      {
+        "date": "2020-03-04",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2020-03-07",
+        "coOpOutcome": "Won",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2020-03-07",
+        "coOpOutcome": "Won",
+        "coOp": "Yes"
       }
     ],
-    "totalGamesPlayed": 3,
-    "coOpGamesPlayedCount": 2,
-    "coOpGamesPlayedPercentage": 0.6667,
-    "coOpGameWins": 2,
-    "coOpGameLoses": 0,
-    "coOpWinRate": 1,
-    "coOpLossRate": 0,
+    "totalGamesPlayed": 6,
+    "coOpGamesPlayedCount": 6,
+    "coOpGamesPlayedPercentage": 1,
+    "coOpGameWins": 5,
+    "coOpGameLoses": 1,
+    "coOpWinRate": 0.8333,
+    "coOpLossRate": 0.1667,
     "winCountHannah": 0,
     "winCountJohn": 0,
     "winCountOther": 0,
@@ -5274,15 +5556,20 @@
         "date": "2018-03-21",
         "coOpOutcome": "Won",
         "coOp": "Yes"
+      },
+      {
+        "date": "2020-03-06",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes"
       }
     ],
-    "totalGamesPlayed": 2,
-    "coOpGamesPlayedCount": 2,
+    "totalGamesPlayed": 3,
+    "coOpGamesPlayedCount": 3,
     "coOpGamesPlayedPercentage": 1,
     "coOpGameWins": 2,
-    "coOpGameLoses": 0,
-    "coOpWinRate": 1,
-    "coOpLossRate": 0,
+    "coOpGameLoses": 1,
+    "coOpWinRate": 0.6667,
+    "coOpLossRate": 0.3333,
     "winCountHannah": 0,
     "winCountJohn": 0,
     "winCountOther": 0,
@@ -5366,7 +5653,8 @@
     "playRecords": [
       {
         "date": "2020-02-16",
-        "winner": "Hannah"
+        "winner": "Hannah",
+        "coOp": "No"
       }
     ],
     "totalGamesPlayed": 1,
@@ -5795,9 +6083,14 @@
         "winner": "Hannah",
         "coOp": "No",
         "notes": "4-player"
+      },
+      {
+        "date": "2020-03-01",
+        "winner": "John",
+        "coOp": "No"
       }
     ],
-    "totalGamesPlayed": 6,
+    "totalGamesPlayed": 7,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
@@ -5805,12 +6098,12 @@
     "coOpWinRate": 0,
     "coOpLossRate": 0,
     "winCountHannah": 5,
-    "winCountJohn": 1,
+    "winCountJohn": 2,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 6,
-    "winRateHannah": 0.8333,
-    "winRateJohn": 0.1667,
+    "winnableGamesTotal": 7,
+    "winRateHannah": 0.7143,
+    "winRateJohn": 0.2857,
     "winRateOther": 0,
     "winRateDraw": 0,
     "mostWonGames": "Hannah"
@@ -5975,7 +6268,8 @@
       },
       {
         "date": "2020-02-08",
-        "winner": "Hannah"
+        "winner": "Hannah",
+        "coOp": "No"
       }
     ],
     "totalGamesPlayed": 4,
@@ -5996,6 +6290,36 @@
     "winRateDraw": 0,
     "mostWonGames": "Hannah"
   },
+  "star-realms-colony-wars": {
+    "boardGameGeekGameId": "182631",
+    "boardGameGeekName": "Star Realms: Colony Wars",
+    "boardGameApiId": "star-realms-colony-wars",
+    "name": "Star Realms: Colony Wars",
+    "playRecords": [
+      {
+        "date": "2020-02-09",
+        "winner": "John",
+        "coOp": "No"
+      }
+    ],
+    "totalGamesPlayed": 1,
+    "coOpGamesPlayedCount": 0,
+    "coOpGamesPlayedPercentage": 0,
+    "coOpGameWins": 0,
+    "coOpGameLoses": 0,
+    "coOpWinRate": 0,
+    "coOpLossRate": 0,
+    "winCountHannah": 0,
+    "winCountJohn": 1,
+    "winCountOther": 0,
+    "winCountDraw": 0,
+    "winnableGamesTotal": 1,
+    "winRateHannah": 0,
+    "winRateJohn": 1,
+    "winRateOther": 0,
+    "winRateDraw": 0,
+    "mostWonGames": "John"
+  },
   "star-realms-frontiers": {
     "boardGameGeekGameId": "230253",
     "boardGameGeekName": "Star Realms: Frontiers",
@@ -6003,16 +6327,19 @@
     "name": "Star Realms: Frontiers",
     "playRecords": [
       {
-        "date": "2020-05-08",
-        "winner": "Hannah"
+        "date": "2020-02-08",
+        "winner": "Hannah",
+        "coOp": "No"
       },
       {
         "date": "2020-02-12",
-        "winner": "John"
+        "winner": "John",
+        "coOp": "No"
       },
       {
         "date": "2020-02-13",
         "winner": "Other",
+        "coOp": "No",
         "notes": "4 player"
       }
     ],
@@ -6353,7 +6680,8 @@
       },
       {
         "date": "2020-02-16",
-        "winner": "Hannah"
+        "winner": "Hannah",
+        "coOp": "No"
       }
     ],
     "totalGamesPlayed": 5,
@@ -6619,25 +6947,31 @@
       },
       {
         "date": "2020-02-15",
-        "winner": "Hannah"
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2020-03-21",
+        "winner": "Hannah",
+        "coOp": "No"
       }
     ],
-    "totalGamesPlayed": 5,
+    "totalGamesPlayed": 6,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
     "coOpGameLoses": 0,
     "coOpWinRate": 0,
     "coOpLossRate": 0,
-    "winCountHannah": 1,
+    "winCountHannah": 2,
     "winCountJohn": 3,
     "winCountOther": 0,
     "winCountDraw": 1,
-    "winnableGamesTotal": 5,
-    "winRateHannah": 0.2,
-    "winRateJohn": 0.6,
+    "winnableGamesTotal": 6,
+    "winRateHannah": 0.3333,
+    "winRateJohn": 0.5,
     "winRateOther": 0,
-    "winRateDraw": 0.2,
+    "winRateDraw": 0.1667,
     "mostWonGames": "John"
   },
   "ticket-to-ride-map-collection-volume-1-team-asia-legendary-asia": {
@@ -6968,7 +7302,8 @@
       },
       {
         "date": "2020-02-23",
-        "winner": "John"
+        "winner": "John",
+        "coOp": "No"
       }
     ],
     "totalGamesPlayed": 8,
@@ -7495,6 +7830,41 @@
     "winnableGamesTotal": 0,
     "winRateHannah": 0,
     "winRateJohn": 0,
+    "winRateOther": 0,
+    "winRateDraw": 0,
+    "mostWonGames": "Draw"
+  },
+  "tricks-and-the-phantom": {
+    "boardGameGeekGameId": "242325",
+    "boardGameGeekName": "Tricks and the Phantom",
+    "boardGameApiId": "tricks-and-the-phantom",
+    "name": "Tricks and the Phantom",
+    "playRecords": [
+      {
+        "date": "2020-03-18",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2020-03-19",
+        "winner": "Hannah",
+        "coOp": "No"
+      }
+    ],
+    "totalGamesPlayed": 2,
+    "coOpGamesPlayedCount": 0,
+    "coOpGamesPlayedPercentage": 0,
+    "coOpGameWins": 0,
+    "coOpGameLoses": 0,
+    "coOpWinRate": 0,
+    "coOpLossRate": 0,
+    "winCountHannah": 1,
+    "winCountJohn": 1,
+    "winCountOther": 0,
+    "winCountDraw": 0,
+    "winnableGamesTotal": 2,
+    "winRateHannah": 0.5,
+    "winRateJohn": 0.5,
     "winRateOther": 0,
     "winRateDraw": 0,
     "mostWonGames": "Draw"
@@ -8624,11 +8994,13 @@
       },
       {
         "date": "2020-02-10",
-        "winner": "John"
+        "winner": "John",
+        "coOp": "No"
       },
       {
         "date": "2020-02-28",
-        "winner": "Hannah"
+        "winner": "Hannah",
+        "coOp": "No"
       }
     ],
     "name": "Archer Love Letter",
@@ -8852,37 +9224,11 @@
     "playRecords": [
       {
         "date": "2020-02-09",
-        "winner": "John"
+        "winner": "John",
+        "coOp": "No"
       }
     ],
     "name": "Castles of Burghandy",
-    "totalGamesPlayed": 1,
-    "coOpGamesPlayedCount": 0,
-    "coOpGamesPlayedPercentage": 0,
-    "coOpGameWins": 0,
-    "coOpGameLoses": 0,
-    "coOpWinRate": 0,
-    "coOpLossRate": 0,
-    "winCountHannah": 0,
-    "winCountJohn": 1,
-    "winCountOther": 0,
-    "winCountDraw": 0,
-    "winnableGamesTotal": 1,
-    "winRateHannah": 0,
-    "winRateJohn": 1,
-    "winRateOther": 0,
-    "winRateDraw": 0,
-    "mostWonGames": "John"
-  },
-  "star-realms-colony-wars": {
-    "boardGameApiId": "star-realms-colony-wars",
-    "playRecords": [
-      {
-        "date": "2020-02-09",
-        "winner": "John"
-      }
-    ],
-    "name": "Star Realms: Colony Wars",
     "totalGamesPlayed": 1,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
@@ -8906,7 +9252,8 @@
     "playRecords": [
       {
         "date": "2020-02-19",
-        "winner": "John"
+        "winner": "John",
+        "coOp": "No"
       }
     ],
     "name": "Azul Summer Pavilion",
@@ -8933,7 +9280,8 @@
     "playRecords": [
       {
         "date": "2020-02-20",
-        "winner": "Hannah"
+        "winner": "Hannah",
+        "coOp": "No"
       }
     ],
     "name": "Ticket to Ride: Japan",
@@ -8954,5 +9302,153 @@
     "winRateOther": 0,
     "winRateDraw": 0,
     "mostWonGames": "Hannah"
+  },
+  "super-bee": {
+    "boardGameApiId": "super-bee",
+    "playRecords": [
+      {
+        "date": "2020-03-15",
+        "winner": "Hannah",
+        "coOp": "No",
+        "notes": "3 player, Airecon"
+      }
+    ],
+    "name": "Super-Bee",
+    "totalGamesPlayed": 1,
+    "coOpGamesPlayedCount": 0,
+    "coOpGamesPlayedPercentage": 0,
+    "coOpGameWins": 0,
+    "coOpGameLoses": 0,
+    "coOpWinRate": 0,
+    "coOpLossRate": 0,
+    "winCountHannah": 1,
+    "winCountJohn": 0,
+    "winCountOther": 0,
+    "winCountDraw": 0,
+    "winnableGamesTotal": 1,
+    "winRateHannah": 1,
+    "winRateJohn": 0,
+    "winRateOther": 0,
+    "winRateDraw": 0,
+    "mostWonGames": "Hannah"
+  },
+  "sub-terra-ii": {
+    "boardGameApiId": "sub-terra-ii",
+    "playRecords": [
+      {
+        "date": "2020-03-15",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "notes": "3 player, Airecon"
+      }
+    ],
+    "name": "Sub Terra II",
+    "totalGamesPlayed": 1,
+    "coOpGamesPlayedCount": 1,
+    "coOpGamesPlayedPercentage": 1,
+    "coOpGameWins": 1,
+    "coOpGameLoses": 0,
+    "coOpWinRate": 1,
+    "coOpLossRate": 0,
+    "winCountHannah": 0,
+    "winCountJohn": 0,
+    "winCountOther": 0,
+    "winCountDraw": 0,
+    "winnableGamesTotal": 0,
+    "winRateHannah": 0,
+    "winRateJohn": 0,
+    "winRateOther": 0,
+    "winRateDraw": 0,
+    "mostWonGames": "Draw"
+  },
+  "arlukkachase": {
+    "boardGameApiId": "arlukkachase",
+    "playRecords": [
+      {
+        "date": "2020-03-15",
+        "winner": "Hannah",
+        "coOp": "No",
+        "notes": "3 player, Airecon"
+      }
+    ],
+    "name": "Arlukkachase",
+    "totalGamesPlayed": 1,
+    "coOpGamesPlayedCount": 0,
+    "coOpGamesPlayedPercentage": 0,
+    "coOpGameWins": 0,
+    "coOpGameLoses": 0,
+    "coOpWinRate": 0,
+    "coOpLossRate": 0,
+    "winCountHannah": 1,
+    "winCountJohn": 0,
+    "winCountOther": 0,
+    "winCountDraw": 0,
+    "winnableGamesTotal": 1,
+    "winRateHannah": 1,
+    "winRateJohn": 0,
+    "winRateOther": 0,
+    "winRateDraw": 0,
+    "mostWonGames": "Hannah"
+  },
+  "the-fox-and-the-forest-duet": {
+    "boardGameApiId": "the-fox-and-the-forest-duet",
+    "playRecords": [
+      {
+        "date": "2020-03-18",
+        "coOpOutcome": "Won",
+        "coOp": "Yes"
+      }
+    ],
+    "name": "The Fox and the Forest Duet",
+    "totalGamesPlayed": 1,
+    "coOpGamesPlayedCount": 1,
+    "coOpGamesPlayedPercentage": 1,
+    "coOpGameWins": 1,
+    "coOpGameLoses": 0,
+    "coOpWinRate": 1,
+    "coOpLossRate": 0,
+    "winCountHannah": 0,
+    "winCountJohn": 0,
+    "winCountOther": 0,
+    "winCountDraw": 0,
+    "winnableGamesTotal": 0,
+    "winRateHannah": 0,
+    "winRateJohn": 0,
+    "winRateOther": 0,
+    "winRateDraw": 0,
+    "mostWonGames": "Draw"
+  },
+  "inhuman-conditions": {
+    "boardGameApiId": "inhuman-conditions",
+    "playRecords": [
+      {
+        "date": "2020-03-20",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes"
+      },
+      {
+        "date": "2020-03-20",
+        "coOpOutcome": "Won",
+        "coOp": "Yes"
+      }
+    ],
+    "name": "Inhuman Conditions",
+    "totalGamesPlayed": 2,
+    "coOpGamesPlayedCount": 2,
+    "coOpGamesPlayedPercentage": 1,
+    "coOpGameWins": 1,
+    "coOpGameLoses": 1,
+    "coOpWinRate": 0.5,
+    "coOpLossRate": 0.5,
+    "winCountHannah": 0,
+    "winCountJohn": 0,
+    "winCountOther": 0,
+    "winCountDraw": 0,
+    "winnableGamesTotal": 0,
+    "winRateHannah": 0,
+    "winRateJohn": 0,
+    "winRateOther": 0,
+    "winRateDraw": 0,
+    "mostWonGames": "Draw"
   }
 }

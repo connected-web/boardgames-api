@@ -72,14 +72,20 @@
     },
     {
       "date": "2018-08-05",
-      "name": "The Pyramid's Deadline",
+      "name": "Love Letter",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-08-05",
+      "name": "Coup",
       "winner": "John",
       "coOp": "No"
     },
     {
       "date": "2018-08-05",
-      "name": "Love Letter",
-      "winner": "Hannah",
+      "name": "The Pyramid's Deadline",
+      "winner": "John",
       "coOp": "No"
     },
     {
@@ -92,12 +98,6 @@
       "date": "2018-08-05",
       "name": "Love Letter",
       "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-08-05",
-      "name": "Coup",
-      "winner": "John",
       "coOp": "No"
     },
     {
@@ -182,19 +182,19 @@
     },
     {
       "date": "2018-08-18",
-      "name": "SpyNet",
-      "winner": "Hannah",
-      "coOp": "No"
+      "name": "Pandemic: The Cure",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
     },
     {
       "date": "2018-08-18",
-      "name": "Cat Lady",
+      "name": "Love Letter: Legend of the Five Rings",
       "winner": "John",
       "coOp": "No"
     },
     {
       "date": "2018-08-18",
-      "name": "Love Letter: Legend of the Five Rings",
+      "name": "Cat Lady",
       "winner": "John",
       "coOp": "No"
     },
@@ -206,9 +206,9 @@
     },
     {
       "date": "2018-08-18",
-      "name": "Pandemic: The Cure",
-      "coOp": "Yes",
-      "coOpOutcome": "Won"
+      "name": "SpyNet",
+      "winner": "Hannah",
+      "coOp": "No"
     },
     {
       "date": "2018-08-19",
@@ -224,15 +224,15 @@
     },
     {
       "date": "2018-08-21",
-      "name": "Lords of Vegas",
-      "winner": "Hannah",
+      "name": "Topiary",
+      "winner": "John",
       "coOp": "No",
       "note": "4 player"
     },
     {
       "date": "2018-08-21",
-      "name": "Topiary",
-      "winner": "John",
+      "name": "Lords of Vegas",
+      "winner": "Hannah",
       "coOp": "No",
       "note": "4 player"
     },
@@ -247,13 +247,6 @@
       "name": "Love Letter",
       "winner": "John",
       "coOp": "No"
-    },
-    {
-      "date": "2018-08-24",
-      "name": "Troika",
-      "winner": "John",
-      "coOp": "No",
-      "note": "3 player"
     },
     {
       "date": "2018-08-24",
@@ -273,6 +266,13 @@
       "date": "2018-08-24",
       "name": "Lovecraft Letter",
       "winner": "Other",
+      "coOp": "No",
+      "note": "3 player"
+    },
+    {
+      "date": "2018-08-24",
+      "name": "Troika",
+      "winner": "John",
       "coOp": "No",
       "note": "3 player"
     },
@@ -370,11 +370,11 @@
       "date": "2018-08-18",
       "games": [
         "Tortuga 1667",
-        "Pandemic: The Cure",
-        "Troika",
         "SpyNet",
-        "Cat Lady",
-        "Love Letter: Legend of the Five Rings"
+        "Troika",
+        "Pandemic: The Cure",
+        "Love Letter: Legend of the Five Rings",
+        "Cat Lady"
       ]
     }
   ],

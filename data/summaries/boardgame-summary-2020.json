@@ -2,9 +2,9 @@
   "dateCode": "2020",
   "title": "2020",
   "sequenceStartDate": "2020-01-01",
-  "sequenceEndDate": "2020-05-08",
-  "daysInSequence": 129,
-  "daysWithUnplayedGames": 89,
+  "sequenceEndDate": "2020-03-21",
+  "daysInSequence": 81,
+  "daysWithUnplayedGames": 26,
   "gamesPlayedPerDay": {
     "1": 2,
     "2": 1,
@@ -44,7 +44,7 @@
     "36": 1,
     "37": 1,
     "38": 0,
-    "39": 1,
+    "39": 2,
     "40": 2,
     "41": 1,
     "42": 0,
@@ -66,75 +66,27 @@
     "58": 0,
     "59": 1,
     "60": 0,
-    "61": 0,
+    "61": 1,
     "62": 0,
     "63": 0,
-    "64": 0,
+    "64": 1,
     "65": 0,
-    "66": 0,
-    "67": 0,
-    "68": 0,
-    "69": 0,
-    "70": 0,
+    "66": 1,
+    "67": 2,
+    "68": 1,
+    "69": 1,
+    "70": 1,
     "71": 0,
-    "72": 0,
+    "72": 2,
     "73": 0,
-    "74": 0,
-    "75": 0,
-    "76": 0,
-    "77": 0,
-    "78": 0,
-    "79": 0,
-    "80": 0,
-    "81": 0,
-    "82": 0,
-    "83": 0,
-    "84": 0,
-    "85": 0,
-    "86": 0,
-    "87": 0,
-    "88": 0,
-    "89": 0,
-    "90": 0,
-    "91": 0,
-    "92": 0,
-    "93": 0,
-    "94": 0,
-    "95": 0,
-    "96": 0,
-    "97": 0,
-    "98": 0,
-    "99": 0,
-    "100": 0,
-    "101": 0,
-    "102": 0,
-    "103": 0,
-    "104": 0,
-    "105": 0,
-    "106": 0,
-    "107": 0,
-    "108": 0,
-    "109": 0,
-    "110": 0,
-    "111": 0,
-    "112": 0,
-    "113": 0,
-    "114": 0,
-    "115": 0,
-    "116": 0,
-    "117": 0,
-    "118": 0,
-    "119": 0,
-    "120": 0,
-    "121": 0,
-    "122": 0,
-    "123": 0,
-    "124": 0,
-    "125": 0,
-    "126": 0,
-    "127": 0,
-    "128": 0,
-    "129": 1
+    "74": 3,
+    "75": 3,
+    "76": 1,
+    "77": 1,
+    "78": 3,
+    "79": 5,
+    "80": 3,
+    "81": 2
   },
   "gamesPlayed": [
     {
@@ -224,12 +176,6 @@
     },
     {
       "date": "2020-01-18",
-      "name": "Ticket to Ride: First Journey",
-      "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2020-01-18",
       "name": "Wingspan",
       "winner": "John",
       "coOp": "No",
@@ -243,6 +189,12 @@
       "note": "3 player"
     },
     {
+      "date": "2020-01-18",
+      "name": "Ticket to Ride: First Journey",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
       "date": "2020-01-19",
       "name": "Star Realms",
       "winner": "Hannah",
@@ -250,13 +202,13 @@
     },
     {
       "date": "2020-01-20",
-      "name": "Splendor",
+      "name": "Love Letter",
       "winner": "Hannah",
       "coOp": "No"
     },
     {
       "date": "2020-01-20",
-      "name": "Love Letter",
+      "name": "Splendor",
       "winner": "Hannah",
       "coOp": "No"
     },
@@ -282,21 +234,15 @@
     },
     {
       "date": "2020-01-25",
-      "name": "Love Letter",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2020-01-25",
       "name": "Tanto Cuore",
       "winner": "Hannah",
       "coOp": "No"
     },
     {
-      "date": "2020-01-26",
-      "name": "Splendor",
+      "date": "2020-01-25",
+      "name": "Love Letter",
       "winner": "John",
-      "coOp": "Yes"
+      "coOp": "No"
     },
     {
       "date": "2020-01-26",
@@ -309,6 +255,12 @@
       "name": "Ticket to Ride: Poland",
       "winner": "Hannah",
       "coOp": "No"
+    },
+    {
+      "date": "2020-01-26",
+      "name": "Splendor",
+      "winner": "John",
+      "coOp": "Yes"
     },
     {
       "date": "2020-01-27",
@@ -357,126 +309,350 @@
     {
       "date": "2020-02-06",
       "name": "Pandemic Legacy: Season 2",
+      "coOp": "Yes",
       "coOpOutcome": "Won",
       "note": "Finished on 13th Feb"
     },
     {
       "date": "2020-02-08",
+      "name": "Star Realms: Frontiers",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-02-08",
       "name": "Star Realms",
-      "winner": "Hannah"
+      "winner": "Hannah",
+      "coOp": "No"
     },
     {
       "date": "2020-02-09",
       "name": "Castles of Burghandy",
-      "winner": "John"
+      "winner": "John",
+      "coOp": "No"
     },
     {
       "date": "2020-02-09",
       "name": "Star Realms: Colony Wars",
-      "winner": "John"
+      "winner": "John",
+      "coOp": "No"
     },
     {
       "date": "2020-02-10",
       "name": "Archer Love Letter",
-      "winner": "John"
-    },
-    {
-      "date": "2020-02-12",
-      "name": "Star Realms: Frontiers",
-      "winner": "John"
+      "winner": "John",
+      "coOp": "No"
     },
     {
       "date": "2020-02-12",
       "name": "Mint Works",
-      "winner": "John"
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-02-12",
+      "name": "Star Realms: Frontiers",
+      "winner": "John",
+      "coOp": "No"
     },
     {
       "date": "2020-02-13",
       "name": "Star Realms: Frontiers",
       "winner": "Other",
+      "coOp": "No",
       "note": "4 player"
     },
     {
       "date": "2020-02-15",
       "name": "Ticket to Ride",
-      "winner": "Hannah"
+      "winner": "Hannah",
+      "coOp": "No"
     },
     {
       "date": "2020-02-16",
       "name": "Tanto Cuore",
-      "winner": "Hannah"
+      "winner": "Hannah",
+      "coOp": "No"
     },
     {
       "date": "2020-02-16",
       "name": "Patchwork",
-      "winner": "Hannah"
+      "winner": "Hannah",
+      "coOp": "No"
     },
     {
       "date": "2020-02-19",
       "name": "Love Letter",
-      "winner": "Hannah"
+      "winner": "Hannah",
+      "coOp": "No"
     },
     {
       "date": "2020-02-19",
       "name": "Azul Summer Pavilion",
-      "winner": "John"
+      "winner": "John",
+      "coOp": "No"
     },
     {
       "date": "2020-02-19",
       "name": "Citadels",
-      "winner": "John"
+      "winner": "John",
+      "coOp": "No"
     },
     {
       "date": "2020-02-20",
       "name": "Ticket to Ride: Japan",
-      "winner": "Hannah"
+      "winner": "Hannah",
+      "coOp": "No"
     },
     {
       "date": "2020-02-23",
       "name": "Ticket to Ride: Europe",
-      "winner": "John"
+      "winner": "John",
+      "coOp": "No"
     },
     {
       "date": "2020-02-24",
       "name": "Love Letter",
-      "winner": "Hannah"
+      "winner": "Hannah",
+      "coOp": "No"
     },
     {
       "date": "2020-02-28",
       "name": "Archer Love Letter",
-      "winner": "Hannah"
+      "winner": "Hannah",
+      "coOp": "No"
     },
     {
-      "date": "2020-05-08",
-      "name": "Star Realms: Frontiers",
-      "winner": "Hannah"
+      "date": "2020-03-01",
+      "name": "Space Base",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-03-04",
+      "name": "Pandemic Legacy: Season 2",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
+    },
+    {
+      "date": "2020-03-06",
+      "name": "Pandemic: Rising Tide",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
+    },
+    {
+      "date": "2020-03-07",
+      "name": "Pandemic Legacy: Season 2",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2020-03-07",
+      "name": "Pandemic Legacy: Season 2",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2020-03-08",
+      "name": "Mint Works",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-03-09",
+      "name": "The Mind",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2020-03-10",
+      "name": "Jurassic Snack",
+      "winner": "Draw",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-03-12",
+      "name": "Love Letter",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-03-12",
+      "name": "Coup",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-03-14",
+      "name": "Love Letter",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-03-14",
+      "name": "Brass: Birmingham",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-03-14",
+      "name": "Mint Delivery",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-03-15",
+      "name": "Super-Bee",
+      "winner": "Hannah",
+      "coOp": "No",
+      "note": "3 player, Airecon"
+    },
+    {
+      "date": "2020-03-15",
+      "name": "Arlukkachase",
+      "winner": "Hannah",
+      "coOp": "No",
+      "note": "3 player, Airecon"
+    },
+    {
+      "date": "2020-03-15",
+      "name": "Sub Terra II",
+      "coOp": "Yes",
+      "coOpOutcome": "Won",
+      "note": "3 player, Airecon"
+    },
+    {
+      "date": "2020-03-16",
+      "name": "The Mind Extreme",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost",
+      "note": "Made it to level 8"
+    },
+    {
+      "date": "2020-03-17",
+      "name": "Fafnir",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-03-18",
+      "name": "The Fox and the Forest Duet",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2020-03-18",
+      "name": "Tricks and the Phantom",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-03-18",
+      "name": "Design Town",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-03-19",
+      "name": "Dungeon of Mandom VIII",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-03-19",
+      "name": "Tricks and the Phantom",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-03-19",
+      "name": "Design Town",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-03-19",
+      "name": "Dungeon of Mandom VIII",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-03-19",
+      "name": "Nine Tiles Panic",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-03-20",
+      "name": "Flotsam Fight",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-03-20",
+      "name": "Inhuman Conditions",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
+    },
+    {
+      "date": "2020-03-20",
+      "name": "Inhuman Conditions",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2020-03-21",
+      "name": "Ticket to Ride",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-03-21",
+      "name": "Dungeon of Mandom VIII",
+      "winner": "John",
+      "coOp": "No"
     }
   ],
   "uniqueGamesPlayed": [
     "7 Wonders",
     "Archer Love Letter",
+    "Arlukkachase",
     "Azul",
     "Azul Summer Pavilion",
+    "Brass: Birmingham",
     "Castles of Burghandy",
     "Cat Lady",
     "Citadels",
     "Coup",
     "Deep Sea Adventure",
+    "Design Town",
     "Dominion",
+    "Dungeon of Mandom VIII",
+    "Fafnir",
+    "Flotsam Fight",
+    "Inhuman Conditions",
     "Jurassic Snack",
     "Love Letter",
+    "Mint Delivery",
     "Mint Works",
+    "Nine Tiles Panic",
     "Pandemic Legacy: Season 2",
     "Pandemic: Iberia",
+    "Pandemic: Rising Tide",
     "Patchwork",
+    "Space Base",
     "Splendor",
     "Star Realms",
     "Star Realms: Colony Wars",
     "Star Realms: Frontiers",
+    "Sub Terra II",
+    "Super-Bee",
     "T.I.M.E Stories: A Prophecy of Dragons",
     "Tanto Cuore",
+    "The Fox and the Forest Duet",
     "The Game",
     "The Mind",
+    "The Mind Extreme",
     "Ticket to Ride",
     "Ticket to Ride: Europe",
     "Ticket to Ride: First Journey",
@@ -487,56 +663,43 @@
     "Ticket to Ride: Poland",
     "Tinker Tailor",
     "Topiary",
+    "Tricks and the Phantom",
     "Viticulture",
     "Wingspan"
   ],
-  "uniqueGamesPlayedCount": 36,
-  "totalGamesPlayed": 54,
-  "averageGamesPlayedPerDay": 0.4186,
+  "uniqueGamesPlayedCount": 52,
+  "totalGamesPlayed": 85,
+  "averageGamesPlayedPerDay": 1.0494,
   "mostGamesPlayedInADay": [
     {
-      "date": "2020-02-19",
+      "date": "2020-03-19",
       "games": [
-        "Love Letter",
-        "Azul Summer Pavilion",
-        "Citadels"
-      ]
-    },
-    {
-      "date": "2020-01-18",
-      "games": [
-        "Wingspan",
-        "T.I.M.E Stories: A Prophecy of Dragons",
-        "Ticket to Ride: First Journey"
-      ]
-    },
-    {
-      "date": "2020-01-26",
-      "games": [
-        "Splendor",
-        "Pandemic: Iberia",
-        "Ticket to Ride: Poland"
+        "Dungeon of Mandom VIII",
+        "Nine Tiles Panic",
+        "Tricks and the Phantom",
+        "Design Town",
+        "Dungeon of Mandom VIII"
       ]
     }
   ],
   "mostPlayedGames": [
     {
       "name": "Love Letter",
-      "plays": 6
+      "plays": 8
     }
   ],
-  "coOpGamesPlayedCount": 9,
-  "coOpGamesPlayedPercentage": 0.1667,
-  "coOpGameWins": 5,
-  "coOpGameLoses": 4,
-  "winCountHannah": 27,
-  "winCountJohn": 17,
+  "coOpGamesPlayedCount": 20,
+  "coOpGamesPlayedPercentage": 0.2353,
+  "coOpGameWins": 12,
+  "coOpGameLoses": 8,
+  "winCountHannah": 38,
+  "winCountJohn": 26,
   "winCountOther": 1,
-  "winCountDraw": 0,
-  "winnableGamesTotal": 45,
-  "winRateHannah": 0.6,
-  "winRateJohn": 0.3778,
-  "winRateOther": 0.0222,
-  "winRateDraw": 0,
+  "winCountDraw": 1,
+  "winnableGamesTotal": 66,
+  "winRateHannah": 0.5758,
+  "winRateJohn": 0.3939,
+  "winRateOther": 0.0152,
+  "winRateDraw": 0.0152,
   "mostWonGames": "Hannah"
 }

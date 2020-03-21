@@ -13,7 +13,7 @@
     "5": 1,
     "6": 1,
     "7": 0,
-    "8": 1,
+    "8": 2,
     "9": 2,
     "10": 1,
     "11": 0,
@@ -63,94 +63,118 @@
     {
       "date": "2020-02-06",
       "name": "Pandemic Legacy: Season 2",
+      "coOp": "Yes",
       "coOpOutcome": "Won",
       "note": "Finished on 13th Feb"
     },
     {
       "date": "2020-02-08",
-      "name": "Star Realms",
-      "winner": "Hannah"
+      "name": "Star Realms: Frontiers",
+      "winner": "Hannah",
+      "coOp": "No"
     },
     {
-      "date": "2020-02-09",
-      "name": "Star Realms: Colony Wars",
-      "winner": "John"
+      "date": "2020-02-08",
+      "name": "Star Realms",
+      "winner": "Hannah",
+      "coOp": "No"
     },
     {
       "date": "2020-02-09",
       "name": "Castles of Burghandy",
-      "winner": "John"
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-02-09",
+      "name": "Star Realms: Colony Wars",
+      "winner": "John",
+      "coOp": "No"
     },
     {
       "date": "2020-02-10",
       "name": "Archer Love Letter",
-      "winner": "John"
-    },
-    {
-      "date": "2020-02-12",
-      "name": "Star Realms: Frontiers",
-      "winner": "John"
+      "winner": "John",
+      "coOp": "No"
     },
     {
       "date": "2020-02-12",
       "name": "Mint Works",
-      "winner": "John"
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-02-12",
+      "name": "Star Realms: Frontiers",
+      "winner": "John",
+      "coOp": "No"
     },
     {
       "date": "2020-02-13",
       "name": "Star Realms: Frontiers",
       "winner": "Other",
+      "coOp": "No",
       "note": "4 player"
     },
     {
       "date": "2020-02-15",
       "name": "Ticket to Ride",
-      "winner": "Hannah"
-    },
-    {
-      "date": "2020-02-16",
-      "name": "Tanto Cuore",
-      "winner": "Hannah"
+      "winner": "Hannah",
+      "coOp": "No"
     },
     {
       "date": "2020-02-16",
       "name": "Patchwork",
-      "winner": "Hannah"
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-02-16",
+      "name": "Tanto Cuore",
+      "winner": "Hannah",
+      "coOp": "No"
     },
     {
       "date": "2020-02-19",
       "name": "Love Letter",
-      "winner": "Hannah"
-    },
-    {
-      "date": "2020-02-19",
-      "name": "Azul Summer Pavilion",
-      "winner": "John"
+      "winner": "Hannah",
+      "coOp": "No"
     },
     {
       "date": "2020-02-19",
       "name": "Citadels",
-      "winner": "John"
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-02-19",
+      "name": "Azul Summer Pavilion",
+      "winner": "John",
+      "coOp": "No"
     },
     {
       "date": "2020-02-20",
       "name": "Ticket to Ride: Japan",
-      "winner": "Hannah"
+      "winner": "Hannah",
+      "coOp": "No"
     },
     {
       "date": "2020-02-23",
       "name": "Ticket to Ride: Europe",
-      "winner": "John"
+      "winner": "John",
+      "coOp": "No"
     },
     {
       "date": "2020-02-24",
       "name": "Love Letter",
-      "winner": "Hannah"
+      "winner": "Hannah",
+      "coOp": "No"
     },
     {
       "date": "2020-02-28",
       "name": "Archer Love Letter",
-      "winner": "Hannah"
+      "winner": "Hannah",
+      "coOp": "No"
     }
   ],
   "uniqueGamesPlayed": [
@@ -173,8 +197,8 @@
     "Ticket to Ride: Nordic Countries"
   ],
   "uniqueGamesPlayedCount": 17,
-  "totalGamesPlayed": 22,
-  "averageGamesPlayedPerDay": 0.7857,
+  "totalGamesPlayed": 23,
+  "averageGamesPlayedPerDay": 0.8214,
   "mostGamesPlayedInADay": [
     {
       "date": "2020-02-19",
@@ -189,20 +213,24 @@
     {
       "name": "Love Letter",
       "plays": 3
+    },
+    {
+      "name": "Star Realms: Frontiers",
+      "plays": 3
     }
   ],
-  "coOpGamesPlayedCount": 0,
-  "coOpGamesPlayedPercentage": 0,
-  "coOpGameWins": 0,
+  "coOpGamesPlayedCount": 1,
+  "coOpGamesPlayedPercentage": 0.0435,
+  "coOpGameWins": 1,
   "coOpGameLoses": 0,
-  "winCountHannah": 12,
+  "winCountHannah": 13,
   "winCountJohn": 8,
   "winCountOther": 1,
   "winCountDraw": 0,
-  "winnableGamesTotal": 21,
-  "winRateHannah": 0.5714,
-  "winRateJohn": 0.381,
-  "winRateOther": 0.0476,
+  "winnableGamesTotal": 22,
+  "winRateHannah": 0.5909,
+  "winRateJohn": 0.3636,
+  "winRateOther": 0.0455,
   "winRateDraw": 0,
   "mostWonGames": "Hannah"
 }

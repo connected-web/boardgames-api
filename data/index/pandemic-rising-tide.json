@@ -13,15 +13,20 @@
       "date": "2018-03-21",
       "coOpOutcome": "Won",
       "coOp": "Yes"
+    },
+    {
+      "date": "2020-03-06",
+      "coOpOutcome": "Lost",
+      "coOp": "Yes"
     }
   ],
-  "totalGamesPlayed": 2,
-  "coOpGamesPlayedCount": 2,
+  "totalGamesPlayed": 3,
+  "coOpGamesPlayedCount": 3,
   "coOpGamesPlayedPercentage": 1,
   "coOpGameWins": 2,
-  "coOpGameLoses": 0,
-  "coOpWinRate": 1,
-  "coOpLossRate": 0,
+  "coOpGameLoses": 1,
+  "coOpWinRate": 0.6667,
+  "coOpLossRate": 0.3333,
   "winCountHannah": 0,
   "winCountJohn": 0,
   "winCountOther": 0,
@@ -31,11 +36,5 @@
   "winRateJohn": 0,
   "winRateOther": 0,
   "winRateDraw": 0,
-  "mostWonGames": "Draw",
-  "description": [
-    "It is the dawn of the Industrial Age in the Netherlands. For centuries, the country has relied upon a series of dikes and wind-powered pumps to keep it safe from the constant threat of flooding from the North Sea, but this system is no longer enough.",
-    "In Pandemic: Rising Tide, it is your goal to avert tragedy by constructing four modern hydraulic structures in strategic locations that will help you defend the country from being reclaimed by the ocean. Storms are brewing and the seas are restless. It will take all your guile to control the flow of water long enough to usher in the future of the Netherlands. It's time to get to work.",
-    "Containing the water that threatens to consume the countryside is your greatest challenge. Water levels in a region are represented by cubes, and as the water containment systems currently in place begin to fail, more water cubes are added to the board. With water levels constantly on the rise, failure to maintain the containment system could quickly lead to water spilling across the board.",
-    "To successfully build the four hydraulic structures needed to win a game of Pandemic: Rising Tide, you must first learn to predict and manipulate the flow of water. Failing to maintain safe water levels throughout the country can bring you perilously close to failing your mission. Fortunately, water can be corralled by a strategically placed dike or slowed by pumping water out of a region. Correctly identifying and intervening in at-risk areas can get you one step closer to victory."
-  ]
+  "mostWonGames": "Draw"
 }

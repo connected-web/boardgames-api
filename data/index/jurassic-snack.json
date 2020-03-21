@@ -38,9 +38,14 @@
       "date": "2020-01-12",
       "winner": "John",
       "coOp": "No"
+    },
+    {
+      "date": "2020-03-10",
+      "winner": "Draw",
+      "coOp": "No"
     }
   ],
-  "totalGamesPlayed": 7,
+  "totalGamesPlayed": 8,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
@@ -50,18 +55,11 @@
   "winCountHannah": 1,
   "winCountJohn": 6,
   "winCountOther": 0,
-  "winCountDraw": 0,
-  "winnableGamesTotal": 7,
-  "winRateHannah": 0.1429,
-  "winRateJohn": 0.8571,
+  "winCountDraw": 1,
+  "winnableGamesTotal": 8,
+  "winRateHannah": 0.125,
+  "winRateJohn": 0.75,
   "winRateOther": 0,
-  "winRateDraw": 0,
-  "mostWonGames": "John",
-  "description": [
-    "Young Diplodocuses (Diplos) are fond of the tasty leaves offered by the neighboring pastures. To win, your Diplo team has to eat more leaves than your opponent's team&hellip;unless one of you decides to call the ferocious T. Rex to get rid of all his opponent's Diplos!",
-    "To set up Jurassic Snack, create a square at random with the four playing boards, place four Diplos of your color on the matching egg spaces, then shuffle the grass tokens and place them face down on the 28 empty spaces. Two actions are available on a turn: moving a Diplo of your color or moving a T. Rex. The players take turns performing two actions each, which can be the same or different, and which can involve the same Dino or T. Rex, or not.",
-    "A Diplo has one single goal: eating grass tokens. It moves in a straight line as many spaces as it wishes until it's blocked by another Diplo, a T. Rex, the edge of the playing area, or a grass token. In this last case, the Diplo takes the grass token to eat it and immediately applies one of the six effects: birth, T. Rex appearance, Diplo move, etc.",
-    "The T. Rex has one single goal: scaring the Diplos away. The movement rules for the T. Rex are the same as for the Diplos'. When it meets a Diplo, the T. Rex is placed on the Diplo's space, and the Diplo is placed back into its owner's pool.",
-    "The game ends when no grass tokens remain in the playing area. The player who has eaten the most grass wins. A game can also end when a player has no Diplo of their color in the playing area."
-  ]
+  "winRateDraw": 0.125,
+  "mostWonGames": "John"
 }

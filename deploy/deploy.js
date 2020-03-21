@@ -27,6 +27,12 @@ const modes = {
   'live-php': () => deploy({
     include: ['api/**/*']
   }),
+  'live-summaries': () => deploy({
+    include: ['data/summaries/*']
+  }),
+  'live-index': () => deploy({
+    include: ['data/summaries/*']
+  }),
   'live-data': () => deploy({
     include: ['data/**/*']
   }),

@@ -62,6 +62,12 @@
     },
     {
       "date": "2018-02-05",
+      "name": "Heart of Crown",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-02-05",
       "name": "Deep Sea Adventure",
       "winner": "Hannah",
       "coOp": "No",
@@ -74,12 +80,6 @@
       "coOp": "No"
     },
     {
-      "date": "2018-02-05",
-      "name": "Heart of Crown",
-      "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
       "date": "2018-02-06",
       "name": "Diamonsters",
       "winner": "Hannah",
@@ -88,13 +88,13 @@
     },
     {
       "date": "2018-02-07",
-      "name": "Claim",
+      "name": "Grifters",
       "winner": "John",
       "coOp": "No"
     },
     {
       "date": "2018-02-07",
-      "name": "Grifters",
+      "name": "Claim",
       "winner": "John",
       "coOp": "No"
     },
@@ -200,15 +200,15 @@
     },
     {
       "date": "2018-02-19",
-      "name": "Flash Point: Fire Rescue",
-      "coOp": "Yes",
-      "coOpOutcome": "Lost"
-    },
-    {
-      "date": "2018-02-19",
       "name": "Love Letter",
       "winner": "John",
       "coOp": "No"
+    },
+    {
+      "date": "2018-02-19",
+      "name": "Flash Point: Fire Rescue",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
     },
     {
       "date": "2018-02-20",
@@ -225,26 +225,26 @@
     },
     {
       "date": "2018-02-22",
-      "name": "Carcassonne: The River",
-      "coOp": "Yes",
-      "note": "Score: 344"
-    },
-    {
-      "date": "2018-02-22",
       "name": "Flash Point: Fire Rescue",
       "coOp": "Yes",
       "coOpOutcome": "Won"
     },
     {
-      "date": "2018-02-23",
-      "name": "Tortuga 1667",
-      "winner": "John",
-      "coOp": "No"
+      "date": "2018-02-22",
+      "name": "Carcassonne: The River",
+      "coOp": "Yes",
+      "note": "Score: 344"
     },
     {
       "date": "2018-02-23",
       "name": "Dominion (Second Edition)",
       "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-02-23",
+      "name": "Tortuga 1667",
+      "winner": "John",
       "coOp": "No"
     },
     {
@@ -255,27 +255,27 @@
     },
     {
       "date": "2018-02-25",
-      "name": "Dominion (Second Edition)",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-02-25",
       "name": "Betrayal at House on the Hill",
       "coOp": "Yes",
       "coOpOutcome": "Heroes lost",
       "note": "John was betrayer"
     },
     {
-      "date": "2018-02-26",
-      "name": "Machi Koro",
-      "winner": "Hannah",
+      "date": "2018-02-25",
+      "name": "Dominion (Second Edition)",
+      "winner": "John",
       "coOp": "No"
     },
     {
       "date": "2018-02-26",
       "name": "Love Letter",
-      "winner": "Other",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-02-26",
+      "name": "Machi Koro",
+      "winner": "Hannah",
       "coOp": "No"
     },
     {
@@ -286,6 +286,12 @@
     },
     {
       "date": "2018-02-26",
+      "name": "Heart of Crown",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-02-26",
       "name": "Machi Koro",
       "winner": "Other",
       "coOp": "No"
@@ -293,13 +299,7 @@
     {
       "date": "2018-02-26",
       "name": "Love Letter",
-      "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2018-02-26",
-      "name": "Heart of Crown",
-      "winner": "Hannah",
+      "winner": "Other",
       "coOp": "No"
     },
     {
@@ -353,12 +353,12 @@
     {
       "date": "2018-02-26",
       "games": [
-        "Machi Koro",
-        "Love Letter",
         "Love Letter",
         "Machi Koro",
         "Love Letter",
-        "Heart of Crown"
+        "Heart of Crown",
+        "Machi Koro",
+        "Love Letter"
       ]
     }
   ],

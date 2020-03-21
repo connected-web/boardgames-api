@@ -141,3 +141,10 @@ Data is sourced from the following APIs:
 | Board Games Collection | `https://www.boardgamegeek.com/xmlapi2/collection?username=${username}` |
 | Board Game Entries     | `https://www.boardgamegeek.com/xmlapi2/thing?id=${objectId}&stats=1`    |
 | Board Game Play Stats  | `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}`        |
+
+### Quick Update Commands
+
+To do a quick update of board game stats and upload to the API:
+```
+node run update-owned-lists && node run create-all && node deploy live-summaries
+```
