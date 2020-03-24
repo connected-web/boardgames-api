@@ -2,8 +2,8 @@
   "dateCode": "2020",
   "title": "2020",
   "sequenceStartDate": "2020-01-01",
-  "sequenceEndDate": "2020-03-21",
-  "daysInSequence": 81,
+  "sequenceEndDate": "2020-03-23",
+  "daysInSequence": 83,
   "daysWithUnplayedGames": 26,
   "gamesPlayedPerDay": {
     "1": 2,
@@ -86,21 +86,23 @@
     "78": 3,
     "79": 5,
     "80": 3,
-    "81": 2
+    "81": 2,
+    "82": 1,
+    "83": 1
   },
   "gamesPlayed": [
-    {
-      "date": "2020-01-01",
-      "name": "Ticket to Ride: Europe",
-      "winner": "Hannah",
-      "coOp": "No"
-    },
     {
       "date": "2020-01-01",
       "name": "The Mind",
       "coOp": "Yes",
       "coOpOutcome": "Lost",
       "note": "5 player"
+    },
+    {
+      "date": "2020-01-01",
+      "name": "Ticket to Ride: Europe",
+      "winner": "Hannah",
+      "coOp": "No"
     },
     {
       "date": "2020-01-02",
@@ -152,13 +154,13 @@
     },
     {
       "date": "2020-01-12",
-      "name": "Topiary",
+      "name": "Jurassic Snack",
       "winner": "John",
       "coOp": "No"
     },
     {
       "date": "2020-01-12",
-      "name": "Jurassic Snack",
+      "name": "Topiary",
       "winner": "John",
       "coOp": "No"
     },
@@ -176,16 +178,16 @@
     },
     {
       "date": "2020-01-18",
-      "name": "Wingspan",
-      "winner": "John",
-      "coOp": "No",
+      "name": "T.I.M.E Stories: A Prophecy of Dragons",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost",
       "note": "3 player"
     },
     {
       "date": "2020-01-18",
-      "name": "T.I.M.E Stories: A Prophecy of Dragons",
-      "coOp": "Yes",
-      "coOpOutcome": "Lost",
+      "name": "Wingspan",
+      "winner": "John",
+      "coOp": "No",
       "note": "3 player"
     },
     {
@@ -234,14 +236,14 @@
     },
     {
       "date": "2020-01-25",
-      "name": "Tanto Cuore",
-      "winner": "Hannah",
+      "name": "Love Letter",
+      "winner": "John",
       "coOp": "No"
     },
     {
       "date": "2020-01-25",
-      "name": "Love Letter",
-      "winner": "John",
+      "name": "Tanto Cuore",
+      "winner": "Hannah",
       "coOp": "No"
     },
     {
@@ -252,15 +254,15 @@
     },
     {
       "date": "2020-01-26",
-      "name": "Ticket to Ride: Poland",
-      "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2020-01-26",
       "name": "Splendor",
       "winner": "John",
       "coOp": "Yes"
+    },
+    {
+      "date": "2020-01-26",
+      "name": "Ticket to Ride: Poland",
+      "winner": "Hannah",
+      "coOp": "No"
     },
     {
       "date": "2020-01-27",
@@ -270,14 +272,14 @@
     },
     {
       "date": "2020-01-28",
-      "name": "The Game",
+      "name": "Pandemic Legacy: Season 2",
       "coOp": "Yes",
       "coOpOutcome": "Win",
       "note": "4 player"
     },
     {
       "date": "2020-01-28",
-      "name": "Pandemic Legacy: Season 2",
+      "name": "The Game",
       "coOp": "Yes",
       "coOpOutcome": "Win",
       "note": "4 player"
@@ -315,25 +317,25 @@
     },
     {
       "date": "2020-02-08",
-      "name": "Star Realms: Frontiers",
-      "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2020-02-08",
       "name": "Star Realms",
       "winner": "Hannah",
       "coOp": "No"
     },
     {
-      "date": "2020-02-09",
-      "name": "Castles of Burghandy",
-      "winner": "John",
+      "date": "2020-02-08",
+      "name": "Star Realms: Frontiers",
+      "winner": "Hannah",
       "coOp": "No"
     },
     {
       "date": "2020-02-09",
       "name": "Star Realms: Colony Wars",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-02-09",
+      "name": "Castles of Burghandy",
       "winner": "John",
       "coOp": "No"
     },
@@ -370,14 +372,20 @@
     },
     {
       "date": "2020-02-16",
-      "name": "Tanto Cuore",
+      "name": "Patchwork",
       "winner": "Hannah",
       "coOp": "No"
     },
     {
       "date": "2020-02-16",
-      "name": "Patchwork",
+      "name": "Tanto Cuore",
       "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-02-19",
+      "name": "Citadels",
+      "winner": "John",
       "coOp": "No"
     },
     {
@@ -389,12 +397,6 @@
     {
       "date": "2020-02-19",
       "name": "Azul Summer Pavilion",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2020-02-19",
-      "name": "Citadels",
       "winner": "John",
       "coOp": "No"
     },
@@ -472,18 +474,12 @@
     },
     {
       "date": "2020-03-12",
-      "name": "Love Letter",
-      "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2020-03-12",
       "name": "Coup",
       "winner": "Hannah",
       "coOp": "No"
     },
     {
-      "date": "2020-03-14",
+      "date": "2020-03-12",
       "name": "Love Letter",
       "winner": "Hannah",
       "coOp": "No"
@@ -492,6 +488,12 @@
       "date": "2020-03-14",
       "name": "Brass: Birmingham",
       "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-03-14",
+      "name": "Love Letter",
+      "winner": "Hannah",
       "coOp": "No"
     },
     {
@@ -509,16 +511,16 @@
     },
     {
       "date": "2020-03-15",
-      "name": "Arlukkachase",
-      "winner": "Hannah",
-      "coOp": "No",
+      "name": "Sub Terra II",
+      "coOp": "Yes",
+      "coOpOutcome": "Won",
       "note": "3 player, Airecon"
     },
     {
       "date": "2020-03-15",
-      "name": "Sub Terra II",
-      "coOp": "Yes",
-      "coOpOutcome": "Won",
+      "name": "Arlukkachase",
+      "winner": "Hannah",
+      "coOp": "No",
       "note": "3 player, Airecon"
     },
     {
@@ -536,9 +538,9 @@
     },
     {
       "date": "2020-03-18",
-      "name": "The Fox and the Forest Duet",
-      "coOp": "Yes",
-      "coOpOutcome": "Won"
+      "name": "Design Town",
+      "winner": "Hannah",
+      "coOp": "No"
     },
     {
       "date": "2020-03-18",
@@ -548,6 +550,12 @@
     },
     {
       "date": "2020-03-18",
+      "name": "The Fox and the Forest Duet",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2020-03-19",
       "name": "Design Town",
       "winner": "Hannah",
       "coOp": "No"
@@ -555,18 +563,6 @@
     {
       "date": "2020-03-19",
       "name": "Dungeon of Mandom VIII",
-      "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2020-03-19",
-      "name": "Tricks and the Phantom",
-      "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2020-03-19",
-      "name": "Design Town",
       "winner": "Hannah",
       "coOp": "No"
     },
@@ -580,6 +576,12 @@
       "date": "2020-03-19",
       "name": "Nine Tiles Panic",
       "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-03-19",
+      "name": "Tricks and the Phantom",
+      "winner": "Hannah",
       "coOp": "No"
     },
     {
@@ -602,15 +604,25 @@
     },
     {
       "date": "2020-03-21",
+      "name": "Dungeon of Mandom VIII",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-03-21",
       "name": "Ticket to Ride",
       "winner": "Hannah",
       "coOp": "No"
     },
     {
-      "date": "2020-03-21",
-      "name": "Dungeon of Mandom VIII",
-      "winner": "John",
-      "coOp": "No"
+      "date": "2020-03-22",
+      "name": "Fafnir",
+      "winner": "John"
+    },
+    {
+      "date": "2020-03-23",
+      "name": "Flotsam Fight",
+      "winner": "Hannah"
     }
   ],
   "uniqueGamesPlayed": [
@@ -668,17 +680,17 @@
     "Wingspan"
   ],
   "uniqueGamesPlayedCount": 52,
-  "totalGamesPlayed": 85,
-  "averageGamesPlayedPerDay": 1.0494,
+  "totalGamesPlayed": 87,
+  "averageGamesPlayedPerDay": 1.0482,
   "mostGamesPlayedInADay": [
     {
       "date": "2020-03-19",
       "games": [
-        "Dungeon of Mandom VIII",
-        "Nine Tiles Panic",
         "Tricks and the Phantom",
-        "Design Town",
-        "Dungeon of Mandom VIII"
+        "Nine Tiles Panic",
+        "Dungeon of Mandom VIII",
+        "Dungeon of Mandom VIII",
+        "Design Town"
       ]
     }
   ],
@@ -689,17 +701,17 @@
     }
   ],
   "coOpGamesPlayedCount": 20,
-  "coOpGamesPlayedPercentage": 0.2353,
+  "coOpGamesPlayedPercentage": 0.2299,
   "coOpGameWins": 12,
   "coOpGameLoses": 8,
-  "winCountHannah": 38,
-  "winCountJohn": 26,
+  "winCountHannah": 39,
+  "winCountJohn": 27,
   "winCountOther": 1,
   "winCountDraw": 1,
-  "winnableGamesTotal": 66,
-  "winRateHannah": 0.5758,
-  "winRateJohn": 0.3939,
-  "winRateOther": 0.0152,
-  "winRateDraw": 0.0152,
+  "winnableGamesTotal": 68,
+  "winRateHannah": 0.5735,
+  "winRateJohn": 0.3971,
+  "winRateOther": 0.0147,
+  "winRateDraw": 0.0147,
   "mostWonGames": "Hannah"
 }

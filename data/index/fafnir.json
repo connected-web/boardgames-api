@@ -8,9 +8,13 @@
       "date": "2020-03-17",
       "winner": "Hannah",
       "coOp": "No"
+    },
+    {
+      "date": "2020-03-22",
+      "winner": "John"
     }
   ],
-  "totalGamesPlayed": 1,
+  "totalGamesPlayed": 2,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
@@ -18,13 +22,13 @@
   "coOpWinRate": 0,
   "coOpLossRate": 0,
   "winCountHannah": 1,
-  "winCountJohn": 0,
+  "winCountJohn": 1,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 1,
-  "winRateHannah": 1,
-  "winRateJohn": 0,
+  "winnableGamesTotal": 2,
+  "winRateHannah": 0.5,
+  "winRateJohn": 0.5,
   "winRateOther": 0,
   "winRateDraw": 0,
-  "mostWonGames": "Hannah"
+  "mostWonGames": "Draw"
 }
