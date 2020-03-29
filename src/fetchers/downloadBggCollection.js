@@ -15,20 +15,18 @@ async function downloadCollection ({ fetch }, username) {
   }
 }
 
-async function retryCollection({ fetch }, username, retries=2) {
-  const response = await downloadCollection( { fetch }, username)
+async function retryCollection ({ fetch }, username, retries = 2) {
+  const response = await downloadCollection({ fetch }, username)
   if (response.message) {
-    report(response.message)    
+    report(response.message)
     if (retries > 0) {
-      retryCollection|({ fetch }, username, retries - 1)
-    }
-    else {
+      return retryCollection({ fetch }, username, retries - 1)
+    } else {
       return {
         items: []
       }
     }
-  }
-  else {
+  } else {
     return response
   }
 }

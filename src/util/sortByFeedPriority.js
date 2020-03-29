@@ -10,7 +10,7 @@ function sortByFeedPriority (a, b) {
   if (nameSort !== 0) {
     return nameSort
   }
-  
+
   const winnerSort = (a.winner + '').localeCompare((b.winner + ''), 'en', {sensitivity: 'base'})
   if (winnerSort !== 0) {
     return winnerSort

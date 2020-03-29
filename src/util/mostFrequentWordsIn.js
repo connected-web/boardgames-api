@@ -1,4 +1,4 @@
-function mostFrequentWordsIn(listOfWords=[]) {
+function mostFrequentWordsIn (listOfWords = []) {
   const counts = listOfWords.reduce((acc, word) => {
     acc[word] = acc[word] || 0
     acc[word]++
@@ -7,7 +7,7 @@ function mostFrequentWordsIn(listOfWords=[]) {
 
   const frequencyList = Object.entries(counts).map(([word, count]) => {
     return {
-      word, 
+      word,
       count
     }
   }).sort((a, b) => b.count - a.count)
