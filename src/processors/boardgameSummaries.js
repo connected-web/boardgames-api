@@ -1,4 +1,5 @@
 const log = []
+const sortByFeedPriority = require('../util/sortByFeedPriority')
 const report = (...messages) => log.push(['[Create Board Game Summaries]', ...messages].join(' '))
 
 const monthsOfTheYear = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
@@ -121,11 +122,7 @@ async function createBoardGameSummaries (model) {
     })
     dayCountList = dayCountList.sort((a, b) => a.games.length < b.games.length ? 1 : -1)
 
-    result.gamesPlayed = games.sort((a, b) => {
-      const da = new Date(a.date).getTime()
-      const db = new Date(b.date).getTime()
-      return da > db ? 1 : -1
-    })
+    result.gamesPlayed = games.sort(sortByFeedPriority)
 
     result.uniqueGamesPlayed = [...new Set(games.map(g => g.name))].sort()
     result.uniqueGamesPlayedCount = result.uniqueGamesPlayed.length

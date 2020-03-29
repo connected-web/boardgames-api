@@ -1,4 +1,5 @@
 const log = []
+const sortByFeedPriority = require('../util/sortByFeedPriority')
 const report = (...messages) => log.push(['[Create Board Game Feed]', ...messages].join(' '))
 
 const mutateRemoveEmpty = (obj) => {
@@ -34,16 +35,7 @@ async function createFeed (model) {
 
   mutateRemoveEmpty(feed)
 
-  feed = feed.sort((a, b) => {
-    const da = (new Date(a.date)).getTime()
-    const db = (new Date(b.date)).getTime()
-    if (da === db) {
-      return a.name.localeCompare(b.name, 'en', {sensitivity: 'base'})
-    }
-    return da > db ? 1 : -1
-  })
-
-  model.calisaurus.feed = feed
+  model.calisaurus.feed = feed.sort(sortByFeedPriority)
   return { feed: model.calisaurus.feed, log }
 }
 
