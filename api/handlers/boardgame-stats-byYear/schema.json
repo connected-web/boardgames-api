@@ -134,6 +134,34 @@
 		},
 		"mostWonGames": {
 			"type": "string"
+		},
+		"mostWonGamesJohn": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"game": {
+						"type": "string"
+					},
+					"plays": {
+						"type": "integer"
+					}
+				}
+			}
+		},
+		"mostWonGamesHannah": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"game": {
+						"type": "string"
+					},
+					"plays": {
+						"type": "integer"
+					}
+				}
+			}
 		}
 	},
 	"additionalProperties": false

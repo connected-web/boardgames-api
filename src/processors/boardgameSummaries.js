@@ -1,5 +1,6 @@
 const log = []
 const sortByFeedPriority = require('../util/sortByFeedPriority')
+const mostFrequentWordsIn = require('../util/mostFrequentWordsIn')
 const report = (...messages) => log.push(['[Create Board Game Summaries]', ...messages].join(' '))
 
 const monthsOfTheYear = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
@@ -140,10 +141,16 @@ async function createBoardGameSummaries (model) {
       return outcome === 'win' || outcome === 'won' || false
     }).length
     result.coOpGameLoses = result.coOpGamesPlayedCount - result.coOpGameWins
-    result.winCountHannah = games.filter(n => (n.winner + '').toLowerCase().trim() === 'hannah').length
-    result.winCountJohn = games.filter(n => (n.winner + '').toLowerCase().trim() === 'john').length
-    result.winCountOther = games.filter(n => (n.winner + '').toLowerCase().trim() === 'other').length
-    result.winCountDraw = games.filter(n => (n.winner + '').toLowerCase().trim() === 'draw').length
+
+    const gamesWonByHannah = games.filter(n => (n.winner + '').toLowerCase().trim() === 'hannah')
+    const gamesWonByJohn = games.filter(n => (n.winner + '').toLowerCase().trim() === 'john')
+    const gamesWonByOther = games.filter(n => (n.winner + '').toLowerCase().trim() === 'other')
+    const gamesThatWereDrawn = games.filter(n => (n.winner + '').toLowerCase().trim() === 'draw')
+
+    result.winCountHannah = gamesWonByHannah.length
+    result.winCountJohn = gamesWonByJohn.length
+    result.winCountOther = gamesWonByOther.length
+    result.winCountDraw = gamesThatWereDrawn.length
     result.winnableGamesTotal = result.winCountHannah + result.winCountJohn + result.winCountOther + result.winCountDraw
     result.winRateHannah = fmn(result.winCountHannah / result.winnableGamesTotal)
     result.winRateJohn = fmn(result.winCountJohn / result.winnableGamesTotal)
@@ -151,6 +158,18 @@ async function createBoardGameSummaries (model) {
     result.winRateDraw = fmn(result.winCountDraw / result.winnableGamesTotal)
     result.mostWonGames = result.winCountHannah > result.winCountJohn ? 'Hannah' : 'John'
     result.mostWonGames = result.winCountHannah === result.winCountJohn ? 'Draw' : result.mostWonGames
+    result.mostWonGamesJohn = mostFrequentWordsIn(gamesWonByJohn.map(g => g.name)).map(r => {
+      return {
+        game: r.word,
+        plays: r.count
+      }
+    })
+    result.mostWonGamesHannah = mostFrequentWordsIn(gamesWonByHannah.map(g => g.name)).map(r => {
+      return {
+        game: r.word,
+        plays: r.count
+      }
+    })
 
     return result
   }
