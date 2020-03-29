@@ -2,9 +2,9 @@
   "dateCode": "2020",
   "title": "2020",
   "sequenceStartDate": "2020-01-01",
-  "sequenceEndDate": "2020-03-23",
-  "daysInSequence": 83,
-  "daysWithUnplayedGames": 26,
+  "sequenceEndDate": "2020-03-28",
+  "daysInSequence": 88,
+  "daysWithUnplayedGames": 28,
   "gamesPlayedPerDay": {
     "1": 2,
     "2": 1,
@@ -88,7 +88,12 @@
     "80": 3,
     "81": 2,
     "82": 1,
-    "83": 1
+    "83": 1,
+    "84": 1,
+    "85": 0,
+    "86": 0,
+    "87": 1,
+    "88": 2
   },
   "gamesPlayed": [
     {
@@ -185,16 +190,16 @@
     },
     {
       "date": "2020-01-18",
+      "name": "Ticket to Ride: First Journey",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-01-18",
       "name": "Wingspan",
       "winner": "John",
       "coOp": "No",
       "note": "3 player"
-    },
-    {
-      "date": "2020-01-18",
-      "name": "Ticket to Ride: First Journey",
-      "winner": "Hannah",
-      "coOp": "No"
     },
     {
       "date": "2020-01-19",
@@ -329,13 +334,13 @@
     },
     {
       "date": "2020-02-09",
-      "name": "Star Realms: Colony Wars",
+      "name": "Castles of Burghandy",
       "winner": "John",
       "coOp": "No"
     },
     {
       "date": "2020-02-09",
-      "name": "Castles of Burghandy",
+      "name": "Star Realms: Colony Wars",
       "winner": "John",
       "coOp": "No"
     },
@@ -384,6 +389,12 @@
     },
     {
       "date": "2020-02-19",
+      "name": "Azul Summer Pavilion",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-02-19",
       "name": "Citadels",
       "winner": "John",
       "coOp": "No"
@@ -392,12 +403,6 @@
       "date": "2020-02-19",
       "name": "Love Letter",
       "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2020-02-19",
-      "name": "Azul Summer Pavilion",
-      "winner": "John",
       "coOp": "No"
     },
     {
@@ -482,7 +487,8 @@
       "date": "2020-03-12",
       "name": "Love Letter",
       "winner": "Hannah",
-      "coOp": "No"
+      "coOp": "No",
+      "note": "Hannah's last day at work"
     },
     {
       "date": "2020-03-14",
@@ -504,7 +510,7 @@
     },
     {
       "date": "2020-03-15",
-      "name": "Super-Bee",
+      "name": "Arlukkachase",
       "winner": "Hannah",
       "coOp": "No",
       "note": "3 player, Airecon"
@@ -518,7 +524,7 @@
     },
     {
       "date": "2020-03-15",
-      "name": "Arlukkachase",
+      "name": "Super-Bee",
       "winner": "Hannah",
       "coOp": "No",
       "note": "3 player, Airecon"
@@ -534,7 +540,8 @@
       "date": "2020-03-17",
       "name": "Fafnir",
       "winner": "Hannah",
-      "coOp": "No"
+      "coOp": "No",
+      "note": "COVID Lockdown"
     },
     {
       "date": "2020-03-18",
@@ -544,15 +551,15 @@
     },
     {
       "date": "2020-03-18",
-      "name": "Tricks and the Phantom",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2020-03-18",
       "name": "The Fox and the Forest Duet",
       "coOp": "Yes",
       "coOpOutcome": "Won"
+    },
+    {
+      "date": "2020-03-18",
+      "name": "Tricks and the Phantom",
+      "winner": "John",
+      "coOp": "No"
     },
     {
       "date": "2020-03-19",
@@ -617,12 +624,38 @@
     {
       "date": "2020-03-22",
       "name": "Fafnir",
-      "winner": "John"
+      "winner": "John",
+      "coOp": "No"
     },
     {
       "date": "2020-03-23",
       "name": "Flotsam Fight",
-      "winner": "Hannah"
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-03-24",
+      "name": "Design Town",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-03-27",
+      "name": "Love Letter",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-03-28",
+      "name": "Barbarossa",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-03-28",
+      "name": "Reykholt",
+      "winner": "Draw",
+      "coOp": "No"
     }
   ],
   "uniqueGamesPlayed": [
@@ -631,6 +664,7 @@
     "Arlukkachase",
     "Azul",
     "Azul Summer Pavilion",
+    "Barbarossa",
     "Brass: Birmingham",
     "Castles of Burghandy",
     "Cat Lady",
@@ -652,6 +686,7 @@
     "Pandemic: Iberia",
     "Pandemic: Rising Tide",
     "Patchwork",
+    "Reykholt",
     "Space Base",
     "Splendor",
     "Star Realms",
@@ -679,39 +714,39 @@
     "Viticulture",
     "Wingspan"
   ],
-  "uniqueGamesPlayedCount": 52,
-  "totalGamesPlayed": 87,
-  "averageGamesPlayedPerDay": 1.0482,
+  "uniqueGamesPlayedCount": 54,
+  "totalGamesPlayed": 91,
+  "averageGamesPlayedPerDay": 1.0341,
   "mostGamesPlayedInADay": [
     {
       "date": "2020-03-19",
       "games": [
-        "Tricks and the Phantom",
+        "Design Town",
+        "Dungeon of Mandom VIII",
+        "Dungeon of Mandom VIII",
         "Nine Tiles Panic",
-        "Dungeon of Mandom VIII",
-        "Dungeon of Mandom VIII",
-        "Design Town"
+        "Tricks and the Phantom"
       ]
     }
   ],
   "mostPlayedGames": [
     {
       "name": "Love Letter",
-      "plays": 8
+      "plays": 9
     }
   ],
   "coOpGamesPlayedCount": 20,
-  "coOpGamesPlayedPercentage": 0.2299,
+  "coOpGamesPlayedPercentage": 0.2198,
   "coOpGameWins": 12,
   "coOpGameLoses": 8,
-  "winCountHannah": 39,
-  "winCountJohn": 27,
+  "winCountHannah": 40,
+  "winCountJohn": 29,
   "winCountOther": 1,
-  "winCountDraw": 1,
-  "winnableGamesTotal": 68,
-  "winRateHannah": 0.5735,
-  "winRateJohn": 0.3971,
-  "winRateOther": 0.0147,
-  "winRateDraw": 0.0147,
+  "winCountDraw": 2,
+  "winnableGamesTotal": 72,
+  "winRateHannah": 0.5556,
+  "winRateJohn": 0.4028,
+  "winRateOther": 0.0139,
+  "winRateDraw": 0.0278,
   "mostWonGames": "Hannah"
 }

@@ -2,9 +2,9 @@
   "dateCode": "2020-03",
   "title": "March 2020",
   "sequenceStartDate": "2020-03-01",
-  "sequenceEndDate": "2020-03-23",
-  "daysInSequence": 23,
-  "daysWithUnplayedGames": 5,
+  "sequenceEndDate": "2020-03-28",
+  "daysInSequence": 28,
+  "daysWithUnplayedGames": 7,
   "gamesPlayedPerDay": {
     "1": 1,
     "2": 0,
@@ -28,7 +28,12 @@
     "20": 3,
     "21": 2,
     "22": 1,
-    "23": 1
+    "23": 1,
+    "24": 1,
+    "25": 0,
+    "26": 0,
+    "27": 1,
+    "28": 2
   },
   "gamesPlayed": [
     {
@@ -89,7 +94,8 @@
       "date": "2020-03-12",
       "name": "Love Letter",
       "winner": "Hannah",
-      "coOp": "No"
+      "coOp": "No",
+      "note": "Hannah's last day at work"
     },
     {
       "date": "2020-03-14",
@@ -111,7 +117,7 @@
     },
     {
       "date": "2020-03-15",
-      "name": "Super-Bee",
+      "name": "Arlukkachase",
       "winner": "Hannah",
       "coOp": "No",
       "note": "3 player, Airecon"
@@ -125,7 +131,7 @@
     },
     {
       "date": "2020-03-15",
-      "name": "Arlukkachase",
+      "name": "Super-Bee",
       "winner": "Hannah",
       "coOp": "No",
       "note": "3 player, Airecon"
@@ -141,7 +147,8 @@
       "date": "2020-03-17",
       "name": "Fafnir",
       "winner": "Hannah",
-      "coOp": "No"
+      "coOp": "No",
+      "note": "COVID Lockdown"
     },
     {
       "date": "2020-03-18",
@@ -151,15 +158,15 @@
     },
     {
       "date": "2020-03-18",
-      "name": "Tricks and the Phantom",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2020-03-18",
       "name": "The Fox and the Forest Duet",
       "coOp": "Yes",
       "coOpOutcome": "Won"
+    },
+    {
+      "date": "2020-03-18",
+      "name": "Tricks and the Phantom",
+      "winner": "John",
+      "coOp": "No"
     },
     {
       "date": "2020-03-19",
@@ -224,16 +231,43 @@
     {
       "date": "2020-03-22",
       "name": "Fafnir",
-      "winner": "John"
+      "winner": "John",
+      "coOp": "No"
     },
     {
       "date": "2020-03-23",
       "name": "Flotsam Fight",
-      "winner": "Hannah"
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-03-24",
+      "name": "Design Town",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-03-27",
+      "name": "Love Letter",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-03-28",
+      "name": "Barbarossa",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-03-28",
+      "name": "Reykholt",
+      "winner": "Draw",
+      "coOp": "No"
     }
   ],
   "uniqueGamesPlayed": [
     "Arlukkachase",
+    "Barbarossa",
     "Brass: Birmingham",
     "Coup",
     "Design Town",
@@ -248,6 +282,7 @@
     "Nine Tiles Panic",
     "Pandemic Legacy: Season 2",
     "Pandemic: Rising Tide",
+    "Reykholt",
     "Space Base",
     "Sub Terra II",
     "Super-Bee",
@@ -257,43 +292,51 @@
     "Ticket to Ride",
     "Tricks and the Phantom"
   ],
-  "uniqueGamesPlayedCount": 23,
-  "totalGamesPlayed": 33,
-  "averageGamesPlayedPerDay": 1.4348,
+  "uniqueGamesPlayedCount": 25,
+  "totalGamesPlayed": 37,
+  "averageGamesPlayedPerDay": 1.3214,
   "mostGamesPlayedInADay": [
     {
       "date": "2020-03-19",
       "games": [
-        "Tricks and the Phantom",
+        "Design Town",
+        "Dungeon of Mandom VIII",
+        "Dungeon of Mandom VIII",
         "Nine Tiles Panic",
-        "Dungeon of Mandom VIII",
-        "Dungeon of Mandom VIII",
-        "Design Town"
+        "Tricks and the Phantom"
       ]
     }
   ],
   "mostPlayedGames": [
     {
+      "name": "Pandemic Legacy: Season 2",
+      "plays": 3
+    },
+    {
       "name": "Dungeon of Mandom VIII",
       "plays": 3
     },
     {
-      "name": "Pandemic Legacy: Season 2",
+      "name": "Love Letter",
+      "plays": 3
+    },
+    {
+      "name": "Design Town",
       "plays": 3
     }
   ],
   "coOpGamesPlayedCount": 10,
-  "coOpGamesPlayedPercentage": 0.303,
+  "coOpGamesPlayedPercentage": 0.2703,
   "coOpGameWins": 6,
   "coOpGameLoses": 4,
-  "winCountHannah": 12,
-  "winCountJohn": 10,
+  "winCountHannah": 13,
+  "winCountJohn": 12,
   "winCountOther": 0,
-  "winCountDraw": 1,
-  "winnableGamesTotal": 23,
-  "winRateHannah": 0.5217,
-  "winRateJohn": 0.4348,
+  "winCountDraw": 2,
+  "winnableGamesTotal": 27,
+  "winRateHannah": 0.4815,
+  "winRateJohn": 0.4444,
   "winRateOther": 0,
-  "winRateDraw": 0.0435,
+  "winRateDraw": 0.0741,
   "mostWonGames": "Hannah"
 }

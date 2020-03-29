@@ -830,9 +830,14 @@
         "date": "2018-06-10",
         "winner": "John",
         "coOp": "No"
+      },
+      {
+        "date": "2020-03-28",
+        "winner": "John",
+        "coOp": "No"
       }
     ],
-    "totalGamesPlayed": 2,
+    "totalGamesPlayed": 3,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
@@ -840,15 +845,15 @@
     "coOpWinRate": 0,
     "coOpLossRate": 0,
     "winCountHannah": 1,
-    "winCountJohn": 1,
+    "winCountJohn": 2,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 2,
-    "winRateHannah": 0.5,
-    "winRateJohn": 0.5,
+    "winnableGamesTotal": 3,
+    "winRateHannah": 0.3333,
+    "winRateJohn": 0.6667,
     "winRateOther": 0,
     "winRateDraw": 0,
-    "mostWonGames": "Draw"
+    "mostWonGames": "John"
   },
   "battlestar-galactica-the-board-game": {
     "boardGameGeekGameId": "37111",
@@ -2007,20 +2012,25 @@
         "date": "2020-03-19",
         "winner": "Hannah",
         "coOp": "No"
+      },
+      {
+        "date": "2020-03-24",
+        "winner": "Hannah",
+        "coOp": "No"
       }
     ],
-    "totalGamesPlayed": 2,
+    "totalGamesPlayed": 3,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
     "coOpGameLoses": 0,
     "coOpWinRate": 0,
     "coOpLossRate": 0,
-    "winCountHannah": 2,
+    "winCountHannah": 3,
     "winCountJohn": 0,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 2,
+    "winnableGamesTotal": 3,
     "winRateHannah": 1,
     "winRateJohn": 0,
     "winRateOther": 0,
@@ -2741,11 +2751,13 @@
       {
         "date": "2020-03-17",
         "winner": "Hannah",
-        "coOp": "No"
+        "coOp": "No",
+        "notes": "COVID Lockdown"
       },
       {
         "date": "2020-03-22",
-        "winner": "John"
+        "winner": "John",
+        "coOp": "No"
       }
     ],
     "totalGamesPlayed": 2,
@@ -2921,7 +2933,8 @@
       },
       {
         "date": "2020-03-23",
-        "winner": "Hannah"
+        "winner": "Hannah",
+        "coOp": "No"
       }
     ],
     "totalGamesPlayed": 2,
@@ -4218,15 +4231,21 @@
       {
         "date": "2020-03-12",
         "winner": "Hannah",
-        "coOp": "No"
+        "coOp": "No",
+        "notes": "Hannah's last day at work"
       },
       {
         "date": "2020-03-14",
         "winner": "Hannah",
         "coOp": "No"
+      },
+      {
+        "date": "2020-03-27",
+        "winner": "John",
+        "coOp": "No"
       }
     ],
-    "totalGamesPlayed": 29,
+    "totalGamesPlayed": 30,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
@@ -4234,13 +4253,13 @@
     "coOpWinRate": 0,
     "coOpLossRate": 0,
     "winCountHannah": 19,
-    "winCountJohn": 9,
+    "winCountJohn": 10,
     "winCountOther": 1,
     "winCountDraw": 0,
-    "winnableGamesTotal": 29,
-    "winRateHannah": 0.6552,
-    "winRateJohn": 0.3103,
-    "winRateOther": 0.0345,
+    "winnableGamesTotal": 30,
+    "winRateHannah": 0.6333,
+    "winRateJohn": 0.3333,
+    "winRateOther": 0.0333,
     "winRateDraw": 0,
     "mostWonGames": "Hannah"
   },
@@ -5947,8 +5966,14 @@
     "boardGameGeekName": "Reykholt",
     "boardGameApiId": "reykholt",
     "name": "Reykholt",
-    "playRecords": [],
-    "totalGamesPlayed": 0,
+    "playRecords": [
+      {
+        "date": "2020-03-28",
+        "winner": "Draw",
+        "coOp": "No"
+      }
+    ],
+    "totalGamesPlayed": 1,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
@@ -5958,12 +5983,12 @@
     "winCountHannah": 0,
     "winCountJohn": 0,
     "winCountOther": 0,
-    "winCountDraw": 0,
-    "winnableGamesTotal": 0,
+    "winCountDraw": 1,
+    "winnableGamesTotal": 1,
     "winRateHannah": 0,
     "winRateJohn": 0,
     "winRateOther": 0,
-    "winRateDraw": 0,
+    "winRateDraw": 1,
     "mostWonGames": "Draw"
   },
   "sagrada": {

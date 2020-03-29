@@ -145,13 +145,13 @@
       "date": "2018-12-16",
       "name": "Codenames",
       "coOp": "Yes",
-      "coOpOutcome": "Won"
+      "coOpOutcome": "Lost"
     },
     {
       "date": "2018-12-16",
       "name": "Codenames",
       "coOp": "Yes",
-      "coOpOutcome": "Lost"
+      "coOpOutcome": "Won"
     },
     {
       "date": "2018-12-17",
@@ -176,13 +176,6 @@
       "name": "Werewolf",
       "coOp": "Yes",
       "coOpOutcome": "Lost",
-      "note": "13"
-    },
-    {
-      "date": "2018-12-19",
-      "name": "Werewolf",
-      "coOp": "Yes",
-      "coOpOutcome": "Won",
       "note": "15"
     },
     {
@@ -190,6 +183,13 @@
       "name": "Werewolf",
       "coOp": "Yes",
       "coOpOutcome": "Lost",
+      "note": "13"
+    },
+    {
+      "date": "2018-12-19",
+      "name": "Werewolf",
+      "coOp": "Yes",
+      "coOpOutcome": "Won",
       "note": "15"
     },
     {
@@ -313,10 +313,10 @@
     {
       "date": "2018-12-19",
       "games": [
+        "Love Letter",
         "Werewolf",
         "Werewolf",
-        "Werewolf",
-        "Love Letter"
+        "Werewolf"
       ]
     }
   ],

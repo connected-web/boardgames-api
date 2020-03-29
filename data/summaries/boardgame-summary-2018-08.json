@@ -224,15 +224,15 @@
     },
     {
       "date": "2018-08-21",
-      "name": "Topiary",
-      "winner": "John",
+      "name": "Lords of Vegas",
+      "winner": "Hannah",
       "coOp": "No",
       "note": "4 player"
     },
     {
       "date": "2018-08-21",
-      "name": "Lords of Vegas",
-      "winner": "Hannah",
+      "name": "Topiary",
+      "winner": "John",
       "coOp": "No",
       "note": "4 player"
     },
@@ -247,6 +247,13 @@
       "name": "Love Letter",
       "winner": "John",
       "coOp": "No"
+    },
+    {
+      "date": "2018-08-24",
+      "name": "Exploding Kittens",
+      "winner": "Other",
+      "coOp": "No",
+      "note": "3 player"
     },
     {
       "date": "2018-08-24",
@@ -266,13 +273,6 @@
       "date": "2018-08-24",
       "name": "Troika",
       "winner": "John",
-      "coOp": "No",
-      "note": "3 player"
-    },
-    {
-      "date": "2018-08-24",
-      "name": "Exploding Kittens",
-      "winner": "Other",
       "coOp": "No",
       "note": "3 player"
     },
@@ -306,14 +306,14 @@
       "name": "Codenames",
       "coOp": "Yes",
       "coOpOutcome": "Won",
-      "note": "Hannah-spymaster"
+      "note": "John=spymaster"
     },
     {
       "date": "2018-08-29",
       "name": "Codenames",
       "coOp": "Yes",
       "coOpOutcome": "Won",
-      "note": "John=spymaster"
+      "note": "Hannah-spymaster"
     },
     {
       "date": "2018-08-30",
@@ -369,22 +369,18 @@
     {
       "date": "2018-08-18",
       "games": [
-        "Troika",
-        "Tortuga 1667",
-        "SpyNet",
-        "Pandemic: The Cure",
+        "Cat Lady",
         "Love Letter: Legend of the Five Rings",
-        "Cat Lady"
+        "Pandemic: The Cure",
+        "SpyNet",
+        "Tortuga 1667",
+        "Troika"
       ]
     }
   ],
   "mostPlayedGames": [
     {
-      "name": "Cat Lady",
-      "plays": 3
-    },
-    {
-      "name": "Love Letter",
+      "name": "Codenames",
       "plays": 3
     },
     {
@@ -392,7 +388,11 @@
       "plays": 3
     },
     {
-      "name": "Codenames",
+      "name": "Love Letter",
+      "plays": 3
+    },
+    {
+      "name": "Cat Lady",
       "plays": 3
     }
   ],
