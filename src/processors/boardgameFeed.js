@@ -37,6 +37,9 @@ async function createFeed (model) {
   feed = feed.sort((a, b) => {
     const da = (new Date(a.date)).getTime()
     const db = (new Date(b.date)).getTime()
+    if (da === db) {
+      return a.name.localeCompare(b.name, 'en', {sensitivity: 'base'})
+    }
     return da > db ? 1 : -1
   })
 
