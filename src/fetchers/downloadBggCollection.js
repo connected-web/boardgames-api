@@ -15,9 +15,27 @@ async function downloadCollection ({ fetch }, username) {
   }
 }
 
+async function retryCollection({ fetch }, username, retries=2) {
+  const response = await downloadCollection( { fetch }, username)
+  if (response.message) {
+    report(response.message)    
+    if (retries > 0) {
+      retryCollection|({ fetch }, username, retries - 1)
+    }
+    else {
+      return {
+        items: []
+      }
+    }
+  }
+  else {
+    return response
+  }
+}
+
 function init (model) {
   return async () => {
-    model.boardGameGeek.collection = await downloadCollection(model.fetchers, username)
+    model.boardGameGeek.collection = await retryCollection(model.fetchers, username)
     return {
       collection: model.boardGameGeek.collection,
       log
