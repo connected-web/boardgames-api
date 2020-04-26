@@ -30,6 +30,9 @@ const modes = {
   'live-summaries': () => deploy({
     include: ['data/summaries/*']
   }),
+  'live-summaries-2020': () => deploy({
+    include: ['data/summaries/*2020*']
+  }),
   'live-index': () => deploy({
     include: ['data/summaries/*']
   }),

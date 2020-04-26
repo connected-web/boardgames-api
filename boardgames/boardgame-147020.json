@@ -80,7 +80,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "323"
+                "totalvotes": "330"
               },
               "results": [
                 {
@@ -103,7 +103,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "174"
+                        "numvotes": "179"
                       }
                     }
                   ]
@@ -116,7 +116,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "294"
+                        "numvotes": "301"
                       }
                     },
                     {
@@ -147,13 +147,13 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "100"
+                        "numvotes": "102"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "103"
+                        "numvotes": "106"
                       }
                     }
                   ]
@@ -164,7 +164,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "111"
+                "totalvotes": "113"
               },
               "results": [
                 {
@@ -202,7 +202,7 @@
                     {
                       "_attributes": {
                         "value": "8",
-                        "numvotes": "62"
+                        "numvotes": "64"
                       }
                     },
                     {
@@ -249,42 +249,42 @@
               "_attributes": {
                 "name": "language_dependence",
                 "title": "Language Dependence",
-                "totalvotes": "81"
+                "totalvotes": "82"
               },
               "results": [
                 {
                   "result": [
                     {
                       "_attributes": {
-                        "level": "1",
+                        "level": "146",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "2",
+                        "level": "147",
                         "value": "Some necessary text - easily memorized or small crib sheet",
-                        "numvotes": "53"
+                        "numvotes": "54"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "3",
+                        "level": "148",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "26"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "4",
+                        "level": "149",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "2"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "5",
+                        "level": "150",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -538,6 +538,13 @@
                 "type": "boardgameexpansion",
                 "id": "255245",
                 "value": "Star Realms: Fortress Oblivion Promo Card"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "306504",
+                "value": "Star Realms: Frontier Hawk Promo Card"
               }
             },
             {
@@ -922,21 +929,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "32201"
+                        "value": "32795"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.5957"
+                        "value": "7.5933"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "7.4593"
+                        "value": "7.45533"
                       }
                     }
                   ],
@@ -949,8 +956,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "101",
-                            "bayesaverage": "7.4593"
+                            "value": "100",
+                            "bayesaverage": "7.45533"
                           }
                         },
                         {
@@ -959,8 +966,8 @@
                             "id": "5497",
                             "name": "strategygames",
                             "friendlyname": "Strategy Game Rank",
-                            "value": "101",
-                            "bayesaverage": "7.42407"
+                            "value": "103",
+                            "bayesaverage": "7.41985"
                           }
                         }
                       ]
@@ -969,7 +976,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.27305"
+                        "value": "1.27513"
                       }
                     }
                   ],
@@ -983,14 +990,14 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "46986"
+                        "value": "47766"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "669"
+                        "value": "680"
                       }
                     }
                   ],
@@ -1004,28 +1011,28 @@
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "3295"
+                        "value": "3349"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "5262"
+                        "value": "5352"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "1125"
+                        "value": "1140"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "1.9493"
+                        "value": "1.9474"
                       }
                     }
                   ]

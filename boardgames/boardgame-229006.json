@@ -80,7 +80,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "6"
+                "totalvotes": "7"
               },
               "results": [
                 {
@@ -103,7 +103,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "3"
+                        "numvotes": "4"
                       }
                     }
                   ]
@@ -128,7 +128,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     }
                   ]
@@ -147,7 +147,7 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "3"
+                        "numvotes": "4"
                       }
                     },
                     {
@@ -166,7 +166,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "5"
+                        "numvotes": "6"
                       }
                     },
                     {
@@ -306,35 +306,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "1031",
+                        "level": "531",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "1032",
+                        "level": "532",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "1033",
+                        "level": "533",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "1034",
+                        "level": "534",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "1035",
+                        "level": "535",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -410,6 +410,13 @@
             },
             {
               "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2019",
+                "value": "Team-Based Game"
+              }
+            },
+            {
+              "_attributes": {
                 "type": "boardgamedesigner",
                 "id": "14",
                 "value": "Richard Garfield"
@@ -447,21 +454,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "238"
+                        "value": "245"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "6.88451"
+                        "value": "6.8825"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "5.68603"
+                        "value": "5.68657"
                       }
                     }
                   ],
@@ -474,8 +481,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "4757",
-                            "bayesaverage": "5.68603"
+                            "value": "4778",
+                            "bayesaverage": "5.68657"
                           }
                         }
                       ]
@@ -484,7 +491,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.23259"
+                        "value": "1.22607"
                       }
                     }
                   ],
@@ -498,7 +505,7 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "921"
+                        "value": "968"
                       }
                     }
                   ],
@@ -519,7 +526,7 @@
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "79"
+                        "value": "85"
                       }
                     }
                   ],
@@ -533,7 +540,7 @@
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "3"
+                        "value": "4"
                       }
                     }
                   ],

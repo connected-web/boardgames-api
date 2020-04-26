@@ -66,7 +66,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "49"
+                "totalvotes": "52"
               },
               "results": [
                 {
@@ -89,7 +89,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "37"
+                        "numvotes": "39"
                       }
                     }
                   ]
@@ -102,13 +102,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "43"
+                        "numvotes": "45"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "6"
+                        "numvotes": "7"
                       }
                     },
                     {
@@ -127,7 +127,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "5"
+                        "numvotes": "6"
                       }
                     },
                     {
@@ -139,7 +139,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "29"
+                        "numvotes": "31"
                       }
                     }
                   ]
@@ -150,7 +150,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "23"
+                "totalvotes": "25"
               },
               "results": [
                 {
@@ -212,7 +212,7 @@
                     {
                       "_attributes": {
                         "value": "16",
-                        "numvotes": "12"
+                        "numvotes": "14"
                       }
                     },
                     {
@@ -242,35 +242,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "271",
+                        "level": "21",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "272",
+                        "level": "22",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "273",
+                        "level": "23",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "274",
+                        "level": "24",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "7"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "275",
+                        "level": "25",
                         "value": "Unplayable in another language",
                         "numvotes": "2"
                       }
@@ -388,6 +388,13 @@
             },
             {
               "_attributes": {
+                "type": "boardgamefamily",
+                "id": "61207",
+                "value": "Romance (love)"
+              }
+            },
+            {
+              "_attributes": {
                 "type": "boardgameexpansion",
                 "id": "241209",
                 "value": "Fog of Love: Country Fair"
@@ -495,21 +502,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "4058"
+                        "value": "4254"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.09474"
+                        "value": "7.06626"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.64954"
+                        "value": "6.64233"
                       }
                     }
                   ],
@@ -522,8 +529,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "758",
-                            "bayesaverage": "6.64954"
+                            "value": "774",
+                            "bayesaverage": "6.64233"
                           }
                         },
                         {
@@ -532,8 +539,8 @@
                             "id": "5496",
                             "name": "thematic",
                             "friendlyname": "Thematic Rank",
-                            "value": "173",
-                            "bayesaverage": "6.80512"
+                            "value": "179",
+                            "bayesaverage": "6.79521"
                           }
                         }
                       ]
@@ -542,7 +549,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.6091"
+                        "value": "1.61453"
                       }
                     }
                   ],
@@ -556,49 +563,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "9688"
+                        "value": "10019"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "391"
+                        "value": "403"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "263"
+                        "value": "260"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "2106"
+                        "value": "2172"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "1002"
+                        "value": "1047"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "79"
+                        "value": "81"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2.2785"
+                        "value": "2.2716"
                       }
                     }
                   ]
