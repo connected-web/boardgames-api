@@ -7175,22 +7175,34 @@
         "winner": "John",
         "coOp": "No",
         "notes": "India"
+      },
+      {
+        "date": "2020-04-04",
+        "winner": "John",
+        "coOp": "No",
+        "notes": "India"
+      },
+      {
+        "date": "2020-04-21",
+        "winner": "Hannah",
+        "coOp": "No",
+        "notes": "Switzerland"
       }
     ],
-    "totalGamesPlayed": 3,
+    "totalGamesPlayed": 5,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
     "coOpGameLoses": 0,
     "coOpWinRate": 0,
     "coOpLossRate": 0,
-    "winCountHannah": 0,
-    "winCountJohn": 3,
+    "winCountHannah": 1,
+    "winCountJohn": 4,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 3,
-    "winRateHannah": 0,
-    "winRateJohn": 1,
+    "winnableGamesTotal": 5,
+    "winRateHannah": 0.2,
+    "winRateJohn": 0.8,
     "winRateOther": 0,
     "winRateDraw": 0,
     "mostWonGames": "John"
@@ -7343,8 +7355,15 @@
     "boardGameGeekName": "Ticket to Ride Map Collection: Volume 7 – Japan & Italy",
     "boardGameApiId": "ticket-to-ride-map-collection-volume-7-japan-italy",
     "name": "Ticket to Ride Map Collection: Volume 7 – Japan & Italy",
-    "playRecords": [],
-    "totalGamesPlayed": 0,
+    "playRecords": [
+      {
+        "date": "2020-04-01",
+        "winner": "John",
+        "coOp": "No",
+        "notes": "Italy"
+      }
+    ],
+    "totalGamesPlayed": 1,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
@@ -7352,15 +7371,15 @@
     "coOpWinRate": 0,
     "coOpLossRate": 0,
     "winCountHannah": 0,
-    "winCountJohn": 0,
+    "winCountJohn": 1,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 0,
+    "winnableGamesTotal": 1,
     "winRateHannah": 0,
-    "winRateJohn": 0,
+    "winRateJohn": 1,
     "winRateOther": 0,
     "winRateDraw": 0,
-    "mostWonGames": "Draw"
+    "mostWonGames": "John"
   },
   "ticket-to-ride-europa-1912": {
     "boardGameGeekGameId": "53383",
@@ -7718,9 +7737,15 @@
         "date": "2018-09-24",
         "winner": "Hannah",
         "coOp": "No"
+      },
+      {
+        "date": "2020-04-10",
+        "winner": "John",
+        "coOp": "No",
+        "notes": "Great Lakes"
       }
     ],
-    "totalGamesPlayed": 4,
+    "totalGamesPlayed": 5,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
@@ -7728,12 +7753,12 @@
     "coOpWinRate": 0,
     "coOpLossRate": 0,
     "winCountHannah": 3,
-    "winCountJohn": 1,
+    "winCountJohn": 2,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 4,
-    "winRateHannah": 0.75,
-    "winRateJohn": 0.25,
+    "winnableGamesTotal": 5,
+    "winRateHannah": 0.6,
+    "winRateJohn": 0.4,
     "winRateOther": 0,
     "winRateDraw": 0,
     "mostWonGames": "Hannah"
@@ -9616,62 +9641,6 @@
     "winRateDraw": 0,
     "mostWonGames": "Draw"
   },
-  "ticket-to-ride-japan-italy": {
-    "boardGameApiId": "ticket-to-ride-japan-italy",
-    "playRecords": [
-      {
-        "date": "2020-04-01",
-        "winner": "John",
-        "coOp": "No"
-      }
-    ],
-    "name": "Ticket to Ride: Japan: Italy",
-    "totalGamesPlayed": 1,
-    "coOpGamesPlayedCount": 0,
-    "coOpGamesPlayedPercentage": 0,
-    "coOpGameWins": 0,
-    "coOpGameLoses": 0,
-    "coOpWinRate": 0,
-    "coOpLossRate": 0,
-    "winCountHannah": 0,
-    "winCountJohn": 1,
-    "winCountOther": 0,
-    "winCountDraw": 0,
-    "winnableGamesTotal": 1,
-    "winRateHannah": 0,
-    "winRateJohn": 1,
-    "winRateOther": 0,
-    "winRateDraw": 0,
-    "mostWonGames": "John"
-  },
-  "ticket-to-ride-india": {
-    "boardGameApiId": "ticket-to-ride-india",
-    "playRecords": [
-      {
-        "date": "2020-04-04",
-        "winner": "John",
-        "coOp": "No"
-      }
-    ],
-    "name": "Ticket to Ride: India",
-    "totalGamesPlayed": 1,
-    "coOpGamesPlayedCount": 0,
-    "coOpGamesPlayedPercentage": 0,
-    "coOpGameWins": 0,
-    "coOpGameLoses": 0,
-    "coOpWinRate": 0,
-    "coOpLossRate": 0,
-    "winCountHannah": 0,
-    "winCountJohn": 1,
-    "winCountOther": 0,
-    "winCountDraw": 0,
-    "winnableGamesTotal": 1,
-    "winRateHannah": 0,
-    "winRateJohn": 1,
-    "winRateOther": 0,
-    "winRateDraw": 0,
-    "mostWonGames": "John"
-  },
   "the-palaces-of-mad-king-ludwig": {
     "boardGameApiId": "the-palaces-of-mad-king-ludwig",
     "playRecords": [
@@ -9700,36 +9669,8 @@
     "winRateDraw": 0,
     "mostWonGames": "John"
   },
-  "rails-and-sails": {
-    "boardGameApiId": "rails-and-sails",
-    "playRecords": [
-      {
-        "date": "2020-04-10",
-        "winner": "John",
-        "coOp": "No"
-      }
-    ],
-    "name": "Rails and Sails",
-    "totalGamesPlayed": 1,
-    "coOpGamesPlayedCount": 0,
-    "coOpGamesPlayedPercentage": 0,
-    "coOpGameWins": 0,
-    "coOpGameLoses": 0,
-    "coOpWinRate": 0,
-    "coOpLossRate": 0,
-    "winCountHannah": 0,
-    "winCountJohn": 1,
-    "winCountOther": 0,
-    "winCountDraw": 0,
-    "winnableGamesTotal": 1,
-    "winRateHannah": 0,
-    "winRateJohn": 1,
-    "winRateOther": 0,
-    "winRateDraw": 0,
-    "mostWonGames": "John"
-  },
-  "viticulture-tuscany": {
-    "boardGameApiId": "viticulture-tuscany",
+  "viticulture-tuscany-essential-edition": {
+    "boardGameApiId": "viticulture-tuscany-essential-edition",
     "playRecords": [
       {
         "date": "2020-04-12",
@@ -9737,7 +9678,7 @@
         "coOp": "No"
       }
     ],
-    "name": "Viticulture: Tuscany",
+    "name": "Viticulture: Tuscany Essential Edition",
     "totalGamesPlayed": 1,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
@@ -9755,33 +9696,5 @@
     "winRateOther": 0,
     "winRateDraw": 0,
     "mostWonGames": "John"
-  },
-  "ticket-to-ride-switzerland": {
-    "boardGameApiId": "ticket-to-ride-switzerland",
-    "playRecords": [
-      {
-        "date": "2020-04-21",
-        "winner": "Hannah",
-        "coOp": "No"
-      }
-    ],
-    "name": "Ticket to Ride: Switzerland",
-    "totalGamesPlayed": 1,
-    "coOpGamesPlayedCount": 0,
-    "coOpGamesPlayedPercentage": 0,
-    "coOpGameWins": 0,
-    "coOpGameLoses": 0,
-    "coOpWinRate": 0,
-    "coOpLossRate": 0,
-    "winCountHannah": 1,
-    "winCountJohn": 0,
-    "winCountOther": 0,
-    "winCountDraw": 0,
-    "winnableGamesTotal": 1,
-    "winRateHannah": 1,
-    "winRateJohn": 0,
-    "winRateOther": 0,
-    "winRateDraw": 0,
-    "mostWonGames": "Hannah"
   }
 }
