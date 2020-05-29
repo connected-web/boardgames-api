@@ -20,4 +20,6 @@ jobs:
       run: npm run setup -s
     - name: Run Tests
       run: npm test -s
-   
+    - name: Install /deploy Dependencies
+    - run: npm install
+      working-directory: deploy
