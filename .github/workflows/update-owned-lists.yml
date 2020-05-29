@@ -1,0 +1,29 @@
+name: Update Owned Lists based on Issue
+
+on: 
+  issues:
+    types: [ opened, edited ]
+    
+jobs:
+  deploy:
+    name: Check Issue Title
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup node.js 12.x LTS
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12.x
+    - name: Check Title
+      run: node run check-issue "${{ github.event.issue.id }}" "${{ github.event.issue.title }}" "Update Owned Lists"
+    - name: Install node modules
+      run: npm ci
+    - name: Updated owned lists
+      run: node run update-owned-lists
+    - name: Create data sets
+      run: node run create-all
+      working-directory: deploy
+    - name: Setup /deploy/.ftp-pass
+      run: ./scripts/setup/createFTPSecrets.sh "${{ secrets.FTP_USERNAME }}" "${{ secrets.FTP_PASSWORD }}"
+    - name: Deploy Files
+      run: node deploy live-summaries
