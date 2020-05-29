@@ -23,3 +23,7 @@ jobs:
     - name: Install /deploy Dependencies
       run: npm install
       working-directory: deploy
+    - name: Setup /deploy/.ftp-pass
+      run: ./scripts/setup/createFTPSecrets.sh "${{ secrets.FTP_USERNAME }}" "${{ secrets.FTP_PASSWORD }}"
+    - name: Deploy Files
+      run: node deploy live-php
