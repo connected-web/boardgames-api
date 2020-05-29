@@ -46,9 +46,16 @@ describe('API Endpoints', () => {
   })
 
   endpointData.endpoints.forEach((endpoint) => {
-    const testPath = endpoint.example || endpoint.path
-    it(`${endpoint.method} ${testPath} should '${endpoint.description}'`, async () => test(testPath, endpoint.schema))
-    it(`${endpoint.method} ${testPath}/schema should provide a valid schema`, async () => test(`${testPath}/schema`, 'https://json-schema.org/draft-07/schema'))
-    it(`${endpoint.method} ${testPath}/sample should provide a valid sample`, async () => test(`${testPath}/sample`, endpoint.schema))
+    describe(`${endpoint.method} ${endpoint.description}`, () => {
+      const testPath = endpoint.example || endpoint.path
+      if (endpoint.example) {
+        it(`${endpoint.method} ${endpoint.example} should '${endpoint.description}'`, async () => test(endpoint.example, endpoint.schema))
+      } else {
+        it(`${endpoint.method} ${testPath} should '${endpoint.description}'`, async () => test(testPath, endpoint.schema))
+      }
+
+      it(`${endpoint.method} ${testPath}/schema should provide a valid schema`, async () => test(`${testPath}/schema`, 'https://json-schema.org/draft-07/schema'))
+      it(`${endpoint.method} ${testPath}/sample should provide a valid sample`, async () => test(`${testPath}/sample`, endpoint.schema))
+    })
   })
 })

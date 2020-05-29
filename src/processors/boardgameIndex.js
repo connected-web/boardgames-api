@@ -86,10 +86,10 @@ function performFurtherAnalysis (entry) {
   result.winCountOther = playRecords.filter(r => (r.winner + '').toLowerCase() === 'other').length
   result.winCountDraw = playRecords.filter(r => (r.winner + '').toLowerCase() === 'draw').length
   result.winnableGamesTotal = result.winCountHannah + result.winCountJohn + result.winCountOther + result.winCountDraw
-  result.winRateHannah = fmn(result.winCountHannah / result.winnableGamesTotal)
-  result.winRateJohn = fmn(result.winCountJohn / result.winnableGamesTotal)
-  result.winRateOther = fmn(result.winCountOther / result.winnableGamesTotal)
-  result.winRateDraw = fmn(result.winCountDraw / result.winnableGamesTotal)
+  result.winPercentageHannah = fmn(result.winCountHannah / result.winnableGamesTotal)
+  result.winPercentageJohn = fmn(result.winCountJohn / result.winnableGamesTotal)
+  result.winPercentageOther = fmn(result.winCountOther / result.winnableGamesTotal)
+  result.winPercentageDraw = fmn(result.winCountDraw / result.winnableGamesTotal)
   result.mostWonGames = result.winCountHannah > result.winCountJohn ? 'Hannah' : 'John'
   result.mostWonGames = result.winCountHannah === result.winCountJohn ? 'Draw' : result.mostWonGames
 
