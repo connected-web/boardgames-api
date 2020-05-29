@@ -1,7 +1,9 @@
 name: Test and Deploy via FTP Scripts
+
 on: 
   push:
     branches: [ master ]
+    
 jobs:
   deploy:
     name: Test and Deploy
