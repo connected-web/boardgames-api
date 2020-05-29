@@ -4,6 +4,7 @@ const basepath = position(__dirname, '../../')
 
 const expected = `[Board Game API Run] Available scripts to run:
   node run all
+  node run check-issue
   node run create-all
   node run create-bgg-index
   node run create-boardgame-feed
