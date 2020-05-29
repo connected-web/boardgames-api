@@ -142,6 +142,18 @@ Data is sourced from the following APIs:
 | Board Game Entries     | `https://www.boardgamegeek.com/xmlapi2/thing?id=${objectId}&stats=1`    |
 | Board Game Play Stats  | `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}`        |
 
+## Local Testing of Github Workflows
+
+Workflows for pull requests, and build and deploy can be found in `.github/workflows/`.
+
+To test the workflows locally you can install [nektos/act](https://github.com/nektos/act).
+
+`act` requires Docker installed for your operating system.
+
+Once `act` is setup you can then run:
+- `act push` : simulate push to master event ; triggers build and deploy
+- `act pull_request -P ubuntu-latest=nektos/act-environments-ubuntu:18.04` (Warning: the full ubuntu image requires a cacheable 18GB download at first run)
+
 ### Quick Update Commands
 
 To do a quick update of board game stats and upload to the API:

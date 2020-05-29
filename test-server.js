@@ -44,3 +44,5 @@ const server = app.listen(4000, function () {
   const port = server.address().port
   console.log('[PHP Test Server] listening at http://%s:%s/', 'localhost', port)
 })
+
+module.exports = server

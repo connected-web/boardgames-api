@@ -18,5 +18,5 @@ describe(`Boardgame API Docs Home [${config.name}]`, () => {
       .catch(dreamCatcher)
     const actual = (raw + '').trim()
     expect(actual).to.equal('GET /api/endpoints')
-  }).timeout(5000)
+  }).timeout(10000)
 })
