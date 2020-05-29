@@ -14,4 +14,4 @@ PA='"password": ""'
 PB="\"password\": \"$PASSWORD\""
 sed -i -e "s/$PA/$PB/" "$DEPLOYDIR/.ftppass"
 
-rm "$DEPLOYDIR/.ftppass-e"
+rm -f "$DEPLOYDIR/.ftppass-e"
