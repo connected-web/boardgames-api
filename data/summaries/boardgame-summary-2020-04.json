@@ -2,9 +2,9 @@
   "dateCode": "2020-04",
   "title": "April 2020",
   "sequenceStartDate": "2020-04-01",
-  "sequenceEndDate": "2020-04-26",
-  "daysInSequence": 26,
-  "daysWithUnplayedGames": 7,
+  "sequenceEndDate": "2020-04-29",
+  "daysInSequence": 29,
+  "daysWithUnplayedGames": 9,
   "gamesPlayedPerDay": {
     "1": 1,
     "2": 1,
@@ -31,7 +31,10 @@
     "23": 0,
     "24": 0,
     "25": 2,
-    "26": 1
+    "26": 1,
+    "27": 0,
+    "28": 0,
+    "29": 1
   },
   "gamesPlayed": [
     {
@@ -214,6 +217,12 @@
       "name": "Scythe",
       "winner": "John",
       "coOp": "No"
+    },
+    {
+      "date": "2020-04-29",
+      "name": "Dominion: Seaside",
+      "winner": "Hannah",
+      "coOp": "No"
     }
   ],
   "uniqueGamesPlayed": [
@@ -242,23 +251,23 @@
     "Yam Yam"
   ],
   "uniqueGamesPlayedCount": 23,
-  "totalGamesPlayed": 29,
-  "averageGamesPlayedPerDay": 1.1154,
+  "totalGamesPlayed": 30,
+  "averageGamesPlayedPerDay": 1.0345,
   "mostGamesPlayedInADay": [
-    {
-      "date": "2020-04-12",
-      "games": [
-        "Scythe",
-        "Valeria: Card Kingdoms",
-        "Viticulture: Tuscany Essential Edition"
-      ]
-    },
     {
       "date": "2020-04-10",
       "games": [
         "Diamonsters",
         "Dominion: Seaside",
         "Ticket to Ride: Rails & Sails"
+      ]
+    },
+    {
+      "date": "2020-04-12",
+      "games": [
+        "Scythe",
+        "Valeria: Card Kingdoms",
+        "Viticulture: Tuscany Essential Edition"
       ]
     }
   ],
@@ -269,19 +278,19 @@
     }
   ],
   "coOpGamesPlayedCount": 4,
-  "coOpGamesPlayedPercentage": 0.1379,
+  "coOpGamesPlayedPercentage": 0.1333,
   "coOpGameWins": 3,
   "coOpGameLoses": 1,
-  "winCountHannah": 12,
+  "winCountHannah": 13,
   "winCountJohn": 13,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 25,
-  "winRateHannah": 0.48,
-  "winRateJohn": 0.52,
+  "winnableGamesTotal": 26,
+  "winRateHannah": 0.5,
+  "winRateJohn": 0.5,
   "winRateOther": 0,
   "winRateDraw": 0,
-  "mostWonGames": "John",
+  "mostWonGames": "Draw",
   "mostWonGamesJohn": [
     {
       "game": "Scythe",
@@ -291,6 +300,10 @@
   "mostWonGamesHannah": [
     {
       "game": "Scythe",
+      "plays": 2
+    },
+    {
+      "game": "Dominion: Seaside",
       "plays": 2
     }
   ]
