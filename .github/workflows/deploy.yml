@@ -1,0 +1,29 @@
+name: Test and Deploy via FTP Scripts
+
+on: 
+  push:
+    branches: [ master ]
+    
+jobs:
+  deploy:
+    name: Test and Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup node.js 12.x LTS
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12.x
+    - name: Install / Dependencies
+      run: npm install
+    - name: Setup PHP + Composer
+      run: npm run setup -s
+    - name: Run Tests
+      run: npm test -s
+    - name: Install /deploy Dependencies
+    - run: npm install
+      working-directory: deploy
+    - name: Setup /deploy/.ftp-pass
+      run: ./scripts/setup/createFTPSecrets.sh "${{ secrets.FTP_USERNAME }}" "${{ secrets.FTP_PASSWORD }}"
+    - name: Deploy Files
+      run: node deploy live-php

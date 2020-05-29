@@ -25,16 +25,11 @@
   },
   "devDependencies": {
     "express": "^4.17.1",
-    "nightmare": "^3.0.2",
     "php-express": "git://github.com/Markavian/php-express.git#patch-1",
-    "pre-commit": "^1.2.2",
     "standard": "^10.0.3"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/connected-web/boardgames-api.git"
-  },
-  "pre-commit": [
-    "test:unit"
-  ]
+  }
 }
