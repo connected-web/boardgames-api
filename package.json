@@ -4,8 +4,11 @@
   "description": "A browser for personalized boardgame data, sourced from boardgamesgeek.com and other locations.",
   "main": "api.js",
   "scripts": {
+    "setup": "./scripts/setup/installComposer.sh && php composer.phar install",
     "start": "node test-server.js",
-    "lint": "standard --fix --env mocha",
+    "lint": "standard --fix --env mocha && npm run lint:php:fix && npm run lint:php",
+    "lint:php": "./vendor/bin/phpcs *.php **/*.php --ignore=vendor",
+    "lint:php:fix": "./vendor/bin/phpcbf *.php **/*.php --ignore=vendor",
     "test:unit": "mocha --recursive tests/unit/**/*spec.js",
     "test:integration": "node run create-all && npm run lint && mocha --recursive tests/integration/**/*spec.js",
     "test": "standard --env mocha && npm run test:unit && npm run test:integration"
