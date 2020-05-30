@@ -6,7 +6,7 @@ on:
     
 jobs:
   deploy:
-    if: startsWith(github.event.issue.title, 'Update Owned Lists') === 'true'
+    if: startsWith(github.event.issue.title, 'Update Owned Lists') == 'true'
     name: Check Issue Title
     runs-on: ubuntu-latest
 
