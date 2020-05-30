@@ -17,13 +17,15 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 12.x
-    - name: Install node modules
+    - name: Install node modules in /
+      run: npm ci
+    - name: Install node modules in /deploy
+      working-directory: deploy
       run: npm ci
     - name: Updated owned lists
       run: node run update-owned-lists
     - name: Create data sets
       run: node run create-all
-      working-directory: deploy
     - name: Setup /deploy/.ftp-pass
       run: ./scripts/setup/createFTPSecrets.sh "${{ secrets.FTP_USERNAME }}" "${{ secrets.FTP_PASSWORD }}"
     - name: Deploy Files
