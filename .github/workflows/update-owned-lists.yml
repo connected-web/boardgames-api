@@ -17,7 +17,7 @@ jobs:
     - name: Install node modules
       run: npm ci
     - name: Check Title
-      run: node run check-issue "${{ github.event.issue.id }}" "${{ github.event.issue.title }}" "Update Owned Lists"
+      run: node run check-issue "${{ github.event.issue.number }}" "${{ github.event.issue.title }}" "Update Owned Lists"
     - name: Updated owned lists
       run: node run update-owned-lists
     - name: Create data sets
