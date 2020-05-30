@@ -311,6 +311,26 @@
       "note": "Box 1"
     }
   ],
+  "totalGamesPlayed": 42,
+  "averageGamesPlayedPerDay": 1.3548,
+  "mostGamesPlayedInADay": [
+    {
+      "date": "2018-01-29",
+      "games": [
+        "Codenames",
+        "Codenames",
+        "Machi Koro"
+      ]
+    },
+    {
+      "date": "2018-01-06",
+      "games": [
+        "Heart of Crown",
+        "Ticket to Ride",
+        "Ticket to Ride Map Collection: Volume 6 – France & Old West"
+      ]
+    }
+  ],
   "uniqueGamesPlayed": [
     "7 Wonders Duel",
     "A Game of Thrones: The Card Game (Second Edition)",
@@ -341,26 +361,7 @@
     "Ticket to Ride: Rails & Sails"
   ],
   "uniqueGamesPlayedCount": 27,
-  "totalGamesPlayed": 42,
-  "averageGamesPlayedPerDay": 1.3548,
-  "mostGamesPlayedInADay": [
-    {
-      "date": "2018-01-29",
-      "games": [
-        "Codenames",
-        "Codenames",
-        "Machi Koro"
-      ]
-    },
-    {
-      "date": "2018-01-06",
-      "games": [
-        "Heart of Crown",
-        "Ticket to Ride",
-        "Ticket to Ride Map Collection: Volume 6 – France & Old West"
-      ]
-    }
-  ],
+  "uniqueGamesPlayedPercentage": 0.6429,
   "mostPlayedGames": [
     {
       "name": "Harry Potter: Hogwarts Battle",
