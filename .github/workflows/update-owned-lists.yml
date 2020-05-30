@@ -6,13 +6,14 @@ on:
     
 jobs:
   deploy:
-    if: startsWith(github.event.issue.title, 'Update Owned Lists-') === 'true'
+    if: startsWith(github.event.issue.title, 'Update Owned Lists') === 'true'
     name: Check Issue Title
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-      name: Setup node.js 12.x LTS
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: Setup node.js 12.x LTS
       uses: actions/setup-node@v1
       with:
         node-version: 12.x
