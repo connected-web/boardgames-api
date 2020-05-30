@@ -2,7 +2,7 @@ name: Update Owned Lists based on Issue
 
 on: 
   issues:
-    types: [ opened, edited ]
+    types: [ reopened, edited ]
     
 jobs:
   deploy:
