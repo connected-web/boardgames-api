@@ -186,8 +186,8 @@ async function createBoardGameSummaries (model) {
     const month = date.getUTCMonth()
     const year = date.getUTCFullYear()
 
-    const startDate = new Date(year, month, 1)
-    const endDate = new Date(year, month + 1, -1)
+    const startDate = new Date(year, month, 1, 2, 1, 0)
+    const endDate = new Date(year, month + 1, 1, 2, 1, 0)
 
     const result = summariseGames({
       games,
@@ -206,8 +206,8 @@ async function createBoardGameSummaries (model) {
     const date = new Date(dataForYear.dateCode)
     const year = date.getUTCFullYear()
 
-    const startDate = new Date(year, 0, 1)
-    const endDate = new Date(year + 1, 0, 0)
+    const startDate = new Date(year, 0, 1, 2, 1, 0)
+    const endDate = new Date(year + 1, 0, 0, 2, 1, 0)
 
     const result = summariseGames({
       games,
