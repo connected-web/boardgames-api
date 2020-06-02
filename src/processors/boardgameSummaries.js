@@ -131,7 +131,7 @@ async function createBoardGameSummaries (model) {
     result.totalGamesPlayed = games.length
     result.averageGamesPlayedPerDay = fmn(result.totalGamesPlayed / daysInSequence)
     const highestDayPlayCount = dayCountList[0].games.length
-    result.mostGamesPlayedInADay = dayCountList.filter(n => n.games.length === highestDayPlayCount)
+    result.mostGamesPlayedInADay = dayCountList.filter(n => n.games.length === highestDayPlayCount).sort(sortByFeedPriority)
     const highestGamePlayCount = gameCountList[0].plays
 
     result.uniqueGamesPlayed = [...new Set(games.map(g => g.name))].sort()
