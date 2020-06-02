@@ -1,4 +1,426 @@
 {
   "dateCode": "2018-06",
-  "title": "June 2018"
+  "title": "June 2018",
+  "sequenceStartDate": "2018-06-01",
+  "sequenceEndDate": "2018-06-30",
+  "daysInSequence": 30,
+  "daysWithUnplayedGames": 1,
+  "gamesPlayedPerDay": {
+    "1": 7,
+    "2": 5,
+    "3": 2,
+    "4": 1,
+    "5": 1,
+    "6": 1,
+    "7": 1,
+    "8": 2,
+    "9": 1,
+    "10": 1,
+    "11": 1,
+    "12": 1,
+    "13": 1,
+    "14": 1,
+    "15": 1,
+    "16": 2,
+    "17": 1,
+    "18": 1,
+    "19": 1,
+    "20": 2,
+    "21": 1,
+    "22": 2,
+    "23": 3,
+    "24": 1,
+    "25": 2,
+    "26": 1,
+    "27": 2,
+    "28": 1,
+    "29": 1,
+    "30": 0
+  },
+  "gamesPlayed": [
+    {
+      "date": "2018-06-01",
+      "name": "The Castles of Burgundy",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-06-02",
+      "name": "Dominion (Second Edition)",
+      "winner": "Hannah",
+      "coOp": "No",
+      "note": "Base game"
+    },
+    {
+      "date": "2018-06-02",
+      "name": "Fog of Love",
+      "winner": "Hannah",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
+    },
+    {
+      "date": "2018-06-02",
+      "name": "Jurassic Snack",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-06-02",
+      "name": "Shadows Amsterdam",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost",
+      "note": "5P"
+    },
+    {
+      "date": "2018-06-02",
+      "name": "Shadows Amsterdam",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost",
+      "note": "5P"
+    },
+    {
+      "date": "2018-06-02",
+      "name": "Space Base",
+      "winner": "John",
+      "coOp": "No",
+      "note": "3P"
+    },
+    {
+      "date": "2018-06-02",
+      "name": "Ticket to Ride: New York",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-06-03",
+      "name": "Fog of Love",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2018-06-03",
+      "name": "Heroica: Fortaan",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-06-03",
+      "name": "Pandemic: The Cure",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2018-06-03",
+      "name": "Troika",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-06-04",
+      "name": "HATSUDEN",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-06-04",
+      "name": "HATSUDEN",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-06-05",
+      "name": "Barbarossa",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-06-06",
+      "name": "Love Letter",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-06-07",
+      "name": "Troika",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-06-08",
+      "name": "Marrying Mr. Darcy",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-06-09",
+      "name": "Carcassonne Big Box 6",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2018-06-09",
+      "name": "The Castles of Burgundy",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-06-10",
+      "name": "Barbarossa",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-06-11",
+      "name": "Pandemic: The Cure",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2018-06-12",
+      "name": "Love Letter",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-06-13",
+      "name": "Space Base",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-06-14",
+      "name": "Heart of Crown",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-06-15",
+      "name": "Space Base",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-06-16",
+      "name": "Valeria: Card Kingdoms",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-06-17",
+      "name": "Galaxy Trucker",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-06-17",
+      "name": "Valeria: Card Kingdoms",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-06-18",
+      "name": "Troika",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-06-19",
+      "name": "Azul",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-06-20",
+      "name": "Lovecraft Letter",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-06-21",
+      "name": "Pandemic Legacy: Season 1",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2018-06-21",
+      "name": "Troika",
+      "winner": "Other",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-06-22",
+      "name": "Pandemic: On the Brink",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2018-06-23",
+      "name": "Pandemic: On the Brink",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2018-06-23",
+      "name": "Space Base",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-06-24",
+      "name": "Ticket to Ride Map Collection: Volume 5 – United Kingdom & Pennsylvania",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-06-24",
+      "name": "Ticket to Ride: Europe",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-06-24",
+      "name": "Valeria: Card Kingdoms",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-06-25",
+      "name": "Pandemic: On the Brink",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2018-06-26",
+      "name": "HATSUDEN",
+      "winner": "Draw",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-06-26",
+      "name": "Pandemic: In the Lab",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
+    },
+    {
+      "date": "2018-06-27",
+      "name": "Pandemic: In the Lab",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2018-06-28",
+      "name": "Codenames",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
+    },
+    {
+      "date": "2018-06-28",
+      "name": "Codenames",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2018-06-29",
+      "name": "Pandemic",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2018-06-30",
+      "name": "Valeria: Card Kingdoms",
+      "winner": "Hannah",
+      "coOp": "No"
+    }
+  ],
+  "totalGamesPlayed": 48,
+  "averageGamesPlayedPerDay": 1.6,
+  "mostGamesPlayedInADay": [
+    {
+      "date": "2018-06-02",
+      "games": [
+        "Dominion (Second Edition)",
+        "Fog of Love",
+        "Jurassic Snack",
+        "Shadows Amsterdam",
+        "Shadows Amsterdam",
+        "Space Base",
+        "Ticket to Ride: New York"
+      ]
+    }
+  ],
+  "uniqueGamesPlayed": [
+    "Azul",
+    "Barbarossa",
+    "Carcassonne Big Box 6",
+    "Codenames",
+    "Dominion (Second Edition)",
+    "Fog of Love",
+    "Galaxy Trucker",
+    "HATSUDEN",
+    "Heart of Crown",
+    "Heroica: Fortaan",
+    "Jurassic Snack",
+    "Love Letter",
+    "Lovecraft Letter",
+    "Marrying Mr. Darcy",
+    "Pandemic",
+    "Pandemic Legacy: Season 1",
+    "Pandemic: In the Lab",
+    "Pandemic: On the Brink",
+    "Pandemic: The Cure",
+    "Shadows Amsterdam",
+    "Space Base",
+    "The Castles of Burgundy",
+    "Ticket to Ride Map Collection: Volume 5 – United Kingdom & Pennsylvania",
+    "Ticket to Ride: Europe",
+    "Ticket to Ride: New York",
+    "Troika",
+    "Valeria: Card Kingdoms"
+  ],
+  "uniqueGamesPlayedCount": 27,
+  "uniqueGamesPlayedPercentage": 0.5625,
+  "mostPlayedGames": [
+    {
+      "name": "Valeria: Card Kingdoms",
+      "plays": 4
+    },
+    {
+      "name": "Troika",
+      "plays": 4
+    },
+    {
+      "name": "Space Base",
+      "plays": 4
+    }
+  ],
+  "coOpGamesPlayedCount": 16,
+  "coOpGamesPlayedPercentage": 0.3333,
+  "coOpGameWins": 11,
+  "coOpGameLoses": 5,
+  "winCountHannah": 17,
+  "winCountJohn": 14,
+  "winCountOther": 1,
+  "winCountDraw": 1,
+  "winnableGamesTotal": 33,
+  "winPercentageHannah": 0.5152,
+  "winPercentageJohn": 0.4242,
+  "winPercentageOther": 0.0303,
+  "winPercentageDraw": 0.0303,
+  "mostWonGames": "Hannah",
+  "mostWonGamesJohn": [
+    {
+      "game": "Troika",
+      "plays": 3
+    }
+  ],
+  "mostWonGamesHannah": [
+    {
+      "game": "Space Base",
+      "plays": 3
+    },
+    {
+      "game": "Valeria: Card Kingdoms",
+      "plays": 3
+    }
+  ]
 }

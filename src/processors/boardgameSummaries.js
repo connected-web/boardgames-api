@@ -10,7 +10,7 @@ function daysInMonth (month, year) {
 }
 
 function daysInYear (year) {
-  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].reduce((acc, month) => {
+  return [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].reduce((acc, month) => {
     return acc + daysInMonth(month, year)
   }, 0)
 }
@@ -66,9 +66,7 @@ async function createBoardGameSummaries (model) {
     }
   })
 
-  function summariseGames ({ games, daysInSequence }) {
-    const startDate = new Date(games.map(g => new Date(g.date).getTime()).sort((a, b) => a - b)[0])
-    const endDate = new Date(games.map(g => new Date(g.date).getTime()).sort((a, b) => b - a)[0])
+  function summariseGames ({ games, daysInSequence, startDate, endDate }) {
     const result = {
       sequenceStartDate: startDate.toISOString().substring(0, 10),
       sequenceEndDate: endDate.toISOString().substring(0, 10)
@@ -186,10 +184,19 @@ async function createBoardGameSummaries (model) {
 
     const date = new Date(dataForMonth.dateCode)
     const month = date.getUTCMonth()
+    const year = date.getUTCFullYear()
 
-    const result = summariseGames({ games, daysInSequence: daysInMonth(month) })
+    const startDate = new Date(year, month, 2)
+    const endDate = new Date(year, month + 1, 1)
+
+    const result = summariseGames({
+      games,
+      daysInSequence: daysInMonth(month, year),
+      startDate,
+      endDate
+    })
     Object.entries(result).forEach(kvp => {
-      month[kvp[0]] = kvp[1]
+      dataForMonth[kvp[0]] = kvp[1]
     })
   })
 
@@ -199,9 +206,17 @@ async function createBoardGameSummaries (model) {
     const date = new Date(dataForYear.dateCode)
     const year = date.getUTCFullYear()
 
-    const result = summariseGames({ games, daysInSequence: daysInYear(year) })
+    const startDate = new Date(year, 0, 1)
+    const endDate = new Date(year + 1, 0, 0)
+
+    const result = summariseGames({
+      games,
+      daysInSequence: daysInYear(year),
+      startDate,
+      endDate
+    })
     Object.entries(result).forEach(kvp => {
-      year[kvp[0]] = kvp[1]
+      dataForYear[kvp[0]] = kvp[1]
     })
   })
 
@@ -213,7 +228,12 @@ async function createBoardGameSummaries (model) {
   summaries.byMonth = monthsInUse
   summaries.byYear = yearsInUse
 
-  const byAllTime = summariseGames({ games: collection.feed, daysInSequence: summaries.numberOfDaysCovered + 1 })
+  const byAllTime = summariseGames({
+    games: collection.feed,
+    daysInSequence: summaries.numberOfDaysCovered + 1,
+    startDate: earliestDate,
+    endDate: latestDate
+  })
 
   return {
     summaries: copy(summaries),
