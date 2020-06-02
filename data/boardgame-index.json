@@ -1737,23 +1737,40 @@
         "date": "2020-03-12",
         "winner": "Hannah",
         "coOp": "No"
+      },
+      {
+        "date": "2020-05-31",
+        "winner": "Other",
+        "coOp": "No",
+        "notes": "3P"
+      },
+      {
+        "date": "2020-05-31",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2020-05-31",
+        "winner": "John",
+        "coOp": "No",
+        "notes": "3P"
       }
     ],
-    "totalGamesPlayed": 9,
+    "totalGamesPlayed": 12,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
     "coOpGameLoses": 0,
     "coOpWinRate": 0,
     "coOpLossRate": 0,
-    "winCountHannah": 5,
-    "winCountJohn": 4,
-    "winCountOther": 0,
+    "winCountHannah": 6,
+    "winCountJohn": 5,
+    "winCountOther": 1,
     "winCountDraw": 0,
-    "winnableGamesTotal": 9,
-    "winPercentageHannah": 0.5556,
-    "winPercentageJohn": 0.4444,
-    "winPercentageOther": 0,
+    "winnableGamesTotal": 12,
+    "winPercentageHannah": 0.5,
+    "winPercentageJohn": 0.4167,
+    "winPercentageOther": 0.0833,
     "winPercentageDraw": 0,
     "mostWonGames": "Hannah"
   },
@@ -4060,7 +4077,8 @@
       },
       {
         "date": "2020-05-28",
-        "winner": "Hannah"
+        "winner": "Hannah",
+        "coOp": "No"
       }
     ],
     "totalGamesPlayed": 9,
@@ -4332,23 +4350,29 @@
         "date": "2020-05-23",
         "winner": "Other",
         "coOp": "No"
+      },
+      {
+        "date": "2020-05-31",
+        "winner": "Hannah",
+        "coOp": "No",
+        "notes": "3P"
       }
     ],
-    "totalGamesPlayed": 32,
+    "totalGamesPlayed": 33,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
     "coOpGameLoses": 0,
     "coOpWinRate": 0,
     "coOpLossRate": 0,
-    "winCountHannah": 20,
+    "winCountHannah": 21,
     "winCountJohn": 10,
     "winCountOther": 2,
     "winCountDraw": 0,
-    "winnableGamesTotal": 32,
-    "winPercentageHannah": 0.625,
-    "winPercentageJohn": 0.3125,
-    "winPercentageOther": 0.0625,
+    "winnableGamesTotal": 33,
+    "winPercentageHannah": 0.6364,
+    "winPercentageJohn": 0.303,
+    "winPercentageOther": 0.0606,
     "winPercentageDraw": 0,
     "mostWonGames": "Hannah"
   },
@@ -4832,22 +4856,27 @@
         "date": "2018-06-08",
         "winner": "Hannah",
         "coOp": "No"
+      },
+      {
+        "date": "2020-05-29",
+        "winner": "Hannah",
+        "coOp": "No"
       }
     ],
-    "totalGamesPlayed": 5,
+    "totalGamesPlayed": 6,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
     "coOpGameLoses": 0,
     "coOpWinRate": 0,
     "coOpLossRate": 0,
-    "winCountHannah": 3,
+    "winCountHannah": 4,
     "winCountJohn": 2,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 5,
-    "winPercentageHannah": 0.6,
-    "winPercentageJohn": 0.4,
+    "winnableGamesTotal": 6,
+    "winPercentageHannah": 0.6667,
+    "winPercentageJohn": 0.3333,
     "winPercentageOther": 0,
     "winPercentageDraw": 0,
     "mostWonGames": "Hannah"
@@ -9825,16 +9854,22 @@
         "date": "2020-05-10",
         "coOpOutcome": "Won",
         "coOp": "Yes"
+      },
+      {
+        "date": "2020-05-31",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "notes": "4P"
       }
     ],
     "name": "Hanabi",
-    "totalGamesPlayed": 5,
-    "coOpGamesPlayedCount": 5,
+    "totalGamesPlayed": 6,
+    "coOpGamesPlayedCount": 6,
     "coOpGamesPlayedPercentage": 1,
-    "coOpGameWins": 3,
+    "coOpGameWins": 4,
     "coOpGameLoses": 2,
-    "coOpWinRate": 0.6,
-    "coOpLossRate": 0.4,
+    "coOpWinRate": 0.6667,
+    "coOpLossRate": 0.3333,
     "winCountHannah": 0,
     "winCountJohn": 0,
     "winCountOther": 0,
@@ -9894,6 +9929,63 @@
       }
     ],
     "name": "Lords of Waterdeep",
+    "totalGamesPlayed": 1,
+    "coOpGamesPlayedCount": 0,
+    "coOpGamesPlayedPercentage": 0,
+    "coOpGameWins": 0,
+    "coOpGameLoses": 0,
+    "coOpWinRate": 0,
+    "coOpLossRate": 0,
+    "winCountHannah": 0,
+    "winCountJohn": 1,
+    "winCountOther": 0,
+    "winCountDraw": 0,
+    "winnableGamesTotal": 1,
+    "winPercentageHannah": 0,
+    "winPercentageJohn": 1,
+    "winPercentageOther": 0,
+    "winPercentageDraw": 0,
+    "mostWonGames": "John"
+  },
+  "pandemic-hot-zone-north-america": {
+    "boardGameApiId": "pandemic-hot-zone-north-america",
+    "playRecords": [
+      {
+        "date": "2020-05-30",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes"
+      }
+    ],
+    "name": "Pandemic Hot Zone: North America",
+    "totalGamesPlayed": 1,
+    "coOpGamesPlayedCount": 1,
+    "coOpGamesPlayedPercentage": 1,
+    "coOpGameWins": 0,
+    "coOpGameLoses": 1,
+    "coOpWinRate": 0,
+    "coOpLossRate": 1,
+    "winCountHannah": 0,
+    "winCountJohn": 0,
+    "winCountOther": 0,
+    "winCountDraw": 0,
+    "winnableGamesTotal": 0,
+    "winPercentageHannah": 0,
+    "winPercentageJohn": 0,
+    "winPercentageOther": 0,
+    "winPercentageDraw": 0,
+    "mostWonGames": "Draw"
+  },
+  "sabotuer": {
+    "boardGameApiId": "sabotuer",
+    "playRecords": [
+      {
+        "date": "2020-05-31",
+        "winner": "John",
+        "coOp": "No",
+        "notes": "4P"
+      }
+    ],
+    "name": "Sabotuer",
     "totalGamesPlayed": 1,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,

@@ -4,7 +4,7 @@
   "sequenceStartDate": "2020-01-01",
   "sequenceEndDate": "2020-12-31",
   "daysInSequence": 366,
-  "daysWithUnplayedGames": 269,
+  "daysWithUnplayedGames": 266,
   "gamesPlayedPerDay": {
     "1": 2,
     "2": 1,
@@ -155,9 +155,9 @@
     "147": 0,
     "148": 0,
     "149": 1,
-    "150": 0,
-    "151": 0,
-    "152": 0,
+    "150": 1,
+    "151": 1,
+    "152": 6,
     "153": 0,
     "154": 0,
     "155": 0,
@@ -1301,30 +1301,75 @@
     {
       "date": "2020-05-28",
       "name": "Jurassic Snack",
-      "winner": "Hannah"
-    }
-  ],
-  "totalGamesPlayed": 151,
-  "averageGamesPlayedPerDay": 0.4126,
-  "mostGamesPlayedInADay": [
-    {
-      "date": "2020-03-19",
-      "games": [
-        "Design Town",
-        "Dungeon of Mandom VIII",
-        "Dungeon of Mandom VIII",
-        "Nine Tiles Panic",
-        "Tricks and the Phantom"
-      ]
+      "winner": "Hannah",
+      "coOp": "No"
     },
     {
-      "date": "2020-05-05",
+      "date": "2020-05-29",
+      "name": "Marrying Mr. Darcy",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-05-30",
+      "name": "Pandemic Hot Zone: North America",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
+    },
+    {
+      "date": "2020-05-31",
+      "name": "Coup",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-05-31",
+      "name": "Coup",
+      "winner": "John",
+      "coOp": "No",
+      "note": "3P"
+    },
+    {
+      "date": "2020-05-31",
+      "name": "Coup",
+      "winner": "Other",
+      "coOp": "No",
+      "note": "3P"
+    },
+    {
+      "date": "2020-05-31",
+      "name": "Hanabi",
+      "coOp": "Yes",
+      "coOpOutcome": "Won",
+      "note": "4P"
+    },
+    {
+      "date": "2020-05-31",
+      "name": "Love Letter",
+      "winner": "Hannah",
+      "coOp": "No",
+      "note": "3P"
+    },
+    {
+      "date": "2020-05-31",
+      "name": "Sabotuer",
+      "winner": "John",
+      "coOp": "No",
+      "note": "4P"
+    }
+  ],
+  "totalGamesPlayed": 159,
+  "averageGamesPlayedPerDay": 0.4344,
+  "mostGamesPlayedInADay": [
+    {
+      "date": "2020-05-31",
       "games": [
-        "Carcassonne",
+        "Coup",
+        "Coup",
+        "Coup",
         "Hanabi",
-        "Hanabi",
-        "Hanabi",
-        "Hanabi"
+        "Love Letter",
+        "Sabotuer"
       ]
     }
   ],
@@ -1364,15 +1409,18 @@
     "Jurassic Snack",
     "Lords of Waterdeep",
     "Love Letter",
+    "Marrying Mr. Darcy",
     "Mint Delivery",
     "Mint Works",
     "Nine Tiles Panic",
+    "Pandemic Hot Zone: North America",
     "Pandemic Legacy: Season 2",
     "Pandemic: Iberia",
     "Pandemic: Rising Tide",
     "Patchwork",
     "Photosynthesis",
     "Reykholt",
+    "Sabotuer",
     "Scythe",
     "Space Base",
     "Space Explorers",
@@ -1414,27 +1462,27 @@
     "Wingspan",
     "Yam Yam"
   ],
-  "uniqueGamesPlayedCount": 84,
-  "uniqueGamesPlayedPercentage": 0.5563,
+  "uniqueGamesPlayedCount": 87,
+  "uniqueGamesPlayedPercentage": 0.5472,
   "mostPlayedGames": [
     {
       "name": "Love Letter",
-      "plays": 11
+      "plays": 12
     }
   ],
-  "coOpGamesPlayedCount": 30,
-  "coOpGamesPlayedPercentage": 0.1987,
-  "coOpGameWins": 18,
-  "coOpGameLoses": 12,
-  "winCountHannah": 63,
-  "winCountJohn": 55,
-  "winCountOther": 2,
+  "coOpGamesPlayedCount": 32,
+  "coOpGamesPlayedPercentage": 0.2013,
+  "coOpGameWins": 19,
+  "coOpGameLoses": 13,
+  "winCountHannah": 66,
+  "winCountJohn": 57,
+  "winCountOther": 3,
   "winCountDraw": 2,
-  "winnableGamesTotal": 122,
-  "winPercentageHannah": 0.5164,
-  "winPercentageJohn": 0.4508,
-  "winPercentageOther": 0.0164,
-  "winPercentageDraw": 0.0164,
+  "winnableGamesTotal": 128,
+  "winPercentageHannah": 0.5156,
+  "winPercentageJohn": 0.4453,
+  "winPercentageOther": 0.0234,
+  "winPercentageDraw": 0.0156,
   "mostWonGames": "Hannah",
   "mostWonGamesJohn": [
     {
@@ -1445,7 +1493,7 @@
   "mostWonGamesHannah": [
     {
       "game": "Love Letter",
-      "plays": 8
+      "plays": 9
     }
   ]
 }
