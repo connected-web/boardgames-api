@@ -1,7 +1,7 @@
 {
   "sequenceStartDate": "2018-01-01",
-  "sequenceEndDate": "2020-05-28",
-  "daysInSequence": 879,
+  "sequenceEndDate": "2020-05-31",
+  "daysInSequence": 882,
   "daysWithUnplayedGames": 417,
   "gamesPlayedPerDay": {
     "1": 2,
@@ -882,7 +882,10 @@
     "876": 2,
     "877": 0,
     "878": 0,
-    "879": 1
+    "879": 1,
+    "880": 1,
+    "881": 1,
+    "882": 6
   },
   "gamesPlayed": [
     {
@@ -1547,6 +1550,13 @@
       "name": "Arkham Horror: The Card Game",
       "coOp": "Yes",
       "coOpOutcome": "Won",
+      "note": "Night of the Zealot: Part 1"
+    },
+    {
+      "date": "2018-03-10",
+      "name": "Arkham Horror: The Card Game",
+      "coOp": "Yes",
+      "coOpOutcome": "Won",
       "note": "Night of the Zealot: Part 2"
     },
     {
@@ -1555,13 +1565,6 @@
       "coOp": "Yes",
       "coOpOutcome": "Won",
       "note": "Night of the Zealot: Part 3"
-    },
-    {
-      "date": "2018-03-10",
-      "name": "Arkham Horror: The Card Game",
-      "coOp": "Yes",
-      "coOpOutcome": "Won",
-      "note": "Night of the Zealot: Part 1"
     },
     {
       "date": "2018-03-11",
@@ -3437,14 +3440,14 @@
       "name": "Werewolf",
       "coOp": "Yes",
       "coOpOutcome": "Won",
-      "note": "19 player"
+      "note": "18-player "
     },
     {
       "date": "2018-10-17",
       "name": "Werewolf",
       "coOp": "Yes",
       "coOpOutcome": "Won",
-      "note": "18-player "
+      "note": "19 player"
     },
     {
       "date": "2018-10-18",
@@ -3934,14 +3937,14 @@
       "name": "Werewolf",
       "coOp": "Yes",
       "coOpOutcome": "Lost",
-      "note": "15"
+      "note": "13"
     },
     {
       "date": "2018-12-19",
       "name": "Werewolf",
       "coOp": "Yes",
       "coOpOutcome": "Lost",
-      "note": "13"
+      "note": "15"
     },
     {
       "date": "2018-12-19",
@@ -4961,11 +4964,65 @@
     {
       "date": "2020-05-28",
       "name": "Jurassic Snack",
-      "winner": "Hannah"
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-05-29",
+      "name": "Marrying Mr. Darcy",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-05-30",
+      "name": "Pandemic Hot Zone: North America",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
+    },
+    {
+      "date": "2020-05-31",
+      "name": "Coup",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-05-31",
+      "name": "Coup",
+      "winner": "John",
+      "coOp": "No",
+      "note": "3P"
+    },
+    {
+      "date": "2020-05-31",
+      "name": "Coup",
+      "winner": "Other",
+      "coOp": "No",
+      "note": "3P"
+    },
+    {
+      "date": "2020-05-31",
+      "name": "Hanabi",
+      "coOp": "Yes",
+      "coOpOutcome": "Won",
+      "note": "4P"
+    },
+    {
+      "date": "2020-05-31",
+      "name": "Love Letter",
+      "winner": "Hannah",
+      "coOp": "No",
+      "note": "3P"
+    },
+    {
+      "date": "2020-05-31",
+      "name": "Sabotuer",
+      "winner": "John",
+      "coOp": "No",
+      "note": "4P"
     }
   ],
-  "totalGamesPlayed": 660,
-  "averageGamesPlayedPerDay": 0.7509,
+  "totalGamesPlayed": 668,
+  "averageGamesPlayedPerDay": 0.7574,
   "mostGamesPlayedInADay": [
     {
       "date": "2018-06-02",
@@ -5087,6 +5144,7 @@
     "My Little Scythe",
     "Nine Tiles Panic",
     "Pandemic",
+    "Pandemic Hot Zone: North America",
     "Pandemic Legacy: Season 1",
     "Pandemic Legacy: Season 2",
     "Pandemic: Contagion",
@@ -5100,6 +5158,7 @@
     "Patchwork",
     "Photosynthesis",
     "Reykholt",
+    "Sabotuer",
     "Sagrada",
     "Salem",
     "Scythe",
@@ -5174,27 +5233,27 @@
     "Wingspan",
     "Yam Yam"
   ],
-  "uniqueGamesPlayedCount": 192,
-  "uniqueGamesPlayedPercentage": 0.2909,
+  "uniqueGamesPlayedCount": 194,
+  "uniqueGamesPlayedPercentage": 0.2904,
   "mostPlayedGames": [
     {
       "name": "Love Letter",
-      "plays": 32
+      "plays": 33
     }
   ],
-  "coOpGamesPlayedCount": 178,
-  "coOpGamesPlayedPercentage": 0.2697,
-  "coOpGameWins": 101,
-  "coOpGameLoses": 77,
-  "winCountHannah": 232,
-  "winCountJohn": 218,
-  "winCountOther": 19,
+  "coOpGamesPlayedCount": 180,
+  "coOpGamesPlayedPercentage": 0.2695,
+  "coOpGameWins": 102,
+  "coOpGameLoses": 78,
+  "winCountHannah": 235,
+  "winCountJohn": 220,
+  "winCountOther": 20,
   "winCountDraw": 17,
-  "winnableGamesTotal": 486,
-  "winPercentageHannah": 0.4774,
-  "winPercentageJohn": 0.4486,
-  "winPercentageOther": 0.0391,
-  "winPercentageDraw": 0.035,
+  "winnableGamesTotal": 492,
+  "winPercentageHannah": 0.4776,
+  "winPercentageJohn": 0.4472,
+  "winPercentageOther": 0.0407,
+  "winPercentageDraw": 0.0346,
   "mostWonGames": "Hannah",
   "mostWonGamesJohn": [
     {
@@ -5205,7 +5264,7 @@
   "mostWonGamesHannah": [
     {
       "game": "Love Letter",
-      "plays": 20
+      "plays": 21
     }
   ]
 }

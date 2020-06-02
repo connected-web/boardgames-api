@@ -1,38 +1,42 @@
 {
   "dateCode": "2020-05",
   "title": "May 2020",
-  "sequenceStartDate": "2020-05-02",
-  "sequenceEndDate": "2020-05-28",
-  "daysInSequence": 27,
-  "daysWithUnplayedGames": 11,
+  "sequenceStartDate": "2020-05-01",
+  "sequenceEndDate": "2020-05-31",
+  "daysInSequence": 31,
+  "daysWithUnplayedGames": 12,
   "gamesPlayedPerDay": {
-    "1": 1,
-    "2": 0,
+    "1": 0,
+    "2": 1,
     "3": 0,
-    "4": 5,
-    "5": 0,
-    "6": 1,
+    "4": 0,
+    "5": 5,
+    "6": 0,
     "7": 1,
     "8": 1,
-    "9": 3,
-    "10": 1,
-    "11": 0,
+    "9": 1,
+    "10": 3,
+    "11": 1,
     "12": 0,
     "13": 0,
     "14": 0,
-    "15": 1,
-    "16": 2,
-    "17": 1,
-    "18": 0,
-    "19": 1,
+    "15": 0,
+    "16": 1,
+    "17": 2,
+    "18": 1,
+    "19": 0,
     "20": 1,
-    "21": 0,
-    "22": 4,
-    "23": 2,
+    "21": 1,
+    "22": 0,
+    "23": 4,
     "24": 2,
-    "25": 0,
+    "25": 2,
     "26": 0,
-    "27": 1
+    "27": 0,
+    "28": 1,
+    "29": 1,
+    "30": 1,
+    "31": 6
   },
   "gamesPlayed": [
     {
@@ -202,20 +206,75 @@
     {
       "date": "2020-05-28",
       "name": "Jurassic Snack",
-      "winner": "Hannah"
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-05-29",
+      "name": "Marrying Mr. Darcy",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-05-30",
+      "name": "Pandemic Hot Zone: North America",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
+    },
+    {
+      "date": "2020-05-31",
+      "name": "Coup",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-05-31",
+      "name": "Coup",
+      "winner": "John",
+      "coOp": "No",
+      "note": "3P"
+    },
+    {
+      "date": "2020-05-31",
+      "name": "Coup",
+      "winner": "Other",
+      "coOp": "No",
+      "note": "3P"
+    },
+    {
+      "date": "2020-05-31",
+      "name": "Hanabi",
+      "coOp": "Yes",
+      "coOpOutcome": "Won",
+      "note": "4P"
+    },
+    {
+      "date": "2020-05-31",
+      "name": "Love Letter",
+      "winner": "Hannah",
+      "coOp": "No",
+      "note": "3P"
+    },
+    {
+      "date": "2020-05-31",
+      "name": "Sabotuer",
+      "winner": "John",
+      "coOp": "No",
+      "note": "4P"
     }
   ],
-  "totalGamesPlayed": 28,
-  "averageGamesPlayedPerDay": 1.037,
+  "totalGamesPlayed": 36,
+  "averageGamesPlayedPerDay": 1.1613,
   "mostGamesPlayedInADay": [
     {
-      "date": "2020-05-05",
+      "date": "2020-05-31",
       "games": [
-        "Carcassonne",
+        "Coup",
+        "Coup",
+        "Coup",
         "Hanabi",
-        "Hanabi",
-        "Hanabi",
-        "Hanabi"
+        "Love Letter",
+        "Sabotuer"
       ]
     }
   ],
@@ -224,11 +283,15 @@
     "Carcassonne",
     "Claim",
     "Corsairs of Valeria",
+    "Coup",
     "Design Town",
     "Hanabi",
     "Jurassic Snack",
     "Lords of Waterdeep",
     "Love Letter",
+    "Marrying Mr. Darcy",
+    "Pandemic Hot Zone: North America",
+    "Sabotuer",
     "Scythe",
     "Sushi Go!",
     "Tanto Cuore: Romantic Vacation",
@@ -237,28 +300,28 @@
     "Topiary",
     "Valeria: Card Kingdoms"
   ],
-  "uniqueGamesPlayedCount": 16,
-  "uniqueGamesPlayedPercentage": 0.5714,
+  "uniqueGamesPlayedCount": 20,
+  "uniqueGamesPlayedPercentage": 0.5556,
   "mostPlayedGames": [
     {
       "name": "Hanabi",
-      "plays": 5
+      "plays": 6
     }
   ],
-  "coOpGamesPlayedCount": 6,
-  "coOpGamesPlayedPercentage": 0.2143,
-  "coOpGameWins": 3,
-  "coOpGameLoses": 3,
-  "winCountHannah": 10,
-  "winCountJohn": 11,
-  "winCountOther": 1,
+  "coOpGamesPlayedCount": 8,
+  "coOpGamesPlayedPercentage": 0.2222,
+  "coOpGameWins": 4,
+  "coOpGameLoses": 4,
+  "winCountHannah": 13,
+  "winCountJohn": 13,
+  "winCountOther": 2,
   "winCountDraw": 0,
-  "winnableGamesTotal": 22,
-  "winPercentageHannah": 0.4545,
-  "winPercentageJohn": 0.5,
-  "winPercentageOther": 0.0455,
+  "winnableGamesTotal": 28,
+  "winPercentageHannah": 0.4643,
+  "winPercentageJohn": 0.4643,
+  "winPercentageOther": 0.0714,
   "winPercentageDraw": 0,
-  "mostWonGames": "John",
+  "mostWonGames": "Draw",
   "mostWonGamesJohn": [
     {
       "game": "Corsairs of Valeria",
@@ -267,11 +330,15 @@
   ],
   "mostWonGamesHannah": [
     {
-      "game": "Ticket to Ride Map Collection: Volume 5 – United Kingdom & Pennsylvania",
+      "game": "Ticket to Ride Map Collection: Volume 6 – France & Old West",
       "plays": 2
     },
     {
-      "game": "Ticket to Ride Map Collection: Volume 6 – France & Old West",
+      "game": "Love Letter",
+      "plays": 2
+    },
+    {
+      "game": "Ticket to Ride Map Collection: Volume 5 – United Kingdom & Pennsylvania",
       "plays": 2
     }
   ]

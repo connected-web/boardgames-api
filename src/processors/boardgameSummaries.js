@@ -9,6 +9,12 @@ function daysInMonth (month, year) {
   return new Date(year, month + 1, 0).getDate()
 }
 
+function daysInYear (year) {
+  return [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].reduce((acc, month) => {
+    return acc + daysInMonth(month, year)
+  }, 0)
+}
+
 function fmn (n) {
   return Number.parseFloat(n.toFixed(4))
 }
@@ -60,10 +66,7 @@ async function createBoardGameSummaries (model) {
     }
   })
 
-  function summariseGames (games) {
-    const startDate = new Date(games.map(g => new Date(g.date).getTime()).sort((a, b) => a - b)[0])
-    const endDate = new Date(games.map(g => new Date(g.date).getTime()).sort((a, b) => b - a)[0])
-    const daysInSequence = daysBetween(startDate, endDate) + 1
+  function summariseGames ({ games, daysInSequence, startDate, endDate }) {
     const result = {
       sequenceStartDate: startDate.toISOString().substring(0, 10),
       sequenceEndDate: endDate.toISOString().substring(0, 10)
@@ -128,14 +131,14 @@ async function createBoardGameSummaries (model) {
     result.totalGamesPlayed = games.length
     result.averageGamesPlayedPerDay = fmn(result.totalGamesPlayed / daysInSequence)
     const highestDayPlayCount = dayCountList[0].games.length
-    result.mostGamesPlayedInADay = dayCountList.filter(n => n.games.length === highestDayPlayCount)
+    result.mostGamesPlayedInADay = dayCountList.filter(n => n.games.length === highestDayPlayCount).sort(sortByFeedPriority)
     const highestGamePlayCount = gameCountList[0].plays
 
     result.uniqueGamesPlayed = [...new Set(games.map(g => g.name))].sort()
     result.uniqueGamesPlayedCount = result.uniqueGamesPlayed.length
     result.uniqueGamesPlayedPercentage = fmn(result.uniqueGamesPlayedCount / result.totalGamesPlayed)
 
-    result.mostPlayedGames = gameCountList.filter(n => n.plays === highestGamePlayCount)
+    result.mostPlayedGames = gameCountList.filter(n => n.plays === highestGamePlayCount).sort(sortByFeedPriority)
     result.coOpGamesPlayedCount = coOpGames.length
     result.coOpGamesPlayedPercentage = fmn(result.coOpGamesPlayedCount / result.totalGamesPlayed)
     result.coOpGameWins = coOpGames.filter(n => {
@@ -165,30 +168,55 @@ async function createBoardGameSummaries (model) {
         game: r.word,
         plays: r.count
       }
-    })
+    }).sort(sortByFeedPriority)
     result.mostWonGamesHannah = mostFrequentWordsIn(gamesWonByHannah.map(g => g.name)).map(r => {
       return {
         game: r.word,
         plays: r.count
       }
-    })
+    }).sort(sortByFeedPriority)
 
     return result
   }
 
-  monthsInUse.forEach((month) => {
-    const games = collection.feed.filter(n => n.date.substring(0, 7) === month.dateCode)
-    const result = summariseGames(games)
+  monthsInUse.forEach((dataForMonth) => {
+    const games = collection.feed.filter(n => n.date.substring(0, 7) === dataForMonth.dateCode)
+
+    const date = new Date(dataForMonth.dateCode)
+    const month = date.getUTCMonth()
+    const year = date.getUTCFullYear()
+
+    const startDate = new Date(year, month, 1, 2, 1, 0)
+    const endDate = new Date(year, month + 1, 0, 2, 1, 0)
+
+    const result = summariseGames({
+      games,
+      daysInSequence: daysInMonth(month, year),
+      startDate,
+      endDate
+    })
     Object.entries(result).forEach(kvp => {
-      month[kvp[0]] = kvp[1]
+      dataForMonth[kvp[0]] = kvp[1]
     })
   })
 
-  yearsInUse.forEach((year) => {
-    const games = collection.feed.filter(n => n.date.substring(0, 4) === year.dateCode)
-    const result = summariseGames(games)
+  yearsInUse.forEach((dataForYear) => {
+    const games = collection.feed.filter(n => n.date.substring(0, 4) === dataForYear.dateCode)
+
+    const date = new Date(dataForYear.dateCode)
+    const year = date.getUTCFullYear()
+
+    const startDate = new Date(year, 0, 1, 2, 1, 0)
+    const endDate = new Date(year + 1, 0, 0, 2, 1, 0)
+
+    const result = summariseGames({
+      games,
+      daysInSequence: daysInYear(year),
+      startDate,
+      endDate
+    })
     Object.entries(result).forEach(kvp => {
-      year[kvp[0]] = kvp[1]
+      dataForYear[kvp[0]] = kvp[1]
     })
   })
 
@@ -200,7 +228,12 @@ async function createBoardGameSummaries (model) {
   summaries.byMonth = monthsInUse
   summaries.byYear = yearsInUse
 
-  const byAllTime = summariseGames(collection.feed, summaries.numberOfDaysCovered)
+  const byAllTime = summariseGames({
+    games: collection.feed,
+    daysInSequence: summaries.numberOfDaysCovered + 1,
+    startDate: earliestDate,
+    endDate: latestDate
+  })
 
   return {
     summaries: copy(summaries),

@@ -2,9 +2,9 @@
   "dateCode": "2020-01",
   "title": "January 2020",
   "sequenceStartDate": "2020-01-01",
-  "sequenceEndDate": "2020-01-28",
-  "daysInSequence": 28,
-  "daysWithUnplayedGames": 6,
+  "sequenceEndDate": "2020-01-31",
+  "daysInSequence": 31,
+  "daysWithUnplayedGames": 9,
   "gamesPlayedPerDay": {
     "1": 2,
     "2": 1,
@@ -33,7 +33,10 @@
     "25": 2,
     "26": 3,
     "27": 1,
-    "28": 2
+    "28": 2,
+    "29": 0,
+    "30": 0,
+    "31": 0
   },
   "gamesPlayed": [
     {
@@ -231,22 +234,22 @@
     }
   ],
   "totalGamesPlayed": 31,
-  "averageGamesPlayedPerDay": 1.1071,
+  "averageGamesPlayedPerDay": 1,
   "mostGamesPlayedInADay": [
-    {
-      "date": "2020-01-26",
-      "games": [
-        "Pandemic: Iberia",
-        "Splendor",
-        "Ticket to Ride: Poland"
-      ]
-    },
     {
       "date": "2020-01-18",
       "games": [
         "T.I.M.E Stories: A Prophecy of Dragons",
         "Ticket to Ride: First Journey",
         "Wingspan"
+      ]
+    },
+    {
+      "date": "2020-01-26",
+      "games": [
+        "Pandemic: Iberia",
+        "Splendor",
+        "Ticket to Ride: Poland"
       ]
     }
   ],
@@ -301,31 +304,7 @@
   "mostWonGames": "Hannah",
   "mostWonGamesJohn": [
     {
-      "game": "Viticulture",
-      "plays": 1
-    },
-    {
-      "game": "Cat Lady",
-      "plays": 1
-    },
-    {
-      "game": "Star Realms",
-      "plays": 1
-    },
-    {
-      "game": "Jurassic Snack",
-      "plays": 1
-    },
-    {
-      "game": "Topiary",
-      "plays": 1
-    },
-    {
-      "game": "Wingspan",
-      "plays": 1
-    },
-    {
-      "game": "Love Letter",
+      "game": "Azul",
       "plays": 1
     },
     {
@@ -333,7 +312,31 @@
       "plays": 1
     },
     {
-      "game": "Azul",
+      "game": "Love Letter",
+      "plays": 1
+    },
+    {
+      "game": "Wingspan",
+      "plays": 1
+    },
+    {
+      "game": "Topiary",
+      "plays": 1
+    },
+    {
+      "game": "Jurassic Snack",
+      "plays": 1
+    },
+    {
+      "game": "Star Realms",
+      "plays": 1
+    },
+    {
+      "game": "Cat Lady",
+      "plays": 1
+    },
+    {
+      "game": "Viticulture",
       "plays": 1
     }
   ],
