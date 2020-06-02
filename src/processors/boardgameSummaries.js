@@ -138,7 +138,7 @@ async function createBoardGameSummaries (model) {
     result.uniqueGamesPlayedCount = result.uniqueGamesPlayed.length
     result.uniqueGamesPlayedPercentage = fmn(result.uniqueGamesPlayedCount / result.totalGamesPlayed)
 
-    result.mostPlayedGames = gameCountList.filter(n => n.plays === highestGamePlayCount)
+    result.mostPlayedGames = gameCountList.filter(n => n.plays === highestGamePlayCount).sort(sortByFeedPriority)
     result.coOpGamesPlayedCount = coOpGames.length
     result.coOpGamesPlayedPercentage = fmn(result.coOpGamesPlayedCount / result.totalGamesPlayed)
     result.coOpGameWins = coOpGames.filter(n => {
@@ -168,13 +168,13 @@ async function createBoardGameSummaries (model) {
         game: r.word,
         plays: r.count
       }
-    })
+    }).sort(sortByFeedPriority)
     result.mostWonGamesHannah = mostFrequentWordsIn(gamesWonByHannah.map(g => g.name)).map(r => {
       return {
         game: r.word,
         plays: r.count
       }
-    })
+    }).sort(sortByFeedPriority)
 
     return result
   }

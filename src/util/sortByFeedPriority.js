@@ -6,7 +6,10 @@ function sortByFeedPriority (a, b) {
     return dateSort
   }
 
-  const nameSort = (a.name + '').localeCompare((b.name + ''), 'en', {sensitivity: 'base'})
+  const aname = (a.name || a.game)
+  const bname = (b.name || b.game)
+
+  const nameSort = (aname + '').localeCompare((bname + ''), 'en', {sensitivity: 'base'})
   if (nameSort !== 0) {
     return nameSort
   }
