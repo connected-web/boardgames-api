@@ -9,6 +9,12 @@ function daysInMonth (month, year) {
   return new Date(year, month + 1, 0).getDate()
 }
 
+function daysInYear (year) {
+  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].reduce((acc, month) => {
+    return acc + daysInMonth(month, year)
+  }, 0)
+}
+
 function fmn (n) {
   return Number.parseFloat(n.toFixed(4))
 }
@@ -60,10 +66,9 @@ async function createBoardGameSummaries (model) {
     }
   })
 
-  function summariseGames (games) {
+  function summariseGames ({ games, daysInSequence }) {
     const startDate = new Date(games.map(g => new Date(g.date).getTime()).sort((a, b) => a - b)[0])
     const endDate = new Date(games.map(g => new Date(g.date).getTime()).sort((a, b) => b - a)[0])
-    const daysInSequence = daysBetween(startDate, endDate) + 1
     const result = {
       sequenceStartDate: startDate.toISOString().substring(0, 10),
       sequenceEndDate: endDate.toISOString().substring(0, 10)
@@ -176,17 +181,25 @@ async function createBoardGameSummaries (model) {
     return result
   }
 
-  monthsInUse.forEach((month) => {
-    const games = collection.feed.filter(n => n.date.substring(0, 7) === month.dateCode)
-    const result = summariseGames(games)
+  monthsInUse.forEach((dataForMonth) => {
+    const games = collection.feed.filter(n => n.date.substring(0, 7) === dataForMonth.dateCode)
+
+    const date = new Date(dataForMonth.dateCode)
+    const month = date.getUTCMonth()
+
+    const result = summariseGames({ games, daysInSequence: daysInMonth(month) })
     Object.entries(result).forEach(kvp => {
       month[kvp[0]] = kvp[1]
     })
   })
 
-  yearsInUse.forEach((year) => {
-    const games = collection.feed.filter(n => n.date.substring(0, 4) === year.dateCode)
-    const result = summariseGames(games)
+  yearsInUse.forEach((dataForYear) => {
+    const games = collection.feed.filter(n => n.date.substring(0, 4) === dataForYear.dateCode)
+
+    const date = new Date(dataForYear.dateCode)
+    const year = date.getUTCFullYear()
+
+    const result = summariseGames({ games, daysInSequence: daysInYear(year) })
     Object.entries(result).forEach(kvp => {
       year[kvp[0]] = kvp[1]
     })
@@ -200,7 +213,7 @@ async function createBoardGameSummaries (model) {
   summaries.byMonth = monthsInUse
   summaries.byYear = yearsInUse
 
-  const byAllTime = summariseGames(collection.feed, summaries.numberOfDaysCovered)
+  const byAllTime = summariseGames({ games: collection.feed, daysInSequence: summaries.numberOfDaysCovered + 1 })
 
   return {
     summaries: copy(summaries),
