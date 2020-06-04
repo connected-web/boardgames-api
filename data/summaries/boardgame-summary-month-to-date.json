@@ -1,0 +1,80 @@
+{
+  "sequenceStartDate": "2020-06-01",
+  "sequenceEndDate": "2020-06-04",
+  "daysInSequence": 5,
+  "daysWithUnplayedGames": 3,
+  "gamesPlayedPerDay": {
+    "1": 0,
+    "2": 0,
+    "3": 1,
+    "4": 1,
+    "5": 0
+  },
+  "gamesPlayed": [
+    {
+      "date": "2020-06-03",
+      "name": "Pandemic Hot Zone: North America",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2020-06-04",
+      "name": "Dungeon of Mandom VIII",
+      "winner": "Hannah",
+      "coOp": "No"
+    }
+  ],
+  "totalGamesPlayed": 2,
+  "averageGamesPlayedPerDay": 0.4,
+  "mostGamesPlayedInADay": [
+    {
+      "date": "2020-06-03",
+      "games": [
+        "Pandemic Hot Zone: North America"
+      ]
+    },
+    {
+      "date": "2020-06-04",
+      "games": [
+        "Dungeon of Mandom VIII"
+      ]
+    }
+  ],
+  "uniqueGamesPlayed": [
+    "Dungeon of Mandom VIII",
+    "Pandemic Hot Zone: North America"
+  ],
+  "uniqueGamesPlayedCount": 2,
+  "uniqueGamesPlayedPercentage": 1,
+  "mostPlayedGames": [
+    {
+      "name": "Pandemic Hot Zone: North America",
+      "plays": 1
+    },
+    {
+      "name": "Dungeon of Mandom VIII",
+      "plays": 1
+    }
+  ],
+  "coOpGamesPlayedCount": 1,
+  "coOpGamesPlayedPercentage": 0.5,
+  "coOpGameWins": 1,
+  "coOpGameLoses": 0,
+  "winCountHannah": 1,
+  "winCountJohn": 0,
+  "winCountOther": 0,
+  "winCountDraw": 0,
+  "winnableGamesTotal": 1,
+  "winPercentageHannah": 1,
+  "winPercentageJohn": 0,
+  "winPercentageOther": 0,
+  "winPercentageDraw": 0,
+  "mostWonGames": "Hannah",
+  "mostWonGamesJohn": [],
+  "mostWonGamesHannah": [
+    {
+      "game": "Dungeon of Mandom VIII",
+      "plays": 1
+    }
+  ]
+}

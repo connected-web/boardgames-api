@@ -5,14 +5,23 @@ const report = (...messages) => log.push(['[Create Board Game Summaries]', ...me
 
 const monthsOfTheYear = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 
-function daysInMonth (month, year) {
-  return new Date(year, month + 1, 0).getDate()
+function currentDate () {
+  return new Date()
 }
 
-function daysInYear (year) {
-  return [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].reduce((acc, month) => {
-    return acc + daysInMonth(month, year)
-  }, 0)
+function firstDayInYear () {
+  const date = currentDate()
+  const year = date.getUTCFullYear()
+
+  return new Date(year, 0, 1, 2, 1, 0)
+}
+
+function firstDayInMonth () {
+  const date = currentDate()
+  const month = date.getUTCMonth()
+  const year = date.getUTCFullYear()
+
+  return new Date(year, month, 1, 2, 1, 0)
 }
 
 function fmn (n) {
@@ -47,7 +56,7 @@ async function createBoardGameSummaries (model) {
     const date = new Date(dateCode)
     const year = date.getUTCFullYear()
     const month = date.getUTCMonth()
-    report('Processing', dateCode, 'Y:', year, 'M:', month, 'D:', daysInMonth(month, year))
+    report('Processing', dateCode, 'Y:', year, 'M:', month)
     return {
       dateCode,
       title: [monthsOfTheYear[month], year].join(' ')
@@ -66,7 +75,8 @@ async function createBoardGameSummaries (model) {
     }
   })
 
-  function summariseGames ({ games, daysInSequence, startDate, endDate }) {
+  function summariseGames ({ games, startDate, endDate }) {
+    const daysInSequence = daysBetween(startDate, endDate) + 1
     const result = {
       sequenceStartDate: startDate.toISOString().substring(0, 10),
       sequenceEndDate: endDate.toISOString().substring(0, 10)
@@ -130,9 +140,9 @@ async function createBoardGameSummaries (model) {
 
     result.totalGamesPlayed = games.length
     result.averageGamesPlayedPerDay = fmn(result.totalGamesPlayed / daysInSequence)
-    const highestDayPlayCount = dayCountList[0].games.length
+    const highestDayPlayCount = dayCountList.length > 0 ? dayCountList[0].games.length : 0
     result.mostGamesPlayedInADay = dayCountList.filter(n => n.games.length === highestDayPlayCount).sort(sortByFeedPriority)
-    const highestGamePlayCount = gameCountList[0].plays
+    const highestGamePlayCount = gameCountList.length > 0 ? gameCountList[0].plays : 0
 
     result.uniqueGamesPlayed = [...new Set(games.map(g => g.name))].sort()
     result.uniqueGamesPlayedCount = result.uniqueGamesPlayed.length
@@ -191,7 +201,6 @@ async function createBoardGameSummaries (model) {
 
     const result = summariseGames({
       games,
-      daysInSequence: daysInMonth(month, year),
       startDate,
       endDate
     })
@@ -211,7 +220,6 @@ async function createBoardGameSummaries (model) {
 
     const result = summariseGames({
       games,
-      daysInSequence: daysInYear(year),
       startDate,
       endDate
     })
@@ -228,9 +236,25 @@ async function createBoardGameSummaries (model) {
   summaries.byMonth = monthsInUse
   summaries.byYear = yearsInUse
 
+  const currentYear = currentDate().toISOString().substring(0, 4)
+  const gamesForYearToDate = collection.feed.filter(n => n.date.substring(0, 4) === currentYear)
+  const yearToDate = summariseGames({
+    games: gamesForYearToDate,
+    startDate: firstDayInYear(),
+    endDate: currentDate()
+  })
+
+  const currentMonth = currentDate().toISOString().substring(0, 7)
+  const gamesForMonthToDate = collection.feed.filter(n => n.date.substring(0, 7) === currentMonth)
+  report('Games For Month To Date', gamesForMonthToDate.length, currentMonth)
+  const monthToDate = summariseGames({
+    games: gamesForMonthToDate,
+    startDate: firstDayInMonth(),
+    endDate: currentDate()
+  })
+
   const byAllTime = summariseGames({
     games: collection.feed,
-    daysInSequence: summaries.numberOfDaysCovered + 1,
     startDate: earliestDate,
     endDate: latestDate
   })
@@ -239,6 +263,8 @@ async function createBoardGameSummaries (model) {
     summaries: copy(summaries),
     monthsInUse: copy(monthsInUse),
     yearsInUse: copy(yearsInUse),
+    monthToDate: copy(monthToDate),
+    yearToDate: copy(yearToDate),
     byAllTime: copy(byAllTime),
     log
   }
