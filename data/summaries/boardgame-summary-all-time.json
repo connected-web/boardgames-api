@@ -1,8 +1,8 @@
 {
   "sequenceStartDate": "2018-01-01",
-  "sequenceEndDate": "2020-05-31",
-  "daysInSequence": 882,
-  "daysWithUnplayedGames": 417,
+  "sequenceEndDate": "2020-06-04",
+  "daysInSequence": 886,
+  "daysWithUnplayedGames": 419,
   "gamesPlayedPerDay": {
     "1": 2,
     "2": 1,
@@ -885,7 +885,11 @@
     "879": 1,
     "880": 1,
     "881": 1,
-    "882": 6
+    "882": 6,
+    "883": 0,
+    "884": 0,
+    "885": 1,
+    "886": 1
   },
   "gamesPlayed": [
     {
@@ -5019,10 +5023,22 @@
       "winner": "John",
       "coOp": "No",
       "note": "4P"
+    },
+    {
+      "date": "2020-06-03",
+      "name": "Pandemic Hot Zone: North America",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2020-06-04",
+      "name": "Dungeon of Mandom VIII",
+      "winner": "Hannah",
+      "coOp": "No"
     }
   ],
-  "totalGamesPlayed": 668,
-  "averageGamesPlayedPerDay": 0.7574,
+  "totalGamesPlayed": 670,
+  "averageGamesPlayedPerDay": 0.7562,
   "mostGamesPlayedInADay": [
     {
       "date": "2018-06-02",
@@ -5234,26 +5250,26 @@
     "Yam Yam"
   ],
   "uniqueGamesPlayedCount": 194,
-  "uniqueGamesPlayedPercentage": 0.2904,
+  "uniqueGamesPlayedPercentage": 0.2896,
   "mostPlayedGames": [
     {
       "name": "Love Letter",
       "plays": 33
     }
   ],
-  "coOpGamesPlayedCount": 180,
-  "coOpGamesPlayedPercentage": 0.2695,
-  "coOpGameWins": 102,
+  "coOpGamesPlayedCount": 181,
+  "coOpGamesPlayedPercentage": 0.2701,
+  "coOpGameWins": 103,
   "coOpGameLoses": 78,
-  "winCountHannah": 235,
+  "winCountHannah": 236,
   "winCountJohn": 220,
   "winCountOther": 20,
   "winCountDraw": 17,
-  "winnableGamesTotal": 492,
-  "winPercentageHannah": 0.4776,
-  "winPercentageJohn": 0.4472,
-  "winPercentageOther": 0.0407,
-  "winPercentageDraw": 0.0346,
+  "winnableGamesTotal": 493,
+  "winPercentageHannah": 0.4787,
+  "winPercentageJohn": 0.4462,
+  "winPercentageOther": 0.0406,
+  "winPercentageDraw": 0.0345,
   "mostWonGames": "Hannah",
   "mostWonGamesJohn": [
     {
