@@ -7,8 +7,8 @@ async function createBoardGameList (model) {
   const boardGameIndex = model.calisaurus.index
 
   const bggBoardGameNames = bggCollection.items[0].item.map(item => item.name[0]._text[0]).filter(n => n)
-  const caliBoardGameNames = Array.from(new Set(caliCollection.map(item => item.name))).filter(n => n)
-
+  const caliBoardGameNames = Array.from(new Set(caliCollection.map(item => item.game))).filter(n => n)
+  
   const overlap = bggBoardGameNames.filter(n => caliBoardGameNames.includes(n)).sort()
   const bggOnly = bggBoardGameNames.filter(n => !caliBoardGameNames.includes(n)).sort()
   const caliOnly = caliBoardGameNames.filter(n => !bggBoardGameNames.includes(n)).sort()
@@ -48,6 +48,8 @@ async function createBoardGameList (model) {
   model.calisaurus.boardgameGroups = boardgameGroups
   model.calisaurus.boardgameNames = boardGameList.map(n => n.name).sort()
   model.calisaurus.boardgameList = boardGameList
+
+  log.forEach(n => console.log(n))
 
   return {
     boardgameGroups: model.calisaurus.boardgameGroups,
