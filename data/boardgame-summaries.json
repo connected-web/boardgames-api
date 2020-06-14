@@ -6502,21 +6502,21 @@
       "sequenceStartDate": "2020-06-01",
       "sequenceEndDate": "2020-06-30",
       "daysInSequence": 30,
-      "daysWithUnplayedGames": 28,
+      "daysWithUnplayedGames": 22,
       "gamesPlayedPerDay": {
         "1": 0,
         "2": 0,
         "3": 1,
         "4": 1,
         "5": 0,
-        "6": 0,
-        "7": 0,
-        "8": 0,
-        "9": 0,
-        "10": 0,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 2,
         "11": 0,
         "12": 0,
-        "13": 0,
+        "13": 1,
         "14": 0,
         "15": 0,
         "16": 0,
@@ -6547,56 +6547,115 @@
           "name": "Dungeon of Mandom VIII",
           "winner": "Hannah",
           "coOp": "No"
-        }
-      ],
-      "totalGamesPlayed": 2,
-      "averageGamesPlayedPerDay": 0.0667,
-      "mostGamesPlayedInADay": [
-        {
-          "date": "2020-06-03",
-          "games": [
-            "Pandemic Hot Zone: North America"
-          ]
         },
         {
-          "date": "2020-06-04",
+          "date": "2020-06-06",
+          "name": "Lords of Waterdeep",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-06-07",
+          "name": "Ticket to Ride Map Collection: Volume 6 – France & Old West",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-06-08",
+          "name": "Corsairs of Valeria",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-06-09",
+          "name": "Tricks and the Phantom",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-06-10",
+          "name": "Pandemic Hot Zone: North America",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2020-06-10",
+          "name": "The Mind Extreme",
+          "coOp": "Yes",
+          "coOpOutcome": "Lost"
+        },
+        {
+          "date": "2020-06-13",
+          "name": "Fafnir",
+          "winner": "John"
+        }
+      ],
+      "totalGamesPlayed": 9,
+      "averageGamesPlayedPerDay": 0.3,
+      "mostGamesPlayedInADay": [
+        {
+          "date": "2020-06-10",
           "games": [
-            "Dungeon of Mandom VIII"
+            "Pandemic Hot Zone: North America",
+            "The Mind Extreme"
           ]
         }
       ],
       "uniqueGamesPlayed": [
+        "Corsairs of Valeria",
         "Dungeon of Mandom VIII",
-        "Pandemic Hot Zone: North America"
+        "Fafnir",
+        "Lords of Waterdeep",
+        "Pandemic Hot Zone: North America",
+        "The Mind Extreme",
+        "Ticket to Ride Map Collection: Volume 6 – France & Old West",
+        "Tricks and the Phantom"
       ],
-      "uniqueGamesPlayedCount": 2,
-      "uniqueGamesPlayedPercentage": 1,
+      "uniqueGamesPlayedCount": 8,
+      "uniqueGamesPlayedPercentage": 0.8889,
       "mostPlayedGames": [
         {
           "name": "Pandemic Hot Zone: North America",
+          "plays": 2
+        }
+      ],
+      "coOpGamesPlayedCount": 3,
+      "coOpGamesPlayedPercentage": 0.3333,
+      "coOpGameWins": 2,
+      "coOpGameLoses": 1,
+      "winCountHannah": 3,
+      "winCountJohn": 3,
+      "winCountOther": 0,
+      "winCountDraw": 0,
+      "winnableGamesTotal": 6,
+      "winPercentageHannah": 0.5,
+      "winPercentageJohn": 0.5,
+      "winPercentageOther": 0,
+      "winPercentageDraw": 0,
+      "mostWonGames": "Draw",
+      "mostWonGamesJohn": [
+        {
+          "game": "Fafnir",
           "plays": 1
         },
         {
-          "name": "Dungeon of Mandom VIII",
+          "game": "Corsairs of Valeria",
+          "plays": 1
+        },
+        {
+          "game": "Lords of Waterdeep",
           "plays": 1
         }
       ],
-      "coOpGamesPlayedCount": 1,
-      "coOpGamesPlayedPercentage": 0.5,
-      "coOpGameWins": 1,
-      "coOpGameLoses": 0,
-      "winCountHannah": 1,
-      "winCountJohn": 0,
-      "winCountOther": 0,
-      "winCountDraw": 0,
-      "winnableGamesTotal": 1,
-      "winPercentageHannah": 1,
-      "winPercentageJohn": 0,
-      "winPercentageOther": 0,
-      "winPercentageDraw": 0,
-      "mostWonGames": "Hannah",
-      "mostWonGamesJohn": [],
       "mostWonGamesHannah": [
+        {
+          "game": "Tricks and the Phantom",
+          "plays": 1
+        },
+        {
+          "game": "Ticket to Ride Map Collection: Volume 6 – France & Old West",
+          "plays": 1
+        },
         {
           "game": "Dungeon of Mandom VIII",
           "plays": 1
@@ -10347,7 +10406,7 @@
       "sequenceStartDate": "2020-01-01",
       "sequenceEndDate": "2020-12-31",
       "daysInSequence": 366,
-      "daysWithUnplayedGames": 264,
+      "daysWithUnplayedGames": 258,
       "gamesPlayedPerDay": {
         "1": 2,
         "2": 1,
@@ -10506,14 +10565,14 @@
         "155": 1,
         "156": 1,
         "157": 0,
-        "158": 0,
-        "159": 0,
-        "160": 0,
-        "161": 0,
-        "162": 0,
+        "158": 1,
+        "159": 1,
+        "160": 1,
+        "161": 1,
+        "162": 2,
         "163": 0,
         "164": 0,
-        "165": 0,
+        "165": 1,
         "166": 0,
         "167": 0,
         "168": 0,
@@ -11711,10 +11770,51 @@
           "name": "Dungeon of Mandom VIII",
           "winner": "Hannah",
           "coOp": "No"
+        },
+        {
+          "date": "2020-06-06",
+          "name": "Lords of Waterdeep",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-06-07",
+          "name": "Ticket to Ride Map Collection: Volume 6 – France & Old West",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-06-08",
+          "name": "Corsairs of Valeria",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-06-09",
+          "name": "Tricks and the Phantom",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-06-10",
+          "name": "Pandemic Hot Zone: North America",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2020-06-10",
+          "name": "The Mind Extreme",
+          "coOp": "Yes",
+          "coOpOutcome": "Lost"
+        },
+        {
+          "date": "2020-06-13",
+          "name": "Fafnir",
+          "winner": "John"
         }
       ],
-      "totalGamesPlayed": 161,
-      "averageGamesPlayedPerDay": 0.4399,
+      "totalGamesPlayed": 168,
+      "averageGamesPlayedPerDay": 0.459,
       "mostGamesPlayedInADay": [
         {
           "date": "2020-05-31",
@@ -11818,28 +11918,32 @@
         "Yam Yam"
       ],
       "uniqueGamesPlayedCount": 87,
-      "uniqueGamesPlayedPercentage": 0.5404,
+      "uniqueGamesPlayedPercentage": 0.5179,
       "mostPlayedGames": [
         {
           "name": "Love Letter",
           "plays": 12
         }
       ],
-      "coOpGamesPlayedCount": 33,
-      "coOpGamesPlayedPercentage": 0.205,
-      "coOpGameWins": 20,
-      "coOpGameLoses": 13,
-      "winCountHannah": 67,
-      "winCountJohn": 57,
+      "coOpGamesPlayedCount": 35,
+      "coOpGamesPlayedPercentage": 0.2083,
+      "coOpGameWins": 21,
+      "coOpGameLoses": 14,
+      "winCountHannah": 69,
+      "winCountJohn": 60,
       "winCountOther": 3,
       "winCountDraw": 2,
-      "winnableGamesTotal": 129,
-      "winPercentageHannah": 0.5194,
-      "winPercentageJohn": 0.4419,
-      "winPercentageOther": 0.0233,
-      "winPercentageDraw": 0.0155,
+      "winnableGamesTotal": 134,
+      "winPercentageHannah": 0.5149,
+      "winPercentageJohn": 0.4478,
+      "winPercentageOther": 0.0224,
+      "winPercentageDraw": 0.0149,
       "mostWonGames": "Hannah",
       "mostWonGamesJohn": [
+        {
+          "game": "Corsairs of Valeria",
+          "plays": 4
+        },
         {
           "game": "Scythe",
           "plays": 4
@@ -11854,6 +11958,6 @@
     }
   ],
   "earliestDate": "2018-01-01",
-  "latestDate": "2020-06-04",
-  "numberOfDaysCovered": 885
+  "latestDate": "2020-06-13",
+  "numberOfDaysCovered": 894
 }

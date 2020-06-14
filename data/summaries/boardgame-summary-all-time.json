@@ -1,8 +1,8 @@
 {
   "sequenceStartDate": "2018-01-01",
-  "sequenceEndDate": "2020-06-04",
-  "daysInSequence": 886,
-  "daysWithUnplayedGames": 419,
+  "sequenceEndDate": "2020-06-13",
+  "daysInSequence": 895,
+  "daysWithUnplayedGames": 422,
   "gamesPlayedPerDay": {
     "1": 2,
     "2": 1,
@@ -889,7 +889,16 @@
     "883": 0,
     "884": 0,
     "885": 1,
-    "886": 1
+    "886": 1,
+    "887": 0,
+    "888": 1,
+    "889": 1,
+    "890": 1,
+    "891": 1,
+    "892": 2,
+    "893": 0,
+    "894": 0,
+    "895": 1
   },
   "gamesPlayed": [
     {
@@ -5035,10 +5044,51 @@
       "name": "Dungeon of Mandom VIII",
       "winner": "Hannah",
       "coOp": "No"
+    },
+    {
+      "date": "2020-06-06",
+      "name": "Lords of Waterdeep",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-06-07",
+      "name": "Ticket to Ride Map Collection: Volume 6 – France & Old West",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-06-08",
+      "name": "Corsairs of Valeria",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-06-09",
+      "name": "Tricks and the Phantom",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-06-10",
+      "name": "Pandemic Hot Zone: North America",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2020-06-10",
+      "name": "The Mind Extreme",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
+    },
+    {
+      "date": "2020-06-13",
+      "name": "Fafnir",
+      "winner": "John"
     }
   ],
-  "totalGamesPlayed": 670,
-  "averageGamesPlayedPerDay": 0.7562,
+  "totalGamesPlayed": 677,
+  "averageGamesPlayedPerDay": 0.7564,
   "mostGamesPlayedInADay": [
     {
       "date": "2018-06-02",
@@ -5250,26 +5300,26 @@
     "Yam Yam"
   ],
   "uniqueGamesPlayedCount": 194,
-  "uniqueGamesPlayedPercentage": 0.2896,
+  "uniqueGamesPlayedPercentage": 0.2866,
   "mostPlayedGames": [
     {
       "name": "Love Letter",
       "plays": 33
     }
   ],
-  "coOpGamesPlayedCount": 181,
-  "coOpGamesPlayedPercentage": 0.2701,
-  "coOpGameWins": 103,
-  "coOpGameLoses": 78,
-  "winCountHannah": 236,
-  "winCountJohn": 220,
+  "coOpGamesPlayedCount": 183,
+  "coOpGamesPlayedPercentage": 0.2703,
+  "coOpGameWins": 104,
+  "coOpGameLoses": 79,
+  "winCountHannah": 238,
+  "winCountJohn": 223,
   "winCountOther": 20,
   "winCountDraw": 17,
-  "winnableGamesTotal": 493,
-  "winPercentageHannah": 0.4787,
-  "winPercentageJohn": 0.4462,
-  "winPercentageOther": 0.0406,
-  "winPercentageDraw": 0.0345,
+  "winnableGamesTotal": 498,
+  "winPercentageHannah": 0.4779,
+  "winPercentageJohn": 0.4478,
+  "winPercentageOther": 0.0402,
+  "winPercentageDraw": 0.0341,
   "mostWonGames": "Hannah",
   "mostWonGamesJohn": [
     {
