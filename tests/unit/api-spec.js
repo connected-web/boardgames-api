@@ -223,9 +223,9 @@ describe('Boardgames API', () => {
         }
       }
       const examplePlaystat = {
-        'winner': 'John',
-        'date': 43101,
-        'name': 'Love Letter'
+        winner: 'John',
+        date: 43101,
+        game: 'Love Letter'
       }
       model.calisaurus.playstats = [examplePlaystat]
       model.boardGameGeek.collection = model.defaultBoardGameGeekCollection()
