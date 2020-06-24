@@ -33,7 +33,7 @@ function daysBetween (firstDate, secondDate) {
   const firstTime = firstDate.getTime()
   const secondTime = secondDate.getTime()
   const millisecondsBetween = Math.abs(firstTime - secondTime)
-  return Math.round(millisecondsBetween / oneDayInMilliseconds)
+  return Math.floor(millisecondsBetween / oneDayInMilliseconds)
 }
 
 function copy (data) {
