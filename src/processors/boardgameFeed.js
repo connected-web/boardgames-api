@@ -14,7 +14,7 @@ const mutateRemoveEmpty = (obj) => {
 
 async function createFeed (model) {
   const boardGameIndex = model.calisaurus.index
-  let feed = []
+  const feed = []
 
   report(`Create feed from ${Object.keys(boardGameIndex).length} items`)
   Object.keys(boardGameIndex).forEach(boardGameApiId => {

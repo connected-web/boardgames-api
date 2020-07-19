@@ -19,7 +19,7 @@ async function start () {
 
   report('Cleaning out the /data/index/ path')
   await clean(datapath('/index'))
-  await writeJson('Board Game API IDs', 'boardgame-api-ids.json', {boardGameApiIds}, report)
+  await writeJson('Board Game API IDs', 'boardgame-api-ids.json', { boardGameApiIds }, report)
 
   const entries = Object.entries(calisaurus.index)
   await Promise.all(entries.map(async ([boardGameApiId, entry]) => {

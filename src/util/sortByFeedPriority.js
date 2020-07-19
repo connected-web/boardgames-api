@@ -9,17 +9,17 @@ function sortByFeedPriority (a, b) {
   const aname = (a.name || a.game)
   const bname = (b.name || b.game)
 
-  const nameSort = (aname + '').localeCompare((bname + ''), 'en', {sensitivity: 'base'})
+  const nameSort = (aname + '').localeCompare((bname + ''), 'en', { sensitivity: 'base' })
   if (nameSort !== 0) {
     return nameSort
   }
 
-  const winnerSort = (a.winner + '').localeCompare((b.winner + ''), 'en', {sensitivity: 'base'})
+  const winnerSort = (a.winner + '').localeCompare((b.winner + ''), 'en', { sensitivity: 'base' })
   if (winnerSort !== 0) {
     return winnerSort
   }
 
-  const coOpOutcomeSort = (a.coOpOutcome + '').localeCompare((b.coOpOutcome + ''), 'en', {sensitivity: 'base'})
+  const coOpOutcomeSort = (a.coOpOutcome + '').localeCompare((b.coOpOutcome + ''), 'en', { sensitivity: 'base' })
   if (coOpOutcomeSort !== 0) {
     return coOpOutcomeSort
   }

@@ -11,8 +11,8 @@ $.getJSON('/api/endpoints', function (data) {
   $('content:first-of-type').append($content)
 
   function renderEndpoint (key, endpoint) {
-    let $endpoint = $('<endpoint/>')
-    let $sample = $('<code class="json sample" />')
+    const $endpoint = $('<endpoint/>')
+    const $sample = $('<code class="json sample" />')
 
     $endpoint.append($('<heading><a href="' + endpoint.sample + '">' + endpoint.method + ' ' + endpoint.sample + '</a></heading>'))
     $endpoint.append($('<p>' + endpoint.description + '</p>'))

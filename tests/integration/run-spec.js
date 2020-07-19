@@ -21,7 +21,7 @@ const expected = `[Board Game API Run] Available scripts to run:
 
 describe('Board Game API Run', async () => {
   it('should list all available commands', async () => {
-    const actual = await run(`node run`, basepath(''))
+    const actual = await run('node run', basepath(''))
     expect(actual.stdout).to.deep.equal(expected)
   })
 })
