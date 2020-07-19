@@ -20,9 +20,6 @@ jobs:
     - name: Install npm dependencies
       run: npm install
 
-    - name: Setup additional dependencies
-      run: npm run setup -s
-
     - name: Run build steps
       run: npm build -s
 
