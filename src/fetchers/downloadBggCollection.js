@@ -8,7 +8,7 @@ async function downloadCollection ({ fetch }, username) {
   report('From:', collectionUrl)
   try {
     const response = await fetch(collectionUrl)
-    const collection = await convert.xml2js(response, {compact: true, alwaysArray: true, ignoreDeclaration: true, nativeType: true})
+    const collection = await convert.xml2js(response, { compact: true, alwaysArray: true, ignoreDeclaration: true, nativeType: true })
     return collection
   } catch (ex) {
     report('Error fetching data:', ex, ex.stack)

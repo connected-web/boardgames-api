@@ -22,12 +22,12 @@ async function start () {
   }
 
   async function writeMonthToDate (summary) {
-    const filename = `summaries/boardgame-summary-month-to-date.json`
+    const filename = 'summaries/boardgame-summary-month-to-date.json'
     return writeJson('Board Game Summary for Month to Date', filename, summary)
   }
 
   async function writeYearToDate (summary) {
-    const filename = `summaries/boardgame-summary-year-to-date.json`
+    const filename = 'summaries/boardgame-summary-year-to-date.json'
     return writeJson('Board Game Summary for Year to Date', filename, summary)
   }
 

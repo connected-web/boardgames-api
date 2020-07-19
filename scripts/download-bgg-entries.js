@@ -24,7 +24,7 @@ function start () {
     try {
       const response = await fetch(apiUrl)
       // console.log('[Raw Fetch]', response)
-      const collection = convert.xml2js(response, {compact: true, alwaysArray: true, ignoreDeclaration: true, nativeType: true})
+      const collection = convert.xml2js(response, { compact: true, alwaysArray: true, ignoreDeclaration: true, nativeType: true })
       // console.log('[JSON]', JSON.stringify(collection, null, 2))
       const body = JSON.stringify(collection, null, 2)
       if (body.length === 147 || body.match(/Rate limit exceeded/)) {
@@ -53,10 +53,10 @@ function start () {
     const rateDelayInMs = 100 // ms
     try {
       if (work.length > 0) {
-        let items = work.splice(0, itemsPerBatch)
+        const items = work.splice(0, itemsPerBatch)
         report('Fetching next entry:', items.length, 'items;', work.length, 'remaining;', Math.min(items.length, rateLimitFailureCount), 'rate limit retries waiting.')
-        let activeWork = items.map(n => n())
-        let block = await Promise.all(activeWork)
+        const activeWork = items.map(n => n())
+        const block = await Promise.all(activeWork)
         results.concat(block)
         setTimeout(doWork, delayPerBatch + (rateLimitFailureCount * rateDelayInMs), work)
       } else {

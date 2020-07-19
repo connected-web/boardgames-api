@@ -45,12 +45,12 @@ describe('Boardgames API', () => {
   describe('Download Cali Playstats', () => {
     it('should return a list of playstats from gsheets', async () => {
       const firstGameInJanuary = {
-        'coOp': 'Yes',
-        'coOpOutcome': 'Won',
-        'date': 43101,
-        'game': 'Harry Potter: Hogwarts Battle',
-        'notes': 'Game 1',
-        'tag': 'Deckbuilder'
+        coOp: 'Yes',
+        coOpOutcome: 'Won',
+        date: 43101,
+        game: 'Harry Potter: Hogwarts Battle',
+        notes: 'Game 1',
+        tag: 'Deckbuilder'
       }
       model.fetchers.gsjson = () => {
         return [firstGameInJanuary]
@@ -83,11 +83,12 @@ describe('Boardgames API', () => {
 
   describe('Download Board Game Geek Collection', () => {
     it('should return all the games entered in board game geek under our account', async () => {
-      const expectedXMLtoJSON = { item: [{
-        '_attributes': {
-          'some': 'Game Data'
-        }
-      }]
+      const expectedXMLtoJSON = {
+        item: [{
+          _attributes: {
+            some: 'Game Data'
+          }
+        }]
       }
       model.fetchers.fetch = () => {
         return `
@@ -102,12 +103,16 @@ describe('Boardgames API', () => {
 
   describe('Create Board Game Geek Index', () => {
     it('should reduce the board game geek collection into an index', async () => {
-      model.boardGameGeek.collection = { items: [{ item: [
-        {
-          name: [{ _text: ['Love Letter'] }],
-          _attributes: { objectid: '51253142' }
-        }
-      ]}] }
+      model.boardGameGeek.collection = {
+        items: [{
+          item: [
+            {
+              name: [{ _text: ['Love Letter'] }],
+              _attributes: { objectid: '51253142' }
+            }
+          ]
+        }]
+      }
       const actual = await api.bggIndex()
       expect(actual.index).to.deep.equal({
         'Love Letter': { boardGameGeekGameId: '51253142' }
@@ -150,56 +155,56 @@ describe('Boardgames API', () => {
 
     it('should build a board game index out of all available information', async () => {
       const examplePlaystat = {
-        'coOp': 'Yes',
-        'coOpOutcome': 'Won',
-        'date': 43101,
-        'game': 'Harry Potter: Hogwarts Battle',
-        'notes': 'Game 1',
-        'tag': 'Deckbuilder'
+        coOp: 'Yes',
+        coOpOutcome: 'Won',
+        date: 43101,
+        game: 'Harry Potter: Hogwarts Battle',
+        notes: 'Game 1',
+        tag: 'Deckbuilder'
       }
       model.calisaurus.playstats = [examplePlaystat, examplePlaystat, examplePlaystat]
       const actual = await api.boardgameIndex()
       const expected = {
         'harry-potter-hogwarts-battle': {
-          'boardGameApiId': 'harry-potter-hogwarts-battle',
-          'playRecords': [
+          boardGameApiId: 'harry-potter-hogwarts-battle',
+          playRecords: [
             {
-              'date': '2018-01-01',
-              'coOpOutcome': 'Won',
-              'coOp': 'Yes',
-              'notes': 'Game 1'
+              date: '2018-01-01',
+              coOpOutcome: 'Won',
+              coOp: 'Yes',
+              notes: 'Game 1'
             },
             {
-              'date': '2018-01-01',
-              'coOpOutcome': 'Won',
-              'coOp': 'Yes',
-              'notes': 'Game 1'
+              date: '2018-01-01',
+              coOpOutcome: 'Won',
+              coOp: 'Yes',
+              notes: 'Game 1'
             },
             {
-              'date': '2018-01-01',
-              'coOpOutcome': 'Won',
-              'coOp': 'Yes',
-              'notes': 'Game 1'
+              date: '2018-01-01',
+              coOpOutcome: 'Won',
+              coOp: 'Yes',
+              notes: 'Game 1'
             }
           ],
-          'name': 'Harry Potter: Hogwarts Battle',
-          'totalGamesPlayed': 3,
-          'coOpGamesPlayedCount': 3,
-          'coOpGamesPlayedPercentage': 1,
-          'coOpGameWins': 3,
-          'coOpGameLoses': 0,
-          'coOpWinRate': 1,
-          'coOpLossRate': 0,
-          'winCountHannah': 0,
-          'winCountJohn': 0,
-          'winCountOther': 0,
-          'winCountDraw': 0,
-          'winnableGamesTotal': 0,
-          'winPercentageHannah': 0,
-          'winPercentageJohn': 0,
-          'winPercentageOther': 0,
-          'winPercentageDraw': 0,
-          'mostWonGames': 'Draw'
+          name: 'Harry Potter: Hogwarts Battle',
+          totalGamesPlayed: 3,
+          coOpGamesPlayedCount: 3,
+          coOpGamesPlayedPercentage: 1,
+          coOpGameWins: 3,
+          coOpGameLoses: 0,
+          coOpWinRate: 1,
+          coOpLossRate: 0,
+          winCountHannah: 0,
+          winCountJohn: 0,
+          winCountOther: 0,
+          winCountDraw: 0,
+          winnableGamesTotal: 0,
+          winPercentageHannah: 0,
+          winPercentageJohn: 0,
+          winPercentageOther: 0,
+          winPercentageDraw: 0,
+          mostWonGames: 'Draw'
         }
       }
       expect(actual.index).to.deep.equal(expected)
@@ -234,12 +239,12 @@ describe('Boardgames API', () => {
 
     it('should create a list of board games grouped by source', async () => {
       expect(actual.boardgameGroups).to.deep.equal({
-        'bggOnly': [],
-        'boardGameGeek': [],
-        'cali': ['Love Letter'],
-        'caliOnly': ['Love Letter'],
-        'overlap': [],
-        'stats': {
+        bggOnly: [],
+        boardGameGeek: [],
+        cali: ['Love Letter'],
+        caliOnly: ['Love Letter'],
+        overlap: [],
+        stats: {
           'Board Game Geek only games': 0,
           'Cali only games': 1,
           'Number of Board Game Geek board games': 0,

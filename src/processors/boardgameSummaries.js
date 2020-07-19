@@ -25,7 +25,7 @@ function firstDayInMonth () {
 }
 
 function fmn (n) {
-  return Number.parseFloat(n.toFixed(4))
+  return Number.parseFloat(n.toFixed(4)) || 0
 }
 
 function daysBetween (firstDate, secondDate) {
@@ -152,7 +152,7 @@ async function createBoardGameSummaries (model) {
     result.coOpGamesPlayedCount = coOpGames.length
     result.coOpGamesPlayedPercentage = fmn(result.coOpGamesPlayedCount / result.totalGamesPlayed)
     result.coOpGameWins = coOpGames.filter(n => {
-      let outcome = (n.coOpOutcome + '').toLowerCase().trim()
+      const outcome = (n.coOpOutcome + '').toLowerCase().trim()
       return outcome === 'win' || outcome === 'won' || false
     }).length
     result.coOpGameLoses = result.coOpGamesPlayedCount - result.coOpGameWins
