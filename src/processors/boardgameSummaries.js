@@ -25,7 +25,7 @@ function firstDayInMonth () {
 }
 
 function fmn (n) {
-  return Number.parseFloat(n.toFixed(4))
+  return Number.parseFloat(n.toFixed(4)) || 0
 }
 
 function daysBetween (firstDate, secondDate) {
