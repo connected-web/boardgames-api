@@ -6,7 +6,13 @@ async function createBoardGameList (model) {
   const caliCollection = model.calisaurus.playstats
   const boardGameIndex = model.calisaurus.index
 
-  const bggBoardGameNames = bggCollection.items[0].item.map(item => item.name[0]._text[0]).filter(n => n)
+  const bggItems = (bggCollection && bggCollection.items && bggCollection.items[0] && bggCollection.items[0].item) || []
+
+  if (!bggItems.length) {
+    report('Unable to find board game names from BGG', JSON.stringify(bggCollection, null, 2))
+  }
+
+  const bggBoardGameNames = bggItems.map(item => item.name[0]._text[0]).filter(n => n)
   const caliBoardGameNames = Array.from(new Set(caliCollection.map(item => item.game))).filter(n => n)
 
   const overlap = bggBoardGameNames.filter(n => caliBoardGameNames.includes(n)).sort()
