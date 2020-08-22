@@ -19,16 +19,21 @@
       "date": "2020-05-23",
       "winner": "John",
       "coOp": "No"
+    },
+    {
+      "date": "2020-08-09",
+      "coOpOutcome": "Won",
+      "coOp": "Yes"
     }
   ],
   "name": "Carcassonne",
-  "totalGamesPlayed": 4,
-  "coOpGamesPlayedCount": 2,
-  "coOpGamesPlayedPercentage": 0.5,
-  "coOpGameWins": 0,
+  "totalGamesPlayed": 5,
+  "coOpGamesPlayedCount": 3,
+  "coOpGamesPlayedPercentage": 0.6,
+  "coOpGameWins": 1,
   "coOpGameLoses": 2,
-  "coOpWinRate": 0,
-  "coOpLossRate": 1,
+  "coOpWinRate": 0.3333,
+  "coOpLossRate": 0.6667,
   "winCountHannah": 0,
   "winCountJohn": 2,
   "winCountOther": 0,

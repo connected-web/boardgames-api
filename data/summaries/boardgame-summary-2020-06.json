@@ -4,7 +4,7 @@
   "sequenceStartDate": "2020-06-01",
   "sequenceEndDate": "2020-06-30",
   "daysInSequence": 30,
-  "daysWithUnplayedGames": 22,
+  "daysWithUnplayedGames": 10,
   "gamesPlayedPerDay": {
     "1": 0,
     "2": 1,
@@ -18,23 +18,23 @@
     "10": 0,
     "11": 0,
     "12": 1,
-    "13": 0,
-    "14": 0,
+    "13": 3,
+    "14": 1,
     "15": 0,
-    "16": 0,
-    "17": 0,
-    "18": 0,
-    "19": 0,
-    "20": 0,
+    "16": 2,
+    "17": 2,
+    "18": 2,
+    "19": 1,
+    "20": 1,
     "21": 0,
-    "22": 0,
-    "23": 0,
+    "22": 1,
+    "23": 2,
     "24": 0,
     "25": 0,
     "26": 0,
-    "27": 0,
-    "28": 0,
-    "29": 0,
+    "27": 2,
+    "28": 1,
+    "29": 3,
     "30": 0
   },
   "gamesPlayed": [
@@ -89,53 +89,228 @@
     {
       "date": "2020-06-13",
       "name": "Fafnir",
-      "winner": "John"
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-06-14",
+      "name": "Doki Doki Beach Volleyball",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-06-14",
+      "name": "Ticket to Ride: London",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-06-14",
+      "name": "Ticket to Ride: New York",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-06-15",
+      "name": "Love Letter",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-06-17",
+      "name": "Love Letter",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-06-17",
+      "name": "Ticket to Ride: Nordic Countries",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-06-18",
+      "name": "Mint Works",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-06-18",
+      "name": "Tanto Cuore: Expanding the House",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-06-19",
+      "name": "Jurassic Snack",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-06-19",
+      "name": "Star Realms: Frontiers",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-06-20",
+      "name": "Star Realms: Frontiers",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2020-06-21",
+      "name": "Star Realms: Frontiers",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2020-06-23",
+      "name": "Topiary",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-06-24",
+      "name": "Tanto Cuore: Oktoberfest",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-06-24",
+      "name": "Ticket to Ride: Europe",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-06-28",
+      "name": "Pandemic Hot Zone: North America",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2020-06-28",
+      "name": "Ticket to Ride: Poland",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-06-29",
+      "name": "Valeria: Card Kingdoms",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-06-30",
+      "name": "Corsairs of Valeria",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-06-30",
+      "name": "Love Letter",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-06-30",
+      "name": "Ticket to Ride: Japan",
+      "winner": "Hannah",
+      "coOp": "No"
     }
   ],
-  "totalGamesPlayed": 9,
-  "averageGamesPlayedPerDay": 0.3,
+  "totalGamesPlayed": 30,
+  "averageGamesPlayedPerDay": 1,
   "mostGamesPlayedInADay": [
     {
-      "date": "2020-06-10",
+      "date": "2020-06-14",
       "games": [
-        "Pandemic Hot Zone: North America",
-        "The Mind Extreme"
+        "Doki Doki Beach Volleyball",
+        "Ticket to Ride: London",
+        "Ticket to Ride: New York"
+      ]
+    },
+    {
+      "date": "2020-06-30",
+      "games": [
+        "Corsairs of Valeria",
+        "Love Letter",
+        "Ticket to Ride: Japan"
       ]
     }
   ],
   "uniqueGamesPlayed": [
     "Corsairs of Valeria",
+    "Doki Doki Beach Volleyball",
     "Dungeon of Mandom VIII",
     "Fafnir",
+    "Jurassic Snack",
     "Lords of Waterdeep",
+    "Love Letter",
+    "Mint Works",
     "Pandemic Hot Zone: North America",
+    "Star Realms: Frontiers",
+    "Tanto Cuore: Expanding the House",
+    "Tanto Cuore: Oktoberfest",
     "The Mind Extreme",
     "Ticket to Ride Map Collection: Volume 6 – France & Old West",
-    "Tricks and the Phantom"
+    "Ticket to Ride: Europe",
+    "Ticket to Ride: Japan",
+    "Ticket to Ride: London",
+    "Ticket to Ride: New York",
+    "Ticket to Ride: Nordic Countries",
+    "Ticket to Ride: Poland",
+    "Topiary",
+    "Tricks and the Phantom",
+    "Valeria: Card Kingdoms"
   ],
-  "uniqueGamesPlayedCount": 8,
-  "uniqueGamesPlayedPercentage": 0.8889,
+  "uniqueGamesPlayedCount": 23,
+  "uniqueGamesPlayedPercentage": 0.7667,
   "mostPlayedGames": [
     {
       "name": "Pandemic Hot Zone: North America",
-      "plays": 2
+      "plays": 3
+    },
+    {
+      "name": "Love Letter",
+      "plays": 3
+    },
+    {
+      "name": "Star Realms: Frontiers",
+      "plays": 3
     }
   ],
-  "coOpGamesPlayedCount": 3,
-  "coOpGamesPlayedPercentage": 0.3333,
-  "coOpGameWins": 2,
+  "coOpGamesPlayedCount": 6,
+  "coOpGamesPlayedPercentage": 0.2,
+  "coOpGameWins": 5,
   "coOpGameLoses": 1,
-  "winCountHannah": 3,
-  "winCountJohn": 3,
+  "winCountHannah": 17,
+  "winCountJohn": 7,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 6,
-  "winPercentageHannah": 0.5,
-  "winPercentageJohn": 0.5,
+  "winnableGamesTotal": 24,
+  "winPercentageHannah": 0.7083,
+  "winPercentageJohn": 0.2917,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
-  "mostWonGames": "Draw",
+  "mostWonGames": "Hannah",
   "mostWonGamesJohn": [
+    {
+      "game": "Topiary",
+      "plays": 1
+    },
+    {
+      "game": "Tanto Cuore: Expanding the House",
+      "plays": 1
+    },
+    {
+      "game": "Mint Works",
+      "plays": 1
+    },
+    {
+      "game": "Doki Doki Beach Volleyball",
+      "plays": 1
+    },
     {
       "game": "Fafnir",
       "plays": 1
@@ -151,16 +326,8 @@
   ],
   "mostWonGamesHannah": [
     {
-      "game": "Tricks and the Phantom",
-      "plays": 1
-    },
-    {
-      "game": "Ticket to Ride Map Collection: Volume 6 – France & Old West",
-      "plays": 1
-    },
-    {
-      "game": "Dungeon of Mandom VIII",
-      "plays": 1
+      "game": "Love Letter",
+      "plays": 3
     }
   ]
 }
