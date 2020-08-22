@@ -6,7 +6,7 @@ async function createBoardGameList (model) {
   const caliCollection = model.calisaurus.playstats
   const boardGameIndex = model.calisaurus.index
 
-  let bggItems = (bggCollection && bggCollection.items && bggCollection.items[0] && bggCollection.items[0].item) || []
+  const bggItems = (bggCollection && bggCollection.items && bggCollection.items[0] && bggCollection.items[0].item) || []
 
   if (!bggItems.length) {
     report('Unable to find board game names from BGG', JSON.stringify(bggCollection, null, 2))
