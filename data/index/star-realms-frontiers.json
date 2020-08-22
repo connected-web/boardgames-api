@@ -19,23 +19,38 @@
       "winner": "Other",
       "coOp": "No",
       "notes": "4 player"
+    },
+    {
+      "date": "2020-06-19",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-06-20",
+      "coOpOutcome": "Won",
+      "coOp": "Yes"
+    },
+    {
+      "date": "2020-06-21",
+      "coOpOutcome": "Won",
+      "coOp": "Yes"
     }
   ],
-  "totalGamesPlayed": 3,
-  "coOpGamesPlayedCount": 0,
-  "coOpGamesPlayedPercentage": 0,
-  "coOpGameWins": 0,
+  "totalGamesPlayed": 6,
+  "coOpGamesPlayedCount": 2,
+  "coOpGamesPlayedPercentage": 0.3333,
+  "coOpGameWins": 2,
   "coOpGameLoses": 0,
-  "coOpWinRate": 0,
+  "coOpWinRate": 1,
   "coOpLossRate": 0,
-  "winCountHannah": 1,
+  "winCountHannah": 2,
   "winCountJohn": 1,
   "winCountOther": 1,
   "winCountDraw": 0,
-  "winnableGamesTotal": 3,
-  "winPercentageHannah": 0.3333,
-  "winPercentageJohn": 0.3333,
-  "winPercentageOther": 0.3333,
+  "winnableGamesTotal": 4,
+  "winPercentageHannah": 0.5,
+  "winPercentageJohn": 0.25,
+  "winPercentageOther": 0.25,
   "winPercentageDraw": 0,
-  "mostWonGames": "Draw"
+  "mostWonGames": "Hannah"
 }
