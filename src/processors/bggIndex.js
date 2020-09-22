@@ -1,17 +1,22 @@
 const log = []
 const report = (...messages) => log.push(['[Create Board Game Geek Index]', ...messages].join(' '))
 
+function mapBoardGame (index, item) {
+  const name = item.name[0]._text[0]
+  const id = item._attributes.objectid
+  index[name] = {
+    boardGameGeekGameId: id
+  }
+  return index
+}
+
 async function buildIndex (model) {
   const collection = model.boardGameGeek.collection
-  const boardGameGeekIndex = collection.items[0].item.reduce(mapBoardGame, {})
+  const firstItemInCollection = collection.items[0]
+  const boardGameGeekIndex = (firstItemInCollection) ? firstItemInCollection.item.reduce(mapBoardGame, {}) : {}
 
-  function mapBoardGame (index, item) {
-    const name = item.name[0]._text[0]
-    const id = item._attributes.objectid
-    index[name] = {
-      boardGameGeekGameId: id
-    }
-    return index
+  if (!firstItemInCollection) {
+    report('No items found in board game geek collection:', JSON.stringify(collection, null, 2))
   }
 
   report('Index', boardGameGeekIndex)
