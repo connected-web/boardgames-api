@@ -16,7 +16,7 @@ async function buildIndex (model) {
   const boardGameGeekIndex = (firstItemInCollection) ? firstItemInCollection.item.reduce(mapBoardGame, {}) : {}
 
   if (!firstItemInCollection) {
-    report('No items found in boarg game geek collection:', JSON.stringify(collection, null, 2))
+    report('No items found in board game geek collection:', JSON.stringify(collection, null, 2))
   }
 
   report('Index', boardGameGeekIndex)
