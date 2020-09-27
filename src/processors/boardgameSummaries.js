@@ -1,4 +1,5 @@
 const log = []
+const daysBetween = require('../util/daysBetween')
 const sortByFeedPriority = require('../util/sortByFeedPriority')
 const mostFrequentWordsIn = require('../util/mostFrequentWordsIn')
 const report = (...messages) => log.push(['[Create Board Game Summaries]', ...messages].join(' '))
@@ -26,14 +27,6 @@ function firstDayInMonth () {
 
 function fmn (n) {
   return Number.parseFloat(n.toFixed(4)) || 0
-}
-
-function daysBetween (firstDate, secondDate) {
-  const oneDayInMilliseconds = 24 * 60 * 60 * 1000
-  const firstTime = firstDate.getTime()
-  const secondTime = secondDate.getTime()
-  const millisecondsBetween = Math.abs(firstTime - secondTime)
-  return Math.floor(millisecondsBetween / oneDayInMilliseconds)
 }
 
 function copy (data) {
@@ -76,7 +69,7 @@ async function createBoardGameSummaries (model) {
   })
 
   function summariseGames ({ games, startDate, endDate }) {
-    const daysInSequence = daysBetween(startDate, endDate) + 1
+    const daysInSequence = daysBetween(startDate, endDate)
     const result = {
       sequenceStartDate: startDate.toISOString().substring(0, 10),
       sequenceEndDate: endDate.toISOString().substring(0, 10)
@@ -106,7 +99,7 @@ async function createBoardGameSummaries (model) {
       daysPlayedIndex[n] = 0
     }
     games.forEach(item => {
-      const dayNumber = daysBetween(startDate, new Date(item.date)) + 1
+      const dayNumber = Number.parseInt(item.date.split('-')[2])
       daysPlayedIndex[dayNumber]++
     })
     const daysPlayedList = Object.keys(daysPlayedIndex).map(n => {
