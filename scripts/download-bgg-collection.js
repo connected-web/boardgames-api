@@ -11,8 +11,7 @@ async function start () {
     report('Downloaded', body.length, 'bytes; writing to:', filename)
     if (body.length > 100000) {
       return write(datapath(filename), body, 'utf8')
-    }
-    else {
+    } else {
       report('Not writing file; received body too small compared to expected data.', body + '')
       return false
     }
