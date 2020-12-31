@@ -1,4 +1,4 @@
-name: Update Owned Lists based on Issue
+name: Update Play Stats by Request
 
 on: 
   issues:
@@ -6,7 +6,7 @@ on:
     
 jobs:
   deploy:
-    if: startsWith(github.event.issue.title, 'Update Owned Lists') == true
+    if: startsWith(github.event.issue.title, 'Update Play Stats') == true
     name: Check Issue Title
     runs-on: ubuntu-latest
 
