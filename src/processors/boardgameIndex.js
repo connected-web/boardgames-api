@@ -35,21 +35,25 @@ async function createIndex (model) {
 
   function mapCaliPlayStatGame (accumulator, item) {
     const name = item.game
-    const boardGameApiId = reduceNameToBoardGameApiId(name)
-    const entry = accumulator[boardGameApiId] || { boardGameApiId, playRecords: [], name }
-    const playRecord = {}
-    expectedProperties.forEach(key => {
-      let value = item[key]
-      if (key.toLowerCase().includes('date')) {
-        value = convertGSheetsDate(value)
-      }
+    if (name) {
+      const boardGameApiId = reduceNameToBoardGameApiId(name)
+      const entry = accumulator[boardGameApiId] || { boardGameApiId, playRecords: [], name }
+      const playRecord = {}
+      expectedProperties.forEach(key => {
+        let value = item[key]
+        if (key.toLowerCase().includes('date')) {
+          value = convertGSheetsDate(value)
+        }
 
-      if (playRecordProperties.includes(key)) {
-        playRecord[key] = value
-      }
-    })
-    entry.playRecords.push(playRecord)
-    accumulator[boardGameApiId] = entry
+        if (playRecordProperties.includes(key)) {
+          playRecord[key] = value
+        }
+      })
+      entry.playRecords.push(playRecord)
+      accumulator[boardGameApiId] = entry
+    } else {
+      report('No name found on item:', JSON.stringify(item))
+    }
     return accumulator
   }
 

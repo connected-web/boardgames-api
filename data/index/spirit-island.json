@@ -3,14 +3,20 @@
   "boardGameGeekName": "Spirit Island",
   "boardGameApiId": "spirit-island",
   "name": "Spirit Island",
-  "playRecords": [],
-  "totalGamesPlayed": 0,
-  "coOpGamesPlayedCount": 0,
-  "coOpGamesPlayedPercentage": 0,
+  "playRecords": [
+    {
+      "date": "2020-10-11",
+      "coOpOutcome": "Lose",
+      "coOp": "Yes"
+    }
+  ],
+  "totalGamesPlayed": 1,
+  "coOpGamesPlayedCount": 1,
+  "coOpGamesPlayedPercentage": 1,
   "coOpGameWins": 0,
-  "coOpGameLoses": 0,
+  "coOpGameLoses": 1,
   "coOpWinRate": 0,
-  "coOpLossRate": 0,
+  "coOpLossRate": 1,
   "winCountHannah": 0,
   "winCountJohn": 0,
   "winCountOther": 0,
