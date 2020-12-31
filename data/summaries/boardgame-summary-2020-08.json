@@ -4,7 +4,7 @@
   "sequenceStartDate": "2020-08-01",
   "sequenceEndDate": "2020-08-31",
   "daysInSequence": 31,
-  "daysWithUnplayedGames": 17,
+  "daysWithUnplayedGames": 12,
   "gamesPlayedPerDay": {
     "1": 2,
     "2": 1,
@@ -28,15 +28,15 @@
     "20": 1,
     "21": 1,
     "22": 5,
-    "23": 0,
-    "24": 0,
+    "23": 4,
+    "24": 1,
     "25": 0,
     "26": 0,
     "27": 0,
-    "28": 0,
+    "28": 1,
     "29": 0,
-    "30": 0,
-    "31": 0
+    "30": 1,
+    "31": 1
   },
   "gamesPlayed": [
     {
@@ -188,10 +188,58 @@
       "name": "Ticket to Ride: Poland",
       "winner": "Hannah",
       "coOp": "No"
+    },
+    {
+      "date": "2020-08-23",
+      "name": "Codenames: Duet",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost"
+    },
+    {
+      "date": "2020-08-23",
+      "name": "Codenames: Duet",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2020-08-23",
+      "name": "Design Town",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-08-23",
+      "name": "Ticket to Ride: Germany",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-08-24",
+      "name": "Splendor",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-08-28",
+      "name": "Codenames: Duet",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2020-08-30",
+      "name": "Viticulture: Tuscany",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2020-08-31",
+      "name": "Ticket to Ride: Heart of Africa",
+      "winner": "Hannah",
+      "coOp": "No"
     }
   ],
-  "totalGamesPlayed": 25,
-  "averageGamesPlayedPerDay": 0.8065,
+  "totalGamesPlayed": 33,
+  "averageGamesPlayedPerDay": 1.0645,
   "mostGamesPlayedInADay": [
     {
       "date": "2020-08-22",
@@ -210,43 +258,57 @@
     "Carcassonne",
     "Cat Lady",
     "Codenames",
+    "Codenames: Duet",
     "Deep Sea Adventure",
+    "Design Town",
     "Flotsam Fight",
     "Hey, That's My Fish!",
     "Lords of Waterdeep",
     "Lovecraft Letter",
     "Pandemic: Fall of Rome",
+    "Splendor",
     "Tanto Cuore: Expanding the House",
     "Tanto Cuore: Romantic Vacation",
     "The Hieroglyph Game",
     "Ticket to Ride: Amsterdam",
+    "Ticket to Ride: Germany",
+    "Ticket to Ride: Heart of Africa",
     "Ticket to Ride: New York",
     "Ticket to Ride: Poland",
-    "Troika"
+    "Troika",
+    "Viticulture: Tuscany"
   ],
-  "uniqueGamesPlayedCount": 18,
-  "uniqueGamesPlayedPercentage": 0.72,
+  "uniqueGamesPlayedCount": 24,
+  "uniqueGamesPlayedPercentage": 0.7273,
   "mostPlayedGames": [
     {
       "name": "Lovecraft Letter",
       "plays": 6
     }
   ],
-  "coOpGamesPlayedCount": 5,
-  "coOpGamesPlayedPercentage": 0.2,
-  "coOpGameWins": 5,
-  "coOpGameLoses": 0,
-  "winCountHannah": 12,
-  "winCountJohn": 8,
+  "coOpGamesPlayedCount": 8,
+  "coOpGamesPlayedPercentage": 0.2424,
+  "coOpGameWins": 7,
+  "coOpGameLoses": 1,
+  "winCountHannah": 15,
+  "winCountJohn": 10,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 20,
+  "winnableGamesTotal": 25,
   "winPercentageHannah": 0.6,
   "winPercentageJohn": 0.4,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
   "mostWonGames": "Hannah",
   "mostWonGamesJohn": [
+    {
+      "game": "Splendor",
+      "plays": 1
+    },
+    {
+      "game": "Design Town",
+      "plays": 1
+    },
     {
       "game": "The Hieroglyph Game",
       "plays": 1

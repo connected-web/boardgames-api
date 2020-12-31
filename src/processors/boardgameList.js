@@ -13,7 +13,8 @@ async function createBoardGameList (model) {
   }
 
   const bggBoardGameNames = bggItems.map(item => item.name[0]._text[0]).filter(n => n)
-  const caliBoardGameNames = Array.from(new Set(caliCollection.map(item => item.game))).filter(n => n)
+  const caliBoardGameNamesFull = caliCollection.filter(item => item.game).map(item => item.game)
+  const caliBoardGameNames = Array.from(new Set(caliBoardGameNamesFull))
 
   const overlap = bggBoardGameNames.filter(n => caliBoardGameNames.includes(n)).sort()
   const bggOnly = bggBoardGameNames.filter(n => !caliBoardGameNames.includes(n)).sort()

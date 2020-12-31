@@ -7166,7 +7166,7 @@
       "sequenceStartDate": "2020-08-01",
       "sequenceEndDate": "2020-08-31",
       "daysInSequence": 31,
-      "daysWithUnplayedGames": 17,
+      "daysWithUnplayedGames": 12,
       "gamesPlayedPerDay": {
         "1": 2,
         "2": 1,
@@ -7190,15 +7190,15 @@
         "20": 1,
         "21": 1,
         "22": 5,
-        "23": 0,
-        "24": 0,
+        "23": 4,
+        "24": 1,
         "25": 0,
         "26": 0,
         "27": 0,
-        "28": 0,
+        "28": 1,
         "29": 0,
-        "30": 0,
-        "31": 0
+        "30": 1,
+        "31": 1
       },
       "gamesPlayed": [
         {
@@ -7350,10 +7350,58 @@
           "name": "Ticket to Ride: Poland",
           "winner": "Hannah",
           "coOp": "No"
+        },
+        {
+          "date": "2020-08-23",
+          "name": "Codenames: Duet",
+          "coOp": "Yes",
+          "coOpOutcome": "Lost"
+        },
+        {
+          "date": "2020-08-23",
+          "name": "Codenames: Duet",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2020-08-23",
+          "name": "Design Town",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-08-23",
+          "name": "Ticket to Ride: Germany",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-08-24",
+          "name": "Splendor",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-08-28",
+          "name": "Codenames: Duet",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2020-08-30",
+          "name": "Viticulture: Tuscany",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-08-31",
+          "name": "Ticket to Ride: Heart of Africa",
+          "winner": "Hannah",
+          "coOp": "No"
         }
       ],
-      "totalGamesPlayed": 25,
-      "averageGamesPlayedPerDay": 0.8065,
+      "totalGamesPlayed": 33,
+      "averageGamesPlayedPerDay": 1.0645,
       "mostGamesPlayedInADay": [
         {
           "date": "2020-08-22",
@@ -7372,43 +7420,57 @@
         "Carcassonne",
         "Cat Lady",
         "Codenames",
+        "Codenames: Duet",
         "Deep Sea Adventure",
+        "Design Town",
         "Flotsam Fight",
         "Hey, That's My Fish!",
         "Lords of Waterdeep",
         "Lovecraft Letter",
         "Pandemic: Fall of Rome",
+        "Splendor",
         "Tanto Cuore: Expanding the House",
         "Tanto Cuore: Romantic Vacation",
         "The Hieroglyph Game",
         "Ticket to Ride: Amsterdam",
+        "Ticket to Ride: Germany",
+        "Ticket to Ride: Heart of Africa",
         "Ticket to Ride: New York",
         "Ticket to Ride: Poland",
-        "Troika"
+        "Troika",
+        "Viticulture: Tuscany"
       ],
-      "uniqueGamesPlayedCount": 18,
-      "uniqueGamesPlayedPercentage": 0.72,
+      "uniqueGamesPlayedCount": 24,
+      "uniqueGamesPlayedPercentage": 0.7273,
       "mostPlayedGames": [
         {
           "name": "Lovecraft Letter",
           "plays": 6
         }
       ],
-      "coOpGamesPlayedCount": 5,
-      "coOpGamesPlayedPercentage": 0.2,
-      "coOpGameWins": 5,
-      "coOpGameLoses": 0,
-      "winCountHannah": 12,
-      "winCountJohn": 8,
+      "coOpGamesPlayedCount": 8,
+      "coOpGamesPlayedPercentage": 0.2424,
+      "coOpGameWins": 7,
+      "coOpGameLoses": 1,
+      "winCountHannah": 15,
+      "winCountJohn": 10,
       "winCountOther": 0,
       "winCountDraw": 0,
-      "winnableGamesTotal": 20,
+      "winnableGamesTotal": 25,
       "winPercentageHannah": 0.6,
       "winPercentageJohn": 0.4,
       "winPercentageOther": 0,
       "winPercentageDraw": 0,
       "mostWonGames": "Hannah",
       "mostWonGamesJohn": [
+        {
+          "game": "Splendor",
+          "plays": 1
+        },
+        {
+          "game": "Design Town",
+          "plays": 1
+        },
         {
           "game": "The Hieroglyph Game",
           "plays": 1
@@ -7446,6 +7508,1383 @@
         {
           "game": "Lovecraft Letter",
           "plays": 5
+        }
+      ]
+    },
+    {
+      "dateCode": "2020-09",
+      "title": "September 2020",
+      "sequenceStartDate": "2020-09-01",
+      "sequenceEndDate": "2020-09-30",
+      "daysInSequence": 30,
+      "daysWithUnplayedGames": 10,
+      "gamesPlayedPerDay": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 0,
+        "5": 1,
+        "6": 3,
+        "7": 1,
+        "8": 0,
+        "9": 0,
+        "10": 1,
+        "11": 0,
+        "12": 2,
+        "13": 2,
+        "14": 1,
+        "15": 1,
+        "16": 1,
+        "17": 3,
+        "18": 0,
+        "19": 2,
+        "20": 2,
+        "21": 0,
+        "22": 2,
+        "23": 1,
+        "24": 1,
+        "25": 0,
+        "26": 1,
+        "27": 2,
+        "28": 1,
+        "29": 1,
+        "30": 0
+      },
+      "gamesPlayed": [
+        {
+          "date": "2020-09-03",
+          "name": "Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-05",
+          "name": "Tanto Cuore",
+          "winner": "Hannah",
+          "coOp": "No",
+          "note": "3P"
+        },
+        {
+          "date": "2020-09-06",
+          "name": "Coup",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-06",
+          "name": "Ticket to Ride: Netherlands",
+          "winner": "Draw",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-06",
+          "name": "Wingspan",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-07",
+          "name": "Star Realms",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-10",
+          "name": "Topiary",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-12",
+          "name": "Corsairs of Valeria",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-12",
+          "name": "Ticket to Ride: Europa 1912",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-13",
+          "name": "Codenames",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2020-09-13",
+          "name": "Codenames",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2020-09-14",
+          "name": "Archer Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-15",
+          "name": "Lovecraft Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-16",
+          "name": "HATSUDEN",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-17",
+          "name": "Lovecraft Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-17",
+          "name": "Machi Koro",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-17",
+          "name": "Pandemic Hot Zone: North America",
+          "coOp": "Yes",
+          "coOpOutcome": "Lose"
+        },
+        {
+          "date": "2020-09-19",
+          "name": "Love Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-19",
+          "name": "Pandemic: The Cure",
+          "coOp": "Yes",
+          "coOpOutcome": "Lose"
+        },
+        {
+          "date": "2020-09-20",
+          "name": "Corsairs of Valeria",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-20",
+          "name": "Pandemic: The Cure",
+          "coOp": "Yes",
+          "coOpOutcome": "Win",
+          "note": "4P"
+        },
+        {
+          "date": "2020-09-22",
+          "name": "Codenames",
+          "coOp": "Yes",
+          "coOpOutcome": "Win"
+        },
+        {
+          "date": "2020-09-22",
+          "name": "Valeria: Card Kingdoms",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-23",
+          "name": "Pandemic: Contagion",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-24",
+          "name": "Ticket to Ride: Amsterdam",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-26",
+          "name": "Lovecraft Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-27",
+          "name": "Codenames",
+          "coOp": "Yes",
+          "coOpOutcome": "Lose"
+        },
+        {
+          "date": "2020-09-27",
+          "name": "Ticket to Ride",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-28",
+          "name": "Space Explorers",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-29",
+          "name": "Love Letter",
+          "winner": "John",
+          "coOp": "No"
+        }
+      ],
+      "totalGamesPlayed": 30,
+      "averageGamesPlayedPerDay": 1,
+      "mostGamesPlayedInADay": [
+        {
+          "date": "2020-09-06",
+          "games": [
+            "Coup",
+            "Ticket to Ride: Netherlands",
+            "Wingspan"
+          ]
+        },
+        {
+          "date": "2020-09-17",
+          "games": [
+            "Lovecraft Letter",
+            "Machi Koro",
+            "Pandemic Hot Zone: North America"
+          ]
+        }
+      ],
+      "uniqueGamesPlayed": [
+        "Archer Love Letter",
+        "Codenames",
+        "Corsairs of Valeria",
+        "Coup",
+        "HATSUDEN",
+        "Love Letter",
+        "Lovecraft Letter",
+        "Machi Koro",
+        "Pandemic Hot Zone: North America",
+        "Pandemic: Contagion",
+        "Pandemic: The Cure",
+        "Space Explorers",
+        "Star Realms",
+        "Tanto Cuore",
+        "Ticket to Ride",
+        "Ticket to Ride: Amsterdam",
+        "Ticket to Ride: Europa 1912",
+        "Ticket to Ride: Netherlands",
+        "Topiary",
+        "Valeria: Card Kingdoms",
+        "Wingspan"
+      ],
+      "uniqueGamesPlayedCount": 21,
+      "uniqueGamesPlayedPercentage": 0.7,
+      "mostPlayedGames": [
+        {
+          "name": "Codenames",
+          "plays": 4
+        }
+      ],
+      "coOpGamesPlayedCount": 7,
+      "coOpGamesPlayedPercentage": 0.2333,
+      "coOpGameWins": 4,
+      "coOpGameLoses": 3,
+      "winCountHannah": 11,
+      "winCountJohn": 11,
+      "winCountOther": 0,
+      "winCountDraw": 1,
+      "winnableGamesTotal": 23,
+      "winPercentageHannah": 0.4783,
+      "winPercentageJohn": 0.4783,
+      "winPercentageOther": 0,
+      "winPercentageDraw": 0.0435,
+      "mostWonGames": "Draw",
+      "mostWonGamesJohn": [
+        {
+          "game": "Love Letter",
+          "plays": 2
+        }
+      ],
+      "mostWonGamesHannah": [
+        {
+          "game": "Lovecraft Letter",
+          "plays": 2
+        }
+      ]
+    },
+    {
+      "dateCode": "2020-10",
+      "title": "October 2020",
+      "sequenceStartDate": "2020-10-01",
+      "sequenceEndDate": "2020-10-31",
+      "daysInSequence": 31,
+      "daysWithUnplayedGames": 9,
+      "gamesPlayedPerDay": {
+        "1": 0,
+        "2": 1,
+        "3": 5,
+        "4": 3,
+        "5": 1,
+        "6": 1,
+        "7": 2,
+        "8": 1,
+        "9": 0,
+        "10": 1,
+        "11": 2,
+        "12": 0,
+        "13": 1,
+        "14": 1,
+        "15": 0,
+        "16": 1,
+        "17": 1,
+        "18": 2,
+        "19": 0,
+        "20": 1,
+        "21": 2,
+        "22": 0,
+        "23": 0,
+        "24": 4,
+        "25": 2,
+        "26": 0,
+        "27": 1,
+        "28": 1,
+        "29": 2,
+        "30": 0,
+        "31": 1
+      },
+      "gamesPlayed": [
+        {
+          "date": "2020-10-02",
+          "name": "Pirate 21",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-03",
+          "name": "Adventure Time: Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-03",
+          "name": "Aeon's End: Legacy",
+          "coOp": "Yes",
+          "coOpOutcome": "Win"
+        },
+        {
+          "date": "2020-10-03",
+          "name": "Aeon's End: Legacy",
+          "coOp": "Yes",
+          "coOpOutcome": "Win"
+        },
+        {
+          "date": "2020-10-03",
+          "name": "Aeon's End: Legacy",
+          "coOp": "Yes",
+          "coOpOutcome": "Win"
+        },
+        {
+          "date": "2020-10-03",
+          "name": "Aeon's End: Legacy",
+          "coOp": "Yes",
+          "coOpOutcome": "Win"
+        },
+        {
+          "date": "2020-10-04",
+          "name": "Aeon's End: Legacy",
+          "coOp": "Yes",
+          "coOpOutcome": "Win"
+        },
+        {
+          "date": "2020-10-04",
+          "name": "Aeon's End: Legacy",
+          "coOp": "Yes",
+          "coOpOutcome": "Win"
+        },
+        {
+          "date": "2020-10-04",
+          "name": "Aeon's End: Legacy",
+          "coOp": "Yes",
+          "coOpOutcome": "Win"
+        },
+        {
+          "date": "2020-10-05",
+          "name": "Aeon's End: Legacy",
+          "coOp": "Yes",
+          "coOpOutcome": "Win"
+        },
+        {
+          "date": "2020-10-06",
+          "name": "Lovecraft Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-07",
+          "name": "Codenames",
+          "coOp": "Yes",
+          "coOpOutcome": "Win"
+        },
+        {
+          "date": "2020-10-07",
+          "name": "Codenames",
+          "coOp": "Yes",
+          "coOpOutcome": "Win"
+        },
+        {
+          "date": "2020-10-08",
+          "name": "Adventure Time: Love Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-10",
+          "name": "Ticket to Ride: Asia",
+          "winner": "Hannah",
+          "coOp": "Yes"
+        },
+        {
+          "date": "2020-10-11",
+          "name": "Jurassic Snack",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-11",
+          "name": "Spirit Island",
+          "coOp": "Yes",
+          "coOpOutcome": "Lose"
+        },
+        {
+          "date": "2020-10-13",
+          "name": "Lovecraft Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-14",
+          "name": "Tanto Cuore",
+          "winner": "Hannah",
+          "coOp": "No",
+          "note": "With Romantic Vacation"
+        },
+        {
+          "date": "2020-10-16",
+          "name": "Cthulhu: A Deck Building Game",
+          "coOp": "Yes",
+          "coOpOutcome": "Lose"
+        },
+        {
+          "date": "2020-10-17",
+          "name": "Cthulhu: A Deck Building Game",
+          "coOp": "Yes",
+          "coOpOutcome": "Win"
+        },
+        {
+          "date": "2020-10-18",
+          "name": "Love Letter Kanai Edition",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-18",
+          "name": "Troika",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-20",
+          "name": "Mariposas",
+          "winner": "Draw",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-21",
+          "name": "Batman: Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-21",
+          "name": "Flotsam Fight",
+          "winner": "Draw",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-24",
+          "name": "HECK: A Tiny Card Game",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-24",
+          "name": "HECK: A Tiny Card Game",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-24",
+          "name": "Ticket to Ride: Rails and Sails",
+          "winner": "Draw",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-24",
+          "name": "Tricks and the Phantom",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-25",
+          "name": "El Alamein",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-25",
+          "name": "HECK: A Tiny Card Game",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-27",
+          "name": "Dominion: Prosperity",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-28",
+          "name": "Dominion: Prosperity",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-29",
+          "name": "Dominion: Seaside",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-29",
+          "name": "Marrying Mr. Darcy",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-31",
+          "name": "Lovecraft Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        }
+      ],
+      "totalGamesPlayed": 37,
+      "averageGamesPlayedPerDay": 1.1935,
+      "mostGamesPlayedInADay": [
+        {
+          "date": "2020-10-03",
+          "games": [
+            "Adventure Time: Love Letter",
+            "Aeon's End: Legacy",
+            "Aeon's End: Legacy",
+            "Aeon's End: Legacy",
+            "Aeon's End: Legacy"
+          ]
+        }
+      ],
+      "uniqueGamesPlayed": [
+        "Adventure Time: Love Letter",
+        "Aeon's End: Legacy",
+        "Batman: Love Letter",
+        "Codenames",
+        "Cthulhu: A Deck Building Game",
+        "Dominion: Prosperity",
+        "Dominion: Seaside",
+        "El Alamein",
+        "Flotsam Fight",
+        "HECK: A Tiny Card Game",
+        "Jurassic Snack",
+        "Love Letter Kanai Edition",
+        "Lovecraft Letter",
+        "Mariposas",
+        "Marrying Mr. Darcy",
+        "Pirate 21",
+        "Spirit Island",
+        "Tanto Cuore",
+        "Ticket to Ride: Asia",
+        "Ticket to Ride: Rails and Sails",
+        "Tricks and the Phantom",
+        "Troika"
+      ],
+      "uniqueGamesPlayedCount": 22,
+      "uniqueGamesPlayedPercentage": 0.5946,
+      "mostPlayedGames": [
+        {
+          "name": "Aeon's End: Legacy",
+          "plays": 8
+        }
+      ],
+      "coOpGamesPlayedCount": 14,
+      "coOpGamesPlayedPercentage": 0.3784,
+      "coOpGameWins": 11,
+      "coOpGameLoses": 3,
+      "winCountHannah": 12,
+      "winCountJohn": 9,
+      "winCountOther": 0,
+      "winCountDraw": 3,
+      "winnableGamesTotal": 24,
+      "winPercentageHannah": 0.5,
+      "winPercentageJohn": 0.375,
+      "winPercentageOther": 0,
+      "winPercentageDraw": 0.125,
+      "mostWonGames": "Hannah",
+      "mostWonGamesJohn": [
+        {
+          "game": "HECK: A Tiny Card Game",
+          "plays": 2
+        }
+      ],
+      "mostWonGamesHannah": [
+        {
+          "game": "Dominion: Prosperity",
+          "plays": 2
+        },
+        {
+          "game": "Lovecraft Letter",
+          "plays": 2
+        }
+      ]
+    },
+    {
+      "dateCode": "2020-11",
+      "title": "November 2020",
+      "sequenceStartDate": "2020-11-01",
+      "sequenceEndDate": "2020-11-30",
+      "daysInSequence": 30,
+      "daysWithUnplayedGames": 11,
+      "gamesPlayedPerDay": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 0,
+        "5": 1,
+        "6": 2,
+        "7": 2,
+        "8": 4,
+        "9": 1,
+        "10": 0,
+        "11": 1,
+        "12": 0,
+        "13": 0,
+        "14": 1,
+        "15": 1,
+        "16": 1,
+        "17": 1,
+        "18": 0,
+        "19": 1,
+        "20": 0,
+        "21": 0,
+        "22": 1,
+        "23": 1,
+        "24": 2,
+        "25": 3,
+        "26": 0,
+        "27": 0,
+        "28": 0,
+        "29": 4,
+        "30": 0
+      },
+      "gamesPlayed": [
+        {
+          "date": "2020-11-01",
+          "name": "Betrayal Legacy",
+          "coOp": "Yes",
+          "coOpOutcome": "Win",
+          "note": "Heroes won"
+        },
+        {
+          "date": "2020-11-02",
+          "name": "Betrayal Legacy",
+          "coOp": "Yes",
+          "coOpOutcome": "Win",
+          "note": "Heroes won"
+        },
+        {
+          "date": "2020-11-03",
+          "name": "Dominion: Prosperity",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-05",
+          "name": "Dominion: Prosperity",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-06",
+          "name": "Dominion: Prosperity",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-06",
+          "name": "Love Letter",
+          "winner": "John",
+          "coOp": "No",
+          "note": "Wedding edition"
+        },
+        {
+          "date": "2020-11-07",
+          "name": "Root",
+          "winner": "Draw",
+          "coOp": "No",
+          "note": "Walkthrough game"
+        },
+        {
+          "date": "2020-11-07",
+          "name": "Silk",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-08",
+          "name": "Diamonsters",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-08",
+          "name": "HECK: A Tiny Card Game",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-08",
+          "name": "Root",
+          "winner": "Draw",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-08",
+          "name": "Silk",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-09",
+          "name": "Troika",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-11",
+          "name": "Corsairs of Valeria",
+          "winner": "Draw",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-14",
+          "name": "Villainous",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-15",
+          "name": "Forbidden Island",
+          "coOp": "Yes",
+          "coOpOutcome": "Win"
+        },
+        {
+          "date": "2020-11-16",
+          "name": "Lovecraft Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-17",
+          "name": "Flotsam Fight",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-19",
+          "name": "Flotsam Fight",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-22",
+          "name": "Ticket to Ride: Europe",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-23",
+          "name": "Topiary",
+          "winner": "Hannah ",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-24",
+          "name": "Archer Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-24",
+          "name": "Star Realms",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-25",
+          "name": "Archer Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-25",
+          "name": "Codenames",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2020-11-25",
+          "name": "Codenames",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2020-11-29",
+          "name": "Codenames",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2020-11-29",
+          "name": "Codenames",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2020-11-29",
+          "name": "Love Letter 2nd Edition",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-29",
+          "name": "Lovecraft Letter",
+          "winner": "Hannah ",
+          "coOp": "No"
+        }
+      ],
+      "totalGamesPlayed": 30,
+      "averageGamesPlayedPerDay": 1,
+      "mostGamesPlayedInADay": [
+        {
+          "date": "2020-11-08",
+          "games": [
+            "Diamonsters",
+            "HECK: A Tiny Card Game",
+            "Root",
+            "Silk"
+          ]
+        },
+        {
+          "date": "2020-11-29",
+          "games": [
+            "Codenames",
+            "Codenames",
+            "Love Letter 2nd Edition",
+            "Lovecraft Letter"
+          ]
+        }
+      ],
+      "uniqueGamesPlayed": [
+        "Archer Love Letter",
+        "Betrayal Legacy",
+        "Codenames",
+        "Corsairs of Valeria",
+        "Diamonsters",
+        "Dominion: Prosperity",
+        "Flotsam Fight",
+        "Forbidden Island",
+        "HECK: A Tiny Card Game",
+        "Love Letter",
+        "Love Letter 2nd Edition",
+        "Lovecraft Letter",
+        "Root",
+        "Silk",
+        "Star Realms",
+        "Ticket to Ride: Europe",
+        "Topiary",
+        "Troika",
+        "Villainous"
+      ],
+      "uniqueGamesPlayedCount": 19,
+      "uniqueGamesPlayedPercentage": 0.6333,
+      "mostPlayedGames": [
+        {
+          "name": "Codenames",
+          "plays": 4
+        }
+      ],
+      "coOpGamesPlayedCount": 7,
+      "coOpGamesPlayedPercentage": 0.2333,
+      "coOpGameWins": 7,
+      "coOpGameLoses": 0,
+      "winCountHannah": 14,
+      "winCountJohn": 6,
+      "winCountOther": 0,
+      "winCountDraw": 3,
+      "winnableGamesTotal": 23,
+      "winPercentageHannah": 0.6087,
+      "winPercentageJohn": 0.2609,
+      "winPercentageOther": 0,
+      "winPercentageDraw": 0.1304,
+      "mostWonGames": "Hannah",
+      "mostWonGamesJohn": [
+        {
+          "game": "Star Realms",
+          "plays": 1
+        },
+        {
+          "game": "Ticket to Ride: Europe",
+          "plays": 1
+        },
+        {
+          "game": "Diamonsters",
+          "plays": 1
+        },
+        {
+          "game": "Silk",
+          "plays": 1
+        },
+        {
+          "game": "Love Letter",
+          "plays": 1
+        },
+        {
+          "game": "Dominion: Prosperity",
+          "plays": 1
+        }
+      ],
+      "mostWonGamesHannah": [
+        {
+          "game": "Archer Love Letter",
+          "plays": 2
+        },
+        {
+          "game": "Flotsam Fight",
+          "plays": 2
+        },
+        {
+          "game": "Lovecraft Letter",
+          "plays": 2
+        },
+        {
+          "game": "Dominion: Prosperity",
+          "plays": 2
+        }
+      ]
+    },
+    {
+      "dateCode": "2020-12",
+      "title": "December 2020",
+      "sequenceStartDate": "2020-12-01",
+      "sequenceEndDate": "2020-12-31",
+      "daysInSequence": 31,
+      "daysWithUnplayedGames": 17,
+      "gamesPlayedPerDay": {
+        "1": 0,
+        "2": 2,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "6": 1,
+        "7": 2,
+        "8": 1,
+        "9": 4,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 1,
+        "14": 0,
+        "15": 0,
+        "16": 2,
+        "17": 2,
+        "18": 0,
+        "19": 0,
+        "20": 0,
+        "21": 0,
+        "22": 0,
+        "23": 0,
+        "24": 0,
+        "25": 2,
+        "26": 2,
+        "27": 0,
+        "28": 0,
+        "29": 3,
+        "30": 1,
+        "31": 2
+      },
+      "gamesPlayed": [
+        {
+          "date": "2020-12-02",
+          "name": "Corsairs of Valeria",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-02",
+          "name": "Love Letter 2nd Edition",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-05",
+          "name": "Ticket to Ride: Nordic Countries",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-06",
+          "name": "Dominion: Prosperity",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-07",
+          "name": "Dominion: Prosperity",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-07",
+          "name": "Letters to Santa",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-08",
+          "name": "Flotsam Fight",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-09",
+          "name": "Corsairs of Valeria",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-09",
+          "name": "Deep Sea Adventure",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2020-12-09",
+          "name": "Fafnir",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-09",
+          "name": "Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-13",
+          "name": "Pandemic",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2020-12-16",
+          "name": "Batman: Love Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-16",
+          "name": "Yam Yam",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-17",
+          "name": "Letters to Santa",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-17",
+          "name": "Patchwork Christmas ",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-25",
+          "name": "Letters to Santa",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-25",
+          "name": "Tanto Cuore: Winter Romance",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-26",
+          "name": "Star Realms",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-26",
+          "name": "Sweet Existence",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-29",
+          "name": "Mandala",
+          "winner": "Hannah ",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-29",
+          "name": "Mandala",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-29",
+          "name": "Mandala",
+          "winner": "John ",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-30",
+          "name": "Wingspan: Oceania",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-31",
+          "name": "Hanabi",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2020-12-31",
+          "name": "Love Letter",
+          "winner": "Hannah",
+          "coOp": "No",
+          "note": "4 Player"
+        }
+      ],
+      "totalGamesPlayed": 26,
+      "averageGamesPlayedPerDay": 0.8387,
+      "mostGamesPlayedInADay": [
+        {
+          "date": "2020-12-09",
+          "games": [
+            "Corsairs of Valeria",
+            "Deep Sea Adventure",
+            "Fafnir",
+            "Love Letter"
+          ]
+        }
+      ],
+      "uniqueGamesPlayed": [
+        "Batman: Love Letter",
+        "Corsairs of Valeria",
+        "Deep Sea Adventure",
+        "Dominion: Prosperity",
+        "Fafnir",
+        "Flotsam Fight",
+        "Hanabi",
+        "Letters to Santa",
+        "Love Letter",
+        "Love Letter 2nd Edition",
+        "Mandala",
+        "Pandemic",
+        "Patchwork Christmas ",
+        "Star Realms",
+        "Sweet Existence",
+        "Tanto Cuore: Winter Romance",
+        "Ticket to Ride: Nordic Countries",
+        "Wingspan: Oceania",
+        "Yam Yam"
+      ],
+      "uniqueGamesPlayedCount": 19,
+      "uniqueGamesPlayedPercentage": 0.7308,
+      "mostPlayedGames": [
+        {
+          "name": "Letters to Santa",
+          "plays": 3
+        },
+        {
+          "name": "Mandala",
+          "plays": 3
+        }
+      ],
+      "coOpGamesPlayedCount": 3,
+      "coOpGamesPlayedPercentage": 0.1154,
+      "coOpGameWins": 3,
+      "coOpGameLoses": 0,
+      "winCountHannah": 8,
+      "winCountJohn": 15,
+      "winCountOther": 0,
+      "winCountDraw": 0,
+      "winnableGamesTotal": 23,
+      "winPercentageHannah": 0.3478,
+      "winPercentageJohn": 0.6522,
+      "winPercentageOther": 0,
+      "winPercentageDraw": 0,
+      "mostWonGames": "John",
+      "mostWonGamesJohn": [
+        {
+          "game": "Mandala",
+          "plays": 2
+        },
+        {
+          "game": "Letters to Santa",
+          "plays": 2
+        }
+      ],
+      "mostWonGamesHannah": [
+        {
+          "game": "Love Letter",
+          "plays": 2
+        }
+      ]
+    },
+    {
+      "dateCode": "2021-01",
+      "title": "January 2021",
+      "sequenceStartDate": "2021-01-01",
+      "sequenceEndDate": "2021-01-31",
+      "daysInSequence": 31,
+      "daysWithUnplayedGames": 29,
+      "gamesPlayedPerDay": {
+        "1": 2,
+        "2": 0,
+        "3": 1,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0,
+        "14": 0,
+        "15": 0,
+        "16": 0,
+        "17": 0,
+        "18": 0,
+        "19": 0,
+        "20": 0,
+        "21": 0,
+        "22": 0,
+        "23": 0,
+        "24": 0,
+        "25": 0,
+        "26": 0,
+        "27": 0,
+        "28": 0,
+        "29": 0,
+        "30": 0,
+        "31": 0
+      },
+      "gamesPlayed": [
+        {
+          "date": "2021-01-01",
+          "name": "Jurassic Snack",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2021-01-01",
+          "name": "Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2021-01-03",
+          "name": "Tanto Cuore: Winter Romance",
+          "winner": "Hannah",
+          "coOp": "No"
+        }
+      ],
+      "totalGamesPlayed": 3,
+      "averageGamesPlayedPerDay": 0.0968,
+      "mostGamesPlayedInADay": [
+        {
+          "date": "2021-01-01",
+          "games": [
+            "Jurassic Snack",
+            "Love Letter"
+          ]
+        }
+      ],
+      "uniqueGamesPlayed": [
+        "Jurassic Snack",
+        "Love Letter",
+        "Tanto Cuore: Winter Romance"
+      ],
+      "uniqueGamesPlayedCount": 3,
+      "uniqueGamesPlayedPercentage": 1,
+      "mostPlayedGames": [
+        {
+          "name": "Jurassic Snack",
+          "plays": 1
+        },
+        {
+          "name": "Love Letter",
+          "plays": 1
+        },
+        {
+          "name": "Tanto Cuore: Winter Romance",
+          "plays": 1
+        }
+      ],
+      "coOpGamesPlayedCount": 0,
+      "coOpGamesPlayedPercentage": 0,
+      "coOpGameWins": 0,
+      "coOpGameLoses": 0,
+      "winCountHannah": 2,
+      "winCountJohn": 1,
+      "winCountOther": 0,
+      "winCountDraw": 0,
+      "winnableGamesTotal": 3,
+      "winPercentageHannah": 0.6667,
+      "winPercentageJohn": 0.3333,
+      "winPercentageOther": 0,
+      "winPercentageDraw": 0,
+      "mostWonGames": "Hannah",
+      "mostWonGamesJohn": [
+        {
+          "game": "Jurassic Snack",
+          "plays": 1
+        }
+      ],
+      "mostWonGamesHannah": [
+        {
+          "game": "Tanto Cuore: Winter Romance",
+          "plays": 1
+        },
+        {
+          "game": "Love Letter",
+          "plays": 1
         }
       ]
     }
@@ -11193,7 +12632,7 @@
       "sequenceStartDate": "2020-01-01",
       "sequenceEndDate": "2020-12-31",
       "daysInSequence": 366,
-      "daysWithUnplayedGames": 214,
+      "daysWithUnplayedGames": 134,
       "gamesPlayedPerDay": {
         "1": 2,
         "2": 1,
@@ -11430,123 +12869,123 @@
         "233": 1,
         "234": 1,
         "235": 5,
-        "236": 0,
-        "237": 0,
+        "236": 4,
+        "237": 1,
         "238": 0,
         "239": 0,
         "240": 0,
-        "241": 0,
+        "241": 1,
         "242": 0,
-        "243": 0,
-        "244": 0,
+        "243": 1,
+        "244": 1,
         "245": 0,
         "246": 0,
-        "247": 0,
+        "247": 1,
         "248": 0,
-        "249": 0,
-        "250": 0,
-        "251": 0,
+        "249": 1,
+        "250": 3,
+        "251": 1,
         "252": 0,
         "253": 0,
-        "254": 0,
+        "254": 1,
         "255": 0,
-        "256": 0,
-        "257": 0,
-        "258": 0,
-        "259": 0,
-        "260": 0,
-        "261": 0,
+        "256": 2,
+        "257": 2,
+        "258": 1,
+        "259": 1,
+        "260": 1,
+        "261": 3,
         "262": 0,
-        "263": 0,
-        "264": 0,
+        "263": 2,
+        "264": 2,
         "265": 0,
-        "266": 0,
-        "267": 0,
-        "268": 0,
+        "266": 2,
+        "267": 1,
+        "268": 1,
         "269": 0,
-        "270": 0,
-        "271": 0,
-        "272": 0,
-        "273": 0,
+        "270": 1,
+        "271": 2,
+        "272": 1,
+        "273": 1,
         "274": 0,
         "275": 0,
-        "276": 0,
-        "277": 0,
-        "278": 0,
-        "279": 0,
-        "280": 0,
-        "281": 0,
-        "282": 0,
+        "276": 1,
+        "277": 5,
+        "278": 3,
+        "279": 1,
+        "280": 1,
+        "281": 2,
+        "282": 1,
         "283": 0,
-        "284": 0,
-        "285": 0,
+        "284": 1,
+        "285": 2,
         "286": 0,
-        "287": 0,
-        "288": 0,
+        "287": 1,
+        "288": 1,
         "289": 0,
-        "290": 0,
-        "291": 0,
-        "292": 0,
+        "290": 1,
+        "291": 1,
+        "292": 2,
         "293": 0,
-        "294": 0,
-        "295": 0,
+        "294": 1,
+        "295": 2,
         "296": 0,
         "297": 0,
-        "298": 0,
-        "299": 0,
+        "298": 4,
+        "299": 2,
         "300": 0,
-        "301": 0,
-        "302": 0,
-        "303": 0,
+        "301": 1,
+        "302": 1,
+        "303": 2,
         "304": 0,
-        "305": 0,
-        "306": 0,
-        "307": 0,
-        "308": 0,
+        "305": 1,
+        "306": 1,
+        "307": 1,
+        "308": 1,
         "309": 0,
-        "310": 0,
-        "311": 0,
-        "312": 0,
-        "313": 0,
-        "314": 0,
+        "310": 1,
+        "311": 2,
+        "312": 2,
+        "313": 4,
+        "314": 1,
         "315": 0,
-        "316": 0,
+        "316": 1,
         "317": 0,
         "318": 0,
-        "319": 0,
-        "320": 0,
-        "321": 0,
-        "322": 0,
+        "319": 1,
+        "320": 1,
+        "321": 1,
+        "322": 1,
         "323": 0,
-        "324": 0,
+        "324": 1,
         "325": 0,
         "326": 0,
-        "327": 0,
-        "328": 0,
-        "329": 0,
-        "330": 0,
+        "327": 1,
+        "328": 1,
+        "329": 2,
+        "330": 3,
         "331": 0,
         "332": 0,
         "333": 0,
-        "334": 0,
+        "334": 4,
         "335": 0,
         "336": 0,
-        "337": 0,
+        "337": 2,
         "338": 0,
         "339": 0,
-        "340": 0,
-        "341": 0,
-        "342": 0,
-        "343": 0,
-        "344": 0,
+        "340": 1,
+        "341": 1,
+        "342": 2,
+        "343": 1,
+        "344": 4,
         "345": 0,
         "346": 0,
         "347": 0,
-        "348": 0,
+        "348": 1,
         "349": 0,
         "350": 0,
-        "351": 0,
-        "352": 0,
+        "351": 2,
+        "352": 2,
         "353": 0,
         "354": 0,
         "355": 0,
@@ -11554,13 +12993,13 @@
         "357": 0,
         "358": 0,
         "359": 0,
-        "360": 0,
-        "361": 0,
+        "360": 2,
+        "361": 2,
         "362": 0,
         "363": 0,
-        "364": 0,
-        "365": 0,
-        "366": 0
+        "364": 3,
+        "365": 1,
+        "366": 2
       },
       "gamesPlayed": [
         {
@@ -13085,10 +14524,804 @@
           "name": "Ticket to Ride: Poland",
           "winner": "Hannah",
           "coOp": "No"
+        },
+        {
+          "date": "2020-08-23",
+          "name": "Codenames: Duet",
+          "coOp": "Yes",
+          "coOpOutcome": "Lost"
+        },
+        {
+          "date": "2020-08-23",
+          "name": "Codenames: Duet",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2020-08-23",
+          "name": "Design Town",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-08-23",
+          "name": "Ticket to Ride: Germany",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-08-24",
+          "name": "Splendor",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-08-28",
+          "name": "Codenames: Duet",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2020-08-30",
+          "name": "Viticulture: Tuscany",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-08-31",
+          "name": "Ticket to Ride: Heart of Africa",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-03",
+          "name": "Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-05",
+          "name": "Tanto Cuore",
+          "winner": "Hannah",
+          "coOp": "No",
+          "note": "3P"
+        },
+        {
+          "date": "2020-09-06",
+          "name": "Coup",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-06",
+          "name": "Ticket to Ride: Netherlands",
+          "winner": "Draw",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-06",
+          "name": "Wingspan",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-07",
+          "name": "Star Realms",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-10",
+          "name": "Topiary",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-12",
+          "name": "Corsairs of Valeria",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-12",
+          "name": "Ticket to Ride: Europa 1912",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-13",
+          "name": "Codenames",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2020-09-13",
+          "name": "Codenames",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2020-09-14",
+          "name": "Archer Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-15",
+          "name": "Lovecraft Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-16",
+          "name": "HATSUDEN",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-17",
+          "name": "Lovecraft Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-17",
+          "name": "Machi Koro",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-17",
+          "name": "Pandemic Hot Zone: North America",
+          "coOp": "Yes",
+          "coOpOutcome": "Lose"
+        },
+        {
+          "date": "2020-09-19",
+          "name": "Love Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-19",
+          "name": "Pandemic: The Cure",
+          "coOp": "Yes",
+          "coOpOutcome": "Lose"
+        },
+        {
+          "date": "2020-09-20",
+          "name": "Corsairs of Valeria",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-20",
+          "name": "Pandemic: The Cure",
+          "coOp": "Yes",
+          "coOpOutcome": "Win",
+          "note": "4P"
+        },
+        {
+          "date": "2020-09-22",
+          "name": "Codenames",
+          "coOp": "Yes",
+          "coOpOutcome": "Win"
+        },
+        {
+          "date": "2020-09-22",
+          "name": "Valeria: Card Kingdoms",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-23",
+          "name": "Pandemic: Contagion",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-24",
+          "name": "Ticket to Ride: Amsterdam",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-26",
+          "name": "Lovecraft Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-27",
+          "name": "Codenames",
+          "coOp": "Yes",
+          "coOpOutcome": "Lose"
+        },
+        {
+          "date": "2020-09-27",
+          "name": "Ticket to Ride",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-28",
+          "name": "Space Explorers",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-09-29",
+          "name": "Love Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-02",
+          "name": "Pirate 21",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-03",
+          "name": "Adventure Time: Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-03",
+          "name": "Aeon's End: Legacy",
+          "coOp": "Yes",
+          "coOpOutcome": "Win"
+        },
+        {
+          "date": "2020-10-03",
+          "name": "Aeon's End: Legacy",
+          "coOp": "Yes",
+          "coOpOutcome": "Win"
+        },
+        {
+          "date": "2020-10-03",
+          "name": "Aeon's End: Legacy",
+          "coOp": "Yes",
+          "coOpOutcome": "Win"
+        },
+        {
+          "date": "2020-10-03",
+          "name": "Aeon's End: Legacy",
+          "coOp": "Yes",
+          "coOpOutcome": "Win"
+        },
+        {
+          "date": "2020-10-04",
+          "name": "Aeon's End: Legacy",
+          "coOp": "Yes",
+          "coOpOutcome": "Win"
+        },
+        {
+          "date": "2020-10-04",
+          "name": "Aeon's End: Legacy",
+          "coOp": "Yes",
+          "coOpOutcome": "Win"
+        },
+        {
+          "date": "2020-10-04",
+          "name": "Aeon's End: Legacy",
+          "coOp": "Yes",
+          "coOpOutcome": "Win"
+        },
+        {
+          "date": "2020-10-05",
+          "name": "Aeon's End: Legacy",
+          "coOp": "Yes",
+          "coOpOutcome": "Win"
+        },
+        {
+          "date": "2020-10-06",
+          "name": "Lovecraft Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-07",
+          "name": "Codenames",
+          "coOp": "Yes",
+          "coOpOutcome": "Win"
+        },
+        {
+          "date": "2020-10-07",
+          "name": "Codenames",
+          "coOp": "Yes",
+          "coOpOutcome": "Win"
+        },
+        {
+          "date": "2020-10-08",
+          "name": "Adventure Time: Love Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-10",
+          "name": "Ticket to Ride: Asia",
+          "winner": "Hannah",
+          "coOp": "Yes"
+        },
+        {
+          "date": "2020-10-11",
+          "name": "Jurassic Snack",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-11",
+          "name": "Spirit Island",
+          "coOp": "Yes",
+          "coOpOutcome": "Lose"
+        },
+        {
+          "date": "2020-10-13",
+          "name": "Lovecraft Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-14",
+          "name": "Tanto Cuore",
+          "winner": "Hannah",
+          "coOp": "No",
+          "note": "With Romantic Vacation"
+        },
+        {
+          "date": "2020-10-16",
+          "name": "Cthulhu: A Deck Building Game",
+          "coOp": "Yes",
+          "coOpOutcome": "Lose"
+        },
+        {
+          "date": "2020-10-17",
+          "name": "Cthulhu: A Deck Building Game",
+          "coOp": "Yes",
+          "coOpOutcome": "Win"
+        },
+        {
+          "date": "2020-10-18",
+          "name": "Love Letter Kanai Edition",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-18",
+          "name": "Troika",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-20",
+          "name": "Mariposas",
+          "winner": "Draw",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-21",
+          "name": "Batman: Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-21",
+          "name": "Flotsam Fight",
+          "winner": "Draw",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-24",
+          "name": "HECK: A Tiny Card Game",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-24",
+          "name": "HECK: A Tiny Card Game",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-24",
+          "name": "Ticket to Ride: Rails and Sails",
+          "winner": "Draw",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-24",
+          "name": "Tricks and the Phantom",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-25",
+          "name": "El Alamein",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-25",
+          "name": "HECK: A Tiny Card Game",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-27",
+          "name": "Dominion: Prosperity",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-28",
+          "name": "Dominion: Prosperity",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-29",
+          "name": "Dominion: Seaside",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-29",
+          "name": "Marrying Mr. Darcy",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-10-31",
+          "name": "Lovecraft Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-01",
+          "name": "Betrayal Legacy",
+          "coOp": "Yes",
+          "coOpOutcome": "Win",
+          "note": "Heroes won"
+        },
+        {
+          "date": "2020-11-02",
+          "name": "Betrayal Legacy",
+          "coOp": "Yes",
+          "coOpOutcome": "Win",
+          "note": "Heroes won"
+        },
+        {
+          "date": "2020-11-03",
+          "name": "Dominion: Prosperity",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-05",
+          "name": "Dominion: Prosperity",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-06",
+          "name": "Dominion: Prosperity",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-06",
+          "name": "Love Letter",
+          "winner": "John",
+          "coOp": "No",
+          "note": "Wedding edition"
+        },
+        {
+          "date": "2020-11-07",
+          "name": "Root",
+          "winner": "Draw",
+          "coOp": "No",
+          "note": "Walkthrough game"
+        },
+        {
+          "date": "2020-11-07",
+          "name": "Silk",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-08",
+          "name": "Diamonsters",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-08",
+          "name": "HECK: A Tiny Card Game",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-08",
+          "name": "Root",
+          "winner": "Draw",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-08",
+          "name": "Silk",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-09",
+          "name": "Troika",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-11",
+          "name": "Corsairs of Valeria",
+          "winner": "Draw",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-14",
+          "name": "Villainous",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-15",
+          "name": "Forbidden Island",
+          "coOp": "Yes",
+          "coOpOutcome": "Win"
+        },
+        {
+          "date": "2020-11-16",
+          "name": "Lovecraft Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-17",
+          "name": "Flotsam Fight",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-19",
+          "name": "Flotsam Fight",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-22",
+          "name": "Ticket to Ride: Europe",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-23",
+          "name": "Topiary",
+          "winner": "Hannah ",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-24",
+          "name": "Archer Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-24",
+          "name": "Star Realms",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-25",
+          "name": "Archer Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-25",
+          "name": "Codenames",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2020-11-25",
+          "name": "Codenames",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2020-11-29",
+          "name": "Codenames",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2020-11-29",
+          "name": "Codenames",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2020-11-29",
+          "name": "Love Letter 2nd Edition",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-11-29",
+          "name": "Lovecraft Letter",
+          "winner": "Hannah ",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-02",
+          "name": "Corsairs of Valeria",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-02",
+          "name": "Love Letter 2nd Edition",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-05",
+          "name": "Ticket to Ride: Nordic Countries",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-06",
+          "name": "Dominion: Prosperity",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-07",
+          "name": "Dominion: Prosperity",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-07",
+          "name": "Letters to Santa",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-08",
+          "name": "Flotsam Fight",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-09",
+          "name": "Corsairs of Valeria",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-09",
+          "name": "Deep Sea Adventure",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2020-12-09",
+          "name": "Fafnir",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-09",
+          "name": "Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-13",
+          "name": "Pandemic",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2020-12-16",
+          "name": "Batman: Love Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-16",
+          "name": "Yam Yam",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-17",
+          "name": "Letters to Santa",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-17",
+          "name": "Patchwork Christmas ",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-25",
+          "name": "Letters to Santa",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-25",
+          "name": "Tanto Cuore: Winter Romance",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-26",
+          "name": "Star Realms",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-26",
+          "name": "Sweet Existence",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-29",
+          "name": "Mandala",
+          "winner": "Hannah ",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-29",
+          "name": "Mandala",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-29",
+          "name": "Mandala",
+          "winner": "John ",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-30",
+          "name": "Wingspan: Oceania",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2020-12-31",
+          "name": "Hanabi",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2020-12-31",
+          "name": "Love Letter",
+          "winner": "Hannah",
+          "coOp": "No",
+          "note": "4 Player"
         }
       ],
-      "totalGamesPlayed": 249,
-      "averageGamesPlayedPerDay": 0.6803,
+      "totalGamesPlayed": 380,
+      "averageGamesPlayedPerDay": 1.0383,
       "mostGamesPlayedInADay": [
         {
           "date": "2020-05-31",
@@ -13105,12 +15338,14 @@
       "uniqueGamesPlayed": [
         "7 Wonders",
         "Adventure Time: Love Letter",
+        "Aeon's End: Legacy",
         "Archer Love Letter",
         "Arlukkachase",
         "Azul",
         "Azul Summer Pavilion",
         "Barbarossa",
         "Batman: Love Letter",
+        "Betrayal Legacy",
         "Brass: Birmingham",
         "Carcassonne",
         "Castles of Burghandy",
@@ -13119,47 +15354,67 @@
         "Citadels",
         "Claim",
         "Codenames",
+        "Codenames: Duet",
         "Corsairs of Valeria",
         "Coup",
+        "Cthulhu: A Deck Building Game",
         "Deep Sea Adventure",
         "Design Town",
         "Diamonsters",
         "Dinosaur Island",
         "Doki Doki Beach Volleyball",
         "Dominion",
+        "Dominion: Prosperity",
         "Dominion: Seaside",
         "Dungeon of Mandom VIII",
+        "El Alamein",
         "Fafnir",
         "Flotsam Fight",
         "Forbidden Island",
         "Grifters: Nexus",
+        "HATSUDEN",
+        "HECK: A Tiny Card Game",
         "Hanabi",
         "Harry Potter: Hogwarts Battle",
         "Heart of Crown: Fairy Garden",
         "Hey, That's My Fish!",
         "Inhuman Conditions",
         "Jurassic Snack",
+        "Letters to Santa",
         "Lords of Waterdeep",
         "Love Letter",
+        "Love Letter 2nd Edition",
+        "Love Letter Kanai Edition",
         "Lovecraft Letter",
+        "Machi Koro",
+        "Mandala",
+        "Mariposas",
         "Marrying Mr. Darcy",
         "Mint Delivery",
         "Mint Works",
         "My Little Scythe",
         "Nine Tiles Panic",
+        "Pandemic",
         "Pandemic Hot Zone: North America",
         "Pandemic Legacy: Season 2",
+        "Pandemic: Contagion",
         "Pandemic: Fall of Rome",
         "Pandemic: Iberia",
         "Pandemic: Reign of Cthulhu",
         "Pandemic: Rising Tide",
+        "Pandemic: The Cure",
         "Patchwork",
+        "Patchwork Christmas ",
         "Photosynthesis",
+        "Pirate 21",
         "Reykholt",
+        "Root",
         "Sabotuer",
         "Scythe",
+        "Silk",
         "Space Base",
         "Space Explorers",
+        "Spirit Island",
         "Splendor",
         "Star Realms",
         "Star Realms: Colony Wars",
@@ -13167,6 +15422,7 @@
         "Sub Terra II",
         "Super-Bee",
         "Sushi Go!",
+        "Sweet Existence",
         "T.I.M.E Stories: A Prophecy of Dragons",
         "Tanto Cuore",
         "Tanto Cuore: Expanding the House",
@@ -13185,9 +15441,12 @@
         "Ticket to Ride Map Collection: Volume 6 – France & Old West",
         "Ticket to Ride Map Collection: Volume 7 – Japan & Italy",
         "Ticket to Ride: Amsterdam",
+        "Ticket to Ride: Asia",
+        "Ticket to Ride: Europa 1912",
         "Ticket to Ride: Europe",
         "Ticket to Ride: First Journey",
         "Ticket to Ride: Germany",
+        "Ticket to Ride: Heart of Africa",
         "Ticket to Ride: Japan",
         "Ticket to Ride: London",
         "Ticket to Ride: Netherlands",
@@ -13195,53 +15454,518 @@
         "Ticket to Ride: Nordic Countries",
         "Ticket to Ride: Poland",
         "Ticket to Ride: Rails & Sails",
+        "Ticket to Ride: Rails and Sails",
         "Tinker Tailor",
         "Topiary",
         "Tricks and the Phantom",
         "Troika",
         "Valeria: Card Kingdoms",
+        "Villainous",
         "Viticulture",
+        "Viticulture: Tuscany",
         "Viticulture: Tuscany Essential Edition",
         "Wingspan",
+        "Wingspan: Oceania",
         "Yam Yam"
       ],
-      "uniqueGamesPlayedCount": 101,
-      "uniqueGamesPlayedPercentage": 0.4056,
+      "uniqueGamesPlayedCount": 131,
+      "uniqueGamesPlayedPercentage": 0.3447,
       "mostPlayedGames": [
         {
           "name": "Love Letter",
-          "plays": 21
+          "plays": 27
         }
       ],
-      "coOpGamesPlayedCount": 47,
-      "coOpGamesPlayedPercentage": 0.1888,
-      "coOpGameWins": 33,
-      "coOpGameLoses": 14,
-      "winCountHannah": 109,
-      "winCountJohn": 88,
+      "coOpGamesPlayedCount": 81,
+      "coOpGamesPlayedPercentage": 0.2132,
+      "coOpGameWins": 60,
+      "coOpGameLoses": 21,
+      "winCountHannah": 157,
+      "winCountJohn": 131,
       "winCountOther": 4,
-      "winCountDraw": 2,
-      "winnableGamesTotal": 203,
-      "winPercentageHannah": 0.5369,
-      "winPercentageJohn": 0.4335,
-      "winPercentageOther": 0.0197,
-      "winPercentageDraw": 0.0099,
+      "winCountDraw": 9,
+      "winnableGamesTotal": 301,
+      "winPercentageHannah": 0.5216,
+      "winPercentageJohn": 0.4352,
+      "winPercentageOther": 0.0133,
+      "winPercentageDraw": 0.0299,
       "mostWonGames": "Hannah",
       "mostWonGamesJohn": [
         {
           "game": "Corsairs of Valeria",
-          "plays": 5
+          "plays": 7
+        },
+        {
+          "game": "Love Letter",
+          "plays": 7
         }
       ],
       "mostWonGamesHannah": [
         {
           "game": "Love Letter",
-          "plays": 16
+          "plays": 19
+        }
+      ]
+    },
+    {
+      "dateCode": "2021",
+      "title": "2021",
+      "sequenceStartDate": "2021-01-01",
+      "sequenceEndDate": "2021-12-31",
+      "daysInSequence": 365,
+      "daysWithUnplayedGames": 363,
+      "gamesPlayedPerDay": {
+        "1": 2,
+        "2": 0,
+        "3": 1,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0,
+        "14": 0,
+        "15": 0,
+        "16": 0,
+        "17": 0,
+        "18": 0,
+        "19": 0,
+        "20": 0,
+        "21": 0,
+        "22": 0,
+        "23": 0,
+        "24": 0,
+        "25": 0,
+        "26": 0,
+        "27": 0,
+        "28": 0,
+        "29": 0,
+        "30": 0,
+        "31": 0,
+        "32": 0,
+        "33": 0,
+        "34": 0,
+        "35": 0,
+        "36": 0,
+        "37": 0,
+        "38": 0,
+        "39": 0,
+        "40": 0,
+        "41": 0,
+        "42": 0,
+        "43": 0,
+        "44": 0,
+        "45": 0,
+        "46": 0,
+        "47": 0,
+        "48": 0,
+        "49": 0,
+        "50": 0,
+        "51": 0,
+        "52": 0,
+        "53": 0,
+        "54": 0,
+        "55": 0,
+        "56": 0,
+        "57": 0,
+        "58": 0,
+        "59": 0,
+        "60": 0,
+        "61": 0,
+        "62": 0,
+        "63": 0,
+        "64": 0,
+        "65": 0,
+        "66": 0,
+        "67": 0,
+        "68": 0,
+        "69": 0,
+        "70": 0,
+        "71": 0,
+        "72": 0,
+        "73": 0,
+        "74": 0,
+        "75": 0,
+        "76": 0,
+        "77": 0,
+        "78": 0,
+        "79": 0,
+        "80": 0,
+        "81": 0,
+        "82": 0,
+        "83": 0,
+        "84": 0,
+        "85": 0,
+        "86": 0,
+        "87": 0,
+        "88": 0,
+        "89": 0,
+        "90": 0,
+        "91": 0,
+        "92": 0,
+        "93": 0,
+        "94": 0,
+        "95": 0,
+        "96": 0,
+        "97": 0,
+        "98": 0,
+        "99": 0,
+        "100": 0,
+        "101": 0,
+        "102": 0,
+        "103": 0,
+        "104": 0,
+        "105": 0,
+        "106": 0,
+        "107": 0,
+        "108": 0,
+        "109": 0,
+        "110": 0,
+        "111": 0,
+        "112": 0,
+        "113": 0,
+        "114": 0,
+        "115": 0,
+        "116": 0,
+        "117": 0,
+        "118": 0,
+        "119": 0,
+        "120": 0,
+        "121": 0,
+        "122": 0,
+        "123": 0,
+        "124": 0,
+        "125": 0,
+        "126": 0,
+        "127": 0,
+        "128": 0,
+        "129": 0,
+        "130": 0,
+        "131": 0,
+        "132": 0,
+        "133": 0,
+        "134": 0,
+        "135": 0,
+        "136": 0,
+        "137": 0,
+        "138": 0,
+        "139": 0,
+        "140": 0,
+        "141": 0,
+        "142": 0,
+        "143": 0,
+        "144": 0,
+        "145": 0,
+        "146": 0,
+        "147": 0,
+        "148": 0,
+        "149": 0,
+        "150": 0,
+        "151": 0,
+        "152": 0,
+        "153": 0,
+        "154": 0,
+        "155": 0,
+        "156": 0,
+        "157": 0,
+        "158": 0,
+        "159": 0,
+        "160": 0,
+        "161": 0,
+        "162": 0,
+        "163": 0,
+        "164": 0,
+        "165": 0,
+        "166": 0,
+        "167": 0,
+        "168": 0,
+        "169": 0,
+        "170": 0,
+        "171": 0,
+        "172": 0,
+        "173": 0,
+        "174": 0,
+        "175": 0,
+        "176": 0,
+        "177": 0,
+        "178": 0,
+        "179": 0,
+        "180": 0,
+        "181": 0,
+        "182": 0,
+        "183": 0,
+        "184": 0,
+        "185": 0,
+        "186": 0,
+        "187": 0,
+        "188": 0,
+        "189": 0,
+        "190": 0,
+        "191": 0,
+        "192": 0,
+        "193": 0,
+        "194": 0,
+        "195": 0,
+        "196": 0,
+        "197": 0,
+        "198": 0,
+        "199": 0,
+        "200": 0,
+        "201": 0,
+        "202": 0,
+        "203": 0,
+        "204": 0,
+        "205": 0,
+        "206": 0,
+        "207": 0,
+        "208": 0,
+        "209": 0,
+        "210": 0,
+        "211": 0,
+        "212": 0,
+        "213": 0,
+        "214": 0,
+        "215": 0,
+        "216": 0,
+        "217": 0,
+        "218": 0,
+        "219": 0,
+        "220": 0,
+        "221": 0,
+        "222": 0,
+        "223": 0,
+        "224": 0,
+        "225": 0,
+        "226": 0,
+        "227": 0,
+        "228": 0,
+        "229": 0,
+        "230": 0,
+        "231": 0,
+        "232": 0,
+        "233": 0,
+        "234": 0,
+        "235": 0,
+        "236": 0,
+        "237": 0,
+        "238": 0,
+        "239": 0,
+        "240": 0,
+        "241": 0,
+        "242": 0,
+        "243": 0,
+        "244": 0,
+        "245": 0,
+        "246": 0,
+        "247": 0,
+        "248": 0,
+        "249": 0,
+        "250": 0,
+        "251": 0,
+        "252": 0,
+        "253": 0,
+        "254": 0,
+        "255": 0,
+        "256": 0,
+        "257": 0,
+        "258": 0,
+        "259": 0,
+        "260": 0,
+        "261": 0,
+        "262": 0,
+        "263": 0,
+        "264": 0,
+        "265": 0,
+        "266": 0,
+        "267": 0,
+        "268": 0,
+        "269": 0,
+        "270": 0,
+        "271": 0,
+        "272": 0,
+        "273": 0,
+        "274": 0,
+        "275": 0,
+        "276": 0,
+        "277": 0,
+        "278": 0,
+        "279": 0,
+        "280": 0,
+        "281": 0,
+        "282": 0,
+        "283": 0,
+        "284": 0,
+        "285": 0,
+        "286": 0,
+        "287": 0,
+        "288": 0,
+        "289": 0,
+        "290": 0,
+        "291": 0,
+        "292": 0,
+        "293": 0,
+        "294": 0,
+        "295": 0,
+        "296": 0,
+        "297": 0,
+        "298": 0,
+        "299": 0,
+        "300": 0,
+        "301": 0,
+        "302": 0,
+        "303": 0,
+        "304": 0,
+        "305": 0,
+        "306": 0,
+        "307": 0,
+        "308": 0,
+        "309": 0,
+        "310": 0,
+        "311": 0,
+        "312": 0,
+        "313": 0,
+        "314": 0,
+        "315": 0,
+        "316": 0,
+        "317": 0,
+        "318": 0,
+        "319": 0,
+        "320": 0,
+        "321": 0,
+        "322": 0,
+        "323": 0,
+        "324": 0,
+        "325": 0,
+        "326": 0,
+        "327": 0,
+        "328": 0,
+        "329": 0,
+        "330": 0,
+        "331": 0,
+        "332": 0,
+        "333": 0,
+        "334": 0,
+        "335": 0,
+        "336": 0,
+        "337": 0,
+        "338": 0,
+        "339": 0,
+        "340": 0,
+        "341": 0,
+        "342": 0,
+        "343": 0,
+        "344": 0,
+        "345": 0,
+        "346": 0,
+        "347": 0,
+        "348": 0,
+        "349": 0,
+        "350": 0,
+        "351": 0,
+        "352": 0,
+        "353": 0,
+        "354": 0,
+        "355": 0,
+        "356": 0,
+        "357": 0,
+        "358": 0,
+        "359": 0,
+        "360": 0,
+        "361": 0,
+        "362": 0,
+        "363": 0,
+        "364": 0,
+        "365": 0
+      },
+      "gamesPlayed": [
+        {
+          "date": "2021-01-01",
+          "name": "Jurassic Snack",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2021-01-01",
+          "name": "Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2021-01-03",
+          "name": "Tanto Cuore: Winter Romance",
+          "winner": "Hannah",
+          "coOp": "No"
+        }
+      ],
+      "totalGamesPlayed": 3,
+      "averageGamesPlayedPerDay": 0.0082,
+      "mostGamesPlayedInADay": [
+        {
+          "date": "2021-01-01",
+          "games": [
+            "Jurassic Snack",
+            "Love Letter"
+          ]
+        }
+      ],
+      "uniqueGamesPlayed": [
+        "Jurassic Snack",
+        "Love Letter",
+        "Tanto Cuore: Winter Romance"
+      ],
+      "uniqueGamesPlayedCount": 3,
+      "uniqueGamesPlayedPercentage": 1,
+      "mostPlayedGames": [
+        {
+          "name": "Jurassic Snack",
+          "plays": 1
+        },
+        {
+          "name": "Love Letter",
+          "plays": 1
+        },
+        {
+          "name": "Tanto Cuore: Winter Romance",
+          "plays": 1
+        }
+      ],
+      "coOpGamesPlayedCount": 0,
+      "coOpGamesPlayedPercentage": 0,
+      "coOpGameWins": 0,
+      "coOpGameLoses": 0,
+      "winCountHannah": 2,
+      "winCountJohn": 1,
+      "winCountOther": 0,
+      "winCountDraw": 0,
+      "winnableGamesTotal": 3,
+      "winPercentageHannah": 0.6667,
+      "winPercentageJohn": 0.3333,
+      "winPercentageOther": 0,
+      "winPercentageDraw": 0,
+      "mostWonGames": "Hannah",
+      "mostWonGamesJohn": [
+        {
+          "game": "Jurassic Snack",
+          "plays": 1
+        }
+      ],
+      "mostWonGamesHannah": [
+        {
+          "game": "Tanto Cuore: Winter Romance",
+          "plays": 1
+        },
+        {
+          "game": "Love Letter",
+          "plays": 1
         }
       ]
     }
   ],
   "earliestDate": "2018-01-01",
-  "latestDate": "2020-08-22",
-  "numberOfDaysCovered": 965
+  "latestDate": "2021-01-03",
+  "numberOfDaysCovered": 1099
 }
