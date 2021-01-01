@@ -4,69 +4,107 @@
 	"properties": {
 		"dateCode": {
 			"type": "string",
-			"pattern": "^\\d{4}rewr$"
+			"pattern": "^\\d{4}$"
 		},
 		"title": {
 			"type": "string"
-		}
-	},
-	"challenge": {
-		"type": "object",
-		"properties": {
-			"startDate": {
-				"type": "string",
-				"pattern": "^\\d{4}$"
-			},
-			"endDate": {
-				"type": "string",
-				"pattern": "^\\d{4}$"
-			},
-			"gameFamilies": {
-				"type": "array",
-				"items": {
-					"type": "string"
+		},
+		"challenge": {
+			"type": "object",
+			"properties": {
+				"startDate": {
+					"type": "string",
+					"pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+				},
+				"endDate": {
+					"type": "string",
+					"pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+				},
+				"gameFamilies": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"gameFamiliesCount": {
+					"type": "integer"
+				},
+				"gamesToPlayCountPerFamily": {
+					"type": "integer"
 				}
-			},
-			"gameFamiliesCount": {
-				"type": "integer"
-			},
-			"gamesToPlayCountPerFamily": {
-				"type": "integer"
-			},
-			"grid": {
-				"type": "array",
-				"items": {
-
-				}
-			},
-			"overview": {
+			}
+		},
+		"grid": {
+			"type": "array",
+			"items": {
 				"type": "object",
 				"properties": {
-					"gamesPlayedCount": {
-						"type": "integer"
+					"gameFamily": {
+						"type": "string"
 					},
-					"totalGamesToPlayCount": {
+					"gameStats": {
+						"type": "array",
+						"items": {
+							"type": "object",
+							"properties": {
+								"date": {
+									"type": "string",
+									"pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+								},
+								"game": {
+									"type": "string"
+								},
+								"coOp": {
+									"type": "string"
+								},
+								"coOpOutcome": {
+									"type": "string"
+								},
+								"note": {
+									"type": "string"
+								},
+								"gameFamily": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"gamesPlayedCount": {
 						"type": "integer"
 					},
 					"gamesPlayedPercentage": {
 						"type": "number"
 					}
 				}
-			},
-			"sequence": {
-				"type": "object",
-				"properties": {
-					"startDate": {
-						"type": "string",
-						"pattern": "^\\d{4}234$"
-					},
-					"endDate": {
-						"type": "string",
-						"pattern": "^\\d{4}234$"
-					},
-					"daysInSequenceCount": {
-						"type": "integer"
-					}
+			}
+		},
+		"overview": {
+			"type": "object",
+			"properties": {
+				"gamesPlayedCount": {
+					"type": "integer"
+				},
+				"totalGamesToPlayCount": {
+					"type": "integer"
+				},
+				"gamesPlayedPercentage": {
+					"type": "number"
+				}
+			}
+		},
+		"sequence": {
+			"type": "object",
+			"properties": {
+				"startDate": {
+					"type": "string",
+					"pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+				},
+				"endDate": {
+					"type": "string",
+					"pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+				},
+				"daysInSequenceCount": {
+					"type": "integer"
 				}
 			}
 		}

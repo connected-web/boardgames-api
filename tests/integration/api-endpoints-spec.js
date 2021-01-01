@@ -40,12 +40,12 @@ async function test (apiPath, apiSchemaPath) {
     expect(schemaValidation.schema).to.not.have.property('status', '404')
   }
 
-  if (schemaValidation.errors.length > 0) {
+  const validationErrors = schemaValidation.errors.map(error => [error.property, error.message].join(' : '))
+  if (validationErrors.length > 0) {
     const schemaErrorsFilePath = schemaErrorsPath(apiPath.replace(/\//g, '-') + '.json')
     await write(schemaErrorsFilePath, JSON.stringify(schemaValidation.errors, null, 2), 'utf8')
   }
-
-  expect(schemaValidation.errors.map(error => error.message)).to.deep.equal([])
+  expect(validationErrors).to.deep.equal([])
 }
 
 describe('API Endpoints', () => {
@@ -59,10 +59,6 @@ describe('API Endpoints', () => {
   })
 
   endpointData.endpoints.forEach((endpoint) => {
-    if (endpoint !== '/api/boardgame/grids/byYear/2018/sample') {
-      // return
-    }
-
     describe(`${endpoint.method} ${endpoint.description}`, () => {
       const testPath = endpoint.example || endpoint.path
       if (endpoint.example) {
