@@ -28,10 +28,13 @@ const modes = {
     include: ['api/**/*']
   }),
   'live-summaries': () => deploy({
-    include: ['data/summaries/*']
+    include: ['data/summaries/*', 'data/challenge-grids/*']
   }),
   'live-summaries-2020': () => deploy({
     include: ['data/summaries/*2020*']
+  }),
+  'live-summaries-2021': () => deploy({
+    include: ['data/summaries/*2021*']
   }),
   'live-index': () => deploy({
     include: ['data/summaries/*']
