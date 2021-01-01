@@ -1,0 +1,74 @@
+{
+  "dateCode": "2018",
+  "title": "Made up challenge grid for 2018",
+  "challenge": {
+    "startDate": "2018-01-01",
+    "endDate": "2018-12-31",
+    "gameFamilies": [
+      "Pandemic",
+      "Love Letter",
+      "Dominion"
+    ],
+    "gameFamiliesCount": 3,
+    "gamesToPlayCountPerFamily": 5
+  },
+  "grid": [{
+    "gameFamily": "Pandemic",
+    "gameStats": [{
+      "date": "2018-04-01",
+      "game": "Pandemic Fall of Rome",
+      "coOp": "Yes",
+      "coOpOutcome": "Won",
+      "note": "Game 1",
+      "gameFamily": "Pandemic"
+    }, {
+      "date": "2018-04-02",
+      "game": "Pademic: Contaigon",
+      "coOp": "Yes",
+      "coOpOutcome": "Won",
+      "note": "Second game - Fire broke out midway",
+      "gameFamily": "Pandemic"
+    }],
+    "gamesPlayedCount": 2,
+    "gamesPlayedPercentage": 0.4
+  }, {
+    "gameFamily": "Love Letter",
+    "gameStats": [],
+    "gamesPlayedCount": 0,
+    "gamesPlayedPercentage": 0.0
+  }, {
+    "gameFamily": "Dominion",
+    "gameStats": [{
+      "date": "2018-04-03",
+      "game": "Dominion: Seaside",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Dominion"
+    }, {
+      "date": "2018-04-05",
+      "game": "Dominion: Prosperity",
+      "winner": "John",
+      "coOp": "No",
+      "notes": "Used Garden from base game",
+      "gameFamily": "Dominion"
+    }, {
+      "date": "2018-04-06",
+      "game": "Dominion 2nd Edition",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Dominion"
+    }],
+    "gamesPlayedCount": 3,
+    "gamesPlayedPercentage": 1.0
+  }],
+  "overview": {
+    "gamesPlayedCount": 5,
+    "totalGamesToPlayCount": 15,
+    "gamesPlayedPercentage": 0.33
+  },
+  "sequence": {
+    "startDate": "2018-04-01",
+    "endDate": "2018-04-02",
+    "daysInSequenceCount": 2
+  }
+}

@@ -1,9 +1,10 @@
 const config = require('./helpers/config')
-const { fetch, position } = require('promise-path')
+const { fetch, position, write } = require('promise-path')
 const { expect } = require('chai')
 const { validate } = require('jsonschema')
 
 const apiPath = position(__dirname, '../../api/')
+const schemaErrorsPath = position(__dirname, 'schema-errors')
 const endpointData = require(apiPath('endpoints.json'))
 
 async function fetchJSON (url) {
@@ -32,11 +33,23 @@ async function test (apiPath, apiSchemaPath) {
   const schemaValidation = validate(endpointData, apiSchema)
 
   expect(endpointData).to.not.have.property('status', '404')
-  expect(schemaValidation.errors).to.deep.equal([])
+  try {
+    expect(schemaValidation.schema).to.not.have.property('status', '404')
+  } catch (ex) {
+    console.log('Schema validation:', schemaValidation)
+    expect(schemaValidation.schema).to.not.have.property('status', '404')
+  }
+
+  const validationErrors = schemaValidation.errors.map(error => [error.property, error.message].join(' : '))
+  if (validationErrors.length > 0) {
+    const schemaErrorsFilePath = schemaErrorsPath(apiPath.replace(/\//g, '-') + '.json')
+    await write(schemaErrorsFilePath, JSON.stringify(schemaValidation.errors, null, 2), 'utf8')
+  }
+  expect(validationErrors).to.deep.equal([])
 }
 
 describe('API Endpoints', () => {
-  it('GET /api/endpoints should list all available endpoints', async () => test(`${config.serverPath}/api/endpoints`, `${config.serverPath}/api/schema`))
+  it('GET /api/endpoints should list all available endpoints', async () => test(`${config.serverPath}/api/endpoints`, `${config.serverPath}/api/endpoints/schema`))
   it('GET /api/endpoints should match the local data used to generate these tests', async () => {
     const actual = await fetchJSON(`${config.serverPath}/api/endpoints`)
     const actualEndpoints = (actual && actual.endpoints) || []

@@ -100,12 +100,12 @@ async function createBoardGameSummaries (model) {
     }
     games.forEach(item => {
       const dayNumber = daysBetween(startDate, new Date(item.date))
-      daysPlayedIndex[dayNumber]++
+      daysPlayedIndex[dayNumber] = (daysPlayedIndex[dayNumber] || 0) + 1
     })
     const daysPlayedList = Object.keys(daysPlayedIndex).map(n => {
       return {
         dayOfSequence: n,
-        gamesPlayed: daysPlayedIndex[n]
+        gamesPlayed: daysPlayedIndex[n] || 0
       }
     })
     result.daysInSequence = daysInSequence

@@ -28,8 +28,8 @@
       }
     },
     "accepts": "application/json",
-    "schema": "/api/boardgame/by/:boardGameApiId/schema",
-    "sample": "/api/boardgame/by/:boardGameApiId/sample",
+    "schema": "/api/boardgame/by/id/schema",
+    "sample": "/api/boardgame/by/id/sample",
     "sourceId": "boardgame-by-id"
   }, {
     "path": "/api/boardgame/feed",
@@ -69,8 +69,8 @@
       }
     },
     "accepts": "application/json",
-    "schema": "/api/boardgame/stats/byMonth/:dateCode/schema",
-    "sample": "/api/boardgame/stats/byMonth/:dateCode/sample",
+    "schema": "/api/boardgame/stats/byMonth/0000-00/schema",
+    "sample": "/api/boardgame/stats/byMonth/0000-00/sample",
     "sourceId": "boardgame-stats-byMonth"
   }, {
     "path": "/api/boardgame/stats/byYear/toDate",
@@ -94,9 +94,25 @@
       }
     },
     "accepts": "application/json",
-    "schema": "/api/boardgame/stats/byYear/:dateCode/schema",
-    "sample": "/api/boardgame/stats/byYear/:dateCode/sample",
+    "schema": "/api/boardgame/stats/byYear/0000/schema",
+    "sample": "/api/boardgame/stats/byYear/0000/sample",
     "sourceId": "boardgame-stats-byYear"
+  }, {
+    "path": "/api/boardgame/grids/byYear/:yearCode",
+    "regex": "/\\/api\\/boardgame\\/grids\\/byYear\\/(\\d{4})/",
+    "example": "/api/boardgame/grids/byYear/2018",
+    "method": "GET",
+    "description": "Return a challenge grid of board games stats for a specific year played by John and Hannah. ",
+    "properties": {
+      ":dateCode": {
+        "description": "Year codes come in the form yyyy, for example: 2018",
+        "regex": "/\\d{4}/"
+      }
+    },
+    "accepts": "application/json",
+    "schema": "/api/boardgame/grids/byYear/0000/schema",
+    "sample": "/api/boardgame/grids/byYear/0000/sample",
+    "sourceId": "boardgame-grids-byYear"
   }, {
     "path": "/api/boardgame/unique/games/played",
     "method": "GET",
