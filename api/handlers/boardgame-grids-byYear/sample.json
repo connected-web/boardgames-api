@@ -10,7 +10,7 @@
       "Dominion"
     ],
     "gameFamiliesCount": 3,
-    "gamesToPlayCount": 5
+    "gamesToPlayCountPerFamily": 5
   },
   "grid": [{
     "gameFamily": "Pandemic",
@@ -61,6 +61,11 @@
     "gamesPlayedCount": 3,
     "gamesPlayedPercentage": 1.0
   }],
+  "overview": {
+    "gamesPlayedCount": 5,
+    "totalGamesToPlayCount": 15,
+    "gamesPlayedPercentage": 0.33
+  },
   "sequence": {
     "startDate": "2018-04-01",
     "endDate": "2018-04-02",
