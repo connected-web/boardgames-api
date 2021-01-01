@@ -32,11 +32,17 @@ async function test (apiPath, apiSchemaPath) {
   const schemaValidation = validate(endpointData, apiSchema)
 
   expect(endpointData).to.not.have.property('status', '404')
+  try {
+    expect(schemaValidation.schema).to.not.have.property('status', '404')
+  } catch (ex) {
+    console.log('Schema validation:', schemaValidation)
+    expect(schemaValidation.schema).to.not.have.property('status', '404')
+  }
   expect(schemaValidation.errors).to.deep.equal([])
 }
 
 describe('API Endpoints', () => {
-  it('GET /api/endpoints should list all available endpoints', async () => test(`${config.serverPath}/api/endpoints`, `${config.serverPath}/api/schema`))
+  it('GET /api/endpoints should list all available endpoints', async () => test(`${config.serverPath}/api/endpoints`, `${config.serverPath}/api/endpoints/schema`))
   it('GET /api/endpoints should match the local data used to generate these tests', async () => {
     const actual = await fetchJSON(`${config.serverPath}/api/endpoints`)
     const actualEndpoints = (actual && actual.endpoints) || []
@@ -46,6 +52,10 @@ describe('API Endpoints', () => {
   })
 
   endpointData.endpoints.forEach((endpoint) => {
+    if (endpoint !== '/api/boardgame/grids/byYear/2018/sample') {
+      // return
+    }
+
     describe(`${endpoint.method} ${endpoint.description}`, () => {
       const testPath = endpoint.example || endpoint.path
       if (endpoint.example) {

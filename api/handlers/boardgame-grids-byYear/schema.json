@@ -4,10 +4,71 @@
 	"properties": {
 		"dateCode": {
 			"type": "string",
-			"pattern": "^\\d{4}$"
+			"pattern": "^\\d{4}rewr$"
 		},
 		"title": {
 			"type": "string"
+		}
+	},
+	"challenge": {
+		"type": "object",
+		"properties": {
+			"startDate": {
+				"type": "string",
+				"pattern": "^\\d{4}$"
+			},
+			"endDate": {
+				"type": "string",
+				"pattern": "^\\d{4}$"
+			},
+			"gameFamilies": {
+				"type": "array",
+				"items": {
+					"type": "string"
+				}
+			},
+			"gameFamiliesCount": {
+				"type": "integer"
+			},
+			"gamesToPlayCountPerFamily": {
+				"type": "integer"
+			},
+			"grid": {
+				"type": "array",
+				"items": {
+
+				}
+			},
+			"overview": {
+				"type": "object",
+				"properties": {
+					"gamesPlayedCount": {
+						"type": "integer"
+					},
+					"totalGamesToPlayCount": {
+						"type": "integer"
+					},
+					"gamesPlayedPercentage": {
+						"type": "number"
+					}
+				}
+			},
+			"sequence": {
+				"type": "object",
+				"properties": {
+					"startDate": {
+						"type": "string",
+						"pattern": "^\\d{4}234$"
+					},
+					"endDate": {
+						"type": "string",
+						"pattern": "^\\d{4}234$"
+					},
+					"daysInSequenceCount": {
+						"type": "integer"
+					}
+				}
+			}
 		}
 	},
 	"additionalProperties": false
