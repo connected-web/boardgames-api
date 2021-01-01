@@ -45,7 +45,7 @@ async function test (apiPath, apiSchemaPath) {
     await write(schemaErrorsFilePath, JSON.stringify(schemaValidation.errors, null, 2), 'utf8')
   }
 
-  expect(schemaValidation.errors.map(error => error.argument)).to.deep.equal([])
+  expect(schemaValidation.errors.map(error => error.message)).to.deep.equal([])
 }
 
 describe('API Endpoints', () => {
