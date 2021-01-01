@@ -1,9 +1,10 @@
 const config = require('./helpers/config')
-const { fetch, position } = require('promise-path')
+const { fetch, position, write } = require('promise-path')
 const { expect } = require('chai')
 const { validate } = require('jsonschema')
 
 const apiPath = position(__dirname, '../../api/')
+const schemaErrorsPath = position(__dirname, 'schema-errors')
 const endpointData = require(apiPath('endpoints.json'))
 
 async function fetchJSON (url) {
@@ -38,7 +39,13 @@ async function test (apiPath, apiSchemaPath) {
     console.log('Schema validation:', schemaValidation)
     expect(schemaValidation.schema).to.not.have.property('status', '404')
   }
-  expect(schemaValidation.errors).to.deep.equal([])
+
+  if (schemaValidation.errors.length > 0) {
+    const schemaErrorsFilePath = schemaErrorsPath(apiPath.replace(/\//g, '-') + '.json')
+    await write(schemaErrorsFilePath, JSON.stringify(schemaValidation.errors, null, 2), 'utf8')
+  }
+
+  expect(schemaValidation.errors.map(error => error.argument)).to.deep.equal([])
 }
 
 describe('API Endpoints', () => {
