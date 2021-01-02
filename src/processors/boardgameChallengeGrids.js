@@ -14,16 +14,50 @@ const mutateRemoveEmpty = (obj) => {
 
 const challenges = {
   2018: {
-
+    gameFamilies: [
+      'Pandemic',
+      'Love Letter',
+      'Dominion'
+    ],
+    gamesToPlayCountPerFamily: 5
   },
   2019: {
-
+    gameFamilies: [],
+    gamesToPlayCountPerFamily: 0
   },
   2020: {
-
+    gameFamilies: [
+      'Pandemic',
+      'Love Letter',
+      'Dominion'
+    ],
+    gamesToPlayCountPerFamily: 10
   },
   2021: {
-
+    gameFamilies: [
+      'Flotsam Fight',
+      'Jurassic Snack',
+      'Love Letter',
+      'Mint Works',
+      'Corsairs of Valeria',
+      'Deep Sea Adventure',
+      'Lovecraft Letter',
+      'Design Town',
+      'Topiary',
+      'Dominion',
+      '7 Wonders',
+      'Star Realms',
+      'Pandemic',
+      'Tanto Cuore',
+      'Ticket to Ride',
+      'Valeria Card Kingdoms',
+      'Aeon\'s End',
+      'Wingspan',
+      'Brass',
+      'Scythe',
+      'Wilcard *'
+    ],
+    gamesToPlayCountPerFamily: 20
   }
 }
 
@@ -35,8 +69,35 @@ async function createChallengeGrids (model) {
 
   mutateRemoveEmpty(gridsByYear)
 
-  Object.entries(challenges).forEach(([year, challenge]) => {
+  const challengeYears = Object.entries(challenges).map(([year, challenge]) => {
     report('Challenge', year, JSON.stringify(challenge))
+    const { gameFamilies, gamesToPlayCountPerFamily } = challenge
+    return {
+      dateCode: `${year}`,
+      title: `Challenge Grid for ${year}`,
+      challenge: {
+        startDate: `${year}-01-01`,
+        endDate: `${year}-12-31`,
+        gameFamilies,
+        ganeFamiliesCount: gameFamilies.length,
+        gamesToPlayCountPerFamily
+      },
+      grid: [],
+      overview: {
+        gamesPlayedCount: 0,
+        totalGamesToPlayCount: 0,
+        gamesPlayedPercentage: 0,
+      },
+      sequence: {
+        startDate: `${year}-01-01`,
+        endDate: `${year}-01-01`,
+        daysInSequence: 1
+      }
+    }
+  })
+
+  challengeYears.forEach(year => {
+    gridsByYear[year.dateCode] = year
   })
 
   model.calisaurus.challengeGrids = { byYear: gridsByYear }
