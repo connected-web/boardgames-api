@@ -60,7 +60,7 @@ const challenges = {
   }
 }
 
-function createChallengeGridForYear(challenge, year) {
+function createChallengeGridForYear (challenge, year) {
   const { gameFamilies, gamesToPlayCountPerFamily } = challenge
   return {
     dateCode: `${year}`,
@@ -86,7 +86,7 @@ function createChallengeGridForYear(challenge, year) {
   }
 }
 
-function populateChallengeGrid(challengeYear, gameFamily, boardGameFeed) {
+function populateChallengeGrid (challengeYear, gameFamily, boardGameFeed) {
 
 }
 
@@ -102,7 +102,7 @@ async function createChallengeGrids (model) {
   })
 
   challengeGrids.forEach(challengeGrid => {
-    challengeGrid.challenge.gameFamilies.forEach((gameFamily) => 
+    challengeGrid.challenge.gameFamilies.forEach((gameFamily) =>
       populateChallengeGrid(challengeGrid, gameFamily, boardGameFeed)
     )
   })
