@@ -1,10 +1,11 @@
 {
   "sequenceStartDate": "2021-01-01",
-  "sequenceEndDate": "2021-01-01",
-  "daysInSequence": 1,
-  "daysWithUnplayedGames": 0,
+  "sequenceEndDate": "2021-01-02",
+  "daysInSequence": 2,
+  "daysWithUnplayedGames": 1,
   "gamesPlayedPerDay": {
     "1": 2,
+    "2": 0,
     "3": 1
   },
   "gamesPlayed": [
@@ -28,7 +29,7 @@
     }
   ],
   "totalGamesPlayed": 3,
-  "averageGamesPlayedPerDay": 3,
+  "averageGamesPlayedPerDay": 1.5,
   "mostGamesPlayedInADay": [
     {
       "date": "2021-01-01",

@@ -1,5 +1,4 @@
 const log = []
-const sortByFeedPriority = require('../util/sortByFeedPriority')
 const report = (...messages) => log.push(['[Board Game Challenge Grids]', ...messages].join(' '))
 
 const mutateRemoveEmpty = (obj) => {
@@ -86,7 +85,7 @@ async function createChallengeGrids (model) {
       overview: {
         gamesPlayedCount: 0,
         totalGamesToPlayCount: 0,
-        gamesPlayedPercentage: 0,
+        gamesPlayedPercentage: 0
       },
       sequence: {
         startDate: `${year}-01-01`,

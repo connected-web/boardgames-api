@@ -6,6 +6,7 @@ const expected = `[Board Game API Run] Available scripts to run:
   node run all
   node run create-all
   node run create-bgg-index
+  node run create-boardgame-challenge-grids
   node run create-boardgame-feed
   node run create-boardgame-index
   node run create-boardgame-list
