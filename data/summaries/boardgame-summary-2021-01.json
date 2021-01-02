@@ -4,11 +4,11 @@
   "sequenceStartDate": "2021-01-01",
   "sequenceEndDate": "2021-01-31",
   "daysInSequence": 31,
-  "daysWithUnplayedGames": 29,
+  "daysWithUnplayedGames": 30,
   "gamesPlayedPerDay": {
-    "1": 2,
+    "1": 7,
     "2": 0,
-    "3": 1,
+    "3": 0,
     "4": 0,
     "5": 0,
     "6": 0,
@@ -41,6 +41,24 @@
   "gamesPlayed": [
     {
       "date": "2021-01-01",
+      "name": "Corsairs of Valeria",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2021-01-01",
+      "name": "Deep Sea Adventure",
+      "coOp": "Yes",
+      "coOpOutcome": "Won"
+    },
+    {
+      "date": "2021-01-01",
+      "name": "Flotsam Fight",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2021-01-01",
       "name": "Jurassic Snack",
       "winner": "John",
       "coOp": "No"
@@ -48,35 +66,62 @@
     {
       "date": "2021-01-01",
       "name": "Love Letter",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2021-01-01",
+      "name": "Lovecraft Letter",
       "winner": "Hannah",
       "coOp": "No"
     },
     {
-      "date": "2021-01-03",
-      "name": "Tanto Cuore: Winter Romance",
-      "winner": "Hannah",
+      "date": "2021-01-01",
+      "name": "Mint Works",
+      "winner": "John",
       "coOp": "No"
     }
   ],
-  "totalGamesPlayed": 3,
-  "averageGamesPlayedPerDay": 0.0968,
+  "totalGamesPlayed": 7,
+  "averageGamesPlayedPerDay": 0.2258,
   "mostGamesPlayedInADay": [
     {
       "date": "2021-01-01",
       "games": [
+        "Corsairs of Valeria",
+        "Deep Sea Adventure",
+        "Flotsam Fight",
         "Jurassic Snack",
-        "Love Letter"
+        "Love Letter",
+        "Lovecraft Letter",
+        "Mint Works"
       ]
     }
   ],
   "uniqueGamesPlayed": [
+    "Corsairs of Valeria",
+    "Deep Sea Adventure",
+    "Flotsam Fight",
     "Jurassic Snack",
     "Love Letter",
-    "Tanto Cuore: Winter Romance"
+    "Lovecraft Letter",
+    "Mint Works"
   ],
-  "uniqueGamesPlayedCount": 3,
+  "uniqueGamesPlayedCount": 7,
   "uniqueGamesPlayedPercentage": 1,
   "mostPlayedGames": [
+    {
+      "name": "Corsairs of Valeria",
+      "plays": 1
+    },
+    {
+      "name": "Deep Sea Adventure",
+      "plays": 1
+    },
+    {
+      "name": "Flotsam Fight",
+      "plays": 1
+    },
     {
       "name": "Jurassic Snack",
       "plays": 1
@@ -86,37 +131,53 @@
       "plays": 1
     },
     {
-      "name": "Tanto Cuore: Winter Romance",
+      "name": "Lovecraft Letter",
+      "plays": 1
+    },
+    {
+      "name": "Mint Works",
       "plays": 1
     }
   ],
-  "coOpGamesPlayedCount": 0,
-  "coOpGamesPlayedPercentage": 0,
-  "coOpGameWins": 0,
+  "coOpGamesPlayedCount": 1,
+  "coOpGamesPlayedPercentage": 0.1429,
+  "coOpGameWins": 1,
   "coOpGameLoses": 0,
   "winCountHannah": 2,
-  "winCountJohn": 1,
+  "winCountJohn": 4,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 3,
-  "winPercentageHannah": 0.6667,
-  "winPercentageJohn": 0.3333,
+  "winnableGamesTotal": 6,
+  "winPercentageHannah": 0.3333,
+  "winPercentageJohn": 0.6667,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
-  "mostWonGames": "Hannah",
+  "mostWonGames": "John",
   "mostWonGamesJohn": [
     {
+      "game": "Mint Works",
+      "plays": 1
+    },
+    {
+      "game": "Love Letter",
+      "plays": 1
+    },
+    {
       "game": "Jurassic Snack",
+      "plays": 1
+    },
+    {
+      "game": "Flotsam Fight",
       "plays": 1
     }
   ],
   "mostWonGamesHannah": [
     {
-      "game": "Tanto Cuore: Winter Romance",
+      "game": "Lovecraft Letter",
       "plays": 1
     },
     {
-      "game": "Love Letter",
+      "game": "Corsairs of Valeria",
       "plays": 1
     }
   ]

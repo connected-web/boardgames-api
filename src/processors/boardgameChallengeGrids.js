@@ -11,6 +11,10 @@ const mutateRemoveEmpty = (obj) => {
   })
 }
 
+function fmn (n) {
+  return Number.parseFloat(n.toFixed(4)) || 0
+}
+
 const challenges = {
   2018: {
     gameFamilies: [
@@ -86,8 +90,30 @@ function createChallengeGridForYear (challenge, year) {
   }
 }
 
-function populateChallengeGrid (challengeYear, gameFamily, boardGameFeed) {
+function isDateInRange (dateString, startDateString, endDateString) {
+  const needle = new Date(dateString)
+  const startDate = new Date(startDateString)
+  const endDate = new Date(endDateString)
+  return needle.getTime() >= startDate.getTime() && needle.getTime() <= endDate.getTime()
+}
 
+function populateChallengeGrid (challengeGrid, gameFamily, boardGameFeed) {
+  const { startDate, endDate, gamesToPlayCountPerFamily } = challengeGrid.challenge
+  const gameStats = boardGameFeed.filter(game => {
+    try {
+      return isDateInRange(game.date, startDate, endDate) && (game.gameFamily === gameFamily || game.name.includes(gameFamily))
+    } catch (ex) {
+      console.error('Unable to match:', game, 'due to:', ex)
+    }
+  })
+  const gridEntry = {
+    gameFamily,
+    gameStats,
+    gamesPlayedCount: gameStats.length,
+    gamesPlayedPercentage: fmn(gameStats.length / gamesToPlayCountPerFamily)
+  }
+  report(startDate, 'to', endDate, ': found', gameStats.length, 'games for', gameFamily)
+  challengeGrid.grid.push(gridEntry)
 }
 
 async function createChallengeGrids (model) {
@@ -102,6 +128,7 @@ async function createChallengeGrids (model) {
   })
 
   challengeGrids.forEach(challengeGrid => {
+    report('Populating', challengeGrid.dateCode)
     challengeGrid.challenge.gameFamilies.forEach((gameFamily) =>
       populateChallengeGrid(challengeGrid, gameFamily, boardGameFeed)
     )

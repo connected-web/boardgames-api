@@ -10,7 +10,7 @@ async function start () {
   report('Requires', 'data/boardgame-feed.json')
 
   calisaurus.index = await readJson('boardgame-index.json')
-  calisaurus.index = await readJson('boardgame-feed.json')
+  calisaurus.feed = (await readJson('boardgame-feed.json')).feed
   const { byYear, log } = await boardgameChallengeGrids()
 
   report('Logs:', log.length)
