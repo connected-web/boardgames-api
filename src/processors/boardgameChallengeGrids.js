@@ -60,44 +60,59 @@ const challenges = {
   }
 }
 
+function createChallengeGridForYear(challenge, year) {
+  const { gameFamilies, gamesToPlayCountPerFamily } = challenge
+  return {
+    dateCode: `${year}`,
+    title: `Challenge Grid for ${year}`,
+    challenge: {
+      startDate: `${year}-01-01`,
+      endDate: `${year}-12-31`,
+      gameFamilies,
+      ganeFamiliesCount: gameFamilies.length,
+      gamesToPlayCountPerFamily
+    },
+    grid: [],
+    overview: {
+      gamesPlayedCount: 0,
+      totalGamesToPlayCount: 0,
+      gamesPlayedPercentage: 0
+    },
+    sequence: {
+      startDate: `${year}-01-01`,
+      endDate: `${year}-01-01`,
+      daysInSequence: 1
+    }
+  }
+}
+
+function populateChallengeGrid(challengeYear, gameFamily, boardGameFeed) {
+
+}
+
 async function createChallengeGrids (model) {
   const boardGameFeed = model.calisaurus.feed
   const gridsByYear = {}
 
   report(`Create grids by year from ${boardGameFeed.length} items`)
 
-  mutateRemoveEmpty(gridsByYear)
-
-  const challengeYears = Object.entries(challenges).map(([year, challenge]) => {
+  const challengeGrids = Object.entries(challenges).map(([year, challenge]) => {
     report('Challenge', year, JSON.stringify(challenge))
-    const { gameFamilies, gamesToPlayCountPerFamily } = challenge
-    return {
-      dateCode: `${year}`,
-      title: `Challenge Grid for ${year}`,
-      challenge: {
-        startDate: `${year}-01-01`,
-        endDate: `${year}-12-31`,
-        gameFamilies,
-        ganeFamiliesCount: gameFamilies.length,
-        gamesToPlayCountPerFamily
-      },
-      grid: [],
-      overview: {
-        gamesPlayedCount: 0,
-        totalGamesToPlayCount: 0,
-        gamesPlayedPercentage: 0
-      },
-      sequence: {
-        startDate: `${year}-01-01`,
-        endDate: `${year}-01-01`,
-        daysInSequence: 1
-      }
-    }
+    return createChallengeGridForYear(challenge, year)
   })
 
-  challengeYears.forEach(year => {
-    gridsByYear[year.dateCode] = year
+  challengeGrids.forEach(challengeGrid => {
+    challengeGrid.challenge.gameFamilies.forEach((gameFamily) => 
+      populateChallengeGrid(challengeGrid, gameFamily, boardGameFeed)
+    )
   })
+
+  const challengeGridsByYear = challengeGrids.filter(grid => grid.dateCode.length === 4)
+  challengeGridsByYear.forEach(challengeGrid => {
+    gridsByYear[challengeGrid.dateCode] = challengeGrid
+  })
+
+  mutateRemoveEmpty(gridsByYear)
 
   model.calisaurus.challengeGrids = { byYear: gridsByYear }
 
