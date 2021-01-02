@@ -1,6 +1,6 @@
 {
   "dateCode": "2018",
-  "title": "Made up challenge grid for 2018",
+  "title": "Challenge Grid for 2018",
   "challenge": {
     "startDate": "2018-01-01",
     "endDate": "2018-12-31",
@@ -9,66 +9,624 @@
       "Love Letter",
       "Dominion"
     ],
-    "gameFamiliesCount": 3,
+    "ganeFamiliesCount": 3,
     "gamesToPlayCountPerFamily": 5
   },
-  "grid": [{
-    "gameFamily": "Pandemic",
-    "gameStats": [{
-      "date": "2018-04-01",
-      "game": "Pandemic Fall of Rome",
-      "coOp": "Yes",
-      "coOpOutcome": "Won",
-      "note": "Game 1",
-      "gameFamily": "Pandemic"
-    }, {
-      "date": "2018-04-02",
-      "game": "Pademic: Contaigon",
-      "coOp": "Yes",
-      "coOpOutcome": "Won",
-      "note": "Second game - Fire broke out midway",
-      "gameFamily": "Pandemic"
-    }],
-    "gamesPlayedCount": 2,
-    "gamesPlayedPercentage": 0.4
-  }, {
-    "gameFamily": "Love Letter",
-    "gameStats": [],
-    "gamesPlayedCount": 0,
-    "gamesPlayedPercentage": 0.0
-  }, {
-    "gameFamily": "Dominion",
-    "gameStats": [{
-      "date": "2018-04-03",
-      "game": "Dominion: Seaside",
-      "winner": "Hannah",
-      "coOp": "No",
-      "gameFamily": "Dominion"
-    }, {
-      "date": "2018-04-05",
-      "game": "Dominion: Prosperity",
-      "winner": "John",
-      "coOp": "No",
-      "notes": "Used Garden from base game",
-      "gameFamily": "Dominion"
-    }, {
-      "date": "2018-04-06",
-      "game": "Dominion 2nd Edition",
-      "winner": "Hannah",
-      "coOp": "No",
-      "gameFamily": "Dominion"
-    }],
-    "gamesPlayedCount": 3,
-    "gamesPlayedPercentage": 1.0
-  }],
+  "grid": [
+    {
+      "gameFamily": "Pandemic",
+      "gameStats": [
+        {
+          "date": "2018-01-07",
+          "name": "Pandemic: Iberia",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2018-01-24",
+          "name": "Pandemic Legacy: Season 1",
+          "coOp": "Yes",
+          "coOpOutcome": "Won",
+          "note": "Month 4 - 4 player"
+        },
+        {
+          "date": "2018-02-04",
+          "name": "Pandemic: Reign of Cthulhu",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2018-02-18",
+          "name": "Pandemic: Rising Tide",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2018-02-27",
+          "name": "Pandemic Legacy: Season 1",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2018-03-09",
+          "name": "Pandemic",
+          "coOp": "Yes",
+          "coOpOutcome": "Lost"
+        },
+        {
+          "date": "2018-03-21",
+          "name": "Pandemic: Rising Tide",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2018-03-30",
+          "name": "Pandemic Legacy: Season 1",
+          "coOp": "Yes",
+          "coOpOutcome": "Won",
+          "note": "June game 1 - 4 player"
+        },
+        {
+          "date": "2018-05-01",
+          "name": "Pandemic Legacy: Season 1",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2018-05-03",
+          "name": "Pandemic",
+          "coOp": "Yes",
+          "coOpOutcome": "Won",
+          "note": "With house rule"
+        },
+        {
+          "date": "2018-05-18",
+          "name": "Pandemic: Iberia",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2018-05-22",
+          "name": "Pandemic: Reign of Cthulhu",
+          "coOp": "Yes",
+          "coOpOutcome": "Lost"
+        },
+        {
+          "date": "2018-05-23",
+          "name": "Pandemic: Reign of Cthulhu",
+          "coOp": "No",
+          "coOpOutcome": "Lost"
+        },
+        {
+          "date": "2018-05-30",
+          "name": "Pandemic Legacy: Season 1",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2018-06-03",
+          "name": "Pandemic: The Cure",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2018-06-11",
+          "name": "Pandemic: The Cure",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2018-06-21",
+          "name": "Pandemic Legacy: Season 1",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2018-06-22",
+          "name": "Pandemic: On the Brink",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2018-06-23",
+          "name": "Pandemic: On the Brink",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2018-06-25",
+          "name": "Pandemic: On the Brink",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2018-06-26",
+          "name": "Pandemic: In the Lab",
+          "coOp": "Yes",
+          "coOpOutcome": "Lost"
+        },
+        {
+          "date": "2018-06-27",
+          "name": "Pandemic: In the Lab",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2018-06-29",
+          "name": "Pandemic",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2018-07-04",
+          "name": "Pandemic Legacy: Season 1",
+          "coOp": "Yes"
+        },
+        {
+          "date": "2018-07-08",
+          "name": "Pandemic Legacy: Season 1",
+          "coOp": "Yes",
+          "coOpOutcome": "Lose"
+        },
+        {
+          "date": "2018-07-08",
+          "name": "Pandemic Legacy: Season 1",
+          "coOp": "Yes",
+          "coOpOutcome": "Win"
+        },
+        {
+          "date": "2018-07-08",
+          "name": "Pandemic Legacy: Season 1",
+          "coOp": "Yes",
+          "coOpOutcome": "Win"
+        },
+        {
+          "date": "2018-08-18",
+          "name": "Pandemic: The Cure",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2018-09-26",
+          "name": "Pandemic: Contagion",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-10-05",
+          "name": "Pandemic: Contagion",
+          "winner": "Draw",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-10-07",
+          "name": "Pandemic: Iberia",
+          "coOp": "Yes",
+          "coOpOutcome": "Lost",
+          "note": "Lost with one red card short to research the final disease on the final turn; only two out breaks all game."
+        },
+        {
+          "date": "2018-10-09",
+          "name": "Pandemic: Contagion",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-10-23",
+          "name": "Pandemic",
+          "coOp": "Yes",
+          "coOpOutcome": "Lost"
+        },
+        {
+          "date": "2018-10-26",
+          "name": "Pandemic: Contagion",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-11-16",
+          "name": "Pandemic: Contagion",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-11-25",
+          "name": "Pandemic: On the Brink",
+          "coOp": "Yes",
+          "coOpOutcome": "Lost"
+        },
+        {
+          "date": "2018-12-09",
+          "name": "Pandemic: Fall of Rome",
+          "coOp": "Yes",
+          "coOpOutcome": "Lost"
+        },
+        {
+          "date": "2018-12-12",
+          "name": "Pandemic: Contagion",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-12-18",
+          "name": "Pandemic: Fall of Rome",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2018-12-31",
+          "name": "Pandemic: Fall of Rome",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        }
+      ],
+      "gamesPlayedCount": 40,
+      "gamesPlayedPercentage": 8
+    },
+    {
+      "gameFamily": "Love Letter",
+      "gameStats": [
+        {
+          "date": "2018-02-05",
+          "name": "Love Letter: Batman",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-02-07",
+          "name": "Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-02-19",
+          "name": "Love Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-02-26",
+          "name": "Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-02-26",
+          "name": "Love Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-02-26",
+          "name": "Love Letter",
+          "winner": "Other",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-03-06",
+          "name": "Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-03-19",
+          "name": "Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-03-19",
+          "name": "Love Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-03-21",
+          "name": "Love Letter",
+          "winner": "Hannah",
+          "coOp": "No",
+          "note": "3 player at work"
+        },
+        {
+          "date": "2018-03-27",
+          "name": "Love Letter: Legend of the Five Rings",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-04-24",
+          "name": "Love Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-04-27",
+          "name": "Love Letter: Legend of the Five Rings",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-05-17",
+          "name": "Love Letter: Legend of the Five Rings",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-06-06",
+          "name": "Love Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-06-12",
+          "name": "Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-07-01",
+          "name": "Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-07-14",
+          "name": "Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-07-31",
+          "name": "Love Letter: Batman",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-08-05",
+          "name": "Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-08-05",
+          "name": "Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-08-05",
+          "name": "Love Letter Nordic",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-08-09",
+          "name": "Love Letter Nordic",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-08-18",
+          "name": "Love Letter: Legend of the Five Rings",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-08-23",
+          "name": "Love Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-09-08",
+          "name": "Love Letter: Batman",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-10-30",
+          "name": "Love Letter: Batman",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-11-05",
+          "name": "Adventure Time: Love Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-11-06",
+          "name": "Love Letter: The Hobbit – The Battle of the Five Armies",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-11-07",
+          "name": "Love Letter Premium",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-11-13",
+          "name": "Batman: Love Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-11-26",
+          "name": "Love Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-11-29",
+          "name": "Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-12-01",
+          "name": "Love Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-12-17",
+          "name": "Love Letter (Kanai)",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-12-19",
+          "name": "Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-12-29",
+          "name": "Archer Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        }
+      ],
+      "gamesPlayedCount": 37,
+      "gamesPlayedPercentage": 7.4
+    },
+    {
+      "gameFamily": "Dominion",
+      "gameStats": [
+        {
+          "date": "2018-02-23",
+          "name": "Dominion (Second Edition)",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-02-25",
+          "name": "Dominion (Second Edition)",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-03-02",
+          "name": "Dominion (Second Edition)",
+          "winner": "Hannah",
+          "coOp": "No",
+          "note": "\"Deck top\""
+        },
+        {
+          "date": "2018-03-02",
+          "name": "Dominion (Second Edition)",
+          "winner": "John",
+          "coOp": "No",
+          "note": "\"Deck top\""
+        },
+        {
+          "date": "2018-03-07",
+          "name": "Dominion (Second Edition)",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-03-16",
+          "name": "Dominion (Second Edition)",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-03-23",
+          "name": "Dominion (Second Edition)",
+          "winner": "Draw",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-04-02",
+          "name": "Dominion: Intrigue (Second Edition)",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-04-08",
+          "name": "Dominion: Intrigue (Second Edition)",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-05-08",
+          "name": "Dominion: Intrigue (Second Edition)",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-05-25",
+          "name": "Dominion: Intrigue (Second Edition)",
+          "winner": "Draw",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-06-02",
+          "name": "Dominion (Second Edition)",
+          "winner": "Hannah",
+          "coOp": "No",
+          "note": "Base game"
+        },
+        {
+          "date": "2018-07-20",
+          "name": "Dominion: Intrigue (Second Edition)",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-09-29",
+          "name": "Dominion: Intrigue (Second Edition)",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-10-16",
+          "name": "Dominion: Intrigue (Second Edition)",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-10-20",
+          "name": "Dominion: Seaside",
+          "winner": "Hannah",
+          "coOp": "No",
+          "note": "High Seas"
+        },
+        {
+          "date": "2018-10-24",
+          "name": "Dominion: Seaside",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-11-03",
+          "name": "Dominion: Seaside",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-11-24",
+          "name": "Dominion: Seaside",
+          "winner": "John",
+          "coOp": "No"
+        }
+      ],
+      "gamesPlayedCount": 19,
+      "gamesPlayedPercentage": 3.8
+    }
+  ],
   "overview": {
-    "gamesPlayedCount": 5,
-    "totalGamesToPlayCount": 15,
-    "gamesPlayedPercentage": 0.33
+    "gamesPlayedCount": 0,
+    "totalGamesToPlayCount": 0,
+    "gamesPlayedPercentage": 0
   },
   "sequence": {
-    "startDate": "2018-04-01",
-    "endDate": "2018-04-02",
-    "daysInSequenceCount": 2
+    "startDate": "2018-01-01",
+    "endDate": "2018-01-01",
+    "daysInSequence": 1
   }
 }

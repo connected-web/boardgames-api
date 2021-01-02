@@ -30,7 +30,7 @@ async function createBoardGameList (model) {
 
   caliCollection.forEach(item => {
     if (!item.game) {
-      report('No game name property found on item:', item, new Date(1900, 0, item.date), 'please check column headings in Google Sheets.')
+      report('No game name property found on item:', JSON.stringify(item), new Date(1900, 0, item.date), 'please check column headings in Google Sheets.')
     }
   })
 

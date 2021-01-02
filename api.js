@@ -8,6 +8,7 @@ const downloadCaliPlaystats = require('./src/fetchers/downloadCaliPlaystats')(mo
 const bggIndex = require('./src/processors/bggIndex')(model)
 const boardgameList = require('./src/processors/boardgameList')(model)
 const boardgameFeed = require('./src/processors/boardgameFeed')(model)
+const boardgameChallengeGrids = require('./src/processors/boardgameChallengeGrids')(model)
 const boardgameIndex = require('./src/processors/boardgameIndex')(model)
 const boardgameSummaries = require('./src/processors/boardgameSummaries')(model)
 const uniqueListOfGamesPlayed = require('./src/processors/uniqueListOfGamesPlayed')(model)
@@ -21,6 +22,7 @@ const api = {
   boardgameList,
   boardgameIndex,
   boardgameFeed,
+  boardgameChallengeGrids,
   boardgameSummaries,
   uniqueListOfGamesPlayed,
   model: async () => model
