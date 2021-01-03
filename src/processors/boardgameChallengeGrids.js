@@ -18,11 +18,29 @@ function fmn (n) {
 const challenges = {
   2018: {
     gameFamilies: [
-      'Pandemic',
+      'Flotsam Fight',
+      'Jurassic Snack',
       'Love Letter',
-      'Dominion'
+      'Mint Works',
+      'Corsairs of Valeria',
+      'Deep Sea Adventure',
+      'Lovecraft Letter',
+      'Design Town',
+      'Topiary',
+      'Dominion',
+      '7 Wonders',
+      'Star Realms',
+      'Pandemic',
+      'Tanto Cuore',
+      'Ticket to Ride',
+      'Valeria Card Kingdoms',
+      'Aeon\'s End',
+      'Wingspan',
+      'Brass',
+      'Scythe',
+      'Wilcard *'
     ],
-    gamesToPlayCountPerFamily: 5
+    gamesToPlayCountPerFamily: 10
   },
   2019: {
     gameFamilies: [],
@@ -30,9 +48,27 @@ const challenges = {
   },
   2020: {
     gameFamilies: [
-      'Pandemic',
+      'Flotsam Fight',
+      'Jurassic Snack',
       'Love Letter',
-      'Dominion'
+      'Mint Works',
+      'Corsairs of Valeria',
+      'Deep Sea Adventure',
+      'Lovecraft Letter',
+      'Design Town',
+      'Topiary',
+      'Dominion',
+      '7 Wonders',
+      'Star Realms',
+      'Pandemic',
+      'Tanto Cuore',
+      'Ticket to Ride',
+      'Valeria Card Kingdoms',
+      'Aeon\'s End',
+      'Wingspan',
+      'Brass',
+      'Scythe',
+      'Wilcard *'
     ],
     gamesToPlayCountPerFamily: 10
   },
