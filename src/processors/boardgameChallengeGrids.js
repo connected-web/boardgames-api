@@ -73,7 +73,7 @@ function createChallengeGridForYear (challenge, year) {
       startDate: `${year}-01-01`,
       endDate: `${year}-12-31`,
       gameFamilies,
-      ganeFamiliesCount: gameFamilies.length,
+      gameFamiliesCount: gameFamilies.length,
       gamesToPlayCountPerFamily
     },
     grid: [],
