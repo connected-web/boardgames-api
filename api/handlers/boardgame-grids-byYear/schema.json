@@ -32,7 +32,9 @@
         "gamesToPlayCountPerFamily": {
           "type": "integer"
         }
-      }
+      },
+      "required": ["startDate", "endDate", "gameFamilies", "gameFamiliesCount", "gamesToPlayCountPerFamily"],
+      "additionalProperties": false
     },
     "grid": {
       "type": "array",
