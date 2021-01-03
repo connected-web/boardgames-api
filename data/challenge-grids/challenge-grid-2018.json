@@ -5,14 +5,728 @@
     "startDate": "2018-01-01",
     "endDate": "2018-12-31",
     "gameFamilies": [
-      "Pandemic",
+      "Flotsam Fight",
+      "Jurassic Snack",
       "Love Letter",
-      "Dominion"
+      "Mint Works",
+      "Corsairs of Valeria",
+      "Deep Sea Adventure",
+      "Lovecraft Letter",
+      "Design Town",
+      "Topiary",
+      "Dominion",
+      "7 Wonders",
+      "Star Realms",
+      "Pandemic",
+      "Tanto Cuore",
+      "Ticket to Ride",
+      "Valeria Card Kingdoms",
+      "Aeon's End",
+      "Wingspan",
+      "Brass",
+      "Scythe",
+      "Wilcard *"
     ],
-    "gameFamiliesCount": 3,
-    "gamesToPlayCountPerFamily": 5
+    "gameFamiliesCount": 21,
+    "gamesToPlayCountPerFamily": 10
   },
   "grid": [
+    {
+      "gameFamily": "Flotsam Fight",
+      "gameStats": [],
+      "gamesPlayedCount": 0,
+      "gamesPlayedPercentage": 0
+    },
+    {
+      "gameFamily": "Jurassic Snack",
+      "gameStats": [
+        {
+          "date": "2018-06-02",
+          "name": "Jurassic Snack",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-07-25",
+          "name": "Jurassic Snack",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-08-15",
+          "name": "Jurassic Snack",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-08-22",
+          "name": "Jurassic Snack",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-09-19",
+          "name": "Jurassic Snack",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-11-10",
+          "name": "Jurassic Snack",
+          "winner": "John",
+          "coOp": "No"
+        }
+      ],
+      "gamesPlayedCount": 6,
+      "gamesPlayedPercentage": 0.6
+    },
+    {
+      "gameFamily": "Love Letter",
+      "gameStats": [
+        {
+          "date": "2018-02-05",
+          "name": "Love Letter: Batman",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-02-07",
+          "name": "Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-02-19",
+          "name": "Love Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-02-26",
+          "name": "Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-02-26",
+          "name": "Love Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-02-26",
+          "name": "Love Letter",
+          "winner": "Other",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-03-06",
+          "name": "Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-03-19",
+          "name": "Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-03-19",
+          "name": "Love Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-03-21",
+          "name": "Love Letter",
+          "winner": "Hannah",
+          "coOp": "No",
+          "note": "3 player at work"
+        },
+        {
+          "date": "2018-03-27",
+          "name": "Love Letter: Legend of the Five Rings",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-04-24",
+          "name": "Love Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-04-27",
+          "name": "Love Letter: Legend of the Five Rings",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-05-17",
+          "name": "Love Letter: Legend of the Five Rings",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-06-06",
+          "name": "Love Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-06-12",
+          "name": "Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-07-01",
+          "name": "Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-07-14",
+          "name": "Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-07-31",
+          "name": "Love Letter: Batman",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-08-05",
+          "name": "Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-08-05",
+          "name": "Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-08-05",
+          "name": "Love Letter Nordic",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-08-09",
+          "name": "Love Letter Nordic",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-08-18",
+          "name": "Love Letter: Legend of the Five Rings",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-08-23",
+          "name": "Love Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-09-08",
+          "name": "Love Letter: Batman",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-10-30",
+          "name": "Love Letter: Batman",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-11-05",
+          "name": "Adventure Time: Love Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-11-06",
+          "name": "Love Letter: The Hobbit – The Battle of the Five Armies",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-11-07",
+          "name": "Love Letter Premium",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-11-13",
+          "name": "Batman: Love Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-11-26",
+          "name": "Love Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-11-29",
+          "name": "Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-12-01",
+          "name": "Love Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-12-17",
+          "name": "Love Letter (Kanai)",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-12-19",
+          "name": "Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-12-29",
+          "name": "Archer Love Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        }
+      ],
+      "gamesPlayedCount": 37,
+      "gamesPlayedPercentage": 3.7
+    },
+    {
+      "gameFamily": "Mint Works",
+      "gameStats": [
+        {
+          "date": "2018-12-25",
+          "name": "Mint Works",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-12-26",
+          "name": "Mint Works",
+          "winner": "Hannah",
+          "coOp": "No"
+        }
+      ],
+      "gamesPlayedCount": 2,
+      "gamesPlayedPercentage": 0.2
+    },
+    {
+      "gameFamily": "Corsairs of Valeria",
+      "gameStats": [],
+      "gamesPlayedCount": 0,
+      "gamesPlayedPercentage": 0
+    },
+    {
+      "gameFamily": "Deep Sea Adventure",
+      "gameStats": [
+        {
+          "date": "2018-02-05",
+          "name": "Deep Sea Adventure",
+          "winner": "Hannah",
+          "coOp": "No",
+          "note": "three player at lunch in work"
+        },
+        {
+          "date": "2018-03-24",
+          "name": "Deep Sea Adventure",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-04-12",
+          "name": "Deep Sea Adventure",
+          "coOp": "Yes",
+          "coOpOutcome": "Win",
+          "note": "Score: 93"
+        },
+        {
+          "date": "2018-05-24",
+          "name": "Deep Sea Adventure",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-07-13",
+          "name": "Deep Sea Adventure",
+          "coOp": "Yes"
+        },
+        {
+          "date": "2018-09-05",
+          "name": "Deep Sea Adventure",
+          "coOp": "Yes",
+          "coOpOutcome": "won"
+        }
+      ],
+      "gamesPlayedCount": 6,
+      "gamesPlayedPercentage": 0.6
+    },
+    {
+      "gameFamily": "Lovecraft Letter",
+      "gameStats": [
+        {
+          "date": "2018-01-02",
+          "name": "Lovecraft Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-01-04",
+          "name": "Lovecraft Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-02-11",
+          "name": "Lovecraft Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-02-28",
+          "name": "Lovecraft Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-03-05",
+          "name": "Lovecraft Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-04-10",
+          "name": "Lovecraft Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-04-13",
+          "name": "Lovecraft Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-04-15",
+          "name": "Lovecraft Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-04-21",
+          "name": "Lovecraft Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-05-15",
+          "name": "Lovecraft Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-05-26",
+          "name": "Lovecraft Letter",
+          "winner": "Hannah",
+          "coOp": "No",
+          "note": "Boardgames party"
+        },
+        {
+          "date": "2018-06-20",
+          "name": "Lovecraft Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-07-11",
+          "name": "Lovecraft Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-08-24",
+          "name": "Lovecraft Letter",
+          "winner": "Other",
+          "coOp": "No",
+          "note": "3 player"
+        },
+        {
+          "date": "2018-09-04",
+          "name": "Lovecraft Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-09-10",
+          "name": "Lovecraft Letter",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-10-03",
+          "name": "Lovecraft Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-11-02",
+          "name": "Lovecraft Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-12-28",
+          "name": "Lovecraft Letter",
+          "winner": "Hannah",
+          "coOp": "No"
+        }
+      ],
+      "gamesPlayedCount": 19,
+      "gamesPlayedPercentage": 1.9
+    },
+    {
+      "gameFamily": "Design Town",
+      "gameStats": [],
+      "gamesPlayedCount": 0,
+      "gamesPlayedPercentage": 0
+    },
+    {
+      "gameFamily": "Topiary",
+      "gameStats": [
+        {
+          "date": "2018-07-18",
+          "name": "Topiary",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-07-19",
+          "name": "Topiary",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-07-24",
+          "name": "Topiary",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-08-14",
+          "name": "Topiary",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-08-21",
+          "name": "Topiary",
+          "winner": "John",
+          "coOp": "No",
+          "note": "4 player"
+        },
+        {
+          "date": "2018-09-11",
+          "name": "Topiary",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-10-29",
+          "name": "Topiary",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-11-15",
+          "name": "Topiary",
+          "winner": "Other",
+          "coOp": "No"
+        }
+      ],
+      "gamesPlayedCount": 8,
+      "gamesPlayedPercentage": 0.8
+    },
+    {
+      "gameFamily": "Dominion",
+      "gameStats": [
+        {
+          "date": "2018-02-23",
+          "name": "Dominion (Second Edition)",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-02-25",
+          "name": "Dominion (Second Edition)",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-03-02",
+          "name": "Dominion (Second Edition)",
+          "winner": "Hannah",
+          "coOp": "No",
+          "note": "\"Deck top\""
+        },
+        {
+          "date": "2018-03-02",
+          "name": "Dominion (Second Edition)",
+          "winner": "John",
+          "coOp": "No",
+          "note": "\"Deck top\""
+        },
+        {
+          "date": "2018-03-07",
+          "name": "Dominion (Second Edition)",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-03-16",
+          "name": "Dominion (Second Edition)",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-03-23",
+          "name": "Dominion (Second Edition)",
+          "winner": "Draw",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-04-02",
+          "name": "Dominion: Intrigue (Second Edition)",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-04-08",
+          "name": "Dominion: Intrigue (Second Edition)",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-05-08",
+          "name": "Dominion: Intrigue (Second Edition)",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-05-25",
+          "name": "Dominion: Intrigue (Second Edition)",
+          "winner": "Draw",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-06-02",
+          "name": "Dominion (Second Edition)",
+          "winner": "Hannah",
+          "coOp": "No",
+          "note": "Base game"
+        },
+        {
+          "date": "2018-07-20",
+          "name": "Dominion: Intrigue (Second Edition)",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-09-29",
+          "name": "Dominion: Intrigue (Second Edition)",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-10-16",
+          "name": "Dominion: Intrigue (Second Edition)",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-10-20",
+          "name": "Dominion: Seaside",
+          "winner": "Hannah",
+          "coOp": "No",
+          "note": "High Seas"
+        },
+        {
+          "date": "2018-10-24",
+          "name": "Dominion: Seaside",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-11-03",
+          "name": "Dominion: Seaside",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-11-24",
+          "name": "Dominion: Seaside",
+          "winner": "John",
+          "coOp": "No"
+        }
+      ],
+      "gamesPlayedCount": 19,
+      "gamesPlayedPercentage": 1.9
+    },
+    {
+      "gameFamily": "7 Wonders",
+      "gameStats": [
+        {
+          "date": "2018-01-15",
+          "name": "7 Wonders Duel",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-03-12",
+          "name": "7 Wonders",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-12-08",
+          "name": "7 Wonders",
+          "winner": "Other",
+          "coOp": "No",
+          "note": "6 player"
+        },
+        {
+          "date": "2018-12-10",
+          "name": "7 Wonders",
+          "winner": "John",
+          "coOp": "No"
+        }
+      ],
+      "gamesPlayedCount": 4,
+      "gamesPlayedPercentage": 0.4
+    },
+    {
+      "gameFamily": "Star Realms",
+      "gameStats": [],
+      "gamesPlayedCount": 0,
+      "gamesPlayedPercentage": 0
+    },
     {
       "gameFamily": "Pandemic",
       "gameStats": [
@@ -261,368 +975,503 @@
         }
       ],
       "gamesPlayedCount": 40,
-      "gamesPlayedPercentage": 8
+      "gamesPlayedPercentage": 4
     },
     {
-      "gameFamily": "Love Letter",
+      "gameFamily": "Tanto Cuore",
       "gameStats": [
         {
-          "date": "2018-02-05",
-          "name": "Love Letter: Batman",
-          "winner": "John",
-          "coOp": "No"
-        },
-        {
-          "date": "2018-02-07",
-          "name": "Love Letter",
+          "date": "2018-02-10",
+          "name": "Tanto Cuore: Oktoberfest",
           "winner": "Hannah",
           "coOp": "No"
         },
         {
-          "date": "2018-02-19",
-          "name": "Love Letter",
-          "winner": "John",
-          "coOp": "No"
-        },
-        {
-          "date": "2018-02-26",
-          "name": "Love Letter",
+          "date": "2018-03-03",
+          "name": "Tanto Cuore: Expanding the House",
           "winner": "Hannah",
           "coOp": "No"
         },
         {
-          "date": "2018-02-26",
-          "name": "Love Letter",
-          "winner": "John",
-          "coOp": "No"
-        },
-        {
-          "date": "2018-02-26",
-          "name": "Love Letter",
-          "winner": "Other",
-          "coOp": "No"
-        },
-        {
-          "date": "2018-03-06",
-          "name": "Love Letter",
-          "winner": "Hannah",
-          "coOp": "No"
-        },
-        {
-          "date": "2018-03-19",
-          "name": "Love Letter",
-          "winner": "Hannah",
-          "coOp": "No"
-        },
-        {
-          "date": "2018-03-19",
-          "name": "Love Letter",
-          "winner": "John",
-          "coOp": "No"
-        },
-        {
-          "date": "2018-03-21",
-          "name": "Love Letter",
+          "date": "2018-03-04",
+          "name": "Tanto Cuore: Oktoberfest",
           "winner": "Hannah",
           "coOp": "No",
-          "note": "3 player at work"
+          "note": "Mix of \"Expanding The House\" and \"Oktoberfest\""
         },
         {
-          "date": "2018-03-27",
-          "name": "Love Letter: Legend of the Five Rings",
+          "date": "2018-03-31",
+          "name": "Tanto Cuore",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-04-28",
+          "name": "Tanto Cuore",
           "winner": "John",
           "coOp": "No"
         },
         {
-          "date": "2018-04-24",
-          "name": "Love Letter",
+          "date": "2018-07-09",
+          "name": "Tanto Cuore: Oktoberfest",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-09-07",
+          "name": "Tanto Cuore: Oktoberfest",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-11-04",
+          "name": "Tanto Cuore: Romantic Vacation",
           "winner": "John",
           "coOp": "No"
         },
         {
-          "date": "2018-04-27",
-          "name": "Love Letter: Legend of the Five Rings",
+          "date": "2018-11-28",
+          "name": "Tanto Cuore: Expanding the House",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-12-06",
+          "name": "Tanto Cuore: Romantic Vacation",
+          "winner": "Draw",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-12-07",
+          "name": "Tanto Cuore: Oktoberfest",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-12-23",
+          "name": "Tanto Cuore",
           "winner": "John",
-          "coOp": "No"
-        },
-        {
-          "date": "2018-05-17",
-          "name": "Love Letter: Legend of the Five Rings",
-          "winner": "Hannah",
-          "coOp": "No"
-        },
-        {
-          "date": "2018-06-06",
-          "name": "Love Letter",
-          "winner": "John",
-          "coOp": "No"
-        },
-        {
-          "date": "2018-06-12",
-          "name": "Love Letter",
-          "winner": "Hannah",
-          "coOp": "No"
-        },
-        {
-          "date": "2018-07-01",
-          "name": "Love Letter",
-          "winner": "Hannah",
-          "coOp": "No"
-        },
-        {
-          "date": "2018-07-14",
-          "name": "Love Letter",
-          "winner": "Hannah",
-          "coOp": "No"
-        },
-        {
-          "date": "2018-07-31",
-          "name": "Love Letter: Batman",
-          "winner": "Hannah",
-          "coOp": "No"
-        },
-        {
-          "date": "2018-08-05",
-          "name": "Love Letter",
-          "winner": "Hannah",
-          "coOp": "No"
-        },
-        {
-          "date": "2018-08-05",
-          "name": "Love Letter",
-          "winner": "Hannah",
-          "coOp": "No"
-        },
-        {
-          "date": "2018-08-05",
-          "name": "Love Letter Nordic",
-          "winner": "Hannah",
-          "coOp": "No"
-        },
-        {
-          "date": "2018-08-09",
-          "name": "Love Letter Nordic",
-          "winner": "John",
-          "coOp": "No"
-        },
-        {
-          "date": "2018-08-18",
-          "name": "Love Letter: Legend of the Five Rings",
-          "winner": "John",
-          "coOp": "No"
-        },
-        {
-          "date": "2018-08-23",
-          "name": "Love Letter",
-          "winner": "John",
-          "coOp": "No"
-        },
-        {
-          "date": "2018-09-08",
-          "name": "Love Letter: Batman",
-          "winner": "Hannah",
-          "coOp": "No"
-        },
-        {
-          "date": "2018-10-30",
-          "name": "Love Letter: Batman",
-          "winner": "John",
-          "coOp": "No"
-        },
-        {
-          "date": "2018-11-05",
-          "name": "Adventure Time: Love Letter",
-          "winner": "John",
-          "coOp": "No"
-        },
-        {
-          "date": "2018-11-06",
-          "name": "Love Letter: The Hobbit – The Battle of the Five Armies",
-          "winner": "John",
-          "coOp": "No"
-        },
-        {
-          "date": "2018-11-07",
-          "name": "Love Letter Premium",
-          "winner": "Hannah",
-          "coOp": "No"
-        },
-        {
-          "date": "2018-11-13",
-          "name": "Batman: Love Letter",
-          "winner": "John",
-          "coOp": "No"
-        },
-        {
-          "date": "2018-11-26",
-          "name": "Love Letter",
-          "winner": "John",
-          "coOp": "No"
-        },
-        {
-          "date": "2018-11-29",
-          "name": "Love Letter",
-          "winner": "Hannah",
-          "coOp": "No"
-        },
-        {
-          "date": "2018-12-01",
-          "name": "Love Letter",
-          "winner": "John",
-          "coOp": "No"
-        },
-        {
-          "date": "2018-12-17",
-          "name": "Love Letter (Kanai)",
-          "winner": "Hannah",
-          "coOp": "No"
-        },
-        {
-          "date": "2018-12-19",
-          "name": "Love Letter",
-          "winner": "Hannah",
-          "coOp": "No"
-        },
-        {
-          "date": "2018-12-29",
-          "name": "Archer Love Letter",
-          "winner": "Hannah",
           "coOp": "No"
         }
       ],
-      "gamesPlayedCount": 37,
-      "gamesPlayedPercentage": 7.4
+      "gamesPlayedCount": 12,
+      "gamesPlayedPercentage": 1.2
     },
     {
-      "gameFamily": "Dominion",
+      "gameFamily": "Ticket to Ride",
       "gameStats": [
         {
-          "date": "2018-02-23",
-          "name": "Dominion (Second Edition)",
+          "date": "2018-01-06",
+          "name": "Ticket to Ride",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-01-06",
+          "name": "Ticket to Ride Map Collection: Volume 6 – France & Old West",
+          "winner": "Hannah",
+          "coOp": "No",
+          "note": "France"
+        },
+        {
+          "date": "2018-01-10",
+          "name": "Ticket to Ride Map Collection: Volume 1 – Team Asia & Legendary Asia",
+          "winner": "John",
+          "coOp": "No",
+          "note": "Asia"
+        },
+        {
+          "date": "2018-01-12",
+          "name": "Ticket to Ride Map Collection: Volume 1 – Team Asia & Legendary Asia",
+          "winner": "Hannah",
+          "coOp": "No",
+          "note": "Legendary Asia"
+        },
+        {
+          "date": "2018-01-16",
+          "name": "Ticket to Ride: Rails & Sails",
           "winner": "Hannah",
           "coOp": "No"
         },
         {
-          "date": "2018-02-25",
-          "name": "Dominion (Second Edition)",
+          "date": "2018-02-14",
+          "name": "Ticket to Ride: First Journey (Europe)",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-02-15",
+          "name": "Ticket to Ride: First Journey (Europe)",
           "winner": "John",
           "coOp": "No"
         },
         {
-          "date": "2018-03-02",
-          "name": "Dominion (Second Edition)",
+          "date": "2018-03-01",
+          "name": "Ticket to Ride Map Collection: Volume 6 – France & Old West",
           "winner": "Hannah",
           "coOp": "No",
-          "note": "\"Deck top\""
+          "note": "Wild West map"
         },
         {
           "date": "2018-03-02",
-          "name": "Dominion (Second Edition)",
+          "name": "Ticket to Ride Map Collection: Volume 2 – India & Switzerland",
           "winner": "John",
           "coOp": "No",
-          "note": "\"Deck top\""
+          "note": "Switzerland map"
         },
         {
-          "date": "2018-03-07",
-          "name": "Dominion (Second Edition)",
-          "winner": "John",
-          "coOp": "No"
-        },
-        {
-          "date": "2018-03-16",
-          "name": "Dominion (Second Edition)",
-          "winner": "John",
-          "coOp": "No"
-        },
-        {
-          "date": "2018-03-23",
-          "name": "Dominion (Second Edition)",
+          "date": "2018-03-03",
+          "name": "Ticket to Ride Map Collection: Volume 5 – United Kingdom & Pennsylvania",
           "winner": "Draw",
+          "coOp": "No",
+          "note": "Pennslyvania map"
+        },
+        {
+          "date": "2018-03-17",
+          "name": "Ticket to Ride Map Collection: Volume 3 – The Heart of Africa",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-03-17",
+          "name": "Ticket to Ride: USA 1910",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-03-19",
+          "name": "Ticket to Ride: Europe",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-03-31",
+          "name": "Ticket to Ride: Rails & Sails",
+          "winner": "Hannah",
           "coOp": "No"
         },
         {
           "date": "2018-04-02",
-          "name": "Dominion: Intrigue (Second Edition)",
+          "name": "Ticket to Ride: Nordic Countries",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-04-04",
+          "name": "Ticket to Ride: First Journey (Europe)",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-04-04",
+          "name": "Ticket to Ride: First Journey (Europe)",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-04-22",
+          "name": "Ticket to Ride",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-04-23",
+          "name": "Ticket to Ride: Rails & Sails",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-04-28",
+          "name": "Ticket to Ride: Germany",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-04-28",
+          "name": "Ticket to Ride: Germany",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-05-04",
+          "name": "Ticket to Ride Map Collection: Volume 6 – France & Old West",
           "winner": "Hannah",
           "coOp": "No"
         },
         {
-          "date": "2018-04-08",
-          "name": "Dominion: Intrigue (Second Edition)",
+          "date": "2018-05-07",
+          "name": "Ticket to Ride Map Collection: Volume 2 – India & Switzerland",
+          "winner": "John",
+          "coOp": "No",
+          "note": "Switzerland"
+        },
+        {
+          "date": "2018-05-09",
+          "name": "Ticket to Ride: Europe",
           "winner": "John",
           "coOp": "No"
         },
         {
-          "date": "2018-05-08",
-          "name": "Dominion: Intrigue (Second Edition)",
+          "date": "2018-05-16",
+          "name": "Ticket to Ride: USA 1910",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-05-26",
+          "name": "Ticket to Ride: Europe",
+          "winner": "Hannah",
+          "coOp": "No",
+          "note": "Boardgames party"
+        },
+        {
+          "date": "2018-05-27",
+          "name": "Ticket to Ride Map Collection: Volume 1 – Team Asia & Legendary Asia",
+          "winner": "Hannah",
+          "coOp": "No",
+          "note": "Asia"
+        },
+        {
+          "date": "2018-06-02",
+          "name": "Ticket to Ride: New York",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-06-24",
+          "name": "Ticket to Ride Map Collection: Volume 5 – United Kingdom & Pennsylvania",
           "winner": "John",
           "coOp": "No"
         },
         {
-          "date": "2018-05-25",
-          "name": "Dominion: Intrigue (Second Edition)",
+          "date": "2018-06-24",
+          "name": "Ticket to Ride: Europe",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-07-06",
+          "name": "Ticket to Ride",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-07-10",
+          "name": "Ticket to Ride",
           "winner": "Draw",
           "coOp": "No"
         },
         {
-          "date": "2018-06-02",
-          "name": "Dominion (Second Edition)",
+          "date": "2018-07-27",
+          "name": "Ticket to Ride: New York",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-07-28",
+          "name": "Ticket to Ride Map Collection: Volume 2 – India & Switzerland",
+          "winner": "John",
+          "coOp": "No",
+          "note": "India"
+        },
+        {
+          "date": "2018-07-29",
+          "name": "Ticket to Ride: New York",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-08-03",
+          "name": "Ticket to Ride: New York",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-08-06",
+          "name": "Ticket to Ride: The Dice Expansion",
           "winner": "Hannah",
           "coOp": "No",
-          "note": "Base game"
+          "note": "Europe map"
         },
         {
-          "date": "2018-07-20",
-          "name": "Dominion: Intrigue (Second Edition)",
+          "date": "2018-08-13",
+          "name": "Ticket to Ride Map Collection: Volume 4 – Nederland",
           "winner": "John",
           "coOp": "No"
         },
         {
-          "date": "2018-09-29",
-          "name": "Dominion: Intrigue (Second Edition)",
+          "date": "2018-08-19",
+          "name": "Ticket to Ride: New York",
           "winner": "Hannah",
           "coOp": "No"
         },
         {
-          "date": "2018-10-16",
-          "name": "Dominion: Intrigue (Second Edition)",
+          "date": "2018-09-03",
+          "name": "Ticket to Ride: USA 1910",
           "winner": "John",
           "coOp": "No"
         },
         {
-          "date": "2018-10-20",
-          "name": "Dominion: Seaside",
-          "winner": "Hannah",
-          "coOp": "No",
-          "note": "High Seas"
-        },
-        {
-          "date": "2018-10-24",
-          "name": "Dominion: Seaside",
+          "date": "2018-09-12",
+          "name": "Ticket to Ride: New York",
           "winner": "Hannah",
           "coOp": "No"
         },
         {
-          "date": "2018-11-03",
-          "name": "Dominion: Seaside",
+          "date": "2018-09-21",
+          "name": "Ticket to Ride: First Journey (Europe)",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-09-24",
+          "name": "Ticket to Ride: Rails & Sails",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-10-01",
+          "name": "Ticket to Ride Map Collection: Volume 6 – France & Old West",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-10-04",
+          "name": "Ticket to Ride: New York",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-10-25",
+          "name": "Ticket to Ride: Europe",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-11-01",
+          "name": "Ticket to Ride: New York",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-11-08",
+          "name": "Ticket to Ride: Europa 1912",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-11-17",
+          "name": "Ticket to Ride: Nordic Countries",
           "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-11-19",
+          "name": "Ticket to Ride: Asia",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-11-23",
+          "name": "Ticket to Ride: New York",
+          "winner": "Hannah",
           "coOp": "No"
         },
         {
           "date": "2018-11-24",
-          "name": "Dominion: Seaside",
+          "name": "Ticket to Ride: Germany",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-11-30",
+          "name": "Ticket to Ride: New York",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-12-02",
+          "name": "Ticket to Ride: Europe",
+          "winner": "Draw",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-12-22",
+          "name": "Ticket to Ride: Africa",
+          "winner": "Hannah",
+          "coOp": "No"
+        }
+      ],
+      "gamesPlayedCount": 55,
+      "gamesPlayedPercentage": 5.5
+    },
+    {
+      "gameFamily": "Valeria Card Kingdoms",
+      "gameStats": [],
+      "gamesPlayedCount": 0,
+      "gamesPlayedPercentage": 0
+    },
+    {
+      "gameFamily": "Aeon's End",
+      "gameStats": [
+        {
+          "date": "2018-12-21",
+          "name": "Aeon's End",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        },
+        {
+          "date": "2018-12-24",
+          "name": "Aeon's End",
+          "coOp": "Yes",
+          "coOpOutcome": "Won"
+        }
+      ],
+      "gamesPlayedCount": 2,
+      "gamesPlayedPercentage": 0.2
+    },
+    {
+      "gameFamily": "Wingspan",
+      "gameStats": [],
+      "gamesPlayedCount": 0,
+      "gamesPlayedPercentage": 0
+    },
+    {
+      "gameFamily": "Brass",
+      "gameStats": [],
+      "gamesPlayedCount": 0,
+      "gamesPlayedPercentage": 0
+    },
+    {
+      "gameFamily": "Scythe",
+      "gameStats": [
+        {
+          "date": "2018-12-20",
+          "name": "My Little Scythe",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-12-20",
+          "name": "My Little Scythe",
           "winner": "John",
           "coOp": "No"
         }
       ],
-      "gamesPlayedCount": 19,
-      "gamesPlayedPercentage": 3.8
+      "gamesPlayedCount": 2,
+      "gamesPlayedPercentage": 0.2
+    },
+    {
+      "gameFamily": "Wilcard *",
+      "gameStats": [],
+      "gamesPlayedCount": 0,
+      "gamesPlayedPercentage": 0
     }
   ],
   "overview": {
-    "gamesPlayedCount": 96,
-    "totalGamesToPlayCount": 15,
-    "gamesPlayedPercentage": 6.4
+    "gamesPlayedCount": 212,
+    "totalGamesToPlayCount": 210,
+    "gamesPlayedPercentage": 1.0095
   },
   "sequence": {
     "startDate": "2018-01-01",
