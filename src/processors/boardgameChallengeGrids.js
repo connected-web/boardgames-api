@@ -97,8 +97,15 @@ function isDateInRange (dateString, startDateString, endDateString) {
   return needle.getTime() >= startDate.getTime() && needle.getTime() <= endDate.getTime()
 }
 
+function calculateChallengeGridOverview (challengeGrid) {
+  const { overview, challenge } = challengeGrid
+  overview.totalGamesToPlayCount = challenge.gamesToPlayCountPerFamily * challenge.gameFamiliesCount
+  overview.gamesPlayedPercentage = fmn(overview.gamesPlayedCount / overview.totalGamesToPlayCount)
+}
+
 function populateChallengeGrid (challengeGrid, gameFamily, boardGameFeed) {
-  const { startDate, endDate, gamesToPlayCountPerFamily } = challengeGrid.challenge
+  const { overview, challenge, grid } = challengeGrid
+  const { startDate, endDate, gamesToPlayCountPerFamily } = challenge
   const gameStats = boardGameFeed.filter(game => {
     try {
       return isDateInRange(game.date, startDate, endDate) && (game.gameFamily === gameFamily || game.name.includes(gameFamily))
@@ -113,7 +120,8 @@ function populateChallengeGrid (challengeGrid, gameFamily, boardGameFeed) {
     gamesPlayedPercentage: fmn(gameStats.length / gamesToPlayCountPerFamily)
   }
   report(startDate, 'to', endDate, ': found', gameStats.length, 'games for', gameFamily)
-  challengeGrid.grid.push(gridEntry)
+  grid.push(gridEntry)
+  overview.gamesPlayedCount = overview.gamesPlayedCount + gameStats.length
 }
 
 async function createChallengeGrids (model) {
@@ -129,9 +137,8 @@ async function createChallengeGrids (model) {
 
   challengeGrids.forEach(challengeGrid => {
     report('Populating', challengeGrid.dateCode)
-    challengeGrid.challenge.gameFamilies.forEach((gameFamily) =>
-      populateChallengeGrid(challengeGrid, gameFamily, boardGameFeed)
-    )
+    challengeGrid.challenge.gameFamilies.forEach((gameFamily) => populateChallengeGrid(challengeGrid, gameFamily, boardGameFeed))
+    calculateChallengeGridOverview(challengeGrid)
   })
 
   const challengeGridsByYear = challengeGrids.filter(grid => grid.dateCode.length === 4)
