@@ -33,7 +33,7 @@ const challenges = {
       'Pandemic',
       'Tanto Cuore',
       'Ticket to Ride',
-      'Valeria Card Kingdoms',
+      'Valeria: Card Kingdoms',
       'Aeon\'s End',
       'Wingspan',
       'Brass',
@@ -63,7 +63,7 @@ const challenges = {
       'Pandemic',
       'Tanto Cuore',
       'Ticket to Ride',
-      'Valeria Card Kingdoms',
+      'Valeria: Card Kingdoms',
       'Aeon\'s End',
       'Wingspan',
       'Brass',
@@ -89,7 +89,7 @@ const challenges = {
       'Pandemic',
       'Tanto Cuore',
       'Ticket to Ride',
-      'Valeria Card Kingdoms',
+      'Valeria: Card Kingdoms',
       'Aeon\'s End',
       'Wingspan',
       'Brass',
@@ -143,6 +143,9 @@ function populateChallengeGrid (challengeGrid, gameFamily, boardGameFeed) {
   const { overview, challenge, grid } = challengeGrid
   const { startDate, endDate, gamesToPlayCountPerFamily } = challenge
   const gameStats = boardGameFeed.filter(game => {
+    if (game.gameFamily) {
+      console.log(game.name, game.gameFamily)
+    }
     try {
       return isDateInRange(game.date, startDate, endDate) && (game.gameFamily === gameFamily || game.name.includes(gameFamily))
     } catch (ex) {

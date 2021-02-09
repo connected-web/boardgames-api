@@ -3,8 +3,8 @@ const reduceNameToBoardGameApiId = require('../util/reduceNameToBoardGameApiId')
 const log = []
 const report = (...messages) => log.push(['[Create Board Game Index]', ...messages].join(' '))
 
-const expectedProperties = ['date', 'game', 'winner', 'coOpOutcome', 'coOp', 'notes', 'mechanics']
-const playRecordProperties = ['date', 'winner', 'coOpOutcome', 'notes', 'coOp', 'mechanics']
+const expectedProperties = ['date', 'game', 'winner', 'coOpOutcome', 'coOp', 'notes', 'mechanics', 'gameFamily']
+const playRecordProperties = ['date', 'winner', 'coOpOutcome', 'notes', 'coOp', 'mechanics', 'gameFamily']
 const clone = d => JSON.parse(JSON.stringify(d))
 
 function fmn (n) {
