@@ -4,48 +4,48 @@
   "sequenceStartDate": "2021-01-01",
   "sequenceEndDate": "2021-12-31",
   "daysInSequence": 365,
-  "daysWithUnplayedGames": 364,
+  "daysWithUnplayedGames": 328,
   "gamesPlayedPerDay": {
     "1": 7,
-    "2": 0,
-    "3": 0,
-    "4": 0,
-    "5": 0,
-    "6": 0,
-    "7": 0,
-    "8": 0,
-    "9": 0,
-    "10": 0,
+    "2": 4,
+    "3": 1,
+    "4": 1,
+    "5": 1,
+    "6": 1,
+    "7": 1,
+    "8": 1,
+    "9": 2,
+    "10": 2,
     "11": 0,
-    "12": 0,
-    "13": 0,
-    "14": 0,
-    "15": 0,
-    "16": 0,
-    "17": 0,
-    "18": 0,
-    "19": 0,
+    "12": 1,
+    "13": 1,
+    "14": 2,
+    "15": 2,
+    "16": 2,
+    "17": 2,
+    "18": 2,
+    "19": 2,
     "20": 0,
-    "21": 0,
-    "22": 0,
-    "23": 0,
-    "24": 0,
-    "25": 0,
-    "26": 0,
-    "27": 0,
-    "28": 0,
-    "29": 0,
-    "30": 0,
-    "31": 0,
-    "32": 0,
-    "33": 0,
-    "34": 0,
-    "35": 0,
-    "36": 0,
-    "37": 0,
-    "38": 0,
+    "21": 2,
+    "22": 1,
+    "23": 3,
+    "24": 1,
+    "25": 2,
+    "26": 1,
+    "27": 1,
+    "28": 1,
+    "29": 1,
+    "30": 5,
+    "31": 3,
+    "32": 3,
+    "33": 1,
+    "34": 3,
+    "35": 2,
+    "36": 1,
+    "37": 1,
+    "38": 2,
     "39": 0,
-    "40": 0,
+    "40": 3,
     "41": 0,
     "42": 0,
     "43": 0,
@@ -377,47 +377,509 @@
       "date": "2021-01-01",
       "name": "Corsairs of Valeria",
       "winner": "Hannah",
-      "coOp": "No"
+      "coOp": "No",
+      "gameFamily": "Corsairs of Valeria"
     },
     {
       "date": "2021-01-01",
       "name": "Deep Sea Adventure",
       "coOp": "Yes",
-      "coOpOutcome": "Won"
+      "coOpOutcome": "Won",
+      "gameFamily": "Deep Sea Adventure"
     },
     {
       "date": "2021-01-01",
       "name": "Flotsam Fight",
       "winner": "John",
-      "coOp": "No"
+      "coOp": "No",
+      "gameFamily": "Flotsam Fight"
     },
     {
       "date": "2021-01-01",
       "name": "Jurassic Snack",
       "winner": "John",
-      "coOp": "No"
+      "coOp": "No",
+      "gameFamily": "Jurassic Snack"
     },
     {
       "date": "2021-01-01",
       "name": "Love Letter",
       "winner": "John",
-      "coOp": "No"
+      "coOp": "No",
+      "gameFamily": "Love Letter"
     },
     {
       "date": "2021-01-01",
       "name": "Lovecraft Letter",
       "winner": "Hannah",
-      "coOp": "No"
+      "coOp": "No",
+      "gameFamily": "Lovecraft Letter"
     },
     {
       "date": "2021-01-01",
       "name": "Mint Works",
       "winner": "John",
-      "coOp": "No"
+      "coOp": "No",
+      "gameFamily": "Mint Works"
+    },
+    {
+      "date": "2021-01-02",
+      "name": "Design Town",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Design Town"
+    },
+    {
+      "date": "2021-01-02",
+      "name": "Dominion",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Dominion"
+    },
+    {
+      "date": "2021-01-02",
+      "name": "Star Realms",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Star Realms"
+    },
+    {
+      "date": "2021-01-02",
+      "name": "Topiary",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Topiary"
+    },
+    {
+      "date": "2021-01-03",
+      "name": "7 Wonders",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "7 Wonders"
+    },
+    {
+      "date": "2021-01-04",
+      "name": "Pandemic",
+      "coOp": "Yes",
+      "coOpOutcome": "Won",
+      "gameFamily": "Pandemic"
+    },
+    {
+      "date": "2021-01-05",
+      "name": "Ticket to Ride",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Ticket to Ride"
+    },
+    {
+      "date": "2021-01-06",
+      "name": "Tanto Cuore",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Tanto Cuore"
+    },
+    {
+      "date": "2021-01-07",
+      "name": "Valeria: Card Kingdoms",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Valeria: Card Kingdoms"
+    },
+    {
+      "date": "2021-01-08",
+      "name": "Valeria: Card Kingdoms",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Valeria: Card Kingdoms"
+    },
+    {
+      "date": "2021-01-09",
+      "name": "Aeon's End",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost",
+      "gameFamily": "Aeon's End"
+    },
+    {
+      "date": "2021-01-09",
+      "name": "Aeon's End",
+      "coOp": "Yes",
+      "coOpOutcome": "Won",
+      "gameFamily": "Aeon's End"
+    },
+    {
+      "date": "2021-01-10",
+      "name": "Mandala",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Wildcard"
+    },
+    {
+      "date": "2021-01-10",
+      "name": "Wingspan: Oceania Expansion",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Wingspan"
+    },
+    {
+      "date": "2021-01-12",
+      "name": "Flotsam Fight",
+      "winner": "John ",
+      "coOp": "No",
+      "gameFamily": "Flotsam Fight"
+    },
+    {
+      "date": "2021-01-13",
+      "name": "Jurassic Snack",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Jurassic Snack"
+    },
+    {
+      "date": "2021-01-14",
+      "name": "Love Letter",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Love Letter"
+    },
+    {
+      "date": "2021-01-14",
+      "name": "Love Letter",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Love Letter"
+    },
+    {
+      "date": "2021-01-15",
+      "name": "Mandala",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Wildcard"
+    },
+    {
+      "date": "2021-01-15",
+      "name": "Topiary",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Topiary"
+    },
+    {
+      "date": "2021-01-16",
+      "name": "Brass: Birmingham",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Brass Birmingham"
+    },
+    {
+      "date": "2021-01-16",
+      "name": "Brass: Birmingham",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Brass Birmingham"
+    },
+    {
+      "date": "2021-01-17",
+      "name": "Brass: Birmingham",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Brass Birmingham"
+    },
+    {
+      "date": "2021-01-17",
+      "name": "Lovecraft Letter",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Lovecraft Letter"
+    },
+    {
+      "date": "2021-01-18",
+      "name": "Archer: Once You Go Blackmail...",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Love Letter"
+    },
+    {
+      "date": "2021-01-18",
+      "name": "Star Realms",
+      "winner": "Draw",
+      "coOp": "No",
+      "gameFamily": "Star Realms"
+    },
+    {
+      "date": "2021-01-19",
+      "name": "Star Realms",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Star Realms"
+    },
+    {
+      "date": "2021-01-19",
+      "name": "Star Realms",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Star Realms"
+    },
+    {
+      "date": "2021-01-21",
+      "name": "Star Realms",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Star Realms"
+    },
+    {
+      "date": "2021-01-21",
+      "name": "Star Realms",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Star Realms"
+    },
+    {
+      "date": "2021-01-22",
+      "name": "Scythe",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Scythe"
+    },
+    {
+      "date": "2021-01-23",
+      "name": "Pandemic: On the Brink",
+      "coOp": "Yes",
+      "coOpOutcome": "Won",
+      "gameFamily": "Pandemic"
+    },
+    {
+      "date": "2021-01-23",
+      "name": "Scythe",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Scythe"
+    },
+    {
+      "date": "2021-01-23",
+      "name": "Ticket to Ride",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Ticket to ride"
+    },
+    {
+      "date": "2021-01-24",
+      "name": "HECK: A Tiny Card Game",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Wildcard"
+    },
+    {
+      "date": "2021-01-25",
+      "name": "Lovecraft Letter",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Lovecraft Letter"
+    },
+    {
+      "date": "2021-01-25",
+      "name": "Mint Works",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Mint Works"
+    },
+    {
+      "date": "2021-01-26",
+      "name": "Love Letter 2nd Edition",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Love Letter"
+    },
+    {
+      "date": "2021-01-27",
+      "name": "Corsairs of Valeria",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Corsairs of Valeria"
+    },
+    {
+      "date": "2021-01-28",
+      "name": "7 Wonders",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "7 Wonders"
+    },
+    {
+      "date": "2021-01-29",
+      "name": "Infinity Gauntlet: A Love Letter Game",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Love Letter"
+    },
+    {
+      "date": "2021-01-30",
+      "name": "Deep Sea Adventure",
+      "coOp": "Yes",
+      "coOpOutcome": "Won",
+      "gameFamily": "Deep Sea Adventure "
+    },
+    {
+      "date": "2021-01-30",
+      "name": "Design Town",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Design Town"
+    },
+    {
+      "date": "2021-01-30",
+      "name": "Forbidden Island",
+      "coOp": "Yes",
+      "coOpOutcome": "Won",
+      "gameFamily": "Wildcard"
+    },
+    {
+      "date": "2021-01-30",
+      "name": "Hanabi",
+      "coOp": "Yes",
+      "coOpOutcome": "Won",
+      "gameFamily": "Wildcard"
+    },
+    {
+      "date": "2021-01-30",
+      "name": "Tanto Cuore: Romantic Vacation",
+      "winner": "Draw",
+      "coOp": "No",
+      "gameFamily": "Tanto Cuore"
+    },
+    {
+      "date": "2021-01-31",
+      "name": "Infinity Gauntlet: A Love Letter Game",
+      "winner": "Draw",
+      "coOp": "No",
+      "gameFamily": "Love Letter"
+    },
+    {
+      "date": "2021-01-31",
+      "name": "Parks",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Wildcard"
+    },
+    {
+      "date": "2021-01-31",
+      "name": "Wingspan: European Expansion ",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Wingspan"
+    },
+    {
+      "date": "2021-02-01",
+      "name": "Dominion",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Dominion"
+    },
+    {
+      "date": "2021-02-01",
+      "name": "Dominion",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Dominion"
+    },
+    {
+      "date": "2021-02-01",
+      "name": "Love Letter 2nd Edition",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Love Letter"
+    },
+    {
+      "date": "2021-02-02",
+      "name": "Flotsam Fight",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Flotsam Fight"
+    },
+    {
+      "date": "2021-02-03",
+      "name": "Archer: Once You Go Blackmail...",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Love Letter"
+    },
+    {
+      "date": "2021-02-03",
+      "name": "Love Letter Kanai Factory Limited Edition",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Love Letter"
+    },
+    {
+      "date": "2021-02-03",
+      "name": "Love Letter: Batman",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Love Letter"
+    },
+    {
+      "date": "2021-02-04",
+      "name": "Love Letter",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Love Letter"
+    },
+    {
+      "date": "2021-02-04",
+      "name": "Love Letter 2nd Edition",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Love Letter"
+    },
+    {
+      "date": "2021-02-05",
+      "name": "Ticket to Ride: Nordic Countries",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Ticket to Ride"
+    },
+    {
+      "date": "2021-02-06",
+      "name": "Topiary",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Topiary"
+    },
+    {
+      "date": "2021-02-07",
+      "name": "Brass: Lancashire ",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Brass"
+    },
+    {
+      "date": "2021-02-07",
+      "name": "Terraforming Mars",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Wildcard"
+    },
+    {
+      "date": "2021-02-09",
+      "name": "Corsairs of Valeria",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Corsairs of Valeria"
+    },
+    {
+      "date": "2021-02-09",
+      "name": "Jurassic Snack",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Jurassic Snack"
+    },
+    {
+      "date": "2021-02-09",
+      "name": "Mint Works",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Mint Works"
     }
   ],
-  "totalGamesPlayed": 7,
-  "averageGamesPlayedPerDay": 0.0192,
+  "totalGamesPlayed": 72,
+  "averageGamesPlayedPerDay": 0.1973,
   "mostGamesPlayedInADay": [
     {
       "date": "2021-01-01",
@@ -433,86 +895,75 @@
     }
   ],
   "uniqueGamesPlayed": [
+    "7 Wonders",
+    "Aeon's End",
+    "Archer: Once You Go Blackmail...",
+    "Brass: Birmingham",
+    "Brass: Lancashire ",
     "Corsairs of Valeria",
     "Deep Sea Adventure",
+    "Design Town",
+    "Dominion",
     "Flotsam Fight",
+    "Forbidden Island",
+    "HECK: A Tiny Card Game",
+    "Hanabi",
+    "Infinity Gauntlet: A Love Letter Game",
     "Jurassic Snack",
     "Love Letter",
+    "Love Letter 2nd Edition",
+    "Love Letter Kanai Factory Limited Edition",
+    "Love Letter: Batman",
     "Lovecraft Letter",
-    "Mint Works"
+    "Mandala",
+    "Mint Works",
+    "Pandemic",
+    "Pandemic: On the Brink",
+    "Parks",
+    "Scythe",
+    "Star Realms",
+    "Tanto Cuore",
+    "Tanto Cuore: Romantic Vacation",
+    "Terraforming Mars",
+    "Ticket to Ride",
+    "Ticket to Ride: Nordic Countries",
+    "Topiary",
+    "Valeria: Card Kingdoms",
+    "Wingspan: European Expansion ",
+    "Wingspan: Oceania Expansion"
   ],
-  "uniqueGamesPlayedCount": 7,
-  "uniqueGamesPlayedPercentage": 1,
+  "uniqueGamesPlayedCount": 36,
+  "uniqueGamesPlayedPercentage": 0.5,
   "mostPlayedGames": [
     {
-      "name": "Corsairs of Valeria",
-      "plays": 1
-    },
-    {
-      "name": "Deep Sea Adventure",
-      "plays": 1
-    },
-    {
-      "name": "Flotsam Fight",
-      "plays": 1
-    },
-    {
-      "name": "Jurassic Snack",
-      "plays": 1
-    },
-    {
-      "name": "Love Letter",
-      "plays": 1
-    },
-    {
-      "name": "Lovecraft Letter",
-      "plays": 1
-    },
-    {
-      "name": "Mint Works",
-      "plays": 1
+      "name": "Star Realms",
+      "plays": 6
     }
   ],
-  "coOpGamesPlayedCount": 1,
-  "coOpGamesPlayedPercentage": 0.1429,
-  "coOpGameWins": 1,
-  "coOpGameLoses": 0,
-  "winCountHannah": 2,
-  "winCountJohn": 4,
+  "coOpGamesPlayedCount": 8,
+  "coOpGamesPlayedPercentage": 0.1111,
+  "coOpGameWins": 7,
+  "coOpGameLoses": 1,
+  "winCountHannah": 30,
+  "winCountJohn": 31,
   "winCountOther": 0,
-  "winCountDraw": 0,
-  "winnableGamesTotal": 6,
-  "winPercentageHannah": 0.3333,
-  "winPercentageJohn": 0.6667,
+  "winCountDraw": 3,
+  "winnableGamesTotal": 64,
+  "winPercentageHannah": 0.4688,
+  "winPercentageJohn": 0.4844,
   "winPercentageOther": 0,
-  "winPercentageDraw": 0,
+  "winPercentageDraw": 0.0469,
   "mostWonGames": "John",
   "mostWonGamesJohn": [
     {
-      "game": "Mint Works",
-      "plays": 1
-    },
-    {
-      "game": "Love Letter",
-      "plays": 1
-    },
-    {
       "game": "Jurassic Snack",
-      "plays": 1
-    },
-    {
-      "game": "Flotsam Fight",
-      "plays": 1
+      "plays": 3
     }
   ],
   "mostWonGamesHannah": [
     {
-      "game": "Lovecraft Letter",
-      "plays": 1
-    },
-    {
-      "game": "Corsairs of Valeria",
-      "plays": 1
+      "game": "Star Realms",
+      "plays": 4
     }
   ]
 }

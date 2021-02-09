@@ -20,7 +20,7 @@
       "Pandemic",
       "Tanto Cuore",
       "Ticket to Ride",
-      "Valeria Card Kingdoms",
+      "Valeria: Card Kingdoms",
       "Aeon's End",
       "Wingspan",
       "Brass",
@@ -83,6 +83,20 @@
     {
       "gameFamily": "Love Letter",
       "gameStats": [
+        {
+          "date": "2018-01-02",
+          "name": "Lovecraft Letter",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Love Letter"
+        },
+        {
+          "date": "2018-01-04",
+          "name": "Lovecraft Letter",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Love Letter"
+        },
         {
           "date": "2018-02-05",
           "name": "Love Letter: Batman",
@@ -307,8 +321,8 @@
           "coOp": "No"
         }
       ],
-      "gamesPlayedCount": 37,
-      "gamesPlayedPercentage": 3.7
+      "gamesPlayedCount": 39,
+      "gamesPlayedPercentage": 3.9
     },
     {
       "gameFamily": "Mint Works",
@@ -386,13 +400,15 @@
           "date": "2018-01-02",
           "name": "Lovecraft Letter",
           "winner": "John",
-          "coOp": "No"
+          "coOp": "No",
+          "gameFamily": "Love Letter"
         },
         {
           "date": "2018-01-04",
           "name": "Lovecraft Letter",
           "winner": "John",
-          "coOp": "No"
+          "coOp": "No",
+          "gameFamily": "Love Letter"
         },
         {
           "date": "2018-02-11",
@@ -734,14 +750,16 @@
           "date": "2018-01-07",
           "name": "Pandemic: Iberia",
           "coOp": "Yes",
-          "coOpOutcome": "Won"
+          "coOpOutcome": "Won",
+          "gameFamily": "Pandemic"
         },
         {
           "date": "2018-01-24",
           "name": "Pandemic Legacy: Season 1",
           "coOp": "Yes",
           "coOpOutcome": "Won",
-          "note": "Month 4 - 4 player"
+          "note": "Month 4 - 4 player",
+          "gameFamily": "Pandemic"
         },
         {
           "date": "2018-02-04",
@@ -1064,34 +1082,39 @@
           "date": "2018-01-06",
           "name": "Ticket to Ride",
           "winner": "John",
-          "coOp": "No"
+          "coOp": "No",
+          "gameFamily": "Ticket to Ride"
         },
         {
           "date": "2018-01-06",
           "name": "Ticket to Ride Map Collection: Volume 6 – France & Old West",
           "winner": "Hannah",
           "coOp": "No",
-          "note": "France"
+          "note": "France",
+          "gameFamily": "Ticket to Ride"
         },
         {
           "date": "2018-01-10",
           "name": "Ticket to Ride Map Collection: Volume 1 – Team Asia & Legendary Asia",
           "winner": "John",
           "coOp": "No",
-          "note": "Asia"
+          "note": "Asia",
+          "gameFamily": "Ticket to Ride"
         },
         {
           "date": "2018-01-12",
           "name": "Ticket to Ride Map Collection: Volume 1 – Team Asia & Legendary Asia",
           "winner": "Hannah",
           "coOp": "No",
-          "note": "Legendary Asia"
+          "note": "Legendary Asia",
+          "gameFamily": "Ticket to Ride"
         },
         {
           "date": "2018-01-16",
           "name": "Ticket to Ride: Rails & Sails",
           "winner": "Hannah",
-          "coOp": "No"
+          "coOp": "No",
+          "gameFamily": "Ticket to Ride"
         },
         {
           "date": "2018-02-14",
@@ -1406,10 +1429,41 @@
       "gamesPlayedPercentage": 5.5
     },
     {
-      "gameFamily": "Valeria Card Kingdoms",
-      "gameStats": [],
-      "gamesPlayedCount": 0,
-      "gamesPlayedPercentage": 0
+      "gameFamily": "Valeria: Card Kingdoms",
+      "gameStats": [
+        {
+          "date": "2018-06-16",
+          "name": "Valeria: Card Kingdoms",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-06-17",
+          "name": "Valeria: Card Kingdoms",
+          "winner": "John",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-06-24",
+          "name": "Valeria: Card Kingdoms",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-06-30",
+          "name": "Valeria: Card Kingdoms",
+          "winner": "Hannah",
+          "coOp": "No"
+        },
+        {
+          "date": "2018-08-26",
+          "name": "Valeria: Card Kingdoms",
+          "winner": "Other",
+          "coOp": "No"
+        }
+      ],
+      "gamesPlayedCount": 5,
+      "gamesPlayedPercentage": 0.5
     },
     {
       "gameFamily": "Aeon's End",
@@ -1469,9 +1523,9 @@
     }
   ],
   "overview": {
-    "gamesPlayedCount": 212,
+    "gamesPlayedCount": 219,
     "totalGamesToPlayCount": 210,
-    "gamesPlayedPercentage": 1.0095
+    "gamesPlayedPercentage": 1.0429
   },
   "sequence": {
     "startDate": "2018-01-01",
