@@ -1,4 +1,4 @@
-const daysBetween = require("../util/daysBetween")
+const daysBetween = require('../util/daysBetween')
 
 const log = []
 const report = (...messages) => log.push(['[Board Game Challenge Grids]', ...messages].join(' '))
@@ -121,9 +121,9 @@ function createChallengeGridForYear (challenge, year) {
       gamesPlayedPercentage: 0
     },
     sequence: {
-      daysInSequence: 1,
       earliestDate: `${year}-01-01`,
       latestDate: `${year}-01-01`,
+      daysInSequenceCount: 1
     }
   }
 }
@@ -190,7 +190,7 @@ async function createChallengeGrids (model) {
       const latestDate = new Date(latestTime)
       sequence.earliestDate = earliestDate.toISOString().substring(0, 10)
       sequence.latestDate = latestDate.toISOString().substring(0, 10)
-      sequence.daysInSequence = daysBetween(earliestDate, latestDate)
+      sequence.daysInSequenceCount = daysBetween(earliestDate, latestDate)
     }
 
     challengeGrid.challenge.gameFamilies.forEach((gameFamily) => populateChallengeGrid(challengeGrid, gameFamily, feedItemsInDateRange))
