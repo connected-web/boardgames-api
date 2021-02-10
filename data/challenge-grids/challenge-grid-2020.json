@@ -1839,15 +1839,1016 @@
     },
     {
       "gameFamily": "Wilcard *",
-      "gameStats": [],
-      "gamesPlayedCount": 0,
-      "gamesPlayedPercentage": 0
+      "gameStats": [
+        {
+          "date": "2020-01-01",
+          "name": "The Mind",
+          "coOp": "Yes",
+          "coOpOutcome": "Lost",
+          "gameFamily": "The Mind"
+        },
+        {
+          "date": "2020-01-02",
+          "name": "Tinker Tailor",
+          "winner": "Hannah",
+          "coOp": "No",
+          "gameFamily": "Tinker Tailor"
+        },
+        {
+          "date": "2020-01-03",
+          "name": "Coup",
+          "winner": "Hannah",
+          "coOp": "No",
+          "gameFamily": "Coup"
+        },
+        {
+          "date": "2020-01-04",
+          "name": "Viticulture",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Viticulture"
+        },
+        {
+          "date": "2020-01-07",
+          "name": "Cat Lady",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Cat Lady"
+        },
+        {
+          "date": "2020-01-18",
+          "name": "T.I.M.E Stories: A Prophecy of Dragons",
+          "coOp": "Yes",
+          "coOpOutcome": "Lost",
+          "gameFamily": "Time Stories"
+        },
+        {
+          "date": "2020-01-20",
+          "name": "Splendor",
+          "winner": "Hannah",
+          "coOp": "No",
+          "gameFamily": "Splendor"
+        },
+        {
+          "date": "2020-01-23",
+          "name": "T.I.M.E Stories: A Prophecy of Dragons",
+          "coOp": "Yes",
+          "coOpOutcome": "Win",
+          "gameFamily": "Time Stories"
+        },
+        {
+          "date": "2020-01-26",
+          "name": "Splendor",
+          "winner": "John",
+          "coOp": "Yes",
+          "gameFamily": "Splendor"
+        },
+        {
+          "date": "2020-01-27",
+          "name": "Azul",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Azul"
+        },
+        {
+          "date": "2020-01-28",
+          "name": "The Game",
+          "coOp": "Yes",
+          "coOpOutcome": "Win",
+          "gameFamily": "The Game"
+        },
+        {
+          "date": "2020-02-09",
+          "name": "Castles of Burgandy",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Castles of Burgandy"
+        },
+        {
+          "date": "2020-02-16",
+          "name": "Patchwork",
+          "winner": "Hannah",
+          "coOp": "No",
+          "gameFamily": "Patchwork"
+        },
+        {
+          "date": "2020-02-19",
+          "name": "Azul: Summer Pavilion",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Azul"
+        },
+        {
+          "date": "2020-02-19",
+          "name": "Citadels",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Citadels"
+        },
+        {
+          "date": "2020-03-01",
+          "name": "Space Base",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Space Base"
+        },
+        {
+          "date": "2020-03-09",
+          "name": "The Mind",
+          "coOp": "Yes",
+          "coOpOutcome": "Won",
+          "gameFamily": "The Mind"
+        },
+        {
+          "date": "2020-03-12",
+          "name": "Coup",
+          "winner": "Hannah",
+          "coOp": "No",
+          "gameFamily": "Coup"
+        },
+        {
+          "date": "2020-03-14",
+          "name": "Mint Delivery",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Mint Delivery"
+        },
+        {
+          "date": "2020-03-15",
+          "name": "Arlukkachase",
+          "winner": "Hannah",
+          "coOp": "No",
+          "gameFamily": "Arlukkachase"
+        },
+        {
+          "date": "2020-03-15",
+          "name": "Sub Terra II",
+          "coOp": "Yes",
+          "coOpOutcome": "Won",
+          "gameFamily": "Sub Terra II"
+        },
+        {
+          "date": "2020-03-15",
+          "name": "Super-Bee",
+          "winner": "Hannah",
+          "coOp": "No",
+          "gameFamily": "Super-Bee"
+        },
+        {
+          "date": "2020-03-16",
+          "name": "The Mind Extreme",
+          "coOp": "Yes",
+          "coOpOutcome": "Lost",
+          "gameFamily": "The Mind"
+        },
+        {
+          "date": "2020-03-17",
+          "name": "Fafnir",
+          "winner": "Hannah",
+          "coOp": "No",
+          "gameFamily": "Fafnir"
+        },
+        {
+          "date": "2020-03-18",
+          "name": "The Fox and the Forest Duet",
+          "coOp": "Yes",
+          "coOpOutcome": "Won",
+          "gameFamily": "The Fox and the Forest Duet"
+        },
+        {
+          "date": "2020-03-18",
+          "name": "Tricks and the Phantom",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Tricks and the Phantom"
+        },
+        {
+          "date": "2020-03-19",
+          "name": "Dungeon of Mandom VIII",
+          "winner": "Hannah",
+          "coOp": "No",
+          "gameFamily": "Dungeon of Mandom VII"
+        },
+        {
+          "date": "2020-03-19",
+          "name": "Dungeon of Mandom VIII",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Dungeon of Mandom VII"
+        },
+        {
+          "date": "2020-03-19",
+          "name": "Nine Tiles Panic",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Nine Tiles Panic"
+        },
+        {
+          "date": "2020-03-19",
+          "name": "Tricks and the Phantom",
+          "winner": "Hannah",
+          "coOp": "No",
+          "gameFamily": "Tricks and the Phantom"
+        },
+        {
+          "date": "2020-03-20",
+          "name": "Inhuman Conditions",
+          "coOp": "Yes",
+          "coOpOutcome": "Lost",
+          "gameFamily": "Inhuman Conditions"
+        },
+        {
+          "date": "2020-03-20",
+          "name": "Inhuman Conditions",
+          "coOp": "Yes",
+          "coOpOutcome": "Won",
+          "gameFamily": "Inhuman Conditions"
+        },
+        {
+          "date": "2020-03-21",
+          "name": "Dungeon of Mandom VIII",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Dungeon of Mandom VII"
+        },
+        {
+          "date": "2020-03-22",
+          "name": "Fafnir",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Fafnir"
+        },
+        {
+          "date": "2020-03-28",
+          "name": "Barbarossa",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Barbarossa"
+        },
+        {
+          "date": "2020-03-28",
+          "name": "Reykholt",
+          "winner": "Draw",
+          "coOp": "No",
+          "gameFamily": "Reykholt"
+        },
+        {
+          "date": "2020-03-29",
+          "name": "Castles of Mad King Ludwig",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Castles of Mad King Ludwig"
+        },
+        {
+          "date": "2020-04-03",
+          "name": "Forbidden Island",
+          "coOp": "Yes",
+          "coOpOutcome": "Won",
+          "gameFamily": "Forbidden Island"
+        },
+        {
+          "date": "2020-04-05",
+          "name": "The Palaces of Mad King Ludwig",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Castles of Mad King Ludwig"
+        },
+        {
+          "date": "2020-04-05",
+          "name": "Yam Yam",
+          "winner": "Hannah",
+          "coOp": "No",
+          "gameFamily": "Yam Yam"
+        },
+        {
+          "date": "2020-04-09",
+          "name": "Space Explorers",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Space Explorers"
+        },
+        {
+          "date": "2020-04-10",
+          "name": "Diamonsters",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Diamonsters"
+        },
+        {
+          "date": "2020-04-11",
+          "name": "Dinosaur Island",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Dinosaur Island"
+        },
+        {
+          "date": "2020-04-11",
+          "name": "Photosynthesis",
+          "winner": "Hannah",
+          "coOp": "No",
+          "gameFamily": "Photosynthesis"
+        },
+        {
+          "date": "2020-04-12",
+          "name": "Viticulture: Tuscany Essential Edition",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Viticulture"
+        },
+        {
+          "date": "2020-04-15",
+          "name": "Harry Potter: Hogwarts Battle",
+          "coOp": "Yes",
+          "coOpOutcome": "Lost",
+          "gameFamily": "Harry Potter"
+        },
+        {
+          "date": "2020-04-16",
+          "name": "Grifters: Nexus",
+          "winner": "Hannah",
+          "coOp": "No",
+          "gameFamily": "Grifters"
+        },
+        {
+          "date": "2020-04-18",
+          "name": "Heart of Crown: Fairy Garden",
+          "winner": "Hannah",
+          "coOp": "No",
+          "gameFamily": "Heart of Crown"
+        },
+        {
+          "date": "2020-04-19",
+          "name": "Patchwork",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Patchwork"
+        },
+        {
+          "date": "2020-04-22",
+          "name": "Tinker Tailor",
+          "winner": "Hannah",
+          "coOp": "No",
+          "gameFamily": "Tinker Tailor"
+        },
+        {
+          "date": "2020-04-25",
+          "name": "Codenames",
+          "coOp": "Yes",
+          "coOpOutcome": "Won",
+          "gameFamily": "Codenames"
+        },
+        {
+          "date": "2020-04-25",
+          "name": "Codenames",
+          "coOp": "Yes",
+          "coOpOutcome": "Won",
+          "gameFamily": "Codenames"
+        },
+        {
+          "date": "2020-05-05",
+          "name": "Carcassonne",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Carcassonne"
+        },
+        {
+          "date": "2020-05-05",
+          "name": "Hanabi",
+          "coOp": "Yes",
+          "coOpOutcome": "Lost",
+          "gameFamily": "Hanabi"
+        },
+        {
+          "date": "2020-05-05",
+          "name": "Hanabi",
+          "coOp": "Yes",
+          "coOpOutcome": "Lost",
+          "gameFamily": "Hanabi"
+        },
+        {
+          "date": "2020-05-05",
+          "name": "Hanabi",
+          "coOp": "Yes",
+          "coOpOutcome": "Won",
+          "gameFamily": "Hanabi"
+        },
+        {
+          "date": "2020-05-05",
+          "name": "Hanabi",
+          "coOp": "Yes",
+          "coOpOutcome": "Won",
+          "gameFamily": "Hanabi"
+        },
+        {
+          "date": "2020-05-07",
+          "name": "Sushi Go!",
+          "winner": "Hannah",
+          "coOp": "No",
+          "gameFamily": "Sushi Go"
+        },
+        {
+          "date": "2020-05-10",
+          "name": "Claim",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Claim"
+        },
+        {
+          "date": "2020-05-10",
+          "name": "Hanabi",
+          "coOp": "Yes",
+          "coOpOutcome": "Won",
+          "gameFamily": "Hanabi"
+        },
+        {
+          "date": "2020-05-21",
+          "name": "Carcassonne",
+          "coOp": "Yes",
+          "gameFamily": "Carcassonne"
+        },
+        {
+          "date": "2020-05-23",
+          "name": "Carcassonne",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Carcassonne"
+        },
+        {
+          "date": "2020-05-23",
+          "name": "Lords of Waterdeep",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Lords of Waterdeep"
+        },
+        {
+          "date": "2020-05-29",
+          "name": "Marrying Mr. Darcy",
+          "winner": "Hannah",
+          "coOp": "No",
+          "gameFamily": "Marrying Mr Darcy"
+        },
+        {
+          "date": "2020-05-31",
+          "name": "Coup",
+          "winner": "Hannah",
+          "coOp": "No",
+          "gameFamily": "Coup"
+        },
+        {
+          "date": "2020-05-31",
+          "name": "Coup",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Coup"
+        },
+        {
+          "date": "2020-05-31",
+          "name": "Coup",
+          "winner": "Other",
+          "coOp": "No",
+          "gameFamily": "Coup"
+        },
+        {
+          "date": "2020-05-31",
+          "name": "Hanabi",
+          "coOp": "Yes",
+          "coOpOutcome": "Won",
+          "gameFamily": "Hanabi"
+        },
+        {
+          "date": "2020-05-31",
+          "name": "Sabotuer",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Sabotuer"
+        },
+        {
+          "date": "2020-06-04",
+          "name": "Dungeon of Mandom VIII",
+          "winner": "Hannah",
+          "coOp": "No",
+          "gameFamily": "Dungeon of Mandom VIII"
+        },
+        {
+          "date": "2020-06-06",
+          "name": "Lords of Waterdeep",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Lords of Waterdeep"
+        },
+        {
+          "date": "2020-06-09",
+          "name": "Tricks and the Phantom",
+          "winner": "Hannah",
+          "coOp": "No",
+          "gameFamily": "Tricks and the Phantom"
+        },
+        {
+          "date": "2020-06-10",
+          "name": "The Mind Extreme",
+          "coOp": "Yes",
+          "coOpOutcome": "Lost",
+          "gameFamily": "The Mind"
+        },
+        {
+          "date": "2020-06-13",
+          "name": "Fafnir",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Fafnir"
+        },
+        {
+          "date": "2020-06-14",
+          "name": "Doki Doki Beach Volleyball",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Doki Doki"
+        },
+        {
+          "date": "2020-07-07",
+          "name": "Hanabi",
+          "coOp": "Yes",
+          "coOpOutcome": "Won",
+          "gameFamily": "Hanabi"
+        },
+        {
+          "date": "2020-07-11",
+          "name": "Tricks and the Phantom",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Tricks and the Phantom"
+        },
+        {
+          "date": "2020-07-13",
+          "name": "Hanabi",
+          "coOp": "Yes",
+          "coOpOutcome": "Won",
+          "gameFamily": "Hanabi"
+        },
+        {
+          "date": "2020-07-15",
+          "name": "Yam Yam",
+          "winner": "Other",
+          "coOp": "No",
+          "gameFamily": "Yam Yam"
+        },
+        {
+          "date": "2020-07-17",
+          "name": "Space Explorers",
+          "winner": "Hannah",
+          "coOp": "No",
+          "gameFamily": "Space Explorers"
+        },
+        {
+          "date": "2020-07-21",
+          "name": "Tinker Tailor",
+          "winner": "Hannah",
+          "coOp": "No",
+          "gameFamily": "Tinker Tailor"
+        },
+        {
+          "date": "2020-07-25",
+          "name": "Citadels",
+          "winner": "Hannah",
+          "coOp": "No",
+          "gameFamily": "Citadels"
+        },
+        {
+          "date": "2020-07-27",
+          "name": "Space Explorers",
+          "winner": "Hannah",
+          "coOp": "No",
+          "gameFamily": "Space Explorers"
+        },
+        {
+          "date": "2020-08-05",
+          "name": "Lords of Waterdeep",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Lords of Waterdeep"
+        },
+        {
+          "date": "2020-08-09",
+          "name": "Carcassonne",
+          "coOp": "Yes",
+          "coOpOutcome": "Won",
+          "gameFamily": "Carcassonne"
+        },
+        {
+          "date": "2020-08-10",
+          "name": "Troika",
+          "winner": "Hannah",
+          "coOp": "No",
+          "gameFamily": "Troika"
+        },
+        {
+          "date": "2020-08-16",
+          "name": "Cat Lady",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Cat Lady"
+        },
+        {
+          "date": "2020-08-16",
+          "name": "Hey, That's My Fish!",
+          "winner": "Hannah",
+          "coOp": "No",
+          "gameFamily": "Hey! That's My Fish"
+        },
+        {
+          "date": "2020-08-21",
+          "name": "Azul",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Azul"
+        },
+        {
+          "date": "2020-08-22",
+          "name": "Codenames",
+          "coOp": "Yes",
+          "coOpOutcome": "Won",
+          "gameFamily": "Codenames"
+        },
+        {
+          "date": "2020-08-22",
+          "name": "Codenames",
+          "coOp": "Yes",
+          "coOpOutcome": "Won",
+          "gameFamily": "Codenames"
+        },
+        {
+          "date": "2020-08-22",
+          "name": "The Hieroglyph Game",
+          "winner": "Hannah",
+          "coOp": "No",
+          "gameFamily": "The Hieroglyph Game"
+        },
+        {
+          "date": "2020-08-22",
+          "name": "The Hieroglyph Game",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "The Hieroglyph Game"
+        },
+        {
+          "date": "2020-08-23",
+          "name": "Codenames: Duet",
+          "coOp": "Yes",
+          "coOpOutcome": "Lost",
+          "gameFamily": "Codenames"
+        },
+        {
+          "date": "2020-08-23",
+          "name": "Codenames: Duet",
+          "coOp": "Yes",
+          "coOpOutcome": "Won",
+          "gameFamily": "Codenames"
+        },
+        {
+          "date": "2020-08-24",
+          "name": "Splendor",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Splendor"
+        },
+        {
+          "date": "2020-08-28",
+          "name": "Codenames: Duet",
+          "coOp": "Yes",
+          "coOpOutcome": "Won",
+          "gameFamily": "Codenames"
+        },
+        {
+          "date": "2020-08-30",
+          "name": "Viticulture: Tuscany",
+          "winner": "Hannah",
+          "coOp": "No",
+          "gameFamily": "Viticulture"
+        },
+        {
+          "date": "2020-09-06",
+          "name": "Coup",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Coup "
+        },
+        {
+          "date": "2020-09-13",
+          "name": "Codenames",
+          "coOp": "Yes",
+          "coOpOutcome": "Won",
+          "gameFamily": "Codenames"
+        },
+        {
+          "date": "2020-09-13",
+          "name": "Codenames",
+          "coOp": "Yes",
+          "coOpOutcome": "Won",
+          "gameFamily": "Codenames"
+        },
+        {
+          "date": "2020-09-16",
+          "name": "HATSUDEN",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Hatsuden"
+        },
+        {
+          "date": "2020-09-17",
+          "name": "Machi Koro",
+          "winner": "Hannah",
+          "coOp": "No",
+          "gameFamily": "Machi Koro"
+        },
+        {
+          "date": "2020-09-22",
+          "name": "Codenames",
+          "coOp": "Yes",
+          "coOpOutcome": "Win",
+          "gameFamily": "Codenames"
+        },
+        {
+          "date": "2020-09-27",
+          "name": "Codenames",
+          "coOp": "Yes",
+          "coOpOutcome": "Lose",
+          "gameFamily": "Codenames"
+        },
+        {
+          "date": "2020-09-28",
+          "name": "Space Explorers",
+          "winner": "Hannah",
+          "coOp": "No",
+          "gameFamily": "Space Explorers"
+        },
+        {
+          "date": "2020-10-02",
+          "name": "Pirate 21",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Pirate 21"
+        },
+        {
+          "date": "2020-10-07",
+          "name": "Codenames",
+          "coOp": "Yes",
+          "coOpOutcome": "Win",
+          "gameFamily": "Codenames"
+        },
+        {
+          "date": "2020-10-07",
+          "name": "Codenames",
+          "coOp": "Yes",
+          "coOpOutcome": "Win",
+          "gameFamily": "Codenames"
+        },
+        {
+          "date": "2020-10-11",
+          "name": "Spirit Island",
+          "coOp": "Yes",
+          "coOpOutcome": "Lose",
+          "gameFamily": "Spirit Island"
+        },
+        {
+          "date": "2020-10-16",
+          "name": "Cthulhu: A Deck Building Game",
+          "coOp": "Yes",
+          "coOpOutcome": "Lose",
+          "gameFamily": "Cthulhu"
+        },
+        {
+          "date": "2020-10-17",
+          "name": "Cthulhu: A Deck Building Game",
+          "coOp": "Yes",
+          "coOpOutcome": "Win",
+          "gameFamily": "Cthulhu"
+        },
+        {
+          "date": "2020-10-18",
+          "name": "Troika",
+          "winner": "Hannah",
+          "coOp": "No",
+          "gameFamily": "Troika"
+        },
+        {
+          "date": "2020-10-20",
+          "name": "Mariposas",
+          "winner": "Draw",
+          "coOp": "No",
+          "gameFamily": "Mariposas"
+        },
+        {
+          "date": "2020-10-24",
+          "name": "HECK: A Tiny Card Game",
+          "winner": "Hannah",
+          "coOp": "No",
+          "gameFamily": "Heck"
+        },
+        {
+          "date": "2020-10-24",
+          "name": "HECK: A Tiny Card Game",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Heck"
+        },
+        {
+          "date": "2020-10-24",
+          "name": "Tricks and the Phantom",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Tricks and the Phantom"
+        },
+        {
+          "date": "2020-10-25",
+          "name": "El Alamein",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Barbarossa"
+        },
+        {
+          "date": "2020-10-25",
+          "name": "HECK: A Tiny Card Game",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Heck"
+        },
+        {
+          "date": "2020-10-29",
+          "name": "Marrying Mr. Darcy",
+          "winner": "Hannah",
+          "coOp": "No",
+          "gameFamily": "Marrying Mr Darcy"
+        },
+        {
+          "date": "2020-11-01",
+          "name": "Betrayal Legacy",
+          "coOp": "Yes",
+          "coOpOutcome": "Win",
+          "gameFamily": "Betrayal"
+        },
+        {
+          "date": "2020-11-02",
+          "name": "Betrayal Legacy",
+          "coOp": "Yes",
+          "coOpOutcome": "Win",
+          "gameFamily": "Betrayal"
+        },
+        {
+          "date": "2020-11-07",
+          "name": "Root",
+          "winner": "Draw",
+          "coOp": "No",
+          "gameFamily": "Root"
+        },
+        {
+          "date": "2020-11-07",
+          "name": "Silk",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Silk"
+        },
+        {
+          "date": "2020-11-08",
+          "name": "Diamonsters",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Diamonsters"
+        },
+        {
+          "date": "2020-11-08",
+          "name": "HECK: A Tiny Card Game",
+          "winner": "Hannah",
+          "coOp": "No",
+          "gameFamily": "Heck"
+        },
+        {
+          "date": "2020-11-08",
+          "name": "Root",
+          "winner": "Draw",
+          "coOp": "No",
+          "gameFamily": "Root"
+        },
+        {
+          "date": "2020-11-08",
+          "name": "Silk",
+          "winner": "Hannah",
+          "coOp": "No",
+          "gameFamily": "Silk"
+        },
+        {
+          "date": "2020-11-09",
+          "name": "Troika",
+          "winner": "Hannah",
+          "coOp": "No",
+          "gameFamily": "Troika"
+        },
+        {
+          "date": "2020-11-14",
+          "name": "Villainous",
+          "winner": "Hannah",
+          "coOp": "No",
+          "gameFamily": "Villainous"
+        },
+        {
+          "date": "2020-11-15",
+          "name": "Forbidden Island",
+          "coOp": "Yes",
+          "coOpOutcome": "Win",
+          "gameFamily": "Forbidden Island"
+        },
+        {
+          "date": "2020-11-25",
+          "name": "Codenames",
+          "coOp": "Yes",
+          "coOpOutcome": "Won",
+          "gameFamily": "Codenames"
+        },
+        {
+          "date": "2020-11-25",
+          "name": "Codenames",
+          "coOp": "Yes",
+          "coOpOutcome": "Won",
+          "gameFamily": "Codenames"
+        },
+        {
+          "date": "2020-11-29",
+          "name": "Codenames",
+          "coOp": "Yes",
+          "coOpOutcome": "Won",
+          "gameFamily": "Codenames"
+        },
+        {
+          "date": "2020-11-29",
+          "name": "Codenames",
+          "coOp": "Yes",
+          "coOpOutcome": "Won",
+          "gameFamily": "Codenames"
+        },
+        {
+          "date": "2020-12-09",
+          "name": "Fafnir",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Fafnir"
+        },
+        {
+          "date": "2020-12-16",
+          "name": "Yam Yam",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Yam Yam"
+        },
+        {
+          "date": "2020-12-17",
+          "name": "Patchwork Christmas ",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Patchwork"
+        },
+        {
+          "date": "2020-12-26",
+          "name": "Sweet Existence",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Sweet Existence"
+        },
+        {
+          "date": "2020-12-29",
+          "name": "Mandala",
+          "winner": "Hannah ",
+          "coOp": "No",
+          "gameFamily": "Mandala"
+        },
+        {
+          "date": "2020-12-29",
+          "name": "Mandala",
+          "winner": "John",
+          "coOp": "No",
+          "gameFamily": "Mandala"
+        },
+        {
+          "date": "2020-12-29",
+          "name": "Mandala",
+          "winner": "John ",
+          "coOp": "No",
+          "gameFamily": "Mandala"
+        },
+        {
+          "date": "2020-12-31",
+          "name": "Hanabi",
+          "coOp": "Yes",
+          "coOpOutcome": "Won",
+          "gameFamily": "Hanabi"
+        }
+      ],
+      "gamesPlayedCount": 143,
+      "gamesPlayedPercentage": 14.3
     }
   ],
   "overview": {
-    "gamesPlayedCount": 238,
+    "gamesPlayedCount": 381,
     "totalGamesToPlayCount": 210,
-    "gamesPlayedPercentage": 1.1333
+    "gamesPlayedPercentage": 1.8143
   },
   "sequence": {
     "earliestDate": "2020-01-01",

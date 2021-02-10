@@ -3,6 +3,8 @@ const daysBetween = require('../util/daysBetween')
 const log = []
 const report = (...messages) => log.push(['[Board Game Challenge Grids]', ...messages].join(' '))
 
+const wildCardFamily = 'Wilcard *'
+
 const mutateRemoveEmpty = (obj) => {
   Object.keys(obj).forEach(key => {
     if (obj[key] && typeof obj[key] === 'object') {
@@ -40,7 +42,7 @@ const challenges = {
       'Wingspan',
       'Brass',
       'Scythe',
-      'Wilcard *'
+      wildCardFamily
     ],
     gamesToPlayCountPerFamily: 10
   },
@@ -70,7 +72,7 @@ const challenges = {
       'Wingspan',
       'Brass',
       'Scythe',
-      'Wilcard *'
+      wildCardFamily
     ],
     gamesToPlayCountPerFamily: 10
   },
@@ -96,7 +98,7 @@ const challenges = {
       'Wingspan',
       'Brass',
       'Scythe',
-      'Wilcard *'
+      wildCardFamily
     ],
     gamesToPlayCountPerFamily: 20
   }
@@ -141,17 +143,28 @@ function calculateChallengeGridOverview (challengeGrid) {
   overview.gamesPlayedPercentage = fmn(overview.gamesPlayedCount / overview.totalGamesToPlayCount)
 }
 
-function populateChallengeGrid (challengeGrid, gameFamily, feedItems) {
-  const { overview, challenge, grid } = challengeGrid
-  const { startDate, endDate, gamesToPlayCountPerFamily } = challenge
-
-  const gameStats = feedItems.filter(game => {
+function filterBasedOnGameFamily(gameFamily) {
+  return (game) => {
     try {
-      return isDateInRange(game.date, startDate, endDate) && (game.gameFamily === gameFamily || game.name.includes(gameFamily))
+      return game.gameFamily === gameFamily || game.name.includes(gameFamily)
     } catch (ex) {
       console.error('Unable to match:', game, 'due to:', ex)
     }
-  })
+  }
+}
+
+function filterToKeepWildcardGames(gameFamilies) {
+  return (game) => {
+    return !(gameFamilies.includes(game.gameFamily) || gameFamilies.includes(game.name))
+  }
+}
+
+function populateChallengeGrid (challengeGrid, gameFamily, feedItems) {
+  const { overview, challenge, grid } = challengeGrid
+  const { startDate, endDate, gamesToPlayCountPerFamily, gameFamilies } = challenge
+
+  const filterToUse = (gameFamily === wildCardFamily) ? filterToKeepWildcardGames(gameFamilies) : filterBasedOnGameFamily(gameFamily)
+  const gameStats = feedItems.filter(filterToUse)
   const gridEntry = {
     gameFamily,
     gameStats,
