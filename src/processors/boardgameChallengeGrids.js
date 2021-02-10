@@ -130,20 +130,13 @@ function createChallengeGridForYear (challenge, year) {
   }
 }
 
-function isDateInRange (dateString, startDateString, endDateString) {
-  const needle = new Date(dateString)
-  const startDate = new Date(startDateString)
-  const endDate = new Date(endDateString)
-  return needle.getTime() >= startDate.getTime() && needle.getTime() <= endDate.getTime()
-}
-
 function calculateChallengeGridOverview (challengeGrid) {
   const { overview, challenge } = challengeGrid
   overview.totalGamesToPlayCount = challenge.gamesToPlayCountPerFamily * challenge.gameFamiliesCount
   overview.gamesPlayedPercentage = fmn(overview.gamesPlayedCount / overview.totalGamesToPlayCount)
 }
 
-function filterBasedOnGameFamily(gameFamily) {
+function filterBasedOnGameFamily (gameFamily) {
   return (game) => {
     try {
       return game.gameFamily === gameFamily || game.name.includes(gameFamily)
@@ -153,7 +146,7 @@ function filterBasedOnGameFamily(gameFamily) {
   }
 }
 
-function filterToKeepWildcardGames(gameFamilies) {
+function filterToKeepWildcardGames (gameFamilies) {
   return (game) => {
     return !(gameFamilies.includes(game.gameFamily) || gameFamilies.includes(game.name))
   }
