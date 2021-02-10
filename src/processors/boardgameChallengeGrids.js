@@ -1,3 +1,5 @@
+const daysBetween = require('../util/daysBetween')
+
 const log = []
 const report = (...messages) => log.push(['[Board Game Challenge Grids]', ...messages].join(' '))
 
@@ -119,9 +121,9 @@ function createChallengeGridForYear (challenge, year) {
       gamesPlayedPercentage: 0
     },
     sequence: {
-      startDate: `${year}-01-01`,
-      endDate: `${year}-01-01`,
-      daysInSequence: 1
+      earliestDate: `${year}-01-01`,
+      latestDate: `${year}-01-01`,
+      daysInSequenceCount: 1
     }
   }
 }
@@ -139,13 +141,11 @@ function calculateChallengeGridOverview (challengeGrid) {
   overview.gamesPlayedPercentage = fmn(overview.gamesPlayedCount / overview.totalGamesToPlayCount)
 }
 
-function populateChallengeGrid (challengeGrid, gameFamily, boardGameFeed) {
+function populateChallengeGrid (challengeGrid, gameFamily, feedItems) {
   const { overview, challenge, grid } = challengeGrid
   const { startDate, endDate, gamesToPlayCountPerFamily } = challenge
-  const gameStats = boardGameFeed.filter(game => {
-    if (game.gameFamily) {
-      console.log(game.name, game.gameFamily)
-    }
+
+  const gameStats = feedItems.filter(game => {
     try {
       return isDateInRange(game.date, startDate, endDate) && (game.gameFamily === gameFamily || game.name.includes(gameFamily))
     } catch (ex) {
@@ -175,8 +175,25 @@ async function createChallengeGrids (model) {
   })
 
   challengeGrids.forEach(challengeGrid => {
+    const { sequence } = challengeGrid
     report('Populating', challengeGrid.dateCode)
-    challengeGrid.challenge.gameFamilies.forEach((gameFamily) => populateChallengeGrid(challengeGrid, gameFamily, boardGameFeed))
+
+    const feedItemsInDateRange = boardGameFeed.filter(item => item.date.includes(challengeGrid.dateCode))
+    report('Board Game Feed', boardGameFeed.length, 'items', 'Feed items in Date Range:', challengeGrid.dateCode, ':', feedItemsInDateRange.length)
+    const timesInUse = feedItemsInDateRange.map(n => new Date(n.date).getTime())
+    const earliestTime = Math.min(...timesInUse)
+    const latestTime = Math.max(...timesInUse)
+
+    report(challengeGrid.dateCode, 'Earliest Time', earliestTime, 'Latest Time', latestTime, 'from', timesInUse.length)
+    if (timesInUse.length > 0) {
+      const earliestDate = new Date(earliestTime)
+      const latestDate = new Date(latestTime)
+      sequence.earliestDate = earliestDate.toISOString().substring(0, 10)
+      sequence.latestDate = latestDate.toISOString().substring(0, 10)
+      sequence.daysInSequenceCount = daysBetween(earliestDate, latestDate)
+    }
+
+    challengeGrid.challenge.gameFamilies.forEach((gameFamily) => populateChallengeGrid(challengeGrid, gameFamily, feedItemsInDateRange))
     calculateChallengeGridOverview(challengeGrid)
   })
 
