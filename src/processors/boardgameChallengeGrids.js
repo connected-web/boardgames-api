@@ -148,7 +148,11 @@ function filterBasedOnGameFamily (gameFamily) {
 
 function filterToKeepWildcardGames (gameFamilies) {
   return (game) => {
-    return !(gameFamilies.includes(game.gameFamily) || gameFamilies.includes(game.name))
+    const inAnyFamily = gameFamilies.reduce((acc, gameFamily) => {
+      const inAFamily = game.gameFamily === gameFamily || game.name.includes(gameFamily)
+      return acc || inAFamily
+    }, false)
+    return !inAnyFamily
   }
 }
 
