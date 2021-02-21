@@ -1,6 +1,6 @@
 const { read, write } = require('promise-path')
 
-async function rewrite(targetpath, regex, replace) {
+async function rewrite (targetpath, regex, replace) {
   console.log('Rewriting', targetpath, 'using', regex, 'to match and replace with:', replace)
   const targetBody = await read(targetpath, 'utf8')
   console.log('Target path contains', targetBody.length, 'bytes')
