@@ -9,7 +9,7 @@ async function start () {
     const body = JSON.stringify(gameIndex, null, 2)
     report('Downloaded data:', body.length, 'bytes')
     const filename = 'cali-game-index.json'
-    report('Writing combined data to:', filename)
+    report('Writing combined data to:', filename, 'Game Index Items:', gameIndex.length)
     write(datapath(filename), body, 'utf8')
   } catch (ex) {
     report('Unable to download data:', ex)
