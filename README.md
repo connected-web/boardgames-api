@@ -48,7 +48,7 @@ For a list of commands, use `node run`; this outputs:
   node run download-bgg-collection
   node run download-bgg-entries
   node run download-cali-playstats
-  node run update-owned-lists
+  node run update-all
 ```
 
 ### Run All
@@ -125,7 +125,7 @@ Downloads `data/cali-playstats.json` from Google Sheets and converts to JSON.
 
 ### Updated Owned Lists
 
-`node run update-owned-lists`
+`node run update-all`
 
 To help update and analyse owned games, this command runs:
 - Download Cali Play Stats
@@ -158,5 +158,5 @@ Once `act` is setup you can then run:
 
 To do a quick update of board game stats and upload to the API:
 ```
-node run update-owned-lists && node run create-all && node deploy live-summaries
+node run update-all && node run create-all && node deploy live-summaries
 ```

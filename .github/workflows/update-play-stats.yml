@@ -23,7 +23,7 @@ jobs:
       working-directory: deploy
       run: npm ci
     - name: Updated owned lists
-      run: node run update-owned-lists
+      run: node run update-all
     - name: Create data sets
       run: node run create-all
     - name: Setup /deploy/.ftp-pass
