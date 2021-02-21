@@ -17,7 +17,7 @@
   "license": "ISC",
   "dependencies": {
     "chai": "^4.2.0",
-    "google-spreadsheet-to-json": "git://github.com/connected-web/google-spreadsheet-to-json#v2.0.1",
+    "google-spreadsheet-to-json": "https://github.com/connected-web/google-spreadsheet-to-json#v2.0.1",
     "jsonschema": "^1.2.5",
     "mocha": "^7.1.1",
     "promise-path": "^1.4.0",
@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "express": "^4.17.1",
-    "php-express": "git://github.com/Markavian/php-express.git#patch-1",
+    "php-express": "https://github.com/Markavian/php-express.git#patch-1",
     "standard": "^14.3.4"
   },
   "repository": {
