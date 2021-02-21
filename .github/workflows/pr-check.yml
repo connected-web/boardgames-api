@@ -28,3 +28,5 @@ jobs:
 
     - name: Run default tests
       run: npm test -s
+      env:
+          GOOGLE_SERVICE_ACCOUNT_SECURE_CREDENTIALS: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_SECURE_CREDENTIALS }}

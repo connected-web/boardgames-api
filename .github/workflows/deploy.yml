@@ -20,6 +20,8 @@ jobs:
       run: npm run setup -s
     - name: Run Tests
       run: npm test -s
+      env:
+          GOOGLE_SERVICE_ACCOUNT_SECURE_CREDENTIALS: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_SECURE_CREDENTIALS }}
     - name: Install /deploy Dependencies
       run: npm install
       working-directory: deploy
