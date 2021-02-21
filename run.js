@@ -40,7 +40,7 @@ async function start () {
     ], scripts)
   }
 
-  scripts['update-owned-lists'] = async () => {
+  scripts['update-all'] = async () => {
     return processScripts([
       'download-cali-game-index',
       'download-cali-playstats',

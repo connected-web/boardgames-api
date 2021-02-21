@@ -1,3 +1,4 @@
+const readCredentials = require('../util/readCredentials')
 const spreadsheetId2018 = '1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4'
 const spreadsheetId2020 = '1FyeEeWPKch4jVoBoD_lB89GbsUPkYTESkfIeknUhyJw'
 const spreadsheetId2021 = '1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ'
@@ -6,7 +7,8 @@ const report = (...messages) => log.push(['[Download Cali Play Stats]', ...messa
 
 async function downloadData ({ gsjson }, spreadsheetId) {
   try {
-    const worksheets = await gsjson({ spreadsheetId, allWorksheets: true })
+    const credentials = await readCredentials()
+    const worksheets = await gsjson({ spreadsheetId, allWorksheets: true, credentials })
     report('Downloaded data:', (worksheets + '').length, 'bytes')
     const entries = worksheets.reduce((acc, item) => acc.concat(item), [])
     return entries
@@ -22,7 +24,8 @@ async function updatePlaystats (model) {
     downloadData(model.fetchers, spreadsheetId2021)
   ])
 
-  return combinedData.reduce((acc, item) => acc.concat(item), [])
+  const playStats = combinedData.reduce((acc, item) => acc.concat(item), [])
+  return playStats.filter(n => n)
 }
 
 function init (model) {
