@@ -1,15 +1,19 @@
-name: Update Play Stats by Reopening Issue
+name: Update Play Stats on Schedule
 
 on: 
-  issues:
-    types: [ reopened, edited ]
-    
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: 'Reason for deployment'     
+        required: false
+        default: 'I want to update the play stats'
+  schedule:
+    - cron:  '15 2 * * *'
+
 jobs:
   deploy:
-    if: startsWith(github.event.issue.title, 'Update Play Stats') == true
-    name: Check Issue Title
+    name: Scheduled or Manual Deployment
     runs-on: ubuntu-latest
-
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
@@ -32,9 +36,3 @@ jobs:
       run: ./scripts/setup/createFTPSecrets.sh "${{ secrets.FTP_USERNAME }}" "${{ secrets.FTP_PASSWORD }}"
     - name: Deploy Files
       run: node deploy live-summaries
-    - name: Close Issue
-      uses: peter-evans/close-issue@v1
-      with:
-        comment: |
-          Deployment of live summaries complete
-          Auto-closing this issue; reopen if you require a redeployment.
