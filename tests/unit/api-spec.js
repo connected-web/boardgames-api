@@ -29,6 +29,7 @@ describe('Boardgames API', () => {
         'boardgameFeed',
         'boardgameChallengeGrids',
         'boardgameSummaries',
+        'boardgameSummariesByTags',
         'uniqueListOfGamesPlayed',
         'model'
       ]
