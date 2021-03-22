@@ -28,7 +28,7 @@ async function start () {
   await Promise.all(entries.map(async ([tagName, entry]) => {
     const values = Object.entries(entry)
     return Promise.all(values.map(async ([tagValue, summary]) => {
-      return writeJson(entry.name, `tags/${tagName}/${tagValue}.json`, entry)
+      return writeJson(summary.name, `tags/${tagName}/${tagValue}.json`, summary)
     }))
   }))
 

@@ -1,8 +1,400 @@
 {
-  "pandemic": {
-    "some": "data for games of pandemic"
-  },
-  "love-letter": {
-    "some": "data for games of love-letter"
-  }
+  "name": "Pandemic",
+  "gameFamilyId": "pandemic",
+  "playRecords": [
+    {
+      "date": "2018-03-09",
+      "coOpOutcome": "Lost",
+      "coOp": "Yes",
+      "name": "Pandemic"
+    },
+    {
+      "date": "2018-05-03",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "notes": "With house rule",
+      "name": "Pandemic"
+    },
+    {
+      "date": "2018-06-29",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "name": "Pandemic"
+    },
+    {
+      "date": "2018-10-23",
+      "coOpOutcome": "Lost",
+      "coOp": "Yes",
+      "name": "Pandemic"
+    },
+    {
+      "date": "2020-12-13",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "gameFamily": "Pandemic",
+      "name": "Pandemic"
+    },
+    {
+      "date": "2021-01-04",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "gameFamily": "Pandemic",
+      "name": "Pandemic"
+    },
+    {
+      "date": "2018-01-24",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "notes": "Month 4 - 4 player",
+      "gameFamily": "Pandemic",
+      "name": "Pandemic Legacy: Season 1"
+    },
+    {
+      "date": "2018-02-27",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "name": "Pandemic Legacy: Season 1"
+    },
+    {
+      "date": "2018-03-30",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "notes": "June game 1 - 4 player",
+      "name": "Pandemic Legacy: Season 1"
+    },
+    {
+      "date": "2018-05-01",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "name": "Pandemic Legacy: Season 1"
+    },
+    {
+      "date": "2018-05-30",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "name": "Pandemic Legacy: Season 1"
+    },
+    {
+      "date": "2018-06-21",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "name": "Pandemic Legacy: Season 1"
+    },
+    {
+      "date": "2018-07-04",
+      "coOp": "Yes",
+      "name": "Pandemic Legacy: Season 1"
+    },
+    {
+      "date": "2018-07-08",
+      "coOpOutcome": "Win",
+      "coOp": "Yes",
+      "name": "Pandemic Legacy: Season 1"
+    },
+    {
+      "date": "2018-07-08",
+      "coOpOutcome": "Lose",
+      "coOp": "Yes",
+      "name": "Pandemic Legacy: Season 1"
+    },
+    {
+      "date": "2018-07-08",
+      "coOpOutcome": "Win",
+      "coOp": "Yes",
+      "name": "Pandemic Legacy: Season 1"
+    },
+    {
+      "date": "2020-01-21",
+      "coOpOutcome": "Win",
+      "coOp": "Yes",
+      "gameFamily": "Pandemic",
+      "name": "Pandemic Legacy: Season 2"
+    },
+    {
+      "date": "2020-01-28",
+      "coOpOutcome": "Win",
+      "coOp": "Yes",
+      "gameFamily": "Pandemic",
+      "name": "Pandemic Legacy: Season 2"
+    },
+    {
+      "date": "2020-02-06",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "gameFamily": "Pandemic",
+      "name": "Pandemic Legacy: Season 2"
+    },
+    {
+      "date": "2020-03-04",
+      "coOpOutcome": "Lost",
+      "coOp": "Yes",
+      "gameFamily": "Pandemic",
+      "name": "Pandemic Legacy: Season 2"
+    },
+    {
+      "date": "2020-03-07",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "gameFamily": "Pandemic",
+      "name": "Pandemic Legacy: Season 2"
+    },
+    {
+      "date": "2020-03-07",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "gameFamily": "Pandemic",
+      "name": "Pandemic Legacy: Season 2"
+    },
+    {
+      "date": "2018-09-26",
+      "winner": "John",
+      "coOp": "No",
+      "name": "Pandemic: Contagion"
+    },
+    {
+      "date": "2018-10-05",
+      "winner": "Draw",
+      "coOp": "No",
+      "name": "Pandemic: Contagion"
+    },
+    {
+      "date": "2018-10-09",
+      "winner": "John",
+      "coOp": "No",
+      "name": "Pandemic: Contagion"
+    },
+    {
+      "date": "2018-10-26",
+      "winner": "John",
+      "coOp": "No",
+      "name": "Pandemic: Contagion"
+    },
+    {
+      "date": "2018-11-16",
+      "winner": "John",
+      "coOp": "No",
+      "name": "Pandemic: Contagion"
+    },
+    {
+      "date": "2018-12-12",
+      "winner": "John",
+      "coOp": "No",
+      "name": "Pandemic: Contagion"
+    },
+    {
+      "date": "2020-09-23",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Pandemic",
+      "name": "Pandemic: Contagion"
+    },
+    {
+      "date": "2018-01-07",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "gameFamily": "Pandemic",
+      "name": "Pandemic: Iberia"
+    },
+    {
+      "date": "2018-05-18",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "name": "Pandemic: Iberia"
+    },
+    {
+      "date": "2018-10-07",
+      "coOpOutcome": "Lost",
+      "coOp": "Yes",
+      "notes": "Lost with one red card short to research the final disease on the final turn; only two out breaks all game.",
+      "name": "Pandemic: Iberia"
+    },
+    {
+      "date": "2020-01-26",
+      "coOpOutcome": "Win",
+      "coOp": "Yes",
+      "gameFamily": "Pandemic",
+      "name": "Pandemic: Iberia"
+    },
+    {
+      "date": "2018-06-22",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "name": "Pandemic: On the Brink"
+    },
+    {
+      "date": "2018-06-23",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "name": "Pandemic: On the Brink"
+    },
+    {
+      "date": "2018-06-25",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "name": "Pandemic: On the Brink"
+    },
+    {
+      "date": "2018-11-25",
+      "coOpOutcome": "Lost",
+      "coOp": "Yes",
+      "name": "Pandemic: On the Brink"
+    },
+    {
+      "date": "2021-01-23",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "gameFamily": "Pandemic",
+      "name": "Pandemic: On the Brink"
+    },
+    {
+      "date": "2018-02-04",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "name": "Pandemic: Reign of Cthulhu"
+    },
+    {
+      "date": "2018-05-22",
+      "coOpOutcome": "Lost",
+      "coOp": "Yes",
+      "name": "Pandemic: Reign of Cthulhu"
+    },
+    {
+      "date": "2018-05-23",
+      "coOpOutcome": "Lost",
+      "coOp": "No",
+      "name": "Pandemic: Reign of Cthulhu"
+    },
+    {
+      "date": "2020-07-18",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "gameFamily": "Pandemic",
+      "name": "Pandemic: Reign of Cthulhu"
+    },
+    {
+      "date": "2018-02-18",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "name": "Pandemic: Rising Tide"
+    },
+    {
+      "date": "2018-03-21",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "name": "Pandemic: Rising Tide"
+    },
+    {
+      "date": "2020-03-06",
+      "coOpOutcome": "Lost",
+      "coOp": "Yes",
+      "gameFamily": "Pandemic",
+      "name": "Pandemic: Rising Tide"
+    },
+    {
+      "date": "2018-06-03",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "name": "Pandemic: The Cure"
+    },
+    {
+      "date": "2018-06-11",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "name": "Pandemic: The Cure"
+    },
+    {
+      "date": "2018-08-18",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "name": "Pandemic: The Cure"
+    },
+    {
+      "date": "2020-09-19",
+      "coOpOutcome": "Lose",
+      "coOp": "Yes",
+      "gameFamily": "Pandemic",
+      "name": "Pandemic: The Cure"
+    },
+    {
+      "date": "2020-09-20",
+      "coOpOutcome": "Win",
+      "coOp": "Yes",
+      "gameFamily": "Pandemic",
+      "name": "Pandemic: The Cure"
+    },
+    {
+      "date": "2018-12-09",
+      "coOpOutcome": "Lost",
+      "coOp": "Yes",
+      "name": "Pandemic: Fall of Rome"
+    },
+    {
+      "date": "2018-12-18",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "name": "Pandemic: Fall of Rome"
+    },
+    {
+      "date": "2018-12-31",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "name": "Pandemic: Fall of Rome"
+    },
+    {
+      "date": "2020-08-10",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "gameFamily": "Pandemic",
+      "name": "Pandemic: Fall of Rome"
+    },
+    {
+      "date": "2020-05-30",
+      "coOpOutcome": "Lost",
+      "coOp": "Yes",
+      "gameFamily": "Pandemic",
+      "name": "Pandemic Hot Zone: North America"
+    },
+    {
+      "date": "2020-06-03",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "gameFamily": "Pandemic",
+      "name": "Pandemic Hot Zone: North America"
+    },
+    {
+      "date": "2020-06-10",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "gameFamily": "Pandemic",
+      "name": "Pandemic Hot Zone: North America"
+    },
+    {
+      "date": "2020-06-28",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "gameFamily": "Pandemic",
+      "name": "Pandemic Hot Zone: North America"
+    },
+    {
+      "date": "2020-07-23",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "gameFamily": "Pandemic",
+      "name": "Pandemic Hot Zone: North America"
+    },
+    {
+      "date": "2020-09-17",
+      "coOpOutcome": "Lose",
+      "coOp": "Yes",
+      "gameFamily": "Pandemic",
+      "name": "Pandemic Hot Zone: North America"
+    },
+    {
+      "date": "2021-02-18",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "gameFamily": "Pandemic",
+      "name": "Pandemic: Rising Tides"
+    }
+  ]
 }
