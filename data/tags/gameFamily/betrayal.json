@@ -16,5 +16,74 @@
       "gameFamily": "Betrayal",
       "name": "Betrayal Legacy"
     }
-  ]
+  ],
+  "earliestDate": "2020-11-01",
+  "latestDate": "2020-11-02",
+  "sequenceStartDate": "2020-11-01",
+  "sequenceEndDate": "2020-11-02",
+  "daysInSequence": 2,
+  "daysWithUnplayedGames": 0,
+  "gamesPlayedPerDay": {
+    "1": 1,
+    "2": 1
+  },
+  "gamesPlayed": [
+    {
+      "date": "2020-11-01",
+      "coOpOutcome": "Win",
+      "coOp": "Yes",
+      "gameFamily": "Betrayal",
+      "name": "Betrayal Legacy"
+    },
+    {
+      "date": "2020-11-02",
+      "coOpOutcome": "Win",
+      "coOp": "Yes",
+      "gameFamily": "Betrayal",
+      "name": "Betrayal Legacy"
+    }
+  ],
+  "totalGamesPlayed": 2,
+  "averageGamesPlayedPerDay": 1,
+  "mostGamesPlayedInADay": [
+    {
+      "date": "2020-11-01",
+      "games": [
+        "Betrayal Legacy"
+      ]
+    },
+    {
+      "date": "2020-11-02",
+      "games": [
+        "Betrayal Legacy"
+      ]
+    }
+  ],
+  "uniqueGamesPlayed": [
+    "Betrayal Legacy"
+  ],
+  "uniqueGamesPlayedCount": 1,
+  "uniqueGamesPlayedPercentage": 0.5,
+  "mostPlayedGames": [
+    {
+      "name": "Betrayal Legacy",
+      "plays": 2
+    }
+  ],
+  "coOpGamesPlayedCount": 2,
+  "coOpGamesPlayedPercentage": 1,
+  "coOpGameWins": 2,
+  "coOpGameLoses": 0,
+  "winCountHannah": 0,
+  "winCountJohn": 0,
+  "winCountOther": 0,
+  "winCountDraw": 0,
+  "winnableGamesTotal": 0,
+  "winPercentageHannah": 0,
+  "winPercentageJohn": 0,
+  "winPercentageOther": 0,
+  "winPercentageDraw": 0,
+  "mostWonGames": "Draw",
+  "mostWonGamesJohn": [],
+  "mostWonGamesHannah": []
 }

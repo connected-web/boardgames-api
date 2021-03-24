@@ -16,5 +16,78 @@
       "gameFamily": "The Hieroglyph Game",
       "name": "The Hieroglyph Game"
     }
+  ],
+  "earliestDate": "2020-08-22",
+  "latestDate": "2020-08-22",
+  "sequenceStartDate": "2020-08-22",
+  "sequenceEndDate": "2020-08-22",
+  "daysInSequence": 1,
+  "daysWithUnplayedGames": 0,
+  "gamesPlayedPerDay": {
+    "1": 2
+  },
+  "gamesPlayed": [
+    {
+      "date": "2020-08-22",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "The Hieroglyph Game",
+      "name": "The Hieroglyph Game"
+    },
+    {
+      "date": "2020-08-22",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "The Hieroglyph Game",
+      "name": "The Hieroglyph Game"
+    }
+  ],
+  "totalGamesPlayed": 2,
+  "averageGamesPlayedPerDay": 2,
+  "mostGamesPlayedInADay": [
+    {
+      "date": "2020-08-22",
+      "games": [
+        "The Hieroglyph Game",
+        "The Hieroglyph Game"
+      ]
+    }
+  ],
+  "uniqueGamesPlayed": [
+    "The Hieroglyph Game"
+  ],
+  "uniqueGamesPlayedCount": 1,
+  "uniqueGamesPlayedPercentage": 0.5,
+  "mostPlayedGames": [
+    {
+      "name": "The Hieroglyph Game",
+      "plays": 2
+    }
+  ],
+  "coOpGamesPlayedCount": 0,
+  "coOpGamesPlayedPercentage": 0,
+  "coOpGameWins": 0,
+  "coOpGameLoses": 0,
+  "winCountHannah": 1,
+  "winCountJohn": 1,
+  "winCountOther": 0,
+  "winCountDraw": 0,
+  "winnableGamesTotal": 2,
+  "winPercentageHannah": 0.5,
+  "winPercentageJohn": 0.5,
+  "winPercentageOther": 0,
+  "winPercentageDraw": 0,
+  "mostWonGames": "Draw",
+  "mostWonGamesJohn": [
+    {
+      "game": "The Hieroglyph Game",
+      "plays": 1
+    }
+  ],
+  "mostWonGamesHannah": [
+    {
+      "game": "The Hieroglyph Game",
+      "plays": 1
+    }
   ]
 }

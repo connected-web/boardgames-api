@@ -17,8 +17,58 @@
       "name": "Terraforming Mars"
     },
     {
+      "date": "2021-02-13",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Wildcard",
+      "name": "Arctic Scavengers"
+    },
+    {
       "date": "2021-02-18",
       "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Wildcard",
+      "name": "Terraforming Mars"
+    }
+  ],
+  "earliestDate": "2021-01-31",
+  "latestDate": "2021-02-18",
+  "sequenceStartDate": "2021-01-31",
+  "sequenceEndDate": "2021-02-18",
+  "daysInSequence": 19,
+  "daysWithUnplayedGames": 15,
+  "gamesPlayedPerDay": {
+    "1": 1,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0,
+    "8": 1,
+    "9": 0,
+    "10": 0,
+    "11": 0,
+    "12": 0,
+    "13": 0,
+    "14": 1,
+    "15": 0,
+    "16": 0,
+    "17": 0,
+    "18": 0,
+    "19": 1
+  },
+  "gamesPlayed": [
+    {
+      "date": "2021-01-31",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Wildcard",
+      "name": "Parks"
+    },
+    {
+      "date": "2021-02-07",
+      "winner": "Hannah",
       "coOp": "No",
       "gameFamily": "Wildcard",
       "name": "Terraforming Mars"
@@ -29,6 +79,88 @@
       "coOp": "No",
       "gameFamily": "Wildcard",
       "name": "Arctic Scavengers"
+    },
+    {
+      "date": "2021-02-18",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Wildcard",
+      "name": "Terraforming Mars"
+    }
+  ],
+  "totalGamesPlayed": 4,
+  "averageGamesPlayedPerDay": 0.2105,
+  "mostGamesPlayedInADay": [
+    {
+      "date": "2021-01-31",
+      "games": [
+        "Parks"
+      ]
+    },
+    {
+      "date": "2021-02-07",
+      "games": [
+        "Terraforming Mars"
+      ]
+    },
+    {
+      "date": "2021-02-13",
+      "games": [
+        "Arctic Scavengers"
+      ]
+    },
+    {
+      "date": "2021-02-18",
+      "games": [
+        "Terraforming Mars"
+      ]
+    }
+  ],
+  "uniqueGamesPlayed": [
+    "Arctic Scavengers",
+    "Parks",
+    "Terraforming Mars"
+  ],
+  "uniqueGamesPlayedCount": 3,
+  "uniqueGamesPlayedPercentage": 0.75,
+  "mostPlayedGames": [
+    {
+      "name": "Terraforming Mars",
+      "plays": 2
+    }
+  ],
+  "coOpGamesPlayedCount": 0,
+  "coOpGamesPlayedPercentage": 0,
+  "coOpGameWins": 0,
+  "coOpGameLoses": 0,
+  "winCountHannah": 2,
+  "winCountJohn": 2,
+  "winCountOther": 0,
+  "winCountDraw": 0,
+  "winnableGamesTotal": 4,
+  "winPercentageHannah": 0.5,
+  "winPercentageJohn": 0.5,
+  "winPercentageOther": 0,
+  "winPercentageDraw": 0,
+  "mostWonGames": "Draw",
+  "mostWonGamesJohn": [
+    {
+      "game": "Terraforming Mars",
+      "plays": 1
+    },
+    {
+      "game": "Arctic Scavengers",
+      "plays": 1
+    }
+  ],
+  "mostWonGamesHannah": [
+    {
+      "game": "Terraforming Mars",
+      "plays": 1
+    },
+    {
+      "game": "Parks",
+      "plays": 1
     }
   ]
 }
