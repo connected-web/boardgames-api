@@ -21,7 +21,7 @@ async function createBoardGameSummariesByTags (model) {
   const { index } = model.calisaurus
 
   report('Index:', Object.keys(index).join(', '))
-  report('Love Letter:', JSON.stringify(index['love-letter'], null, 2))
+  // report('Love Letter:', JSON.stringify(index['love-letter'], null, 2))
 
   report('Currently supported tags: gameFamily')
   const gameFamilies = Object.entries(index).reduce((acc, [name, gameData]) => {
@@ -61,6 +61,7 @@ async function createBoardGameSummariesByTags (model) {
     entry.latestDate = latestDate.toISOString().substring(0, 10)
 
     Object.assign(entry, stats)
+    delete entry.playRecords
   })
 
   const exampleDataStructure = {
