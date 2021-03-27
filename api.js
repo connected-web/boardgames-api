@@ -11,6 +11,7 @@ const boardgameFeed = require('./src/processors/boardgameFeed')(model)
 const boardgameChallengeGrids = require('./src/processors/boardgameChallengeGrids')(model)
 const boardgameIndex = require('./src/processors/boardgameIndex')(model)
 const boardgameSummaries = require('./src/processors/boardgameSummaries')(model)
+const boardgameSummariesByTags = require('./src/processors/boardgameSummariesByTags')(model)
 const uniqueListOfGamesPlayed = require('./src/processors/uniqueListOfGamesPlayed')(model)
 
 const api = {
@@ -24,6 +25,7 @@ const api = {
   boardgameFeed,
   boardgameChallengeGrids,
   boardgameSummaries,
+  boardgameSummariesByTags,
   uniqueListOfGamesPlayed,
   model: async () => model
 }

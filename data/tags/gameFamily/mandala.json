@@ -1,0 +1,116 @@
+{
+  "name": "Mandala",
+  "gameFamilyId": "mandala",
+  "earliestDate": "2020-12-29",
+  "latestDate": "2021-01-15",
+  "sequenceStartDate": "2020-12-29",
+  "sequenceEndDate": "2021-01-15",
+  "daysInSequence": 18,
+  "daysWithUnplayedGames": 15,
+  "gamesPlayedPerDay": {
+    "1": 3,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0,
+    "8": 0,
+    "9": 0,
+    "10": 0,
+    "11": 0,
+    "12": 0,
+    "13": 1,
+    "14": 0,
+    "15": 0,
+    "16": 0,
+    "17": 0,
+    "18": 1
+  },
+  "gamesPlayed": [
+    {
+      "date": "2020-12-29",
+      "winner": "Hannah ",
+      "coOp": "No",
+      "gameFamily": "Mandala",
+      "name": "Mandala"
+    },
+    {
+      "date": "2020-12-29",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Mandala",
+      "name": "Mandala"
+    },
+    {
+      "date": "2020-12-29",
+      "winner": "John ",
+      "coOp": "No",
+      "gameFamily": "Mandala",
+      "name": "Mandala"
+    },
+    {
+      "date": "2021-01-10",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Wildcard",
+      "name": "Mandala"
+    },
+    {
+      "date": "2021-01-15",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Wildcard",
+      "name": "Mandala"
+    }
+  ],
+  "totalGamesPlayed": 5,
+  "averageGamesPlayedPerDay": 0.2778,
+  "mostGamesPlayedInADay": [
+    {
+      "date": "2020-12-29",
+      "games": [
+        "Mandala",
+        "Mandala",
+        "Mandala"
+      ]
+    }
+  ],
+  "uniqueGamesPlayed": [
+    "Mandala"
+  ],
+  "uniqueGamesPlayedCount": 1,
+  "uniqueGamesPlayedPercentage": 0.2,
+  "mostPlayedGames": [
+    {
+      "name": "Mandala",
+      "plays": 5
+    }
+  ],
+  "coOpGamesPlayedCount": 0,
+  "coOpGamesPlayedPercentage": 0,
+  "coOpGameWins": 0,
+  "coOpGameLoses": 0,
+  "winCountHannah": 2,
+  "winCountJohn": 3,
+  "winCountOther": 0,
+  "winCountDraw": 0,
+  "winnableGamesTotal": 5,
+  "winPercentageHannah": 0.4,
+  "winPercentageJohn": 0.6,
+  "winPercentageOther": 0,
+  "winPercentageDraw": 0,
+  "mostWonGames": "John",
+  "mostWonGamesJohn": [
+    {
+      "game": "Mandala",
+      "plays": 3
+    }
+  ],
+  "mostWonGamesHannah": [
+    {
+      "game": "Mandala",
+      "plays": 2
+    }
+  ]
+}

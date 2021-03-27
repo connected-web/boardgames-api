@@ -26,6 +26,7 @@ async function start () {
       'create-boardgame-index',
       'create-boardgame-feed',
       'create-boardgame-summaries',
+      'create-boardgame-summaries-by-tags',
       'create-boardgame-challenge-grids',
       'create-unique-list-of-played-games'
     ], scripts)

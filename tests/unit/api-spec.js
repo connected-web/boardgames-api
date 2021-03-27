@@ -6,6 +6,7 @@ const model = require('../../src/model')
 const boardGameStatsSchema = require('../../api/handlers/boardgame-stats/schema.json')
 const boardGameStatsByMonthSchema = require('../../api/handlers/boardgame-stats-byMonth/schema.json')
 const boardGameStatsByYearSchema = require('../../api/handlers/boardgame-stats-byYear/schema.json')
+const boardGameStatsByTagSchema = require('../../api/handlers/boardgame-stats-byTag/schema.json')
 
 describe('Boardgames API', () => {
   beforeEach(() => {
@@ -29,6 +30,7 @@ describe('Boardgames API', () => {
         'boardgameFeed',
         'boardgameChallengeGrids',
         'boardgameSummaries',
+        'boardgameSummariesByTags',
         'uniqueListOfGamesPlayed',
         'model'
       ]
@@ -347,6 +349,65 @@ describe('Boardgames API', () => {
         byYear: actual.byYear
       }, boardGameStatsSchema)
       expect(schemaValidation.errors, 'Schema validation errors for all time feed').to.deep.equal([])
+    })
+  })
+
+  describe('Create a list of Board Game Summaries by Tags', () => {
+    let actual
+    before(async () => {
+      model.calisaurus.index = {
+        'love-letter': {
+          name: 'Love Letter',
+          playRecords: [{
+            date: '2018-02-05',
+            winner: 'Hannah'
+          }, {
+            date: '2018-02-06',
+            winner: 'Hannah',
+            gameFamily: 'Love Letter'
+          }]
+        },
+        'ticket-to-ride': {
+          name: 'Ticket to Ride: Europe',
+          playRecords: [{
+            date: '2018-02-02',
+            winner: 'John',
+            gameFamily: 'Ticket to Ride'
+          }]
+        },
+        'ticket-to-ride-japan': {
+          name: 'Ticket to Ride: Japan',
+          playRecords: [{
+            date: '2018-02-03',
+            winner: 'Hannah',
+            gameFamily: 'Ticket to Ride'
+          }, {
+            date: '2018-02-04',
+            winner: 'Hannah'
+          }]
+        }
+      }
+      actual = await api.boardgameSummariesByTags()
+    })
+
+    it('should create a static set of values based on hard-coded data', () => {
+      expect(typeof actual.summariesByTags).to.equal('object')
+      expect(typeof actual.summariesByTags.type).to.equal('object')
+      expect(actual.summariesByTags.type).to.deep.equal({
+        strategy: {
+          some: 'data for strategy games'
+        },
+        'worker-placement': {
+          some: 'data for worker-placement games'
+        }
+      })
+    })
+
+    it('should summarise games by tag - using tag: gameFamily, value: love-letter', () => {
+      const summaryByTag = actual.summariesByTags.gameFamily['love-letter']
+      expect(typeof summaryByTag).to.equal('object')
+      const schemaValidation = validate(summaryByTag, boardGameStatsByTagSchema)
+      expect(schemaValidation.errors.map(e => `${e.path} / ${e.name} : ${e.message}`), 'Schema validation errors for tag: gameFamily, value: love-letter').to.deep.equal([])
     })
   })
 })

@@ -1,351 +1,57 @@
 {
-  "sequenceStartDate": "2021-02-01",
-  "sequenceEndDate": "2021-02-21",
-  "daysInSequence": 21,
-  "daysWithUnplayedGames": 6,
+  "sequenceStartDate": "2021-03-01",
+  "sequenceEndDate": "2021-03-25",
+  "daysInSequence": 25,
+  "daysWithUnplayedGames": 25,
   "gamesPlayedPerDay": {
-    "1": 3,
-    "2": 1,
-    "3": 3,
-    "4": 2,
-    "5": 1,
-    "6": 1,
-    "7": 2,
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0,
     "8": 0,
-    "9": 3,
+    "9": 0,
     "10": 0,
-    "11": 1,
+    "11": 0,
     "12": 0,
-    "13": 4,
+    "13": 0,
     "14": 0,
     "15": 0,
-    "16": 3,
-    "17": 1,
-    "18": 3,
-    "19": 5,
-    "20": 2,
-    "21": 0
+    "16": 0,
+    "17": 0,
+    "18": 0,
+    "19": 0,
+    "20": 0,
+    "21": 0,
+    "22": 0,
+    "23": 0,
+    "24": 0,
+    "25": 0
   },
-  "gamesPlayed": [
-    {
-      "date": "2021-02-01",
-      "name": "Dominion",
-      "winner": "Hannah",
-      "coOp": "No",
-      "gameFamily": "Dominion"
-    },
-    {
-      "date": "2021-02-01",
-      "name": "Dominion",
-      "winner": "John",
-      "coOp": "No",
-      "gameFamily": "Dominion"
-    },
-    {
-      "date": "2021-02-01",
-      "name": "Love Letter 2nd Edition",
-      "winner": "John",
-      "coOp": "No",
-      "gameFamily": "Love Letter"
-    },
-    {
-      "date": "2021-02-02",
-      "name": "Flotsam Fight",
-      "winner": "Hannah",
-      "coOp": "No",
-      "gameFamily": "Flotsam Fight"
-    },
-    {
-      "date": "2021-02-03",
-      "name": "Archer: Once You Go Blackmail...",
-      "winner": "John",
-      "coOp": "No",
-      "gameFamily": "Love Letter"
-    },
-    {
-      "date": "2021-02-03",
-      "name": "Love Letter Kanai Factory Limited Edition",
-      "winner": "Hannah",
-      "coOp": "No",
-      "gameFamily": "Love Letter"
-    },
-    {
-      "date": "2021-02-03",
-      "name": "Love Letter: Batman",
-      "winner": "John",
-      "coOp": "No",
-      "gameFamily": "Love Letter"
-    },
-    {
-      "date": "2021-02-04",
-      "name": "Love Letter",
-      "winner": "Hannah",
-      "coOp": "No",
-      "gameFamily": "Love Letter"
-    },
-    {
-      "date": "2021-02-04",
-      "name": "Love Letter 2nd Edition",
-      "winner": "Hannah",
-      "coOp": "No",
-      "gameFamily": "Love Letter"
-    },
-    {
-      "date": "2021-02-05",
-      "name": "Ticket to Ride: Nordic Countries",
-      "winner": "Hannah",
-      "coOp": "No",
-      "gameFamily": "Ticket to Ride"
-    },
-    {
-      "date": "2021-02-06",
-      "name": "Topiary",
-      "winner": "John",
-      "coOp": "No",
-      "gameFamily": "Topiary"
-    },
-    {
-      "date": "2021-02-07",
-      "name": "Brass: Lancashire ",
-      "winner": "John",
-      "coOp": "No",
-      "gameFamily": "Brass"
-    },
-    {
-      "date": "2021-02-07",
-      "name": "Terraforming Mars",
-      "winner": "Hannah",
-      "coOp": "No",
-      "gameFamily": "Wildcard"
-    },
-    {
-      "date": "2021-02-09",
-      "name": "Corsairs of Valeria",
-      "winner": "Hannah",
-      "coOp": "No",
-      "gameFamily": "Corsairs of Valeria"
-    },
-    {
-      "date": "2021-02-09",
-      "name": "Jurassic Snack",
-      "winner": "John",
-      "coOp": "No",
-      "gameFamily": "Jurassic Snack"
-    },
-    {
-      "date": "2021-02-09",
-      "name": "Mint Works",
-      "winner": "Hannah",
-      "coOp": "No",
-      "gameFamily": "Mint Works"
-    },
-    {
-      "date": "2021-02-11",
-      "name": "Deep Sea Adventure",
-      "coOp": "Yes",
-      "coOpOutcome": "Won",
-      "gameFamily": "Deep Sea Adventure "
-    },
-    {
-      "date": "2021-02-13",
-      "name": "Arctic Scavengers",
-      "winner": "John",
-      "coOp": "No",
-      "gameFamily": "Wildcard"
-    },
-    {
-      "date": "2021-02-13",
-      "name": "Design Town",
-      "winner": "Hannah",
-      "coOp": "No",
-      "gameFamily": "Design Town "
-    },
-    {
-      "date": "2021-02-13",
-      "name": "Lovecraft Letter",
-      "winner": "Hannah ",
-      "coOp": "No",
-      "gameFamily": "Lovecraft Letter "
-    },
-    {
-      "date": "2021-02-13",
-      "name": "Valeria Card Kingdoms: Crimson Sea",
-      "winner": "John",
-      "coOp": "No",
-      "gameFamily": "Valeria: Card Kingdoms"
-    },
-    {
-      "date": "2021-02-16",
-      "name": "7 Wonders",
-      "winner": "Hannah",
-      "coOp": "No",
-      "gameFamily": "7 Wonders"
-    },
-    {
-      "date": "2021-02-16",
-      "name": "Wingspan",
-      "winner": "Hannah",
-      "coOp": "No",
-      "gameFamily": "Wingspan"
-    },
-    {
-      "date": "2021-02-16",
-      "name": "Wingspan",
-      "winner": "Hannah",
-      "coOp": "No",
-      "gameFamily": "Wingspan"
-    },
-    {
-      "date": "2021-02-17",
-      "name": "Love Letter 2nd Edition",
-      "winner": "John",
-      "coOp": "No",
-      "gameFamily": "Love Letter"
-    },
-    {
-      "date": "2021-02-18",
-      "name": "Love Letter 2nd Edition",
-      "winner": "John",
-      "coOp": "No",
-      "gameFamily": "Love Letter"
-    },
-    {
-      "date": "2021-02-18",
-      "name": "Pandemic: Rising Tides",
-      "coOp": "Yes",
-      "coOpOutcome": "Won",
-      "gameFamily": "Pandemic"
-    },
-    {
-      "date": "2021-02-18",
-      "name": "Terraforming Mars",
-      "winner": "John",
-      "coOp": "No",
-      "gameFamily": "Wildcard"
-    },
-    {
-      "date": "2021-02-19",
-      "name": "Aeon's End",
-      "coOp": "Yes",
-      "coOpOutcome": "Lost",
-      "gameFamily": "Aeon's End"
-    },
-    {
-      "date": "2021-02-19",
-      "name": "Aeon's End",
-      "coOp": "Yes",
-      "coOpOutcome": "Won",
-      "gameFamily": "Aeon's End"
-    },
-    {
-      "date": "2021-02-19",
-      "name": "Flotsam Fight",
-      "winner": "John",
-      "coOp": "No",
-      "gameFamily": "Flotsam Fight"
-    },
-    {
-      "date": "2021-02-19",
-      "name": "Tanto Cuore: Oktoberfest",
-      "winner": "Hannah",
-      "coOp": "No",
-      "gameFamily": "Tanto Cuore"
-    },
-    {
-      "date": "2021-02-19",
-      "name": "Tanto Cuore: Oktoberfest",
-      "winner": "John",
-      "coOp": "No",
-      "gameFamily": "Tanto Cuore"
-    },
-    {
-      "date": "2021-02-20",
-      "name": "Scythe",
-      "winner": "Hannah",
-      "coOp": "No",
-      "gameFamily": "Scythe"
-    },
-    {
-      "date": "2021-02-20",
-      "name": "Scythe",
-      "winner": "John",
-      "coOp": "No",
-      "gameFamily": "Scythe"
-    }
-  ],
-  "totalGamesPlayed": 35,
-  "averageGamesPlayedPerDay": 1.6667,
-  "mostGamesPlayedInADay": [
-    {
-      "date": "2021-02-19",
-      "games": [
-        "Aeon's End",
-        "Aeon's End",
-        "Flotsam Fight",
-        "Tanto Cuore: Oktoberfest",
-        "Tanto Cuore: Oktoberfest"
-      ]
-    }
-  ],
-  "uniqueGamesPlayed": [
-    "7 Wonders",
-    "Aeon's End",
-    "Archer: Once You Go Blackmail...",
-    "Arctic Scavengers",
-    "Brass: Lancashire ",
-    "Corsairs of Valeria",
-    "Deep Sea Adventure",
-    "Design Town",
-    "Dominion",
-    "Flotsam Fight",
-    "Jurassic Snack",
-    "Love Letter",
-    "Love Letter 2nd Edition",
-    "Love Letter Kanai Factory Limited Edition",
-    "Love Letter: Batman",
-    "Lovecraft Letter",
-    "Mint Works",
-    "Pandemic: Rising Tides",
-    "Scythe",
-    "Tanto Cuore: Oktoberfest",
-    "Terraforming Mars",
-    "Ticket to Ride: Nordic Countries",
-    "Topiary",
-    "Valeria Card Kingdoms: Crimson Sea",
-    "Wingspan"
-  ],
-  "uniqueGamesPlayedCount": 25,
-  "uniqueGamesPlayedPercentage": 0.7143,
-  "mostPlayedGames": [
-    {
-      "name": "Love Letter 2nd Edition",
-      "plays": 4
-    }
-  ],
-  "coOpGamesPlayedCount": 4,
-  "coOpGamesPlayedPercentage": 0.1143,
-  "coOpGameWins": 3,
-  "coOpGameLoses": 1,
-  "winCountHannah": 16,
-  "winCountJohn": 15,
+  "gamesPlayed": [],
+  "totalGamesPlayed": 0,
+  "averageGamesPlayedPerDay": 0,
+  "mostGamesPlayedInADay": [],
+  "uniqueGamesPlayed": [],
+  "uniqueGamesPlayedCount": 0,
+  "uniqueGamesPlayedPercentage": 0,
+  "mostPlayedGames": [],
+  "coOpGamesPlayedCount": 0,
+  "coOpGamesPlayedPercentage": 0,
+  "coOpGameWins": 0,
+  "coOpGameLoses": 0,
+  "winCountHannah": 0,
+  "winCountJohn": 0,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 31,
-  "winPercentageHannah": 0.5161,
-  "winPercentageJohn": 0.4839,
+  "winnableGamesTotal": 0,
+  "winPercentageHannah": 0,
+  "winPercentageJohn": 0,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
-  "mostWonGames": "Hannah",
-  "mostWonGamesJohn": [
-    {
-      "game": "Love Letter 2nd Edition",
-      "plays": 3
-    }
-  ],
-  "mostWonGamesHannah": [
-    {
-      "game": "Wingspan",
-      "plays": 2
-    }
-  ]
+  "mostWonGames": "Draw",
+  "mostWonGamesJohn": [],
+  "mostWonGamesHannah": []
 }

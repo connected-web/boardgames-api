@@ -1,0 +1,73 @@
+{
+  "name": "Root",
+  "gameFamilyId": "root",
+  "earliestDate": "2020-11-07",
+  "latestDate": "2020-11-08",
+  "sequenceStartDate": "2020-11-07",
+  "sequenceEndDate": "2020-11-08",
+  "daysInSequence": 2,
+  "daysWithUnplayedGames": 0,
+  "gamesPlayedPerDay": {
+    "1": 1,
+    "2": 1
+  },
+  "gamesPlayed": [
+    {
+      "date": "2020-11-07",
+      "winner": "Draw",
+      "coOp": "No",
+      "gameFamily": "Root",
+      "name": "Root"
+    },
+    {
+      "date": "2020-11-08",
+      "winner": "Draw",
+      "coOp": "No",
+      "gameFamily": "Root",
+      "name": "Root"
+    }
+  ],
+  "totalGamesPlayed": 2,
+  "averageGamesPlayedPerDay": 1,
+  "mostGamesPlayedInADay": [
+    {
+      "date": "2020-11-07",
+      "games": [
+        "Root"
+      ]
+    },
+    {
+      "date": "2020-11-08",
+      "games": [
+        "Root"
+      ]
+    }
+  ],
+  "uniqueGamesPlayed": [
+    "Root"
+  ],
+  "uniqueGamesPlayedCount": 1,
+  "uniqueGamesPlayedPercentage": 0.5,
+  "mostPlayedGames": [
+    {
+      "name": "Root",
+      "plays": 2
+    }
+  ],
+  "coOpGamesPlayedCount": 0,
+  "coOpGamesPlayedPercentage": 0,
+  "coOpGameWins": 0,
+  "coOpGameLoses": 0,
+  "winCountHannah": 0,
+  "winCountJohn": 0,
+  "winCountOther": 0,
+  "winCountDraw": 2,
+  "winnableGamesTotal": 2,
+  "winPercentageHannah": 0,
+  "winPercentageJohn": 0,
+  "winPercentageOther": 0,
+  "winPercentageDraw": 1,
+  "mostWonGames": "Draw",
+  "mostWonGamesJohn": [],
+  "mostWonGamesHannah": []
+}
