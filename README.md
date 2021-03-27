@@ -142,7 +142,29 @@ Data is sourced from the following APIs:
 | Board Game Entries     | `https://www.boardgamegeek.com/xmlapi2/thing?id=${objectId}&stats=1`    |
 | Board Game Play Stats  | `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}`        |
 
-## Local Testing of Github Workflows
+## Workflows
+
+There are three workflows in the .github/workflows/ folder which provide continous integration support for this codebase.
+
+### PR Check
+
+- `.github/workflows/pr-check.yml`
+
+The PR Check workflow runs when raising a PR - it will check for linting, run the unit tests, generate local data, and run the integration tests.
+
+### Deploy
+
+- `.github/workflows/deploy.yml`
+
+The Deploy workflow runs when merging to master - it will run the unit tests, integration tests, and then upload any code and static assets required for the PHP API.
+
+### Update Play Stats
+
+- `.github/workflows/update-play-stats.yml`
+
+The Update Play Stats workflow runs on a schedule, but can also be triggered manually - it will run `update-all`, followed by `create-all` before uploading JSON data to the server to be made available through the PHP API.
+
+### Local Testing of Github Workflows
 
 Workflows for pull requests, and build and deploy can be found in `.github/workflows/`.
 
