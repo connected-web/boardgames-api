@@ -98,6 +98,26 @@
     "sample": "/api/boardgame/stats/byYear/0000/sample",
     "sourceId": "boardgame-stats-byYear"
   }, {
+    "path": "/api/boardgame/stats/byTag/:tag/:value",
+    "regex": "/\\/api\\/boardgame\\/stats\\/byTag\\/([A-z\\d-]+)\\/([a-z\\d-]+)/",
+    "example": "/api/boardgame/stats/byTag/gameFamily/love-letter",
+    "method": "GET",
+    "description": "Return a summary of board games stats for a specific game tag played by John and Hannah. ",
+    "properties": {
+      ":tag": {
+        "description": "The tag to search within, e.g. gameFamily, or type",
+        "regex": "/[A-z\\d-]+/"
+      },
+      ":value": {
+        "description": "The value of the tag to find, e.g. love-letter, or strategy",
+        "regex": "/[a-z\\d-]+/"
+      }
+    },
+    "accepts": "application/json",
+    "schema": "/api/boardgame/stats/byTag/type/value/schema",
+    "sample": "/api/boardgame/stats/byTag/type/value/sample",
+    "sourceId": "boardgame-stats-byTag"
+  }, {
     "path": "/api/boardgame/grids/byYear/:yearCode",
     "regex": "/\\/api\\/boardgame\\/grids\\/byYear\\/(\\d{4})/",
     "example": "/api/boardgame/grids/byYear/2018",
