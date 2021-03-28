@@ -325,22 +325,22 @@ describe('Boardgames API', () => {
 
     it('should summarise the feed by the first month in sequence', () => {
       const schemaValidation = validate(actual.monthsInUse[0], boardGameStatsByMonthSchema)
-      expect(schemaValidation.errors, 'Schema validation errors for first month').to.deep.equal([])
+      expect(simplified(schemaValidation.errors), 'Schema validation errors for first month').to.deep.equal([])
     })
 
     it('should summarise the feed by the last month in sequence', () => {
       const schemaValidation = validate(actual.monthsInUse[1], boardGameStatsByMonthSchema)
-      expect(schemaValidation.errors, 'Schema validation errors for last month').to.deep.equal([])
+      expect(simplified(schemaValidation.errors), 'Schema validation errors for last month').to.deep.equal([])
     })
 
     it('should summarise the feed by the first year in sequence', () => {
       const schemaValidation = validate(actual.yearsInUse[0], boardGameStatsByYearSchema)
-      expect(schemaValidation.errors, 'Schema validation errors for first year').to.deep.equal([])
+      expect(simplified(schemaValidation.errors), 'Schema validation errors for first year').to.deep.equal([])
     })
 
     it('should summarise the feed by the last year in sequence', () => {
       const schemaValidation = validate(actual.yearsInUse[1], boardGameStatsByYearSchema)
-      expect(schemaValidation.errors, 'Schema validation errors for last year').to.deep.equal([])
+      expect(simplified(schemaValidation.errors), 'Schema validation errors for last year').to.deep.equal([])
     })
 
     it('should summarise the feed by all time', () => {
@@ -348,7 +348,7 @@ describe('Boardgames API', () => {
         byMonth: actual.byMonth,
         byYear: actual.byYear
       }, boardGameStatsSchema)
-      expect(schemaValidation.errors, 'Schema validation errors for all time feed').to.deep.equal([])
+      expect(simplified(schemaValidation.errors), 'Schema validation errors for all time feed').to.deep.equal([])
     })
   })
 
@@ -407,7 +407,11 @@ describe('Boardgames API', () => {
       const summaryByTag = actual.summariesByTags.gameFamily['love-letter']
       expect(typeof summaryByTag).to.equal('object')
       const schemaValidation = validate(summaryByTag, boardGameStatsByTagSchema)
-      expect(schemaValidation.errors.map(e => `${e.path} / ${e.name} : ${e.message}`), 'Schema validation errors for tag: gameFamily, value: love-letter').to.deep.equal([])
+      expect(simplified(schemaValidation.errors), 'Schema validation errors for tag: gameFamily, value: love-letter').to.deep.equal([])
     })
   })
 })
+
+function simplified (errors) {
+  return errors.map(e => `${e.path} / ${e.name} : ${e.message}`)
+}
