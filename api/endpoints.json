@@ -98,6 +98,16 @@
     "sample": "/api/boardgame/stats/byYear/0000/sample",
     "sourceId": "boardgame-stats-byYear"
   }, {
+    "path": "/api/boardgame/tags/list",
+    "regex": "/\\/api\\/boardgame\\/tags\\/list/",
+    "example": "/api/boardgame/tags/list",
+    "method": "GET",
+    "description": "Return a list of tags and values that are available through the the boardgame/stats/byTag/:tag/:value endpoint. ",
+    "accepts": "application/json",
+    "schema": "/api/boardgame/tags/list/schema",
+    "sample": "/api/boardgame/tags/list/sample",
+    "sourceId": "boardgame-tags-list"
+  }, {
     "path": "/api/boardgame/stats/byTag/:tag/:value",
     "regex": "/\\/api\\/boardgame\\/stats\\/byTag\\/([A-z\\d-]+)\\/([a-z\\d-]+)/",
     "example": "/api/boardgame/stats/byTag/gameFamily/love-letter",

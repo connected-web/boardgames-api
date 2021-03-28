@@ -1,0 +1,20 @@
+{
+	"id": "/",
+	"type": "object",
+	"properties": {
+		"boardGameTags": {
+			"type": "object",
+			"patternProperties": {
+				"^[A-Za-z_][A-Za-z0-9_]*$": {
+					"type": "array",
+					"items": {
+						"type": "string",
+						"pattern": "^[a-z\\d-]*$"
+					}
+				}
+			},
+			"additionalProperties": false
+		}
+	},
+	"additionalProperties": false
+}
