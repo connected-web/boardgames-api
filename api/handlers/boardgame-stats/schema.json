@@ -113,6 +113,12 @@
 					"coOpGameLoses": {
 						"type": "integer"
 					},
+					"coOpWinRate": {
+						"type": "number"
+					},
+					"coOpLossRate": {
+						"type": "number"
+					},
 					"winCountHannah": {
 						"type": "integer"
 					},

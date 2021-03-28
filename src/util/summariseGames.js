@@ -87,6 +87,8 @@ function summariseGames ({ games, startDate, endDate }) {
     return outcome === 'win' || outcome === 'won' || false
   }).length
   result.coOpGameLoses = result.coOpGamesPlayedCount - result.coOpGameWins
+  result.coOpWinRate = fmn(result.coOpGameWins / result.coOpGamesPlayedCount)
+  result.coOpLossRate = fmn(result.coOpGameLoses / result.coOpGamesPlayedCount)
 
   const gamesWonByHannah = games.filter(n => (n.winner + '').toLowerCase().trim() === 'hannah')
   const gamesWonByJohn = games.filter(n => (n.winner + '').toLowerCase().trim() === 'john')
