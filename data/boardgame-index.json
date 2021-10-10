@@ -74,25 +74,43 @@
         "winner": "Hannah",
         "coOp": "No",
         "gameFamily": "7 Wonders"
+      },
+      {
+        "date": "2021-03-06",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "7 Wonders"
+      },
+      {
+        "date": "2021-03-14",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "7 Wonders"
+      },
+      {
+        "date": "2021-04-04",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "7 Wonders"
       }
     ],
-    "totalGamesPlayed": 7,
+    "totalGamesPlayed": 10,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
     "coOpGameLoses": 0,
     "coOpWinRate": 0,
     "coOpLossRate": 0,
-    "winCountHannah": 3,
-    "winCountJohn": 3,
+    "winCountHannah": 5,
+    "winCountJohn": 4,
     "winCountOther": 1,
     "winCountDraw": 0,
-    "winnableGamesTotal": 7,
-    "winPercentageHannah": 0.4286,
-    "winPercentageJohn": 0.4286,
-    "winPercentageOther": 0.1429,
+    "winnableGamesTotal": 10,
+    "winPercentageHannah": 0.5,
+    "winPercentageJohn": 0.4,
+    "winPercentageOther": 0.1,
     "winPercentageDraw": 0,
-    "mostWonGames": "Draw"
+    "mostWonGames": "Hannah"
   },
   "7-wonders-duel": {
     "boardGameGeekGameId": "173346",
@@ -154,54 +172,6 @@
     "winPercentageDraw": 0,
     "mostWonGames": "Hannah"
   },
-  "adventure-time-love-letter": {
-    "boardGameGeekGameId": "175307",
-    "boardGameGeekName": "Adventure Time: Love Letter",
-    "boardGameApiId": "adventure-time-love-letter",
-    "name": "Adventure Time: Love Letter",
-    "playRecords": [
-      {
-        "date": "2018-11-05",
-        "winner": "John",
-        "coOp": "No"
-      },
-      {
-        "date": "2020-08-09",
-        "winner": "Hannah",
-        "coOp": "No",
-        "gameFamily": "Love Letter"
-      },
-      {
-        "date": "2020-10-03",
-        "winner": "Hannah",
-        "coOp": "No",
-        "gameFamily": "Love Letter"
-      },
-      {
-        "date": "2020-10-08",
-        "winner": "John",
-        "coOp": "No",
-        "gameFamily": "Love Letter"
-      }
-    ],
-    "totalGamesPlayed": 4,
-    "coOpGamesPlayedCount": 0,
-    "coOpGamesPlayedPercentage": 0,
-    "coOpGameWins": 0,
-    "coOpGameLoses": 0,
-    "coOpWinRate": 0,
-    "coOpLossRate": 0,
-    "winCountHannah": 2,
-    "winCountJohn": 2,
-    "winCountOther": 0,
-    "winCountDraw": 0,
-    "winnableGamesTotal": 4,
-    "winPercentageHannah": 0.5,
-    "winPercentageJohn": 0.5,
-    "winPercentageOther": 0,
-    "winPercentageDraw": 0,
-    "mostWonGames": "Draw"
-  },
   "aeons-end": {
     "boardGameGeekGameId": "191189",
     "boardGameGeekName": "Aeon's End",
@@ -241,15 +211,20 @@
         "coOpOutcome": "Won",
         "coOp": "Yes",
         "gameFamily": "Aeon's End"
+      },
+      {
+        "date": "2021-06-05",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes"
       }
     ],
-    "totalGamesPlayed": 6,
-    "coOpGamesPlayedCount": 6,
+    "totalGamesPlayed": 7,
+    "coOpGamesPlayedCount": 7,
     "coOpGamesPlayedPercentage": 1,
     "coOpGameWins": 4,
-    "coOpGameLoses": 2,
-    "coOpWinRate": 0.6667,
-    "coOpLossRate": 0.3333,
+    "coOpGameLoses": 3,
+    "coOpWinRate": 0.5714,
+    "coOpLossRate": 0.4286,
     "winCountHannah": 0,
     "winCountJohn": 0,
     "winCountOther": 0,
@@ -363,13 +338,26 @@
     "boardGameGeekName": "Aeon's End: The Depths",
     "boardGameApiId": "aeons-end-the-depths",
     "name": "Aeon's End: The Depths",
-    "playRecords": [],
-    "totalGamesPlayed": 0,
-    "coOpGamesPlayedCount": 0,
-    "coOpGamesPlayedPercentage": 0,
-    "coOpGameWins": 0,
+    "playRecords": [
+      {
+        "date": "2021-03-13",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "gameFamily": "Aeon's End"
+      },
+      {
+        "date": "2021-03-13",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "gameFamily": "Aeon's End"
+      }
+    ],
+    "totalGamesPlayed": 2,
+    "coOpGamesPlayedCount": 2,
+    "coOpGamesPlayedPercentage": 1,
+    "coOpGameWins": 2,
     "coOpGameLoses": 0,
-    "coOpWinRate": 0,
+    "coOpWinRate": 1,
     "coOpLossRate": 0,
     "winCountHannah": 0,
     "winCountJohn": 0,
@@ -906,9 +894,15 @@
         "winner": "John",
         "coOp": "No",
         "gameFamily": "Azul"
+      },
+      {
+        "date": "2021-03-27",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Wildcard"
       }
     ],
-    "totalGamesPlayed": 12,
+    "totalGamesPlayed": 13,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
@@ -916,13 +910,13 @@
     "coOpWinRate": 0,
     "coOpLossRate": 0,
     "winCountHannah": 3,
-    "winCountJohn": 8,
+    "winCountJohn": 9,
     "winCountOther": 1,
     "winCountDraw": 0,
-    "winnableGamesTotal": 12,
-    "winPercentageHannah": 0.25,
-    "winPercentageJohn": 0.6667,
-    "winPercentageOther": 0.0833,
+    "winnableGamesTotal": 13,
+    "winPercentageHannah": 0.2308,
+    "winPercentageJohn": 0.6923,
+    "winPercentageOther": 0.0769,
     "winPercentageDraw": 0,
     "mostWonGames": "John"
   },
@@ -1274,9 +1268,21 @@
         "winner": "John",
         "coOp": "No",
         "gameFamily": "Brass"
+      },
+      {
+        "date": "2021-04-05",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Brass"
+      },
+      {
+        "date": "2021-08-29",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Brass"
       }
     ],
-    "totalGamesPlayed": 5,
+    "totalGamesPlayed": 7,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
@@ -1284,15 +1290,15 @@
     "coOpWinRate": 0,
     "coOpLossRate": 0,
     "winCountHannah": 3,
-    "winCountJohn": 2,
+    "winCountJohn": 4,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 5,
-    "winPercentageHannah": 0.6,
-    "winPercentageJohn": 0.4,
+    "winnableGamesTotal": 7,
+    "winPercentageHannah": 0.4286,
+    "winPercentageJohn": 0.5714,
     "winPercentageOther": 0,
     "winPercentageDraw": 0,
-    "mostWonGames": "Hannah"
+    "mostWonGames": "John"
   },
   "bunny-kingdom": {
     "boardGameGeekGameId": "184921",
@@ -1908,15 +1914,39 @@
         "coOpOutcome": "Won",
         "coOp": "Yes",
         "gameFamily": "Codenames"
+      },
+      {
+        "date": "2021-03-24",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "gameFamily": "Wildcard"
+      },
+      {
+        "date": "2021-03-24",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes",
+        "gameFamily": "Wildcard"
+      },
+      {
+        "date": "2021-08-02",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "gameFamily": "Wildcard"
+      },
+      {
+        "date": "2021-08-02",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "gameFamily": "Wildcard"
       }
     ],
-    "totalGamesPlayed": 37,
-    "coOpGamesPlayedCount": 37,
+    "totalGamesPlayed": 41,
+    "coOpGamesPlayedCount": 41,
     "coOpGamesPlayedPercentage": 1,
-    "coOpGameWins": 30,
-    "coOpGameLoses": 7,
-    "coOpWinRate": 0.8108,
-    "coOpLossRate": 0.1892,
+    "coOpGameWins": 33,
+    "coOpGameLoses": 8,
+    "coOpWinRate": 0.8049,
+    "coOpLossRate": 0.1951,
     "winCountHannah": 0,
     "winCountJohn": 0,
     "winCountOther": 0,
@@ -2379,15 +2409,39 @@
         "coOpOutcome": "Won",
         "coOp": "Yes",
         "gameFamily": "Deep Sea Adventure "
+      },
+      {
+        "date": "2021-02-23",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes",
+        "gameFamily": "Deep Sea Adventure "
+      },
+      {
+        "date": "2021-03-07",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "gameFamily": "Deep Sea Adventure"
+      },
+      {
+        "date": "2021-03-30",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "gameFamily": "Deep Sea Adventure"
+      },
+      {
+        "date": "2021-10-08",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "gameFamily": "Deep Sea Adventure"
       }
     ],
-    "totalGamesPlayed": 12,
-    "coOpGamesPlayedCount": 9,
-    "coOpGamesPlayedPercentage": 0.75,
-    "coOpGameWins": 7,
-    "coOpGameLoses": 2,
-    "coOpWinRate": 0.7778,
-    "coOpLossRate": 0.2222,
+    "totalGamesPlayed": 16,
+    "coOpGamesPlayedCount": 13,
+    "coOpGamesPlayedPercentage": 0.8125,
+    "coOpGameWins": 10,
+    "coOpGameLoses": 3,
+    "coOpWinRate": 0.7692,
+    "coOpLossRate": 0.2308,
     "winCountHannah": 2,
     "winCountJohn": 1,
     "winCountOther": 0,
@@ -2452,20 +2506,38 @@
         "winner": "Hannah",
         "coOp": "No",
         "gameFamily": "Design Town "
+      },
+      {
+        "date": "2021-03-06",
+        "winner": "Hannah ",
+        "coOp": "No",
+        "gameFamily": "Design Town "
+      },
+      {
+        "date": "2021-03-09",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Design Town "
+      },
+      {
+        "date": "2021-04-02",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Design Town"
       }
     ],
-    "totalGamesPlayed": 8,
+    "totalGamesPlayed": 11,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
     "coOpGameLoses": 0,
     "coOpWinRate": 0,
     "coOpLossRate": 0,
-    "winCountHannah": 4,
-    "winCountJohn": 4,
+    "winCountHannah": 5,
+    "winCountJohn": 5,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 8,
+    "winnableGamesTotal": 10,
     "winPercentageHannah": 0.5,
     "winPercentageJohn": 0.5,
     "winPercentageOther": 0,
@@ -2803,24 +2875,31 @@
     "boardGameGeekName": "Dominion: Alchemy",
     "boardGameApiId": "dominion-alchemy",
     "name": "Dominion: Alchemy",
-    "playRecords": [],
-    "totalGamesPlayed": 0,
+    "playRecords": [
+      {
+        "date": "2021-03-02",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Dominion"
+      }
+    ],
+    "totalGamesPlayed": 1,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
     "coOpGameLoses": 0,
     "coOpWinRate": 0,
     "coOpLossRate": 0,
-    "winCountHannah": 0,
+    "winCountHannah": 1,
     "winCountJohn": 0,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 0,
-    "winPercentageHannah": 0,
+    "winnableGamesTotal": 1,
+    "winPercentageHannah": 1,
     "winPercentageJohn": 0,
     "winPercentageOther": 0,
     "winPercentageDraw": 0,
-    "mostWonGames": "Draw"
+    "mostWonGames": "Hannah"
   },
   "dominion-dark-ages": {
     "boardGameGeekGameId": "125403",
@@ -2977,22 +3056,28 @@
         "winner": "John",
         "coOp": "No",
         "gameFamily": "Dominion"
+      },
+      {
+        "date": "2021-04-04",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Dominion"
       }
     ],
-    "totalGamesPlayed": 7,
+    "totalGamesPlayed": 8,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
     "coOpGameLoses": 0,
     "coOpWinRate": 0,
     "coOpLossRate": 0,
-    "winCountHannah": 5,
+    "winCountHannah": 6,
     "winCountJohn": 2,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 7,
-    "winPercentageHannah": 0.7143,
-    "winPercentageJohn": 0.2857,
+    "winnableGamesTotal": 8,
+    "winPercentageHannah": 0.75,
+    "winPercentageJohn": 0.25,
     "winPercentageOther": 0,
     "winPercentageDraw": 0,
     "mostWonGames": "Hannah"
@@ -3041,9 +3126,15 @@
         "winner": "John",
         "coOp": "No",
         "gameFamily": "Dominion"
+      },
+      {
+        "date": "2021-03-12",
+        "winner": "Hannah ",
+        "coOp": "No",
+        "gameFamily": "Dominion"
       }
     ],
-    "totalGamesPlayed": 7,
+    "totalGamesPlayed": 8,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
@@ -3527,24 +3618,60 @@
         "winner": "John",
         "coOp": "No",
         "gameFamily": "Flotsam Fight"
+      },
+      {
+        "date": "2021-03-07",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Flotsam Fight"
+      },
+      {
+        "date": "2021-03-18",
+        "winner": "Hannah ",
+        "coOp": "No",
+        "gameFamily": "Flotsam Fight "
+      },
+      {
+        "date": "2021-04-06",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Flotsam Fight "
+      },
+      {
+        "date": "2021-07-03",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Flotsam Fight"
+      },
+      {
+        "date": "2021-08-28",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Flotsam Fight"
+      },
+      {
+        "date": "2021-10-06",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Flotsam Fight "
       }
     ],
-    "totalGamesPlayed": 11,
+    "totalGamesPlayed": 17,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
     "coOpGameLoses": 0,
     "coOpWinRate": 0,
     "coOpLossRate": 0,
-    "winCountHannah": 6,
-    "winCountJohn": 3,
+    "winCountHannah": 8,
+    "winCountJohn": 6,
     "winCountOther": 0,
     "winCountDraw": 1,
-    "winnableGamesTotal": 10,
-    "winPercentageHannah": 0.6,
-    "winPercentageJohn": 0.3,
+    "winnableGamesTotal": 15,
+    "winPercentageHannah": 0.5333,
+    "winPercentageJohn": 0.4,
     "winPercentageOther": 0,
-    "winPercentageDraw": 0.1,
+    "winPercentageDraw": 0.0667,
     "mostWonGames": "Hannah"
   },
   "fluxx": {
@@ -4693,24 +4820,60 @@
         "winner": "John",
         "coOp": "No",
         "gameFamily": "Jurassic Snack"
+      },
+      {
+        "date": "2021-02-21",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Jurassic Snack "
+      },
+      {
+        "date": "2021-03-07",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Jurassic Snack"
+      },
+      {
+        "date": "2021-03-22",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Jurassic Snack"
+      },
+      {
+        "date": "2021-04-08",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Jurassic Snack"
+      },
+      {
+        "date": "2021-09-02",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Jurassic Snack"
+      },
+      {
+        "date": "2021-10-07",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Jurassic Snack"
       }
     ],
-    "totalGamesPlayed": 14,
+    "totalGamesPlayed": 20,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
     "coOpGameLoses": 0,
     "coOpWinRate": 0,
     "coOpLossRate": 0,
-    "winCountHannah": 3,
-    "winCountJohn": 10,
+    "winCountHannah": 7,
+    "winCountJohn": 12,
     "winCountOther": 0,
     "winCountDraw": 1,
-    "winnableGamesTotal": 14,
-    "winPercentageHannah": 0.2143,
-    "winPercentageJohn": 0.7143,
+    "winnableGamesTotal": 20,
+    "winPercentageHannah": 0.35,
+    "winPercentageJohn": 0.6,
     "winPercentageOther": 0,
-    "winPercentageDraw": 0.0714,
+    "winPercentageDraw": 0.05,
     "mostWonGames": "John"
   },
   "kamigami-battles-battle-of-the-nine-realms": {
@@ -5112,23 +5275,39 @@
         "winner": "Hannah",
         "coOp": "No",
         "gameFamily": "Love Letter"
+      },
+      {
+        "date": "2021-04-23",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Love Letter"
+      },
+      {
+        "date": "2021-05-08",
+        "winner": "John"
+      },
+      {
+        "date": "2021-08-26",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Love Letter"
       }
     ],
-    "totalGamesPlayed": 52,
+    "totalGamesPlayed": 55,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
     "coOpGameLoses": 0,
     "coOpWinRate": 0,
     "coOpLossRate": 0,
-    "winCountHannah": 34,
-    "winCountJohn": 16,
+    "winCountHannah": 35,
+    "winCountJohn": 18,
     "winCountOther": 2,
     "winCountDraw": 0,
-    "winnableGamesTotal": 52,
-    "winPercentageHannah": 0.6538,
-    "winPercentageJohn": 0.3077,
-    "winPercentageOther": 0.0385,
+    "winnableGamesTotal": 55,
+    "winPercentageHannah": 0.6364,
+    "winPercentageJohn": 0.3273,
+    "winPercentageOther": 0.0364,
     "winPercentageDraw": 0,
     "mostWonGames": "Hannah"
   },
@@ -5196,6 +5375,30 @@
     "winPercentageOther": 0,
     "winPercentageDraw": 0,
     "mostWonGames": "Hannah"
+  },
+  "love-letter-adventure-time": {
+    "boardGameGeekGameId": "175307",
+    "boardGameGeekName": "Love Letter: Adventure Time",
+    "boardGameApiId": "love-letter-adventure-time",
+    "name": "Love Letter: Adventure Time",
+    "playRecords": [],
+    "totalGamesPlayed": 0,
+    "coOpGamesPlayedCount": 0,
+    "coOpGamesPlayedPercentage": 0,
+    "coOpGameWins": 0,
+    "coOpGameLoses": 0,
+    "coOpWinRate": 0,
+    "coOpLossRate": 0,
+    "winCountHannah": 0,
+    "winCountJohn": 0,
+    "winCountOther": 0,
+    "winCountDraw": 0,
+    "winnableGamesTotal": 0,
+    "winPercentageHannah": 0,
+    "winPercentageJohn": 0,
+    "winPercentageOther": 0,
+    "winPercentageDraw": 0,
+    "mostWonGames": "Draw"
   },
   "love-letter-batman": {
     "boardGameGeekGameId": "168584",
@@ -5578,23 +5781,65 @@
         "winner": "Hannah ",
         "coOp": "No",
         "gameFamily": "Lovecraft Letter "
+      },
+      {
+        "date": "2021-02-22",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Lovecraft Letter "
+      },
+      {
+        "date": "2021-02-26",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Lovecraft Letter "
+      },
+      {
+        "date": "2021-03-30",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Lovecraft Letter"
+      },
+      {
+        "date": "2021-04-13",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Lovecraft Letter"
+      },
+      {
+        "date": "2021-07-03",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Lovecraft Letter"
+      },
+      {
+        "date": "2021-07-24",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Lovecraft Letter"
+      },
+      {
+        "date": "2021-10-02",
+        "winner": "Other",
+        "coOp": "No",
+        "gameFamily": "Lovecraft Letter "
       }
     ],
-    "totalGamesPlayed": 41,
+    "totalGamesPlayed": 48,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
     "coOpGameLoses": 0,
     "coOpWinRate": 0,
     "coOpLossRate": 0,
-    "winCountHannah": 24,
-    "winCountJohn": 14,
-    "winCountOther": 1,
+    "winCountHannah": 26,
+    "winCountJohn": 18,
+    "winCountOther": 2,
     "winCountDraw": 0,
-    "winnableGamesTotal": 39,
-    "winPercentageHannah": 0.6154,
-    "winPercentageJohn": 0.359,
-    "winPercentageOther": 0.0256,
+    "winnableGamesTotal": 46,
+    "winPercentageHannah": 0.5652,
+    "winPercentageJohn": 0.3913,
+    "winPercentageOther": 0.0435,
     "winPercentageDraw": 0,
     "mostWonGames": "Hannah"
   },
@@ -6042,22 +6287,52 @@
         "winner": "Hannah",
         "coOp": "No",
         "gameFamily": "Mint Works"
+      },
+      {
+        "date": "2021-02-21",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Mint Works "
+      },
+      {
+        "date": "2021-03-07",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Mint Works"
+      },
+      {
+        "date": "2021-03-28",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Mint Works"
+      },
+      {
+        "date": "2021-04-09",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Mint Works"
+      },
+      {
+        "date": "2021-10-08",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Mint Works"
       }
     ],
-    "totalGamesPlayed": 10,
+    "totalGamesPlayed": 15,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
     "coOpGameLoses": 0,
     "coOpWinRate": 0,
     "coOpLossRate": 0,
-    "winCountHannah": 4,
-    "winCountJohn": 6,
+    "winCountHannah": 7,
+    "winCountJohn": 8,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 10,
-    "winPercentageHannah": 0.4,
-    "winPercentageJohn": 0.6,
+    "winnableGamesTotal": 15,
+    "winPercentageHannah": 0.4667,
+    "winPercentageJohn": 0.5333,
     "winPercentageOther": 0,
     "winPercentageDraw": 0,
     "mostWonGames": "John"
@@ -6161,9 +6436,15 @@
         "winner": "John",
         "coOp": "No",
         "gameFamily": "Scythe"
+      },
+      {
+        "date": "2021-08-21",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Scythe"
       }
     ],
-    "totalGamesPlayed": 3,
+    "totalGamesPlayed": 4,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
@@ -6171,10 +6452,10 @@
     "coOpWinRate": 0,
     "coOpLossRate": 0,
     "winCountHannah": 0,
-    "winCountJohn": 3,
+    "winCountJohn": 4,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 3,
+    "winnableGamesTotal": 4,
     "winPercentageHannah": 0,
     "winPercentageJohn": 1,
     "winPercentageOther": 0,
@@ -6473,9 +6754,15 @@
         "winner": "John",
         "coOp": "No",
         "gameFamily": "Pandemic"
+      },
+      {
+        "date": "2021-04-05",
+        "winner": "Draw",
+        "coOp": "No",
+        "gameFamily": "Pandemic "
       }
     ],
-    "totalGamesPlayed": 7,
+    "totalGamesPlayed": 8,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
@@ -6485,12 +6772,12 @@
     "winCountHannah": 0,
     "winCountJohn": 6,
     "winCountOther": 0,
-    "winCountDraw": 1,
-    "winnableGamesTotal": 7,
+    "winCountDraw": 2,
+    "winnableGamesTotal": 8,
     "winPercentageHannah": 0,
-    "winPercentageJohn": 0.8571,
+    "winPercentageJohn": 0.75,
     "winPercentageOther": 0,
-    "winPercentageDraw": 0.1429,
+    "winPercentageDraw": 0.25,
     "mostWonGames": "John"
   },
   "pandemic-iberia": {
@@ -6743,14 +7030,21 @@
     "boardGameGeekName": "Pandemic: State of Emergency",
     "boardGameApiId": "pandemic-state-of-emergency",
     "name": "Pandemic: State of Emergency",
-    "playRecords": [],
-    "totalGamesPlayed": 0,
-    "coOpGamesPlayedCount": 0,
-    "coOpGamesPlayedPercentage": 0,
+    "playRecords": [
+      {
+        "date": "2021-02-23",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes",
+        "gameFamily": "Pandemic "
+      }
+    ],
+    "totalGamesPlayed": 1,
+    "coOpGamesPlayedCount": 1,
+    "coOpGamesPlayedPercentage": 1,
     "coOpGameWins": 0,
-    "coOpGameLoses": 0,
+    "coOpGameLoses": 1,
     "coOpWinRate": 0,
-    "coOpLossRate": 0,
+    "coOpLossRate": 1,
     "winCountHannah": 0,
     "winCountJohn": 0,
     "winCountOther": 0,
@@ -6831,25 +7125,29 @@
         "winner": "John",
         "coOp": "No",
         "gameFamily": "Patchwork"
+      },
+      {
+        "date": "2021-05-03",
+        "winner": "Hannah"
       }
     ],
-    "totalGamesPlayed": 2,
+    "totalGamesPlayed": 3,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
     "coOpGameLoses": 0,
     "coOpWinRate": 0,
     "coOpLossRate": 0,
-    "winCountHannah": 1,
+    "winCountHannah": 2,
     "winCountJohn": 1,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 2,
-    "winPercentageHannah": 0.5,
-    "winPercentageJohn": 0.5,
+    "winnableGamesTotal": 3,
+    "winPercentageHannah": 0.6667,
+    "winPercentageJohn": 0.3333,
     "winPercentageOther": 0,
     "winPercentageDraw": 0,
-    "mostWonGames": "Draw"
+    "mostWonGames": "Hannah"
   },
   "photosynthesis": {
     "boardGameGeekGameId": "218603",
@@ -7289,9 +7587,21 @@
         "winner": "John",
         "coOp": "No",
         "gameFamily": "Scythe"
+      },
+      {
+        "date": "2021-03-20",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Scythe"
+      },
+      {
+        "date": "2021-03-20",
+        "winner": "Hannah ",
+        "coOp": "No",
+        "gameFamily": "Scythe"
       }
     ],
-    "totalGamesPlayed": 11,
+    "totalGamesPlayed": 13,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
@@ -7299,12 +7609,12 @@
     "coOpWinRate": 0,
     "coOpLossRate": 0,
     "winCountHannah": 4,
-    "winCountJohn": 7,
+    "winCountJohn": 8,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 11,
-    "winPercentageHannah": 0.3636,
-    "winPercentageJohn": 0.6364,
+    "winnableGamesTotal": 12,
+    "winPercentageHannah": 0.3333,
+    "winPercentageJohn": 0.6667,
     "winPercentageOther": 0,
     "winPercentageDraw": 0,
     "mostWonGames": "John"
@@ -7352,9 +7662,15 @@
         "winner": "John",
         "coOp": "No",
         "gameFamily": "Space Base"
+      },
+      {
+        "date": "2021-07-30",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Wildcard"
       }
     ],
-    "totalGamesPlayed": 7,
+    "totalGamesPlayed": 8,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
@@ -7362,12 +7678,12 @@
     "coOpWinRate": 0,
     "coOpLossRate": 0,
     "winCountHannah": 5,
-    "winCountJohn": 2,
+    "winCountJohn": 3,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 7,
-    "winPercentageHannah": 0.7143,
-    "winPercentageJohn": 0.2857,
+    "winnableGamesTotal": 8,
+    "winPercentageHannah": 0.625,
+    "winPercentageJohn": 0.375,
     "winPercentageOther": 0,
     "winPercentageDraw": 0,
     "mostWonGames": "Hannah"
@@ -7499,22 +7815,28 @@
         "winner": "John",
         "coOp": "No",
         "gameFamily": "Splendor"
+      },
+      {
+        "date": "2021-07-24",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Wildcard"
       }
     ],
-    "totalGamesPlayed": 3,
+    "totalGamesPlayed": 4,
     "coOpGamesPlayedCount": 1,
-    "coOpGamesPlayedPercentage": 0.3333,
+    "coOpGamesPlayedPercentage": 0.25,
     "coOpGameWins": 0,
     "coOpGameLoses": 1,
     "coOpWinRate": 0,
     "coOpLossRate": 1,
     "winCountHannah": 1,
-    "winCountJohn": 2,
+    "winCountJohn": 3,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 3,
-    "winPercentageHannah": 0.3333,
-    "winPercentageJohn": 0.6667,
+    "winnableGamesTotal": 4,
+    "winPercentageHannah": 0.25,
+    "winPercentageJohn": 0.75,
     "winPercentageOther": 0,
     "winPercentageDraw": 0,
     "mostWonGames": "John"
@@ -7632,24 +7954,35 @@
         "winner": "John",
         "coOp": "No",
         "gameFamily": "Star Realms"
+      },
+      {
+        "date": "2021-03-18",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Star Realms"
+      },
+      {
+        "date": "2021-06-06",
+        "winner": "John",
+        "coOp": "No"
       }
     ],
-    "totalGamesPlayed": 13,
+    "totalGamesPlayed": 15,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
     "coOpGameLoses": 0,
     "coOpWinRate": 0,
     "coOpLossRate": 0,
-    "winCountHannah": 7,
-    "winCountJohn": 5,
+    "winCountHannah": 8,
+    "winCountJohn": 6,
     "winCountOther": 0,
     "winCountDraw": 1,
-    "winnableGamesTotal": 13,
-    "winPercentageHannah": 0.5385,
-    "winPercentageJohn": 0.3846,
+    "winnableGamesTotal": 15,
+    "winPercentageHannah": 0.5333,
+    "winPercentageJohn": 0.4,
     "winPercentageOther": 0,
-    "winPercentageDraw": 0.0769,
+    "winPercentageDraw": 0.0667,
     "mostWonGames": "Hannah"
   },
   "star-realms-colony-wars": {
@@ -8091,9 +8424,15 @@
         "winner": "John",
         "coOp": "No",
         "gameFamily": "Tanto Cuore"
+      },
+      {
+        "date": "2021-07-09",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Tanto Cuore"
       }
     ],
-    "totalGamesPlayed": 8,
+    "totalGamesPlayed": 9,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
@@ -8101,12 +8440,12 @@
     "coOpWinRate": 0,
     "coOpLossRate": 0,
     "winCountHannah": 5,
-    "winCountJohn": 3,
+    "winCountJohn": 4,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 8,
-    "winPercentageHannah": 0.625,
-    "winPercentageJohn": 0.375,
+    "winnableGamesTotal": 9,
+    "winPercentageHannah": 0.5556,
+    "winPercentageJohn": 0.4444,
     "winPercentageOther": 0,
     "winPercentageDraw": 0,
     "mostWonGames": "Hannah"
@@ -8168,9 +8507,15 @@
         "winner": "Hannah",
         "coOp": "No",
         "gameFamily": "Tanto Cuore"
+      },
+      {
+        "date": "2021-03-14",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Tanto Cuore"
       }
     ],
-    "totalGamesPlayed": 5,
+    "totalGamesPlayed": 6,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
@@ -8178,15 +8523,15 @@
     "coOpWinRate": 0,
     "coOpLossRate": 0,
     "winCountHannah": 3,
-    "winCountJohn": 2,
+    "winCountJohn": 3,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 5,
-    "winPercentageHannah": 0.6,
-    "winPercentageJohn": 0.4,
+    "winnableGamesTotal": 6,
+    "winPercentageHannah": 0.5,
+    "winPercentageJohn": 0.5,
     "winPercentageOther": 0,
     "winPercentageDraw": 0,
-    "mostWonGames": "Hannah"
+    "mostWonGames": "Draw"
   },
   "tanto-cuore-oktoberfest": {
     "boardGameGeekGameId": "158130",
@@ -8290,9 +8635,15 @@
         "winner": "Draw",
         "coOp": "No",
         "gameFamily": "Tanto Cuore"
+      },
+      {
+        "date": "2021-03-19",
+        "winner": "Hannah ",
+        "coOp": "No",
+        "gameFamily": "Tanto Cuore"
       }
     ],
-    "totalGamesPlayed": 5,
+    "totalGamesPlayed": 6,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
@@ -8459,8 +8810,8 @@
         "gameFamily": "Ticket to Ride"
       },
       {
-        "date": "2021-01-23",
-        "winner": "John",
+        "date": "2021-08-08",
+        "winner": "Hannah",
         "coOp": "No",
         "gameFamily": "Ticket to Ride"
       }
@@ -8472,13 +8823,13 @@
     "coOpGameLoses": 0,
     "coOpWinRate": 0,
     "coOpLossRate": 0,
-    "winCountHannah": 3,
-    "winCountJohn": 7,
+    "winCountHannah": 4,
+    "winCountJohn": 6,
     "winCountOther": 0,
     "winCountDraw": 1,
     "winnableGamesTotal": 11,
-    "winPercentageHannah": 0.2727,
-    "winPercentageJohn": 0.6364,
+    "winPercentageHannah": 0.3636,
+    "winPercentageJohn": 0.5455,
     "winPercentageOther": 0,
     "winPercentageDraw": 0.0909,
     "mostWonGames": "John"
@@ -8514,22 +8865,28 @@
         "winner": "Hannah",
         "coOp": "Yes",
         "gameFamily": "Ticket to Ride"
+      },
+      {
+        "date": "2021-03-15",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Ticket to Ride"
       }
     ],
-    "totalGamesPlayed": 4,
+    "totalGamesPlayed": 5,
     "coOpGamesPlayedCount": 1,
-    "coOpGamesPlayedPercentage": 0.25,
+    "coOpGamesPlayedPercentage": 0.2,
     "coOpGameWins": 0,
     "coOpGameLoses": 1,
     "coOpWinRate": 0,
     "coOpLossRate": 1,
     "winCountHannah": 3,
-    "winCountJohn": 1,
+    "winCountJohn": 2,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 4,
-    "winPercentageHannah": 0.75,
-    "winPercentageJohn": 0.25,
+    "winnableGamesTotal": 5,
+    "winPercentageHannah": 0.6,
+    "winPercentageJohn": 0.4,
     "winPercentageOther": 0,
     "winPercentageDraw": 0,
     "mostWonGames": "Hannah"
@@ -8933,9 +9290,15 @@
         "winner": "John",
         "coOp": "No",
         "gameFamily": "Ticket to Ride"
+      },
+      {
+        "date": "2021-01-23",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Ticket to Ride"
       }
     ],
-    "totalGamesPlayed": 12,
+    "totalGamesPlayed": 13,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
@@ -8943,15 +9306,15 @@
     "coOpWinRate": 0,
     "coOpLossRate": 0,
     "winCountHannah": 6,
-    "winCountJohn": 5,
+    "winCountJohn": 6,
     "winCountOther": 0,
     "winCountDraw": 1,
-    "winnableGamesTotal": 12,
-    "winPercentageHannah": 0.5,
-    "winPercentageJohn": 0.4167,
+    "winnableGamesTotal": 13,
+    "winPercentageHannah": 0.4615,
+    "winPercentageJohn": 0.4615,
     "winPercentageOther": 0,
-    "winPercentageDraw": 0.0833,
-    "mostWonGames": "Hannah"
+    "winPercentageDraw": 0.0769,
+    "mostWonGames": "Draw"
   },
   "ticket-to-ride-first-journey-europe": {
     "boardGameGeekGameId": "218208",
@@ -9035,9 +9398,15 @@
         "winner": "Hannah",
         "coOp": "No",
         "gameFamily": "Ticket to Ride"
+      },
+      {
+        "date": "2021-02-27",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Ticket to Ride"
       }
     ],
-    "totalGamesPlayed": 5,
+    "totalGamesPlayed": 6,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
@@ -9045,15 +9414,15 @@
     "coOpWinRate": 0,
     "coOpLossRate": 0,
     "winCountHannah": 3,
-    "winCountJohn": 2,
+    "winCountJohn": 3,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 5,
-    "winPercentageHannah": 0.6,
-    "winPercentageJohn": 0.4,
+    "winnableGamesTotal": 6,
+    "winPercentageHannah": 0.5,
+    "winPercentageJohn": 0.5,
     "winPercentageOther": 0,
     "winPercentageDraw": 0,
-    "mostWonGames": "Hannah"
+    "mostWonGames": "Draw"
   },
   "ticket-to-ride-london": {
     "boardGameGeekGameId": "276894",
@@ -9066,20 +9435,26 @@
         "winner": "Hannah",
         "coOp": "No",
         "gameFamily": "Ticket to Ride"
+      },
+      {
+        "date": "2021-04-30",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Ticket to Ride "
       }
     ],
-    "totalGamesPlayed": 1,
+    "totalGamesPlayed": 2,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
     "coOpGameLoses": 0,
     "coOpWinRate": 0,
     "coOpLossRate": 0,
-    "winCountHannah": 1,
+    "winCountHannah": 2,
     "winCountJohn": 0,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 1,
+    "winnableGamesTotal": 2,
     "winPercentageHannah": 1,
     "winPercentageJohn": 0,
     "winPercentageOther": 0,
@@ -9491,23 +9866,47 @@
         "winner": "John",
         "coOp": "No",
         "gameFamily": "Topiary"
+      },
+      {
+        "date": "2021-03-06",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Topiary "
+      },
+      {
+        "date": "2021-03-11",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Topiary "
+      },
+      {
+        "date": "2021-04-02",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Topiary"
+      },
+      {
+        "date": "2021-07-12",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Topiary"
       }
     ],
-    "totalGamesPlayed": 17,
+    "totalGamesPlayed": 21,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
     "coOpGameLoses": 0,
     "coOpWinRate": 0,
     "coOpLossRate": 0,
-    "winCountHannah": 7,
-    "winCountJohn": 8,
+    "winCountHannah": 9,
+    "winCountJohn": 10,
     "winCountOther": 1,
     "winCountDraw": 0,
-    "winnableGamesTotal": 16,
-    "winPercentageHannah": 0.4375,
+    "winnableGamesTotal": 20,
+    "winPercentageHannah": 0.45,
     "winPercentageJohn": 0.5,
-    "winPercentageOther": 0.0625,
+    "winPercentageOther": 0.05,
     "winPercentageDraw": 0,
     "mostWonGames": "John"
   },
@@ -9611,9 +10010,15 @@
         "winner": "John",
         "coOp": "No",
         "gameFamily": "Tricks and the Phantom"
+      },
+      {
+        "date": "2021-08-18",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Wildcard"
       }
     ],
-    "totalGamesPlayed": 5,
+    "totalGamesPlayed": 6,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
@@ -9621,12 +10026,12 @@
     "coOpWinRate": 0,
     "coOpLossRate": 0,
     "winCountHannah": 2,
-    "winCountJohn": 3,
+    "winCountJohn": 4,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 5,
-    "winPercentageHannah": 0.4,
-    "winPercentageJohn": 0.6,
+    "winnableGamesTotal": 6,
+    "winPercentageHannah": 0.3333,
+    "winPercentageJohn": 0.6667,
     "winPercentageOther": 0,
     "winPercentageDraw": 0,
     "mostWonGames": "John"
@@ -9710,24 +10115,46 @@
         "winner": "Hannah",
         "coOp": "No",
         "gameFamily": "Troika"
+      },
+      {
+        "date": "2021-04-24",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Wildcard"
+      },
+      {
+        "date": "2021-05-03",
+        "winner": "Hannah"
+      },
+      {
+        "date": "2021-08-18",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Wildcard"
+      },
+      {
+        "date": "2021-08-18",
+        "winner": "Other",
+        "coOp": "No",
+        "gameFamily": "Wildcard"
       }
     ],
-    "totalGamesPlayed": 14,
+    "totalGamesPlayed": 18,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
     "coOpGameLoses": 0,
     "coOpWinRate": 0,
     "coOpLossRate": 0,
-    "winCountHannah": 4,
+    "winCountHannah": 7,
     "winCountJohn": 8,
-    "winCountOther": 1,
+    "winCountOther": 2,
     "winCountDraw": 1,
-    "winnableGamesTotal": 14,
-    "winPercentageHannah": 0.2857,
-    "winPercentageJohn": 0.5714,
-    "winPercentageOther": 0.0714,
-    "winPercentageDraw": 0.0714,
+    "winnableGamesTotal": 18,
+    "winPercentageHannah": 0.3889,
+    "winPercentageJohn": 0.4444,
+    "winPercentageOther": 0.1111,
+    "winPercentageDraw": 0.0556,
     "mostWonGames": "John"
   },
   "twilight-struggle": {
@@ -9844,23 +10271,47 @@
         "winner": "Hannah",
         "coOp": "No",
         "gameFamily": "Valeria: Card Kingdoms"
+      },
+      {
+        "date": "2021-03-06",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Valeria: Card Kingdoms"
+      },
+      {
+        "date": "2021-03-06",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Valeria: Card Kingdoms"
+      },
+      {
+        "date": "2021-03-27",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Valeria: Card Kingdoms"
+      },
+      {
+        "date": "2021-03-27",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Valeria: Card Kingdoms"
       }
     ],
-    "totalGamesPlayed": 14,
+    "totalGamesPlayed": 18,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
     "coOpGameLoses": 0,
     "coOpWinRate": 0,
     "coOpLossRate": 0,
-    "winCountHannah": 10,
-    "winCountJohn": 3,
+    "winCountHannah": 11,
+    "winCountJohn": 6,
     "winCountOther": 1,
     "winCountDraw": 0,
-    "winnableGamesTotal": 14,
-    "winPercentageHannah": 0.7143,
-    "winPercentageJohn": 0.2143,
-    "winPercentageOther": 0.0714,
+    "winnableGamesTotal": 18,
+    "winPercentageHannah": 0.6111,
+    "winPercentageJohn": 0.3333,
+    "winPercentageOther": 0.0556,
     "winPercentageDraw": 0,
     "mostWonGames": "Hannah"
   },
@@ -9993,23 +10444,33 @@
         "coOpOutcome": "Lost",
         "coOp": "Yes",
         "notes": 15
+      },
+      {
+        "date": "2021-09-29",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2021-09-29",
+        "coOpOutcome": "Lose",
+        "coOp": "Yes"
       }
     ],
-    "totalGamesPlayed": 9,
-    "coOpGamesPlayedCount": 7,
-    "coOpGamesPlayedPercentage": 0.7778,
+    "totalGamesPlayed": 11,
+    "coOpGamesPlayedCount": 8,
+    "coOpGamesPlayedPercentage": 0.7273,
     "coOpGameWins": 3,
-    "coOpGameLoses": 4,
-    "coOpWinRate": 0.4286,
-    "coOpLossRate": 0.5714,
-    "winCountHannah": 1,
+    "coOpGameLoses": 5,
+    "coOpWinRate": 0.375,
+    "coOpLossRate": 0.625,
+    "winCountHannah": 2,
     "winCountJohn": 0,
     "winCountOther": 1,
     "winCountDraw": 0,
-    "winnableGamesTotal": 2,
-    "winPercentageHannah": 0.5,
+    "winnableGamesTotal": 3,
+    "winPercentageHannah": 0.6667,
     "winPercentageJohn": 0,
-    "winPercentageOther": 0.5,
+    "winPercentageOther": 0.3333,
     "winPercentageDraw": 0,
     "mostWonGames": "Hannah"
   },
@@ -10129,9 +10590,14 @@
         "winner": "John",
         "coOp": "No",
         "gameFamily": "Yam Yam"
+      },
+      {
+        "date": "2021-06-06",
+        "winner": "John",
+        "coOp": "No"
       }
     ],
-    "totalGamesPlayed": 7,
+    "totalGamesPlayed": 8,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
@@ -10139,13 +10605,13 @@
     "coOpWinRate": 0,
     "coOpLossRate": 0,
     "winCountHannah": 4,
-    "winCountJohn": 2,
+    "winCountJohn": 3,
     "winCountOther": 1,
     "winCountDraw": 0,
-    "winnableGamesTotal": 7,
-    "winPercentageHannah": 0.5714,
-    "winPercentageJohn": 0.2857,
-    "winPercentageOther": 0.1429,
+    "winnableGamesTotal": 8,
+    "winPercentageHannah": 0.5,
+    "winPercentageJohn": 0.375,
+    "winPercentageOther": 0.125,
     "winPercentageDraw": 0,
     "mostWonGames": "Hannah"
   },
@@ -10594,6 +11060,52 @@
     "winPercentageDraw": 0,
     "mostWonGames": "Hannah"
   },
+  "adventure-time-love-letter": {
+    "boardGameApiId": "adventure-time-love-letter",
+    "playRecords": [
+      {
+        "date": "2018-11-05",
+        "winner": "John",
+        "coOp": "No"
+      },
+      {
+        "date": "2020-08-09",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Love Letter"
+      },
+      {
+        "date": "2020-10-03",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Love Letter"
+      },
+      {
+        "date": "2020-10-08",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Love Letter"
+      }
+    ],
+    "name": "Adventure Time Love Letter",
+    "totalGamesPlayed": 4,
+    "coOpGamesPlayedCount": 0,
+    "coOpGamesPlayedPercentage": 0,
+    "coOpGameWins": 0,
+    "coOpGameLoses": 0,
+    "coOpWinRate": 0,
+    "coOpLossRate": 0,
+    "winCountHannah": 2,
+    "winCountJohn": 2,
+    "winCountOther": 0,
+    "winCountDraw": 0,
+    "winnableGamesTotal": 4,
+    "winPercentageHannah": 0.5,
+    "winPercentageJohn": 0.5,
+    "winPercentageOther": 0,
+    "winPercentageDraw": 0,
+    "mostWonGames": "Draw"
+  },
   "batman-love-letter": {
     "boardGameApiId": "batman-love-letter",
     "playRecords": [
@@ -10740,16 +11252,22 @@
         "coOpOutcome": "Won",
         "coOp": "Yes",
         "gameFamily": "Carcassonne"
+      },
+      {
+        "date": "2021-08-12",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "gameFamily": "Wildcard"
       }
     ],
     "name": "Carcassonne",
-    "totalGamesPlayed": 5,
-    "coOpGamesPlayedCount": 3,
-    "coOpGamesPlayedPercentage": 0.6,
-    "coOpGameWins": 1,
+    "totalGamesPlayed": 6,
+    "coOpGamesPlayedCount": 4,
+    "coOpGamesPlayedPercentage": 0.6667,
+    "coOpGameWins": 2,
     "coOpGameLoses": 2,
-    "coOpWinRate": 0.3333,
-    "coOpLossRate": 0.6667,
+    "coOpWinRate": 0.5,
+    "coOpLossRate": 0.5,
     "winCountHannah": 0,
     "winCountJohn": 2,
     "winCountOther": 0,
@@ -11596,26 +12114,67 @@
         "winner": "Hannah",
         "coOp": "No",
         "gameFamily": "Corsairs of Valeria"
+      },
+      {
+        "date": "2021-02-22",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Corsairs of Valeria"
+      },
+      {
+        "date": "2021-03-07",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Corsairs of Valeria"
+      },
+      {
+        "date": "2021-03-29",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Corsairs of Valeria"
+      },
+      {
+        "date": "2021-04-09",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Corsairs of Valeria"
+      },
+      {
+        "date": "2021-06-05",
+        "winner": "Hannah",
+        "coOp": "No"
+      },
+      {
+        "date": "2021-08-01",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Corsairs of Valeria"
+      },
+      {
+        "date": "2021-10-10",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Corsairs of Valeria"
       }
     ],
     "name": "Corsairs of Valeria",
-    "totalGamesPlayed": 15,
+    "totalGamesPlayed": 22,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
     "coOpGameLoses": 0,
     "coOpWinRate": 0,
     "coOpLossRate": 0,
-    "winCountHannah": 7,
-    "winCountJohn": 7,
+    "winCountHannah": 11,
+    "winCountJohn": 10,
     "winCountOther": 0,
     "winCountDraw": 1,
-    "winnableGamesTotal": 15,
-    "winPercentageHannah": 0.4667,
-    "winPercentageJohn": 0.4667,
+    "winnableGamesTotal": 22,
+    "winPercentageHannah": 0.5,
+    "winPercentageJohn": 0.4545,
     "winPercentageOther": 0,
-    "winPercentageDraw": 0.0667,
-    "mostWonGames": "Draw"
+    "winPercentageDraw": 0.0455,
+    "mostWonGames": "Hannah"
   },
   "lords-of-waterdeep": {
     "boardGameApiId": "lords-of-waterdeep",
@@ -11637,23 +12196,29 @@
         "winner": "John",
         "coOp": "No",
         "gameFamily": "Lords of Waterdeep"
+      },
+      {
+        "date": "2021-04-11",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Wildcard"
       }
     ],
     "name": "Lords of Waterdeep",
-    "totalGamesPlayed": 3,
+    "totalGamesPlayed": 4,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
     "coOpGameLoses": 0,
     "coOpWinRate": 0,
     "coOpLossRate": 0,
-    "winCountHannah": 0,
+    "winCountHannah": 1,
     "winCountJohn": 3,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 3,
-    "winPercentageHannah": 0,
-    "winPercentageJohn": 1,
+    "winnableGamesTotal": 4,
+    "winPercentageHannah": 0.25,
+    "winPercentageJohn": 0.75,
     "winPercentageOther": 0,
     "winPercentageDraw": 0,
     "mostWonGames": "John"
@@ -11696,16 +12261,22 @@
         "coOpOutcome": "Lose",
         "coOp": "Yes",
         "gameFamily": "Pandemic"
+      },
+      {
+        "date": "2021-08-03",
+        "coOpOutcome": "Lost",
+        "coOp": "Yes",
+        "gameFamily": "Pandemic"
       }
     ],
     "name": "Pandemic Hot Zone: North America",
-    "totalGamesPlayed": 6,
-    "coOpGamesPlayedCount": 6,
+    "totalGamesPlayed": 7,
+    "coOpGamesPlayedCount": 7,
     "coOpGamesPlayedPercentage": 1,
     "coOpGameWins": 4,
-    "coOpGameLoses": 2,
-    "coOpWinRate": 0.6667,
-    "coOpLossRate": 0.3333,
+    "coOpGameLoses": 3,
+    "coOpWinRate": 0.5714,
+    "coOpLossRate": 0.4286,
     "winCountHannah": 0,
     "winCountJohn": 0,
     "winCountOther": 0,
@@ -11789,23 +12360,29 @@
         "winner": "John",
         "coOp": "No",
         "gameFamily": "Ticket to Ride"
+      },
+      {
+        "date": "2021-02-21",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Ticket to Ride "
       }
     ],
     "name": "Ticket to Ride: Amsterdam",
-    "totalGamesPlayed": 2,
+    "totalGamesPlayed": 3,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
     "coOpGameLoses": 0,
     "coOpWinRate": 0,
     "coOpLossRate": 0,
-    "winCountHannah": 0,
+    "winCountHannah": 1,
     "winCountJohn": 2,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 2,
-    "winPercentageHannah": 0,
-    "winPercentageJohn": 1,
+    "winnableGamesTotal": 3,
+    "winPercentageHannah": 0.3333,
+    "winPercentageJohn": 0.6667,
     "winPercentageOther": 0,
     "winPercentageDraw": 0,
     "mostWonGames": "John"
@@ -12157,10 +12734,16 @@
         "winner": "Hannah",
         "coOp": "No",
         "gameFamily": "Wildcard"
+      },
+      {
+        "date": "2021-02-26",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Wildcard"
       }
     ],
     "name": "Mandala",
-    "totalGamesPlayed": 5,
+    "totalGamesPlayed": 6,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
@@ -12168,12 +12751,12 @@
     "coOpWinRate": 0,
     "coOpLossRate": 0,
     "winCountHannah": 1,
-    "winCountJohn": 2,
+    "winCountJohn": 3,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 3,
-    "winPercentageHannah": 0.3333,
-    "winPercentageJohn": 0.6667,
+    "winnableGamesTotal": 4,
+    "winPercentageHannah": 0.25,
+    "winPercentageJohn": 0.75,
     "winPercentageOther": 0,
     "winPercentageDraw": 0,
     "mostWonGames": "John"
@@ -12215,21 +12798,27 @@
         "winner": "Hannah",
         "coOp": "No",
         "gameFamily": "Wingspan"
+      },
+      {
+        "date": "2021-03-28",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Wingspan"
       }
     ],
     "name": "Wingspan: Oceania Expansion",
-    "totalGamesPlayed": 1,
+    "totalGamesPlayed": 2,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
     "coOpGameLoses": 0,
     "coOpWinRate": 0,
     "coOpLossRate": 0,
-    "winCountHannah": 1,
+    "winCountHannah": 2,
     "winCountJohn": 0,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 1,
+    "winnableGamesTotal": 2,
     "winPercentageHannah": 1,
     "winPercentageJohn": 0,
     "winPercentageOther": 0,
@@ -12279,25 +12868,37 @@
         "winner": "Hannah",
         "coOp": "No",
         "gameFamily": "Wildcard"
+      },
+      {
+        "date": "2021-04-10",
+        "winner": "Draw",
+        "coOp": "No",
+        "gameFamily": "Wildcard"
+      },
+      {
+        "date": "2021-07-11",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Wildcard"
       }
     ],
     "name": "Parks",
-    "totalGamesPlayed": 1,
+    "totalGamesPlayed": 3,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
     "coOpGameLoses": 0,
     "coOpWinRate": 0,
     "coOpLossRate": 0,
-    "winCountHannah": 1,
+    "winCountHannah": 2,
     "winCountJohn": 0,
     "winCountOther": 0,
-    "winCountDraw": 0,
-    "winnableGamesTotal": 1,
-    "winPercentageHannah": 1,
+    "winCountDraw": 1,
+    "winnableGamesTotal": 3,
+    "winPercentageHannah": 0.6667,
     "winPercentageJohn": 0,
     "winPercentageOther": 0,
-    "winPercentageDraw": 0,
+    "winPercentageDraw": 0.3333,
     "mostWonGames": "Hannah"
   },
   "wingspan-european-expansion": {
@@ -12308,10 +12909,16 @@
         "winner": "Hannah",
         "coOp": "No",
         "gameFamily": "Wingspan"
+      },
+      {
+        "date": "2021-03-23",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Wingspan"
       }
     ],
     "name": "Wingspan: European Expansion ",
-    "totalGamesPlayed": 1,
+    "totalGamesPlayed": 2,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
@@ -12319,15 +12926,15 @@
     "coOpWinRate": 0,
     "coOpLossRate": 0,
     "winCountHannah": 1,
-    "winCountJohn": 0,
+    "winCountJohn": 1,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 1,
-    "winPercentageHannah": 1,
-    "winPercentageJohn": 0,
+    "winnableGamesTotal": 2,
+    "winPercentageHannah": 0.5,
+    "winPercentageJohn": 0.5,
     "winPercentageOther": 0,
     "winPercentageDraw": 0,
-    "mostWonGames": "Hannah"
+    "mostWonGames": "Draw"
   },
   "love-letter-kanai-factory-limited-edition": {
     "boardGameApiId": "love-letter-kanai-factory-limited-edition",
@@ -12372,9 +12979,97 @@
         "winner": "John",
         "coOp": "No",
         "gameFamily": "Wildcard"
+      },
+      {
+        "date": "2021-02-28",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Wildcard"
+      },
+      {
+        "date": "2021-07-31",
+        "winner": "Other",
+        "coOp": "No",
+        "gameFamily": "Wildcard"
+      },
+      {
+        "date": "2021-08-07",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Wildcard"
       }
     ],
     "name": "Terraforming Mars",
+    "totalGamesPlayed": 5,
+    "coOpGamesPlayedCount": 0,
+    "coOpGamesPlayedPercentage": 0,
+    "coOpGameWins": 0,
+    "coOpGameLoses": 0,
+    "coOpWinRate": 0,
+    "coOpLossRate": 0,
+    "winCountHannah": 3,
+    "winCountJohn": 1,
+    "winCountOther": 1,
+    "winCountDraw": 0,
+    "winnableGamesTotal": 5,
+    "winPercentageHannah": 0.6,
+    "winPercentageJohn": 0.2,
+    "winPercentageOther": 0.2,
+    "winPercentageDraw": 0,
+    "mostWonGames": "Hannah"
+  },
+  "brass-lancashire": {
+    "boardGameApiId": "brass-lancashire",
+    "playRecords": [
+      {
+        "date": "2021-02-07",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Brass"
+      },
+      {
+        "date": "2021-03-21",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Brass"
+      }
+    ],
+    "name": "Brass: Lancashire ",
+    "totalGamesPlayed": 2,
+    "coOpGamesPlayedCount": 0,
+    "coOpGamesPlayedPercentage": 0,
+    "coOpGameWins": 0,
+    "coOpGameLoses": 0,
+    "coOpWinRate": 0,
+    "coOpLossRate": 0,
+    "winCountHannah": 0,
+    "winCountJohn": 2,
+    "winCountOther": 0,
+    "winCountDraw": 0,
+    "winnableGamesTotal": 2,
+    "winPercentageHannah": 0,
+    "winPercentageJohn": 1,
+    "winPercentageOther": 0,
+    "winPercentageDraw": 0,
+    "mostWonGames": "John"
+  },
+  "arctic-scavengers": {
+    "boardGameApiId": "arctic-scavengers",
+    "playRecords": [
+      {
+        "date": "2021-02-13",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Wildcard"
+      },
+      {
+        "date": "2021-08-27",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Wildcard"
+      }
+    ],
+    "name": "Arctic Scavengers",
     "totalGamesPlayed": 2,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
@@ -12392,64 +13087,6 @@
     "winPercentageOther": 0,
     "winPercentageDraw": 0,
     "mostWonGames": "Draw"
-  },
-  "brass-lancashire": {
-    "boardGameApiId": "brass-lancashire",
-    "playRecords": [
-      {
-        "date": "2021-02-07",
-        "winner": "John",
-        "coOp": "No",
-        "gameFamily": "Brass"
-      }
-    ],
-    "name": "Brass: Lancashire ",
-    "totalGamesPlayed": 1,
-    "coOpGamesPlayedCount": 0,
-    "coOpGamesPlayedPercentage": 0,
-    "coOpGameWins": 0,
-    "coOpGameLoses": 0,
-    "coOpWinRate": 0,
-    "coOpLossRate": 0,
-    "winCountHannah": 0,
-    "winCountJohn": 1,
-    "winCountOther": 0,
-    "winCountDraw": 0,
-    "winnableGamesTotal": 1,
-    "winPercentageHannah": 0,
-    "winPercentageJohn": 1,
-    "winPercentageOther": 0,
-    "winPercentageDraw": 0,
-    "mostWonGames": "John"
-  },
-  "arctic-scavengers": {
-    "boardGameApiId": "arctic-scavengers",
-    "playRecords": [
-      {
-        "date": "2021-02-13",
-        "winner": "John",
-        "coOp": "No",
-        "gameFamily": "Wildcard"
-      }
-    ],
-    "name": "Arctic Scavengers",
-    "totalGamesPlayed": 1,
-    "coOpGamesPlayedCount": 0,
-    "coOpGamesPlayedPercentage": 0,
-    "coOpGameWins": 0,
-    "coOpGameLoses": 0,
-    "coOpWinRate": 0,
-    "coOpLossRate": 0,
-    "winCountHannah": 0,
-    "winCountJohn": 1,
-    "winCountOther": 0,
-    "winCountDraw": 0,
-    "winnableGamesTotal": 1,
-    "winPercentageHannah": 0,
-    "winPercentageJohn": 1,
-    "winPercentageOther": 0,
-    "winPercentageDraw": 0,
-    "mostWonGames": "John"
   },
   "valeria-card-kingdoms-crimson-sea": {
     "boardGameApiId": "valeria-card-kingdoms-crimson-sea",
@@ -12508,5 +13145,585 @@
     "winPercentageOther": 0,
     "winPercentageDraw": 0,
     "mostWonGames": "Draw"
+  },
+  "kanban-ev": {
+    "boardGameApiId": "kanban-ev",
+    "playRecords": [
+      {
+        "date": "2021-03-09",
+        "winner": "Draw",
+        "coOp": "No",
+        "gameFamily": "Wildcard"
+      }
+    ],
+    "name": "Kanban EV",
+    "totalGamesPlayed": 1,
+    "coOpGamesPlayedCount": 0,
+    "coOpGamesPlayedPercentage": 0,
+    "coOpGameWins": 0,
+    "coOpGameLoses": 0,
+    "coOpWinRate": 0,
+    "coOpLossRate": 0,
+    "winCountHannah": 0,
+    "winCountJohn": 0,
+    "winCountOther": 0,
+    "winCountDraw": 1,
+    "winnableGamesTotal": 1,
+    "winPercentageHannah": 0,
+    "winPercentageJohn": 0,
+    "winPercentageOther": 0,
+    "winPercentageDraw": 1,
+    "mostWonGames": "Draw"
+  },
+  "pandemic-hot-zone---north-america": {
+    "boardGameApiId": "pandemic-hot-zone---north-america",
+    "playRecords": [
+      {
+        "date": "2021-03-17",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "gameFamily": "Pandemic"
+      }
+    ],
+    "name": "Pandemic: Hot Zone - North America",
+    "totalGamesPlayed": 1,
+    "coOpGamesPlayedCount": 1,
+    "coOpGamesPlayedPercentage": 1,
+    "coOpGameWins": 1,
+    "coOpGameLoses": 0,
+    "coOpWinRate": 1,
+    "coOpLossRate": 0,
+    "winCountHannah": 0,
+    "winCountJohn": 0,
+    "winCountOther": 0,
+    "winCountDraw": 0,
+    "winnableGamesTotal": 0,
+    "winPercentageHannah": 0,
+    "winPercentageJohn": 0,
+    "winPercentageOther": 0,
+    "winPercentageDraw": 0,
+    "mostWonGames": "Draw"
+  },
+  "apollo": {
+    "boardGameApiId": "apollo",
+    "playRecords": [
+      {
+        "date": "2021-05-08",
+        "coOpOutcome": "Lost"
+      }
+    ],
+    "name": "Apollo",
+    "totalGamesPlayed": 1,
+    "coOpGamesPlayedCount": 0,
+    "coOpGamesPlayedPercentage": 0,
+    "coOpGameWins": 0,
+    "coOpGameLoses": 0,
+    "coOpWinRate": 0,
+    "coOpLossRate": 0,
+    "winCountHannah": 0,
+    "winCountJohn": 0,
+    "winCountOther": 0,
+    "winCountDraw": 0,
+    "winnableGamesTotal": 0,
+    "winPercentageHannah": 0,
+    "winPercentageJohn": 0,
+    "winPercentageOther": 0,
+    "winPercentageDraw": 0,
+    "mostWonGames": "Draw"
+  },
+  "ticket-to-ride-europe-15th-anniversary": {
+    "boardGameApiId": "ticket-to-ride-europe-15th-anniversary",
+    "playRecords": [
+      {
+        "date": "2021-07-06",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Ticket to Ride"
+      },
+      {
+        "date": "2021-09-21",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Ticket to Ride"
+      }
+    ],
+    "name": "Ticket to Ride Europe: 15th Anniversary ",
+    "totalGamesPlayed": 2,
+    "coOpGamesPlayedCount": 0,
+    "coOpGamesPlayedPercentage": 0,
+    "coOpGameWins": 0,
+    "coOpGameLoses": 0,
+    "coOpWinRate": 0,
+    "coOpLossRate": 0,
+    "winCountHannah": 1,
+    "winCountJohn": 1,
+    "winCountOther": 0,
+    "winCountDraw": 0,
+    "winnableGamesTotal": 2,
+    "winPercentageHannah": 0.5,
+    "winPercentageJohn": 0.5,
+    "winPercentageOther": 0,
+    "winPercentageDraw": 0,
+    "mostWonGames": "Draw"
+  },
+  "heck": {
+    "boardGameApiId": "heck",
+    "playRecords": [
+      {
+        "date": "2021-07-11",
+        "winner": "Other",
+        "coOp": "No",
+        "gameFamily": "Wildcard"
+      }
+    ],
+    "name": "Heck",
+    "totalGamesPlayed": 1,
+    "coOpGamesPlayedCount": 0,
+    "coOpGamesPlayedPercentage": 0,
+    "coOpGameWins": 0,
+    "coOpGameLoses": 0,
+    "coOpWinRate": 0,
+    "coOpLossRate": 0,
+    "winCountHannah": 0,
+    "winCountJohn": 0,
+    "winCountOther": 1,
+    "winCountDraw": 0,
+    "winnableGamesTotal": 1,
+    "winPercentageHannah": 0,
+    "winPercentageJohn": 0,
+    "winPercentageOther": 1,
+    "winPercentageDraw": 0,
+    "mostWonGames": "Draw"
+  },
+  "love-letter-wedding-edition": {
+    "boardGameApiId": "love-letter-wedding-edition",
+    "playRecords": [
+      {
+        "date": "2021-07-30",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Love Letter"
+      }
+    ],
+    "name": "Love Letter: Wedding Edition",
+    "totalGamesPlayed": 1,
+    "coOpGamesPlayedCount": 0,
+    "coOpGamesPlayedPercentage": 0,
+    "coOpGameWins": 0,
+    "coOpGameLoses": 0,
+    "coOpWinRate": 0,
+    "coOpLossRate": 0,
+    "winCountHannah": 1,
+    "winCountJohn": 0,
+    "winCountOther": 0,
+    "winCountDraw": 0,
+    "winnableGamesTotal": 1,
+    "winPercentageHannah": 1,
+    "winPercentageJohn": 0,
+    "winPercentageOther": 0,
+    "winPercentageDraw": 0,
+    "mostWonGames": "Hannah"
+  },
+  "star-realms-frontier-wars": {
+    "boardGameApiId": "star-realms-frontier-wars",
+    "playRecords": [
+      {
+        "date": "2021-08-05",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Star Realms"
+      },
+      {
+        "date": "2021-08-05",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Star Realms"
+      }
+    ],
+    "name": "Star Realms: Frontier Wars",
+    "totalGamesPlayed": 2,
+    "coOpGamesPlayedCount": 0,
+    "coOpGamesPlayedPercentage": 0,
+    "coOpGameWins": 0,
+    "coOpGameLoses": 0,
+    "coOpWinRate": 0,
+    "coOpLossRate": 0,
+    "winCountHannah": 0,
+    "winCountJohn": 2,
+    "winCountOther": 0,
+    "winCountDraw": 0,
+    "winnableGamesTotal": 2,
+    "winPercentageHannah": 0,
+    "winPercentageJohn": 1,
+    "winPercentageOther": 0,
+    "winPercentageDraw": 0,
+    "mostWonGames": "John"
+  },
+  "viticulture-tuscany-edition": {
+    "boardGameApiId": "viticulture-tuscany-edition",
+    "playRecords": [
+      {
+        "date": "2021-08-08",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Wildcard"
+      }
+    ],
+    "name": "Viticulture: Tuscany Edition",
+    "totalGamesPlayed": 1,
+    "coOpGamesPlayedCount": 0,
+    "coOpGamesPlayedPercentage": 0,
+    "coOpGameWins": 0,
+    "coOpGameLoses": 0,
+    "coOpWinRate": 0,
+    "coOpLossRate": 0,
+    "winCountHannah": 0,
+    "winCountJohn": 1,
+    "winCountOther": 0,
+    "winCountDraw": 0,
+    "winnableGamesTotal": 1,
+    "winPercentageHannah": 0,
+    "winPercentageJohn": 1,
+    "winPercentageOther": 0,
+    "winPercentageDraw": 0,
+    "mostWonGames": "John"
+  },
+  "dominion-mixed-box": {
+    "boardGameApiId": "dominion-mixed-box",
+    "playRecords": [
+      {
+        "date": "2021-08-16",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Dominion"
+      },
+      {
+        "date": "2021-08-20",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Dominion"
+      },
+      {
+        "date": "2021-08-20",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Dominion"
+      }
+    ],
+    "name": "Dominion: Mixed Box",
+    "totalGamesPlayed": 3,
+    "coOpGamesPlayedCount": 0,
+    "coOpGamesPlayedPercentage": 0,
+    "coOpGameWins": 0,
+    "coOpGameLoses": 0,
+    "coOpWinRate": 0,
+    "coOpLossRate": 0,
+    "winCountHannah": 1,
+    "winCountJohn": 2,
+    "winCountOther": 0,
+    "winCountDraw": 0,
+    "winnableGamesTotal": 3,
+    "winPercentageHannah": 0.3333,
+    "winPercentageJohn": 0.6667,
+    "winPercentageOther": 0,
+    "winPercentageDraw": 0,
+    "mostWonGames": "John"
+  },
+  "marvel-infinity-gauntlet": {
+    "boardGameApiId": "marvel-infinity-gauntlet",
+    "playRecords": [
+      {
+        "date": "2021-08-18",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Love Letter"
+      },
+      {
+        "date": "2021-08-18",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "gameFamily": "Love Letter"
+      }
+    ],
+    "name": "Marvel: Infinity Gauntlet",
+    "totalGamesPlayed": 2,
+    "coOpGamesPlayedCount": 1,
+    "coOpGamesPlayedPercentage": 0.5,
+    "coOpGameWins": 1,
+    "coOpGameLoses": 0,
+    "coOpWinRate": 1,
+    "coOpLossRate": 0,
+    "winCountHannah": 1,
+    "winCountJohn": 0,
+    "winCountOther": 0,
+    "winCountDraw": 0,
+    "winnableGamesTotal": 1,
+    "winPercentageHannah": 1,
+    "winPercentageJohn": 0,
+    "winPercentageOther": 0,
+    "winPercentageDraw": 0,
+    "mostWonGames": "Hannah"
+  },
+  "ticket-to-ride-japan": {
+    "boardGameApiId": "ticket-to-ride-japan",
+    "playRecords": [
+      {
+        "date": "2021-08-22",
+        "winner": "Hannah ",
+        "coOp": "No",
+        "gameFamily": "Ticket to Ride"
+      }
+    ],
+    "name": "Ticket to Ride: Japan",
+    "totalGamesPlayed": 1,
+    "coOpGamesPlayedCount": 0,
+    "coOpGamesPlayedPercentage": 0,
+    "coOpGameWins": 0,
+    "coOpGameLoses": 0,
+    "coOpWinRate": 0,
+    "coOpLossRate": 0,
+    "winCountHannah": 0,
+    "winCountJohn": 0,
+    "winCountOther": 0,
+    "winCountDraw": 0,
+    "winnableGamesTotal": 0,
+    "winPercentageHannah": 0,
+    "winPercentageJohn": 0,
+    "winPercentageOther": 0,
+    "winPercentageDraw": 0,
+    "mostWonGames": "Draw"
+  },
+  "fox-and-geese": {
+    "boardGameApiId": "fox-and-geese",
+    "playRecords": [
+      {
+        "date": "2021-09-01",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Wildcard"
+      }
+    ],
+    "name": "Fox and Geese",
+    "totalGamesPlayed": 1,
+    "coOpGamesPlayedCount": 0,
+    "coOpGamesPlayedPercentage": 0,
+    "coOpGameWins": 0,
+    "coOpGameLoses": 0,
+    "coOpWinRate": 0,
+    "coOpLossRate": 0,
+    "winCountHannah": 1,
+    "winCountJohn": 0,
+    "winCountOther": 0,
+    "winCountDraw": 0,
+    "winnableGamesTotal": 1,
+    "winPercentageHannah": 1,
+    "winPercentageJohn": 0,
+    "winPercentageOther": 0,
+    "winPercentageDraw": 0,
+    "mostWonGames": "Hannah"
+  },
+  "happy-little-dinosaurs": {
+    "boardGameApiId": "happy-little-dinosaurs",
+    "playRecords": [
+      {
+        "date": "2021-09-10",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Wildcard"
+      },
+      {
+        "date": "2021-09-11",
+        "winner": "Other",
+        "coOp": "No",
+        "gameFamily": "Wildcard"
+      },
+      {
+        "date": "2021-10-02",
+        "winner": "Other",
+        "coOp": "No",
+        "gameFamily": "Wildcard"
+      }
+    ],
+    "name": "Happy Little Dinosaurs",
+    "totalGamesPlayed": 3,
+    "coOpGamesPlayedCount": 0,
+    "coOpGamesPlayedPercentage": 0,
+    "coOpGameWins": 0,
+    "coOpGameLoses": 0,
+    "coOpWinRate": 0,
+    "coOpLossRate": 0,
+    "winCountHannah": 1,
+    "winCountJohn": 0,
+    "winCountOther": 2,
+    "winCountDraw": 0,
+    "winnableGamesTotal": 3,
+    "winPercentageHannah": 0.3333,
+    "winPercentageJohn": 0,
+    "winPercentageOther": 0.6667,
+    "winPercentageDraw": 0,
+    "mostWonGames": "Hannah"
+  },
+  "pandemic-legacy-season-0": {
+    "boardGameApiId": "pandemic-legacy-season-0",
+    "playRecords": [
+      {
+        "date": "2021-09-11",
+        "coOpOutcome": "Won",
+        "coOp": "Yes",
+        "gameFamily": "Pandemic"
+      }
+    ],
+    "name": "Pandemic Legacy: Season 0",
+    "totalGamesPlayed": 1,
+    "coOpGamesPlayedCount": 1,
+    "coOpGamesPlayedPercentage": 1,
+    "coOpGameWins": 1,
+    "coOpGameLoses": 0,
+    "coOpWinRate": 1,
+    "coOpLossRate": 0,
+    "winCountHannah": 0,
+    "winCountJohn": 0,
+    "winCountOther": 0,
+    "winCountDraw": 0,
+    "winnableGamesTotal": 0,
+    "winPercentageHannah": 0,
+    "winPercentageJohn": 0,
+    "winPercentageOther": 0,
+    "winPercentageDraw": 0,
+    "mostWonGames": "Draw"
+  },
+  "patchwork-christmas-edition": {
+    "boardGameApiId": "patchwork-christmas-edition",
+    "playRecords": [
+      {
+        "date": "2021-09-28",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Wildcard"
+      }
+    ],
+    "name": "Patchwork: Christmas Edition",
+    "totalGamesPlayed": 1,
+    "coOpGamesPlayedCount": 0,
+    "coOpGamesPlayedPercentage": 0,
+    "coOpGameWins": 0,
+    "coOpGameLoses": 0,
+    "coOpWinRate": 0,
+    "coOpLossRate": 0,
+    "winCountHannah": 0,
+    "winCountJohn": 1,
+    "winCountOther": 0,
+    "winCountDraw": 0,
+    "winnableGamesTotal": 1,
+    "winPercentageHannah": 0,
+    "winPercentageJohn": 1,
+    "winPercentageOther": 0,
+    "winPercentageDraw": 0,
+    "mostWonGames": "John"
+  },
+  "terraforming-mars-ares-expedition": {
+    "boardGameApiId": "terraforming-mars-ares-expedition",
+    "playRecords": [
+      {
+        "date": "2021-10-01",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Wildcard"
+      }
+    ],
+    "name": "Terraforming Mars: Ares Expedition",
+    "totalGamesPlayed": 1,
+    "coOpGamesPlayedCount": 0,
+    "coOpGamesPlayedPercentage": 0,
+    "coOpGameWins": 0,
+    "coOpGameLoses": 0,
+    "coOpWinRate": 0,
+    "coOpLossRate": 0,
+    "winCountHannah": 1,
+    "winCountJohn": 0,
+    "winCountOther": 0,
+    "winCountDraw": 0,
+    "winnableGamesTotal": 1,
+    "winPercentageHannah": 1,
+    "winPercentageJohn": 0,
+    "winPercentageOther": 0,
+    "winPercentageDraw": 0,
+    "mostWonGames": "Hannah"
+  },
+  "welcome-to-your-perfect-home": {
+    "boardGameApiId": "welcome-to-your-perfect-home",
+    "playRecords": [
+      {
+        "date": "2021-10-02",
+        "winner": "Other",
+        "coOp": "No",
+        "gameFamily": "Wildcard"
+      },
+      {
+        "date": "2021-10-07",
+        "winner": "John",
+        "coOp": "No",
+        "gameFamily": "Wildcard"
+      },
+      {
+        "date": "2021-10-10",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Wildcard"
+      },
+      {
+        "date": "2021-10-10",
+        "winner": "Other",
+        "coOp": "No",
+        "gameFamily": "Wildcard"
+      }
+    ],
+    "name": "Welcome To Your Perfect Home",
+    "totalGamesPlayed": 4,
+    "coOpGamesPlayedCount": 0,
+    "coOpGamesPlayedPercentage": 0,
+    "coOpGameWins": 0,
+    "coOpGameLoses": 0,
+    "coOpWinRate": 0,
+    "coOpLossRate": 0,
+    "winCountHannah": 1,
+    "winCountJohn": 1,
+    "winCountOther": 2,
+    "winCountDraw": 0,
+    "winnableGamesTotal": 4,
+    "winPercentageHannah": 0.25,
+    "winPercentageJohn": 0.25,
+    "winPercentageOther": 0.5,
+    "winPercentageDraw": 0,
+    "mostWonGames": "Draw"
+  },
+  "love-letter-batman-edition": {
+    "boardGameApiId": "love-letter-batman-edition",
+    "playRecords": [
+      {
+        "date": "2021-10-08",
+        "winner": "Hannah",
+        "coOp": "No",
+        "gameFamily": "Love Letter"
+      }
+    ],
+    "name": "Love Letter: Batman Edition",
+    "totalGamesPlayed": 1,
+    "coOpGamesPlayedCount": 0,
+    "coOpGamesPlayedPercentage": 0,
+    "coOpGameWins": 0,
+    "coOpGameLoses": 0,
+    "coOpWinRate": 0,
+    "coOpLossRate": 0,
+    "winCountHannah": 1,
+    "winCountJohn": 0,
+    "winCountOther": 0,
+    "winCountDraw": 0,
+    "winnableGamesTotal": 1,
+    "winPercentageHannah": 1,
+    "winPercentageJohn": 0,
+    "winPercentageOther": 0,
+    "winPercentageDraw": 0,
+    "mostWonGames": "Hannah"
   }
 }

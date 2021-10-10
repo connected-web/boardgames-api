@@ -1,0 +1,186 @@
+{
+  "dateCode": "2021-09",
+  "title": "September 2021",
+  "sequenceStartDate": "2021-09-01",
+  "sequenceEndDate": "2021-09-30",
+  "daysInSequence": 30,
+  "daysWithUnplayedGames": 23,
+  "gamesPlayedPerDay": {
+    "1": 1,
+    "2": 1,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0,
+    "8": 0,
+    "9": 0,
+    "10": 1,
+    "11": 2,
+    "12": 0,
+    "13": 0,
+    "14": 0,
+    "15": 0,
+    "16": 0,
+    "17": 0,
+    "18": 0,
+    "19": 0,
+    "20": 0,
+    "21": 1,
+    "22": 0,
+    "23": 0,
+    "24": 0,
+    "25": 0,
+    "26": 0,
+    "27": 0,
+    "28": 1,
+    "29": 2,
+    "30": 0
+  },
+  "gamesPlayed": [
+    {
+      "date": "2021-09-01",
+      "name": "Fox and Geese",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Wildcard"
+    },
+    {
+      "date": "2021-09-02",
+      "name": "Jurassic Snack",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Jurassic Snack"
+    },
+    {
+      "date": "2021-09-10",
+      "name": "Happy Little Dinosaurs",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Wildcard"
+    },
+    {
+      "date": "2021-09-11",
+      "name": "Happy Little Dinosaurs",
+      "winner": "Other",
+      "coOp": "No",
+      "gameFamily": "Wildcard"
+    },
+    {
+      "date": "2021-09-11",
+      "name": "Pandemic Legacy: Season 0",
+      "coOp": "Yes",
+      "coOpOutcome": "Won",
+      "gameFamily": "Pandemic"
+    },
+    {
+      "date": "2021-09-21",
+      "name": "Ticket to Ride Europe: 15th Anniversary ",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Ticket to Ride"
+    },
+    {
+      "date": "2021-09-28",
+      "name": "Patchwork: Christmas Edition",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Wildcard"
+    },
+    {
+      "date": "2021-09-29",
+      "name": "Werewolf",
+      "winner": "Hannah",
+      "coOp": "No"
+    },
+    {
+      "date": "2021-09-29",
+      "name": "Werewolf",
+      "coOp": "Yes",
+      "coOpOutcome": "Lose"
+    }
+  ],
+  "totalGamesPlayed": 9,
+  "averageGamesPlayedPerDay": 0.3,
+  "mostGamesPlayedInADay": [
+    {
+      "date": "2021-09-11",
+      "games": [
+        "Happy Little Dinosaurs",
+        "Pandemic Legacy: Season 0"
+      ]
+    },
+    {
+      "date": "2021-09-29",
+      "games": [
+        "Werewolf",
+        "Werewolf"
+      ]
+    }
+  ],
+  "uniqueGamesPlayed": [
+    "Fox and Geese",
+    "Happy Little Dinosaurs",
+    "Jurassic Snack",
+    "Pandemic Legacy: Season 0",
+    "Patchwork: Christmas Edition",
+    "Ticket to Ride Europe: 15th Anniversary ",
+    "Werewolf"
+  ],
+  "uniqueGamesPlayedCount": 7,
+  "uniqueGamesPlayedPercentage": 0.7778,
+  "mostPlayedGames": [
+    {
+      "name": "Happy Little Dinosaurs",
+      "plays": 2
+    },
+    {
+      "name": "Werewolf",
+      "plays": 2
+    }
+  ],
+  "coOpGamesPlayedCount": 2,
+  "coOpGamesPlayedPercentage": 0.2222,
+  "coOpGameWins": 1,
+  "coOpGameLoses": 1,
+  "coOpWinRate": 0.5,
+  "coOpLossRate": 0.5,
+  "winCountHannah": 4,
+  "winCountJohn": 2,
+  "winCountOther": 1,
+  "winCountDraw": 0,
+  "winnableGamesTotal": 7,
+  "winPercentageHannah": 0.5714,
+  "winPercentageJohn": 0.2857,
+  "winPercentageOther": 0.1429,
+  "winPercentageDraw": 0,
+  "mostWonGames": "Hannah",
+  "mostWonGamesJohn": [
+    {
+      "game": "Patchwork: Christmas Edition",
+      "plays": 1
+    },
+    {
+      "game": "Ticket to Ride Europe: 15th Anniversary ",
+      "plays": 1
+    }
+  ],
+  "mostWonGamesHannah": [
+    {
+      "game": "Werewolf",
+      "plays": 1
+    },
+    {
+      "game": "Happy Little Dinosaurs",
+      "plays": 1
+    },
+    {
+      "game": "Jurassic Snack",
+      "plays": 1
+    },
+    {
+      "game": "Fox and Geese",
+      "plays": 1
+    }
+  ]
+}

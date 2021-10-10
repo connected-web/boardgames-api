@@ -1,0 +1,139 @@
+{
+  "dateCode": "2021-05",
+  "title": "May 2021",
+  "sequenceStartDate": "2021-05-01",
+  "sequenceEndDate": "2021-05-31",
+  "daysInSequence": 31,
+  "daysWithUnplayedGames": 29,
+  "gamesPlayedPerDay": {
+    "1": 0,
+    "2": 0,
+    "3": 2,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0,
+    "8": 2,
+    "9": 0,
+    "10": 0,
+    "11": 0,
+    "12": 0,
+    "13": 0,
+    "14": 0,
+    "15": 0,
+    "16": 0,
+    "17": 0,
+    "18": 0,
+    "19": 0,
+    "20": 0,
+    "21": 0,
+    "22": 0,
+    "23": 0,
+    "24": 0,
+    "25": 0,
+    "26": 0,
+    "27": 0,
+    "28": 0,
+    "29": 0,
+    "30": 0,
+    "31": 0
+  },
+  "gamesPlayed": [
+    {
+      "date": "2021-05-03",
+      "name": "Patchwork",
+      "winner": "Hannah"
+    },
+    {
+      "date": "2021-05-03",
+      "name": "Troika",
+      "winner": "Hannah"
+    },
+    {
+      "date": "2021-05-08",
+      "name": "Apollo",
+      "coOpOutcome": "Lost"
+    },
+    {
+      "date": "2021-05-08",
+      "name": "Love Letter",
+      "winner": "John"
+    }
+  ],
+  "totalGamesPlayed": 4,
+  "averageGamesPlayedPerDay": 0.129,
+  "mostGamesPlayedInADay": [
+    {
+      "date": "2021-05-03",
+      "games": [
+        "Patchwork",
+        "Troika"
+      ]
+    },
+    {
+      "date": "2021-05-08",
+      "games": [
+        "Apollo",
+        "Love Letter"
+      ]
+    }
+  ],
+  "uniqueGamesPlayed": [
+    "Apollo",
+    "Love Letter",
+    "Patchwork",
+    "Troika"
+  ],
+  "uniqueGamesPlayedCount": 4,
+  "uniqueGamesPlayedPercentage": 1,
+  "mostPlayedGames": [
+    {
+      "name": "Patchwork",
+      "plays": 1
+    },
+    {
+      "name": "Troika",
+      "plays": 1
+    },
+    {
+      "name": "Apollo",
+      "plays": 1
+    },
+    {
+      "name": "Love Letter",
+      "plays": 1
+    }
+  ],
+  "coOpGamesPlayedCount": 0,
+  "coOpGamesPlayedPercentage": 0,
+  "coOpGameWins": 0,
+  "coOpGameLoses": 0,
+  "coOpWinRate": 0,
+  "coOpLossRate": 0,
+  "winCountHannah": 2,
+  "winCountJohn": 1,
+  "winCountOther": 0,
+  "winCountDraw": 0,
+  "winnableGamesTotal": 3,
+  "winPercentageHannah": 0.6667,
+  "winPercentageJohn": 0.3333,
+  "winPercentageOther": 0,
+  "winPercentageDraw": 0,
+  "mostWonGames": "Hannah",
+  "mostWonGamesJohn": [
+    {
+      "game": "Love Letter",
+      "plays": 1
+    }
+  ],
+  "mostWonGamesHannah": [
+    {
+      "game": "Troika",
+      "plays": 1
+    },
+    {
+      "game": "Patchwork",
+      "plays": 1
+    }
+  ]
+}

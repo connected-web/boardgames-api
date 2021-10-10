@@ -2,11 +2,11 @@
   "name": "Wingspan",
   "gameFamilyId": "wingspan",
   "earliestDate": "2020-01-18",
-  "latestDate": "2021-02-16",
+  "latestDate": "2021-03-28",
   "sequenceStartDate": "2020-01-18",
-  "sequenceEndDate": "2021-02-16",
-  "daysInSequence": 396,
-  "daysWithUnplayedGames": 390,
+  "sequenceEndDate": "2021-03-28",
+  "daysInSequence": 436,
+  "daysWithUnplayedGames": 428,
   "gamesPlayedPerDay": {
     "1": 1,
     "2": 0,
@@ -403,7 +403,47 @@
     "393": 0,
     "394": 0,
     "395": 0,
-    "396": 2
+    "396": 2,
+    "397": 0,
+    "398": 0,
+    "399": 0,
+    "400": 0,
+    "401": 0,
+    "402": 0,
+    "403": 0,
+    "404": 0,
+    "405": 0,
+    "406": 0,
+    "407": 0,
+    "408": 0,
+    "409": 0,
+    "410": 0,
+    "411": 0,
+    "412": 0,
+    "413": 0,
+    "414": 0,
+    "415": 0,
+    "416": 0,
+    "417": 0,
+    "418": 0,
+    "419": 0,
+    "420": 0,
+    "421": 0,
+    "422": 0,
+    "423": 0,
+    "424": 0,
+    "425": 0,
+    "426": 0,
+    "427": 0,
+    "428": 0,
+    "429": 0,
+    "430": 0,
+    "431": 1,
+    "432": 0,
+    "433": 0,
+    "434": 0,
+    "435": 0,
+    "436": 1
   },
   "gamesPlayed": [
     {
@@ -454,10 +494,24 @@
       "coOp": "No",
       "gameFamily": "Wingspan",
       "name": "Wingspan"
+    },
+    {
+      "date": "2021-03-23",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Wingspan",
+      "name": "Wingspan: European Expansion "
+    },
+    {
+      "date": "2021-03-28",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Wingspan",
+      "name": "Wingspan: Oceania Expansion"
     }
   ],
-  "totalGamesPlayed": 7,
-  "averageGamesPlayedPerDay": 0.0177,
+  "totalGamesPlayed": 9,
+  "averageGamesPlayedPerDay": 0.0206,
   "mostGamesPlayedInADay": [
     {
       "date": "2021-02-16",
@@ -474,7 +528,7 @@
     "Wingspan: Oceania Expansion"
   ],
   "uniqueGamesPlayedCount": 4,
-  "uniqueGamesPlayedPercentage": 0.5714,
+  "uniqueGamesPlayedPercentage": 0.4444,
   "mostPlayedGames": [
     {
       "name": "Wingspan",
@@ -487,17 +541,21 @@
   "coOpGameLoses": 0,
   "coOpWinRate": 0,
   "coOpLossRate": 0,
-  "winCountHannah": 5,
-  "winCountJohn": 2,
+  "winCountHannah": 6,
+  "winCountJohn": 3,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 7,
-  "winPercentageHannah": 0.7143,
-  "winPercentageJohn": 0.2857,
+  "winnableGamesTotal": 9,
+  "winPercentageHannah": 0.6667,
+  "winPercentageJohn": 0.3333,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
   "mostWonGames": "Hannah",
   "mostWonGamesJohn": [
+    {
+      "game": "Wingspan: European Expansion ",
+      "plays": 1
+    },
     {
       "game": "Wingspan: Oceania",
       "plays": 1

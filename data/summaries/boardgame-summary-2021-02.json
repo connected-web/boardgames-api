@@ -4,7 +4,7 @@
   "sequenceStartDate": "2021-02-01",
   "sequenceEndDate": "2021-02-28",
   "daysInSequence": 28,
-  "daysWithUnplayedGames": 13,
+  "daysWithUnplayedGames": 7,
   "gamesPlayedPerDay": {
     "1": 3,
     "2": 1,
@@ -26,14 +26,14 @@
     "18": 3,
     "19": 5,
     "20": 2,
-    "21": 0,
-    "22": 0,
-    "23": 0,
+    "21": 3,
+    "22": 2,
+    "23": 2,
     "24": 0,
     "25": 0,
-    "26": 0,
-    "27": 0,
-    "28": 0
+    "26": 2,
+    "27": 1,
+    "28": 1
   },
   "gamesPlayed": [
     {
@@ -280,10 +280,87 @@
       "winner": "John",
       "coOp": "No",
       "gameFamily": "Scythe"
+    },
+    {
+      "date": "2021-02-21",
+      "name": "Jurassic Snack",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Jurassic Snack "
+    },
+    {
+      "date": "2021-02-21",
+      "name": "Mint Works",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Mint Works "
+    },
+    {
+      "date": "2021-02-21",
+      "name": "Ticket to Ride: Amsterdam",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Ticket to Ride "
+    },
+    {
+      "date": "2021-02-22",
+      "name": "Corsairs of Valeria",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Corsairs of Valeria"
+    },
+    {
+      "date": "2021-02-22",
+      "name": "Lovecraft Letter",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Lovecraft Letter "
+    },
+    {
+      "date": "2021-02-23",
+      "name": "Deep Sea Adventure",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost",
+      "gameFamily": "Deep Sea Adventure "
+    },
+    {
+      "date": "2021-02-23",
+      "name": "Pandemic: State of Emergency",
+      "coOp": "Yes",
+      "coOpOutcome": "Lost",
+      "gameFamily": "Pandemic "
+    },
+    {
+      "date": "2021-02-26",
+      "name": "Lovecraft Letter",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Lovecraft Letter "
+    },
+    {
+      "date": "2021-02-26",
+      "name": "Mandala",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Wildcard"
+    },
+    {
+      "date": "2021-02-27",
+      "name": "Ticket to Ride: Germany",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Ticket to Ride"
+    },
+    {
+      "date": "2021-02-28",
+      "name": "Terraforming Mars",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Wildcard"
     }
   ],
-  "totalGamesPlayed": 35,
-  "averageGamesPlayedPerDay": 1.25,
+  "totalGamesPlayed": 46,
+  "averageGamesPlayedPerDay": 1.6429,
   "mostGamesPlayedInADay": [
     {
       "date": "2021-02-19",
@@ -313,37 +390,41 @@
     "Love Letter Kanai Factory Limited Edition",
     "Love Letter: Batman",
     "Lovecraft Letter",
+    "Mandala",
     "Mint Works",
     "Pandemic: Rising Tides",
+    "Pandemic: State of Emergency",
     "Scythe",
     "Tanto Cuore: Oktoberfest",
     "Terraforming Mars",
+    "Ticket to Ride: Amsterdam",
+    "Ticket to Ride: Germany",
     "Ticket to Ride: Nordic Countries",
     "Topiary",
     "Valeria Card Kingdoms: Crimson Sea",
     "Wingspan"
   ],
-  "uniqueGamesPlayedCount": 25,
-  "uniqueGamesPlayedPercentage": 0.7143,
+  "uniqueGamesPlayedCount": 29,
+  "uniqueGamesPlayedPercentage": 0.6304,
   "mostPlayedGames": [
     {
       "name": "Love Letter 2nd Edition",
       "plays": 4
     }
   ],
-  "coOpGamesPlayedCount": 4,
-  "coOpGamesPlayedPercentage": 0.1143,
+  "coOpGamesPlayedCount": 6,
+  "coOpGamesPlayedPercentage": 0.1304,
   "coOpGameWins": 3,
-  "coOpGameLoses": 1,
-  "coOpWinRate": 0.75,
-  "coOpLossRate": 0.25,
-  "winCountHannah": 16,
-  "winCountJohn": 15,
+  "coOpGameLoses": 3,
+  "coOpWinRate": 0.5,
+  "coOpLossRate": 0.5,
+  "winCountHannah": 21,
+  "winCountJohn": 19,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 31,
-  "winPercentageHannah": 0.5161,
-  "winPercentageJohn": 0.4839,
+  "winnableGamesTotal": 40,
+  "winPercentageHannah": 0.525,
+  "winPercentageJohn": 0.475,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
   "mostWonGames": "Hannah",
@@ -356,6 +437,18 @@
   "mostWonGamesHannah": [
     {
       "game": "Wingspan",
+      "plays": 2
+    },
+    {
+      "game": "Lovecraft Letter",
+      "plays": 2
+    },
+    {
+      "game": "Mint Works",
+      "plays": 2
+    },
+    {
+      "game": "Terraforming Mars",
       "plays": 2
     }
   ]
