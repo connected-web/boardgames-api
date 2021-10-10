@@ -6,7 +6,7 @@
   "sequenceStartDate": "2018-01-06",
   "sequenceEndDate": "2021-09-21",
   "daysInSequence": 1355,
-  "daysWithUnplayedGames": 1260,
+  "daysWithUnplayedGames": 1256,
   "gamesPlayedPerDay": {
     "1": 2,
     "2": 0,
@@ -47,8 +47,8 @@
     "37": 0,
     "38": 0,
     "39": 0,
-    "40": 0,
-    "41": 0,
+    "40": 1,
+    "41": 1,
     "42": 0,
     "43": 0,
     "44": 0,
@@ -96,7 +96,7 @@
     "86": 0,
     "87": 1,
     "88": 0,
-    "89": 0,
+    "89": 2,
     "90": 0,
     "91": 0,
     "92": 0,
@@ -266,7 +266,7 @@
     "256": 0,
     "257": 0,
     "258": 0,
-    "259": 0,
+    "259": 1,
     "260": 0,
     "261": 0,
     "262": 1,
@@ -1404,6 +1404,20 @@
       "name": "Ticket to Ride: Rails & Sails"
     },
     {
+      "date": "2018-02-14",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Ticket to Ride",
+      "name": "Ticket to Ride: First Journey (Europe)"
+    },
+    {
+      "date": "2018-02-15",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Ticket to Ride",
+      "name": "Ticket to Ride: First Journey (Europe)"
+    },
+    {
       "date": "2018-03-01",
       "winner": "Hannah",
       "coOp": "No",
@@ -1447,6 +1461,18 @@
       "winner": "John",
       "coOp": "No",
       "name": "Ticket to Ride: Nordic Countries"
+    },
+    {
+      "date": "2018-04-04",
+      "winner": "John",
+      "coOp": "No",
+      "name": "Ticket to Ride: First Journey (Europe)"
+    },
+    {
+      "date": "2018-04-04",
+      "winner": "John",
+      "coOp": "No",
+      "name": "Ticket to Ride: First Journey (Europe)"
     },
     {
       "date": "2018-04-22",
@@ -1578,6 +1604,12 @@
       "winner": "Hannah",
       "coOp": "No",
       "name": "Ticket to Ride: New York"
+    },
+    {
+      "date": "2018-09-21",
+      "winner": "Hannah",
+      "coOp": "No",
+      "name": "Ticket to Ride: First Journey (Europe)"
     },
     {
       "date": "2018-09-24",
@@ -2031,14 +2063,21 @@
       "name": "Ticket to Ride Europe: 15th Anniversary "
     }
   ],
-  "totalGamesPlayed": 99,
-  "averageGamesPlayedPerDay": 0.0731,
+  "totalGamesPlayed": 104,
+  "averageGamesPlayedPerDay": 0.0768,
   "mostGamesPlayedInADay": [
     {
       "date": "2018-01-06",
       "games": [
         "Ticket to Ride",
         "Ticket to Ride Map Collection: Volume 6 – France & Old West"
+      ]
+    },
+    {
+      "date": "2018-04-04",
+      "games": [
+        "Ticket to Ride: First Journey (Europe)",
+        "Ticket to Ride: First Journey (Europe)"
       ]
     },
     {
@@ -2078,6 +2117,7 @@
     "Ticket to Ride: Europa 1912",
     "Ticket to Ride: Europe",
     "Ticket to Ride: First Journey",
+    "Ticket to Ride: First Journey (Europe)",
     "Ticket to Ride: Germany",
     "Ticket to Ride: Japan",
     "Ticket to Ride: London",
@@ -2085,8 +2125,8 @@
     "Ticket to Ride: Nordic Countries",
     "Ticket to Ride: Rails & Sails"
   ],
-  "uniqueGamesPlayedCount": 20,
-  "uniqueGamesPlayedPercentage": 0.202,
+  "uniqueGamesPlayedCount": 21,
+  "uniqueGamesPlayedPercentage": 0.2019,
   "mostPlayedGames": [
     {
       "name": "Ticket to Ride: Europe",
@@ -2098,20 +2138,20 @@
     }
   ],
   "coOpGamesPlayedCount": 1,
-  "coOpGamesPlayedPercentage": 0.0101,
+  "coOpGamesPlayedPercentage": 0.0096,
   "coOpGameWins": 0,
   "coOpGameLoses": 1,
   "coOpWinRate": 0,
   "coOpLossRate": 1,
-  "winCountHannah": 56,
-  "winCountJohn": 38,
+  "winCountHannah": 58,
+  "winCountJohn": 41,
   "winCountOther": 0,
   "winCountDraw": 5,
-  "winnableGamesTotal": 99,
-  "winPercentageHannah": 0.5657,
-  "winPercentageJohn": 0.3838,
+  "winnableGamesTotal": 104,
+  "winPercentageHannah": 0.5577,
+  "winPercentageJohn": 0.3942,
   "winPercentageOther": 0,
-  "winPercentageDraw": 0.0505,
+  "winPercentageDraw": 0.0481,
   "mostWonGames": "Hannah",
   "mostWonGamesJohn": [
     {

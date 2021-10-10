@@ -49,7 +49,8 @@ async function createIndex (model) {
           playRecord[key] = value
         }
       })
-      entry.playRecords.push(playRecord)
+      playRecord.gameFamily = playRecord.gameFamily || item.tags
+      entry.playRecords.push(playRecord,)
       accumulator[boardGameApiId] = entry
     } else {
       report('No name found on item:', JSON.stringify(item))
