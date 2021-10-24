@@ -3,7 +3,7 @@ const daysBetween = require('../util/daysBetween')
 const log = []
 const report = (...messages) => log.push(['[Board Game Challenge Grids]', ...messages].join(' '))
 
-const wildCardFamily = 'Wilcard *'
+const wildCardFamily = 'Wildcard *'
 
 const mutateRemoveEmpty = (obj) => {
   Object.keys(obj).forEach(key => {
