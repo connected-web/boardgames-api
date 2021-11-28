@@ -170,7 +170,7 @@ function populateChallengeGrid (challengeGrid, gameFamily, feedItems) {
   }
   report(startDate, 'to', endDate, ': found', gameStats.length, 'games for', gameFamily)
   grid.push(gridEntry)
-  overview.gamesPlayedCount = overview.gamesPlayedCount + gameStats.length
+  overview.gamesPlayedCount = overview.gamesPlayedCount + Math.min(gameStats.length, gamesToPlayCountPerFamily)
 }
 
 async function createChallengeGrids (model) {
