@@ -100,7 +100,7 @@ const challenges = {
       'Scythe',
       wildCardFamily
     ],
-    gamesToPlayCountPerFamily: 20
+    gamesToPlayCountPerFamily: 10
   }
 }
 
