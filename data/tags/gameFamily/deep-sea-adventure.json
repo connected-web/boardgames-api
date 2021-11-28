@@ -2,11 +2,11 @@
   "name": "Deep Sea Adventure",
   "gameFamilyId": "deep-sea-adventure",
   "earliestDate": "2018-02-05",
-  "latestDate": "2021-10-08",
+  "latestDate": "2021-11-23",
   "sequenceStartDate": "2018-02-05",
-  "sequenceEndDate": "2021-10-08",
-  "daysInSequence": 1342,
-  "daysWithUnplayedGames": 1326,
+  "sequenceEndDate": "2021-11-23",
+  "daysInSequence": 1388,
+  "daysWithUnplayedGames": 1370,
   "gamesPlayedPerDay": {
     "1": 1,
     "2": 0,
@@ -1349,7 +1349,53 @@
     "1339": 0,
     "1340": 0,
     "1341": 0,
-    "1342": 1
+    "1342": 1,
+    "1343": 0,
+    "1344": 0,
+    "1345": 0,
+    "1346": 0,
+    "1347": 0,
+    "1348": 0,
+    "1349": 0,
+    "1350": 0,
+    "1351": 0,
+    "1352": 0,
+    "1353": 0,
+    "1354": 0,
+    "1355": 0,
+    "1356": 0,
+    "1357": 0,
+    "1358": 0,
+    "1359": 0,
+    "1360": 0,
+    "1361": 0,
+    "1362": 0,
+    "1363": 0,
+    "1364": 0,
+    "1365": 0,
+    "1366": 0,
+    "1367": 0,
+    "1368": 0,
+    "1369": 0,
+    "1370": 0,
+    "1371": 0,
+    "1372": 0,
+    "1373": 0,
+    "1374": 0,
+    "1375": 0,
+    "1376": 0,
+    "1377": 1,
+    "1378": 0,
+    "1379": 0,
+    "1380": 0,
+    "1381": 0,
+    "1382": 0,
+    "1383": 0,
+    "1384": 0,
+    "1385": 0,
+    "1386": 0,
+    "1387": 0,
+    "1388": 2
   },
   "gamesPlayed": [
     {
@@ -1458,104 +1504,33 @@
       "coOp": "Yes",
       "gameFamily": "Deep Sea Adventure",
       "name": "Deep Sea Adventure"
+    },
+    {
+      "date": "2021-11-12",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "name": "Deep Sea Adventure"
+    },
+    {
+      "date": "2021-11-23",
+      "coOpOutcome": "Lose",
+      "coOp": "Yes",
+      "name": "Deep Sea Adventure"
+    },
+    {
+      "date": "2021-11-23",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "name": "Deep Sea Adventure"
     }
   ],
-  "totalGamesPlayed": 16,
-  "averageGamesPlayedPerDay": 0.0119,
+  "totalGamesPlayed": 19,
+  "averageGamesPlayedPerDay": 0.0137,
   "mostGamesPlayedInADay": [
     {
-      "date": "2018-02-05",
+      "date": "2021-11-23",
       "games": [
-        "Deep Sea Adventure"
-      ]
-    },
-    {
-      "date": "2018-03-24",
-      "games": [
-        "Deep Sea Adventure"
-      ]
-    },
-    {
-      "date": "2018-04-12",
-      "games": [
-        "Deep Sea Adventure"
-      ]
-    },
-    {
-      "date": "2018-05-24",
-      "games": [
-        "Deep Sea Adventure"
-      ]
-    },
-    {
-      "date": "2018-07-13",
-      "games": [
-        "Deep Sea Adventure"
-      ]
-    },
-    {
-      "date": "2018-09-05",
-      "games": [
-        "Deep Sea Adventure"
-      ]
-    },
-    {
-      "date": "2020-01-16",
-      "games": [
-        "Deep Sea Adventure"
-      ]
-    },
-    {
-      "date": "2020-08-11",
-      "games": [
-        "Deep Sea Adventure"
-      ]
-    },
-    {
-      "date": "2020-12-09",
-      "games": [
-        "Deep Sea Adventure"
-      ]
-    },
-    {
-      "date": "2021-01-01",
-      "games": [
-        "Deep Sea Adventure"
-      ]
-    },
-    {
-      "date": "2021-01-30",
-      "games": [
-        "Deep Sea Adventure"
-      ]
-    },
-    {
-      "date": "2021-02-11",
-      "games": [
-        "Deep Sea Adventure"
-      ]
-    },
-    {
-      "date": "2021-02-23",
-      "games": [
-        "Deep Sea Adventure"
-      ]
-    },
-    {
-      "date": "2021-03-07",
-      "games": [
-        "Deep Sea Adventure"
-      ]
-    },
-    {
-      "date": "2021-03-30",
-      "games": [
-        "Deep Sea Adventure"
-      ]
-    },
-    {
-      "date": "2021-10-08",
-      "games": [
+        "Deep Sea Adventure",
         "Deep Sea Adventure"
       ]
     }
@@ -1564,19 +1539,19 @@
     "Deep Sea Adventure"
   ],
   "uniqueGamesPlayedCount": 1,
-  "uniqueGamesPlayedPercentage": 0.0625,
+  "uniqueGamesPlayedPercentage": 0.0526,
   "mostPlayedGames": [
     {
       "name": "Deep Sea Adventure",
-      "plays": 16
+      "plays": 19
     }
   ],
-  "coOpGamesPlayedCount": 13,
-  "coOpGamesPlayedPercentage": 0.8125,
-  "coOpGameWins": 10,
-  "coOpGameLoses": 3,
-  "coOpWinRate": 0.7692,
-  "coOpLossRate": 0.2308,
+  "coOpGamesPlayedCount": 16,
+  "coOpGamesPlayedPercentage": 0.8421,
+  "coOpGameWins": 12,
+  "coOpGameLoses": 4,
+  "coOpWinRate": 0.75,
+  "coOpLossRate": 0.25,
   "winCountHannah": 2,
   "winCountJohn": 1,
   "winCountOther": 0,

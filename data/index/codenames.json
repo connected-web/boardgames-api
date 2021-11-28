@@ -233,23 +233,35 @@
       "coOpOutcome": "Won",
       "coOp": "Yes",
       "gameFamily": "Wildcard"
+    },
+    {
+      "date": "2021-10-29",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Wildcard"
+    },
+    {
+      "date": "2021-10-29",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Wildcard"
     }
   ],
-  "totalGamesPlayed": 41,
+  "totalGamesPlayed": 43,
   "coOpGamesPlayedCount": 41,
-  "coOpGamesPlayedPercentage": 1,
+  "coOpGamesPlayedPercentage": 0.9535,
   "coOpGameWins": 33,
   "coOpGameLoses": 8,
   "coOpWinRate": 0.8049,
   "coOpLossRate": 0.1951,
   "winCountHannah": 0,
-  "winCountJohn": 0,
+  "winCountJohn": 2,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 0,
+  "winnableGamesTotal": 2,
   "winPercentageHannah": 0,
-  "winPercentageJohn": 0,
+  "winPercentageJohn": 1,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
-  "mostWonGames": "Draw"
+  "mostWonGames": "John"
 }

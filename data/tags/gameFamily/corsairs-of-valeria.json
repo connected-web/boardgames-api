@@ -2,11 +2,11 @@
   "name": "Corsairs of Valeria",
   "gameFamilyId": "corsairs-of-valeria",
   "earliestDate": "2020-05-10",
-  "latestDate": "2021-10-10",
+  "latestDate": "2021-10-14",
   "sequenceStartDate": "2020-05-10",
-  "sequenceEndDate": "2021-10-10",
-  "daysInSequence": 519,
-  "daysWithUnplayedGames": 497,
+  "sequenceEndDate": "2021-10-14",
+  "daysInSequence": 523,
+  "daysWithUnplayedGames": 500,
   "gamesPlayedPerDay": {
     "1": 1,
     "2": 1,
@@ -526,7 +526,11 @@
     "516": 0,
     "517": 0,
     "518": 0,
-    "519": 1
+    "519": 1,
+    "520": 0,
+    "521": 0,
+    "522": 0,
+    "523": 1
   },
   "gamesPlayed": [
     {
@@ -681,10 +685,17 @@
       "coOp": "No",
       "gameFamily": "Corsairs of Valeria",
       "name": "Corsairs of Valeria"
+    },
+    {
+      "date": "2021-10-14",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Corsairs of Valeria ",
+      "name": "Corsairs of Valeria"
     }
   ],
-  "totalGamesPlayed": 22,
-  "averageGamesPlayedPerDay": 0.0424,
+  "totalGamesPlayed": 23,
+  "averageGamesPlayedPerDay": 0.044,
   "mostGamesPlayedInADay": [
     {
       "date": "2020-05-10",
@@ -817,17 +828,23 @@
       "games": [
         "Corsairs of Valeria"
       ]
+    },
+    {
+      "date": "2021-10-14",
+      "games": [
+        "Corsairs of Valeria"
+      ]
     }
   ],
   "uniqueGamesPlayed": [
     "Corsairs of Valeria"
   ],
   "uniqueGamesPlayedCount": 1,
-  "uniqueGamesPlayedPercentage": 0.0455,
+  "uniqueGamesPlayedPercentage": 0.0435,
   "mostPlayedGames": [
     {
       "name": "Corsairs of Valeria",
-      "plays": 22
+      "plays": 23
     }
   ],
   "coOpGamesPlayedCount": 0,
@@ -837,19 +854,19 @@
   "coOpWinRate": 0,
   "coOpLossRate": 0,
   "winCountHannah": 11,
-  "winCountJohn": 10,
+  "winCountJohn": 11,
   "winCountOther": 0,
   "winCountDraw": 1,
-  "winnableGamesTotal": 22,
-  "winPercentageHannah": 0.5,
-  "winPercentageJohn": 0.4545,
+  "winnableGamesTotal": 23,
+  "winPercentageHannah": 0.4783,
+  "winPercentageJohn": 0.4783,
   "winPercentageOther": 0,
-  "winPercentageDraw": 0.0455,
-  "mostWonGames": "Hannah",
+  "winPercentageDraw": 0.0435,
+  "mostWonGames": "Draw",
   "mostWonGamesJohn": [
     {
       "game": "Corsairs of Valeria",
-      "plays": 10
+      "plays": 11
     }
   ],
   "mostWonGamesHannah": [

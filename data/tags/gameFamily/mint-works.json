@@ -2,11 +2,11 @@
   "name": "Mint Works",
   "gameFamilyId": "mint-works",
   "earliestDate": "2018-12-25",
-  "latestDate": "2021-10-08",
+  "latestDate": "2021-10-14",
   "sequenceStartDate": "2018-12-25",
-  "sequenceEndDate": "2021-10-08",
-  "daysInSequence": 1019,
-  "daysWithUnplayedGames": 1004,
+  "sequenceEndDate": "2021-10-14",
+  "daysInSequence": 1025,
+  "daysWithUnplayedGames": 1009,
   "gamesPlayedPerDay": {
     "1": 1,
     "2": 1,
@@ -1026,7 +1026,13 @@
     "1016": 0,
     "1017": 0,
     "1018": 0,
-    "1019": 1
+    "1019": 1,
+    "1020": 0,
+    "1021": 0,
+    "1022": 0,
+    "1023": 0,
+    "1024": 0,
+    "1025": 2
   },
   "gamesPlayed": [
     {
@@ -1131,98 +1137,29 @@
       "coOp": "No",
       "gameFamily": "Mint Works",
       "name": "Mint Works"
+    },
+    {
+      "date": "2021-10-14",
+      "winner": "Hannah ",
+      "coOp": "No",
+      "gameFamily": "Mint Works ",
+      "name": "Mint Works"
+    },
+    {
+      "date": "2021-10-14",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Mint Works",
+      "name": "Mint Works"
     }
   ],
-  "totalGamesPlayed": 15,
-  "averageGamesPlayedPerDay": 0.0147,
+  "totalGamesPlayed": 17,
+  "averageGamesPlayedPerDay": 0.0166,
   "mostGamesPlayedInADay": [
     {
-      "date": "2018-12-25",
+      "date": "2021-10-14",
       "games": [
-        "Mint Works"
-      ]
-    },
-    {
-      "date": "2018-12-26",
-      "games": [
-        "Mint Works"
-      ]
-    },
-    {
-      "date": "2020-01-06",
-      "games": [
-        "Mint Works"
-      ]
-    },
-    {
-      "date": "2020-02-12",
-      "games": [
-        "Mint Works"
-      ]
-    },
-    {
-      "date": "2020-03-08",
-      "games": [
-        "Mint Works"
-      ]
-    },
-    {
-      "date": "2020-06-18",
-      "games": [
-        "Mint Works"
-      ]
-    },
-    {
-      "date": "2020-07-26",
-      "games": [
-        "Mint Works"
-      ]
-    },
-    {
-      "date": "2021-01-01",
-      "games": [
-        "Mint Works"
-      ]
-    },
-    {
-      "date": "2021-01-25",
-      "games": [
-        "Mint Works"
-      ]
-    },
-    {
-      "date": "2021-02-09",
-      "games": [
-        "Mint Works"
-      ]
-    },
-    {
-      "date": "2021-02-21",
-      "games": [
-        "Mint Works"
-      ]
-    },
-    {
-      "date": "2021-03-07",
-      "games": [
-        "Mint Works"
-      ]
-    },
-    {
-      "date": "2021-03-28",
-      "games": [
-        "Mint Works"
-      ]
-    },
-    {
-      "date": "2021-04-09",
-      "games": [
-        "Mint Works"
-      ]
-    },
-    {
-      "date": "2021-10-08",
-      "games": [
+        "Mint Works",
         "Mint Works"
       ]
     }
@@ -1231,11 +1168,11 @@
     "Mint Works"
   ],
   "uniqueGamesPlayedCount": 1,
-  "uniqueGamesPlayedPercentage": 0.0667,
+  "uniqueGamesPlayedPercentage": 0.0588,
   "mostPlayedGames": [
     {
       "name": "Mint Works",
-      "plays": 15
+      "plays": 17
     }
   ],
   "coOpGamesPlayedCount": 0,
@@ -1244,26 +1181,26 @@
   "coOpGameLoses": 0,
   "coOpWinRate": 0,
   "coOpLossRate": 0,
-  "winCountHannah": 7,
-  "winCountJohn": 8,
+  "winCountHannah": 8,
+  "winCountJohn": 9,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 15,
-  "winPercentageHannah": 0.4667,
-  "winPercentageJohn": 0.5333,
+  "winnableGamesTotal": 17,
+  "winPercentageHannah": 0.4706,
+  "winPercentageJohn": 0.5294,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
   "mostWonGames": "John",
   "mostWonGamesJohn": [
     {
       "game": "Mint Works",
-      "plays": 8
+      "plays": 9
     }
   ],
   "mostWonGamesHannah": [
     {
       "game": "Mint Works",
-      "plays": 7
+      "plays": 8
     }
   ]
 }

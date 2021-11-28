@@ -4,7 +4,7 @@
   "sequenceStartDate": "2021-10-01",
   "sequenceEndDate": "2021-10-31",
   "daysInSequence": 31,
-  "daysWithUnplayedGames": 25,
+  "daysWithUnplayedGames": 14,
   "gamesPlayedPerDay": {
     "1": 1,
     "2": 3,
@@ -16,27 +16,27 @@
     "8": 3,
     "9": 0,
     "10": 3,
-    "11": 0,
+    "11": 1,
     "12": 0,
     "13": 0,
-    "14": 0,
-    "15": 0,
-    "16": 0,
-    "17": 0,
+    "14": 4,
+    "15": 1,
+    "16": 5,
+    "17": 2,
     "18": 0,
     "19": 0,
     "20": 0,
     "21": 0,
     "22": 0,
-    "23": 0,
-    "24": 0,
-    "25": 0,
-    "26": 0,
+    "23": 1,
+    "24": 2,
+    "25": 1,
+    "26": 2,
     "27": 0,
     "28": 0,
-    "29": 0,
+    "29": 3,
     "30": 0,
-    "31": 0
+    "31": 2
   },
   "gamesPlayed": [
     {
@@ -129,106 +129,270 @@
       "winner": "Other",
       "coOp": "No",
       "gameFamily": "Wildcard"
+    },
+    {
+      "date": "2021-10-11",
+      "name": "Jurassic Snack",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Jurassic Snack "
+    },
+    {
+      "date": "2021-10-14",
+      "name": "Corsairs of Valeria",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Corsairs of Valeria "
+    },
+    {
+      "date": "2021-10-14",
+      "name": "Design Town",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Design Town "
+    },
+    {
+      "date": "2021-10-14",
+      "name": "Mint Works",
+      "winner": "Hannah ",
+      "coOp": "No",
+      "gameFamily": "Mint Works "
+    },
+    {
+      "date": "2021-10-14",
+      "name": "Mint Works",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Mint Works"
+    },
+    {
+      "date": "2021-10-15",
+      "name": "Terraforming Mars: Ares Expedition",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Wildcard"
+    },
+    {
+      "date": "2021-10-16",
+      "name": "Jurassic Brunch",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Jurassic Snack"
+    },
+    {
+      "date": "2021-10-16",
+      "name": "Jurassic Brunch",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Jurassic Snack"
+    },
+    {
+      "date": "2021-10-16",
+      "name": "Mortum: Medieval Detective",
+      "coOp": "Yes",
+      "coOpOutcome": "Drew",
+      "gameFamily": "Wildcard"
+    },
+    {
+      "date": "2021-10-16",
+      "name": "Sheepy Time",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Wildcard"
+    },
+    {
+      "date": "2021-10-16",
+      "name": "Sheepy Time",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Wildcard"
+    },
+    {
+      "date": "2021-10-17",
+      "name": "Dog Lover",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Wildcard"
+    },
+    {
+      "date": "2021-10-17",
+      "name": "Misty",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Wildcard"
+    },
+    {
+      "date": "2021-10-23",
+      "name": "Pandemic: Hot Zone Europe",
+      "coOp": "Yes",
+      "coOpOutcome": "Won",
+      "gameFamily": "Pandemic"
+    },
+    {
+      "date": "2021-10-24",
+      "name": "7 Wonders",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "7 Wonders"
+    },
+    {
+      "date": "2021-10-24",
+      "name": "Wingspan",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Wingspan"
+    },
+    {
+      "date": "2021-10-25",
+      "name": "Pandemic Legacy: Season 0",
+      "coOp": "Yes",
+      "coOpOutcome": "Won",
+      "gameFamily": "Pandemic"
+    },
+    {
+      "date": "2021-10-26",
+      "name": "7 Wonders",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "7 Wonders"
+    },
+    {
+      "date": "2021-10-26",
+      "name": "Topiary",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Topiary"
+    },
+    {
+      "date": "2021-10-29",
+      "name": "Codenames",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Wildcard"
+    },
+    {
+      "date": "2021-10-29",
+      "name": "Codenames",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Wildcard"
+    },
+    {
+      "date": "2021-10-29",
+      "name": "Pandemic Legacy: Season 0",
+      "coOp": "Yes",
+      "coOpOutcome": "Won",
+      "gameFamily": "Pandemic"
+    },
+    {
+      "date": "2021-10-31",
+      "name": "Brass: Birmingham",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Brass"
+    },
+    {
+      "date": "2021-10-31",
+      "name": "Scythe",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Scythe"
     }
   ],
-  "totalGamesPlayed": 13,
-  "averageGamesPlayedPerDay": 0.4194,
+  "totalGamesPlayed": 37,
+  "averageGamesPlayedPerDay": 1.1935,
   "mostGamesPlayedInADay": [
     {
-      "date": "2021-10-02",
+      "date": "2021-10-16",
       "games": [
-        "Happy Little Dinosaurs",
-        "Lovecraft Letter",
-        "Welcome To Your Perfect Home"
-      ]
-    },
-    {
-      "date": "2021-10-08",
-      "games": [
-        "Deep Sea Adventure",
-        "Love Letter: Batman Edition",
-        "Mint Works"
-      ]
-    },
-    {
-      "date": "2021-10-10",
-      "games": [
-        "Corsairs of Valeria",
-        "Welcome To Your Perfect Home",
-        "Welcome To Your Perfect Home"
+        "Jurassic Brunch",
+        "Jurassic Brunch",
+        "Mortum: Medieval Detective",
+        "Sheepy Time",
+        "Sheepy Time"
       ]
     }
   ],
   "uniqueGamesPlayed": [
+    "7 Wonders",
+    "Brass: Birmingham",
+    "Codenames",
     "Corsairs of Valeria",
     "Deep Sea Adventure",
+    "Design Town",
+    "Dog Lover",
     "Flotsam Fight",
     "Happy Little Dinosaurs",
+    "Jurassic Brunch",
     "Jurassic Snack",
     "Love Letter: Batman Edition",
     "Lovecraft Letter",
     "Mint Works",
+    "Misty",
+    "Mortum: Medieval Detective",
+    "Pandemic Legacy: Season 0",
+    "Pandemic: Hot Zone Europe",
+    "Scythe",
+    "Sheepy Time",
     "Terraforming Mars: Ares Expedition",
-    "Welcome To Your Perfect Home"
+    "Topiary",
+    "Welcome To Your Perfect Home",
+    "Wingspan"
   ],
-  "uniqueGamesPlayedCount": 10,
-  "uniqueGamesPlayedPercentage": 0.7692,
+  "uniqueGamesPlayedCount": 24,
+  "uniqueGamesPlayedPercentage": 0.6486,
   "mostPlayedGames": [
     {
       "name": "Welcome To Your Perfect Home",
       "plays": 4
     }
   ],
-  "coOpGamesPlayedCount": 1,
-  "coOpGamesPlayedPercentage": 0.0769,
-  "coOpGameWins": 1,
-  "coOpGameLoses": 0,
-  "coOpWinRate": 1,
-  "coOpLossRate": 0,
-  "winCountHannah": 5,
-  "winCountJohn": 3,
+  "coOpGamesPlayedCount": 5,
+  "coOpGamesPlayedPercentage": 0.1351,
+  "coOpGameWins": 4,
+  "coOpGameLoses": 1,
+  "coOpWinRate": 0.8,
+  "coOpLossRate": 0.2,
+  "winCountHannah": 16,
+  "winCountJohn": 12,
   "winCountOther": 4,
   "winCountDraw": 0,
-  "winnableGamesTotal": 12,
-  "winPercentageHannah": 0.4167,
-  "winPercentageJohn": 0.25,
-  "winPercentageOther": 0.3333,
+  "winnableGamesTotal": 32,
+  "winPercentageHannah": 0.5,
+  "winPercentageJohn": 0.375,
+  "winPercentageOther": 0.125,
   "winPercentageDraw": 0,
   "mostWonGames": "Hannah",
   "mostWonGamesJohn": [
     {
+      "game": "Codenames",
+      "plays": 2
+    },
+    {
+      "game": "Jurassic Brunch",
+      "plays": 2
+    },
+    {
       "game": "Corsairs of Valeria",
-      "plays": 1
-    },
-    {
-      "game": "Welcome To Your Perfect Home",
-      "plays": 1
-    },
-    {
-      "game": "Flotsam Fight",
-      "plays": 1
+      "plays": 2
     }
   ],
   "mostWonGamesHannah": [
     {
-      "game": "Welcome To Your Perfect Home",
-      "plays": 1
+      "game": "Sheepy Time",
+      "plays": 2
     },
     {
       "game": "Mint Works",
-      "plays": 1
-    },
-    {
-      "game": "Love Letter: Batman Edition",
-      "plays": 1
+      "plays": 2
     },
     {
       "game": "Jurassic Snack",
-      "plays": 1
+      "plays": 2
     },
     {
       "game": "Terraforming Mars: Ares Expedition",
-      "plays": 1
+      "plays": 2
     }
   ]
 }

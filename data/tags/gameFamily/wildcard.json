@@ -2,11 +2,11 @@
   "name": "Ungrouped",
   "gameFamilyId": "wildcard",
   "earliestDate": "2021-01-31",
-  "latestDate": "2021-10-10",
+  "latestDate": "2021-11-14",
   "sequenceStartDate": "2021-01-31",
-  "sequenceEndDate": "2021-10-10",
-  "daysInSequence": 253,
-  "daysWithUnplayedGames": 233,
+  "sequenceEndDate": "2021-11-14",
+  "daysInSequence": 288,
+  "daysWithUnplayedGames": 264,
   "gamesPlayedPerDay": {
     "1": 1,
     "2": 0,
@@ -260,7 +260,42 @@
     "250": 1,
     "251": 0,
     "252": 0,
-    "253": 2
+    "253": 2,
+    "254": 0,
+    "255": 0,
+    "256": 0,
+    "257": 0,
+    "258": 1,
+    "259": 3,
+    "260": 2,
+    "261": 0,
+    "262": 0,
+    "263": 0,
+    "264": 0,
+    "265": 0,
+    "266": 0,
+    "267": 0,
+    "268": 0,
+    "269": 0,
+    "270": 0,
+    "271": 0,
+    "272": 0,
+    "273": 0,
+    "274": 0,
+    "275": 0,
+    "276": 0,
+    "277": 0,
+    "278": 0,
+    "279": 0,
+    "280": 0,
+    "281": 0,
+    "282": 0,
+    "283": 0,
+    "284": 0,
+    "285": 0,
+    "286": 0,
+    "287": 0,
+    "288": 1
   },
   "gamesPlayed": [
     {
@@ -423,71 +458,114 @@
       "coOp": "No",
       "gameFamily": "Wildcard",
       "name": "Welcome To Your Perfect Home"
+    },
+    {
+      "date": "2021-10-15",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Wildcard",
+      "name": "Terraforming Mars: Ares Expedition"
+    },
+    {
+      "date": "2021-10-16",
+      "coOpOutcome": "Drew",
+      "coOp": "Yes",
+      "gameFamily": "Wildcard",
+      "name": "Mortum: Medieval Detective"
+    },
+    {
+      "date": "2021-10-16",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Wildcard",
+      "name": "Sheepy Time"
+    },
+    {
+      "date": "2021-10-16",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Wildcard",
+      "name": "Sheepy Time"
+    },
+    {
+      "date": "2021-10-17",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Wildcard",
+      "name": "Dog Lover"
+    },
+    {
+      "date": "2021-10-17",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Wildcard",
+      "name": "Misty"
+    },
+    {
+      "date": "2021-11-14",
+      "winner": "Hannah",
+      "coOp": "No",
+      "name": "Terraforming Mars: Ares Expedition"
     }
   ],
-  "totalGamesPlayed": 23,
-  "averageGamesPlayedPerDay": 0.0909,
+  "totalGamesPlayed": 30,
+  "averageGamesPlayedPerDay": 0.1042,
   "mostGamesPlayedInADay": [
     {
-      "date": "2021-07-11",
+      "date": "2021-10-16",
       "games": [
-        "Parks",
-        "Heck"
-      ]
-    },
-    {
-      "date": "2021-10-02",
-      "games": [
-        "Happy Little Dinosaurs",
-        "Welcome To Your Perfect Home"
-      ]
-    },
-    {
-      "date": "2021-10-10",
-      "games": [
-        "Welcome To Your Perfect Home",
-        "Welcome To Your Perfect Home"
+        "Sheepy Time",
+        "Sheepy Time",
+        "Mortum: Medieval Detective"
       ]
     }
   ],
   "uniqueGamesPlayed": [
     "Arctic Scavengers",
+    "Dog Lover",
     "Fox and Geese",
     "Happy Little Dinosaurs",
     "Heck",
     "Kanban EV",
+    "Misty",
+    "Mortum: Medieval Detective",
     "Parks",
     "Patchwork: Christmas Edition",
+    "Sheepy Time",
     "Terraforming Mars",
     "Terraforming Mars: Ares Expedition",
     "Viticulture: Tuscany Edition",
     "Welcome To Your Perfect Home"
   ],
-  "uniqueGamesPlayedCount": 11,
-  "uniqueGamesPlayedPercentage": 0.4783,
+  "uniqueGamesPlayedCount": 15,
+  "uniqueGamesPlayedPercentage": 0.5,
   "mostPlayedGames": [
     {
       "name": "Terraforming Mars",
       "plays": 5
     }
   ],
-  "coOpGamesPlayedCount": 0,
-  "coOpGamesPlayedPercentage": 0,
+  "coOpGamesPlayedCount": 1,
+  "coOpGamesPlayedPercentage": 0.0333,
   "coOpGameWins": 0,
-  "coOpGameLoses": 0,
+  "coOpGameLoses": 1,
   "coOpWinRate": 0,
-  "coOpLossRate": 0,
-  "winCountHannah": 10,
-  "winCountJohn": 5,
+  "coOpLossRate": 1,
+  "winCountHannah": 15,
+  "winCountJohn": 6,
   "winCountOther": 6,
   "winCountDraw": 2,
-  "winnableGamesTotal": 23,
-  "winPercentageHannah": 0.4348,
-  "winPercentageJohn": 0.2174,
-  "winPercentageOther": 0.2609,
-  "winPercentageDraw": 0.087,
+  "winnableGamesTotal": 29,
+  "winPercentageHannah": 0.5172,
+  "winPercentageJohn": 0.2069,
+  "winPercentageOther": 0.2069,
+  "winPercentageDraw": 0.069,
   "mostWonGames": "Hannah",
   "mostWonGamesJohn": [
+    {
+      "game": "Misty",
+      "plays": 1
+    },
     {
       "game": "Welcome To Your Perfect Home",
       "plays": 1
@@ -510,6 +588,10 @@
     }
   ],
   "mostWonGamesHannah": [
+    {
+      "game": "Terraforming Mars: Ares Expedition",
+      "plays": 3
+    },
     {
       "game": "Terraforming Mars",
       "plays": 3
