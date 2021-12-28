@@ -8,6 +8,14 @@
     "sample": "/api/endpoints/sample",
     "sourceId": "endpoints"
   }, {
+    "path": "/api/status",
+    "method": "GET",
+    "description": "Return a status summary of the currently deployed API service.",
+    "accepts": "application/json",
+    "schema": "/api/status/schema",
+    "sample": "/api/status/sample",
+    "sourceId": "status"
+  }, {
     "path": "/api/boardgame/list",
     "method": "GET",
     "description": "Return a summarised list of board games played by John and Hannah, sorted alphabetically.",

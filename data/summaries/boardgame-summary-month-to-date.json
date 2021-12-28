@@ -1,317 +1,62 @@
 {
-  "sequenceStartDate": "2021-11-01",
-  "sequenceEndDate": "2021-11-28",
+  "sequenceStartDate": "2021-12-01",
+  "sequenceEndDate": "2021-12-28",
   "daysInSequence": 28,
-  "daysWithUnplayedGames": 12,
+  "daysWithUnplayedGames": 28,
   "gamesPlayedPerDay": {
     "1": 0,
     "2": 0,
     "3": 0,
     "4": 0,
-    "5": 1,
-    "6": 3,
-    "7": 2,
-    "8": 1,
+    "5": 0,
+    "6": 0,
+    "7": 0,
+    "8": 0,
     "9": 0,
     "10": 0,
-    "11": 1,
-    "12": 1,
-    "13": 1,
-    "14": 1,
+    "11": 0,
+    "12": 0,
+    "13": 0,
+    "14": 0,
     "15": 0,
     "16": 0,
-    "17": 4,
+    "17": 0,
     "18": 0,
-    "19": 1,
+    "19": 0,
     "20": 0,
-    "21": 1,
+    "21": 0,
     "22": 0,
-    "23": 4,
-    "24": 2,
-    "25": 3,
+    "23": 0,
+    "24": 0,
+    "25": 0,
     "26": 0,
-    "27": 5,
-    "28": 2
+    "27": 0,
+    "28": 0
   },
-  "gamesPlayed": [
-    {
-      "date": "2021-11-05",
-      "name": "Design Town",
-      "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2021-11-06",
-      "name": "Design Town",
-      "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2021-11-06",
-      "name": "Dominion: Seaside",
-      "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2021-11-06",
-      "name": "Topiary",
-      "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2021-11-07",
-      "name": "Love Letter Premium Edition",
-      "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2021-11-07",
-      "name": "Tanto Cuore: Winter Romance",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2021-11-08",
-      "name": "Pandemic Legacy: Season 0",
-      "coOp": "Yes",
-      "coOpOutcome": "Won"
-    },
-    {
-      "date": "2021-11-11",
-      "name": "Valeria: Card Kingdoms",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2021-11-12",
-      "name": "Deep Sea Adventure",
-      "coOp": "Yes",
-      "coOpOutcome": "Won"
-    },
-    {
-      "date": "2021-11-13",
-      "name": "Ticket to Ride: London",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2021-11-14",
-      "name": "Terraforming Mars: Ares Expedition",
-      "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2021-11-17",
-      "name": "Werewolf",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2021-11-17",
-      "name": "Werewolf",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2021-11-17",
-      "name": "Werewolf",
-      "coOp": "Yes",
-      "coOpOutcome": "Won"
-    },
-    {
-      "date": "2021-11-17",
-      "name": "Werewolf",
-      "coOp": "Yes",
-      "coOpOutcome": "Won"
-    },
-    {
-      "date": "2021-11-19",
-      "name": "Pandemic Legacy: Season 0",
-      "coOp": "Yes",
-      "coOpOutcome": "Won"
-    },
-    {
-      "date": "2021-11-21",
-      "name": "Brass: Lancashire ",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2021-11-23",
-      "name": "Deep Sea Adventure",
-      "coOp": "Yes",
-      "coOpOutcome": "Lose"
-    },
-    {
-      "date": "2021-11-23",
-      "name": "Deep Sea Adventure",
-      "coOp": "Yes",
-      "coOpOutcome": "Won"
-    },
-    {
-      "date": "2021-11-23",
-      "name": "Design Town",
-      "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2021-11-23",
-      "name": "Topiary",
-      "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2021-11-24",
-      "name": "7 Wonders",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2021-11-24",
-      "name": "Wingspan",
-      "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2021-11-25",
-      "name": "Aeon's End",
-      "coOp": "Yes",
-      "coOpOutcome": "Won"
-    },
-    {
-      "date": "2021-11-25",
-      "name": "Aeon's End",
-      "coOp": "Yes",
-      "coOpOutcome": "Won"
-    },
-    {
-      "date": "2021-11-25",
-      "name": "Aeon's End",
-      "coOp": "Yes",
-      "coOpOutcome": "Won"
-    },
-    {
-      "date": "2021-11-27",
-      "name": "7 Wonders",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2021-11-27",
-      "name": "Tanto Cuore: Expanding the House",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2021-11-27",
-      "name": "Tanto Cuore: Expanding the House",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2021-11-27",
-      "name": "Valeria: Card Kingdoms",
-      "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2021-11-27",
-      "name": "Valeria: Card Kingdoms",
-      "winner": "John",
-      "coOp": "No"
-    },
-    {
-      "date": "2021-11-28",
-      "name": "Wingspan: Oceania",
-      "winner": "Hannah",
-      "coOp": "No"
-    },
-    {
-      "date": "2021-11-28",
-      "name": "Wingspan: Oceania",
-      "winner": "John",
-      "coOp": "No"
-    }
-  ],
-  "totalGamesPlayed": 33,
-  "averageGamesPlayedPerDay": 1.1786,
-  "mostGamesPlayedInADay": [
-    {
-      "date": "2021-11-27",
-      "games": [
-        "7 Wonders",
-        "Tanto Cuore: Expanding the House",
-        "Tanto Cuore: Expanding the House",
-        "Valeria: Card Kingdoms",
-        "Valeria: Card Kingdoms"
-      ]
-    }
-  ],
-  "uniqueGamesPlayed": [
-    "7 Wonders",
-    "Aeon's End",
-    "Brass: Lancashire ",
-    "Deep Sea Adventure",
-    "Design Town",
-    "Dominion: Seaside",
-    "Love Letter Premium Edition",
-    "Pandemic Legacy: Season 0",
-    "Tanto Cuore: Expanding the House",
-    "Tanto Cuore: Winter Romance",
-    "Terraforming Mars: Ares Expedition",
-    "Ticket to Ride: London",
-    "Topiary",
-    "Valeria: Card Kingdoms",
-    "Werewolf",
-    "Wingspan",
-    "Wingspan: Oceania"
-  ],
-  "uniqueGamesPlayedCount": 17,
-  "uniqueGamesPlayedPercentage": 0.5152,
-  "mostPlayedGames": [
-    {
-      "name": "Werewolf",
-      "plays": 4
-    }
-  ],
-  "coOpGamesPlayedCount": 10,
-  "coOpGamesPlayedPercentage": 0.303,
-  "coOpGameWins": 9,
-  "coOpGameLoses": 1,
-  "coOpWinRate": 0.9,
-  "coOpLossRate": 0.1,
-  "winCountHannah": 11,
-  "winCountJohn": 12,
+  "gamesPlayed": [],
+  "totalGamesPlayed": 0,
+  "averageGamesPlayedPerDay": 0,
+  "mostGamesPlayedInADay": [],
+  "uniqueGamesPlayed": [],
+  "uniqueGamesPlayedCount": 0,
+  "uniqueGamesPlayedPercentage": 0,
+  "mostPlayedGames": [],
+  "coOpGamesPlayedCount": 0,
+  "coOpGamesPlayedPercentage": 0,
+  "coOpGameWins": 0,
+  "coOpGameLoses": 0,
+  "coOpWinRate": 0,
+  "coOpLossRate": 0,
+  "winCountHannah": 0,
+  "winCountJohn": 0,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 23,
-  "winPercentageHannah": 0.4783,
-  "winPercentageJohn": 0.5217,
+  "winnableGamesTotal": 0,
+  "winPercentageHannah": 0,
+  "winPercentageJohn": 0,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
-  "mostWonGames": "John",
-  "mostWonGamesJohn": [
-    {
-      "game": "Tanto Cuore: Expanding the House",
-      "plays": 2
-    },
-    {
-      "game": "7 Wonders",
-      "plays": 2
-    },
-    {
-      "game": "Werewolf",
-      "plays": 2
-    },
-    {
-      "game": "Valeria: Card Kingdoms",
-      "plays": 2
-    }
-  ],
-  "mostWonGamesHannah": [
-    {
-      "game": "Design Town",
-      "plays": 3
-    }
-  ]
+  "mostWonGames": "Draw",
+  "mostWonGamesJohn": [],
+  "mostWonGamesHannah": []
 }
