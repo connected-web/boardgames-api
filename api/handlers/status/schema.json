@@ -1,0 +1,23 @@
+{
+  "id": "/",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "pattern": "^boardgames-api$"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^[\\d]+.[\\d]+.[\\d]+$"
+    },
+    "description": {
+      "type": "string",
+      "pattern": "^[A-z.,\\s]+$"
+    },
+    "currentDate": {
+      "type": "string",
+      "pattern": "^[A-z\\d.\\s-:+]+$"
+    }
+  },
+  "additionalProperties": false
+}
