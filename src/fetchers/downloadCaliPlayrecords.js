@@ -6,7 +6,7 @@ const playrecordSources = [{
 }]
 
 const log = []
-const report = (...messages) => console.log(['[Download Cali Play Records]', ...messages].join(' '))
+const report = (...messages) => log.push(['[Download Cali Play Records]', ...messages].join(' '))
 
 async function downloadPlayrecords ({ axios }, { year, apiUser, apiKey, url }) {
   report('Downloading data for', year, 'from', url, 'with user API key:', apiUser)
@@ -18,7 +18,7 @@ async function downloadPlayrecords ({ axios }, { year, apiUser, apiKey, url }) {
       }
     }
     const { data } = await axios.get(url, axiosConfig)
-    report('Downloaded playrecords from', url)
+    report('Downloaded playrecords from', url, JSON.stringify(data))
     return data?.playRecords || []
   } catch (ex) {
     report('Unable to download playrecord data:', ex)
@@ -40,7 +40,7 @@ function init (model) {
   return async () => {
     model.calisaurus.playrecords = await downloadFromSources(model)
     return {
-      playstats: model.calisaurus.playrecords,
+      playrecords: model.calisaurus.playrecords,
       log
     }
   }
