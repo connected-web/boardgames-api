@@ -13,14 +13,14 @@
           "thumbnail": [
             {
               "_text": [
-                "https://cf.geekdo-images.com/thumb/img/k3XRHqQxJcJdnO0sZNQ8WK-LATc=/fit-in/200x150/pic3083174.jpg"
+                "https://cf.geekdo-images.com/GOMBCVECMktpmX-VQt9lqQ__thumb/img/0WhnCeK57DgQtWy8QUYO8i9NKX8=/fit-in/200x150/filters:strip_icc()/pic3083174.jpg"
               ]
             }
           ],
           "image": [
             {
               "_text": [
-                "https://cf.geekdo-images.com/original/img/NOa6QPBVhqLnZ3E6G6vyojtp7Mo=/0x0/pic3083174.jpg"
+                "https://cf.geekdo-images.com/GOMBCVECMktpmX-VQt9lqQ__original/img/SDmA798KzgQXLWP-s4oeiXUmBO8=/0x0/filters:format(jpeg)/pic3083174.jpg"
               ]
             }
           ],
@@ -44,6 +44,13 @@
                 "type": "alternate",
                 "sortindex": "1",
                 "value": "Gra o Tron: Gra karciana (druga edycja) – Lwy Casterly Rock"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "Hra o trůny: Karetní hra (druhá edice) – Lvi Casterlyovy skály"
               }
             },
             {
@@ -236,7 +243,85 @@
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
                 "totalvotes": "0"
-              }
+              },
+              "results": [
+                {
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "2",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "3",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "4",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "5",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "6",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "8",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "10",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "12",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "14",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "16",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "18",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "21 and up",
+                        "numvotes": "0"
+                      }
+                    }
+                  ]
+                }
+              ]
             },
             {
               "_attributes": {
@@ -249,35 +334,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "81",
+                        "level": "111",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "82",
+                        "level": "112",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "83",
+                        "level": "113",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "84",
+                        "level": "114",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "85",
+                        "level": "115",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -396,22 +481,22 @@
             {
               "_attributes": {
                 "type": "boardgamefamily",
-                "id": "8264",
-                "value": "A Game of Thrones LCG"
+                "id": "5068",
+                "value": "Books: A Song of Ice and Fire"
               }
             },
             {
               "_attributes": {
                 "type": "boardgamefamily",
                 "id": "5337",
-                "value": "Living Card Game"
+                "value": "Collectible: Living Card Game (Fantasy Flight Games)"
               }
             },
             {
               "_attributes": {
                 "type": "boardgamefamily",
-                "id": "5068",
-                "value": "A Song of Ice and Fire"
+                "id": "8264",
+                "value": "Game: A Game of Thrones – The Card Game (LCG)"
               }
             },
             {
@@ -420,6 +505,20 @@
                 "id": "169255",
                 "value": "A Game of Thrones: The Card Game (Second Edition)",
                 "inbound": "true"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "17",
+                "value": "Fantasy Flight Games"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "23043",
+                "value": "ADC Blackfire Entertainment"
               }
             },
             {
@@ -434,13 +533,6 @@
                 "type": "boardgamepublisher",
                 "id": "2973",
                 "value": "Edge Entertainment"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamepublisher",
-                "id": "17",
-                "value": "Fantasy Flight Games"
               }
             },
             {
@@ -468,21 +560,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "96"
+                        "value": "119"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "8.00552"
+                        "value": "8.04689"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "5.64932"
+                        "value": "5.65209"
                       }
                     }
                   ],
@@ -496,7 +588,7 @@
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "5.64932"
+                            "bayesaverage": "5.65209"
                           }
                         }
                       ]
@@ -505,7 +597,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.36206"
+                        "value": "1.14282"
                       }
                     }
                   ],
@@ -519,49 +611,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "844"
+                        "value": "1037"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "18"
+                        "value": "26"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "15"
+                        "value": "13"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "45"
+                        "value": "46"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "28"
+                        "value": "39"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "1"
+                        "value": "2"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "3"
+                        "value": "3.5"
                       }
                     }
                   ]

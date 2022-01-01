@@ -13,14 +13,14 @@
           "thumbnail": [
             {
               "_text": [
-                "https://cf.geekdo-images.com/thumb/img/fJp94uxjjBE5bGT0IxWZ5ePpe8A=/fit-in/200x150/pic3738560.jpg"
+                "https://cf.geekdo-images.com/2ewHIIG_TRq8bYlqk0jIMw__thumb/img/IJaOyyQ7Y59tW6nbKbjTMTFt-Ls=/fit-in/200x150/filters:strip_icc()/pic3738560.jpg"
               ]
             }
           ],
           "image": [
             {
               "_text": [
-                "https://cf.geekdo-images.com/original/img/Wbp__Fl6QDKqzealhK2SDpoEk_g=/0x0/pic3738560.jpg"
+                "https://cf.geekdo-images.com/2ewHIIG_TRq8bYlqk0jIMw__original/img/cassW39WF2QrPImJF59efADAmM0=/0x0/filters:format(jpeg)/pic3738560.jpg"
               ]
             }
           ],
@@ -87,7 +87,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "373"
+                "totalvotes": "392"
               },
               "results": [
                 {
@@ -110,7 +110,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "263"
+                        "numvotes": "279"
                       }
                     }
                   ]
@@ -123,7 +123,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "346"
+                        "numvotes": "364"
                       }
                     },
                     {
@@ -135,7 +135,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "2"
+                        "numvotes": "3"
                       }
                     }
                   ]
@@ -154,13 +154,13 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "7"
+                        "numvotes": "8"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "256"
+                        "numvotes": "270"
                       }
                     }
                   ]
@@ -171,7 +171,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "168"
+                "totalvotes": "174"
               },
               "results": [
                 {
@@ -203,7 +203,7 @@
                     {
                       "_attributes": {
                         "value": "6",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     },
                     {
@@ -215,19 +215,19 @@
                     {
                       "_attributes": {
                         "value": "10",
-                        "numvotes": "21"
+                        "numvotes": "23"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "12",
-                        "numvotes": "79"
+                        "numvotes": "81"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "14",
-                        "numvotes": "60"
+                        "numvotes": "61"
                       }
                     },
                     {
@@ -256,44 +256,44 @@
               "_attributes": {
                 "name": "language_dependence",
                 "title": "Language Dependence",
-                "totalvotes": "188"
+                "totalvotes": "193"
               },
               "results": [
                 {
                   "result": [
                     {
                       "_attributes": {
-                        "level": "1",
+                        "level": "46",
                         "value": "No necessary in-game text",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "2",
+                        "level": "47",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "3",
+                        "level": "48",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "7"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "4",
+                        "level": "49",
                         "value": "Extensive use of text - massive conversion needed to be playable",
-                        "numvotes": "163"
+                        "numvotes": "165"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "5",
+                        "level": "50",
                         "value": "Unplayable in another language",
-                        "numvotes": "17"
+                        "numvotes": "20"
                       }
                     }
                   ]
@@ -368,8 +368,22 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
+                "id": "3004",
+                "value": "Deck Construction"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
                 "id": "2040",
                 "value": "Hand Management"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2876",
+                "value": "Race"
               }
             },
             {
@@ -396,29 +410,36 @@
             {
               "_attributes": {
                 "type": "boardgamefamily",
-                "id": "17106",
-                "value": "Android"
+                "id": "5337",
+                "value": "Collectible: Living Card Game (Fantasy Flight Games)"
               }
             },
             {
               "_attributes": {
                 "type": "boardgamefamily",
                 "id": "18254",
-                "value": "Android: Netrunner LCG"
+                "value": "Game: Android – Netrunner (LCG)"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
+                "id": "61979",
+                "value": "Players: Two Player Only Games"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
+                "id": "17106",
+                "value": "Setting: Android"
               }
             },
             {
               "_attributes": {
                 "type": "boardgamefamily",
                 "id": "5611",
-                "value": "Cyberpunk"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamefamily",
-                "id": "5337",
-                "value": "Living Card Game"
+                "value": "Theme: Cyberpunk"
               }
             },
             {
@@ -817,14 +838,28 @@
               "_attributes": {
                 "type": "boardgameexpansion",
                 "id": "277132",
-                "value": "Downfall (Fan expansion for Android: Netrunner)"
+                "value": "Downfall (fan expansion for Android: Netrunner)"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "345881",
+                "value": "System Update 2021 (fan expansion for Android: Netrunner)"
               }
             },
             {
               "_attributes": {
                 "type": "boardgameexpansion",
                 "id": "299068",
-                "value": "Uprising (Fan expansion for Android: Netrunner)"
+                "value": "Uprising (fan expansion for Android: Netrunner)"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameintegration",
+                "id": "345976",
+                "value": "System Gateway (fan expansion for Android: Netrunner)"
               }
             },
             {
@@ -971,13 +1006,6 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
-                "id": "12540",
-                "value": "Game Harbor"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamepublisher",
                 "id": "5530",
                 "value": "Giochi Uniti"
               }
@@ -993,7 +1021,7 @@
               "_attributes": {
                 "type": "boardgamepublisher",
                 "id": "8291",
-                "value": "Korea Boardgames co., Ltd."
+                "value": "Korea Boardgames Co., Ltd."
               }
             }
           ],
@@ -1007,21 +1035,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "25664"
+                        "value": "27640"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.88032"
+                        "value": "7.87587"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "7.68694"
+                        "value": "7.66804"
                       }
                     }
                   ],
@@ -1034,8 +1062,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "47",
-                            "bayesaverage": "7.68694"
+                            "value": "64",
+                            "bayesaverage": "7.66804"
                           }
                         },
                         {
@@ -1045,7 +1073,7 @@
                             "name": "cgs",
                             "friendlyname": "Customizable Rank",
                             "value": "3",
-                            "bayesaverage": "7.75057"
+                            "bayesaverage": "7.75196"
                           }
                         }
                       ]
@@ -1054,7 +1082,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.6604"
+                        "value": "1.66138"
                       }
                     }
                   ],
@@ -1068,49 +1096,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "39889"
+                        "value": "42607"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "1460"
+                        "value": "1414"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "554"
+                        "value": "565"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "4334"
+                        "value": "4789"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "5309"
+                        "value": "5714"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "1523"
+                        "value": "1590"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "3.3821"
+                        "value": "3.3943"
                       }
                     }
                   ]

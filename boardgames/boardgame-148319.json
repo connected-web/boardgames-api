@@ -13,14 +13,14 @@
           "thumbnail": [
             {
               "_text": [
-                "https://cf.geekdo-images.com/thumb/img/cZEFAmQEknGO6vb52ONjIEpixKg=/fit-in/200x150/pic2046290.png"
+                "https://cf.geekdo-images.com/fsUCwhRp_5knh6eY8EduTw__thumb/img/_mkrhR0iN7QX5e1LhsPtDbhXhMo=/fit-in/200x150/filters:strip_icc()/pic2046290.png"
               ]
             }
           ],
           "image": [
             {
               "_text": [
-                "https://cf.geekdo-images.com/original/img/5X-G9gh51GmTQqgawQoipQhCnm4=/0x0/pic2046290.png"
+                "https://cf.geekdo-images.com/fsUCwhRp_5knh6eY8EduTw__original/img/FgUk3tNrF0_ryLIT3S0nnZUY8iE=/0x0/filters:format(png)/pic2046290.png"
               ]
             }
           ],
@@ -44,6 +44,13 @@
                 "type": "alternate",
                 "sortindex": "1",
                 "value": "惨劇ルーパー"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "트레지디 루퍼"
               }
             }
           ],
@@ -80,7 +87,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "85"
+                "totalvotes": "90"
               },
               "results": [
                 {
@@ -103,7 +110,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "58"
+                        "numvotes": "63"
                       }
                     }
                   ]
@@ -122,13 +129,13 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "34"
+                        "numvotes": "37"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "25"
+                        "numvotes": "27"
                       }
                     }
                   ]
@@ -147,13 +154,13 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "57"
+                        "numvotes": "59"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "13"
+                        "numvotes": "14"
                       }
                     }
                   ]
@@ -166,7 +173,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "75"
+                        "numvotes": "79"
                       }
                     },
                     {
@@ -203,7 +210,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "49"
+                        "numvotes": "52"
                       }
                     }
                   ]
@@ -306,35 +313,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "946",
+                        "level": "36",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "947",
+                        "level": "37",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "948",
+                        "level": "38",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "13"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "949",
+                        "level": "39",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "9"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "950",
+                        "level": "40",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -383,6 +390,13 @@
             {
               "_attributes": {
                 "type": "boardgamecategory",
+                "id": "1002",
+                "value": "Card Game"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamecategory",
                 "id": "1039",
                 "value": "Deduction"
               }
@@ -392,6 +406,20 @@
                 "type": "boardgamecategory",
                 "id": "1040",
                 "value": "Murder/Mystery"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2893",
+                "value": "Communication Limits"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "3002",
+                "value": "Deduction"
               }
             },
             {
@@ -425,29 +453,36 @@
             {
               "_attributes": {
                 "type": "boardgamefamily",
-                "id": "5601",
-                "value": "Anime & Manga"
+                "id": "56426",
+                "value": "Game: Tragedy Looper"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
+                "id": "72224",
+                "value": "Misc: Limited replayability"
               }
             },
             {
               "_attributes": {
                 "type": "boardgamefamily",
                 "id": "49383",
-                "value": "One versus Many"
+                "value": "Players: One versus Many"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
+                "id": "5601",
+                "value": "Theme: Anime / Manga"
               }
             },
             {
               "_attributes": {
                 "type": "boardgamefamily",
                 "id": "6258",
-                "value": "Time Travel"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamefamily",
-                "id": "56426",
-                "value": "Tragedy Looper"
+                "value": "Theme: Time Travel"
               }
             },
             {
@@ -565,8 +600,15 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "46431",
+                "value": "MTS Games"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "538",
-                "value": "Z-Man Games, Inc."
+                "value": "Z-Man Games"
               }
             }
           ],
@@ -580,21 +622,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "3786"
+                        "value": "4139"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.24792"
+                        "value": "7.20322"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.7422"
+                        "value": "6.67749"
                       }
                     }
                   ],
@@ -607,8 +649,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "648",
-                            "bayesaverage": "6.7422"
+                            "value": "787",
+                            "bayesaverage": "6.67749"
                           }
                         },
                         {
@@ -617,8 +659,8 @@
                             "id": "5496",
                             "name": "thematic",
                             "friendlyname": "Thematic Rank",
-                            "value": "143",
-                            "bayesaverage": "6.92023"
+                            "value": "168",
+                            "bayesaverage": "6.86423"
                           }
                         },
                         {
@@ -627,8 +669,8 @@
                             "id": "5497",
                             "name": "strategygames",
                             "friendlyname": "Strategy Game Rank",
-                            "value": "380",
-                            "bayesaverage": "6.83734"
+                            "value": "467",
+                            "bayesaverage": "6.77282"
                           }
                         }
                       ]
@@ -637,7 +679,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.52764"
+                        "value": "1.54075"
                       }
                     }
                   ],
@@ -651,49 +693,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "7837"
+                        "value": "8341"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "372"
+                        "value": "410"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "220"
+                        "value": "203"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "1323"
+                        "value": "1431"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "947"
+                        "value": "1009"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "181"
+                        "value": "191"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "3.5304"
+                        "value": "3.5288"
                       }
                     }
                   ]

@@ -13,14 +13,14 @@
           "thumbnail": [
             {
               "_text": [
-                "https://cf.geekdo-images.com/thumb/img/d5BlNFN880X4VFyhLxLsdL0NK-I=/fit-in/200x150/pic2297198.png"
+                "https://cf.geekdo-images.com/9s0XQZ_DQbqD-OwDkCjf0Q__thumb/img/BGqDnyiilmGAHZP5nKQZF3suJ8Y=/fit-in/200x150/filters:strip_icc()/pic2297198.png"
               ]
             }
           ],
           "image": [
             {
               "_text": [
-                "https://cf.geekdo-images.com/original/img/aU3J_mMj3-7RqTIcLaaB_2kZ_b8=/0x0/pic2297198.png"
+                "https://cf.geekdo-images.com/9s0XQZ_DQbqD-OwDkCjf0Q__original/img/7N-RjlTL1Ur02V16KTo49AhG6Ao=/0x0/filters:format(png)/pic2297198.png"
               ]
             }
           ],
@@ -58,6 +58,20 @@
                 "type": "alternate",
                 "sortindex": "1",
                 "value": "Pandemic: Stato di Emergenza"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "Pandemic: Stav ohrožení"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "Pandemic: Szükségállapot"
               }
             },
             {
@@ -334,35 +348,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "696",
+                        "level": "11",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "697",
+                        "level": "12",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "3"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "698",
+                        "level": "13",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "699",
+                        "level": "14",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "700",
+                        "level": "15",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -475,7 +489,7 @@
               "_attributes": {
                 "type": "boardgamefamily",
                 "id": "3430",
-                "value": "Pandemic"
+                "value": "Game: Pandemic"
               }
             },
             {
@@ -534,7 +548,7 @@
               "_attributes": {
                 "type": "boardgamepublisher",
                 "id": "538",
-                "value": "Z-Man Games, Inc."
+                "value": "Z-Man Games"
               }
             },
             {
@@ -554,8 +568,22 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "8820",
+                "value": "Gém Klub Kft."
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "3218",
                 "value": "Lautapelit.fi"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "7992",
+                "value": "MINDOK"
               }
             },
             {
@@ -576,21 +604,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "1300"
+                        "value": "1602"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.61574"
+                        "value": "7.60397"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.4412"
+                        "value": "6.45371"
                       }
                     }
                   ],
@@ -604,7 +632,17 @@
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "6.4412"
+                            "bayesaverage": "6.45371"
+                          }
+                        },
+                        {
+                          "_attributes": {
+                            "type": "family",
+                            "id": "5497",
+                            "name": "strategygames",
+                            "friendlyname": "Strategy Game Rank",
+                            "value": "Not Ranked",
+                            "bayesaverage": "6.57061"
                           }
                         }
                       ]
@@ -613,7 +651,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.32643"
+                        "value": "1.32021"
                       }
                     }
                   ],
@@ -627,49 +665,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "6497"
+                        "value": "7886"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "44"
+                        "value": "58"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "215"
+                        "value": "190"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "1356"
+                        "value": "1479"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "293"
+                        "value": "344"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "35"
+                        "value": "41"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2.6571"
+                        "value": "2.6585"
                       }
                     }
                   ]

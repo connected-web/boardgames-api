@@ -13,14 +13,14 @@
           "thumbnail": [
             {
               "_text": [
-                "https://cf.geekdo-images.com/thumb/img/N4KwiYjwSJzjNpTSAIeAQJBuLBE=/fit-in/200x150/pic3869828.jpg"
+                "https://cf.geekdo-images.com/JfRSyYQrbr2kcmj0460O2A__thumb/img/CuCO91HilXwj5CjKFRDpYv5hN04=/fit-in/200x150/filters:strip_icc()/pic3869828.jpg"
               ]
             }
           ],
           "image": [
             {
               "_text": [
-                "https://cf.geekdo-images.com/original/img/GPq9sfT1idj4w38-5grvs3BB1fA=/0x0/pic3869828.jpg"
+                "https://cf.geekdo-images.com/JfRSyYQrbr2kcmj0460O2A__original/img/qMy12FAtJj_vTXLvaGXQNco7ams=/0x0/filters:format(jpeg)/pic3869828.jpg"
               ]
             }
           ],
@@ -44,6 +44,13 @@
                 "type": "alternate",
                 "sortindex": "1",
                 "value": "Merienda Jurásica"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "배고픈 공룡"
               }
             }
           ],
@@ -80,7 +87,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "4"
+                "totalvotes": "7"
               },
               "results": [
                 {
@@ -103,7 +110,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "4"
+                        "numvotes": "7"
                       }
                     }
                   ]
@@ -116,7 +123,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "4"
+                        "numvotes": "7"
                       }
                     },
                     {
@@ -153,7 +160,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "3"
+                        "numvotes": "6"
                       }
                     }
                   ]
@@ -164,7 +171,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "2"
+                "totalvotes": "6"
               },
               "results": [
                 {
@@ -184,19 +191,19 @@
                     {
                       "_attributes": {
                         "value": "4",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "5",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "6",
-                        "numvotes": "2"
+                        "numvotes": "4"
                       }
                     },
                     {
@@ -256,35 +263,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "401",
+                        "level": "176",
                         "value": "No necessary in-game text",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "402",
+                        "level": "177",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "403",
+                        "level": "178",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "404",
+                        "level": "179",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "405",
+                        "level": "180",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -360,6 +367,13 @@
             },
             {
               "_attributes": {
+                "type": "boardgamefamily",
+                "id": "61979",
+                "value": "Players: Two Player Only Games"
+              }
+            },
+            {
+              "_attributes": {
                 "type": "boardgameexpansion",
                 "id": "288677",
                 "value": "Jurassic Snack: 4-in-a-Rex Promo Card"
@@ -397,7 +411,7 @@
               "_attributes": {
                 "type": "boardgameintegration",
                 "id": "297666",
-                "value": "Jurassic Snack II"
+                "value": "Jurassic Brunch"
               }
             },
             {
@@ -432,6 +446,20 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "18856",
+                "value": "AURUM, Inc."
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "38822",
+                "value": "Board Game Box"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "40171",
                 "value": "Funiverse"
               }
@@ -456,6 +484,13 @@
                 "id": "29786",
                 "value": "Playagame Edizioni"
               }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "244",
+                "value": "Playroom Entertainment"
+              }
             }
           ],
           "statistics": [
@@ -468,21 +503,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "347"
+                        "value": "578"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "6.82069"
+                        "value": "6.78731"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "5.75089"
+                        "value": "5.8142"
                       }
                     }
                   ],
@@ -495,8 +530,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "3968",
-                            "bayesaverage": "5.75089"
+                            "value": "3722",
+                            "bayesaverage": "5.8142"
                           }
                         }
                       ]
@@ -505,7 +540,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.16684"
+                        "value": "1.14366"
                       }
                     }
                   ],
@@ -519,49 +554,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "645"
+                        "value": "1246"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "7"
+                        "value": "9"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "35"
+                        "value": "37"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "198"
+                        "value": "247"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "71"
+                        "value": "128"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "4"
+                        "value": "11"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "1.25"
+                        "value": "1.1818"
                       }
                     }
                   ]

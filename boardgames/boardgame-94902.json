@@ -13,14 +13,14 @@
           "thumbnail": [
             {
               "_text": [
-                "https://cf.geekdo-images.com/thumb/img/MddPL0-A8VKrUkL4UV1LbOYKd9c=/fit-in/200x150/pic4222497.png"
+                "https://cf.geekdo-images.com/7Tfq6Jeik9PON46j1bqrew__thumb/img/e_R-CGKhA23h-q4l5_oxXvshNj0=/fit-in/200x150/filters:strip_icc()/pic4222497.png"
               ]
             }
           ],
           "image": [
             {
               "_text": [
-                "https://cf.geekdo-images.com/original/img/XjQB0hNuu4Z_V0TfLDDA05-Epu0=/0x0/pic4222497.png"
+                "https://cf.geekdo-images.com/7Tfq6Jeik9PON46j1bqrew__original/img/MSbRO0k8_GW94CN78XnAs1lU8OI=/0x0/filters:format(png)/pic4222497.png"
               ]
             }
           ],
@@ -80,7 +80,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "4"
+                "totalvotes": "6"
               },
               "results": [
                 {
@@ -103,7 +103,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "3"
+                        "numvotes": "5"
                       }
                     }
                   ]
@@ -128,7 +128,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "2"
+                        "numvotes": "4"
                       }
                     }
                   ]
@@ -147,7 +147,7 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "1"
+                        "numvotes": "3"
                       }
                     },
                     {
@@ -166,7 +166,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "1"
+                        "numvotes": "3"
                       }
                     },
                     {
@@ -191,7 +191,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "1"
+                        "numvotes": "3"
                       }
                     },
                     {
@@ -216,7 +216,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "2"
+                        "numvotes": "4"
                       }
                     },
                     {
@@ -241,7 +241,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "1"
+                        "numvotes": "2"
                       }
                     },
                     {
@@ -253,7 +253,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "2"
+                        "numvotes": "3"
                       }
                     }
                   ]
@@ -264,7 +264,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "2"
+                "totalvotes": "3"
               },
               "results": [
                 {
@@ -314,7 +314,7 @@
                     {
                       "_attributes": {
                         "value": "12",
-                        "numvotes": "2"
+                        "numvotes": "3"
                       }
                     },
                     {
@@ -350,7 +350,48 @@
                 "name": "language_dependence",
                 "title": "Language Dependence",
                 "totalvotes": "0"
-              }
+              },
+              "results": [
+                {
+                  "result": [
+                    {
+                      "_attributes": {
+                        "level": "76",
+                        "value": "No necessary in-game text",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "77",
+                        "value": "Some necessary text - easily memorized or small crib sheet",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "78",
+                        "value": "Moderate in-game text - needs crib sheet or paste ups",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "79",
+                        "value": "Extensive use of text - massive conversion needed to be playable",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "80",
+                        "value": "Unplayable in another language",
+                        "numvotes": "0"
+                      }
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "playingtime": [
@@ -414,14 +455,14 @@
               "_attributes": {
                 "type": "boardgamefamily",
                 "id": "7307",
-                "value": "Dungeons & Dragons"
+                "value": "Setting: Dungeons & Dragons"
               }
             },
             {
               "_attributes": {
                 "type": "boardgamefamily",
                 "id": "7757",
-                "value": "From RPG books to board games"
+                "value": "Versions & Editions: Board Game Versions of Role-Playing Games"
               }
             },
             {
@@ -456,21 +497,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "255"
+                        "value": "390"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.55003"
+                        "value": "7.64061"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "5.78609"
+                        "value": "5.86692"
                       }
                     }
                   ],
@@ -483,8 +524,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "3621",
-                            "bayesaverage": "5.78609"
+                            "value": "3293",
+                            "bayesaverage": "5.86692"
                           }
                         }
                       ]
@@ -493,7 +534,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.79755"
+                        "value": "1.73459"
                       }
                     }
                   ],
@@ -507,49 +548,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "1252"
+                        "value": "1963"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "19"
+                        "value": "29"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "2"
+                        "value": "4"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "40"
+                        "value": "53"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "102"
+                        "value": "155"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "15"
+                        "value": "19"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2.6"
+                        "value": "2.7895"
                       }
                     }
                   ]
