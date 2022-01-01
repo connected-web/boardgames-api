@@ -2,11 +2,11 @@
   "name": "Pandemic",
   "gameFamilyId": "pandemic",
   "earliestDate": "2018-01-07",
-  "latestDate": "2021-11-19",
+  "latestDate": "2021-12-06",
   "sequenceStartDate": "2018-01-07",
-  "sequenceEndDate": "2021-11-19",
-  "daysInSequence": 1413,
-  "daysWithUnplayedGames": 1345,
+  "sequenceEndDate": "2021-12-06",
+  "daysInSequence": 1430,
+  "daysWithUnplayedGames": 1360,
   "gamesPlayedPerDay": {
     "1": 1,
     "2": 0,
@@ -1420,7 +1420,24 @@
     "1410": 0,
     "1411": 0,
     "1412": 0,
-    "1413": 1
+    "1413": 1,
+    "1414": 0,
+    "1415": 0,
+    "1416": 0,
+    "1417": 0,
+    "1418": 0,
+    "1419": 0,
+    "1420": 0,
+    "1421": 0,
+    "1422": 0,
+    "1423": 0,
+    "1424": 0,
+    "1425": 0,
+    "1426": 0,
+    "1427": 1,
+    "1428": 0,
+    "1429": 0,
+    "1430": 1
   },
   "gamesPlayed": [
     {
@@ -1887,10 +1904,22 @@
       "coOpOutcome": "Won",
       "coOp": "Yes",
       "name": "Pandemic Legacy: Season 0"
+    },
+    {
+      "date": "2021-12-03",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "name": "Pandemic Legacy: Season 0"
+    },
+    {
+      "date": "2021-12-06",
+      "coOpOutcome": "Won",
+      "coOp": "Yes",
+      "name": "Pandemic Legacy: Season 0"
     }
   ],
-  "totalGamesPlayed": 71,
-  "averageGamesPlayedPerDay": 0.0502,
+  "totalGamesPlayed": 73,
+  "averageGamesPlayedPerDay": 0.051,
   "mostGamesPlayedInADay": [
     {
       "date": "2018-07-08",
@@ -1920,19 +1949,19 @@
     "Pandemic: The Cure"
   ],
   "uniqueGamesPlayedCount": 16,
-  "uniqueGamesPlayedPercentage": 0.2254,
+  "uniqueGamesPlayedPercentage": 0.2192,
   "mostPlayedGames": [
     {
       "name": "Pandemic Legacy: Season 1",
       "plays": 10
     }
   ],
-  "coOpGamesPlayedCount": 62,
-  "coOpGamesPlayedPercentage": 0.8732,
-  "coOpGameWins": 47,
+  "coOpGamesPlayedCount": 64,
+  "coOpGamesPlayedPercentage": 0.8767,
+  "coOpGameWins": 49,
   "coOpGameLoses": 15,
-  "coOpWinRate": 0.7581,
-  "coOpLossRate": 0.2419,
+  "coOpWinRate": 0.7656,
+  "coOpLossRate": 0.2344,
   "winCountHannah": 0,
   "winCountJohn": 6,
   "winCountOther": 0,

@@ -2,11 +2,11 @@
   "name": "Ungrouped",
   "gameFamilyId": "brass",
   "earliestDate": "2020-03-14",
-  "latestDate": "2021-11-21",
+  "latestDate": "2021-11-28",
   "sequenceStartDate": "2020-03-14",
-  "sequenceEndDate": "2021-11-21",
-  "daysInSequence": 618,
-  "daysWithUnplayedGames": 608,
+  "sequenceEndDate": "2021-11-28",
+  "daysInSequence": 625,
+  "daysWithUnplayedGames": 614,
   "gamesPlayedPerDay": {
     "1": 1,
     "2": 0,
@@ -625,7 +625,14 @@
     "615": 0,
     "616": 0,
     "617": 0,
-    "618": 1
+    "618": 1,
+    "619": 0,
+    "620": 0,
+    "621": 0,
+    "622": 0,
+    "623": 0,
+    "624": 0,
+    "625": 1
   },
   "gamesPlayed": [
     {
@@ -703,10 +710,16 @@
       "winner": "John",
       "coOp": "No",
       "name": "Brass: Lancashire "
+    },
+    {
+      "date": "2021-11-28",
+      "winner": "John",
+      "coOp": "No",
+      "name": "Brass: Lancashire "
     }
   ],
-  "totalGamesPlayed": 11,
-  "averageGamesPlayedPerDay": 0.0178,
+  "totalGamesPlayed": 12,
+  "averageGamesPlayedPerDay": 0.0192,
   "mostGamesPlayedInADay": [
     {
       "date": "2021-01-16",
@@ -721,7 +734,7 @@
     "Brass: Lancashire "
   ],
   "uniqueGamesPlayedCount": 2,
-  "uniqueGamesPlayedPercentage": 0.1818,
+  "uniqueGamesPlayedPercentage": 0.1667,
   "mostPlayedGames": [
     {
       "name": "Brass: Birmingham",
@@ -735,12 +748,12 @@
   "coOpWinRate": 0,
   "coOpLossRate": 0,
   "winCountHannah": 3,
-  "winCountJohn": 8,
+  "winCountJohn": 9,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 11,
-  "winPercentageHannah": 0.2727,
-  "winPercentageJohn": 0.7273,
+  "winnableGamesTotal": 12,
+  "winPercentageHannah": 0.25,
+  "winPercentageJohn": 0.75,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
   "mostWonGames": "John",
