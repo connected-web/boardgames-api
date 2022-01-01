@@ -12,6 +12,7 @@ async function start () {
 
   boardGameGeek.collection = await readJson('bgg-collection.json')
   calisaurus.playstats = await readJson('cali-playstats.json')
+  calisaurus.playrecords = await readJson('cali-playrecords.json')
   calisaurus.index = await readJson('boardgame-index.json')
 
   report('Processing boardgame lists')

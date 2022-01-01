@@ -27972,10 +27972,10 @@
       "name": "Ungrouped",
       "gameFamilyId": "wildcard",
       "earliestDate": "2021-01-31",
-      "latestDate": "2021-12-31",
+      "latestDate": "2022-01-01",
       "sequenceStartDate": "2021-01-31",
-      "sequenceEndDate": "2021-12-31",
-      "daysInSequence": 335,
+      "sequenceEndDate": "2022-01-01",
+      "daysInSequence": 336,
       "daysWithUnplayedGames": 308,
       "gamesPlayedPerDay": {
         "1": 1,
@@ -28312,7 +28312,8 @@
         "332": 0,
         "333": 0,
         "334": 0,
-        "335": 1
+        "335": 1,
+        "336": 1
       },
       "gamesPlayed": [
         {
@@ -28541,10 +28542,18 @@
           "winner": "Other",
           "coOp": "No",
           "name": "Dog Lover"
+        },
+        {
+          "date": "2022-01-01",
+          "winner": "Hannah",
+          "coOp": "no",
+          "notes": "Played with Prelude expansion. Hannah got away with a massive production lead after corporation Earth bonuses and successive card discount developments; culminating in a huge  space toll.",
+          "noOfPlayers": 2,
+          "name": "Terraforming Mars"
         }
       ],
-      "totalGamesPlayed": 33,
-      "averageGamesPlayedPerDay": 0.0985,
+      "totalGamesPlayed": 34,
+      "averageGamesPlayedPerDay": 0.1012,
       "mostGamesPlayedInADay": [
         {
           "date": "2021-10-16",
@@ -28573,28 +28582,28 @@
         "Welcome To Your Perfect Home"
       ],
       "uniqueGamesPlayedCount": 15,
-      "uniqueGamesPlayedPercentage": 0.4545,
+      "uniqueGamesPlayedPercentage": 0.4412,
       "mostPlayedGames": [
         {
           "name": "Terraforming Mars",
-          "plays": 7
+          "plays": 8
         }
       ],
       "coOpGamesPlayedCount": 1,
-      "coOpGamesPlayedPercentage": 0.0303,
+      "coOpGamesPlayedPercentage": 0.0294,
       "coOpGameWins": 0,
       "coOpGameLoses": 1,
       "coOpWinRate": 0,
       "coOpLossRate": 1,
-      "winCountHannah": 17,
+      "winCountHannah": 18,
       "winCountJohn": 6,
       "winCountOther": 7,
       "winCountDraw": 2,
-      "winnableGamesTotal": 32,
-      "winPercentageHannah": 0.5313,
-      "winPercentageJohn": 0.1875,
-      "winPercentageOther": 0.2188,
-      "winPercentageDraw": 0.0625,
+      "winnableGamesTotal": 33,
+      "winPercentageHannah": 0.5455,
+      "winPercentageJohn": 0.1818,
+      "winPercentageOther": 0.2121,
+      "winPercentageDraw": 0.0606,
       "mostWonGames": "Hannah",
       "mostWonGamesJohn": [
         {
@@ -28625,7 +28634,7 @@
       "mostWonGamesHannah": [
         {
           "game": "Terraforming Mars",
-          "plays": 5
+          "plays": 6
         }
       ]
     },
@@ -36044,10 +36053,10 @@
       "name": "The Mind",
       "gameFamilyId": "the-mind",
       "earliestDate": "2018-08-04",
-      "latestDate": "2021-12-31",
+      "latestDate": "2022-01-01",
       "sequenceStartDate": "2018-08-04",
-      "sequenceEndDate": "2021-12-31",
-      "daysInSequence": 1246,
+      "sequenceEndDate": "2022-01-01",
+      "daysInSequence": 1247,
       "daysWithUnplayedGames": 1237,
       "gamesPlayedPerDay": {
         "1": 1,
@@ -37295,7 +37304,8 @@
         "1243": 0,
         "1244": 0,
         "1245": 0,
-        "1246": 1
+        "1246": 1,
+        "1247": 1
       },
       "gamesPlayed": [
         {
@@ -37373,10 +37383,18 @@
           "coOpOutcome": "Loss",
           "coOp": "Yes",
           "name": "The Mind Extreme"
+        },
+        {
+          "date": "2022-01-01",
+          "coOpOutcome": "win",
+          "coOp": "yes",
+          "notes": "First game of the year! Played with Alan and Sophie. Made it to level 8!",
+          "noOfPlayers": 4,
+          "name": "The Mind"
         }
       ],
-      "totalGamesPlayed": 11,
-      "averageGamesPlayedPerDay": 0.0088,
+      "totalGamesPlayed": 12,
+      "averageGamesPlayedPerDay": 0.0096,
       "mostGamesPlayedInADay": [
         {
           "date": "2018-09-02",
@@ -37392,19 +37410,19 @@
         "The Mind Extreme"
       ],
       "uniqueGamesPlayedCount": 2,
-      "uniqueGamesPlayedPercentage": 0.1818,
+      "uniqueGamesPlayedPercentage": 0.1667,
       "mostPlayedGames": [
         {
           "name": "The Mind",
-          "plays": 8
+          "plays": 9
         }
       ],
-      "coOpGamesPlayedCount": 11,
+      "coOpGamesPlayedCount": 12,
       "coOpGamesPlayedPercentage": 1,
-      "coOpGameWins": 1,
+      "coOpGameWins": 2,
       "coOpGameLoses": 10,
-      "coOpWinRate": 0.0909,
-      "coOpLossRate": 0.9091,
+      "coOpWinRate": 0.1667,
+      "coOpLossRate": 0.8333,
       "winCountHannah": 0,
       "winCountJohn": 0,
       "winCountOther": 0,
@@ -62492,8 +62510,8 @@
           "date": "2020-03-15",
           "winner": "Hannah",
           "coOp": "No",
-          "mechanics": "Airecon",
           "gameFamily": "Super-Bee",
+          "mechanics": "Airecon",
           "name": "Super-Bee"
         }
       ],
@@ -62559,8 +62577,8 @@
           "date": "2020-03-15",
           "coOpOutcome": "Won",
           "coOp": "Yes",
-          "mechanics": "Airecon",
           "gameFamily": "Sub Terra II",
+          "mechanics": "Airecon",
           "name": "Sub Terra II"
         }
       ],
@@ -62621,8 +62639,8 @@
           "date": "2020-03-15",
           "winner": "Hannah",
           "coOp": "No",
-          "mechanics": "Airecon",
           "gameFamily": "Arlukkachase",
+          "mechanics": "Airecon",
           "name": "Arlukkachase"
         }
       ],

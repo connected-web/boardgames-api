@@ -1,7 +1,7 @@
 {
   "sequenceStartDate": "2018-01-01",
-  "sequenceEndDate": "2021-12-31",
-  "daysInSequence": 1461,
+  "sequenceEndDate": "2022-01-01",
+  "daysInSequence": 1462,
   "daysWithUnplayedGames": 699,
   "gamesPlayedPerDay": {
     "1": 2,
@@ -1464,7 +1464,8 @@
     "1458": 1,
     "1459": 0,
     "1460": 3,
-    "1461": 5
+    "1461": 5,
+    "1462": 2
   },
   "gamesPlayed": [
     {
@@ -9393,10 +9394,24 @@
       "name": "The Mind Extreme",
       "coOp": "Yes",
       "coOpOutcome": "Loss"
+    },
+    {
+      "date": "2022-01-01",
+      "name": "Terraforming Mars",
+      "winner": "Hannah",
+      "coOp": "no",
+      "note": "Played with Prelude expansion. Hannah got away with a massive production lead after corporation Earth bonuses and successive card discount developments; culminating in a huge  space toll."
+    },
+    {
+      "date": "2022-01-01",
+      "name": "The Mind",
+      "coOp": "yes",
+      "coOpOutcome": "win",
+      "note": "First game of the year! Played with Alan and Sophie. Made it to level 8!"
     }
   ],
-  "totalGamesPlayed": 1199,
-  "averageGamesPlayedPerDay": 0.8207,
+  "totalGamesPlayed": 1201,
+  "averageGamesPlayedPerDay": 0.8215,
   "mostGamesPlayedInADay": [
     {
       "date": "2018-06-02",
@@ -9681,27 +9696,27 @@
     "Yam Yam"
   ],
   "uniqueGamesPlayedCount": 255,
-  "uniqueGamesPlayedPercentage": 0.2127,
+  "uniqueGamesPlayedPercentage": 0.2123,
   "mostPlayedGames": [
     {
       "name": "Love Letter",
       "plays": 56
     }
   ],
-  "coOpGamesPlayedCount": 277,
-  "coOpGamesPlayedPercentage": 0.231,
-  "coOpGameWins": 180,
+  "coOpGamesPlayedCount": 278,
+  "coOpGamesPlayedPercentage": 0.2315,
+  "coOpGameWins": 181,
   "coOpGameLoses": 97,
-  "coOpWinRate": 0.6498,
-  "coOpLossRate": 0.3502,
-  "winCountHannah": 451,
+  "coOpWinRate": 0.6511,
+  "coOpLossRate": 0.3489,
+  "winCountHannah": 452,
   "winCountJohn": 413,
   "winCountOther": 32,
   "winCountDraw": 30,
-  "winnableGamesTotal": 926,
-  "winPercentageHannah": 0.487,
-  "winPercentageJohn": 0.446,
-  "winPercentageOther": 0.0346,
+  "winnableGamesTotal": 927,
+  "winPercentageHannah": 0.4876,
+  "winPercentageJohn": 0.4455,
+  "winPercentageOther": 0.0345,
   "winPercentageDraw": 0.0324,
   "mostWonGames": "Hannah",
   "mostWonGamesJohn": [

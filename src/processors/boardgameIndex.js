@@ -1,10 +1,12 @@
 const convertGSheetsDate = require('../util/convertGSheetsDate')
+const convertDDMMYYYYDate = require('../util/convertDDMMYYYYDate')
 const reduceNameToBoardGameApiId = require('../util/reduceNameToBoardGameApiId')
 const log = []
 const report = (...messages) => log.push(['[Create Board Game Index]', ...messages].join(' '))
 
-const expectedProperties = ['date', 'game', 'winner', 'coOpOutcome', 'coOp', 'notes', 'mechanics', 'gameFamily']
-const playRecordProperties = ['date', 'winner', 'coOpOutcome', 'notes', 'coOp', 'mechanics', 'gameFamily']
+const expectedPlaystatProperties = ['game', 'date', 'winner', 'coOpOutcome', 'coOp', 'notes', 'gameFamily', 'mechanics']
+const expectedPlayrecordProperties = ['name', 'date', 'winner', 'coOpOutcome', 'coOp', 'notes', 'noOfPlayers', 'expansions']
+const playRecordProperties = ['date', 'winner', 'coOpOutcome', 'coOp', 'notes', 'gameFamily', 'noOfPlayers', 'expansions', 'mechanics']
 const clone = d => JSON.parse(JSON.stringify(d))
 
 function fmn (n) {
@@ -14,10 +16,12 @@ function fmn (n) {
 async function createIndex (model) {
   const collection = model.boardGameGeek.collection
   const caliPlayStats = model.calisaurus.playstats
+  const caliPlayRecords = model.calisaurus.playrecords
 
   const boardGameIndex = {}
   collection.items[0].item.reduce(mapBoardGameGeekGame, boardGameIndex)
-  caliPlayStats.reduce(mapCaliPlayStatGame, boardGameIndex)
+  caliPlayStats.reduce(mapCaliPlaystatGame, boardGameIndex)
+  caliPlayRecords.reduce(mapCaliPlayrecordGame, boardGameIndex)
 
   function mapBoardGameGeekGame (accumulator, item) {
     const name = item.name[0]._text[0]
@@ -33,13 +37,38 @@ async function createIndex (model) {
     return accumulator
   }
 
-  function mapCaliPlayStatGame (accumulator, item) {
+  function mapCaliPlayrecordGame (accumulator, item) {
+    const name = item.name
+    if (name) {
+      const boardGameApiId = reduceNameToBoardGameApiId(name)
+      const entry = accumulator[boardGameApiId] || { boardGameApiId, playRecords: [], name }
+      const playRecord = {}
+      expectedPlayrecordProperties.forEach(key => {
+        let value = item[key]
+        if (key.toLowerCase().includes('date')) {
+          value = convertDDMMYYYYDate(value)
+        }
+
+        if (playRecordProperties.includes(key)) {
+          playRecord[key] = value
+        }
+      })
+      playRecord.gameFamily = playRecord.gameFamily || item.tags
+      entry.playRecords.push(playRecord)
+      accumulator[boardGameApiId] = entry
+    } else {
+      report('No name found on play record:', JSON.stringify(item))
+    }
+    return accumulator
+  }
+
+  function mapCaliPlaystatGame (accumulator, item) {
     const name = item.game
     if (name) {
       const boardGameApiId = reduceNameToBoardGameApiId(name)
       const entry = accumulator[boardGameApiId] || { boardGameApiId, playRecords: [], name }
       const playRecord = {}
-      expectedProperties.forEach(key => {
+      expectedPlaystatProperties.forEach(key => {
         let value = item[key]
         if (key.toLowerCase().includes('date')) {
           value = convertGSheetsDate(value)
@@ -53,7 +82,7 @@ async function createIndex (model) {
       entry.playRecords.push(playRecord)
       accumulator[boardGameApiId] = entry
     } else {
-      report('No name found on item:', JSON.stringify(item))
+      report('No name found on play stat:', JSON.stringify(item))
     }
     return accumulator
   }

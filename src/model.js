@@ -33,8 +33,8 @@ const model = {
   calisaurus: {
     index: {},
     feed: [],
-    playstats: [],
-    playrecords: []
+    playstats: [], /* 2018, 2020, 2021 */
+    playrecords: [] /* 2022 -> */
   },
   games: {},
   defaultBoardGameGeekCollection
