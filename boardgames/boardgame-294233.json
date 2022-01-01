@@ -13,14 +13,14 @@
           "thumbnail": [
             {
               "_text": [
-                "https://cf.geekdo-images.com/thumb/img/40tbHRtnf3hMBLDN9zcBWDz_Eyo=/fit-in/200x150/pic5051905.png"
+                "https://cf.geekdo-images.com/b18cl9ODGyLBnzJ6xbzzBA__thumb/img/0duPecJNeWI63YYTryhT2Gwj2kI=/fit-in/200x150/filters:strip_icc()/pic5797026.png"
               ]
             }
           ],
           "image": [
             {
               "_text": [
-                "https://cf.geekdo-images.com/original/img/tcPU54r7QI2WTSu4LEIGVoNAD6Q=/0x0/pic5051905.png"
+                "https://cf.geekdo-images.com/b18cl9ODGyLBnzJ6xbzzBA__original/img/LqWvd0FVNGbshCQmcjAkzyT4gZc=/0x0/filters:format(png)/pic5797026.png"
               ]
             }
           ],
@@ -73,7 +73,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "1"
+                "totalvotes": "2"
               },
               "results": [
                 {
@@ -140,7 +140,7 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "1"
+                        "numvotes": "2"
                       }
                     },
                     {
@@ -159,7 +159,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "1"
+                        "numvotes": "2"
                       }
                     },
                     {
@@ -292,8 +292,49 @@
               "_attributes": {
                 "name": "language_dependence",
                 "title": "Language Dependence",
-                "totalvotes": "0"
-              }
+                "totalvotes": "1"
+              },
+              "results": [
+                {
+                  "result": [
+                    {
+                      "_attributes": {
+                        "level": "1",
+                        "value": "No necessary in-game text",
+                        "numvotes": "1"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "2",
+                        "value": "Some necessary text - easily memorized or small crib sheet",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "3",
+                        "value": "Moderate in-game text - needs crib sheet or paste ups",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "4",
+                        "value": "Extensive use of text - massive conversion needed to be playable",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "5",
+                        "value": "Unplayable in another language",
+                        "numvotes": "0"
+                      }
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "playingtime": [
@@ -334,7 +375,21 @@
             },
             {
               "_attributes": {
+                "type": "boardgamefamily",
+                "id": "7535",
+                "value": "Animals: Chickens"
+              }
+            },
+            {
+              "_attributes": {
                 "type": "boardgamedesigner",
+                "id": "50009",
+                "value": "Jun Sasaki"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
                 "id": "50009",
                 "value": "Jun Sasaki"
               }
@@ -357,21 +412,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "42"
+                        "value": "148"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "6.73929"
+                        "value": "6.39928"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "5.53052"
+                        "value": "5.56988"
                       }
                     }
                   ],
@@ -384,8 +439,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "11557",
-                            "bayesaverage": "5.53052"
+                            "value": "8921",
+                            "bayesaverage": "5.56988"
                           }
                         }
                       ]
@@ -394,7 +449,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.20661"
+                        "value": "1.33455"
                       }
                     }
                   ],
@@ -408,49 +463,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "105"
+                        "value": "394"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "2"
+                        "value": "12"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "19"
+                        "value": "18"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "56"
+                        "value": "93"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "9"
+                        "value": "32"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "1"
+                        "value": "3"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2"
+                        "value": "1.6667"
                       }
                     }
                   ]

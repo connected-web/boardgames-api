@@ -13,14 +13,14 @@
           "thumbnail": [
             {
               "_text": [
-                "https://cf.geekdo-images.com/thumb/img/-7UMAChGEB8ky6P7OKKV9Frdozo=/fit-in/200x150/pic3485528.png"
+                "https://cf.geekdo-images.com/iRDSJ4wnIjbcZnYYmxrS7w__thumb/img/a3lM0zDNSGhWG-Q_7h5sMk24xCU=/fit-in/200x150/filters:strip_icc()/pic3485528.png"
               ]
             }
           ],
           "image": [
             {
               "_text": [
-                "https://cf.geekdo-images.com/original/img/vRcmSjD_IkTQa6vRGKsPVSuSpNM=/0x0/pic3485528.png"
+                "https://cf.geekdo-images.com/iRDSJ4wnIjbcZnYYmxrS7w__original/img/bSIutW2D3GSfc8vFkkio4NW2pEw=/0x0/filters:format(png)/pic3485528.png"
               ]
             }
           ],
@@ -80,7 +80,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "40"
+                "totalvotes": "55"
               },
               "results": [
                 {
@@ -103,7 +103,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "25"
+                        "numvotes": "32"
                       }
                     }
                   ]
@@ -122,13 +122,13 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "4"
+                        "numvotes": "6"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "27"
+                        "numvotes": "34"
                       }
                     }
                   ]
@@ -147,13 +147,13 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "20"
+                        "numvotes": "28"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "4"
+                        "numvotes": "6"
                       }
                     }
                   ]
@@ -166,13 +166,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "21"
+                        "numvotes": "28"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "9"
+                        "numvotes": "13"
                       }
                     },
                     {
@@ -191,19 +191,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "17"
+                        "numvotes": "24"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "11"
+                        "numvotes": "13"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "1"
+                        "numvotes": "2"
                       }
                     }
                   ]
@@ -216,19 +216,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "6"
+                        "numvotes": "7"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "15"
+                        "numvotes": "20"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "2"
+                        "numvotes": "4"
                       }
                     }
                   ]
@@ -253,7 +253,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "19"
+                        "numvotes": "23"
                       }
                     }
                   ]
@@ -264,7 +264,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "7"
+                "totalvotes": "8"
               },
               "results": [
                 {
@@ -308,7 +308,7 @@
                     {
                       "_attributes": {
                         "value": "10",
-                        "numvotes": "3"
+                        "numvotes": "4"
                       }
                     },
                     {
@@ -349,42 +349,42 @@
               "_attributes": {
                 "name": "language_dependence",
                 "title": "Language Dependence",
-                "totalvotes": "5"
+                "totalvotes": "6"
               },
               "results": [
                 {
                   "result": [
                     {
                       "_attributes": {
-                        "level": "21",
+                        "level": "116",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "22",
+                        "level": "117",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "2"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "23",
+                        "level": "118",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
-                        "numvotes": "3"
+                        "numvotes": "4"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "24",
+                        "level": "119",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "25",
+                        "level": "120",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -467,23 +467,30 @@
             },
             {
               "_attributes": {
-                "type": "boardgamefamily",
-                "id": "22824",
-                "value": "AEG: Big in Japan"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamefamily",
-                "id": "5141",
-                "value": "Cthulhu Mythos"
+                "type": "boardgamemechanic",
+                "id": "2823",
+                "value": "Score-and-Reset Game"
               }
             },
             {
               "_attributes": {
                 "type": "boardgamefamily",
                 "id": "27123",
-                "value": "Love Letter"
+                "value": "Game: Love Letter"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
+                "id": "22824",
+                "value": "Series: Big in Japan (AEG)"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
+                "id": "5141",
+                "value": "Theme: Cthulhu Mythos"
               }
             },
             {
@@ -554,21 +561,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "2424"
+                        "value": "3386"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.22807"
+                        "value": "7.23154"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.56612"
+                        "value": "6.62389"
                       }
                     }
                   ],
@@ -581,8 +588,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "881",
-                            "bayesaverage": "6.56612"
+                            "value": "864",
+                            "bayesaverage": "6.62389"
                           }
                         },
                         {
@@ -591,8 +598,8 @@
                             "id": "5498",
                             "name": "partygames",
                             "friendlyname": "Party Game Rank",
-                            "value": "39",
-                            "bayesaverage": "6.83971"
+                            "value": "40",
+                            "bayesaverage": "6.86137"
                           }
                         }
                       ]
@@ -601,7 +608,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.37227"
+                        "value": "1.38241"
                       }
                     }
                   ],
@@ -615,49 +622,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "4651"
+                        "value": "6322"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "68"
+                        "value": "76"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "90"
+                        "value": "100"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "604"
+                        "value": "762"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "461"
+                        "value": "595"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "44"
+                        "value": "66"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "1.3864"
+                        "value": "1.4545"
                       }
                     }
                   ]

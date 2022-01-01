@@ -13,14 +13,14 @@
           "thumbnail": [
             {
               "_text": [
-                "https://cf.geekdo-images.com/thumb/img/sacdBcOhw5_71Vo7bQGm5kHQFnU=/fit-in/200x150/pic3013618.jpg"
+                "https://cf.geekdo-images.com/e9Ug0vcSMJFzIhE8tQY1uA__thumb/img/JJD6dkgFWI5n0dbfKnUS8qGJcds=/fit-in/200x150/filters:strip_icc()/pic3013618.jpg"
               ]
             }
           ],
           "image": [
             {
               "_text": [
-                "https://cf.geekdo-images.com/original/img/ccgT3HZehJOdYQUK2sRd-f3ij14=/0x0/pic3013618.jpg"
+                "https://cf.geekdo-images.com/e9Ug0vcSMJFzIhE8tQY1uA__original/img/LO1czmO3qYR67Fp_XoY67Yx1Kcg=/0x0/filters:format(jpeg)/pic3013618.jpg"
               ]
             }
           ],
@@ -30,6 +30,13 @@
                 "type": "primary",
                 "sortindex": "1",
                 "value": "T.I.M.E Stories: Under the Mask"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "T.I.M.E stories Maszk alatt"
               }
             },
             {
@@ -65,13 +72,6 @@
                 "type": "alternate",
                 "sortindex": "1",
                 "value": "T.I.M.E Stories: Tajemnica Maski"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "alternate",
-                "sortindex": "1",
-                "value": "T.I.M.E Stories: Tajemnica Maski?"
               }
             },
             {
@@ -136,7 +136,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "16"
+                "totalvotes": "18"
               },
               "results": [
                 {
@@ -153,13 +153,13 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "1"
+                        "numvotes": "2"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "10"
+                        "numvotes": "11"
                       }
                     }
                   ]
@@ -178,7 +178,7 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "9"
+                        "numvotes": "11"
                       }
                     },
                     {
@@ -197,13 +197,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "2"
+                        "numvotes": "3"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "9"
+                        "numvotes": "10"
                       }
                     },
                     {
@@ -222,7 +222,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "11"
+                        "numvotes": "13"
                       }
                     },
                     {
@@ -259,7 +259,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "9"
+                        "numvotes": "10"
                       }
                     }
                   ]
@@ -517,21 +517,28 @@
               "_attributes": {
                 "type": "boardgamefamily",
                 "id": "35759",
-                "value": "T.I.M.E Stories"
+                "value": "Game: T.I.M.E Stories / TIME Stories"
               }
             },
             {
               "_attributes": {
                 "type": "boardgamefamily",
                 "id": "55922",
-                "value": "T.I.M.E Stories: White Cycle"
+                "value": "Game: T.I.M.E Stories – White Cycle"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
+                "id": "72224",
+                "value": "Misc: Limited replayability"
               }
             },
             {
               "_attributes": {
                 "type": "boardgamefamily",
                 "id": "6258",
-                "value": "Time Travel"
+                "value": "Theme: Time Travel"
               }
             },
             {
@@ -573,8 +580,22 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "25842",
+                "value": "Space Cowboys"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "157",
                 "value": "Asmodee"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "47848",
+                "value": "Asmodee China"
               }
             },
             {
@@ -601,6 +622,13 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "8820",
+                "value": "Gém Klub Kft."
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "1391",
                 "value": "Hobby Japan"
               }
@@ -610,13 +638,6 @@
                 "type": "boardgamepublisher",
                 "id": "7466",
                 "value": "Rebel Sp. z o.o."
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamepublisher",
-                "id": "25842",
-                "value": "Space Cowboys"
               }
             }
           ],
@@ -630,21 +651,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "3155"
+                        "value": "3681"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.40057"
+                        "value": "7.32183"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.80178"
+                        "value": "6.73045"
                       }
                     }
                   ],
@@ -658,7 +679,7 @@
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "6.80178"
+                            "bayesaverage": "6.73045"
                           }
                         },
                         {
@@ -668,7 +689,7 @@
                             "name": "thematic",
                             "friendlyname": "Thematic Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "7.04222"
+                            "bayesaverage": "6.96705"
                           }
                         }
                       ]
@@ -677,7 +698,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.38285"
+                        "value": "1.39087"
                       }
                     }
                   ],
@@ -691,49 +712,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "9603"
+                        "value": "10845"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "181"
+                        "value": "259"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "239"
+                        "value": "211"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "649"
+                        "value": "594"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "528"
+                        "value": "647"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "31"
+                        "value": "38"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2.5484"
+                        "value": "2.4474"
                       }
                     }
                   ]

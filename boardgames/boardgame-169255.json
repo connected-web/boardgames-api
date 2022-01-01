@@ -13,14 +13,14 @@
           "thumbnail": [
             {
               "_text": [
-                "https://cf.geekdo-images.com/thumb/img/pvN8nsQrHjQfp2mc_W4D_gsi-no=/fit-in/200x150/pic2783386.jpg"
+                "https://cf.geekdo-images.com/2gP4Uti9RPquZVlweeapLw__thumb/img/fe1ELDopk_qSeiDruI0hs8nmzSQ=/fit-in/200x150/filters:strip_icc()/pic2783386.jpg"
               ]
             }
           ],
           "image": [
             {
               "_text": [
-                "https://cf.geekdo-images.com/original/img/LKPXmtLhB_XdzlpS0KBbjCkPWB0=/0x0/pic2783386.jpg"
+                "https://cf.geekdo-images.com/2gP4Uti9RPquZVlweeapLw__original/img/BBz4zQ1fTrQtAs_lr39MF6ia-Og=/0x0/filters:format(jpeg)/pic2783386.jpg"
               ]
             }
           ],
@@ -108,7 +108,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "59"
+                "totalvotes": "65"
               },
               "results": [
                 {
@@ -131,7 +131,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "40"
+                        "numvotes": "42"
                       }
                     }
                   ]
@@ -144,13 +144,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "50"
+                        "numvotes": "54"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "7"
+                        "numvotes": "9"
                       }
                     },
                     {
@@ -169,13 +169,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "3"
+                        "numvotes": "4"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "36"
+                        "numvotes": "39"
                       }
                     },
                     {
@@ -194,13 +194,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "10"
+                        "numvotes": "12"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "30"
+                        "numvotes": "31"
                       }
                     },
                     {
@@ -219,19 +219,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "2"
+                        "numvotes": "3"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "11"
+                        "numvotes": "12"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "23"
+                        "numvotes": "24"
                       }
                     }
                   ]
@@ -327,44 +327,44 @@
               "_attributes": {
                 "name": "language_dependence",
                 "title": "Language Dependence",
-                "totalvotes": "13"
+                "totalvotes": "14"
               },
               "results": [
                 {
                   "result": [
                     {
                       "_attributes": {
-                        "level": "1",
+                        "level": "36",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "2",
+                        "level": "37",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "3",
+                        "level": "38",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
-                        "numvotes": "1"
+                        "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "4",
+                        "level": "39",
                         "value": "Extensive use of text - massive conversion needed to be playable",
-                        "numvotes": "11"
+                        "numvotes": "12"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "5",
+                        "level": "40",
                         "value": "Unplayable in another language",
-                        "numvotes": "1"
+                        "numvotes": "2"
                       }
                     }
                   ]
@@ -401,6 +401,13 @@
             }
           ],
           "link": [
+            {
+              "_attributes": {
+                "type": "boardgamecategory",
+                "id": "1023",
+                "value": "Bluffing"
+              }
+            },
             {
               "_attributes": {
                 "type": "boardgamecategory",
@@ -452,6 +459,20 @@
             },
             {
               "_attributes": {
+                "type": "boardgamecategory",
+                "id": "1001",
+                "value": "Political"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2916",
+                "value": "Alliances"
+              }
+            },
+            {
+              "_attributes": {
                 "type": "boardgamemechanic",
                 "id": "2041",
                 "value": "Card Drafting"
@@ -467,8 +488,22 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
+                "id": "2876",
+                "value": "Race"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
                 "id": "2020",
                 "value": "Simultaneous Action Selection"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2826",
+                "value": "Turn Order: Stat-Based"
               }
             },
             {
@@ -481,22 +516,22 @@
             {
               "_attributes": {
                 "type": "boardgamefamily",
-                "id": "8264",
-                "value": "A Game of Thrones LCG"
+                "id": "5068",
+                "value": "Books: A Song of Ice and Fire"
               }
             },
             {
               "_attributes": {
                 "type": "boardgamefamily",
                 "id": "5337",
-                "value": "Living Card Game"
+                "value": "Collectible: Living Card Game (Fantasy Flight Games)"
               }
             },
             {
               "_attributes": {
                 "type": "boardgamefamily",
-                "id": "5068",
-                "value": "A Song of Ice and Fire"
+                "id": "8264",
+                "value": "Game: A Game of Thrones – The Card Game (LCG)"
               }
             },
             {
@@ -959,21 +994,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "3874"
+                        "value": "4440"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.61142"
+                        "value": "7.55275"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.95078"
+                        "value": "6.88959"
                       }
                     }
                   ],
@@ -986,8 +1021,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "420",
-                            "bayesaverage": "6.95078"
+                            "value": "516",
+                            "bayesaverage": "6.88959"
                           }
                         },
                         {
@@ -996,8 +1031,8 @@
                             "id": "4667",
                             "name": "cgs",
                             "friendlyname": "Customizable Rank",
-                            "value": "12",
-                            "bayesaverage": "7.36296"
+                            "value": "11",
+                            "bayesaverage": "7.32657"
                           }
                         }
                       ]
@@ -1006,7 +1041,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.54576"
+                        "value": "1.56302"
                       }
                     }
                   ],
@@ -1020,49 +1055,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "7362"
+                        "value": "8402"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "338"
+                        "value": "364"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "101"
+                        "value": "91"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "730"
+                        "value": "769"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "739"
+                        "value": "833"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "123"
+                        "value": "135"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "3.5203"
+                        "value": "3.5333"
                       }
                     }
                   ]

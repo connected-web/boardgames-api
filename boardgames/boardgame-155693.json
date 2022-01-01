@@ -13,14 +13,14 @@
           "thumbnail": [
             {
               "_text": [
-                "https://cf.geekdo-images.com/thumb/img/aqgHuKwpaUfgIut1mtSpjPuW8EU=/fit-in/200x150/pic2092849.jpg"
+                "https://cf.geekdo-images.com/HbjYrNV0-t77zPJYYWX2Yg__thumb/img/HjoFgzMtT11hVSpxvWMpfZ9SFdA=/fit-in/200x150/filters:strip_icc()/pic2092849.jpg"
               ]
             }
           ],
           "image": [
             {
               "_text": [
-                "https://cf.geekdo-images.com/original/img/p6oWePUg0AvFAgq_1PAd7TyoBh0=/0x0/pic2092849.jpg"
+                "https://cf.geekdo-images.com/HbjYrNV0-t77zPJYYWX2Yg__original/img/mtZf0JKVfUmb4f85OE9DigI99YI=/0x0/filters:format(jpeg)/pic2092849.jpg"
               ]
             }
           ],
@@ -412,35 +412,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "1",
+                        "level": "31",
                         "value": "No necessary in-game text",
                         "numvotes": "2"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "2",
+                        "level": "32",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "3",
+                        "level": "33",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "4",
+                        "level": "34",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "5",
+                        "level": "35",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -453,21 +453,21 @@
           "playingtime": [
             {
               "_attributes": {
-                "value": "20"
+                "value": "30"
               }
             }
           ],
           "minplaytime": [
             {
               "_attributes": {
-                "value": "20"
+                "value": "15"
               }
             }
           ],
           "maxplaytime": [
             {
               "_attributes": {
-                "value": "20"
+                "value": "30"
               }
             }
           ],
@@ -511,7 +511,7 @@
               "_attributes": {
                 "type": "boardgamefamily",
                 "id": "5068",
-                "value": "A Song of Ice and Fire"
+                "value": "Books: A Song of Ice and Fire"
               }
             },
             {
@@ -547,6 +547,13 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "17",
+                "value": "Fantasy Flight Games"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "24631",
                 "value": "cutia.ro"
               }
@@ -563,13 +570,6 @@
                 "type": "boardgamepublisher",
                 "id": "2973",
                 "value": "Edge Entertainment"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamepublisher",
-                "id": "17",
-                "value": "Fantasy Flight Games"
               }
             },
             {
@@ -625,21 +625,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "1054"
+                        "value": "1188"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "5.2826"
+                        "value": "5.28607"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "5.39855"
+                        "value": "5.39958"
                       }
                     }
                   ],
@@ -652,8 +652,18 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "18535",
-                            "bayesaverage": "5.39855"
+                            "value": "21520",
+                            "bayesaverage": "5.39958"
+                          }
+                        },
+                        {
+                          "_attributes": {
+                            "type": "family",
+                            "id": "5499",
+                            "name": "familygames",
+                            "friendlyname": "Family Game Rank",
+                            "value": "2247",
+                            "bayesaverage": "5.37593"
                           }
                         }
                       ]
@@ -662,7 +672,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.59391"
+                        "value": "1.61834"
                       }
                     }
                   ],
@@ -676,49 +686,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "1965"
+                        "value": "2277"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "119"
+                        "value": "142"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "5"
+                        "value": "6"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "51"
+                        "value": "49"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "221"
+                        "value": "243"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "60"
+                        "value": "63"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "1.0667"
+                        "value": "1.0794"
                       }
                     }
                   ]

@@ -13,14 +13,14 @@
           "thumbnail": [
             {
               "_text": [
-                "https://cf.geekdo-images.com/thumb/img/B_tTbBTOBAWpxA6Fd9iofGc7Rm8=/fit-in/200x150/pic3556974.jpg"
+                "https://cf.geekdo-images.com/YjmvbsGeBmsM4RZ6ZJW0gA__thumb/img/GyuIX7qtLFGQh50_EbbMGQofZYo=/fit-in/200x150/filters:strip_icc()/pic3556974.jpg"
               ]
             }
           ],
           "image": [
             {
               "_text": [
-                "https://cf.geekdo-images.com/original/img/BTP058NC7Iq4vjrZ8N8exnxfIA4=/0x0/pic3556974.jpg"
+                "https://cf.geekdo-images.com/YjmvbsGeBmsM4RZ6ZJW0gA__original/img/5h2XaIlcqkRqjPo-DU6cYUH56X4=/0x0/filters:format(jpeg)/pic3556974.jpg"
               ]
             }
           ],
@@ -30,6 +30,13 @@
                 "type": "primary",
                 "sortindex": "1",
                 "value": "Topiary"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "Sprytni ogrodnicy"
               }
             },
             {
@@ -73,7 +80,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "19"
+                "totalvotes": "22"
               },
               "results": [
                 {
@@ -96,7 +103,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "6"
+                        "numvotes": "7"
                       }
                     }
                   ]
@@ -109,7 +116,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "13"
+                        "numvotes": "16"
                       }
                     },
                     {
@@ -140,13 +147,13 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "4"
+                        "numvotes": "5"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "3"
+                        "numvotes": "4"
                       }
                     }
                   ]
@@ -159,7 +166,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "4"
+                        "numvotes": "5"
                       }
                     },
                     {
@@ -171,7 +178,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "4"
+                        "numvotes": "5"
                       }
                     }
                   ]
@@ -196,7 +203,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "5"
+                        "numvotes": "6"
                       }
                     }
                   ]
@@ -299,35 +306,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "6",
+                        "level": "1",
                         "value": "No necessary in-game text",
                         "numvotes": "6"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "7",
+                        "level": "2",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "8",
+                        "level": "3",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "9",
+                        "level": "4",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "10",
+                        "level": "5",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -390,13 +397,6 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
-                "id": "2080",
-                "value": "Area Majority / Influence"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamemechanic",
                 "id": "2040",
                 "value": "Hand Management"
               }
@@ -410,16 +410,9 @@
             },
             {
               "_attributes": {
-                "type": "boardgamemechanic",
-                "id": "2082",
-                "value": "Worker Placement"
-              }
-            },
-            {
-              "_attributes": {
                 "type": "boardgamefamily",
                 "id": "39749",
-                "value": "5x5 grid"
+                "value": "Components: 5 x 5 Grids"
               }
             },
             {
@@ -467,8 +460,15 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "47651",
+                "value": "Edgard"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "8291",
-                "value": "Korea Boardgames co., Ltd."
+                "value": "Korea Boardgames Co., Ltd."
               }
             },
             {
@@ -496,21 +496,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "925"
+                        "value": "1112"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "6.76375"
+                        "value": "6.7243"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "5.99658"
+                        "value": "5.98069"
                       }
                     }
                   ],
@@ -523,8 +523,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "2333",
-                            "bayesaverage": "5.99658"
+                            "value": "2631",
+                            "bayesaverage": "5.98069"
                           }
                         },
                         {
@@ -533,8 +533,8 @@
                             "id": "5499",
                             "name": "familygames",
                             "friendlyname": "Family Game Rank",
-                            "value": "645",
-                            "bayesaverage": "6.12445"
+                            "value": "743",
+                            "bayesaverage": "6.09589"
                           }
                         }
                       ]
@@ -543,7 +543,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.19666"
+                        "value": "1.18638"
                       }
                     }
                   ],
@@ -557,49 +557,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "1391"
+                        "value": "1690"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "43"
+                        "value": "39"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "48"
+                        "value": "57"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "257"
+                        "value": "283"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "195"
+                        "value": "217"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "19"
+                        "value": "25"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "1.7368"
+                        "value": "1.72"
                       }
                     }
                   ]

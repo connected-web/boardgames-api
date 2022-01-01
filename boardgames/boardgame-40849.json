@@ -13,14 +13,14 @@
           "thumbnail": [
             {
               "_text": [
-                "https://cf.geekdo-images.com/thumb/img/q1mktaBVsfY6wXhQ-bm3WtpaZpU=/fit-in/200x150/pic1546621.jpg"
+                "https://cf.geekdo-images.com/qkQdSURi9GkphP1oHzoT5g__thumb/img/9w4LU3oCZFbJKUWTAc1XZtT99-w=/fit-in/200x150/filters:strip_icc()/pic1546621.jpg"
               ]
             }
           ],
           "image": [
             {
               "_text": [
-                "https://cf.geekdo-images.com/original/img/pF0Z_zMZYhp2sTxMiLa1Wu_Bg0Y=/0x0/pic1546621.jpg"
+                "https://cf.geekdo-images.com/qkQdSURi9GkphP1oHzoT5g__original/img/iBhi_I-8GyU-MIDxMy7uLrEAuq8=/0x0/filters:format(jpeg)/pic1546621.jpg"
               ]
             }
           ],
@@ -30,13 +30,6 @@
                 "type": "primary",
                 "sortindex": "1",
                 "value": "Pandemic: On the Brink"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "alternate",
-                "sortindex": "1",
-                "value": "Pandemia: Al Límite"
               }
             },
             {
@@ -71,7 +64,7 @@
               "_attributes": {
                 "type": "alternate",
                 "sortindex": "1",
-                "value": "Pandemic Extreem Gevaar"
+                "value": "Pandemic: Extreem Gevaar"
               }
             },
             {
@@ -106,6 +99,13 @@
               "_attributes": {
                 "type": "alternate",
                 "sortindex": "1",
+                "value": "Pandemic: ¡Al Límite!"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
                 "value": "Pandémie: Au seuil de la catastrophe"
               }
             },
@@ -127,7 +127,14 @@
               "_attributes": {
                 "type": "alternate",
                 "sortindex": "1",
-                "value": "Пандемия. На грани"
+                "value": "Пандемія: На Межі"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "Пандемия: На грани"
               }
             },
             {
@@ -162,7 +169,7 @@
               "_attributes": {
                 "type": "alternate",
                 "sortindex": "1",
-                "value": "팬데믹: 확산직전"
+                "value": "팬데믹: 벼랑 끝에서"
               }
             }
           ],
@@ -199,7 +206,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "126"
+                "totalvotes": "131"
               },
               "results": [
                 {
@@ -210,19 +217,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "5"
+                        "numvotes": "6"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "45"
+                        "numvotes": "47"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "41"
+                        "numvotes": "43"
                       }
                     }
                   ]
@@ -241,13 +248,13 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "84"
+                        "numvotes": "87"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "6"
+                        "numvotes": "7"
                       }
                     }
                   ]
@@ -260,13 +267,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "46"
+                        "numvotes": "47"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "59"
+                        "numvotes": "63"
                       }
                     },
                     {
@@ -285,13 +292,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "72"
+                        "numvotes": "76"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "39"
+                        "numvotes": "40"
                       }
                     },
                     {
@@ -310,13 +317,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "12"
+                        "numvotes": "13"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "68"
+                        "numvotes": "70"
                       }
                     },
                     {
@@ -347,7 +354,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "70"
+                        "numvotes": "74"
                       }
                     }
                   ]
@@ -358,7 +365,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "47"
+                "totalvotes": "49"
               },
               "results": [
                 {
@@ -396,7 +403,7 @@
                     {
                       "_attributes": {
                         "value": "8",
-                        "numvotes": "9"
+                        "numvotes": "11"
                       }
                     },
                     {
@@ -611,15 +618,22 @@
             {
               "_attributes": {
                 "type": "boardgamefamily",
-                "id": "49383",
-                "value": "One versus Many"
+                "id": "3430",
+                "value": "Game: Pandemic"
               }
             },
             {
               "_attributes": {
                 "type": "boardgamefamily",
-                "id": "3430",
-                "value": "Pandemic"
+                "id": "61990",
+                "value": "Players: Expansions Changing Player Count"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
+                "id": "49383",
+                "value": "Players: One versus Many"
               }
             },
             {
@@ -705,7 +719,7 @@
               "_attributes": {
                 "type": "boardgamepublisher",
                 "id": "538",
-                "value": "Z-Man Games, Inc."
+                "value": "Z-Man Games"
               }
             },
             {
@@ -726,7 +740,7 @@
               "_attributes": {
                 "type": "boardgamepublisher",
                 "id": "6784",
-                "value": "Bergsala Enigma"
+                "value": "Bergsala Enigma (Enigma)"
               }
             },
             {
@@ -769,6 +783,13 @@
                 "type": "boardgamepublisher",
                 "id": "15983",
                 "value": "Jolly Thinkers"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "8291",
+                "value": "Korea Boardgames Co., Ltd."
               }
             },
             {
@@ -826,6 +847,13 @@
                 "id": "35809",
                 "value": "Zhiyanjia"
               }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "44209",
+                "value": "Ігромаг"
+              }
             }
           ],
           "statistics": [
@@ -838,21 +866,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "15356"
+                        "value": "16671"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "8.0786"
+                        "value": "8.06435"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "7.81877"
+                        "value": "7.78428"
                       }
                     }
                   ],
@@ -866,7 +894,7 @@
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "7.81877"
+                            "bayesaverage": "7.78428"
                           }
                         },
                         {
@@ -876,7 +904,7 @@
                             "name": "strategygames",
                             "friendlyname": "Strategy Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "7.83115"
+                            "bayesaverage": "7.79978"
                           }
                         }
                       ]
@@ -885,7 +913,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.10216"
+                        "value": "1.10931"
                       }
                     }
                   ],
@@ -899,49 +927,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "41269"
+                        "value": "45603"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "414"
+                        "value": "463"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "488"
+                        "value": "448"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "2852"
+                        "value": "2993"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "3401"
+                        "value": "3622"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "733"
+                        "value": "767"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2.6494"
+                        "value": "2.6506"
                       }
                     }
                   ]
