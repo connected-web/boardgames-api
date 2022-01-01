@@ -24,6 +24,7 @@ describe('Boardgames API', () => {
         'downloadBggEntries',
         'downloadCaliGameIndex',
         'downloadCaliPlaystats',
+        'downloadCaliPlayrecords',
         'bggIndex',
         'boardgameList',
         'boardgameIndex',

@@ -2,11 +2,11 @@
   "name": "Scythe",
   "gameFamilyId": "scythe",
   "earliestDate": "2018-12-20",
-  "latestDate": "2021-10-31",
+  "latestDate": "2021-11-28",
   "sequenceStartDate": "2018-12-20",
-  "sequenceEndDate": "2021-10-31",
-  "daysInSequence": 1047,
-  "daysWithUnplayedGames": 1033,
+  "sequenceEndDate": "2021-11-28",
+  "daysInSequence": 1075,
+  "daysWithUnplayedGames": 1060,
   "gamesPlayedPerDay": {
     "1": 2,
     "2": 0,
@@ -1054,7 +1054,35 @@
     "1044": 0,
     "1045": 0,
     "1046": 0,
-    "1047": 1
+    "1047": 1,
+    "1048": 0,
+    "1049": 0,
+    "1050": 0,
+    "1051": 0,
+    "1052": 0,
+    "1053": 0,
+    "1054": 0,
+    "1055": 0,
+    "1056": 0,
+    "1057": 0,
+    "1058": 0,
+    "1059": 0,
+    "1060": 0,
+    "1061": 0,
+    "1062": 0,
+    "1063": 0,
+    "1064": 0,
+    "1065": 0,
+    "1066": 0,
+    "1067": 0,
+    "1068": 0,
+    "1069": 0,
+    "1070": 0,
+    "1071": 0,
+    "1072": 0,
+    "1073": 0,
+    "1074": 0,
+    "1075": 2
   },
   "gamesPlayed": [
     {
@@ -1180,10 +1208,22 @@
       "coOp": "No",
       "gameFamily": "Scythe",
       "name": "Scythe"
+    },
+    {
+      "date": "2021-11-28",
+      "winner": "Hannah",
+      "coOp": "No",
+      "name": "My Little Scythe"
+    },
+    {
+      "date": "2021-11-28",
+      "winner": "John",
+      "coOp": "No",
+      "name": "My Little Scythe"
     }
   ],
-  "totalGamesPlayed": 18,
-  "averageGamesPlayedPerDay": 0.0172,
+  "totalGamesPlayed": 20,
+  "averageGamesPlayedPerDay": 0.0186,
   "mostGamesPlayedInADay": [
     {
       "date": "2018-12-20",
@@ -1212,6 +1252,13 @@
         "Scythe",
         "Scythe"
       ]
+    },
+    {
+      "date": "2021-11-28",
+      "games": [
+        "My Little Scythe",
+        "My Little Scythe"
+      ]
     }
   ],
   "uniqueGamesPlayed": [
@@ -1219,7 +1266,7 @@
     "Scythe"
   ],
   "uniqueGamesPlayedCount": 2,
-  "uniqueGamesPlayedPercentage": 0.1111,
+  "uniqueGamesPlayedPercentage": 0.1,
   "mostPlayedGames": [
     {
       "name": "Scythe",
@@ -1232,13 +1279,13 @@
   "coOpGameLoses": 0,
   "coOpWinRate": 0,
   "coOpLossRate": 0,
-  "winCountHannah": 6,
-  "winCountJohn": 12,
+  "winCountHannah": 7,
+  "winCountJohn": 13,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 18,
-  "winPercentageHannah": 0.3333,
-  "winPercentageJohn": 0.6667,
+  "winnableGamesTotal": 20,
+  "winPercentageHannah": 0.35,
+  "winPercentageJohn": 0.65,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
   "mostWonGames": "John",
