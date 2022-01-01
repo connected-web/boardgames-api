@@ -1,12 +1,12 @@
 const playrecordSources = [{
   year: 2022,
-  apiUser: 'John',
+  apiUser: process.env.PLAYRECORD_API_USER || 'John',
   apiKey: process.env.PLAYRECORD_API_KEY,
   url: 'https://nn58gn0krl.execute-api.eu-west-2.amazonaws.com/Prod/playrecords/list'
 }]
 
 const log = []
-const report = (...messages) => console.log(['[Download Cali Play Stats]', ...messages].join(' '))
+const report = (...messages) => console.log(['[Download Cali Play Records]', ...messages].join(' '))
 
 async function downloadPlayrecords ({ axios }, { year, apiUser, apiKey, url }) {
   report('Downloading data for', year, 'from', url, 'with user API key:', apiUser)
