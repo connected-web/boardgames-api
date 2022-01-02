@@ -24,7 +24,7 @@ jobs:
       run: npm run setup -s
 
     - name: Run build steps
-      run: npm build -s
+      run: npm run build -s
 
     - name: Run default tests
       run: npm test -s
