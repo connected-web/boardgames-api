@@ -23,9 +23,6 @@ jobs:
     - name: Setup additional dependencies
       run: npm run setup -s
 
-    - name: Run build steps
-      run: npm run build -s
-
     - name: Run default tests
       run: npm test -s
       env:
