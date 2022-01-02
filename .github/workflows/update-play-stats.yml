@@ -17,10 +17,10 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
-    - name: Setup node.js 12.x LTS
+    - name: Setup node.js 16.x LTS
       uses: actions/setup-node@v1
       with:
-        node-version: 12.x
+        node-version: 16.x
     - name: Install node modules in /
       run: npm ci
     - name: Install node modules in /deploy
