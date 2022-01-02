@@ -17,10 +17,10 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
-    - name: Setup node.js 12.x LTS
+    - name: Setup node.js 16.x LTS
       uses: actions/setup-node@v1
       with:
-        node-version: 12.x
+        node-version: 16.x
     - name: Install node modules in /
       run: npm ci
     - name: Install node modules in /deploy
@@ -30,6 +30,8 @@ jobs:
       run: node run update-all
       env:
           GOOGLE_SERVICE_ACCOUNT_SECURE_CREDENTIALS: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_SECURE_CREDENTIALS }}
+          PLAYRECORD_API_USER: ${{ secrets.PLAYRECORD_API_USER }}
+          PLAYRECORD_API_KEY: ${{ secrets.PLAYRECORD_API_KEY }}
     - name: Create data sets
       run: node run create-all
     - name: Setup /deploy/.ftp-pass

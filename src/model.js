@@ -1,3 +1,4 @@
+const axios = require('axios')
 const gsjson = require('google-spreadsheet-to-json')
 const { fetch, position, read, write } = require('promise-path')
 const readJson = require('./util/readJson')
@@ -10,6 +11,7 @@ function defaultBoardGameGeekCollection () {
 
 const model = {
   fetchers: {
+    axios,
     gsjson,
     fetch
   },
@@ -31,7 +33,8 @@ const model = {
   calisaurus: {
     index: {},
     feed: [],
-    playstats: []
+    playstats: [], /* 2018, 2020, 2021 */
+    playrecords: [] /* 2022 -> */
   },
   games: {},
   defaultBoardGameGeekCollection

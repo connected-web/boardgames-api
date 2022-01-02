@@ -24,6 +24,7 @@ describe('Boardgames API', () => {
         'downloadBggEntries',
         'downloadCaliGameIndex',
         'downloadCaliPlaystats',
+        'downloadCaliPlayrecords',
         'bggIndex',
         'boardgameList',
         'boardgameIndex',
@@ -60,6 +61,31 @@ describe('Boardgames API', () => {
       }
       const { playstats } = await api.downloadCaliPlaystats()
       expect(playstats[0]).to.deep.equal(firstGameInJanuary)
+    })
+  })
+
+  describe('Download Cali Play Records', () => {
+    it('should return a list of playrecords from the boardgames-sam-api', async () => {
+      const firstGameInJanuary = {
+        title: 'The Mind',
+        date: '01/01/2022',
+        coop: 'yes',
+        winner: 'axios',
+        noOfPlayers: 4,
+        key: '2022/01/2022-01-01T10:53:30.287Z.json'
+      }
+      model.fetchers.axios = {
+        async get () {
+          return {
+            data: {
+              playRecords: [firstGameInJanuary]
+            }
+          }
+        }
+      }
+      const { playrecords, log } = await api.downloadCaliPlayrecords()
+      expect(log.length).to.equal(2)
+      expect(playrecords).to.deep.equal([firstGameInJanuary])
     })
   })
 

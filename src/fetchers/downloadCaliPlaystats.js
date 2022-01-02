@@ -24,24 +24,25 @@ async function downloadData ({ gsjson }, { year, id }) {
     report(year, 'cells', cells.length)
     return cells
   } catch (ex) {
-    report('Unable to download data:', ex)
+    report('Unable to download spreadsheet data:', ex)
+    return []
   }
 }
 
-async function updatePlaystats (model) {
+async function downloadFromSources (model) {
   const { fetchers } = model
-  const asyncWork = spreadsheets.map(spreadsheet => {
+  const spreadsheetWork = spreadsheets.map(spreadsheet => {
     return downloadData(fetchers, spreadsheet)
   })
-  const combinedData = await Promise.all(asyncWork)
+  const combinedData = await Promise.all(spreadsheetWork)
+  const playStats = combinedData.flat()
 
-  const playStats = combinedData.reduce((acc, item) => acc.concat(item), [])
   return playStats.filter(n => n)
 }
 
 function init (model) {
   return async () => {
-    model.calisaurus.playstats = await updatePlaystats(model)
+    model.calisaurus.playstats = await downloadFromSources(model)
     return {
       playstats: model.calisaurus.playstats,
       log

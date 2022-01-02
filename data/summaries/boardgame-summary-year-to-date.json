@@ -2,34 +2,74 @@
   "sequenceStartDate": "2022-01-01",
   "sequenceEndDate": "2022-01-01",
   "daysInSequence": 1,
-  "daysWithUnplayedGames": 1,
+  "daysWithUnplayedGames": 0,
   "gamesPlayedPerDay": {
-    "1": 0
+    "1": 2
   },
-  "gamesPlayed": [],
-  "totalGamesPlayed": 0,
-  "averageGamesPlayedPerDay": 0,
-  "mostGamesPlayedInADay": [],
-  "uniqueGamesPlayed": [],
-  "uniqueGamesPlayedCount": 0,
-  "uniqueGamesPlayedPercentage": 0,
-  "mostPlayedGames": [],
-  "coOpGamesPlayedCount": 0,
-  "coOpGamesPlayedPercentage": 0,
-  "coOpGameWins": 0,
+  "gamesPlayed": [
+    {
+      "date": "2022-01-01",
+      "name": "Terraforming Mars",
+      "winner": "Hannah",
+      "coOp": "no",
+      "note": "Played with Prelude expansion. Hannah got away with a massive production lead after corporation Earth bonuses and successive card discount developments; culminating in a huge  space toll."
+    },
+    {
+      "date": "2022-01-01",
+      "name": "The Mind",
+      "coOp": "yes",
+      "coOpOutcome": "win",
+      "note": "First game of the year! Played with Alan and Sophie. Made it to level 8!"
+    }
+  ],
+  "totalGamesPlayed": 2,
+  "averageGamesPlayedPerDay": 2,
+  "mostGamesPlayedInADay": [
+    {
+      "date": "2022-01-01",
+      "games": [
+        "Terraforming Mars",
+        "The Mind"
+      ]
+    }
+  ],
+  "uniqueGamesPlayed": [
+    "Terraforming Mars",
+    "The Mind"
+  ],
+  "uniqueGamesPlayedCount": 2,
+  "uniqueGamesPlayedPercentage": 1,
+  "mostPlayedGames": [
+    {
+      "name": "Terraforming Mars",
+      "plays": 1
+    },
+    {
+      "name": "The Mind",
+      "plays": 1
+    }
+  ],
+  "coOpGamesPlayedCount": 1,
+  "coOpGamesPlayedPercentage": 0.5,
+  "coOpGameWins": 1,
   "coOpGameLoses": 0,
-  "coOpWinRate": 0,
+  "coOpWinRate": 1,
   "coOpLossRate": 0,
-  "winCountHannah": 0,
+  "winCountHannah": 1,
   "winCountJohn": 0,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 0,
-  "winPercentageHannah": 0,
+  "winnableGamesTotal": 1,
+  "winPercentageHannah": 1,
   "winPercentageJohn": 0,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
-  "mostWonGames": "Draw",
+  "mostWonGames": "Hannah",
   "mostWonGamesJohn": [],
-  "mostWonGamesHannah": []
+  "mostWonGamesHannah": [
+    {
+      "game": "Terraforming Mars",
+      "plays": 1
+    }
+  ]
 }

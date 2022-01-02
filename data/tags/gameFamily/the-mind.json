@@ -2,10 +2,10 @@
   "name": "The Mind",
   "gameFamilyId": "the-mind",
   "earliestDate": "2018-08-04",
-  "latestDate": "2021-12-31",
+  "latestDate": "2022-01-01",
   "sequenceStartDate": "2018-08-04",
-  "sequenceEndDate": "2021-12-31",
-  "daysInSequence": 1246,
+  "sequenceEndDate": "2022-01-01",
+  "daysInSequence": 1247,
   "daysWithUnplayedGames": 1237,
   "gamesPlayedPerDay": {
     "1": 1,
@@ -1253,7 +1253,8 @@
     "1243": 0,
     "1244": 0,
     "1245": 0,
-    "1246": 1
+    "1246": 1,
+    "1247": 1
   },
   "gamesPlayed": [
     {
@@ -1331,10 +1332,18 @@
       "coOpOutcome": "Loss",
       "coOp": "Yes",
       "name": "The Mind Extreme"
+    },
+    {
+      "date": "2022-01-01",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "notes": "First game of the year! Played with Alan and Sophie. Made it to level 8!",
+      "noOfPlayers": 4,
+      "name": "The Mind"
     }
   ],
-  "totalGamesPlayed": 11,
-  "averageGamesPlayedPerDay": 0.0088,
+  "totalGamesPlayed": 12,
+  "averageGamesPlayedPerDay": 0.0096,
   "mostGamesPlayedInADay": [
     {
       "date": "2018-09-02",
@@ -1350,19 +1359,19 @@
     "The Mind Extreme"
   ],
   "uniqueGamesPlayedCount": 2,
-  "uniqueGamesPlayedPercentage": 0.1818,
+  "uniqueGamesPlayedPercentage": 0.1667,
   "mostPlayedGames": [
     {
       "name": "The Mind",
-      "plays": 8
+      "plays": 9
     }
   ],
-  "coOpGamesPlayedCount": 11,
+  "coOpGamesPlayedCount": 12,
   "coOpGamesPlayedPercentage": 1,
-  "coOpGameWins": 1,
+  "coOpGameWins": 2,
   "coOpGameLoses": 10,
-  "coOpWinRate": 0.0909,
-  "coOpLossRate": 0.9091,
+  "coOpWinRate": 0.1667,
+  "coOpLossRate": 0.8333,
   "winCountHannah": 0,
   "winCountJohn": 0,
   "winCountOther": 0,

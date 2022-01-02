@@ -13,6 +13,7 @@ async function start () {
 
   calisaurus.collection = await readJson('bgg-collection.json')
   calisaurus.playstats = await readJson('cali-playstats.json')
+  calisaurus.playrecords = await readJson('cali-playrecords.json')
   const { index } = await boardgameIndex()
 
   const boardGameApiIds = Object.entries(index).map(([, entry]) => entry.boardGameApiId).sort()

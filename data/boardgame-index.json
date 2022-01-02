@@ -6572,15 +6572,22 @@
         "coOpOutcome": "Won",
         "coOp": "Yes",
         "gameFamily": "The Mind"
+      },
+      {
+        "date": "2022-01-01",
+        "coOpOutcome": "win",
+        "coOp": "yes",
+        "notes": "First game of the year! Played with Alan and Sophie. Made it to level 8!",
+        "noOfPlayers": 4
       }
     ],
-    "totalGamesPlayed": 8,
-    "coOpGamesPlayedCount": 8,
+    "totalGamesPlayed": 9,
+    "coOpGamesPlayedCount": 9,
     "coOpGamesPlayedPercentage": 1,
-    "coOpGameWins": 1,
+    "coOpGameWins": 2,
     "coOpGameLoses": 7,
-    "coOpWinRate": 0.125,
-    "coOpLossRate": 0.875,
+    "coOpWinRate": 0.2222,
+    "coOpLossRate": 0.7778,
     "winCountHannah": 0,
     "winCountJohn": 0,
     "winCountOther": 0,
@@ -12496,8 +12503,8 @@
         "date": "2020-03-15",
         "winner": "Hannah",
         "coOp": "No",
-        "mechanics": "Airecon",
-        "gameFamily": "Super-Bee"
+        "gameFamily": "Super-Bee",
+        "mechanics": "Airecon"
       }
     ],
     "name": "Super-Bee",
@@ -12526,8 +12533,8 @@
         "date": "2020-03-15",
         "coOpOutcome": "Won",
         "coOp": "Yes",
-        "mechanics": "Airecon",
-        "gameFamily": "Sub Terra II"
+        "gameFamily": "Sub Terra II",
+        "mechanics": "Airecon"
       }
     ],
     "name": "Sub Terra II",
@@ -12556,8 +12563,8 @@
         "date": "2020-03-15",
         "winner": "Hannah",
         "coOp": "No",
-        "mechanics": "Airecon",
-        "gameFamily": "Arlukkachase"
+        "gameFamily": "Arlukkachase",
+        "mechanics": "Airecon"
       }
     ],
     "name": "Arlukkachase",
@@ -13560,24 +13567,31 @@
         "date": "2021-12-22",
         "winner": "Hannah",
         "coOp": "No"
+      },
+      {
+        "date": "2022-01-01",
+        "winner": "Hannah",
+        "coOp": "no",
+        "notes": "Played with Prelude expansion. Hannah got away with a massive production lead after corporation Earth bonuses and successive card discount developments; culminating in a huge  space toll.",
+        "noOfPlayers": 2
       }
     ],
     "name": "Terraforming Mars",
-    "totalGamesPlayed": 7,
+    "totalGamesPlayed": 8,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
     "coOpGameLoses": 0,
     "coOpWinRate": 0,
     "coOpLossRate": 0,
-    "winCountHannah": 5,
+    "winCountHannah": 6,
     "winCountJohn": 1,
     "winCountOther": 1,
     "winCountDraw": 0,
-    "winnableGamesTotal": 7,
-    "winPercentageHannah": 0.7143,
-    "winPercentageJohn": 0.1429,
-    "winPercentageOther": 0.1429,
+    "winnableGamesTotal": 8,
+    "winPercentageHannah": 0.75,
+    "winPercentageJohn": 0.125,
+    "winPercentageOther": 0.125,
     "winPercentageDraw": 0,
     "mostWonGames": "Hannah"
   },

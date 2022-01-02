@@ -36,6 +36,7 @@ async function start () {
     return processScripts([
       'download-cali-game-index',
       'download-cali-playstats',
+      'download-cali-playrecords',
       'download-bgg-collection',
       'download-bgg-entries'
     ], scripts)
@@ -45,6 +46,7 @@ async function start () {
     return processScripts([
       'download-cali-game-index',
       'download-cali-playstats',
+      'download-cali-playrecords',
       'download-bgg-collection',
       'create-unique-list-of-played-games',
       'create-boardgame-list'

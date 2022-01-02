@@ -4,6 +4,7 @@ const downloadBggCollection = require('./src/fetchers/downloadBggCollection')(mo
 const downloadBggEntries = require('./src/fetchers/downloadBggEntries')(model)
 const downloadCaliGameIndex = require('./src/fetchers/downloadCaliGameIndex')(model)
 const downloadCaliPlaystats = require('./src/fetchers/downloadCaliPlaystats')(model)
+const downloadCaliPlayrecords = require('./src/fetchers/downloadCaliPlayrecords')(model)
 
 const bggIndex = require('./src/processors/bggIndex')(model)
 const boardgameList = require('./src/processors/boardgameList')(model)
@@ -19,6 +20,7 @@ const api = {
   downloadBggEntries,
   downloadCaliGameIndex,
   downloadCaliPlaystats,
+  downloadCaliPlayrecords,
   bggIndex,
   boardgameList,
   boardgameIndex,
