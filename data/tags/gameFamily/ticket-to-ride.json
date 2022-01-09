@@ -6,7 +6,7 @@
   "sequenceStartDate": "2018-01-06",
   "sequenceEndDate": "2021-12-12",
   "daysInSequence": 1437,
-  "daysWithUnplayedGames": 1336,
+  "daysWithUnplayedGames": 1338,
   "gamesPlayedPerDay": {
     "1": 2,
     "2": 0,
@@ -1016,7 +1016,7 @@
     "1006": 0,
     "1007": 0,
     "1008": 0,
-    "1009": 1,
+    "1009": 0,
     "1010": 0,
     "1011": 0,
     "1012": 0,
@@ -1030,7 +1030,7 @@
     "1020": 0,
     "1021": 0,
     "1022": 0,
-    "1023": 1,
+    "1023": 0,
     "1024": 0,
     "1025": 0,
     "1026": 0,
@@ -2040,20 +2040,6 @@
       "name": "Ticket to Ride"
     },
     {
-      "date": "2020-10-10",
-      "winner": "Hannah",
-      "coOp": "Yes",
-      "gameFamily": "Ticket to Ride",
-      "name": "Ticket to Ride Map Collection: Volume 1 – Team Asia & Legendary Asia"
-    },
-    {
-      "date": "2020-10-24",
-      "winner": "Draw",
-      "coOp": "No",
-      "gameFamily": "Ticket to Ride",
-      "name": "Ticket to Ride: Rails & Sails"
-    },
-    {
       "date": "2020-11-22",
       "winner": "John",
       "coOp": "No",
@@ -2157,8 +2143,8 @@
       "name": "Ticket to Ride"
     }
   ],
-  "totalGamesPlayed": 106,
-  "averageGamesPlayedPerDay": 0.0738,
+  "totalGamesPlayed": 104,
+  "averageGamesPlayedPerDay": 0.0724,
   "mostGamesPlayedInADay": [
     {
       "date": "2018-01-06",
@@ -2220,7 +2206,7 @@
     "Ticket to Ride: Rails & Sails"
   ],
   "uniqueGamesPlayedCount": 21,
-  "uniqueGamesPlayedPercentage": 0.1981,
+  "uniqueGamesPlayedPercentage": 0.2019,
   "mostPlayedGames": [
     {
       "name": "Ticket to Ride: Europe",
@@ -2231,21 +2217,21 @@
       "plays": 13
     }
   ],
-  "coOpGamesPlayedCount": 1,
-  "coOpGamesPlayedPercentage": 0.0094,
+  "coOpGamesPlayedCount": 0,
+  "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
-  "coOpGameLoses": 1,
+  "coOpGameLoses": 0,
   "coOpWinRate": 0,
-  "coOpLossRate": 1,
-  "winCountHannah": 58,
+  "coOpLossRate": 0,
+  "winCountHannah": 57,
   "winCountJohn": 43,
   "winCountOther": 0,
-  "winCountDraw": 5,
-  "winnableGamesTotal": 106,
-  "winPercentageHannah": 0.5472,
-  "winPercentageJohn": 0.4057,
+  "winCountDraw": 4,
+  "winnableGamesTotal": 104,
+  "winPercentageHannah": 0.5481,
+  "winPercentageJohn": 0.4135,
   "winPercentageOther": 0,
-  "winPercentageDraw": 0.0472,
+  "winPercentageDraw": 0.0385,
   "mostWonGames": "Hannah",
   "mostWonGamesJohn": [
     {

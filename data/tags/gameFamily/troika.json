@@ -6,7 +6,7 @@
   "sequenceStartDate": "2018-06-03",
   "sequenceEndDate": "2021-08-18",
   "daysInSequence": 1173,
-  "daysWithUnplayedGames": 1156,
+  "daysWithUnplayedGames": 1157,
   "gamesPlayedPerDay": {
     "1": 1,
     "2": 0,
@@ -876,7 +876,7 @@
     "866": 0,
     "867": 0,
     "868": 0,
-    "869": 1,
+    "869": 0,
     "870": 0,
     "871": 0,
     "872": 0,
@@ -1258,13 +1258,6 @@
       "name": "Troika"
     },
     {
-      "date": "2020-10-18",
-      "winner": "Hannah",
-      "coOp": "No",
-      "gameFamily": "Troika",
-      "name": "Troika"
-    },
-    {
       "date": "2020-11-09",
       "winner": "Hannah",
       "coOp": "No",
@@ -1298,8 +1291,8 @@
       "name": "Troika"
     }
   ],
-  "totalGamesPlayed": 18,
-  "averageGamesPlayedPerDay": 0.0153,
+  "totalGamesPlayed": 17,
+  "averageGamesPlayedPerDay": 0.0145,
   "mostGamesPlayedInADay": [
     {
       "date": "2021-08-18",
@@ -1313,11 +1306,11 @@
     "Troika"
   ],
   "uniqueGamesPlayedCount": 1,
-  "uniqueGamesPlayedPercentage": 0.0556,
+  "uniqueGamesPlayedPercentage": 0.0588,
   "mostPlayedGames": [
     {
       "name": "Troika",
-      "plays": 18
+      "plays": 17
     }
   ],
   "coOpGamesPlayedCount": 0,
@@ -1326,15 +1319,15 @@
   "coOpGameLoses": 0,
   "coOpWinRate": 0,
   "coOpLossRate": 0,
-  "winCountHannah": 7,
+  "winCountHannah": 6,
   "winCountJohn": 8,
   "winCountOther": 2,
   "winCountDraw": 1,
-  "winnableGamesTotal": 18,
-  "winPercentageHannah": 0.3889,
-  "winPercentageJohn": 0.4444,
-  "winPercentageOther": 0.1111,
-  "winPercentageDraw": 0.0556,
+  "winnableGamesTotal": 17,
+  "winPercentageHannah": 0.3529,
+  "winPercentageJohn": 0.4706,
+  "winPercentageOther": 0.1176,
+  "winPercentageDraw": 0.0588,
   "mostWonGames": "John",
   "mostWonGamesJohn": [
     {
@@ -1345,7 +1338,7 @@
   "mostWonGamesHannah": [
     {
       "game": "Troika",
-      "plays": 7
+      "plays": 6
     }
   ]
 }

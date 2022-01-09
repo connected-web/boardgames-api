@@ -6,7 +6,7 @@
   "sequenceStartDate": "2018-02-23",
   "sequenceEndDate": "2021-11-06",
   "daysInSequence": 1353,
-  "daysWithUnplayedGames": 1321,
+  "daysWithUnplayedGames": 1324,
   "gamesPlayedPerDay": {
     "1": 1,
     "2": 0,
@@ -985,9 +985,9 @@
     "975": 0,
     "976": 0,
     "977": 0,
-    "978": 1,
-    "979": 1,
-    "980": 1,
+    "978": 0,
+    "979": 0,
+    "980": 0,
     "981": 0,
     "982": 0,
     "983": 0,
@@ -1477,27 +1477,6 @@
       "name": "Dominion"
     },
     {
-      "date": "2020-10-27",
-      "winner": "Hannah",
-      "coOp": "No",
-      "gameFamily": "Dominion",
-      "name": "Dominion: Prosperity"
-    },
-    {
-      "date": "2020-10-28",
-      "winner": "Hannah",
-      "coOp": "No",
-      "gameFamily": "Dominion",
-      "name": "Dominion: Prosperity"
-    },
-    {
-      "date": "2020-10-29",
-      "winner": "John",
-      "coOp": "No",
-      "gameFamily": "Dominion",
-      "name": "Dominion: Seaside"
-    },
-    {
       "date": "2020-11-03",
       "winner": "Hannah",
       "coOp": "No",
@@ -1602,8 +1581,8 @@
       "name": "Dominion: Seaside"
     }
   ],
-  "totalGamesPlayed": 35,
-  "averageGamesPlayedPerDay": 0.0259,
+  "totalGamesPlayed": 32,
+  "averageGamesPlayedPerDay": 0.0237,
   "mostGamesPlayedInADay": [
     {
       "date": "2018-03-02",
@@ -1636,11 +1615,15 @@
     "Dominion: Seaside"
   ],
   "uniqueGamesPlayedCount": 6,
-  "uniqueGamesPlayedPercentage": 0.1714,
+  "uniqueGamesPlayedPercentage": 0.1875,
   "mostPlayedGames": [
     {
+      "name": "Dominion (Second Edition)",
+      "plays": 8
+    },
+    {
       "name": "Dominion: Seaside",
-      "plays": 9
+      "plays": 8
     }
   ],
   "coOpGamesPlayedCount": 0,
@@ -1649,15 +1632,15 @@
   "coOpGameLoses": 0,
   "coOpWinRate": 0,
   "coOpLossRate": 0,
-  "winCountHannah": 19,
-  "winCountJohn": 15,
+  "winCountHannah": 17,
+  "winCountJohn": 14,
   "winCountOther": 0,
   "winCountDraw": 1,
-  "winnableGamesTotal": 35,
-  "winPercentageHannah": 0.5429,
-  "winPercentageJohn": 0.4286,
+  "winnableGamesTotal": 32,
+  "winPercentageHannah": 0.5313,
+  "winPercentageJohn": 0.4375,
   "winPercentageOther": 0,
-  "winPercentageDraw": 0.0286,
+  "winPercentageDraw": 0.0313,
   "mostWonGames": "Hannah",
   "mostWonGamesJohn": [
     {
@@ -1670,10 +1653,6 @@
     }
   ],
   "mostWonGamesHannah": [
-    {
-      "game": "Dominion: Prosperity",
-      "plays": 6
-    },
     {
       "game": "Dominion: Seaside",
       "plays": 6

@@ -2,10 +2,10 @@
   "name": "Ungrouped",
   "gameFamilyId": "wildcard",
   "earliestDate": "2021-01-31",
-  "latestDate": "2022-01-01",
+  "latestDate": "2021-12-31",
   "sequenceStartDate": "2021-01-31",
-  "sequenceEndDate": "2022-01-01",
-  "daysInSequence": 336,
+  "sequenceEndDate": "2021-12-31",
+  "daysInSequence": 335,
   "daysWithUnplayedGames": 308,
   "gamesPlayedPerDay": {
     "1": 1,
@@ -342,8 +342,7 @@
     "332": 0,
     "333": 0,
     "334": 0,
-    "335": 1,
-    "336": 1
+    "335": 1
   },
   "gamesPlayed": [
     {
@@ -572,18 +571,10 @@
       "winner": "Other",
       "coOp": "No",
       "name": "Dog Lover"
-    },
-    {
-      "date": "2022-01-01",
-      "winner": "Hannah",
-      "coOp": "no",
-      "notes": "Played with Prelude expansion. Hannah got away with a massive production lead after corporation Earth bonuses and successive card discount developments; culminating in a huge  space toll.",
-      "noOfPlayers": 2,
-      "name": "Terraforming Mars"
     }
   ],
-  "totalGamesPlayed": 34,
-  "averageGamesPlayedPerDay": 0.1012,
+  "totalGamesPlayed": 33,
+  "averageGamesPlayedPerDay": 0.0985,
   "mostGamesPlayedInADay": [
     {
       "date": "2021-10-16",
@@ -612,28 +603,28 @@
     "Welcome To Your Perfect Home"
   ],
   "uniqueGamesPlayedCount": 15,
-  "uniqueGamesPlayedPercentage": 0.4412,
+  "uniqueGamesPlayedPercentage": 0.4545,
   "mostPlayedGames": [
     {
       "name": "Terraforming Mars",
-      "plays": 8
+      "plays": 7
     }
   ],
   "coOpGamesPlayedCount": 1,
-  "coOpGamesPlayedPercentage": 0.0294,
+  "coOpGamesPlayedPercentage": 0.0303,
   "coOpGameWins": 0,
   "coOpGameLoses": 1,
   "coOpWinRate": 0,
   "coOpLossRate": 1,
-  "winCountHannah": 18,
+  "winCountHannah": 17,
   "winCountJohn": 6,
   "winCountOther": 7,
   "winCountDraw": 2,
-  "winnableGamesTotal": 33,
-  "winPercentageHannah": 0.5455,
-  "winPercentageJohn": 0.1818,
-  "winPercentageOther": 0.2121,
-  "winPercentageDraw": 0.0606,
+  "winnableGamesTotal": 32,
+  "winPercentageHannah": 0.5313,
+  "winPercentageJohn": 0.1875,
+  "winPercentageOther": 0.2188,
+  "winPercentageDraw": 0.0625,
   "mostWonGames": "Hannah",
   "mostWonGamesJohn": [
     {
@@ -664,7 +655,7 @@
   "mostWonGamesHannah": [
     {
       "game": "Terraforming Mars",
-      "plays": 6
+      "plays": 5
     }
   ]
 }

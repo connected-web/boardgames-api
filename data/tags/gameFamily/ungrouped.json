@@ -6,7 +6,7 @@
   "sequenceStartDate": "2018-01-03",
   "sequenceEndDate": "2021-12-31",
   "daysInSequence": 1459,
-  "daysWithUnplayedGames": 1320,
+  "daysWithUnplayedGames": 1318,
   "gamesPlayedPerDay": {
     "1": 1,
     "2": 0,
@@ -189,9 +189,9 @@
     "179": 0,
     "180": 0,
     "181": 0,
-    "182": 0,
+    "182": 1,
     "183": 0,
-    "184": 0,
+    "184": 1,
     "185": 0,
     "186": 0,
     "187": 0,
@@ -2010,6 +2010,18 @@
       "name": "Pandemic: In the Lab"
     },
     {
+      "date": "2018-07-03",
+      "winner": "Draw",
+      "coOp": "No",
+      "name": "El Alamein"
+    },
+    {
+      "date": "2018-07-05",
+      "winner": "John",
+      "coOp": "No",
+      "name": "El Alamein"
+    },
+    {
       "date": "2018-07-12",
       "winner": "John",
       "coOp": "No",
@@ -2572,8 +2584,8 @@
       "name": "Mint Control"
     }
   ],
-  "totalGamesPlayed": 176,
-  "averageGamesPlayedPerDay": 0.1206,
+  "totalGamesPlayed": 178,
+  "averageGamesPlayedPerDay": 0.122,
   "mostGamesPlayedInADay": [
     {
       "date": "2021-11-17",
@@ -2617,6 +2629,7 @@
     "Dominion: Intrigue (Second Edition)",
     "Duelosaur Island",
     "Dungeons & Dragons Starter Set",
+    "El Alamein",
     "Exploding Kittens",
     "Fallout",
     "Fallout: New California",
@@ -2671,8 +2684,8 @@
     "Untold: Adventures Await",
     "Werewolf"
   ],
-  "uniqueGamesPlayedCount": 84,
-  "uniqueGamesPlayedPercentage": 0.4773,
+  "uniqueGamesPlayedCount": 85,
+  "uniqueGamesPlayedPercentage": 0.4775,
   "mostPlayedGames": [
     {
       "name": "Werewolf",
@@ -2680,20 +2693,20 @@
     }
   ],
   "coOpGamesPlayedCount": 70,
-  "coOpGamesPlayedPercentage": 0.3977,
+  "coOpGamesPlayedPercentage": 0.3933,
   "coOpGameWins": 31,
   "coOpGameLoses": 39,
   "coOpWinRate": 0.4429,
   "coOpLossRate": 0.5571,
   "winCountHannah": 53,
-  "winCountJohn": 42,
+  "winCountJohn": 43,
   "winCountOther": 8,
-  "winCountDraw": 6,
-  "winnableGamesTotal": 109,
-  "winPercentageHannah": 0.4862,
-  "winPercentageJohn": 0.3853,
-  "winPercentageOther": 0.0734,
-  "winPercentageDraw": 0.055,
+  "winCountDraw": 7,
+  "winnableGamesTotal": 111,
+  "winPercentageHannah": 0.4775,
+  "winPercentageJohn": 0.3874,
+  "winPercentageOther": 0.0721,
+  "winPercentageDraw": 0.0631,
   "mostWonGames": "Hannah",
   "mostWonGamesJohn": [
     {

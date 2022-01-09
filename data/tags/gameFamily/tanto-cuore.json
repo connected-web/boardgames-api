@@ -6,7 +6,7 @@
   "sequenceStartDate": "2018-02-10",
   "sequenceEndDate": "2021-11-27",
   "daysInSequence": 1387,
-  "daysWithUnplayedGames": 1355,
+  "daysWithUnplayedGames": 1356,
   "gamesPlayedPerDay": {
     "1": 1,
     "2": 0,
@@ -985,7 +985,7 @@
     "975": 0,
     "976": 0,
     "977": 0,
-    "978": 1,
+    "978": 0,
     "979": 0,
     "980": 0,
     "981": 0,
@@ -1542,13 +1542,6 @@
       "name": "Tanto Cuore"
     },
     {
-      "date": "2020-10-14",
-      "winner": "Hannah",
-      "coOp": "No",
-      "gameFamily": "Tanto Cuore",
-      "name": "Tanto Cuore"
-    },
-    {
       "date": "2020-12-25",
       "winner": "John",
       "coOp": "No",
@@ -1623,8 +1616,8 @@
       "name": "Tanto Cuore: Expanding the House"
     }
   ],
-  "totalGamesPlayed": 34,
-  "averageGamesPlayedPerDay": 0.0245,
+  "totalGamesPlayed": 33,
+  "averageGamesPlayedPerDay": 0.0238,
   "mostGamesPlayedInADay": [
     {
       "date": "2021-02-19",
@@ -1649,11 +1642,19 @@
     "Tanto Cuore: Winter Romance"
   ],
   "uniqueGamesPlayedCount": 5,
-  "uniqueGamesPlayedPercentage": 0.1471,
+  "uniqueGamesPlayedPercentage": 0.1515,
   "mostPlayedGames": [
     {
       "name": "Tanto Cuore",
-      "plays": 9
+      "plays": 8
+    },
+    {
+      "name": "Tanto Cuore: Expanding the House",
+      "plays": 8
+    },
+    {
+      "name": "Tanto Cuore: Oktoberfest",
+      "plays": 8
     }
   ],
   "coOpGamesPlayedCount": 0,
@@ -1662,16 +1663,16 @@
   "coOpGameLoses": 0,
   "coOpWinRate": 0,
   "coOpLossRate": 0,
-  "winCountHannah": 16,
+  "winCountHannah": 15,
   "winCountJohn": 16,
   "winCountOther": 0,
   "winCountDraw": 2,
-  "winnableGamesTotal": 34,
-  "winPercentageHannah": 0.4706,
-  "winPercentageJohn": 0.4706,
+  "winnableGamesTotal": 33,
+  "winPercentageHannah": 0.4545,
+  "winPercentageJohn": 0.4848,
   "winPercentageOther": 0,
-  "winPercentageDraw": 0.0588,
-  "mostWonGames": "Draw",
+  "winPercentageDraw": 0.0606,
+  "mostWonGames": "John",
   "mostWonGamesJohn": [
     {
       "game": "Tanto Cuore: Expanding the House",

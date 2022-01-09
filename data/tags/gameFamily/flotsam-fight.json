@@ -6,7 +6,7 @@
   "sequenceStartDate": "2020-03-20",
   "sequenceEndDate": "2021-10-06",
   "daysInSequence": 566,
-  "daysWithUnplayedGames": 549,
+  "daysWithUnplayedGames": 550,
   "gamesPlayedPerDay": {
     "1": 1,
     "2": 0,
@@ -223,7 +223,7 @@
     "213": 0,
     "214": 0,
     "215": 0,
-    "216": 1,
+    "216": 0,
     "217": 0,
     "218": 0,
     "219": 0,
@@ -598,13 +598,6 @@
       "name": "Flotsam Fight"
     },
     {
-      "date": "2020-10-21",
-      "winner": "Draw",
-      "coOp": "No",
-      "gameFamily": "Flotsam Fight",
-      "name": "Flotsam Fight"
-    },
-    {
       "date": "2020-11-17",
       "winner": "Hannah",
       "coOp": "No",
@@ -696,8 +689,8 @@
       "name": "Flotsam Fight"
     }
   ],
-  "totalGamesPlayed": 17,
-  "averageGamesPlayedPerDay": 0.03,
+  "totalGamesPlayed": 16,
+  "averageGamesPlayedPerDay": 0.0283,
   "mostGamesPlayedInADay": [
     {
       "date": "2020-03-20",
@@ -713,12 +706,6 @@
     },
     {
       "date": "2020-08-15",
-      "games": [
-        "Flotsam Fight"
-      ]
-    },
-    {
-      "date": "2020-10-21",
       "games": [
         "Flotsam Fight"
       ]
@@ -806,11 +793,11 @@
     "Flotsam Fight"
   ],
   "uniqueGamesPlayedCount": 1,
-  "uniqueGamesPlayedPercentage": 0.0588,
+  "uniqueGamesPlayedPercentage": 0.0625,
   "mostPlayedGames": [
     {
       "name": "Flotsam Fight",
-      "plays": 17
+      "plays": 16
     }
   ],
   "coOpGamesPlayedCount": 0,
@@ -822,12 +809,12 @@
   "winCountHannah": 9,
   "winCountJohn": 7,
   "winCountOther": 0,
-  "winCountDraw": 1,
-  "winnableGamesTotal": 17,
-  "winPercentageHannah": 0.5294,
-  "winPercentageJohn": 0.4118,
+  "winCountDraw": 0,
+  "winnableGamesTotal": 16,
+  "winPercentageHannah": 0.5625,
+  "winPercentageJohn": 0.4375,
   "winPercentageOther": 0,
-  "winPercentageDraw": 0.0588,
+  "winPercentageDraw": 0,
   "mostWonGames": "Hannah",
   "mostWonGamesJohn": [
     {
