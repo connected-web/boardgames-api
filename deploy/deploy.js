@@ -37,7 +37,7 @@ const modes = {
     include: ['data/summaries/*2021*']
   }),
   'live-index': () => deploy({
-    include: ['data/summaries/*']
+    include: ['data/index/*']
   }),
   'live-data': () => deploy({
     include: ['data/**/*']
