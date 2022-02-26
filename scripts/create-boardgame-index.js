@@ -5,6 +5,7 @@ const { model, boardgameIndex } = require('../')
 async function start () {
   report('Requires data/bgg-collection.json')
   report('Requires data/cali-playstats.json')
+  report('Requires data/cali-playrecords.json')
 
   const { calisaurus, positions, readers, writers } = await model()
   const { datapath } = positions

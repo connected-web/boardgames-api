@@ -85,23 +85,30 @@
       "date": "2021-11-17",
       "coOpOutcome": "Won",
       "coOp": "Yes"
+    },
+    {
+      "date": "2022-01-19",
+      "winner": "John",
+      "coOp": "no",
+      "notes": "Hannah was Alpha Wolf",
+      "noOfPlayers": 17
     }
   ],
-  "totalGamesPlayed": 15,
+  "totalGamesPlayed": 16,
   "coOpGamesPlayedCount": 10,
-  "coOpGamesPlayedPercentage": 0.6667,
+  "coOpGamesPlayedPercentage": 0.625,
   "coOpGameWins": 5,
   "coOpGameLoses": 5,
   "coOpWinRate": 0.5,
   "coOpLossRate": 0.5,
   "winCountHannah": 2,
-  "winCountJohn": 2,
+  "winCountJohn": 3,
   "winCountOther": 1,
   "winCountDraw": 0,
-  "winnableGamesTotal": 5,
-  "winPercentageHannah": 0.4,
-  "winPercentageJohn": 0.4,
-  "winPercentageOther": 0.2,
+  "winnableGamesTotal": 6,
+  "winPercentageHannah": 0.3333,
+  "winPercentageJohn": 0.5,
+  "winPercentageOther": 0.1667,
   "winPercentageDraw": 0,
-  "mostWonGames": "Draw"
+  "mostWonGames": "John"
 }

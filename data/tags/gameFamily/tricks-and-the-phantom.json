@@ -6,7 +6,7 @@
   "sequenceStartDate": "2020-03-18",
   "sequenceEndDate": "2021-08-18",
   "daysInSequence": 519,
-  "daysWithUnplayedGames": 514,
+  "daysWithUnplayedGames": 513,
   "gamesPlayedPerDay": {
     "1": 1,
     "2": 1,
@@ -228,7 +228,7 @@
     "218": 0,
     "219": 0,
     "220": 0,
-    "221": 0,
+    "221": 1,
     "222": 0,
     "223": 0,
     "224": 0,
@@ -558,6 +558,13 @@
       "name": "Tricks and the Phantom"
     },
     {
+      "date": "2020-10-24",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Tricks and the Phantom",
+      "name": "Tricks and the Phantom"
+    },
+    {
       "date": "2021-08-18",
       "winner": "John",
       "coOp": "No",
@@ -565,8 +572,8 @@
       "name": "Tricks and the Phantom"
     }
   ],
-  "totalGamesPlayed": 5,
-  "averageGamesPlayedPerDay": 0.0096,
+  "totalGamesPlayed": 6,
+  "averageGamesPlayedPerDay": 0.0116,
   "mostGamesPlayedInADay": [
     {
       "date": "2020-03-18",
@@ -593,6 +600,12 @@
       ]
     },
     {
+      "date": "2020-10-24",
+      "games": [
+        "Tricks and the Phantom"
+      ]
+    },
+    {
       "date": "2021-08-18",
       "games": [
         "Tricks and the Phantom"
@@ -603,11 +616,11 @@
     "Tricks and the Phantom"
   ],
   "uniqueGamesPlayedCount": 1,
-  "uniqueGamesPlayedPercentage": 0.2,
+  "uniqueGamesPlayedPercentage": 0.1667,
   "mostPlayedGames": [
     {
       "name": "Tricks and the Phantom",
-      "plays": 5
+      "plays": 6
     }
   ],
   "coOpGamesPlayedCount": 0,
@@ -617,19 +630,19 @@
   "coOpWinRate": 0,
   "coOpLossRate": 0,
   "winCountHannah": 2,
-  "winCountJohn": 3,
+  "winCountJohn": 4,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 5,
-  "winPercentageHannah": 0.4,
-  "winPercentageJohn": 0.6,
+  "winnableGamesTotal": 6,
+  "winPercentageHannah": 0.3333,
+  "winPercentageJohn": 0.6667,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
   "mostWonGames": "John",
   "mostWonGamesJohn": [
     {
       "game": "Tricks and the Phantom",
-      "plays": 3
+      "plays": 4
     }
   ],
   "mostWonGamesHannah": [

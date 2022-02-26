@@ -2,11 +2,11 @@
   "name": "Ungrouped",
   "gameFamilyId": "ungrouped",
   "earliestDate": "2018-01-03",
-  "latestDate": "2021-12-31",
+  "latestDate": "2022-02-20",
   "sequenceStartDate": "2018-01-03",
-  "sequenceEndDate": "2021-12-31",
-  "daysInSequence": 1459,
-  "daysWithUnplayedGames": 1318,
+  "sequenceEndDate": "2022-02-20",
+  "daysInSequence": 1510,
+  "daysWithUnplayedGames": 1356,
   "gamesPlayedPerDay": {
     "1": 1,
     "2": 0,
@@ -189,9 +189,9 @@
     "179": 0,
     "180": 0,
     "181": 0,
-    "182": 1,
+    "182": 0,
     "183": 0,
-    "184": 1,
+    "184": 0,
     "185": 0,
     "186": 0,
     "187": 0,
@@ -1466,7 +1466,58 @@
     "1456": 0,
     "1457": 0,
     "1458": 1,
-    "1459": 1
+    "1459": 1,
+    "1460": 0,
+    "1461": 0,
+    "1462": 0,
+    "1463": 1,
+    "1464": 1,
+    "1465": 0,
+    "1466": 0,
+    "1467": 3,
+    "1468": 1,
+    "1469": 0,
+    "1470": 1,
+    "1471": 0,
+    "1472": 0,
+    "1473": 0,
+    "1474": 0,
+    "1475": 0,
+    "1476": 0,
+    "1477": 0,
+    "1478": 1,
+    "1479": 0,
+    "1480": 0,
+    "1481": 0,
+    "1482": 1,
+    "1483": 0,
+    "1484": 0,
+    "1485": 0,
+    "1486": 0,
+    "1487": 0,
+    "1488": 2,
+    "1489": 2,
+    "1490": 0,
+    "1491": 0,
+    "1492": 2,
+    "1493": 2,
+    "1494": 1,
+    "1495": 0,
+    "1496": 1,
+    "1497": 0,
+    "1498": 0,
+    "1499": 0,
+    "1500": 0,
+    "1501": 0,
+    "1502": 0,
+    "1503": 0,
+    "1504": 0,
+    "1505": 0,
+    "1506": 0,
+    "1507": 0,
+    "1508": 0,
+    "1509": 2,
+    "1510": 1
   },
   "gamesPlayed": [
     {
@@ -2008,18 +2059,6 @@
       "coOpOutcome": "Won",
       "coOp": "Yes",
       "name": "Pandemic: In the Lab"
-    },
-    {
-      "date": "2018-07-03",
-      "winner": "Draw",
-      "coOp": "No",
-      "name": "El Alamein"
-    },
-    {
-      "date": "2018-07-05",
-      "winner": "John",
-      "coOp": "No",
-      "name": "El Alamein"
     },
     {
       "date": "2018-07-12",
@@ -2582,10 +2621,169 @@
       "winner": "John",
       "coOp": "No",
       "name": "Mint Control"
+    },
+    {
+      "date": "2022-01-04",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "name": "Mint Control"
+    },
+    {
+      "date": "2022-01-05",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "name": "Mint Cooperative"
+    },
+    {
+      "date": "2022-01-08",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "name": "Bandido"
+    },
+    {
+      "date": "2022-01-08",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "name": "Bandido"
+    },
+    {
+      "date": "2022-01-08",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "name": "Tucano"
+    },
+    {
+      "date": "2022-01-09",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "name": "Bandido"
+    },
+    {
+      "date": "2022-01-11",
+      "coOpOutcome": "loss",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "name": "Bandido"
+    },
+    {
+      "date": "2022-01-19",
+      "winner": "John",
+      "coOp": "no",
+      "notes": "Hannah was Alpha Wolf",
+      "noOfPlayers": 17,
+      "name": "Werewolf"
+    },
+    {
+      "date": "2022-01-23",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 3,
+      "name": "Bandido"
+    },
+    {
+      "date": "2022-01-29",
+      "coOpOutcome": "loss",
+      "coOp": "yes",
+      "noOfPlayers": 4,
+      "name": "Bandido"
+    },
+    {
+      "date": "2022-01-29",
+      "coOpOutcome": "loss",
+      "coOp": "yes",
+      "noOfPlayers": 4,
+      "name": "Bandido"
+    },
+    {
+      "date": "2022-01-30",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "name": "Bandido"
+    },
+    {
+      "date": "2022-01-30",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "notes": "On torch cards",
+      "noOfPlayers": 2,
+      "name": "Bandido"
+    },
+    {
+      "date": "2022-02-02",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 8,
+      "name": "The Resistance"
+    },
+    {
+      "date": "2022-02-02",
+      "coOpOutcome": "loss",
+      "coOp": "yes",
+      "noOfPlayers": 8,
+      "name": "The Resistance"
+    },
+    {
+      "date": "2022-02-03",
+      "winner": "John",
+      "coOp": "no",
+      "notes": "In D20 - Watford ",
+      "noOfPlayers": 2,
+      "name": "Jaipur"
+    },
+    {
+      "date": "2022-02-03",
+      "winner": "John",
+      "coOp": "no",
+      "notes": "In D20 - Watford ",
+      "noOfPlayers": 2,
+      "name": "Machi Koro 2"
+    },
+    {
+      "date": "2022-02-04",
+      "winner": "John",
+      "coOp": "no",
+      "notes": "In D20 - Watford ",
+      "noOfPlayers": 2,
+      "name": "Splendor: Cities"
+    },
+    {
+      "date": "2022-02-06",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "name": "Welcome To..."
+    },
+    {
+      "date": "2022-02-19",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "name": "Tapestry"
+    },
+    {
+      "date": "2022-02-19",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "name": "Tapestry"
+    },
+    {
+      "date": "2022-02-20",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "name": "Tapestry"
     }
   ],
-  "totalGamesPlayed": 178,
-  "averageGamesPlayedPerDay": 0.122,
+  "totalGamesPlayed": 198,
+  "averageGamesPlayedPerDay": 0.1311,
   "mostGamesPlayedInADay": [
     {
       "date": "2021-11-17",
@@ -2610,6 +2808,7 @@
     "Arkham Horror: The Card Game – Curse of the Rougarou: Scenario Pack",
     "Arkham Horror: The Card Game – The Dunwich Legacy: Expansion",
     "Bad Beets",
+    "Bandido",
     "Batman: Love Letter",
     "Battlestar Galactica: The Board Game",
     "Betrayal at Baldur's Gate",
@@ -2629,7 +2828,6 @@
     "Dominion: Intrigue (Second Edition)",
     "Duelosaur Island",
     "Dungeons & Dragons Starter Set",
-    "El Alamein",
     "Exploding Kittens",
     "Fallout",
     "Fallout: New California",
@@ -2644,6 +2842,7 @@
     "Heart of Crown",
     "Heroica: Fortaan",
     "Hive Pocket",
+    "Jaipur",
     "Kanagawa",
     "Legendary Encounters: A Firefly Deck Building Game",
     "Lords of Vegas",
@@ -2653,9 +2852,11 @@
     "Love Letter Premium Edition",
     "Love Letter: Legend of the Five Rings",
     "Love Letter: The Hobbit – The Battle of the Five Armies",
+    "Machi Koro 2",
     "Machi Koro: Bright Lights, Big City",
     "Marrying Mr. Darcy: the Emma Expansion",
     "Mint Control",
+    "Mint Cooperative",
     "Pandemic: In the Lab",
     "Planet",
     "Race for the Galaxy",
@@ -2666,10 +2867,12 @@
     "Sherlock Holmes Consulting Detective",
     "Sherlock Holmes Consulting Detective: The Thames Murders & Other Cases",
     "Skull",
+    "Splendor: Cities",
     "SpyNet",
     "T.I.M.E Stories",
     "T.I.M.E Stories: The Marcy Case",
     "T.I.M.E Stories: Under the Mask",
+    "Tapestry",
     "The Castles of Burghundy",
     "The Castles of Burgundy",
     "The Pyramid's Deadline",
@@ -2679,34 +2882,36 @@
     "Ticket to Ride: The Dice Expansion",
     "Ticket to Ride: USA 1910",
     "Tortuga 1667",
+    "Tucano",
     "Twilight Struggle",
     "Unicornus Knights",
     "Untold: Adventures Await",
+    "Welcome To...",
     "Werewolf"
   ],
-  "uniqueGamesPlayedCount": 85,
-  "uniqueGamesPlayedPercentage": 0.4775,
+  "uniqueGamesPlayedCount": 92,
+  "uniqueGamesPlayedPercentage": 0.4646,
   "mostPlayedGames": [
     {
       "name": "Werewolf",
-      "plays": 15
+      "plays": 16
     }
   ],
-  "coOpGamesPlayedCount": 70,
-  "coOpGamesPlayedPercentage": 0.3933,
-  "coOpGameWins": 31,
-  "coOpGameLoses": 39,
-  "coOpWinRate": 0.4429,
-  "coOpLossRate": 0.5571,
-  "winCountHannah": 53,
-  "winCountJohn": 43,
+  "coOpGamesPlayedCount": 81,
+  "coOpGamesPlayedPercentage": 0.4091,
+  "coOpGameWins": 38,
+  "coOpGameLoses": 43,
+  "coOpWinRate": 0.4691,
+  "coOpLossRate": 0.5309,
+  "winCountHannah": 56,
+  "winCountJohn": 50,
   "winCountOther": 8,
-  "winCountDraw": 7,
-  "winnableGamesTotal": 111,
-  "winPercentageHannah": 0.4775,
-  "winPercentageJohn": 0.3874,
-  "winPercentageOther": 0.0721,
-  "winPercentageDraw": 0.0631,
+  "winCountDraw": 6,
+  "winnableGamesTotal": 120,
+  "winPercentageHannah": 0.4667,
+  "winPercentageJohn": 0.4167,
+  "winPercentageOther": 0.0667,
+  "winPercentageDraw": 0.05,
   "mostWonGames": "Hannah",
   "mostWonGamesJohn": [
     {

@@ -4,7 +4,9 @@ const report = (...messages) => console.log('[Download Cali Play Records]', ...m
 const api = require('../')
 
 async function start () {
-  const { playrecords } = await api.downloadCaliPlayrecords()
+  const { playrecords, log } = await api.downloadCaliPlayrecords()
+
+  log.forEach(line => console.log(line))
 
   const filename = 'cali-playrecords.json'
   const body = JSON.stringify(playrecords, null, 2)

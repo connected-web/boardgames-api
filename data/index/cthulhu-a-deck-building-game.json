@@ -3,14 +3,27 @@
   "boardGameGeekName": "Cthulhu: A Deck Building Game",
   "boardGameApiId": "cthulhu-a-deck-building-game",
   "name": "Cthulhu: A Deck Building Game",
-  "playRecords": [],
-  "totalGamesPlayed": 0,
-  "coOpGamesPlayedCount": 0,
-  "coOpGamesPlayedPercentage": 0,
-  "coOpGameWins": 0,
-  "coOpGameLoses": 0,
-  "coOpWinRate": 0,
-  "coOpLossRate": 0,
+  "playRecords": [
+    {
+      "date": "2020-10-16",
+      "coOpOutcome": "Lose",
+      "coOp": "Yes",
+      "gameFamily": "Cthulhu"
+    },
+    {
+      "date": "2020-10-17",
+      "coOpOutcome": "Win",
+      "coOp": "Yes",
+      "gameFamily": "Cthulhu"
+    }
+  ],
+  "totalGamesPlayed": 2,
+  "coOpGamesPlayedCount": 2,
+  "coOpGamesPlayedPercentage": 1,
+  "coOpGameWins": 1,
+  "coOpGameLoses": 1,
+  "coOpWinRate": 0.5,
+  "coOpLossRate": 0.5,
   "winCountHannah": 0,
   "winCountJohn": 0,
   "winCountOther": 0,

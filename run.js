@@ -22,9 +22,9 @@ async function start () {
   scripts['create-all'] = async () => {
     return processScripts([
       'create-bgg-index',
-      'create-boardgame-list',
       'create-boardgame-index',
       'create-boardgame-feed',
+      'create-boardgame-list',
       'create-boardgame-summaries',
       'create-boardgame-summaries-by-tags',
       'create-boardgame-challenge-grids',

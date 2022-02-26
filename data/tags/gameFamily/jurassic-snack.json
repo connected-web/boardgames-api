@@ -6,7 +6,7 @@
   "sequenceStartDate": "2018-06-02",
   "sequenceEndDate": "2021-12-31",
   "daysInSequence": 1309,
-  "daysWithUnplayedGames": 1286,
+  "daysWithUnplayedGames": 1285,
   "gamesPlayedPerDay": {
     "1": 1,
     "2": 0,
@@ -870,7 +870,7 @@
     "860": 0,
     "861": 0,
     "862": 0,
-    "863": 0,
+    "863": 1,
     "864": 0,
     "865": 0,
     "866": 0,
@@ -1384,6 +1384,13 @@
       "name": "Jurassic Snack"
     },
     {
+      "date": "2020-10-11",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Jurassic Snack",
+      "name": "Jurassic Snack"
+    },
+    {
       "date": "2021-01-01",
       "winner": "John",
       "coOp": "No",
@@ -1480,8 +1487,8 @@
       "name": "Jurassic Brunch"
     }
   ],
-  "totalGamesPlayed": 24,
-  "averageGamesPlayedPerDay": 0.0183,
+  "totalGamesPlayed": 25,
+  "averageGamesPlayedPerDay": 0.0191,
   "mostGamesPlayedInADay": [
     {
       "date": "2021-10-16",
@@ -1496,33 +1503,33 @@
     "Jurassic Snack"
   ],
   "uniqueGamesPlayedCount": 2,
-  "uniqueGamesPlayedPercentage": 0.0833,
+  "uniqueGamesPlayedPercentage": 0.08,
   "mostPlayedGames": [
     {
       "name": "Jurassic Snack",
-      "plays": 20
+      "plays": 21
     }
   ],
   "coOpGamesPlayedCount": 1,
-  "coOpGamesPlayedPercentage": 0.0417,
+  "coOpGamesPlayedPercentage": 0.04,
   "coOpGameWins": 1,
   "coOpGameLoses": 0,
   "coOpWinRate": 1,
   "coOpLossRate": 0,
   "winCountHannah": 9,
-  "winCountJohn": 13,
+  "winCountJohn": 14,
   "winCountOther": 0,
   "winCountDraw": 1,
-  "winnableGamesTotal": 23,
-  "winPercentageHannah": 0.3913,
-  "winPercentageJohn": 0.5652,
+  "winnableGamesTotal": 24,
+  "winPercentageHannah": 0.375,
+  "winPercentageJohn": 0.5833,
   "winPercentageOther": 0,
-  "winPercentageDraw": 0.0435,
+  "winPercentageDraw": 0.0417,
   "mostWonGames": "John",
   "mostWonGamesJohn": [
     {
       "game": "Jurassic Snack",
-      "plays": 11
+      "plays": 12
     }
   ],
   "mostWonGamesHannah": [

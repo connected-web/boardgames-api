@@ -9,7 +9,7 @@ const log = []
 const report = (...messages) => log.push(['[Download Cali Play Records]', ...messages].join(' '))
 
 async function downloadPlayrecords ({ axios }, { year, apiUser, apiKey, url }) {
-  report('Downloading data for', year, 'from', url, 'with user API key:', apiUser)
+  report('Downloading data for', year, 'from', url, 'with user API key:', apiUser, apiKey)
   try {
     const axiosConfig = {
       headers: {

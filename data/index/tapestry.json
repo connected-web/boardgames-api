@@ -3,22 +3,41 @@
   "boardGameGeekName": "Tapestry",
   "boardGameApiId": "tapestry",
   "name": "Tapestry",
-  "playRecords": [],
-  "totalGamesPlayed": 0,
+  "playRecords": [
+    {
+      "date": "2022-02-19",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2
+    },
+    {
+      "date": "2022-02-19",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2
+    },
+    {
+      "date": "2022-02-20",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2
+    }
+  ],
+  "totalGamesPlayed": 3,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
   "coOpGameLoses": 0,
   "coOpWinRate": 0,
   "coOpLossRate": 0,
-  "winCountHannah": 0,
-  "winCountJohn": 0,
+  "winCountHannah": 2,
+  "winCountJohn": 1,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 0,
-  "winPercentageHannah": 0,
-  "winPercentageJohn": 0,
+  "winnableGamesTotal": 3,
+  "winPercentageHannah": 0.6667,
+  "winPercentageJohn": 0.3333,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
-  "mostWonGames": "Draw"
+  "mostWonGames": "Hannah"
 }

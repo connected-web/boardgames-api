@@ -30,9 +30,15 @@
       "winner": "John",
       "coOp": "No",
       "gameFamily": "Ticket to Ride"
+    },
+    {
+      "date": "2020-10-24",
+      "winner": "Draw",
+      "coOp": "No",
+      "gameFamily": "Ticket to Ride"
     }
   ],
-  "totalGamesPlayed": 5,
+  "totalGamesPlayed": 6,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
@@ -42,11 +48,11 @@
   "winCountHannah": 3,
   "winCountJohn": 2,
   "winCountOther": 0,
-  "winCountDraw": 0,
-  "winnableGamesTotal": 5,
-  "winPercentageHannah": 0.6,
-  "winPercentageJohn": 0.4,
+  "winCountDraw": 1,
+  "winnableGamesTotal": 6,
+  "winPercentageHannah": 0.5,
+  "winPercentageJohn": 0.3333,
   "winPercentageOther": 0,
-  "winPercentageDraw": 0,
+  "winPercentageDraw": 0.1667,
   "mostWonGames": "Hannah"
 }

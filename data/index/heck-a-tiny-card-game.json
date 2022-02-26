@@ -5,6 +5,24 @@
   "name": "HECK: A Tiny Card Game",
   "playRecords": [
     {
+      "date": "2020-10-24",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Heck"
+    },
+    {
+      "date": "2020-10-24",
+      "winner": "Hannah",
+      "coOp": "No",
+      "gameFamily": "Heck"
+    },
+    {
+      "date": "2020-10-25",
+      "winner": "John",
+      "coOp": "No",
+      "gameFamily": "Heck"
+    },
+    {
       "date": "2020-11-08",
       "winner": "Hannah",
       "coOp": "No",
@@ -22,21 +40,21 @@
       "coOp": "No"
     }
   ],
-  "totalGamesPlayed": 3,
+  "totalGamesPlayed": 6,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
   "coOpGameLoses": 0,
   "coOpWinRate": 0,
   "coOpLossRate": 0,
-  "winCountHannah": 1,
-  "winCountJohn": 1,
+  "winCountHannah": 2,
+  "winCountJohn": 3,
   "winCountOther": 1,
   "winCountDraw": 0,
-  "winnableGamesTotal": 3,
+  "winnableGamesTotal": 6,
   "winPercentageHannah": 0.3333,
-  "winPercentageJohn": 0.3333,
-  "winPercentageOther": 0.3333,
+  "winPercentageJohn": 0.5,
+  "winPercentageOther": 0.1667,
   "winPercentageDraw": 0,
-  "mostWonGames": "Draw"
+  "mostWonGames": "John"
 }

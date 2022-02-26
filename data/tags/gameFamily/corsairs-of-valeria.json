@@ -2,11 +2,11 @@
   "name": "Corsairs of Valeria",
   "gameFamilyId": "corsairs-of-valeria",
   "earliestDate": "2020-05-10",
-  "latestDate": "2021-10-14",
+  "latestDate": "2022-01-20",
   "sequenceStartDate": "2020-05-10",
-  "sequenceEndDate": "2021-10-14",
-  "daysInSequence": 523,
-  "daysWithUnplayedGames": 500,
+  "sequenceEndDate": "2022-01-20",
+  "daysInSequence": 621,
+  "daysWithUnplayedGames": 597,
   "gamesPlayedPerDay": {
     "1": 1,
     "2": 1,
@@ -530,7 +530,105 @@
     "520": 0,
     "521": 0,
     "522": 0,
-    "523": 1
+    "523": 1,
+    "524": 0,
+    "525": 0,
+    "526": 0,
+    "527": 0,
+    "528": 0,
+    "529": 0,
+    "530": 0,
+    "531": 0,
+    "532": 0,
+    "533": 0,
+    "534": 0,
+    "535": 0,
+    "536": 0,
+    "537": 0,
+    "538": 0,
+    "539": 0,
+    "540": 0,
+    "541": 0,
+    "542": 0,
+    "543": 0,
+    "544": 0,
+    "545": 0,
+    "546": 0,
+    "547": 0,
+    "548": 0,
+    "549": 0,
+    "550": 0,
+    "551": 0,
+    "552": 0,
+    "553": 0,
+    "554": 0,
+    "555": 0,
+    "556": 0,
+    "557": 0,
+    "558": 0,
+    "559": 0,
+    "560": 0,
+    "561": 0,
+    "562": 0,
+    "563": 0,
+    "564": 0,
+    "565": 0,
+    "566": 0,
+    "567": 0,
+    "568": 0,
+    "569": 0,
+    "570": 0,
+    "571": 0,
+    "572": 0,
+    "573": 0,
+    "574": 0,
+    "575": 0,
+    "576": 0,
+    "577": 0,
+    "578": 0,
+    "579": 0,
+    "580": 0,
+    "581": 0,
+    "582": 0,
+    "583": 0,
+    "584": 0,
+    "585": 0,
+    "586": 0,
+    "587": 0,
+    "588": 0,
+    "589": 0,
+    "590": 0,
+    "591": 0,
+    "592": 0,
+    "593": 0,
+    "594": 0,
+    "595": 0,
+    "596": 0,
+    "597": 0,
+    "598": 0,
+    "599": 0,
+    "600": 0,
+    "601": 0,
+    "602": 0,
+    "603": 0,
+    "604": 0,
+    "605": 0,
+    "606": 0,
+    "607": 0,
+    "608": 0,
+    "609": 0,
+    "610": 0,
+    "611": 0,
+    "612": 0,
+    "613": 0,
+    "614": 0,
+    "615": 0,
+    "616": 0,
+    "617": 0,
+    "618": 0,
+    "619": 0,
+    "620": 0,
+    "621": 1
   },
   "gamesPlayed": [
     {
@@ -692,10 +790,17 @@
       "coOp": "No",
       "gameFamily": "Corsairs of Valeria ",
       "name": "Corsairs of Valeria"
+    },
+    {
+      "date": "2022-01-20",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "name": "Corsairs of Valeria"
     }
   ],
-  "totalGamesPlayed": 23,
-  "averageGamesPlayedPerDay": 0.044,
+  "totalGamesPlayed": 24,
+  "averageGamesPlayedPerDay": 0.0386,
   "mostGamesPlayedInADay": [
     {
       "date": "2020-05-10",
@@ -834,17 +939,23 @@
       "games": [
         "Corsairs of Valeria"
       ]
+    },
+    {
+      "date": "2022-01-20",
+      "games": [
+        "Corsairs of Valeria"
+      ]
     }
   ],
   "uniqueGamesPlayed": [
     "Corsairs of Valeria"
   ],
   "uniqueGamesPlayedCount": 1,
-  "uniqueGamesPlayedPercentage": 0.0435,
+  "uniqueGamesPlayedPercentage": 0.0417,
   "mostPlayedGames": [
     {
       "name": "Corsairs of Valeria",
-      "plays": 23
+      "plays": 24
     }
   ],
   "coOpGamesPlayedCount": 0,
@@ -853,16 +964,16 @@
   "coOpGameLoses": 0,
   "coOpWinRate": 0,
   "coOpLossRate": 0,
-  "winCountHannah": 11,
+  "winCountHannah": 12,
   "winCountJohn": 11,
   "winCountOther": 0,
   "winCountDraw": 1,
-  "winnableGamesTotal": 23,
-  "winPercentageHannah": 0.4783,
-  "winPercentageJohn": 0.4783,
+  "winnableGamesTotal": 24,
+  "winPercentageHannah": 0.5,
+  "winPercentageJohn": 0.4583,
   "winPercentageOther": 0,
-  "winPercentageDraw": 0.0435,
-  "mostWonGames": "Draw",
+  "winPercentageDraw": 0.0417,
+  "mostWonGames": "Hannah",
   "mostWonGamesJohn": [
     {
       "game": "Corsairs of Valeria",
@@ -872,7 +983,7 @@
   "mostWonGamesHannah": [
     {
       "game": "Corsairs of Valeria",
-      "plays": 11
+      "plays": 12
     }
   ]
 }
