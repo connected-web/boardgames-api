@@ -111,23 +111,42 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2
+    },
+    {
+      "date": "2022-04-25",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2
+    },
+    {
+      "date": "2022-06-18",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2
+    },
+    {
+      "date": "2022-06-19",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "notes": "A Pandemic system game",
+      "noOfPlayers": 2
     }
   ],
-  "totalGamesPlayed": 20,
-  "coOpGamesPlayedCount": 0,
-  "coOpGamesPlayedPercentage": 0,
-  "coOpGameWins": 0,
+  "totalGamesPlayed": 23,
+  "coOpGamesPlayedCount": 1,
+  "coOpGamesPlayedPercentage": 0.0435,
+  "coOpGameWins": 1,
   "coOpGameLoses": 0,
-  "coOpWinRate": 0,
+  "coOpWinRate": 1,
   "coOpLossRate": 0,
   "winCountHannah": 9,
-  "winCountJohn": 8,
+  "winCountJohn": 10,
   "winCountOther": 2,
   "winCountDraw": 1,
-  "winnableGamesTotal": 20,
-  "winPercentageHannah": 0.45,
-  "winPercentageJohn": 0.4,
-  "winPercentageOther": 0.1,
-  "winPercentageDraw": 0.05,
-  "mostWonGames": "Hannah"
+  "winnableGamesTotal": 22,
+  "winPercentageHannah": 0.4091,
+  "winPercentageJohn": 0.4545,
+  "winPercentageOther": 0.0909,
+  "winPercentageDraw": 0.0455,
+  "mostWonGames": "John"
 }

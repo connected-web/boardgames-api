@@ -2,10 +2,10 @@
   "name": "Dominion",
   "gameFamilyId": "dominion",
   "earliestDate": "2018-02-23",
-  "latestDate": "2022-02-26",
+  "latestDate": "2022-02-27",
   "sequenceStartDate": "2018-02-23",
-  "sequenceEndDate": "2022-02-26",
-  "daysInSequence": 1465,
+  "sequenceEndDate": "2022-02-27",
+  "daysInSequence": 1466,
   "daysWithUnplayedGames": 1431,
   "gamesPlayedPerDay": {
     "1": 1,
@@ -1472,7 +1472,8 @@
     "1462": 0,
     "1463": 0,
     "1464": 0,
-    "1465": 1
+    "1465": 2,
+    "1466": 2
   },
   "gamesPlayed": [
     {
@@ -1734,10 +1735,43 @@
         "Dominion: Intrigue (Second Edition)"
       ],
       "name": "Dominion (Second Edition)"
+    },
+    {
+      "date": "2022-02-26",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "expansions": [
+        "Dominion: Seaside",
+        "Dominion: Intrigue (Second Edition)"
+      ],
+      "name": "Dominion (Second Edition)"
+    },
+    {
+      "date": "2022-02-27",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "expansions": [
+        "Dominion: Seaside",
+        "Dominion: Intrigue (Second Edition)"
+      ],
+      "name": "Dominion (Second Edition)"
+    },
+    {
+      "date": "2022-02-27",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "expansions": [
+        "Dominion: Seaside",
+        "Dominion: Intrigue (Second Edition)"
+      ],
+      "name": "Dominion (Second Edition)"
     }
   ],
-  "totalGamesPlayed": 37,
-  "averageGamesPlayedPerDay": 0.0253,
+  "totalGamesPlayed": 40,
+  "averageGamesPlayedPerDay": 0.0273,
   "mostGamesPlayedInADay": [
     {
       "date": "2018-03-02",
@@ -1759,6 +1793,20 @@
         "Dominion: Mixed Box",
         "Dominion: Mixed Box"
       ]
+    },
+    {
+      "date": "2022-02-26",
+      "games": [
+        "Dominion (Second Edition)",
+        "Dominion (Second Edition)"
+      ]
+    },
+    {
+      "date": "2022-02-27",
+      "games": [
+        "Dominion (Second Edition)",
+        "Dominion (Second Edition)"
+      ]
     }
   ],
   "uniqueGamesPlayed": [
@@ -1770,11 +1818,11 @@
     "Dominion: Seaside"
   ],
   "uniqueGamesPlayedCount": 6,
-  "uniqueGamesPlayedPercentage": 0.1622,
+  "uniqueGamesPlayedPercentage": 0.15,
   "mostPlayedGames": [
     {
       "name": "Dominion (Second Edition)",
-      "plays": 10
+      "plays": 13
     }
   ],
   "coOpGamesPlayedCount": 0,
@@ -1783,15 +1831,15 @@
   "coOpGameLoses": 0,
   "coOpWinRate": 0,
   "coOpLossRate": 0,
-  "winCountHannah": 21,
+  "winCountHannah": 24,
   "winCountJohn": 15,
   "winCountOther": 0,
   "winCountDraw": 1,
-  "winnableGamesTotal": 37,
-  "winPercentageHannah": 0.5676,
-  "winPercentageJohn": 0.4054,
+  "winnableGamesTotal": 40,
+  "winPercentageHannah": 0.6,
+  "winPercentageJohn": 0.375,
   "winPercentageOther": 0,
-  "winPercentageDraw": 0.027,
+  "winPercentageDraw": 0.025,
   "mostWonGames": "Hannah",
   "mostWonGamesJohn": [
     {
@@ -1805,12 +1853,8 @@
   ],
   "mostWonGamesHannah": [
     {
-      "game": "Dominion: Prosperity",
-      "plays": 6
-    },
-    {
-      "game": "Dominion: Seaside",
-      "plays": 6
+      "game": "Dominion (Second Edition)",
+      "plays": 8
     }
   ]
 }

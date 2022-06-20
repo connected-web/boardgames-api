@@ -53,24 +53,42 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 3
+    },
+    {
+      "date": "2022-03-19",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "expansions": [
+        "Terraforming Mars: Prelude"
+      ]
+    },
+    {
+      "date": "2022-03-28",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "expansions": [
+        "Terraforming Mars Colonies"
+      ]
     }
   ],
   "name": "Terraforming Mars",
-  "totalGamesPlayed": 9,
+  "totalGamesPlayed": 11,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
   "coOpGameLoses": 0,
   "coOpWinRate": 0,
   "coOpLossRate": 0,
-  "winCountHannah": 6,
+  "winCountHannah": 8,
   "winCountJohn": 2,
   "winCountOther": 1,
   "winCountDraw": 0,
-  "winnableGamesTotal": 9,
-  "winPercentageHannah": 0.6667,
-  "winPercentageJohn": 0.2222,
-  "winPercentageOther": 0.1111,
+  "winnableGamesTotal": 11,
+  "winPercentageHannah": 0.7273,
+  "winPercentageJohn": 0.1818,
+  "winPercentageOther": 0.0909,
   "winPercentageDraw": 0,
   "mostWonGames": "Hannah"
 }

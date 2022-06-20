@@ -1,0 +1,183 @@
+{
+  "dateCode": "2022-03",
+  "title": "March 2022",
+  "sequenceStartDate": "2022-03-01",
+  "sequenceEndDate": "2022-03-31",
+  "daysInSequence": 31,
+  "daysWithUnplayedGames": 22,
+  "gamesPlayedPerDay": {
+    "1": 1,
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0,
+    "8": 0,
+    "9": 0,
+    "10": 1,
+    "11": 0,
+    "12": 2,
+    "13": 0,
+    "14": 0,
+    "15": 0,
+    "16": 0,
+    "17": 0,
+    "18": 1,
+    "19": 2,
+    "20": 0,
+    "21": 0,
+    "22": 0,
+    "23": 0,
+    "24": 1,
+    "25": 0,
+    "26": 0,
+    "27": 1,
+    "28": 1,
+    "29": 0,
+    "30": 0,
+    "31": 0
+  },
+  "gamesPlayed": [
+    {
+      "date": "2022-03-01",
+      "name": "Codenames",
+      "coOp": "yes",
+      "coOpOutcome": "win"
+    },
+    {
+      "date": "2022-03-03",
+      "name": "Love Letter: Adventure Time",
+      "winner": "Hannah",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-03-10",
+      "name": "Viticulture: Tuscany Essential Edition",
+      "winner": "Hannah",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-03-12",
+      "name": "Love Letter 2nd Edition",
+      "winner": "Hannah",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-03-12",
+      "name": "The Castles of Burgundy",
+      "winner": "John",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-03-18",
+      "name": "Lovecraft Letter",
+      "winner": "Hannah",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-03-19",
+      "name": "Runir",
+      "winner": "Hannah",
+      "coOp": "no",
+      "note": "Technically, John should’ve won."
+    },
+    {
+      "date": "2022-03-19",
+      "name": "Terraforming Mars",
+      "winner": "Hannah",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-03-24",
+      "name": "Happy Little Dinosaurs",
+      "winner": "Hannah",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-03-27",
+      "name": "Runir",
+      "winner": "Hannah",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-03-28",
+      "name": "Terraforming Mars",
+      "winner": "Hannah",
+      "coOp": "no"
+    }
+  ],
+  "totalGamesPlayed": 11,
+  "averageGamesPlayedPerDay": 0.3548,
+  "mostGamesPlayedInADay": [
+    {
+      "date": "2022-03-12",
+      "games": [
+        "Love Letter 2nd Edition",
+        "The Castles of Burgundy"
+      ]
+    },
+    {
+      "date": "2022-03-19",
+      "games": [
+        "Runir",
+        "Terraforming Mars"
+      ]
+    }
+  ],
+  "uniqueGamesPlayed": [
+    "Codenames",
+    "Happy Little Dinosaurs",
+    "Love Letter 2nd Edition",
+    "Love Letter: Adventure Time",
+    "Lovecraft Letter",
+    "Runir",
+    "Terraforming Mars",
+    "The Castles of Burgundy",
+    "Viticulture: Tuscany Essential Edition"
+  ],
+  "uniqueGamesPlayedCount": 9,
+  "uniqueGamesPlayedPercentage": 0.8182,
+  "mostPlayedGames": [
+    {
+      "name": "Runir",
+      "plays": 2
+    },
+    {
+      "name": "Terraforming Mars",
+      "plays": 2
+    }
+  ],
+  "coOpGamesPlayedCount": 1,
+  "coOpGamesPlayedPercentage": 0.0909,
+  "coOpGameWins": 1,
+  "coOpGameLoses": 0,
+  "coOpWinRate": 1,
+  "coOpLossRate": 0,
+  "winCountHannah": 9,
+  "winCountJohn": 1,
+  "winCountOther": 0,
+  "winCountDraw": 0,
+  "winnableGamesTotal": 10,
+  "winPercentageHannah": 0.9,
+  "winPercentageJohn": 0.1,
+  "winPercentageOther": 0,
+  "winPercentageDraw": 0,
+  "mostWonGames": "Hannah",
+  "mostWonGamesJohn": [
+    {
+      "game": "The Castles of Burgundy",
+      "plays": 1
+    }
+  ],
+  "mostWonGamesHannah": [
+    {
+      "game": "Terraforming Mars",
+      "plays": 2
+    },
+    {
+      "game": "Runir",
+      "plays": 2
+    }
+  ]
+}

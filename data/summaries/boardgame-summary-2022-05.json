@@ -1,0 +1,185 @@
+{
+  "dateCode": "2022-05",
+  "title": "May 2022",
+  "sequenceStartDate": "2022-05-01",
+  "sequenceEndDate": "2022-05-31",
+  "daysInSequence": 31,
+  "daysWithUnplayedGames": 26,
+  "gamesPlayedPerDay": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 2,
+    "8": 0,
+    "9": 0,
+    "10": 0,
+    "11": 0,
+    "12": 0,
+    "13": 1,
+    "14": 0,
+    "15": 1,
+    "16": 0,
+    "17": 0,
+    "18": 0,
+    "19": 0,
+    "20": 0,
+    "21": 0,
+    "22": 2,
+    "23": 0,
+    "24": 1,
+    "25": 0,
+    "26": 0,
+    "27": 0,
+    "28": 0,
+    "29": 0,
+    "30": 0,
+    "31": 0
+  },
+  "gamesPlayed": [
+    {
+      "date": "2022-05-07",
+      "name": "Codenames: Duet",
+      "coOp": "yes",
+      "coOpOutcome": "win"
+    },
+    {
+      "date": "2022-05-07",
+      "name": "Tanto Cuore",
+      "winner": "Hannah",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-05-13",
+      "name": "Carcassonne",
+      "coOp": "yes",
+      "coOpOutcome": "win",
+      "note": "Total points 345 "
+    },
+    {
+      "date": "2022-05-15",
+      "name": "Astronauts",
+      "winner": "Hannah",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-05-22",
+      "name": "Diamonsters",
+      "winner": "John",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-05-22",
+      "name": "Yam Yam",
+      "winner": "Hannah",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-05-24",
+      "name": "Jurassic Brunch",
+      "winner": "Hannah",
+      "coOp": "no"
+    }
+  ],
+  "totalGamesPlayed": 7,
+  "averageGamesPlayedPerDay": 0.2258,
+  "mostGamesPlayedInADay": [
+    {
+      "date": "2022-05-07",
+      "games": [
+        "Codenames: Duet",
+        "Tanto Cuore"
+      ]
+    },
+    {
+      "date": "2022-05-22",
+      "games": [
+        "Diamonsters",
+        "Yam Yam"
+      ]
+    }
+  ],
+  "uniqueGamesPlayed": [
+    "Astronauts",
+    "Carcassonne",
+    "Codenames: Duet",
+    "Diamonsters",
+    "Jurassic Brunch",
+    "Tanto Cuore",
+    "Yam Yam"
+  ],
+  "uniqueGamesPlayedCount": 7,
+  "uniqueGamesPlayedPercentage": 1,
+  "mostPlayedGames": [
+    {
+      "name": "Codenames: Duet",
+      "plays": 1
+    },
+    {
+      "name": "Tanto Cuore",
+      "plays": 1
+    },
+    {
+      "name": "Carcassonne",
+      "plays": 1
+    },
+    {
+      "name": "Astronauts",
+      "plays": 1
+    },
+    {
+      "name": "Diamonsters",
+      "plays": 1
+    },
+    {
+      "name": "Yam Yam",
+      "plays": 1
+    },
+    {
+      "name": "Jurassic Brunch",
+      "plays": 1
+    }
+  ],
+  "coOpGamesPlayedCount": 2,
+  "coOpGamesPlayedPercentage": 0.2857,
+  "coOpGameWins": 2,
+  "coOpGameLoses": 0,
+  "coOpWinRate": 1,
+  "coOpLossRate": 0,
+  "winCountHannah": 4,
+  "winCountJohn": 1,
+  "winCountOther": 0,
+  "winCountDraw": 0,
+  "winnableGamesTotal": 5,
+  "winPercentageHannah": 0.8,
+  "winPercentageJohn": 0.2,
+  "winPercentageOther": 0,
+  "winPercentageDraw": 0,
+  "mostWonGames": "Hannah",
+  "mostWonGamesJohn": [
+    {
+      "game": "Diamonsters",
+      "plays": 1
+    }
+  ],
+  "mostWonGamesHannah": [
+    {
+      "game": "Jurassic Brunch",
+      "plays": 1
+    },
+    {
+      "game": "Yam Yam",
+      "plays": 1
+    },
+    {
+      "game": "Astronauts",
+      "plays": 1
+    },
+    {
+      "game": "Tanto Cuore",
+      "plays": 1
+    }
+  ]
+}

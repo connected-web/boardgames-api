@@ -4,7 +4,7 @@
   "sequenceStartDate": "2022-02-01",
   "sequenceEndDate": "2022-02-28",
   "daysInSequence": 28,
-  "daysWithUnplayedGames": 18,
+  "daysWithUnplayedGames": 15,
   "gamesPlayedPerDay": {
     "1": 0,
     "2": 2,
@@ -30,10 +30,10 @@
     "22": 0,
     "23": 0,
     "24": 0,
-    "25": 0,
-    "26": 1,
-    "27": 0,
-    "28": 0
+    "25": 1,
+    "26": 2,
+    "27": 2,
+    "28": 2
   },
   "gamesPlayed": [
     {
@@ -131,15 +131,51 @@
       "coOp": "no"
     },
     {
+      "date": "2022-02-25",
+      "name": "Terraforming Mars: Ares Expedition",
+      "winner": "Hannah",
+      "coOp": "no"
+    },
+    {
       "date": "2022-02-26",
       "name": "Dominion (Second Edition)",
       "winner": "Hannah",
       "coOp": "no",
       "note": "Treasure Maps are tight, yo!"
+    },
+    {
+      "date": "2022-02-26",
+      "name": "Dominion (Second Edition)",
+      "winner": "Hannah",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-02-27",
+      "name": "Dominion (Second Edition)",
+      "winner": "Hannah",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-02-27",
+      "name": "Dominion (Second Edition)",
+      "winner": "Hannah",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-02-28",
+      "name": "Codenames",
+      "coOp": "yes",
+      "coOpOutcome": "loss"
+    },
+    {
+      "date": "2022-02-28",
+      "name": "Corsairs of Valeria",
+      "winner": "Hannah",
+      "coOp": "no"
     }
   ],
-  "totalGamesPlayed": 16,
-  "averageGamesPlayedPerDay": 0.5714,
+  "totalGamesPlayed": 22,
+  "averageGamesPlayedPerDay": 0.7857,
   "mostGamesPlayedInADay": [
     {
       "date": "2022-02-18",
@@ -152,6 +188,8 @@
   ],
   "uniqueGamesPlayed": [
     "Archer: Once You Go Blackmail...",
+    "Codenames",
+    "Corsairs of Valeria",
     "Dominion (Second Edition)",
     "Jaipur",
     "Love Letter",
@@ -160,35 +198,36 @@
     "Pandemic: Hot Zone Europe",
     "Splendor: Cities",
     "Tapestry",
+    "Terraforming Mars: Ares Expedition",
     "The Resistance",
     "Troika",
     "Welcome To...",
     "Wingspan"
   ],
-  "uniqueGamesPlayedCount": 13,
-  "uniqueGamesPlayedPercentage": 0.8125,
+  "uniqueGamesPlayedCount": 16,
+  "uniqueGamesPlayedPercentage": 0.7273,
   "mostPlayedGames": [
     {
-      "name": "Tapestry",
-      "plays": 3
+      "name": "Dominion (Second Edition)",
+      "plays": 4
     }
   ],
-  "coOpGamesPlayedCount": 2,
-  "coOpGamesPlayedPercentage": 0.125,
+  "coOpGamesPlayedCount": 3,
+  "coOpGamesPlayedPercentage": 0.1364,
   "coOpGameWins": 1,
-  "coOpGameLoses": 1,
-  "coOpWinRate": 0.5,
-  "coOpLossRate": 0.5,
-  "winCountHannah": 6,
+  "coOpGameLoses": 2,
+  "coOpWinRate": 0.3333,
+  "coOpLossRate": 0.6667,
+  "winCountHannah": 11,
   "winCountJohn": 8,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 14,
-  "winPercentageHannah": 0.4286,
-  "winPercentageJohn": 0.5714,
+  "winnableGamesTotal": 19,
+  "winPercentageHannah": 0.5789,
+  "winPercentageJohn": 0.4211,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
-  "mostWonGames": "John",
+  "mostWonGames": "Hannah",
   "mostWonGamesJohn": [
     {
       "game": "Tapestry",
@@ -225,8 +264,8 @@
   ],
   "mostWonGamesHannah": [
     {
-      "game": "Tapestry",
-      "plays": 2
+      "game": "Dominion (Second Edition)",
+      "plays": 4
     }
   ]
 }

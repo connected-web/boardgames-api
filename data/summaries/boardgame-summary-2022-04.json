@@ -1,0 +1,179 @@
+{
+  "dateCode": "2022-04",
+  "title": "April 2022",
+  "sequenceStartDate": "2022-04-01",
+  "sequenceEndDate": "2022-04-30",
+  "daysInSequence": 30,
+  "daysWithUnplayedGames": 24,
+  "gamesPlayedPerDay": {
+    "1": 0,
+    "2": 0,
+    "3": 2,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0,
+    "8": 0,
+    "9": 0,
+    "10": 0,
+    "11": 0,
+    "12": 1,
+    "13": 0,
+    "14": 0,
+    "15": 0,
+    "16": 0,
+    "17": 0,
+    "18": 1,
+    "19": 0,
+    "20": 0,
+    "21": 2,
+    "22": 0,
+    "23": 0,
+    "24": 0,
+    "25": 1,
+    "26": 0,
+    "27": 0,
+    "28": 0,
+    "29": 0,
+    "30": 2
+  },
+  "gamesPlayed": [
+    {
+      "date": "2022-04-03",
+      "name": "Azul: Queen’s Garden",
+      "winner": "John",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-04-03",
+      "name": "Stardew Valley",
+      "coOp": "yes",
+      "coOpOutcome": "win"
+    },
+    {
+      "date": "2022-04-12",
+      "name": "Corsairs of Valeria",
+      "winner": "Hannah",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-04-18",
+      "name": "Bandido",
+      "coOp": "yes",
+      "coOpOutcome": "win"
+    },
+    {
+      "date": "2022-04-21",
+      "name": "Codenames",
+      "coOp": "yes",
+      "coOpOutcome": "win"
+    },
+    {
+      "date": "2022-04-21",
+      "name": "Codenames",
+      "coOp": "yes",
+      "coOpOutcome": "win"
+    },
+    {
+      "date": "2022-04-25",
+      "name": "Troika",
+      "winner": "John",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-04-30",
+      "name": "Marrying Mr. Darcy",
+      "winner": "Hannah",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-04-30",
+      "name": "Pandemic: Contagion",
+      "winner": "Hannah",
+      "coOp": "no"
+    }
+  ],
+  "totalGamesPlayed": 9,
+  "averageGamesPlayedPerDay": 0.3,
+  "mostGamesPlayedInADay": [
+    {
+      "date": "2022-04-03",
+      "games": [
+        "Azul: Queen’s Garden",
+        "Stardew Valley"
+      ]
+    },
+    {
+      "date": "2022-04-21",
+      "games": [
+        "Codenames",
+        "Codenames"
+      ]
+    },
+    {
+      "date": "2022-04-30",
+      "games": [
+        "Marrying Mr. Darcy",
+        "Pandemic: Contagion"
+      ]
+    }
+  ],
+  "uniqueGamesPlayed": [
+    "Azul: Queen’s Garden",
+    "Bandido",
+    "Codenames",
+    "Corsairs of Valeria",
+    "Marrying Mr. Darcy",
+    "Pandemic: Contagion",
+    "Stardew Valley",
+    "Troika"
+  ],
+  "uniqueGamesPlayedCount": 8,
+  "uniqueGamesPlayedPercentage": 0.8889,
+  "mostPlayedGames": [
+    {
+      "name": "Codenames",
+      "plays": 2
+    }
+  ],
+  "coOpGamesPlayedCount": 4,
+  "coOpGamesPlayedPercentage": 0.4444,
+  "coOpGameWins": 4,
+  "coOpGameLoses": 0,
+  "coOpWinRate": 1,
+  "coOpLossRate": 0,
+  "winCountHannah": 3,
+  "winCountJohn": 2,
+  "winCountOther": 0,
+  "winCountDraw": 0,
+  "winnableGamesTotal": 5,
+  "winPercentageHannah": 0.6,
+  "winPercentageJohn": 0.4,
+  "winPercentageOther": 0,
+  "winPercentageDraw": 0,
+  "mostWonGames": "Hannah",
+  "mostWonGamesJohn": [
+    {
+      "game": "Troika",
+      "plays": 1
+    },
+    {
+      "game": "Azul: Queen’s Garden",
+      "plays": 1
+    }
+  ],
+  "mostWonGamesHannah": [
+    {
+      "game": "Pandemic: Contagion",
+      "plays": 1
+    },
+    {
+      "game": "Marrying Mr. Darcy",
+      "plays": 1
+    },
+    {
+      "game": "Corsairs of Valeria",
+      "plays": 1
+    }
+  ]
+}
