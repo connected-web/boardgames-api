@@ -2,7 +2,7 @@ name: Deploy with tests via FTP
 
 on: 
   push:
-    branches: [ master ]
+    branches: [ main ]
     
 jobs:
   deploy:
