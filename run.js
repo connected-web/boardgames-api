@@ -48,8 +48,7 @@ async function start () {
       'download-cali-playstats',
       'download-cali-playrecords',
       'download-bgg-collection',
-      'create-unique-list-of-played-games',
-      'create-boardgame-list'
+      'create-all'
     ], scripts)
   }
 
