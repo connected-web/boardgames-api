@@ -45,6 +45,13 @@
                 "sortindex": "5",
                 "value": "Der Widerstand: Geheime Pläne"
               }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "レジスタンス：極秘任務"
+              }
             }
           ],
           "description": [
@@ -80,7 +87,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "6"
+                "totalvotes": "7"
               },
               "results": [
                 {
@@ -103,7 +110,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "5"
+                        "numvotes": "6"
                       }
                     }
                   ]
@@ -128,7 +135,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "5"
+                        "numvotes": "6"
                       }
                     }
                   ]
@@ -153,7 +160,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "5"
+                        "numvotes": "6"
                       }
                     }
                   ]
@@ -178,7 +185,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "5"
+                        "numvotes": "6"
                       }
                     }
                   ]
@@ -197,7 +204,7 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "5"
+                        "numvotes": "6"
                       }
                     },
                     {
@@ -216,7 +223,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "1"
+                        "numvotes": "2"
                       }
                     },
                     {
@@ -241,7 +248,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "5"
+                        "numvotes": "6"
                       }
                     },
                     {
@@ -266,7 +273,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "6"
+                        "numvotes": "7"
                       }
                     },
                     {
@@ -297,7 +304,7 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "4"
+                        "numvotes": "5"
                       }
                     },
                     {
@@ -322,7 +329,7 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "5"
+                        "numvotes": "6"
                       }
                     },
                     {
@@ -353,7 +360,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "4"
+                        "numvotes": "5"
                       }
                     }
                   ]
@@ -456,35 +463,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "31",
+                        "level": "6",
                         "value": "No necessary in-game text",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "32",
+                        "level": "7",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "33",
+                        "level": "8",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "34",
+                        "level": "9",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "35",
+                        "level": "10",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -632,6 +639,14 @@
             {
               "_attributes": {
                 "type": "boardgamecompilation",
+                "id": "140771",
+                "value": "The Resistance: Merlin/Assassin Promo",
+                "inbound": "true"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamecompilation",
                 "id": "163322",
                 "value": "The Resistance: Hidden Agenda & Hostile Intent"
               }
@@ -683,6 +698,13 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "10290",
+                "value": "Indie Boards & Cards"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "2973",
                 "value": "Edge Entertainment"
               }
@@ -697,8 +719,8 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
-                "id": "10290",
-                "value": "Indie Boards & Cards"
+                "id": "1391",
+                "value": "Hobby Japan"
               }
             }
           ],
@@ -712,21 +734,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "765"
+                        "value": "813"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.70887"
+                        "value": "7.70294"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.15208"
+                        "value": "6.139"
                       }
                     }
                   ],
@@ -740,7 +762,17 @@
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "6.15208"
+                            "bayesaverage": "6.139"
+                          }
+                        },
+                        {
+                          "_attributes": {
+                            "type": "family",
+                            "id": "5498",
+                            "name": "partygames",
+                            "friendlyname": "Party Game Rank",
+                            "value": "Not Ranked",
+                            "bayesaverage": "6.67389"
                           }
                         }
                       ]
@@ -749,7 +781,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.36407"
+                        "value": "1.36808"
                       }
                     }
                   ],
@@ -763,49 +795,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "3877"
+                        "value": "4103"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "57"
+                        "value": "66"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "21"
+                        "value": "22"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "211"
+                        "value": "223"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "229"
+                        "value": "237"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "26"
+                        "value": "28"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "1.9231"
+                        "value": "1.9286"
                       }
                     }
                   ]

@@ -341,35 +341,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "66",
+                        "level": "81",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "67",
+                        "level": "82",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "68",
+                        "level": "83",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "69",
+                        "level": "84",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "70",
+                        "level": "85",
                         "value": "Unplayable in another language",
                         "numvotes": "1"
                       }
@@ -411,6 +411,13 @@
             {
               "_attributes": {
                 "type": "boardgamecategory",
+                "id": "1042",
+                "value": "Expansion for Base-game"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamecategory",
                 "id": "1022",
                 "value": "Adventure"
               }
@@ -427,13 +434,6 @@
                 "type": "boardgamecategory",
                 "id": "1044",
                 "value": "Collectible Components"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamecategory",
-                "id": "1042",
-                "value": "Expansion for Base-game"
               }
             },
             {
@@ -551,6 +551,14 @@
             },
             {
               "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "359609",
+                "value": "Arkham Horror: The Card Game (Revised Edition)",
+                "inbound": "true"
+              }
+            },
+            {
+              "_attributes": {
                 "type": "boardgamedesigner",
                 "id": "11655",
                 "value": "Nate French"
@@ -575,6 +583,13 @@
                 "type": "boardgameartist",
                 "id": "122470",
                 "value": "Alex Aguilar"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
+                "id": "122471",
+                "value": "Kim Artem"
               }
             },
             {
@@ -685,13 +700,6 @@
             {
               "_attributes": {
                 "type": "boardgameartist",
-                "id": "122471",
-                "value": "Kim Artem"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgameartist",
                 "id": "122472",
                 "value": "Kim Chi Zutyn"
               }
@@ -783,6 +791,13 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "17",
+                "value": "Fantasy Flight Games"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "47848",
                 "value": "Asmodee China"
               }
@@ -799,13 +814,6 @@
                 "type": "boardgamepublisher",
                 "id": "2973",
                 "value": "Edge Entertainment"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamepublisher",
-                "id": "17",
-                "value": "Fantasy Flight Games"
               }
             },
             {
@@ -833,21 +841,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "1080"
+                        "value": "1223"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.87584"
+                        "value": "7.84334"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.36419"
+                        "value": "6.36268"
                       }
                     }
                   ],
@@ -861,7 +869,27 @@
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "6.36419"
+                            "bayesaverage": "6.36268"
+                          }
+                        },
+                        {
+                          "_attributes": {
+                            "type": "family",
+                            "id": "4667",
+                            "name": "cgs",
+                            "friendlyname": "Customizable Rank",
+                            "value": "Not Ranked",
+                            "bayesaverage": "7.37152"
+                          }
+                        },
+                        {
+                          "_attributes": {
+                            "type": "family",
+                            "id": "5496",
+                            "name": "thematic",
+                            "friendlyname": "Thematic Rank",
+                            "value": "Not Ranked",
+                            "bayesaverage": "6.77061"
                           }
                         }
                       ]
@@ -870,7 +898,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.31134"
+                        "value": "1.30469"
                       }
                     }
                   ],
@@ -884,21 +912,21 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "8050"
+                        "value": "9002"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "51"
+                        "value": "60"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "114"
+                        "value": "94"
                       }
                     }
                   ],
@@ -912,7 +940,7 @@
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "260"
+                        "value": "295"
                       }
                     }
                   ],
@@ -926,7 +954,7 @@
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "3.5385"
+                        "value": "3.3846"
                       }
                     }
                   ]

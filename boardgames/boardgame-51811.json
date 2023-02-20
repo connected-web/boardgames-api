@@ -99,7 +99,7 @@
           "description": [
             {
               "_text": [
-                "Dominion: Seaside is an expansion to both Dominion and Dominion: Intrigue. As such, it does not contain material for a complete game. Specifically, it does not include the basic Treasure, Victory, Curse, or Trash cards. Thus, you will need either the base game or Intrigue to play with this expansion, and you will need to have experience playing Dominion with either of the first two games. It is designed to work with either or both of these sets, and any future expansions that may be published.&#10;&#10;From the back of the box: &quot;All you ask is a tall ship and a star to steer her by. And someone who knows how to steer ships using stars. You finally got some of those rivers you'd wanted, and they led to the sea. These are dangerous, pirate-infested waters, and you cautiously send rat-infested ships across them, to establish lucrative trade at far-off merchant-infested ports. First, you will take over some islands, as a foothold. The natives seem friendly enough, crying their peace cries, and giving you spears and poison darts before you are even close enough to accept them properly. When you finally reach those ports you will conquer them, and from there you will look for more rivers.&#10;One day, all the rivers will be yours.&quot;&#10;&#10;Part of the Dominion series.&#10;&#10;"
+                "Dominion: Seaside is an expansion to both Dominion and Dominion: Intrigue. As such, it does not contain material for a complete game.&#10;&#10;From the back of the box: &quot;All you ask is a tall ship and a star to steer her by. And someone who knows how to steer ships using stars. You finally got some of those rivers you'd wanted, and they led to the sea. These are dangerous, pirate-infested waters, and you cautiously send rat-infested ships across them, to establish lucrative trade at far-off merchant-infested ports. First, you will take over some islands, as a foothold. The natives seem friendly enough, crying their peace cries, and giving you spears and poison darts before you are even close enough to accept them properly. When you finally reach those ports you will conquer them, and from there you will look for more rivers.&#10;One day, all the rivers will be yours.&quot;&#10;&#10;Part of the Dominion series.&#10;&#10;"
               ]
             }
           ],
@@ -129,7 +129,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "101"
+                "totalvotes": "105"
               },
               "results": [
                 {
@@ -152,7 +152,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "67"
+                        "numvotes": "70"
                       }
                     }
                   ]
@@ -165,13 +165,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "40"
+                        "numvotes": "41"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "54"
+                        "numvotes": "56"
                       }
                     },
                     {
@@ -190,13 +190,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "66"
+                        "numvotes": "68"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "27"
+                        "numvotes": "29"
                       }
                     },
                     {
@@ -215,7 +215,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "39"
+                        "numvotes": "42"
                       }
                     },
                     {
@@ -252,7 +252,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "48"
+                        "numvotes": "51"
                       }
                     }
                   ]
@@ -263,7 +263,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "40"
+                "totalvotes": "42"
               },
               "results": [
                 {
@@ -307,13 +307,13 @@
                     {
                       "_attributes": {
                         "value": "10",
-                        "numvotes": "20"
+                        "numvotes": "21"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "12",
-                        "numvotes": "9"
+                        "numvotes": "10"
                       }
                     },
                     {
@@ -348,42 +348,42 @@
               "_attributes": {
                 "name": "language_dependence",
                 "title": "Language Dependence",
-                "totalvotes": "50"
+                "totalvotes": "51"
               },
               "results": [
                 {
                   "result": [
                     {
                       "_attributes": {
-                        "level": "1",
+                        "level": "16",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "2",
+                        "level": "17",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "10"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "3",
+                        "level": "18",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
-                        "numvotes": "25"
+                        "numvotes": "26"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "4",
+                        "level": "19",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "13"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "5",
+                        "level": "20",
                         "value": "Unplayable in another language",
                         "numvotes": "2"
                       }
@@ -453,13 +453,6 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
-                "id": "2041",
-                "value": "Card Drafting"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamemechanic",
                 "id": "2664",
                 "value": "Deck, Bag, and Pool Building"
               }
@@ -467,8 +460,22 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
+                "id": "2901",
+                "value": "Delayed Purchase"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
                 "id": "2040",
                 "value": "Hand Management"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2041",
+                "value": "Open Drafting"
               }
             },
             {
@@ -483,6 +490,20 @@
                 "type": "boardgamefamily",
                 "id": "2580",
                 "value": "Game: Dominion"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "374339",
+                "value": "Dominion: Sammlerbox"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "356205",
+                "value": "Dominion: Seaside – Update Pack"
               }
             },
             {
@@ -504,6 +525,38 @@
             {
               "_attributes": {
                 "type": "boardgameexpansion",
+                "id": "216849",
+                "value": "Dominion (Second Edition) Big Box",
+                "inbound": "true"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "142131",
+                "value": "Dominion: Big Box",
+                "inbound": "true"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "142132",
+                "value": "Dominion: Big Box",
+                "inbound": "true"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "275626",
+                "value": "Dominion: Einsteiger-Bigbox",
+                "inbound": "true"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
                 "id": "40834",
                 "value": "Dominion: Intrigue",
                 "inbound": "true"
@@ -515,6 +568,21 @@
                 "id": "149083",
                 "value": "Dominion: Special Edition",
                 "inbound": "true"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "184207",
+                "value": "Het Koninkrijk Dominion",
+                "inbound": "true"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameimplementation",
+                "id": "355958",
+                "value": "Dominion: Seaside (Second Edition)"
               }
             },
             {
@@ -632,6 +700,13 @@
             {
               "_attributes": {
                 "type": "boardgameartist",
+                "id": "3288",
+                "value": "Jay Tummelson"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
                 "id": "11883",
                 "value": "Franz Vohwinkel"
               }
@@ -738,21 +813,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "14900"
+                        "value": "15412"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "8.03586"
+                        "value": "8.02747"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "7.73664"
+                        "value": "7.71015"
                       }
                     }
                   ],
@@ -766,7 +841,7 @@
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "7.73664"
+                            "bayesaverage": "7.71015"
                           }
                         },
                         {
@@ -776,7 +851,7 @@
                             "name": "strategygames",
                             "friendlyname": "Strategy Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "7.78486"
+                            "bayesaverage": "7.76016"
                           }
                         }
                       ]
@@ -785,7 +860,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.19417"
+                        "value": "1.19432"
                       }
                     }
                   ],
@@ -799,49 +874,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "31024"
+                        "value": "32650"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "345"
+                        "value": "341"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "384"
+                        "value": "366"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "1870"
+                        "value": "1834"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "2689"
+                        "value": "2776"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "649"
+                        "value": "662"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2.4961"
+                        "value": "2.4924"
                       }
                     }
                   ]

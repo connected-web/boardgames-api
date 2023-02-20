@@ -57,6 +57,13 @@
               "_attributes": {
                 "type": "alternate",
                 "sortindex": "1",
+                "value": "イーオンズ・エンド：終わりなき戦い"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
                 "value": "末日決戰：永恆之戰"
               }
             }
@@ -94,7 +101,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "102"
+                "totalvotes": "118"
               },
               "results": [
                 {
@@ -105,19 +112,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "14"
+                        "numvotes": "17"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "64"
+                        "numvotes": "70"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "7"
+                        "numvotes": "8"
                       }
                     }
                   ]
@@ -130,13 +137,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "67"
+                        "numvotes": "78"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "26"
+                        "numvotes": "31"
                       }
                     },
                     {
@@ -155,19 +162,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "22"
+                        "numvotes": "23"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "45"
+                        "numvotes": "52"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "10"
+                        "numvotes": "12"
                       }
                     }
                   ]
@@ -186,13 +193,13 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "41"
+                        "numvotes": "48"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "13"
+                        "numvotes": "17"
                       }
                     }
                   ]
@@ -217,7 +224,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "40"
+                        "numvotes": "47"
                       }
                     }
                   ]
@@ -228,7 +235,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "14"
+                "totalvotes": "16"
               },
               "results": [
                 {
@@ -272,7 +279,7 @@
                     {
                       "_attributes": {
                         "value": "10",
-                        "numvotes": "7"
+                        "numvotes": "9"
                       }
                     },
                     {
@@ -320,35 +327,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "26",
+                        "level": "1",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "27",
+                        "level": "2",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "28",
+                        "level": "3",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "2"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "29",
+                        "level": "4",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "3"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "30",
+                        "level": "5",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -411,13 +418,6 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
-                "id": "2041",
-                "value": "Card Drafting"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamemechanic",
                 "id": "2023",
                 "value": "Cooperative Game"
               }
@@ -434,6 +434,13 @@
                 "type": "boardgamemechanic",
                 "id": "2040",
                 "value": "Hand Management"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2041",
+                "value": "Open Drafting"
               }
             },
             {
@@ -495,6 +502,27 @@
             {
               "_attributes": {
                 "type": "boardgameexpansion",
+                "id": "274927",
+                "value": "Aeon's End: Into the Wild"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "363456",
+                "value": "Aeon's End: Legacy of Gravehold – Promos"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "364530",
+                "value": "Aeon's End: Origins"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
                 "id": "274930",
                 "value": "Aeon's End: Shattered Dreams"
               }
@@ -511,6 +539,20 @@
                 "type": "boardgameexpansion",
                 "id": "222126",
                 "value": "Aeon's End: Tabletop Day 2017 Promos – Drown in Flames / Glyph Enigma"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "196421",
+                "value": "Aeon's End: The Depths"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "212139",
+                "value": "Aeon's End: The Nameless"
               }
             },
             {
@@ -550,6 +592,20 @@
             },
             {
               "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "365950",
+                "value": "Aeons End: Evolution"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "365951",
+                "value": "Aeons End: Past and Future Kickstarter Exclusives"
+              }
+            },
+            {
+              "_attributes": {
                 "type": "boardgameintegration",
                 "id": "191189",
                 "value": "Aeon's End"
@@ -565,6 +621,13 @@
             {
               "_attributes": {
                 "type": "boardgameintegration",
+                "id": "331212",
+                "value": "Aeon's End: Legacy of Gravehold"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameintegration",
                 "id": "299317",
                 "value": "Aeon's End: Outcasts"
               }
@@ -574,6 +637,20 @@
                 "type": "boardgameintegration",
                 "id": "270633",
                 "value": "Aeon's End: The New Age"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamedesigner",
+                "id": "126022",
+                "value": "Jenny Iglesias"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamedesigner",
+                "id": "72770",
+                "value": "Nick Little (I)"
               }
             },
             {
@@ -602,6 +679,13 @@
                 "type": "boardgamepublisher",
                 "id": "10290",
                 "value": "Indie Boards & Cards"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "3475",
+                "value": "Arclight Games"
               }
             },
             {
@@ -643,21 +727,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "4025"
+                        "value": "4963"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "8.381"
+                        "value": "8.30903"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "7.47268"
+                        "value": "7.48449"
                       }
                     }
                   ],
@@ -670,8 +754,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "112",
-                            "bayesaverage": "7.47268"
+                            "value": "114",
+                            "bayesaverage": "7.48449"
                           }
                         },
                         {
@@ -680,8 +764,8 @@
                             "id": "5497",
                             "name": "strategygames",
                             "friendlyname": "Strategy Game Rank",
-                            "value": "61",
-                            "bayesaverage": "7.63597"
+                            "value": "67",
+                            "bayesaverage": "7.62989"
                           }
                         }
                       ]
@@ -690,7 +774,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.25799"
+                        "value": "1.28269"
                       }
                     }
                   ],
@@ -704,49 +788,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "9461"
+                        "value": "11261"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "120"
+                        "value": "168"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "239"
+                        "value": "228"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "1113"
+                        "value": "1233"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "782"
+                        "value": "888"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "107"
+                        "value": "127"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2.9252"
+                        "value": "2.9213"
                       }
                     }
                   ]

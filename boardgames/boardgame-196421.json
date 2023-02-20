@@ -43,6 +43,13 @@
               "_attributes": {
                 "type": "alternate",
                 "sortindex": "1",
+                "value": "Aeon's End: Las Profundidades"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
                 "value": "Aeon's End: Les Profondeurs"
               }
             },
@@ -87,7 +94,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "9"
+                "totalvotes": "11"
               },
               "results": [
                 {
@@ -123,13 +130,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "4"
+                        "numvotes": "5"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "3"
+                        "numvotes": "4"
                       }
                     },
                     {
@@ -210,7 +217,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "6"
+                        "numvotes": "7"
                       }
                     }
                   ]
@@ -221,7 +228,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "2"
+                "totalvotes": "3"
               },
               "results": [
                 {
@@ -271,7 +278,7 @@
                     {
                       "_attributes": {
                         "value": "12",
-                        "numvotes": "1"
+                        "numvotes": "2"
                       }
                     },
                     {
@@ -313,35 +320,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "51",
+                        "level": "1",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "52",
+                        "level": "2",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "53",
+                        "level": "3",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "54",
+                        "level": "4",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "55",
+                        "level": "5",
                         "value": "Unplayable in another language",
                         "numvotes": "1"
                       }
@@ -404,13 +411,6 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
-                "id": "2041",
-                "value": "Card Drafting"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamemechanic",
                 "id": "2023",
                 "value": "Cooperative Game"
               }
@@ -427,6 +427,13 @@
                 "type": "boardgamemechanic",
                 "id": "2040",
                 "value": "Hand Management"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2041",
+                "value": "Open Drafting"
               }
             },
             {
@@ -455,6 +462,14 @@
                 "type": "boardgameexpansion",
                 "id": "191189",
                 "value": "Aeon's End",
+                "inbound": "true"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "218417",
+                "value": "Aeon's End: War Eternal",
                 "inbound": "true"
               }
             },
@@ -506,6 +521,13 @@
                 "id": "2726",
                 "value": "Portal Games"
               }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "33010",
+                "value": "SD Games"
+              }
             }
           ],
           "statistics": [
@@ -518,21 +540,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "1164"
+                        "value": "1327"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "8.34928"
+                        "value": "8.33608"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.62246"
+                        "value": "6.64507"
                       }
                     }
                   ],
@@ -546,7 +568,7 @@
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "6.62246"
+                            "bayesaverage": "6.64507"
                           }
                         }
                       ]
@@ -555,7 +577,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.15907"
+                        "value": "1.14255"
                       }
                     }
                   ],
@@ -569,49 +591,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "6611"
+                        "value": "7553"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "60"
+                        "value": "78"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "63"
+                        "value": "60"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "219"
+                        "value": "245"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "297"
+                        "value": "328"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "14"
+                        "value": "17"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2.7143"
+                        "value": "2.7059"
                       }
                     }
                   ]

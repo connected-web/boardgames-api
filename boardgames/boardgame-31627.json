@@ -106,7 +106,7 @@
               "_attributes": {
                 "type": "alternate",
                 "sortindex": "1",
-                "value": "チケット・トゥ・ライド 北欧の国々 日本語版"
+                "value": "チケット・トゥ・ライド：北欧の国々"
               }
             },
             {
@@ -150,7 +150,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "198"
+                "totalvotes": "215"
               },
               "results": [
                 {
@@ -173,7 +173,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "124"
+                        "numvotes": "138"
                       }
                     }
                   ]
@@ -186,19 +186,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "73"
+                        "numvotes": "80"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "109"
+                        "numvotes": "120"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "6"
+                        "numvotes": "5"
                       }
                     }
                   ]
@@ -211,13 +211,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "145"
+                        "numvotes": "157"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "29"
+                        "numvotes": "34"
                       }
                     },
                     {
@@ -248,7 +248,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "98"
+                        "numvotes": "109"
                       }
                     }
                   ]
@@ -259,7 +259,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "44"
+                "totalvotes": "47"
               },
               "results": [
                 {
@@ -291,19 +291,19 @@
                     {
                       "_attributes": {
                         "value": "6",
-                        "numvotes": "5"
+                        "numvotes": "6"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "8",
-                        "numvotes": "27"
+                        "numvotes": "28"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "10",
-                        "numvotes": "10"
+                        "numvotes": "11"
                       }
                     },
                     {
@@ -344,42 +344,42 @@
               "_attributes": {
                 "name": "language_dependence",
                 "title": "Language Dependence",
-                "totalvotes": "42"
+                "totalvotes": "45"
               },
               "results": [
                 {
                   "result": [
                     {
                       "_attributes": {
-                        "level": "96",
+                        "level": "486",
                         "value": "No necessary in-game text",
-                        "numvotes": "41"
+                        "numvotes": "44"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "97",
+                        "level": "487",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "98",
+                        "level": "488",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "99",
+                        "level": "489",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "100",
+                        "level": "490",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -428,13 +428,6 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
-                "id": "2041",
-                "value": "Card Drafting"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamemechanic",
                 "id": "2040",
                 "value": "Hand Management"
               }
@@ -444,6 +437,20 @@
                 "type": "boardgamemechanic",
                 "id": "2081",
                 "value": "Network and Route Building"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2041",
+                "value": "Open Drafting"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2661",
+                "value": "Push Your Luck"
               }
             },
             {
@@ -596,6 +603,13 @@
             {
               "_attributes": {
                 "type": "boardgameexpansion",
+                "id": "360563",
+                "value": "Tåg till Rydsgård (fan expansion for Ticket to Ride)"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
                 "id": "130398",
                 "value": "Ticket to Finland (fan expansion for Ticket to Ride)"
               }
@@ -738,21 +752,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "12310"
+                        "value": "13267"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.6373"
+                        "value": "7.6277"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "7.35054"
+                        "value": "7.33311"
                       }
                     }
                   ],
@@ -765,8 +779,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "164",
-                            "bayesaverage": "7.35054"
+                            "value": "182",
+                            "bayesaverage": "7.33311"
                           }
                         },
                         {
@@ -775,8 +789,8 @@
                             "id": "5499",
                             "name": "familygames",
                             "friendlyname": "Family Game Rank",
-                            "value": "27",
-                            "bayesaverage": "7.43055"
+                            "value": "26",
+                            "bayesaverage": "7.40867"
                           }
                         }
                       ]
@@ -785,7 +799,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.2207"
+                        "value": "1.22651"
                       }
                     }
                   ],
@@ -799,49 +813,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "18594"
+                        "value": "20612"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "125"
+                        "value": "139"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "708"
+                        "value": "678"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "3072"
+                        "value": "3134"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "2300"
+                        "value": "2451"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "567"
+                        "value": "585"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "1.9824"
+                        "value": "1.9829"
                       }
                     }
                   ]

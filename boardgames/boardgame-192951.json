@@ -327,35 +327,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "6",
+                        "level": "36",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "7",
+                        "level": "37",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "8",
+                        "level": "38",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "2"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "9",
+                        "level": "39",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "10",
+                        "level": "40",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -418,15 +418,15 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
-                "id": "2041",
-                "value": "Card Drafting"
+                "id": "2664",
+                "value": "Deck, Bag, and Pool Building"
               }
             },
             {
               "_attributes": {
                 "type": "boardgamemechanic",
-                "id": "2664",
-                "value": "Deck, Bag, and Pool Building"
+                "id": "2901",
+                "value": "Delayed Purchase"
               }
             },
             {
@@ -438,9 +438,23 @@
             },
             {
               "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2041",
+                "value": "Open Drafting"
+              }
+            },
+            {
+              "_attributes": {
                 "type": "boardgamefamily",
                 "id": "2580",
                 "value": "Game: Dominion"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "374339",
+                "value": "Dominion: Sammlerbox"
               }
             },
             {
@@ -462,8 +476,56 @@
             {
               "_attributes": {
                 "type": "boardgameexpansion",
+                "id": "216849",
+                "value": "Dominion (Second Edition) Big Box",
+                "inbound": "true"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "142131",
+                "value": "Dominion: Big Box",
+                "inbound": "true"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "142132",
+                "value": "Dominion: Big Box",
+                "inbound": "true"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "275626",
+                "value": "Dominion: Einsteiger-Bigbox",
+                "inbound": "true"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
                 "id": "40834",
                 "value": "Dominion: Intrigue",
+                "inbound": "true"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "149083",
+                "value": "Dominion: Special Edition",
+                "inbound": "true"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "184207",
+                "value": "Het Koninkrijk Dominion",
                 "inbound": "true"
               }
             },
@@ -660,21 +722,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "1999"
+                        "value": "2259"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "8.41729"
+                        "value": "8.4009"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "7.033"
+                        "value": "7.03959"
                       }
                     }
                   ],
@@ -688,7 +750,7 @@
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "7.033"
+                            "bayesaverage": "7.03959"
                           }
                         },
                         {
@@ -698,7 +760,7 @@
                             "name": "strategygames",
                             "friendlyname": "Strategy Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "7.26797"
+                            "bayesaverage": "7.26128"
                           }
                         }
                       ]
@@ -707,7 +769,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.16742"
+                        "value": "1.18054"
                       }
                     }
                   ],
@@ -721,49 +783,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "6471"
+                        "value": "7418"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "31"
+                        "value": "39"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "283"
+                        "value": "275"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "1142"
+                        "value": "1175"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "381"
+                        "value": "429"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "24"
+                        "value": "34"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2.7917"
+                        "value": "2.7647"
                       }
                     }
                   ]

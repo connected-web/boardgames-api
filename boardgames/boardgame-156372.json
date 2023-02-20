@@ -80,7 +80,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "8"
+                "totalvotes": "10"
               },
               "results": [
                 {
@@ -103,7 +103,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "3"
+                        "numvotes": "4"
                       }
                     }
                   ]
@@ -116,7 +116,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "0"
+                        "numvotes": "2"
                       }
                     },
                     {
@@ -141,7 +141,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "3"
+                        "numvotes": "4"
                       }
                     },
                     {
@@ -166,7 +166,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "5"
+                        "numvotes": "6"
                       }
                     },
                     {
@@ -203,7 +203,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "4"
+                        "numvotes": "5"
                       }
                     }
                   ]
@@ -214,7 +214,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "2"
+                "totalvotes": "3"
               },
               "results": [
                 {
@@ -258,7 +258,7 @@
                     {
                       "_attributes": {
                         "value": "10",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     },
                     {
@@ -306,35 +306,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "11",
+                        "level": "66",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "12",
+                        "level": "67",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "13",
+                        "level": "68",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "3"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "14",
+                        "level": "69",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "15",
+                        "level": "70",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -390,13 +390,6 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
-                "id": "2041",
-                "value": "Card Drafting"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamemechanic",
                 "id": "2664",
                 "value": "Deck, Bag, and Pool Building"
               }
@@ -406,6 +399,13 @@
                 "type": "boardgamemechanic",
                 "id": "2040",
                 "value": "Hand Management"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2041",
+                "value": "Open Drafting"
               }
             },
             {
@@ -566,21 +566,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "183"
+                        "value": "236"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "8.29016"
+                        "value": "8.18009"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "5.75399"
+                        "value": "5.78239"
                       }
                     }
                   ],
@@ -593,8 +593,18 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "4314",
-                            "bayesaverage": "5.75399"
+                            "value": "4285",
+                            "bayesaverage": "5.78239"
+                          }
+                        },
+                        {
+                          "_attributes": {
+                            "type": "family",
+                            "id": "5497",
+                            "name": "strategygames",
+                            "friendlyname": "Strategy Game Rank",
+                            "value": "1636",
+                            "bayesaverage": "5.86934"
                           }
                         }
                       ]
@@ -603,7 +613,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.28791"
+                        "value": "1.27472"
                       }
                     }
                   ],
@@ -617,14 +627,14 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "540"
+                        "value": "684"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "9"
+                        "value": "5"
                       }
                     }
                   ],
@@ -638,28 +648,28 @@
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "105"
+                        "value": "110"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "48"
+                        "value": "56"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "10"
+                        "value": "12"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2.7"
+                        "value": "2.5833"
                       }
                     }
                   ]

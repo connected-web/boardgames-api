@@ -164,7 +164,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "1"
+                "totalvotes": "2"
               },
               "results": [
                 {
@@ -202,7 +202,7 @@
                     {
                       "_attributes": {
                         "value": "8",
-                        "numvotes": "1"
+                        "numvotes": "2"
                       }
                     },
                     {
@@ -256,35 +256,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "1",
+                        "level": "71",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "2",
+                        "level": "72",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "3",
+                        "level": "73",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "4",
+                        "level": "74",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "5",
+                        "level": "75",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -342,6 +342,13 @@
                 "type": "boardgamecategory",
                 "id": "1064",
                 "value": "Movies / TV / Radio theme"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2001",
+                "value": "Action Points"
               }
             },
             {
@@ -474,21 +481,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "283"
+                        "value": "312"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "6.32986"
+                        "value": "6.25984"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "5.58815"
+                        "value": "5.58299"
                       }
                     }
                   ],
@@ -501,8 +508,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "7943",
-                            "bayesaverage": "5.58815"
+                            "value": "8689",
+                            "bayesaverage": "5.58299"
                           }
                         }
                       ]
@@ -511,7 +518,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.56065"
+                        "value": "1.54384"
                       }
                     }
                   ],
@@ -525,49 +532,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "1046"
+                        "value": "1122"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "43"
+                        "value": "46"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "6"
+                        "value": "8"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "34"
+                        "value": "38"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "62"
+                        "value": "69"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "8"
+                        "value": "10"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "1.25"
+                        "value": "1.4"
                       }
                     }
                   ]

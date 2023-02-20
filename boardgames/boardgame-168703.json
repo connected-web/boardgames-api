@@ -87,6 +87,13 @@
                 "sortindex": "1",
                 "value": "Pandémie: État d'urgence"
               }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "パンデミック：緊急事態宣言"
+              }
             }
           ],
           "description": [
@@ -348,35 +355,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "11",
+                        "level": "1",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "12",
+                        "level": "2",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "3"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "13",
+                        "level": "3",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "14",
+                        "level": "4",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "15",
+                        "level": "5",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -494,6 +501,13 @@
             },
             {
               "_attributes": {
+                "type": "boardgamefamily",
+                "id": "61854",
+                "value": "Medical: Diseases"
+              }
+            },
+            {
+              "_attributes": {
                 "type": "boardgameexpansion",
                 "id": "137136",
                 "value": "Pandemic: In the Lab"
@@ -575,6 +589,13 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "1391",
+                "value": "Hobby Japan"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "3218",
                 "value": "Lautapelit.fi"
               }
@@ -604,21 +625,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "1602"
+                        "value": "1751"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.60397"
+                        "value": "7.57747"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.45371"
+                        "value": "6.42807"
                       }
                     }
                   ],
@@ -632,7 +653,7 @@
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "6.45371"
+                            "bayesaverage": "6.42807"
                           }
                         },
                         {
@@ -642,7 +663,7 @@
                             "name": "strategygames",
                             "friendlyname": "Strategy Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "6.57061"
+                            "bayesaverage": "6.54336"
                           }
                         }
                       ]
@@ -651,7 +672,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.32021"
+                        "value": "1.32243"
                       }
                     }
                   ],
@@ -665,49 +686,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "7886"
+                        "value": "8775"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "58"
+                        "value": "73"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "190"
+                        "value": "187"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "1479"
+                        "value": "1543"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "344"
+                        "value": "394"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "41"
+                        "value": "42"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2.6585"
+                        "value": "2.7143"
                       }
                     }
                   ]

@@ -80,7 +80,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "12"
+                "totalvotes": "16"
               },
               "results": [
                 {
@@ -103,7 +103,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "5"
+                        "numvotes": "8"
                       }
                     }
                   ]
@@ -128,7 +128,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "3"
+                        "numvotes": "6"
                       }
                     }
                   ]
@@ -147,7 +147,7 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "9"
+                        "numvotes": "12"
                       }
                     },
                     {
@@ -166,7 +166,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "5"
+                        "numvotes": "9"
                       }
                     },
                     {
@@ -191,13 +191,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "6"
+                        "numvotes": "8"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "3"
+                        "numvotes": "4"
                       }
                     },
                     {
@@ -228,7 +228,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "4"
+                        "numvotes": "7"
                       }
                     }
                   ]
@@ -331,35 +331,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "171",
+                        "level": "216",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "172",
+                        "level": "217",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "2"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "173",
+                        "level": "218",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "174",
+                        "level": "219",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "175",
+                        "level": "220",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -415,8 +415,22 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
+                "id": "2831",
+                "value": "Real-Time"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
                 "id": "2002",
                 "value": "Tile Placement"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
+                "id": "75031",
+                "value": "Components: Sand Timers"
               }
             },
             {
@@ -480,21 +494,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "961"
+                        "value": "1282"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "6.9906"
+                        "value": "6.94895"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.04141"
+                        "value": "6.08638"
                       }
                     }
                   ],
@@ -507,18 +521,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "2332",
-                            "bayesaverage": "6.04141"
-                          }
-                        },
-                        {
-                          "_attributes": {
-                            "type": "family",
-                            "id": "5498",
-                            "name": "partygames",
-                            "friendlyname": "Party Game Rank",
-                            "value": "109",
-                            "bayesaverage": "6.44075"
+                            "value": "2327",
+                            "bayesaverage": "6.08638"
                           }
                         },
                         {
@@ -527,8 +531,8 @@
                             "id": "5499",
                             "name": "familygames",
                             "friendlyname": "Family Game Rank",
-                            "value": "636",
-                            "bayesaverage": "6.18931"
+                            "value": "659",
+                            "bayesaverage": "6.22505"
                           }
                         }
                       ]
@@ -537,7 +541,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.19606"
+                        "value": "1.21284"
                       }
                     }
                   ],
@@ -551,42 +555,42 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "1754"
+                        "value": "2303"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "31"
+                        "value": "32"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "93"
+                        "value": "94"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "480"
+                        "value": "530"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "205"
+                        "value": "264"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "16"
+                        "value": "20"
                       }
                     }
                   ],

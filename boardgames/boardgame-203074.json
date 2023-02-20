@@ -73,7 +73,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "1"
+                "totalvotes": "2"
               },
               "results": [
                 {
@@ -96,7 +96,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     }
                   ]
@@ -109,7 +109,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "1"
+                        "numvotes": "2"
                       }
                     },
                     {
@@ -146,7 +146,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     }
                   ]
@@ -249,35 +249,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "6",
+                        "level": "251",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "7",
+                        "level": "252",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "8",
+                        "level": "253",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "9",
+                        "level": "254",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "10",
+                        "level": "255",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -319,15 +319,15 @@
             {
               "_attributes": {
                 "type": "boardgamecategory",
-                "id": "1002",
-                "value": "Card Game"
+                "id": "1042",
+                "value": "Expansion for Base-game"
               }
             },
             {
               "_attributes": {
                 "type": "boardgamecategory",
-                "id": "1042",
-                "value": "Expansion for Base-game"
+                "id": "1002",
+                "value": "Card Game"
               }
             },
             {
@@ -347,15 +347,15 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
-                "id": "2041",
-                "value": "Card Drafting"
+                "id": "2664",
+                "value": "Deck, Bag, and Pool Building"
               }
             },
             {
               "_attributes": {
                 "type": "boardgamemechanic",
-                "id": "2664",
-                "value": "Deck, Bag, and Pool Building"
+                "id": "2041",
+                "value": "Open Drafting"
               }
             },
             {
@@ -501,7 +501,7 @@
               "_attributes": {
                 "type": "boardgamecompilation",
                 "id": "298628",
-                "value": "Star Realms Deluxe Nova Collection"
+                "value": "Star Realms: Deluxe Nova Collection"
               }
             },
             {
@@ -528,6 +528,13 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "26542",
+                "value": "Wise Wizard Games"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "23043",
                 "value": "ADC Blackfire Entertainment"
               }
@@ -537,13 +544,6 @@
                 "type": "boardgamepublisher",
                 "id": "29907",
                 "value": "Games Factory Publishing"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamepublisher",
-                "id": "26542",
-                "value": "Wise Wizard Games"
               }
             }
           ],
@@ -557,21 +557,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "439"
+                        "value": "476"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.82286"
+                        "value": "7.81646"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "5.96718"
+                        "value": "5.95567"
                       }
                     }
                   ],
@@ -585,7 +585,7 @@
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "5.96718"
+                            "bayesaverage": "5.95567"
                           }
                         }
                       ]
@@ -594,7 +594,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.19397"
+                        "value": "1.20827"
                       }
                     }
                   ],
@@ -608,49 +608,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "2667"
+                        "value": "2896"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "23"
+                        "value": "25"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "23"
+                        "value": "26"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "85"
+                        "value": "94"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "126"
+                        "value": "137"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "2"
+                        "value": "3"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2"
+                        "value": "1.6667"
                       }
                     }
                   ]

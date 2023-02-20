@@ -52,6 +52,13 @@
                 "sortindex": "5",
                 "value": "Der Widerstand: Feindliche Absichten"
               }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "レジスタンス：敵対意思"
+              }
             }
           ],
           "description": [
@@ -87,7 +94,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "3"
+                "totalvotes": "4"
               },
               "results": [
                 {
@@ -110,7 +117,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "3"
+                        "numvotes": "4"
                       }
                     }
                   ]
@@ -135,7 +142,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "3"
+                        "numvotes": "4"
                       }
                     }
                   ]
@@ -160,7 +167,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "3"
+                        "numvotes": "4"
                       }
                     }
                   ]
@@ -185,7 +192,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "3"
+                        "numvotes": "4"
                       }
                     }
                   ]
@@ -204,7 +211,7 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "2"
+                        "numvotes": "3"
                       }
                     },
                     {
@@ -223,7 +230,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "1"
+                        "numvotes": "2"
                       }
                     },
                     {
@@ -248,7 +255,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "3"
+                        "numvotes": "4"
                       }
                     },
                     {
@@ -273,7 +280,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "3"
+                        "numvotes": "4"
                       }
                     },
                     {
@@ -304,7 +311,7 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     },
                     {
@@ -329,7 +336,7 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     },
                     {
@@ -360,7 +367,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "2"
+                        "numvotes": "3"
                       }
                     }
                   ]
@@ -533,6 +540,13 @@
             {
               "_attributes": {
                 "type": "boardgamecategory",
+                "id": "1042",
+                "value": "Expansion for Base-game"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamecategory",
                 "id": "1023",
                 "value": "Bluffing"
               }
@@ -542,13 +556,6 @@
                 "type": "boardgamecategory",
                 "id": "1039",
                 "value": "Deduction"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamecategory",
-                "id": "1042",
-                "value": "Expansion for Base-game"
               }
             },
             {
@@ -660,6 +667,13 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "10290",
+                "value": "Indie Boards & Cards"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "2973",
                 "value": "Edge Entertainment"
               }
@@ -681,8 +695,8 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
-                "id": "10290",
-                "value": "Indie Boards & Cards"
+                "id": "1391",
+                "value": "Hobby Japan"
               }
             },
             {
@@ -703,21 +717,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "447"
+                        "value": "468"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.30491"
+                        "value": "7.27616"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "5.85323"
+                        "value": "5.8354"
                       }
                     }
                   ],
@@ -731,7 +745,17 @@
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "5.85323"
+                            "bayesaverage": "5.8354"
+                          }
+                        },
+                        {
+                          "_attributes": {
+                            "type": "family",
+                            "id": "5498",
+                            "name": "partygames",
+                            "friendlyname": "Party Game Rank",
+                            "value": "Not Ranked",
+                            "bayesaverage": "6.21812"
                           }
                         }
                       ]
@@ -740,7 +764,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.43184"
+                        "value": "1.44838"
                       }
                     }
                   ],
@@ -754,49 +778,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "3019"
+                        "value": "3148"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "47"
+                        "value": "49"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "23"
+                        "value": "22"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "175"
+                        "value": "184"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "157"
+                        "value": "162"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "21"
+                        "value": "23"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2.1429"
+                        "value": "2.1304"
                       }
                     }
                   ]

@@ -80,7 +80,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "53"
+                "totalvotes": "75"
               },
               "results": [
                 {
@@ -91,19 +91,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "4"
+                        "numvotes": "9"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "30"
+                        "numvotes": "40"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "10"
+                        "numvotes": "17"
                       }
                     }
                   ]
@@ -116,19 +116,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "44"
+                        "numvotes": "60"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "5"
+                        "numvotes": "7"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "1"
+                        "numvotes": "2"
                       }
                     }
                   ]
@@ -141,19 +141,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "4"
+                        "numvotes": "5"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "17"
+                        "numvotes": "25"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "14"
+                        "numvotes": "21"
                       }
                     }
                   ]
@@ -166,19 +166,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "3"
+                        "numvotes": "4"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "22"
+                        "numvotes": "29"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "12"
+                        "numvotes": "19"
                       }
                     }
                   ]
@@ -203,7 +203,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "29"
+                        "numvotes": "41"
                       }
                     }
                   ]
@@ -214,7 +214,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "12"
+                "totalvotes": "17"
               },
               "results": [
                 {
@@ -252,19 +252,19 @@
                     {
                       "_attributes": {
                         "value": "8",
-                        "numvotes": "5"
+                        "numvotes": "7"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "10",
-                        "numvotes": "4"
+                        "numvotes": "5"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "12",
-                        "numvotes": "3"
+                        "numvotes": "5"
                       }
                     },
                     {
@@ -306,35 +306,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "6",
+                        "level": "66",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "7",
+                        "level": "67",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "8",
+                        "level": "68",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "3"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "9",
+                        "level": "69",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "2"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "10",
+                        "level": "70",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -397,13 +397,6 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
-                "id": "2041",
-                "value": "Card Drafting"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamemechanic",
                 "id": "2023",
                 "value": "Cooperative Game"
               }
@@ -413,6 +406,13 @@
                 "type": "boardgamemechanic",
                 "id": "2664",
                 "value": "Deck, Bag, and Pool Building"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2041",
+                "value": "Open Drafting"
               }
             },
             {
@@ -460,15 +460,15 @@
             {
               "_attributes": {
                 "type": "boardgameexpansion",
-                "id": "200427",
-                "value": "Star Realms: Admiral's Tabletop Promo Card"
+                "id": "255584",
+                "value": "Star Realms: Ace Of Aces Promo Card"
               }
             },
             {
               "_attributes": {
                 "type": "boardgameexpansion",
-                "id": "255584",
-                "value": "Star Realms: As des As"
+                "id": "200427",
+                "value": "Star Realms: Admiral's Tabletop Promo Card"
               }
             },
             {
@@ -615,7 +615,7 @@
               "_attributes": {
                 "type": "boardgameexpansion",
                 "id": "257613",
-                "value": "Star Realms: Frontiers – Kickstarter Promos"
+                "value": "Star Realms: Frontiers – Kickstarter Promo Pack"
               }
             },
             {
@@ -693,6 +693,13 @@
                 "type": "boardgameexpansion",
                 "id": "231021",
                 "value": "Star Realms: Merc Battlecruiser Promo Card"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "355648",
+                "value": "Star Realms: Merc Captain Garcia Promo Card"
               }
             },
             {
@@ -796,6 +803,13 @@
             {
               "_attributes": {
                 "type": "boardgameexpansion",
+                "id": "363017",
+                "value": "Star Realms: Stingray Promo Card"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
                 "id": "280383",
                 "value": "Star Realms: Tanker Promo Card"
               }
@@ -805,6 +819,20 @@
                 "type": "boardgameexpansion",
                 "id": "182075",
                 "value": "Star Realms: The Ark Promo Card"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "369151",
+                "value": "Star Realms: Tournament Kit Season 3"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "369150",
+                "value": "Star Realms: Tournament Kit Season 5"
               }
             },
             {
@@ -859,8 +887,15 @@
             {
               "_attributes": {
                 "type": "boardgameexpansion",
+                "id": "339751",
+                "value": "Звёздные империи: Альянс"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
                 "id": "352237",
-                "value": "Звёздные империи: Гамбит"
+                "value": "Звёздные империи: Гамбит (Star Realms: Gambit)"
               }
             },
             {
@@ -873,22 +908,36 @@
             {
               "_attributes": {
                 "type": "boardgameintegration",
+                "id": "182631",
+                "value": "Star Realms: Colony Wars"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameintegration",
+                "id": "355199",
+                "value": "Star Realms: Deck Building Game"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameintegration",
                 "id": "298628",
-                "value": "Star Realms Deluxe Nova Collection"
+                "value": "Star Realms: Deluxe Nova Collection"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameintegration",
+                "id": "360676",
+                "value": "Star Realms: Rise of Empire"
               }
             },
             {
               "_attributes": {
                 "type": "boardgameintegration",
                 "id": "216123",
-                "value": "Star Realms Special Edition"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgameintegration",
-                "id": "182631",
-                "value": "Star Realms: Colony Wars"
+                "value": "Звёздные империи. Подарочное издание"
               }
             },
             {
@@ -903,6 +952,13 @@
                 "type": "boardgamedesigner",
                 "id": "4059",
                 "value": "Darwin Kastle"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "26542",
+                "value": "Wise Wizard Games"
               }
             },
             {
@@ -929,8 +985,8 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
-                "id": "26542",
-                "value": "Wise Wizard Games"
+                "id": "42043",
+                "value": "IUVI Games"
               }
             }
           ],
@@ -944,21 +1000,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "3283"
+                        "value": "4316"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.99623"
+                        "value": "7.96054"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "7.0976"
+                        "value": "7.15261"
                       }
                     }
                   ],
@@ -971,8 +1027,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "319",
-                            "bayesaverage": "7.0976"
+                            "value": "290",
+                            "bayesaverage": "7.15261"
                           }
                         },
                         {
@@ -981,8 +1037,8 @@
                             "id": "5497",
                             "name": "strategygames",
                             "friendlyname": "Strategy Game Rank",
-                            "value": "196",
-                            "bayesaverage": "7.20681"
+                            "value": "186",
+                            "bayesaverage": "7.25281"
                           }
                         }
                       ]
@@ -991,7 +1047,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.17855"
+                        "value": "1.19107"
                       }
                     }
                   ],
@@ -1005,49 +1061,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "8972"
+                        "value": "11258"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "68"
+                        "value": "88"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "113"
+                        "value": "111"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "868"
+                        "value": "999"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "651"
+                        "value": "805"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "67"
+                        "value": "91"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "1.8806"
+                        "value": "1.8571"
                       }
                     }
                   ]

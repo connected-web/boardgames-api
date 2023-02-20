@@ -108,7 +108,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "65"
+                "totalvotes": "71"
               },
               "results": [
                 {
@@ -125,13 +125,13 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "42"
+                        "numvotes": "45"
                       }
                     }
                   ]
@@ -144,13 +144,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "54"
+                        "numvotes": "58"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "9"
+                        "numvotes": "10"
                       }
                     },
                     {
@@ -169,19 +169,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "4"
+                        "numvotes": "5"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "39"
+                        "numvotes": "41"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "10"
+                        "numvotes": "11"
                       }
                     }
                   ]
@@ -194,19 +194,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "12"
+                        "numvotes": "14"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "31"
+                        "numvotes": "32"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "7"
+                        "numvotes": "9"
                       }
                     }
                   ]
@@ -225,13 +225,13 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "12"
+                        "numvotes": "14"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "24"
+                        "numvotes": "26"
                       }
                     }
                   ]
@@ -242,7 +242,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "20"
+                "totalvotes": "22"
               },
               "results": [
                 {
@@ -298,13 +298,13 @@
                     {
                       "_attributes": {
                         "value": "14",
-                        "numvotes": "13"
+                        "numvotes": "14"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "16",
-                        "numvotes": "3"
+                        "numvotes": "4"
                       }
                     },
                     {
@@ -327,42 +327,42 @@
               "_attributes": {
                 "name": "language_dependence",
                 "title": "Language Dependence",
-                "totalvotes": "14"
+                "totalvotes": "15"
               },
               "results": [
                 {
                   "result": [
                     {
                       "_attributes": {
-                        "level": "36",
+                        "level": "1",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "37",
+                        "level": "2",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "38",
+                        "level": "3",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "39",
+                        "level": "4",
                         "value": "Extensive use of text - massive conversion needed to be playable",
-                        "numvotes": "12"
+                        "numvotes": "13"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "40",
+                        "level": "5",
                         "value": "Unplayable in another language",
                         "numvotes": "2"
                       }
@@ -439,13 +439,6 @@
             {
               "_attributes": {
                 "type": "boardgamecategory",
-                "id": "1035",
-                "value": "Medieval"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamecategory",
                 "id": "1026",
                 "value": "Negotiation"
               }
@@ -474,15 +467,15 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
-                "id": "2041",
-                "value": "Card Drafting"
+                "id": "2040",
+                "value": "Hand Management"
               }
             },
             {
               "_attributes": {
                 "type": "boardgamemechanic",
-                "id": "2040",
-                "value": "Hand Management"
+                "id": "2041",
+                "value": "Open Drafting"
               }
             },
             {
@@ -497,6 +490,13 @@
                 "type": "boardgamemechanic",
                 "id": "2020",
                 "value": "Simultaneous Action Selection"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2686",
+                "value": "Take That"
               }
             },
             {
@@ -686,13 +686,6 @@
                 "type": "boardgameexpansion",
                 "id": "251488",
                 "value": "A Game of Thrones: The Card Game (Second Edition) – House Tyrell Intro Deck"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgameexpansion",
-                "id": "297207",
-                "value": "A Game of Thrones: The Card Game (Second Edition) – Ice and Fire Draft Pack"
               }
             },
             {
@@ -908,13 +901,6 @@
             {
               "_attributes": {
                 "type": "boardgameexpansion",
-                "id": "297205",
-                "value": "A Game of Thrones: The Card Game (Second Edition) – Westeros Draft Pack"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgameexpansion",
                 "id": "189169",
                 "value": "A Game of Thrones: The Card Game (Second Edition) – Wolves of the North"
               }
@@ -994,21 +980,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "4440"
+                        "value": "4712"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.55275"
+                        "value": "7.52236"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.88959"
+                        "value": "6.85273"
                       }
                     }
                   ],
@@ -1021,8 +1007,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "516",
-                            "bayesaverage": "6.88959"
+                            "value": "592",
+                            "bayesaverage": "6.85273"
                           }
                         },
                         {
@@ -1031,8 +1017,8 @@
                             "id": "4667",
                             "name": "cgs",
                             "friendlyname": "Customizable Rank",
-                            "value": "11",
-                            "bayesaverage": "7.32657"
+                            "value": "14",
+                            "bayesaverage": "7.30125"
                           }
                         }
                       ]
@@ -1041,7 +1027,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.56302"
+                        "value": "1.5727"
                       }
                     }
                   ],
@@ -1055,49 +1041,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "8402"
+                        "value": "8950"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "364"
+                        "value": "369"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "91"
+                        "value": "92"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "769"
+                        "value": "799"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "833"
+                        "value": "878"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "135"
+                        "value": "145"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "3.5333"
+                        "value": "3.5241"
                       }
                     }
                   ]

@@ -115,7 +115,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "79"
+                "totalvotes": "86"
               },
               "results": [
                 {
@@ -138,7 +138,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "60"
+                        "numvotes": "64"
                       }
                     }
                   ]
@@ -151,7 +151,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "75"
+                        "numvotes": "82"
                       }
                     },
                     {
@@ -188,7 +188,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "51"
+                        "numvotes": "55"
                       }
                     }
                   ]
@@ -284,42 +284,42 @@
               "_attributes": {
                 "name": "language_dependence",
                 "title": "Language Dependence",
-                "totalvotes": "28"
+                "totalvotes": "31"
               },
               "results": [
                 {
                   "result": [
                     {
                       "_attributes": {
-                        "level": "36",
+                        "level": "96",
                         "value": "No necessary in-game text",
-                        "numvotes": "27"
+                        "numvotes": "30"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "37",
+                        "level": "97",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "38",
+                        "level": "98",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "39",
+                        "level": "99",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "40",
+                        "level": "100",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -375,15 +375,15 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
-                "id": "2041",
-                "value": "Card Drafting"
+                "id": "2040",
+                "value": "Hand Management"
               }
             },
             {
               "_attributes": {
                 "type": "boardgamemechanic",
-                "id": "2040",
-                "value": "Hand Management"
+                "id": "2041",
+                "value": "Open Drafting"
               }
             },
             {
@@ -419,6 +419,13 @@
                 "type": "boardgamefamily",
                 "id": "48871",
                 "value": "Theme: Nature"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "361546",
+                "value": "Morels: 10th Anniversary Booster Pack"
               }
             },
             {
@@ -480,6 +487,13 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "14813",
+                "value": "Compaya.hu: Gamer Café Kft."
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "22560",
                 "value": "Fantasmagoria"
               }
@@ -489,6 +503,13 @@
                 "type": "boardgamepublisher",
                 "id": "6275",
                 "value": "HomoLudicus"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "3218",
+                "value": "Lautapelit.fi"
               }
             },
             {
@@ -537,21 +558,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "7768"
+                        "value": "8503"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "6.98915"
+                        "value": "6.98707"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.68833"
+                        "value": "6.68228"
                       }
                     }
                   ],
@@ -564,8 +585,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "772",
-                            "bayesaverage": "6.68833"
+                            "value": "828",
+                            "bayesaverage": "6.68228"
                           }
                         },
                         {
@@ -574,8 +595,8 @@
                             "id": "5499",
                             "name": "familygames",
                             "friendlyname": "Family Game Rank",
-                            "value": "199",
-                            "bayesaverage": "6.75174"
+                            "value": "224",
+                            "bayesaverage": "6.74215"
                           }
                         }
                       ]
@@ -584,7 +605,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.22596"
+                        "value": "1.22839"
                       }
                     }
                   ],
@@ -598,49 +619,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "13468"
+                        "value": "15240"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "311"
+                        "value": "316"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "343"
+                        "value": "373"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "1847"
+                        "value": "2121"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "1814"
+                        "value": "1985"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "340"
+                        "value": "361"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "1.7382"
+                        "value": "1.7341"
                       }
                     }
                   ]

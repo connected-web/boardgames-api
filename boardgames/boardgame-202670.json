@@ -73,6 +73,13 @@
                 "sortindex": "1",
                 "value": "¡Aventureros al Tren! La Vuelta al Mundo"
               }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "チケット・トゥ・ライド：レイル＆セイル"
+              }
             }
           ],
           "description": [
@@ -108,7 +115,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "31"
+                "totalvotes": "37"
               },
               "results": [
                 {
@@ -131,7 +138,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "17"
+                        "numvotes": "21"
                       }
                     }
                   ]
@@ -144,19 +151,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "3"
+                        "numvotes": "4"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "15"
+                        "numvotes": "18"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "5"
+                        "numvotes": "7"
                       }
                     }
                   ]
@@ -175,7 +182,7 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "16"
+                        "numvotes": "21"
                       }
                     },
                     {
@@ -194,7 +201,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "18"
+                        "numvotes": "23"
                       }
                     },
                     {
@@ -206,7 +213,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     }
                   ]
@@ -219,19 +226,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "3"
+                        "numvotes": "4"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "14"
+                        "numvotes": "16"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "5"
+                        "numvotes": "6"
                       }
                     }
                   ]
@@ -256,7 +263,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "16"
+                        "numvotes": "19"
                       }
                     }
                   ]
@@ -267,7 +274,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "8"
+                "totalvotes": "10"
               },
               "results": [
                 {
@@ -305,7 +312,7 @@
                     {
                       "_attributes": {
                         "value": "8",
-                        "numvotes": "1"
+                        "numvotes": "3"
                       }
                     },
                     {
@@ -359,35 +366,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "186",
+                        "level": "1",
                         "value": "No necessary in-game text",
                         "numvotes": "5"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "187",
+                        "level": "2",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "188",
+                        "level": "3",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "189",
+                        "level": "4",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "190",
+                        "level": "5",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -436,13 +443,6 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
-                "id": "2041",
-                "value": "Card Drafting"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamemechanic",
                 "id": "2883",
                 "value": "Connections"
               }
@@ -459,6 +459,13 @@
                 "type": "boardgamemechanic",
                 "id": "2081",
                 "value": "Network and Route Building"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2041",
+                "value": "Open Drafting"
               }
             },
             {
@@ -562,6 +569,13 @@
             },
             {
               "_attributes": {
+                "type": "boardgameartist",
+                "id": "9",
+                "value": "Alan R. Moon"
+              }
+            },
+            {
+              "_attributes": {
                 "type": "boardgamepublisher",
                 "id": "1027",
                 "value": "Days of Wonder"
@@ -591,6 +605,13 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "1391",
+                "value": "Hobby Japan"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "9634",
                 "value": "KADABRA"
               }
@@ -613,21 +634,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "3370"
+                        "value": "3994"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.42859"
+                        "value": "7.41575"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.71255"
+                        "value": "6.73224"
                       }
                     }
                   ],
@@ -640,8 +661,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "733",
-                            "bayesaverage": "6.71255"
+                            "value": "748",
+                            "bayesaverage": "6.73224"
                           }
                         },
                         {
@@ -650,8 +671,8 @@
                             "id": "5499",
                             "name": "familygames",
                             "friendlyname": "Family Game Rank",
-                            "value": "153",
-                            "bayesaverage": "6.85302"
+                            "value": "163",
+                            "bayesaverage": "6.86554"
                           }
                         }
                       ]
@@ -660,7 +681,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.44369"
+                        "value": "1.4355"
                       }
                     }
                   ],
@@ -674,49 +695,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "7459"
+                        "value": "9158"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "76"
+                        "value": "86"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "238"
+                        "value": "234"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "1262"
+                        "value": "1350"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "587"
+                        "value": "691"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "69"
+                        "value": "82"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2.5507"
+                        "value": "2.5122"
                       }
                     }
                   ]

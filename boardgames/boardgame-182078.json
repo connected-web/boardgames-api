@@ -36,7 +36,7 @@
               "_attributes": {
                 "type": "alternate",
                 "sortindex": "1",
-                "value": "Wsiąść do Pociągu: Zjednoczone Królestwo i Pensylwania"
+                "value": "Wsiąść do Pociągu: Kolekcja Map 5 – Zjednoczone Królestwo i Pensylwania"
               }
             },
             {
@@ -80,7 +80,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "52"
+                "totalvotes": "53"
               },
               "results": [
                 {
@@ -103,7 +103,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "33"
+                        "numvotes": "34"
                       }
                     }
                   ]
@@ -116,7 +116,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "10"
+                        "numvotes": "11"
                       }
                     },
                     {
@@ -141,7 +141,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "18"
+                        "numvotes": "19"
                       }
                     },
                     {
@@ -203,7 +203,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "15"
+                        "numvotes": "16"
                       }
                     }
                   ]
@@ -228,7 +228,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "29"
+                        "numvotes": "30"
                       }
                     }
                   ]
@@ -331,35 +331,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "576",
+                        "level": "451",
                         "value": "No necessary in-game text",
                         "numvotes": "4"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "577",
+                        "level": "452",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "578",
+                        "level": "453",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "579",
+                        "level": "454",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "580",
+                        "level": "455",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -415,13 +415,6 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
-                "id": "2041",
-                "value": "Card Drafting"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamemechanic",
                 "id": "2040",
                 "value": "Hand Management"
               }
@@ -431,6 +424,13 @@
                 "type": "boardgamemechanic",
                 "id": "2081",
                 "value": "Network and Route Building"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2041",
+                "value": "Open Drafting"
               }
             },
             {
@@ -603,21 +603,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "4794"
+                        "value": "5307"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.99245"
+                        "value": "7.98971"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "7.3127"
+                        "value": "7.31121"
                       }
                     }
                   ],
@@ -631,7 +631,7 @@
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "7.3127"
+                            "bayesaverage": "7.31121"
                           }
                         },
                         {
@@ -641,7 +641,7 @@
                             "name": "familygames",
                             "friendlyname": "Family Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "7.48727"
+                            "bayesaverage": "7.48354"
                           }
                         }
                       ]
@@ -650,7 +650,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.09398"
+                        "value": "1.10092"
                       }
                     }
                   ],
@@ -664,49 +664,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "12181"
+                        "value": "13654"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "50"
+                        "value": "62"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "347"
+                        "value": "332"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "1437"
+                        "value": "1464"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "977"
+                        "value": "1066"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "127"
+                        "value": "134"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2.2913"
+                        "value": "2.291"
                       }
                     }
                   ]

@@ -66,7 +66,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "2"
+                "totalvotes": "3"
               },
               "results": [
                 {
@@ -89,7 +89,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "2"
+                        "numvotes": "3"
                       }
                     }
                   ]
@@ -108,7 +108,7 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "1"
+                        "numvotes": "2"
                       }
                     },
                     {
@@ -133,7 +133,7 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "1"
+                        "numvotes": "2"
                       }
                     },
                     {
@@ -152,7 +152,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "1"
+                        "numvotes": "2"
                       }
                     },
                     {
@@ -189,7 +189,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "2"
+                        "numvotes": "3"
                       }
                     }
                   ]
@@ -292,35 +292,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "146",
+                        "level": "16",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "147",
+                        "level": "17",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "148",
+                        "level": "18",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "149",
+                        "level": "19",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "150",
+                        "level": "20",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -369,13 +369,6 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
-                "id": "2041",
-                "value": "Card Drafting"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamemechanic",
                 "id": "2664",
                 "value": "Deck, Bag, and Pool Building"
               }
@@ -385,6 +378,13 @@
                 "type": "boardgamemechanic",
                 "id": "2040",
                 "value": "Hand Management"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2041",
+                "value": "Open Drafting"
               }
             },
             {
@@ -593,6 +593,13 @@
             {
               "_attributes": {
                 "type": "boardgameintegration",
+                "id": "373281",
+                "value": "Tanto Cuore: Memento Mori – Twilight Manor"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameintegration",
                 "id": "75448",
                 "value": "Tanto Cuore: Romantic Vacation"
               }
@@ -615,7 +622,7 @@
               "_attributes": {
                 "type": "boardgamepublisher",
                 "id": "3475",
-                "value": "Arclight"
+                "value": "Arclight Games"
               }
             },
             {
@@ -643,21 +650,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "318"
+                        "value": "347"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.33771"
+                        "value": "7.31321"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "5.76843"
+                        "value": "5.76228"
                       }
                     }
                   ],
@@ -670,8 +677,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "4150",
-                            "bayesaverage": "5.76843"
+                            "value": "4498",
+                            "bayesaverage": "5.76228"
                           }
                         }
                       ]
@@ -680,7 +687,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.42115"
+                        "value": "1.42588"
                       }
                     }
                   ],
@@ -694,7 +701,7 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "1207"
+                        "value": "1346"
                       }
                     }
                   ],
@@ -715,28 +722,28 @@
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "151"
+                        "value": "164"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "84"
+                        "value": "95"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "7"
+                        "value": "8"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2.2857"
+                        "value": "2.25"
                       }
                     }
                   ]

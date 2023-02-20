@@ -424,35 +424,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "81",
+                        "level": "1",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "82",
+                        "level": "2",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "2"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "83",
+                        "level": "3",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "84",
+                        "level": "4",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "85",
+                        "level": "5",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -529,13 +529,6 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
-                "id": "2041",
-                "value": "Card Drafting"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamemechanic",
                 "id": "2072",
                 "value": "Dice Rolling"
               }
@@ -550,6 +543,13 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
+                "id": "2041",
+                "value": "Open Drafting"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
                 "id": "2019",
                 "value": "Team-Based Game"
               }
@@ -557,8 +557,22 @@
             {
               "_attributes": {
                 "type": "boardgamefamily",
+                "id": "76558",
+                "value": "Container: Book-like"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
                 "id": "8374",
                 "value": "Crowdfunding: Kickstarter"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
+                "id": "70948",
+                "value": "Digital Implementations: Tabletopia"
               }
             },
             {
@@ -573,6 +587,13 @@
                 "type": "boardgamefamily",
                 "id": "72737",
                 "value": "Series: Thinker games for one player (Clicker Spiele)"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
+                "id": "74724",
+                "value": "States: South Dakota"
               }
             },
             {
@@ -621,21 +642,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "1191"
+                        "value": "1376"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "6.65205"
+                        "value": "6.63021"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "5.93069"
+                        "value": "5.93364"
                       }
                     }
                   ],
@@ -648,8 +669,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "2909",
-                            "bayesaverage": "5.93069"
+                            "value": "3096",
+                            "bayesaverage": "5.93364"
                           }
                         },
                         {
@@ -658,8 +679,8 @@
                             "id": "5496",
                             "name": "thematic",
                             "friendlyname": "Thematic Rank",
-                            "value": "569",
-                            "bayesaverage": "6.04422"
+                            "value": "626",
+                            "bayesaverage": "6.06163"
                           }
                         },
                         {
@@ -668,8 +689,8 @@
                             "id": "5498",
                             "name": "partygames",
                             "friendlyname": "Party Game Rank",
-                            "value": "198",
-                            "bayesaverage": "6.1393"
+                            "value": "211",
+                            "bayesaverage": "6.15177"
                           }
                         }
                       ]
@@ -678,7 +699,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.47081"
+                        "value": "1.46822"
                       }
                     }
                   ],
@@ -692,49 +713,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "4675"
+                        "value": "5430"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "110"
+                        "value": "124"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "43"
+                        "value": "45"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "331"
+                        "value": "390"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "347"
+                        "value": "392"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "19"
+                        "value": "21"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "1.8421"
+                        "value": "1.8571"
                       }
                     }
                   ]

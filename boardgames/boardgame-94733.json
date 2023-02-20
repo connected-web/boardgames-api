@@ -281,35 +281,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "11",
+                        "level": "26",
                         "value": "No necessary in-game text",
                         "numvotes": "3"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "12",
+                        "level": "27",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "13",
+                        "level": "28",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "14",
+                        "level": "29",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "15",
+                        "level": "30",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -499,21 +499,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "513"
+                        "value": "530"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "6.01789"
+                        "value": "6.00128"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "5.60904"
+                        "value": "5.5993"
                       }
                     }
                   ],
@@ -526,8 +526,28 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "7077",
-                            "bayesaverage": "5.60904"
+                            "value": "7886",
+                            "bayesaverage": "5.5993"
+                          }
+                        },
+                        {
+                          "_attributes": {
+                            "type": "family",
+                            "id": "4665",
+                            "name": "childrensgames",
+                            "friendlyname": "Children's Game Rank",
+                            "value": "238",
+                            "bayesaverage": "5.80836"
+                          }
+                        },
+                        {
+                          "_attributes": {
+                            "type": "family",
+                            "id": "5499",
+                            "name": "familygames",
+                            "friendlyname": "Family Game Rank",
+                            "value": "2012",
+                            "bayesaverage": "5.60705"
                           }
                         }
                       ]
@@ -536,7 +556,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.40274"
+                        "value": "1.432"
                       }
                     }
                   ],
@@ -550,14 +570,14 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "1574"
+                        "value": "1635"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "19"
+                        "value": "20"
                       }
                     }
                   ],
@@ -571,7 +591,7 @@
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "37"
+                        "value": "42"
                       }
                     }
                   ],

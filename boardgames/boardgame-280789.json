@@ -71,6 +71,13 @@
               "_attributes": {
                 "type": "alternate",
                 "sortindex": "1",
+                "value": "Pandemic: Rychlé nasazení"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
                 "value": "Pandemic: Schnelles Einsatzteam"
               }
             },
@@ -79,6 +86,13 @@
                 "type": "alternate",
                 "sortindex": "1",
                 "value": "Pandemic: Szybka reakcja"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "パンデミック：迅速対応"
               }
             },
             {
@@ -122,7 +136,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "28"
+                "totalvotes": "35"
               },
               "results": [
                 {
@@ -139,13 +153,13 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "3"
+                        "numvotes": "7"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "17"
+                        "numvotes": "19"
                       }
                     }
                   ]
@@ -158,13 +172,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "13"
+                        "numvotes": "16"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "11"
+                        "numvotes": "14"
                       }
                     },
                     {
@@ -183,13 +197,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "5"
+                        "numvotes": "8"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "10"
+                        "numvotes": "14"
                       }
                     },
                     {
@@ -208,13 +222,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "10"
+                        "numvotes": "11"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "7"
+                        "numvotes": "11"
                       }
                     },
                     {
@@ -245,7 +259,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "14"
+                        "numvotes": "18"
                       }
                     }
                   ]
@@ -256,7 +270,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "6"
+                "totalvotes": "9"
               },
               "results": [
                 {
@@ -294,13 +308,13 @@
                     {
                       "_attributes": {
                         "value": "8",
-                        "numvotes": "1"
+                        "numvotes": "2"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "10",
-                        "numvotes": "3"
+                        "numvotes": "5"
                       }
                     },
                     {
@@ -341,7 +355,7 @@
               "_attributes": {
                 "name": "language_dependence",
                 "title": "Language Dependence",
-                "totalvotes": "3"
+                "totalvotes": "5"
               },
               "results": [
                 {
@@ -350,14 +364,14 @@
                       "_attributes": {
                         "level": "11",
                         "value": "No necessary in-game text",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
                         "level": "12",
                         "value": "Some necessary text - easily memorized or small crib sheet",
-                        "numvotes": "3"
+                        "numvotes": "4"
                       }
                     },
                     {
@@ -481,8 +495,22 @@
             {
               "_attributes": {
                 "type": "boardgamefamily",
+                "id": "75031",
+                "value": "Components: Sand Timers"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
                 "id": "3430",
                 "value": "Game: Pandemic"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
+                "id": "61854",
+                "value": "Medical: Diseases"
               }
             },
             {
@@ -497,6 +525,14 @@
                 "type": "boardgamefamily",
                 "id": "62201",
                 "value": "Versions & Editions: Dice Versions of Non-Dice Games"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameimplementation",
+                "id": "171273",
+                "value": "FUSE",
+                "inbound": "true"
               }
             },
             {
@@ -525,6 +561,13 @@
                 "type": "boardgamepublisher",
                 "id": "538",
                 "value": "Z-Man Games"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "23043",
+                "value": "ADC Blackfire Entertainment"
               }
             },
             {
@@ -565,6 +608,13 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "1391",
+                "value": "Hobby Japan"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "7466",
                 "value": "Rebel Sp. z o.o."
               }
@@ -580,21 +630,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "2075"
+                        "value": "2512"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "6.6616"
+                        "value": "6.60945"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.12205"
+                        "value": "6.11351"
                       }
                     }
                   ],
@@ -607,8 +657,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "2035",
-                            "bayesaverage": "6.12205"
+                            "value": "2229",
+                            "bayesaverage": "6.11351"
                           }
                         },
                         {
@@ -617,8 +667,8 @@
                             "id": "5499",
                             "name": "familygames",
                             "friendlyname": "Family Game Rank",
-                            "value": "590",
-                            "bayesaverage": "6.22444"
+                            "value": "687",
+                            "bayesaverage": "6.2027"
                           }
                         }
                       ]
@@ -627,7 +677,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.39548"
+                        "value": "1.40937"
                       }
                     }
                   ],
@@ -641,49 +691,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "5849"
+                        "value": "7200"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "229"
+                        "value": "291"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "55"
+                        "value": "40"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "533"
+                        "value": "547"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "444"
+                        "value": "553"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "34"
+                        "value": "46"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2.2059"
+                        "value": "2.1304"
                       }
                     }
                   ]

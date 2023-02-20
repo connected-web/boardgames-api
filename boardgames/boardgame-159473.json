@@ -73,7 +73,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "94"
+                "totalvotes": "99"
               },
               "results": [
                 {
@@ -96,7 +96,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "50"
+                        "numvotes": "54"
                       }
                     }
                   ]
@@ -109,19 +109,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "20"
+                        "numvotes": "21"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "31"
+                        "numvotes": "32"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "18"
+                        "numvotes": "20"
                       }
                     }
                   ]
@@ -146,7 +146,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "47"
+                        "numvotes": "51"
                       }
                     }
                   ]
@@ -159,19 +159,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "3"
+                        "numvotes": "4"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "35"
+                        "numvotes": "36"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "26"
+                        "numvotes": "28"
                       }
                     }
                   ]
@@ -190,13 +190,13 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "34"
+                        "numvotes": "37"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "23"
+                        "numvotes": "24"
                       }
                     }
                   ]
@@ -209,13 +209,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "77"
+                        "numvotes": "81"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "7"
+                        "numvotes": "8"
                       }
                     },
                     {
@@ -246,7 +246,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "39"
+                        "numvotes": "44"
                       }
                     }
                   ]
@@ -342,42 +342,42 @@
               "_attributes": {
                 "name": "language_dependence",
                 "title": "Language Dependence",
-                "totalvotes": "10"
+                "totalvotes": "12"
               },
               "results": [
                 {
                   "result": [
                     {
                       "_attributes": {
-                        "level": "1",
+                        "level": "6",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "2",
+                        "level": "7",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "3",
+                        "level": "8",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "3"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "4",
+                        "level": "9",
                         "value": "Extensive use of text - massive conversion needed to be playable",
-                        "numvotes": "7"
+                        "numvotes": "9"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "5",
+                        "level": "10",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -468,6 +468,13 @@
             {
               "_attributes": {
                 "type": "boardgamefamily",
+                "id": "68769",
+                "value": "Components: Wooden pieces & boards"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
                 "id": "38758",
                 "value": "Game: Quartermaster"
               }
@@ -517,6 +524,13 @@
             {
               "_attributes": {
                 "type": "boardgameimplementation",
+                "id": "331979",
+                "value": "Quartermaster General WW2: 2nd Edition"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameimplementation",
                 "id": "208773",
                 "value": "Quartermaster General: 1914"
               }
@@ -533,13 +547,6 @@
                 "type": "boardgameimplementation",
                 "id": "195227",
                 "value": "Quartermaster General: Victory or Death – The Peloponnesian War"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgameimplementation",
-                "id": "331979",
-                "value": "WW2 Quartermaster General"
               }
             },
             {
@@ -581,21 +588,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "2522"
+                        "value": "2633"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.34745"
+                        "value": "7.33197"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.57135"
+                        "value": "6.5301"
                       }
                     }
                   ],
@@ -608,8 +615,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "941",
-                            "bayesaverage": "6.57135"
+                            "value": "1089",
+                            "bayesaverage": "6.5301"
                           }
                         },
                         {
@@ -618,8 +625,8 @@
                             "id": "4664",
                             "name": "wargames",
                             "friendlyname": "War Game Rank",
-                            "value": "118",
-                            "bayesaverage": "7.11356"
+                            "value": "130",
+                            "bayesaverage": "7.07524"
                           }
                         },
                         {
@@ -628,8 +635,8 @@
                             "id": "5497",
                             "name": "strategygames",
                             "friendlyname": "Strategy Game Rank",
-                            "value": "531",
-                            "bayesaverage": "6.6926"
+                            "value": "610",
+                            "bayesaverage": "6.65555"
                           }
                         }
                       ]
@@ -638,7 +645,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.48132"
+                        "value": "1.4781"
                       }
                     }
                   ],
@@ -652,49 +659,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "2861"
+                        "value": "2853"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "90"
+                        "value": "102"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "193"
+                        "value": "178"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "741"
+                        "value": "747"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "663"
+                        "value": "685"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "147"
+                        "value": "152"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2.2925"
+                        "value": "2.2961"
                       }
                     }
                   ]

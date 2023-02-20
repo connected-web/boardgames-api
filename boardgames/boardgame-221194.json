@@ -43,7 +43,7 @@
               "_attributes": {
                 "type": "alternate",
                 "sortindex": "1",
-                "value": "Wyspa Dinozaurów"
+                "value": "Wyspa dinozaurów"
               }
             },
             {
@@ -51,6 +51,13 @@
                 "type": "alternate",
                 "sortindex": "1",
                 "value": "Остров юрского периода"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "ダイナソー・アイランド　第２版"
               }
             },
             {
@@ -101,7 +108,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "149"
+                "totalvotes": "171"
               },
               "results": [
                 {
@@ -118,13 +125,13 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "47"
+                        "numvotes": "54"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "26"
+                        "numvotes": "32"
                       }
                     }
                   ]
@@ -137,19 +144,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "20"
+                        "numvotes": "24"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "86"
+                        "numvotes": "101"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "12"
+                        "numvotes": "13"
                       }
                     }
                   ]
@@ -162,13 +169,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "67"
+                        "numvotes": "75"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "46"
+                        "numvotes": "55"
                       }
                     },
                     {
@@ -187,19 +194,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "53"
+                        "numvotes": "59"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "42"
+                        "numvotes": "49"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "9"
+                        "numvotes": "10"
                       }
                     }
                   ]
@@ -218,13 +225,13 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "8"
+                        "numvotes": "10"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "51"
+                        "numvotes": "60"
                       }
                     }
                   ]
@@ -235,7 +242,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "45"
+                "totalvotes": "53"
               },
               "results": [
                 {
@@ -273,19 +280,19 @@
                     {
                       "_attributes": {
                         "value": "8",
-                        "numvotes": "8"
+                        "numvotes": "10"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "10",
-                        "numvotes": "14"
+                        "numvotes": "18"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "12",
-                        "numvotes": "19"
+                        "numvotes": "21"
                       }
                     },
                     {
@@ -320,42 +327,42 @@
               "_attributes": {
                 "name": "language_dependence",
                 "title": "Language Dependence",
-                "totalvotes": "14"
+                "totalvotes": "17"
               },
               "results": [
                 {
                   "result": [
                     {
                       "_attributes": {
-                        "level": "106",
+                        "level": "31",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "107",
+                        "level": "32",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "108",
+                        "level": "33",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "9"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "109",
+                        "level": "34",
                         "value": "Extensive use of text - massive conversion needed to be playable",
-                        "numvotes": "5"
+                        "numvotes": "8"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "110",
+                        "level": "35",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -460,6 +467,13 @@
             {
               "_attributes": {
                 "type": "boardgamefamily",
+                "id": "22783",
+                "value": "Admin: Better Description Needed!"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
                 "id": "7559",
                 "value": "Animals: Dinosaurs"
               }
@@ -482,7 +496,7 @@
               "_attributes": {
                 "type": "boardgamefamily",
                 "id": "56992",
-                "value": "Game: Dinosaur Island"
+                "value": "Game: Dinosaur Island/Dinosaur World"
               }
             },
             {
@@ -621,6 +635,13 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "3475",
+                "value": "Arclight Games"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "157",
                 "value": "Asmodee"
               }
@@ -685,21 +706,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "13057"
+                        "value": "14939"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.68362"
+                        "value": "7.61669"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "7.37603"
+                        "value": "7.32516"
                       }
                     }
                   ],
@@ -712,18 +733,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "151",
-                            "bayesaverage": "7.37603"
-                          }
-                        },
-                        {
-                          "_attributes": {
-                            "type": "family",
-                            "id": "5496",
-                            "name": "thematic",
-                            "friendlyname": "Thematic Rank",
-                            "value": "45",
-                            "bayesaverage": "7.42593"
+                            "value": "186",
+                            "bayesaverage": "7.32516"
                           }
                         },
                         {
@@ -732,8 +743,8 @@
                             "id": "5497",
                             "name": "strategygames",
                             "friendlyname": "Strategy Game Rank",
-                            "value": "123",
-                            "bayesaverage": "7.40446"
+                            "value": "143",
+                            "bayesaverage": "7.35271"
                           }
                         }
                       ]
@@ -742,7 +753,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.33516"
+                        "value": "1.34146"
                       }
                     }
                   ],
@@ -756,49 +767,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "22024"
+                        "value": "24751"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "420"
+                        "value": "570"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "749"
+                        "value": "665"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "4758"
+                        "value": "4860"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "2402"
+                        "value": "2664"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "387"
+                        "value": "428"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "3.0388"
+                        "value": "3.035"
                       }
                     }
                   ]

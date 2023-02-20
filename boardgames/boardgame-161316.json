@@ -43,7 +43,7 @@
           "description": [
             {
               "_text": [
-                "The fourth expansion for Heart of Crown. It requires either the base set or the Fairy Garden expansion to play.&#10;&#10;This expansion adds a completely new type of card, Support Cards, which confer an extra bonus when nominating a Princess. A new Rare card is also introduced, Oasis City Nefertiri, which does not enter the market like normal. The set also introduces a new variety of Curse card.&#10;&#10;Additionally, new rules are added for games with 8 or more Princesses available.&#10;&#10;The set contains:&#10;&#10;     1 new Princess &#10;     16 new types of Common Card (5 of each type)&#10;     2 Revised versions of Common Cards from the Fairy Garden expansion, Guildmaster and Merchant Fleet (5 of each)&#10;     18 placeholder cards (1 for each Common Card type included)&#10;     8 Support Cards&#10;     20 Misfortune Cards&#10;     1 new Rare Card&#10;&#10;&#10;"
+                "The fourth expansion for Heart of Crown. It requires either the base set or the Fairy Garden expansion to play.&#10;&#10;This expansion adds a completely new type of card, Support Cards, which confer an extra bonus when nominating a Princess. A new Rare card is also introduced, Oasis City Nefertiri, which does not enter the market like normal. The set also introduces a new variety of Curse card.&#10;&#10;Additionally, new rules are added for games with 8 or more Princesses available.&#10;&#10;The Japanese release of this set contains:&#10;&#10;     1 new Princess &#10;     16 new types of Common Card (5 of each type)&#10;     2 Revised versions of Common Cards from the Fairy Garden expansion, Guildmaster and Merchant Fleet (5 of each)&#10;     18 placeholder cards (1 for each Common Card type included)&#10;     8 Support Cards&#10;     20 Misfortune Cards&#10;     1 new Rare Card&#10;&#10;&#10;The English release contains:&#10;&#10;     1 new Princess &#10;     1 new Rare Card&#10;     16 new types of Common Card (5 of each type)&#10;     20 Misfortune Cards&#10;     16 randomizer cards&#10;     17 dividers&#10;&#10;&#10;"
               ]
             }
           ],
@@ -299,35 +299,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "16",
+                        "level": "196",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "17",
+                        "level": "197",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "18",
+                        "level": "198",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "19",
+                        "level": "199",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "20",
+                        "level": "200",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -390,13 +390,6 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
-                "id": "2041",
-                "value": "Card Drafting"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamemechanic",
                 "id": "2664",
                 "value": "Deck, Bag, and Pool Building"
               }
@@ -406,6 +399,13 @@
                 "type": "boardgamemechanic",
                 "id": "2040",
                 "value": "Hand Management"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2041",
+                "value": "Open Drafting"
               }
             },
             {
@@ -519,21 +519,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "64"
+                        "value": "80"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "8.38437"
+                        "value": "8.40625"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "5.60268"
+                        "value": "5.61587"
                       }
                     }
                   ],
@@ -547,7 +547,7 @@
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "5.60268"
+                            "bayesaverage": "5.61587"
                           }
                         }
                       ]
@@ -556,7 +556,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.07183"
+                        "value": "1.0723"
                       }
                     }
                   ],
@@ -570,21 +570,21 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "349"
+                        "value": "428"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "2"
+                        "value": "1"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "17"
+                        "value": "14"
                       }
                     }
                   ],
@@ -598,7 +598,7 @@
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "17"
+                        "value": "19"
                       }
                     }
                   ],

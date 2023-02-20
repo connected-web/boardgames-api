@@ -80,7 +80,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "44"
+                "totalvotes": "47"
               },
               "results": [
                 {
@@ -97,13 +97,13 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "6"
+                        "numvotes": "7"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "25"
+                        "numvotes": "27"
                       }
                     }
                   ]
@@ -116,7 +116,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "43"
+                        "numvotes": "46"
                       }
                     },
                     {
@@ -153,7 +153,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "12"
+                        "numvotes": "14"
                       }
                     }
                   ]
@@ -164,7 +164,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "12"
+                "totalvotes": "13"
               },
               "results": [
                 {
@@ -208,7 +208,7 @@
                     {
                       "_attributes": {
                         "value": "10",
-                        "numvotes": "4"
+                        "numvotes": "5"
                       }
                     },
                     {
@@ -256,35 +256,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "61",
+                        "level": "6",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "62",
+                        "level": "7",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "3"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "63",
+                        "level": "8",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "3"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "64",
+                        "level": "9",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "3"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "65",
+                        "level": "10",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -347,13 +347,6 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
-                "id": "2041",
-                "value": "Card Drafting"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamemechanic",
                 "id": "2664",
                 "value": "Deck, Bag, and Pool Building"
               }
@@ -370,6 +363,13 @@
                 "type": "boardgamemechanic",
                 "id": "2040",
                 "value": "Hand Management"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2041",
+                "value": "Open Drafting"
               }
             },
             {
@@ -544,7 +544,7 @@
               "_attributes": {
                 "type": "boardgameexpansion",
                 "id": "257613",
-                "value": "Star Realms: Frontiers – Kickstarter Promos"
+                "value": "Star Realms: Frontiers – Kickstarter Promo Pack"
               }
             },
             {
@@ -608,6 +608,13 @@
                 "type": "boardgameexpansion",
                 "id": "231021",
                 "value": "Star Realms: Merc Battlecruiser Promo Card"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "355648",
+                "value": "Star Realms: Merc Captain Garcia Promo Card"
               }
             },
             {
@@ -683,8 +690,29 @@
             {
               "_attributes": {
                 "type": "boardgameexpansion",
+                "id": "363017",
+                "value": "Star Realms: Stingray Promo Card"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
                 "id": "182075",
                 "value": "Star Realms: The Ark Promo Card"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "369151",
+                "value": "Star Realms: Tournament Kit Season 3"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "369150",
+                "value": "Star Realms: Tournament Kit Season 5"
               }
             },
             {
@@ -739,8 +767,15 @@
             {
               "_attributes": {
                 "type": "boardgameexpansion",
+                "id": "339751",
+                "value": "Звёздные империи: Альянс"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
                 "id": "352237",
-                "value": "Звёздные империи: Гамбит"
+                "value": "Звёздные империи: Гамбит (Star Realms: Gambit)"
               }
             },
             {
@@ -753,8 +788,15 @@
             {
               "_attributes": {
                 "type": "boardgameintegration",
+                "id": "355199",
+                "value": "Star Realms: Deck Building Game"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameintegration",
                 "id": "298628",
-                "value": "Star Realms Deluxe Nova Collection"
+                "value": "Star Realms: Deluxe Nova Collection"
               }
             },
             {
@@ -762,6 +804,13 @@
                 "type": "boardgameintegration",
                 "id": "230253",
                 "value": "Star Realms: Frontiers"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameintegration",
+                "id": "360676",
+                "value": "Star Realms: Rise of Empire"
               }
             },
             {
@@ -859,21 +908,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "6686"
+                        "value": "7521"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.84721"
+                        "value": "7.81413"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "7.3304"
+                        "value": "7.3091"
                       }
                     }
                   ],
@@ -886,8 +935,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "178",
-                            "bayesaverage": "7.3304"
+                            "value": "198",
+                            "bayesaverage": "7.3091"
                           }
                         },
                         {
@@ -896,8 +945,8 @@
                             "id": "5497",
                             "name": "strategygames",
                             "friendlyname": "Strategy Game Rank",
-                            "value": "126",
-                            "bayesaverage": "7.39865"
+                            "value": "131",
+                            "bayesaverage": "7.37836"
                           }
                         }
                       ]
@@ -906,7 +955,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.19298"
+                        "value": "1.20947"
                       }
                     }
                   ],
@@ -920,49 +969,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "15366"
+                        "value": "16942"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "148"
+                        "value": "169"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "100"
+                        "value": "99"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "767"
+                        "value": "803"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "963"
+                        "value": "1059"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "113"
+                        "value": "128"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "1.9115"
+                        "value": "1.8906"
                       }
                     }
                   ]

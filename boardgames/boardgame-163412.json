@@ -50,6 +50,27 @@
               "_attributes": {
                 "type": "alternate",
                 "sortindex": "1",
+                "value": "Patchwork: Edición Andina"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "Patchwork: Edición Halloween"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "Patchwork: Edición San Valentín"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
                 "value": "Patchwork: Edycja Zimowa"
               }
             },
@@ -57,7 +78,28 @@
               "_attributes": {
                 "type": "alternate",
                 "sortindex": "1",
+                "value": "Patchwork: Folklore Anden"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
                 "value": "Patchwork: Folklore China"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "Patchwork: Folklore Polen"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "Patchwork: Folklore Skandinavien"
               }
             },
             {
@@ -78,7 +120,21 @@
               "_attributes": {
                 "type": "alternate",
                 "sortindex": "1",
+                "value": "Patchwork: Jogakbo"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
                 "value": "Patchwork: Polski Folklor"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "Patchwork: Szerelmes kiadás"
               }
             },
             {
@@ -227,7 +283,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "427"
+                "totalvotes": "498"
               },
               "results": [
                 {
@@ -238,19 +294,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "2"
+                        "numvotes": "3"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "23"
+                        "numvotes": "26"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "323"
+                        "numvotes": "380"
                       }
                     }
                   ]
@@ -263,13 +319,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "410"
+                        "numvotes": "480"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "13"
+                        "numvotes": "14"
                       }
                     },
                     {
@@ -300,7 +356,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "325"
+                        "numvotes": "385"
                       }
                     }
                   ]
@@ -311,7 +367,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "205"
+                "totalvotes": "235"
               },
               "results": [
                 {
@@ -331,37 +387,37 @@
                     {
                       "_attributes": {
                         "value": "4",
-                        "numvotes": "7"
+                        "numvotes": "8"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "5",
-                        "numvotes": "19"
+                        "numvotes": "22"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "6",
-                        "numvotes": "85"
+                        "numvotes": "95"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "8",
-                        "numvotes": "78"
+                        "numvotes": "92"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "10",
-                        "numvotes": "12"
+                        "numvotes": "13"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "12",
-                        "numvotes": "3"
+                        "numvotes": "4"
                       }
                     },
                     {
@@ -396,7 +452,7 @@
               "_attributes": {
                 "name": "language_dependence",
                 "title": "Language Dependence",
-                "totalvotes": "87"
+                "totalvotes": "90"
               },
               "results": [
                 {
@@ -405,7 +461,7 @@
                       "_attributes": {
                         "level": "6",
                         "value": "No necessary in-game text",
-                        "numvotes": "86"
+                        "numvotes": "89"
                       }
                     },
                     {
@@ -480,22 +536,15 @@
             {
               "_attributes": {
                 "type": "boardgamecategory",
+                "id": "1021",
+                "value": "Economic"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamecategory",
                 "id": "1028",
                 "value": "Puzzle"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamemechanic",
-                "id": "2041",
-                "value": "Card Drafting"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamemechanic",
-                "id": "2984",
-                "value": "Drafting"
               }
             },
             {
@@ -515,6 +564,20 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
+                "id": "2041",
+                "value": "Open Drafting"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2813",
+                "value": "Rondel"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
                 "id": "2940",
                 "value": "Square Grid"
               }
@@ -529,8 +592,15 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
+                "id": "2826",
+                "value": "Turn Order: Stat-Based"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
                 "id": "2663",
-                "value": "Time Track"
+                "value": "Turn Order: Time Track"
               }
             },
             {
@@ -543,8 +613,22 @@
             {
               "_attributes": {
                 "type": "boardgamefamily",
+                "id": "57182",
+                "value": "Theme: Sewing / Knitting / Cloth-Making"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
                 "id": "26432",
                 "value": "Category: Combinatorial"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
+                "id": "78574",
+                "value": "Components: 9 x 9 Grids"
               }
             },
             {
@@ -559,6 +643,13 @@
                 "type": "boardgamefamily",
                 "id": "70360",
                 "value": "Digital Implementations: Board Game Arena"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
+                "id": "77349",
+                "value": "Digital Implementations: Steam"
               }
             },
             {
@@ -591,9 +682,9 @@
             },
             {
               "_attributes": {
-                "type": "boardgamefamily",
-                "id": "57182",
-                "value": "Theme: Sewing / Knitting / Cloth-Making"
+                "type": "boardgameexpansion",
+                "id": "370657",
+                "value": "Crazy Quilt (fan expansion for Patchwork)"
               }
             },
             {
@@ -629,6 +720,13 @@
                 "type": "boardgameimplementation",
                 "id": "246639",
                 "value": "Patchwork Express"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameimplementation",
+                "id": "362693",
+                "value": "Stack'n Stuff: A Patchwork Game"
               }
             },
             {
@@ -704,6 +802,13 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "49208",
+                "value": "Asmodee Korea"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "7162",
                 "value": "Brain Games"
               }
@@ -712,7 +817,7 @@
               "_attributes": {
                 "type": "boardgamepublisher",
                 "id": "14813",
-                "value": "Compaya.hu - Gamer Café Kft."
+                "value": "Compaya.hu: Gamer Café Kft."
               }
             },
             {
@@ -873,21 +978,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "51932"
+                        "value": "59171"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.64095"
+                        "value": "7.61276"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "7.53586"
+                        "value": "7.5072"
                       }
                     }
                   ],
@@ -900,8 +1005,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "94",
-                            "bayesaverage": "7.53586"
+                            "value": "108",
+                            "bayesaverage": "7.5072"
                           }
                         },
                         {
@@ -911,7 +1016,7 @@
                             "name": "abstracts",
                             "friendlyname": "Abstract Game Rank",
                             "value": "5",
-                            "bayesaverage": "7.52452"
+                            "bayesaverage": "7.5083"
                           }
                         },
                         {
@@ -920,8 +1025,8 @@
                             "id": "5499",
                             "name": "familygames",
                             "friendlyname": "Family Game Rank",
-                            "value": "12",
-                            "bayesaverage": "7.55352"
+                            "value": "13",
+                            "bayesaverage": "7.52184"
                           }
                         }
                       ]
@@ -930,7 +1035,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.15314"
+                        "value": "1.15892"
                       }
                     }
                   ],
@@ -944,49 +1049,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "78210"
+                        "value": "91297"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "498"
+                        "value": "627"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "794"
+                        "value": "752"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "7023"
+                        "value": "7906"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "6829"
+                        "value": "7768"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "1366"
+                        "value": "1537"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "1.6245"
+                        "value": "1.6116"
                       }
                     }
                   ]

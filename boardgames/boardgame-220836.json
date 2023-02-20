@@ -101,7 +101,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "6"
+                "totalvotes": "8"
               },
               "results": [
                 {
@@ -124,7 +124,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "4"
+                        "numvotes": "6"
                       }
                     }
                   ]
@@ -143,13 +143,13 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "3"
+                        "numvotes": "4"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "1"
+                        "numvotes": "2"
                       }
                     }
                   ]
@@ -168,7 +168,7 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "3"
+                        "numvotes": "5"
                       }
                     },
                     {
@@ -187,7 +187,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "4"
+                        "numvotes": "6"
                       }
                     },
                     {
@@ -224,7 +224,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "4"
+                        "numvotes": "6"
                       }
                     }
                   ]
@@ -327,35 +327,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "61",
+                        "level": "186",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "62",
+                        "level": "187",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "63",
+                        "level": "188",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "64",
+                        "level": "189",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "2"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "65",
+                        "level": "190",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -482,7 +482,7 @@
               "_attributes": {
                 "type": "boardgamefamily",
                 "id": "72224",
-                "value": "Misc: Limited replayability"
+                "value": "Misc: Limited Replayability"
               }
             },
             {
@@ -524,6 +524,13 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "25842",
+                "value": "Space Cowboys"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "157",
                 "value": "Asmodee"
               }
@@ -555,13 +562,6 @@
                 "id": "7466",
                 "value": "Rebel Sp. z o.o."
               }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamepublisher",
-                "id": "25842",
-                "value": "Space Cowboys"
-              }
             }
           ],
           "statistics": [
@@ -574,21 +574,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "1613"
+                        "value": "1767"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.24717"
+                        "value": "7.22645"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.35821"
+                        "value": "6.34224"
                       }
                     }
                   ],
@@ -602,7 +602,7 @@
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "6.35821"
+                            "bayesaverage": "6.34224"
                           }
                         },
                         {
@@ -612,7 +612,7 @@
                             "name": "thematic",
                             "friendlyname": "Thematic Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "6.68592"
+                            "bayesaverage": "6.67418"
                           }
                         }
                       ]
@@ -621,7 +621,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.65315"
+                        "value": "1.6453"
                       }
                     }
                   ],
@@ -635,49 +635,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "5903"
+                        "value": "6378"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "117"
+                        "value": "141"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "186"
+                        "value": "170"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "564"
+                        "value": "535"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "320"
+                        "value": "350"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "14"
+                        "value": "16"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2.2143"
+                        "value": "2.25"
                       }
                     }
                   ]

@@ -43,6 +43,13 @@
               "_attributes": {
                 "type": "alternate",
                 "sortindex": "1",
+                "value": "Dominion (Második Kiadás)"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
                 "value": "Dominion (Seconda Edizione)"
               }
             },
@@ -115,7 +122,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "77"
+                "totalvotes": "109"
               },
               "results": [
                 {
@@ -132,13 +139,13 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "1"
+                        "numvotes": "2"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "51"
+                        "numvotes": "68"
                       }
                     }
                   ]
@@ -151,13 +158,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "47"
+                        "numvotes": "67"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "23"
+                        "numvotes": "34"
                       }
                     },
                     {
@@ -176,13 +183,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "37"
+                        "numvotes": "52"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "28"
+                        "numvotes": "42"
                       }
                     },
                     {
@@ -201,19 +208,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "15"
+                        "numvotes": "18"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "36"
+                        "numvotes": "56"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "12"
+                        "numvotes": "14"
                       }
                     }
                   ]
@@ -232,13 +239,13 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "8"
+                        "numvotes": "11"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "37"
+                        "numvotes": "51"
                       }
                     }
                   ]
@@ -249,7 +256,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "17"
+                "totalvotes": "23"
               },
               "results": [
                 {
@@ -281,25 +288,25 @@
                     {
                       "_attributes": {
                         "value": "6",
-                        "numvotes": "1"
-                      }
-                    },
-                    {
-                      "_attributes": {
-                        "value": "8",
-                        "numvotes": "9"
-                      }
-                    },
-                    {
-                      "_attributes": {
-                        "value": "10",
                         "numvotes": "2"
                       }
                     },
                     {
                       "_attributes": {
+                        "value": "8",
+                        "numvotes": "11"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "10",
+                        "numvotes": "4"
+                      }
+                    },
+                    {
+                      "_attributes": {
                         "value": "12",
-                        "numvotes": "5"
+                        "numvotes": "6"
                       }
                     },
                     {
@@ -334,42 +341,42 @@
               "_attributes": {
                 "name": "language_dependence",
                 "title": "Language Dependence",
-                "totalvotes": "5"
+                "totalvotes": "10"
               },
               "results": [
                 {
                   "result": [
                     {
                       "_attributes": {
-                        "level": "1",
+                        "level": "11",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "2",
+                        "level": "12",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "3",
+                        "level": "13",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
-                        "numvotes": "4"
+                        "numvotes": "7"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "4",
+                        "level": "14",
                         "value": "Extensive use of text - massive conversion needed to be playable",
-                        "numvotes": "0"
+                        "numvotes": "2"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "5",
+                        "level": "15",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -425,13 +432,6 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
-                "id": "2041",
-                "value": "Card Drafting"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamemechanic",
                 "id": "2664",
                 "value": "Deck, Bag, and Pool Building"
               }
@@ -439,8 +439,29 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
+                "id": "2901",
+                "value": "Delayed Purchase"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
                 "id": "2040",
                 "value": "Hand Management"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2041",
+                "value": "Open Drafting"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2897",
+                "value": "Variable Set-up"
               }
             },
             {
@@ -572,6 +593,20 @@
             {
               "_attributes": {
                 "type": "boardgameexpansion",
+                "id": "365432",
+                "value": "Dominion: Hinterlands (Second Edition)"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "365192",
+                "value": "Dominion: Hinterlands – Update Pack"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
                 "id": "234892",
                 "value": "Dominion: Höflinge Promo Card"
               }
@@ -581,6 +616,13 @@
                 "type": "boardgameexpansion",
                 "id": "209419",
                 "value": "Dominion: Intrigue (Second Edition)"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "209358",
+                "value": "Dominion: Intrigue – Update Pack"
               }
             },
             {
@@ -600,6 +642,13 @@
             {
               "_attributes": {
                 "type": "boardgameexpansion",
+                "id": "369536",
+                "value": "Dominion: Plunder"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
                 "id": "160943",
                 "value": "Dominion: Prince Promo Card"
               }
@@ -614,8 +663,29 @@
             {
               "_attributes": {
                 "type": "boardgameexpansion",
+                "id": "362517",
+                "value": "Dominion: Prosperity (Second Edition)"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "364019",
+                "value": "Dominion: Prosperity – Update Pack"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
                 "id": "257673",
                 "value": "Dominion: Renaissance"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "374339",
+                "value": "Dominion: Sammlerbox"
               }
             },
             {
@@ -630,6 +700,20 @@
                 "type": "boardgameexpansion",
                 "id": "51811",
                 "value": "Dominion: Seaside"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "355958",
+                "value": "Dominion: Seaside (Second Edition)"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "356205",
+                "value": "Dominion: Seaside – Update Pack"
               }
             },
             {
@@ -678,7 +762,7 @@
               "_attributes": {
                 "type": "boardgamecompilation",
                 "id": "275626",
-                "value": "Dominion Einsteiger-Bigbox"
+                "value": "Dominion: Einsteiger-Bigbox"
               }
             },
             {
@@ -713,6 +797,13 @@
             {
               "_attributes": {
                 "type": "boardgameartist",
+                "id": "59030",
+                "value": "Radosław Jaszczuk"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
                 "id": "12019",
                 "value": "Tomasz Jedruszek"
               }
@@ -736,6 +827,13 @@
                 "type": "boardgamepublisher",
                 "id": "11043",
                 "value": "Conclave Editora"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "6194",
+                "value": "Delta Vision Publishing"
               }
             },
             {
@@ -769,6 +867,13 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "42043",
+                "value": "IUVI Games"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "8291",
                 "value": "Korea Boardgames Co., Ltd."
               }
@@ -784,21 +889,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "5565"
+                        "value": "7919"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.90107"
+                        "value": "7.86565"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "7.27647"
+                        "value": "7.34727"
                       }
                     }
                   ],
@@ -811,8 +916,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "208",
-                            "bayesaverage": "7.27647"
+                            "value": "176",
+                            "bayesaverage": "7.34727"
                           }
                         },
                         {
@@ -821,8 +926,8 @@
                             "id": "5497",
                             "name": "strategygames",
                             "friendlyname": "Strategy Game Rank",
-                            "value": "147",
-                            "bayesaverage": "7.32244"
+                            "value": "127",
+                            "bayesaverage": "7.38621"
                           }
                         }
                       ]
@@ -831,7 +936,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.36841"
+                        "value": "1.37874"
                       }
                     }
                   ],
@@ -845,49 +950,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "8881"
+                        "value": "12257"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "89"
+                        "value": "136"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "117"
+                        "value": "134"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "1375"
+                        "value": "1711"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "694"
+                        "value": "928"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "121"
+                        "value": "159"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2.1653"
+                        "value": "2.1698"
                       }
                     }
                   ]

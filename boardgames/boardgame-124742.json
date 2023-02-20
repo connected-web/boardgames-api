@@ -87,7 +87,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "392"
+                "totalvotes": "401"
               },
               "results": [
                 {
@@ -110,7 +110,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "279"
+                        "numvotes": "288"
                       }
                     }
                   ]
@@ -123,7 +123,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "364"
+                        "numvotes": "374"
                       }
                     },
                     {
@@ -135,7 +135,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "3"
+                        "numvotes": "2"
                       }
                     }
                   ]
@@ -154,13 +154,13 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "8"
+                        "numvotes": "9"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "270"
+                        "numvotes": "278"
                       }
                     }
                   ]
@@ -171,7 +171,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "174"
+                "totalvotes": "179"
               },
               "results": [
                 {
@@ -215,7 +215,7 @@
                     {
                       "_attributes": {
                         "value": "10",
-                        "numvotes": "23"
+                        "numvotes": "25"
                       }
                     },
                     {
@@ -227,7 +227,7 @@
                     {
                       "_attributes": {
                         "value": "14",
-                        "numvotes": "61"
+                        "numvotes": "64"
                       }
                     },
                     {
@@ -256,44 +256,44 @@
               "_attributes": {
                 "name": "language_dependence",
                 "title": "Language Dependence",
-                "totalvotes": "193"
+                "totalvotes": "195"
               },
               "results": [
                 {
                   "result": [
                     {
                       "_attributes": {
-                        "level": "46",
+                        "level": "36",
                         "value": "No necessary in-game text",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "47",
+                        "level": "37",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "48",
+                        "level": "38",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "7"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "49",
+                        "level": "39",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "165"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "50",
+                        "level": "40",
                         "value": "Unplayable in another language",
-                        "numvotes": "20"
+                        "numvotes": "22"
                       }
                     }
                   ]
@@ -405,6 +405,13 @@
                 "type": "boardgamemechanic",
                 "id": "2015",
                 "value": "Variable Player Powers"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
+                "id": "61206",
+                "value": "Category: Two players fighting games"
               }
             },
             {
@@ -697,6 +704,13 @@
             {
               "_attributes": {
                 "type": "boardgameexpansion",
+                "id": "366785",
+                "value": "Android: Netrunner – Overdrive Runner Draft Pack"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
                 "id": "212399",
                 "value": "Android: Netrunner – Quorum"
               }
@@ -844,6 +858,27 @@
             {
               "_attributes": {
                 "type": "boardgameexpansion",
+                "id": "359797",
+                "value": "Magnum Opus (fan expansion for Android: Netrunner)"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "367786",
+                "value": "Midnight Sun: Borealis – Part 1 (Fan expansion for Android: Netrunner)"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "378175",
+                "value": "Parhelion: Borealis – Part 2 (fan expansion for Android: Netrunner)"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
                 "id": "345881",
                 "value": "System Update 2021 (fan expansion for Android: Netrunner)"
               }
@@ -979,7 +1014,7 @@
               "_attributes": {
                 "type": "boardgamepublisher",
                 "id": "3475",
-                "value": "Arclight"
+                "value": "Arclight Games"
               }
             },
             {
@@ -1001,6 +1036,13 @@
                 "type": "boardgamepublisher",
                 "id": "4617",
                 "value": "Galakta"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "12540",
+                "value": "Game Harbor"
               }
             },
             {
@@ -1035,21 +1077,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "27640"
+                        "value": "28985"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.87587"
+                        "value": "7.87532"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "7.66804"
+                        "value": "7.66007"
                       }
                     }
                   ],
@@ -1062,8 +1104,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "64",
-                            "bayesaverage": "7.66804"
+                            "value": "68",
+                            "bayesaverage": "7.66007"
                           }
                         },
                         {
@@ -1073,7 +1115,7 @@
                             "name": "cgs",
                             "friendlyname": "Customizable Rank",
                             "value": "3",
-                            "bayesaverage": "7.75196"
+                            "bayesaverage": "7.77212"
                           }
                         }
                       ]
@@ -1082,7 +1124,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.66138"
+                        "value": "1.66417"
                       }
                     }
                   ],
@@ -1096,49 +1138,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "42607"
+                        "value": "44399"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "1414"
+                        "value": "1400"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "565"
+                        "value": "610"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "4789"
+                        "value": "5119"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "5714"
+                        "value": "5998"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "1590"
+                        "value": "1624"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "3.3943"
+                        "value": "3.3996"
                       }
                     }
                   ]

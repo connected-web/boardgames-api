@@ -341,35 +341,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "1",
+                        "level": "6",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "2",
+                        "level": "7",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "3",
+                        "level": "8",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "4",
+                        "level": "9",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "5",
+                        "level": "10",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -411,6 +411,13 @@
             {
               "_attributes": {
                 "type": "boardgamecategory",
+                "id": "1042",
+                "value": "Expansion for Base-game"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamecategory",
                 "id": "1022",
                 "value": "Adventure"
               }
@@ -427,13 +434,6 @@
                 "type": "boardgamecategory",
                 "id": "1044",
                 "value": "Collectible Components"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamecategory",
-                "id": "1042",
-                "value": "Expansion for Base-game"
               }
             },
             {
@@ -558,6 +558,14 @@
             },
             {
               "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "359609",
+                "value": "Arkham Horror: The Card Game (Revised Edition)",
+                "inbound": "true"
+              }
+            },
+            {
+              "_attributes": {
                 "type": "boardgamedesigner",
                 "id": "11655",
                 "value": "Nate French"
@@ -664,6 +672,13 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "17",
+                "value": "Fantasy Flight Games"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "47848",
                 "value": "Asmodee China"
               }
@@ -680,13 +695,6 @@
                 "type": "boardgamepublisher",
                 "id": "2973",
                 "value": "Edge Entertainment"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamepublisher",
-                "id": "17",
-                "value": "Fantasy Flight Games"
               }
             },
             {
@@ -714,21 +722,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "957"
+                        "value": "1095"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "8.24379"
+                        "value": "8.22028"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.43104"
+                        "value": "6.43944"
                       }
                     }
                   ],
@@ -742,7 +750,17 @@
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "6.43104"
+                            "bayesaverage": "6.43944"
+                          }
+                        },
+                        {
+                          "_attributes": {
+                            "type": "family",
+                            "id": "4667",
+                            "name": "cgs",
+                            "friendlyname": "Customizable Rank",
+                            "value": "Not Ranked",
+                            "bayesaverage": "7.62607"
                           }
                         }
                       ]
@@ -751,7 +769,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.20084"
+                        "value": "1.18978"
                       }
                     }
                   ],
@@ -765,35 +783,35 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "7807"
+                        "value": "8769"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "46"
+                        "value": "62"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "110"
+                        "value": "99"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "372"
+                        "value": "384"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "243"
+                        "value": "271"
                       }
                     }
                   ],

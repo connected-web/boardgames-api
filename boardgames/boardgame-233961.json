@@ -87,7 +87,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "34"
+                "totalvotes": "42"
               },
               "results": [
                 {
@@ -110,7 +110,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "23"
+                        "numvotes": "28"
                       }
                     }
                   ]
@@ -123,7 +123,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "32"
+                        "numvotes": "40"
                       }
                     },
                     {
@@ -154,13 +154,13 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "3"
+                        "numvotes": "4"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "20"
+                        "numvotes": "23"
                       }
                     }
                   ]
@@ -171,7 +171,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "15"
+                "totalvotes": "20"
               },
               "results": [
                 {
@@ -203,19 +203,19 @@
                     {
                       "_attributes": {
                         "value": "6",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "8",
-                        "numvotes": "10"
+                        "numvotes": "13"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "10",
-                        "numvotes": "5"
+                        "numvotes": "6"
                       }
                     },
                     {
@@ -256,42 +256,42 @@
               "_attributes": {
                 "name": "language_dependence",
                 "title": "Language Dependence",
-                "totalvotes": "7"
+                "totalvotes": "8"
               },
               "results": [
                 {
                   "result": [
                     {
                       "_attributes": {
-                        "level": "31",
+                        "level": "156",
                         "value": "No necessary in-game text",
-                        "numvotes": "7"
+                        "numvotes": "8"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "32",
+                        "level": "157",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "33",
+                        "level": "158",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "34",
+                        "level": "159",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "35",
+                        "level": "160",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -347,6 +347,13 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
+                "id": "2080",
+                "value": "Area Majority / Influence"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
                 "id": "2012",
                 "value": "Auction/Bidding"
               }
@@ -377,6 +384,13 @@
                 "type": "boardgamefamily",
                 "id": "61979",
                 "value": "Players: Two Player Only Games"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "365695",
+                "value": "Claim: Awakeners"
               }
             },
             {
@@ -473,8 +487,29 @@
             {
               "_attributes": {
                 "type": "boardgameexpansion",
+                "id": "365696",
+                "value": "Claim: Satyrs"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
                 "id": "313128",
                 "value": "Claim: Storage Box"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "365697",
+                "value": "Claim: Tinkerers"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "365699",
+                "value": "Claim: Valkyries"
               }
             },
             {
@@ -489,6 +524,13 @@
                 "type": "boardgamecompilation",
                 "id": "314349",
                 "value": "Claim Pocket"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameimplementation",
+                "id": "370325",
+                "value": "Claim Anniversary Edition"
               }
             },
             {
@@ -607,21 +649,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "3080"
+                        "value": "4049"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.00434"
+                        "value": "6.97378"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.44564"
+                        "value": "6.47645"
                       }
                     }
                   ],
@@ -634,8 +676,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "1168",
-                            "bayesaverage": "6.44564"
+                            "value": "1192",
+                            "bayesaverage": "6.47645"
                           }
                         },
                         {
@@ -644,8 +686,8 @@
                             "id": "5499",
                             "name": "familygames",
                             "friendlyname": "Family Game Rank",
-                            "value": "290",
-                            "bayesaverage": "6.56102"
+                            "value": "324",
+                            "bayesaverage": "6.58059"
                           }
                         }
                       ]
@@ -654,7 +696,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.17764"
+                        "value": "1.18157"
                       }
                     }
                   ],
@@ -668,49 +710,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "7240"
+                        "value": "9308"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "114"
+                        "value": "175"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "94"
+                        "value": "114"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "708"
+                        "value": "870"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "556"
+                        "value": "709"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "68"
+                        "value": "89"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "1.7206"
+                        "value": "1.6742"
                       }
                     }
                   ]

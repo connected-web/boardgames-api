@@ -129,7 +129,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "10"
+                "totalvotes": "11"
               },
               "results": [
                 {
@@ -152,7 +152,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "6"
+                        "numvotes": "7"
                       }
                     }
                   ]
@@ -177,7 +177,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "1"
+                        "numvotes": "2"
                       }
                     }
                   ]
@@ -196,7 +196,7 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "3"
+                        "numvotes": "4"
                       }
                     },
                     {
@@ -215,7 +215,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "7"
+                        "numvotes": "8"
                       }
                     },
                     {
@@ -252,7 +252,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "3"
+                        "numvotes": "4"
                       }
                     }
                   ]
@@ -526,6 +526,13 @@
             {
               "_attributes": {
                 "type": "boardgameartist",
+                "id": "118473",
+                "value": "Taro Hino"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameartist",
                 "id": "69648",
                 "value": "Noboru Hotta"
               }
@@ -535,13 +542,6 @@
                 "type": "boardgameartist",
                 "id": "37676",
                 "value": "Ian Parovel"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgameartist",
-                "id": "118473",
-                "value": "Taro Hino"
               }
             },
             {
@@ -632,21 +632,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "2253"
+                        "value": "2376"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "6.73464"
+                        "value": "6.73104"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.1795"
+                        "value": "6.16385"
                       }
                     }
                   ],
@@ -660,7 +660,7 @@
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "6.1795"
+                            "bayesaverage": "6.16385"
                           }
                         }
                       ]
@@ -669,7 +669,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.37388"
+                        "value": "1.37765"
                       }
                     }
                   ],
@@ -683,49 +683,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "8090"
+                        "value": "8431"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "160"
+                        "value": "174"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "81"
+                        "value": "80"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "339"
+                        "value": "336"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "478"
+                        "value": "510"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "54"
+                        "value": "56"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "1.7778"
+                        "value": "1.7679"
                       }
                     }
                   ]

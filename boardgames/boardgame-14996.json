@@ -99,6 +99,13 @@
               "_attributes": {
                 "type": "alternate",
                 "sortindex": "1",
+                "value": "Ticket to Ride: Європа"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
                 "value": "Ticket to Ride: Европа"
               }
             },
@@ -185,7 +192,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "859"
+                "totalvotes": "958"
               },
               "results": [
                 {
@@ -208,7 +215,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "526"
+                        "numvotes": "592"
                       }
                     }
                   ]
@@ -221,19 +228,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "32"
+                        "numvotes": "35"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "444"
+                        "numvotes": "498"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "251"
+                        "numvotes": "287"
                       }
                     }
                   ]
@@ -246,19 +253,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "202"
+                        "numvotes": "230"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "521"
+                        "numvotes": "582"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "29"
+                        "numvotes": "30"
                       }
                     }
                   ]
@@ -271,19 +278,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "602"
+                        "numvotes": "668"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "174"
+                        "numvotes": "200"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "4"
+                        "numvotes": "6"
                       }
                     }
                   ]
@@ -296,19 +303,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "252"
+                        "numvotes": "272"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "410"
+                        "numvotes": "456"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "41"
+                        "numvotes": "54"
                       }
                     }
                   ]
@@ -327,13 +334,13 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "10"
+                        "numvotes": "12"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "409"
+                        "numvotes": "465"
                       }
                     }
                   ]
@@ -344,7 +351,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "241"
+                "totalvotes": "260"
               },
               "results": [
                 {
@@ -376,19 +383,19 @@
                     {
                       "_attributes": {
                         "value": "6",
-                        "numvotes": "37"
+                        "numvotes": "44"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "8",
-                        "numvotes": "141"
+                        "numvotes": "152"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "10",
-                        "numvotes": "46"
+                        "numvotes": "47"
                       }
                     },
                     {
@@ -429,42 +436,42 @@
               "_attributes": {
                 "name": "language_dependence",
                 "title": "Language Dependence",
-                "totalvotes": "163"
+                "totalvotes": "165"
               },
               "results": [
                 {
                   "result": [
                     {
                       "_attributes": {
-                        "level": "46",
+                        "level": "241",
                         "value": "No necessary in-game text",
-                        "numvotes": "155"
+                        "numvotes": "156"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "47",
+                        "level": "242",
                         "value": "Some necessary text - easily memorized or small crib sheet",
-                        "numvotes": "8"
+                        "numvotes": "9"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "48",
+                        "level": "243",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "49",
+                        "level": "244",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "50",
+                        "level": "245",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -513,13 +520,6 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
-                "id": "2041",
-                "value": "Card Drafting"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamemechanic",
                 "id": "2883",
                 "value": "Connections"
               }
@@ -543,6 +543,13 @@
                 "type": "boardgamemechanic",
                 "id": "2081",
                 "value": "Network and Route Building"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2041",
+                "value": "Open Drafting"
               }
             },
             {
@@ -606,6 +613,13 @@
                 "type": "boardgameexpansion",
                 "id": "130427",
                 "value": "Bretagne (fan expansion for Ticket to Ride)"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "363049",
+                "value": "Bretagne TT Version (Fan expansion for Ticket To Ride)"
               }
             },
             {
@@ -786,6 +800,13 @@
             {
               "_attributes": {
                 "type": "boardgameexpansion",
+                "id": "360563",
+                "value": "Tåg till Rydsgård (fan expansion for Ticket to Ride)"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
                 "id": "130398",
                 "value": "Ticket to Finland (fan expansion for Ticket to Ride)"
               }
@@ -814,6 +835,13 @@
             {
               "_attributes": {
                 "type": "boardgameexpansion",
+                "id": "131188",
+                "value": "Ticket to Ride Map Collection: Volume 3 – The Heart of Africa"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
                 "id": "147938",
                 "value": "Ticket to Ride Map Collection: Volume 4 – Nederland"
               }
@@ -830,6 +858,13 @@
                 "type": "boardgameexpansion",
                 "id": "233891",
                 "value": "Ticket to Ride Map Collection: Volume 6 – France & Old West"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "283595",
+                "value": "Ticket to Ride Map Collection: Volume 6½ – Poland"
               }
             },
             {
@@ -858,6 +893,13 @@
                 "type": "boardgameexpansion",
                 "id": "243684",
                 "value": "Ticket to Ride: Europe – London/København"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "360549",
+                "value": "Ticket To Ride: Italia – Commemorazione Per il Centenario del Milite Ignoto 1921 - 2021"
               }
             },
             {
@@ -935,13 +977,6 @@
                 "type": "boardgameexpansion",
                 "id": "115070",
                 "value": "USSR (fan expansion for Ticket to Ride)"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgameexpansion",
-                "id": "283595",
-                "value": "Wsiąść do Pociągu: Polska"
               }
             },
             {
@@ -1033,7 +1068,7 @@
               "_attributes": {
                 "type": "boardgamepublisher",
                 "id": "14813",
-                "value": "Compaya.hu - Gamer Café Kft."
+                "value": "Compaya.hu: Gamer Café Kft."
               }
             },
             {
@@ -1088,6 +1123,13 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "9634",
+                "value": "KADABRA"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "6214",
                 "value": "Kaissa Chess & Games"
               }
@@ -1111,6 +1153,13 @@
                 "type": "boardgamepublisher",
                 "id": "3218",
                 "value": "Lautapelit.fi"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "46500",
+                "value": "Lord of Boards"
               }
             },
             {
@@ -1159,21 +1208,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "63028"
+                        "value": "69465"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.5437"
+                        "value": "7.53464"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "7.4248"
+                        "value": "7.41359"
                       }
                     }
                   ],
@@ -1186,8 +1235,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "130",
-                            "bayesaverage": "7.4248"
+                            "value": "143",
+                            "bayesaverage": "7.41359"
                           }
                         },
                         {
@@ -1196,8 +1245,8 @@
                             "id": "5499",
                             "name": "familygames",
                             "friendlyname": "Family Game Rank",
-                            "value": "25",
-                            "bayesaverage": "7.43535"
+                            "value": "24",
+                            "bayesaverage": "7.42448"
                           }
                         }
                       ]
@@ -1206,7 +1255,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.1931"
+                        "value": "1.19218"
                       }
                     }
                   ],
@@ -1220,49 +1269,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "91620"
+                        "value": "104618"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "702"
+                        "value": "764"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "695"
+                        "value": "694"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "5922"
+                        "value": "6244"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "9203"
+                        "value": "9904"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "3579"
+                        "value": "3762"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "1.9315"
+                        "value": "1.924"
                       }
                     }
                   ]

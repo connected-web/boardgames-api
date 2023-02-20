@@ -36,6 +36,13 @@
               "_attributes": {
                 "type": "alternate",
                 "sortindex": "1",
+                "value": "Citadela"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
                 "value": "Citadela DeLuxe"
               }
             },
@@ -157,7 +164,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "154"
+                "totalvotes": "192"
               },
               "results": [
                 {
@@ -180,7 +187,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "95"
+                        "numvotes": "116"
                       }
                     }
                   ]
@@ -193,19 +200,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "20"
+                        "numvotes": "23"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "36"
+                        "numvotes": "45"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "64"
+                        "numvotes": "82"
                       }
                     }
                   ]
@@ -218,19 +225,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "18"
+                        "numvotes": "24"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "66"
+                        "numvotes": "78"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "31"
+                        "numvotes": "42"
                       }
                     }
                   ]
@@ -243,19 +250,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "42"
+                        "numvotes": "49"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "73"
+                        "numvotes": "97"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "5"
+                        "numvotes": "6"
                       }
                     }
                   ]
@@ -268,13 +275,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "75"
+                        "numvotes": "92"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "44"
+                        "numvotes": "62"
                       }
                     },
                     {
@@ -293,19 +300,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "44"
+                        "numvotes": "56"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "47"
+                        "numvotes": "62"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "16"
+                        "numvotes": "20"
                       }
                     }
                   ]
@@ -318,19 +325,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "18"
+                        "numvotes": "21"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "46"
+                        "numvotes": "62"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "40"
+                        "numvotes": "50"
                       }
                     }
                   ]
@@ -343,19 +350,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "5"
+                        "numvotes": "6"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "32"
+                        "numvotes": "41"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "61"
+                        "numvotes": "78"
                       }
                     }
                   ]
@@ -374,13 +381,13 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "5"
+                        "numvotes": "6"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "71"
+                        "numvotes": "87"
                       }
                     }
                   ]
@@ -391,7 +398,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "22"
+                "totalvotes": "25"
               },
               "results": [
                 {
@@ -429,13 +436,13 @@
                     {
                       "_attributes": {
                         "value": "8",
-                        "numvotes": "11"
+                        "numvotes": "12"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "10",
-                        "numvotes": "9"
+                        "numvotes": "11"
                       }
                     },
                     {
@@ -574,13 +581,6 @@
             {
               "_attributes": {
                 "type": "boardgamecategory",
-                "id": "1010",
-                "value": "Fantasy"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamecategory",
                 "id": "1035",
                 "value": "Medieval"
               }
@@ -595,13 +595,6 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
-                "id": "2041",
-                "value": "Card Drafting"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamemechanic",
                 "id": "2902",
                 "value": "Income"
               }
@@ -611,6 +604,13 @@
                 "type": "boardgamemechanic",
                 "id": "2836",
                 "value": "Lose a Turn"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2041",
+                "value": "Open Drafting"
               }
             },
             {
@@ -632,6 +632,13 @@
                 "type": "boardgamemechanic",
                 "id": "2015",
                 "value": "Variable Player Powers"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2897",
+                "value": "Variable Set-up"
               }
             },
             {
@@ -850,7 +857,7 @@
               "_attributes": {
                 "type": "boardgamepublisher",
                 "id": "3475",
-                "value": "Arclight"
+                "value": "Arclight Games"
               }
             },
             {
@@ -919,6 +926,13 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "6214",
+                "value": "Kaissa Chess & Games"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "8291",
                 "value": "Korea Boardgames Co., Ltd."
               }
@@ -969,21 +983,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "9198"
+                        "value": "11581"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.30468"
+                        "value": "7.2714"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.95466"
+                        "value": "6.95428"
                       }
                     }
                   ],
@@ -996,8 +1010,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "450",
-                            "bayesaverage": "6.95466"
+                            "value": "470",
+                            "bayesaverage": "6.95428"
                           }
                         },
                         {
@@ -1006,8 +1020,8 @@
                             "id": "5499",
                             "name": "familygames",
                             "friendlyname": "Family Game Rank",
-                            "value": "96",
-                            "bayesaverage": "7.00239"
+                            "value": "110",
+                            "bayesaverage": "6.98851"
                           }
                         }
                       ]
@@ -1016,7 +1030,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.25523"
+                        "value": "1.25754"
                       }
                     }
                   ],
@@ -1030,49 +1044,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "17077"
+                        "value": "21545"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "258"
+                        "value": "317"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "176"
+                        "value": "191"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "2240"
+                        "value": "2595"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "1284"
+                        "value": "1601"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "185"
+                        "value": "233"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2.0054"
+                        "value": "2.0343"
                       }
                     }
                   ]

@@ -66,7 +66,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "71"
+                "totalvotes": "83"
               },
               "results": [
                 {
@@ -77,19 +77,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "7"
+                        "numvotes": "9"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "31"
+                        "numvotes": "35"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "15"
+                        "numvotes": "18"
                       }
                     }
                   ]
@@ -102,19 +102,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "42"
+                        "numvotes": "48"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "19"
+                        "numvotes": "20"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "5"
+                        "numvotes": "7"
                       }
                     }
                   ]
@@ -127,19 +127,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "10"
+                        "numvotes": "12"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "29"
+                        "numvotes": "34"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "12"
+                        "numvotes": "13"
                       }
                     }
                   ]
@@ -152,19 +152,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "13"
+                        "numvotes": "15"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "28"
+                        "numvotes": "30"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "11"
+                        "numvotes": "14"
                       }
                     }
                   ]
@@ -189,7 +189,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "40"
+                        "numvotes": "46"
                       }
                     }
                   ]
@@ -200,7 +200,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "10"
+                "totalvotes": "11"
               },
               "results": [
                 {
@@ -244,7 +244,7 @@
                     {
                       "_attributes": {
                         "value": "10",
-                        "numvotes": "4"
+                        "numvotes": "5"
                       }
                     },
                     {
@@ -383,13 +383,6 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
-                "id": "2041",
-                "value": "Card Drafting"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamemechanic",
                 "id": "2023",
                 "value": "Cooperative Game"
               }
@@ -413,6 +406,13 @@
                 "type": "boardgamemechanic",
                 "id": "2824",
                 "value": "Legacy Game"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2041",
+                "value": "Open Drafting"
               }
             },
             {
@@ -502,6 +502,13 @@
             {
               "_attributes": {
                 "type": "boardgameexpansion",
+                "id": "363456",
+                "value": "Aeon's End: Legacy of Gravehold – Promos"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
                 "id": "271345",
                 "value": "Aeon's End: Legacy Reset Pack"
               }
@@ -515,9 +522,30 @@
             },
             {
               "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "365950",
+                "value": "Aeons End: Evolution"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "365951",
+                "value": "Aeons End: Past and Future Kickstarter Exclusives"
+              }
+            },
+            {
+              "_attributes": {
                 "type": "boardgameintegration",
                 "id": "191189",
                 "value": "Aeon's End"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameintegration",
+                "id": "331212",
+                "value": "Aeon's End: Legacy of Gravehold"
               }
             },
             {
@@ -539,6 +567,13 @@
                 "type": "boardgameintegration",
                 "id": "218417",
                 "value": "Aeon's End: War Eternal"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamedesigner",
+                "id": "126022",
+                "value": "Jenny Iglesias"
               }
             },
             {
@@ -567,6 +602,13 @@
                 "type": "boardgamepublisher",
                 "id": "10290",
                 "value": "Indie Boards & Cards"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "29895",
+                "value": "Frosted Games"
               }
             },
             {
@@ -608,21 +650,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "3461"
+                        "value": "4298"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "8.15697"
+                        "value": "8.07602"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "7.23299"
+                        "value": "7.25256"
                       }
                     }
                   ],
@@ -635,8 +677,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "232",
-                            "bayesaverage": "7.23299"
+                            "value": "234",
+                            "bayesaverage": "7.25256"
                           }
                         },
                         {
@@ -646,7 +688,7 @@
                             "name": "thematic",
                             "friendlyname": "Thematic Rank",
                             "value": "28",
-                            "bayesaverage": "7.55645"
+                            "bayesaverage": "7.55842"
                           }
                         },
                         {
@@ -656,7 +698,7 @@
                             "name": "strategygames",
                             "friendlyname": "Strategy Game Rank",
                             "value": "124",
-                            "bayesaverage": "7.40031"
+                            "bayesaverage": "7.40349"
                           }
                         }
                       ]
@@ -665,7 +707,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.39698"
+                        "value": "1.43633"
                       }
                     }
                   ],
@@ -679,49 +721,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "7129"
+                        "value": "8675"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "63"
+                        "value": "95"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "262"
+                        "value": "257"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "1958"
+                        "value": "2252"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "761"
+                        "value": "886"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "54"
+                        "value": "68"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2.8333"
+                        "value": "2.8382"
                       }
                     }
                   ]

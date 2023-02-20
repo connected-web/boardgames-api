@@ -108,7 +108,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "363"
+                "totalvotes": "436"
               },
               "results": [
                 {
@@ -119,19 +119,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "13"
+                        "numvotes": "16"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "117"
+                        "numvotes": "142"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "104"
+                        "numvotes": "120"
                       }
                     }
                   ]
@@ -144,19 +144,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "164"
+                        "numvotes": "200"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "139"
+                        "numvotes": "164"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "13"
+                        "numvotes": "14"
                       }
                     }
                   ]
@@ -169,19 +169,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "115"
+                        "numvotes": "137"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "170"
+                        "numvotes": "208"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "5"
+                        "numvotes": "6"
                       }
                     }
                   ]
@@ -194,19 +194,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "94"
+                        "numvotes": "112"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "177"
+                        "numvotes": "212"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "25"
+                        "numvotes": "33"
                       }
                     }
                   ]
@@ -219,19 +219,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "5"
+                        "numvotes": "6"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "17"
+                        "numvotes": "20"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "140"
+                        "numvotes": "173"
                       }
                     }
                   ]
@@ -242,7 +242,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "108"
+                "totalvotes": "134"
               },
               "results": [
                 {
@@ -274,25 +274,25 @@
                     {
                       "_attributes": {
                         "value": "6",
-                        "numvotes": "8"
+                        "numvotes": "14"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "8",
-                        "numvotes": "44"
+                        "numvotes": "56"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "10",
-                        "numvotes": "44"
+                        "numvotes": "50"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "12",
-                        "numvotes": "4"
+                        "numvotes": "7"
                       }
                     },
                     {
@@ -316,7 +316,7 @@
                     {
                       "_attributes": {
                         "value": "21 and up",
-                        "numvotes": "1"
+                        "numvotes": "0"
                       }
                     }
                   ]
@@ -327,42 +327,42 @@
               "_attributes": {
                 "name": "language_dependence",
                 "title": "Language Dependence",
-                "totalvotes": "31"
+                "totalvotes": "36"
               },
               "results": [
                 {
                   "result": [
                     {
                       "_attributes": {
-                        "level": "21",
+                        "level": "446",
                         "value": "No necessary in-game text",
                         "numvotes": "3"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "22",
+                        "level": "447",
                         "value": "Some necessary text - easily memorized or small crib sheet",
-                        "numvotes": "26"
+                        "numvotes": "31"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "23",
+                        "level": "448",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "2"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "24",
+                        "level": "449",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "25",
+                        "level": "450",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -432,8 +432,22 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
-                "id": "2984",
-                "value": "Drafting"
+                "id": "2875",
+                "value": "End Game Bonuses"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2978",
+                "value": "Grid Coverage"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2041",
+                "value": "Open Drafting"
               }
             },
             {
@@ -459,16 +473,16 @@
             },
             {
               "_attributes": {
-                "type": "boardgamefamily",
-                "id": "18639",
-                "value": "Cities: Barcelona (Spain)"
+                "type": "boardgamemechanic",
+                "id": "2828",
+                "value": "Turn Order: Progressive"
               }
             },
             {
               "_attributes": {
-                "type": "boardgamefamily",
-                "id": "8374",
-                "value": "Crowdfunding: Kickstarter"
+                "type": "boardgamemechanic",
+                "id": "2897",
+                "value": "Variable Set-up"
               }
             },
             {
@@ -488,6 +502,48 @@
             {
               "_attributes": {
                 "type": "boardgamefamily",
+                "id": "56419",
+                "value": "Theme: Art"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
+                "id": "75454",
+                "value": "Theme: Art style – Art Nouveau"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
+                "id": "18639",
+                "value": "Cities: Barcelona (Spain)"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
+                "id": "8374",
+                "value": "Crowdfunding: Kickstarter"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
+                "id": "77349",
+                "value": "Digital Implementations: Steam"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
+                "id": "78198",
+                "value": "Misc: Watch It Played How To Videos"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
                 "id": "4705",
                 "value": "Organizations: The Game Artisans of Canada"
               }
@@ -497,13 +553,6 @@
                 "type": "boardgamefamily",
                 "id": "5666",
                 "value": "Players: Games with Solitaire Rules"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamefamily",
-                "id": "56419",
-                "value": "Theme: Art"
               }
             },
             {
@@ -523,6 +572,13 @@
             {
               "_attributes": {
                 "type": "boardgameexpansion",
+                "id": "367792",
+                "value": "Sagrada: 2022 Promo Pack"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
                 "id": "244262",
                 "value": "Sagrada: 5-6 Player Expansion"
               }
@@ -530,15 +586,8 @@
             {
               "_attributes": {
                 "type": "boardgameexpansion",
-                "id": "348593",
-                "value": "Sagrada: Game Boy Geek Window Pattern Card"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgameexpansion",
                 "id": "286275",
-                "value": "Sagrada: Horizontal Symmetry"
+                "value": "Sagrada: Horizontal Symmetry promo card"
               }
             },
             {
@@ -559,14 +608,35 @@
               "_attributes": {
                 "type": "boardgameexpansion",
                 "id": "329601",
-                "value": "Sagrada: Promo 11 – FLGS 2020 Window Pattern Card"
+                "value": "Sagrada: Promo 11 – Game Store 2020 Window Pattern Card"
               }
             },
             {
               "_attributes": {
                 "type": "boardgameexpansion",
                 "id": "310565",
-                "value": "Sagrada: Promo 12 – Tantrum House Window Pattern Card"
+                "value": "Sagrada: Promo 12 – Tantrum House 2020 Window Pattern Card"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "367789",
+                "value": "Sagrada: Promo 13 – Galápagos Jogos"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "348593",
+                "value": "Sagrada: Promo 14 – Game Boy Geek 2021 Window Pattern Card"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "367790",
+                "value": "Sagrada: Promo 15 – Geekach Games Window Pattern Card"
               }
             },
             {
@@ -586,8 +656,29 @@
             {
               "_attributes": {
                 "type": "boardgameexpansion",
+                "id": "372408",
+                "value": "Sagrada: Promo 19 – Tantrum House 2022 Window Pattern Card"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
                 "id": "233638",
                 "value": "Sagrada: Promo 2 – Alpenglow/Komorebi Window Pattern Card"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "368441",
+                "value": "Sagrada: Promo 20 – Sagrada x Fog of Love Window Pattern Card"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "376642",
+                "value": "Sagrada: Promo 21 – Game Boy Geek 2022 Window Pattern Card"
               }
             },
             {
@@ -642,8 +733,22 @@
             {
               "_attributes": {
                 "type": "boardgameexpansion",
+                "id": "359142",
+                "value": "Sagrada: The Great Facades – Glory"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
                 "id": "301561",
                 "value": "Sagrada: The Great Facades – Life"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "368442",
+                "value": "Sagrada: The Great Facades – Mini-Tournament Pack"
               }
             },
             {
@@ -740,6 +845,13 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "25203",
+                "value": "Lex Games"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "30521",
                 "value": "Mandoo Games"
               }
@@ -763,6 +875,13 @@
                 "type": "boardgamepublisher",
                 "id": "7992",
                 "value": "MINDOK"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "51614",
+                "value": "MIPL"
               }
             },
             {
@@ -797,21 +916,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "30154"
+                        "value": "35770"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.51545"
+                        "value": "7.49281"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "7.36552"
+                        "value": "7.34843"
                       }
                     }
                   ],
@@ -824,8 +943,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "158",
-                            "bayesaverage": "7.36552"
+                            "value": "175",
+                            "bayesaverage": "7.34843"
                           }
                         },
                         {
@@ -835,7 +954,7 @@
                             "name": "abstracts",
                             "friendlyname": "Abstract Game Rank",
                             "value": "10",
-                            "bayesaverage": "7.31212"
+                            "bayesaverage": "7.31147"
                           }
                         },
                         {
@@ -844,8 +963,8 @@
                             "id": "5499",
                             "name": "familygames",
                             "friendlyname": "Family Game Rank",
-                            "value": "30",
-                            "bayesaverage": "7.38854"
+                            "value": "33",
+                            "bayesaverage": "7.37061"
                           }
                         }
                       ]
@@ -854,7 +973,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.15495"
+                        "value": "1.1562"
                       }
                     }
                   ],
@@ -868,49 +987,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "47182"
+                        "value": "57651"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "443"
+                        "value": "512"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "854"
+                        "value": "849"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "6412"
+                        "value": "7333"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "4269"
+                        "value": "4947"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "620"
+                        "value": "742"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "1.9258"
+                        "value": "1.9178"
                       }
                     }
                   ]

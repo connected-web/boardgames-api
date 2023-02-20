@@ -71,7 +71,7 @@
               "_attributes": {
                 "type": "alternate",
                 "sortindex": "1",
-                "value": "Wsiąść do Pociągu: Indie i Szwajcaria"
+                "value": "Wsiąść do Pociągu: Kolekcja Map 2 – Indie i Szwajcaria"
               }
             },
             {
@@ -115,7 +115,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "67"
+                "totalvotes": "72"
               },
               "results": [
                 {
@@ -138,7 +138,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "45"
+                        "numvotes": "49"
                       }
                     }
                   ]
@@ -151,13 +151,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "25"
+                        "numvotes": "29"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "35"
+                        "numvotes": "36"
                       }
                     },
                     {
@@ -176,13 +176,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "39"
+                        "numvotes": "40"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "12"
+                        "numvotes": "15"
                       }
                     },
                     {
@@ -201,7 +201,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "13"
+                        "numvotes": "14"
                       }
                     },
                     {
@@ -213,7 +213,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "9"
+                        "numvotes": "12"
                       }
                     }
                   ]
@@ -238,7 +238,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "40"
+                        "numvotes": "44"
                       }
                     }
                   ]
@@ -334,42 +334,42 @@
               "_attributes": {
                 "name": "language_dependence",
                 "title": "Language Dependence",
-                "totalvotes": "21"
+                "totalvotes": "23"
               },
               "results": [
                 {
                   "result": [
                     {
                       "_attributes": {
-                        "level": "21",
+                        "level": "436",
                         "value": "No necessary in-game text",
-                        "numvotes": "19"
+                        "numvotes": "21"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "22",
+                        "level": "437",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "2"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "23",
+                        "level": "438",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "24",
+                        "level": "439",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "25",
+                        "level": "440",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -425,13 +425,6 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
-                "id": "2041",
-                "value": "Card Drafting"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamemechanic",
                 "id": "2040",
                 "value": "Hand Management"
               }
@@ -441,6 +434,13 @@
                 "type": "boardgamemechanic",
                 "id": "2081",
                 "value": "Network and Route Building"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2041",
+                "value": "Open Drafting"
               }
             },
             {
@@ -579,21 +579,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "5553"
+                        "value": "5948"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.78183"
+                        "value": "7.77341"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "7.21419"
+                        "value": "7.19527"
                       }
                     }
                   ],
@@ -607,7 +607,7 @@
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "7.21419"
+                            "bayesaverage": "7.19527"
                           }
                         },
                         {
@@ -617,7 +617,7 @@
                             "name": "familygames",
                             "friendlyname": "Family Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "7.36179"
+                            "bayesaverage": "7.33843"
                           }
                         }
                       ]
@@ -626,7 +626,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.04372"
+                        "value": "1.04879"
                       }
                     }
                   ],
@@ -640,49 +640,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "13748"
+                        "value": "15126"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "73"
+                        "value": "90"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "314"
+                        "value": "285"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "1091"
+                        "value": "1098"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "1115"
+                        "value": "1193"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "186"
+                        "value": "191"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "2.0215"
+                        "value": "2.0262"
                       }
                     }
                   ]

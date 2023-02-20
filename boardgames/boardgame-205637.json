@@ -13,14 +13,14 @@
           "thumbnail": [
             {
               "_text": [
-                "https://cf.geekdo-images.com/RdCWCXPnBGSxoOhk5Hkq_g__thumb/img/QyBd2yZWmWOdudkHw0YF1__74ak=/fit-in/200x150/filters:strip_icc()/pic6530423.jpg"
+                "https://cf.geekdo-images.com/B5F5ulz0UivNgrI9Ky0euA__thumb/img/L8ouPl5jv2Ye9MC4R_Os2zSGigE=/fit-in/200x150/filters:strip_icc()/pic3122349.jpg"
               ]
             }
           ],
           "image": [
             {
               "_text": [
-                "https://cf.geekdo-images.com/RdCWCXPnBGSxoOhk5Hkq_g__original/img/ekoKDLjgeUoPw3mpPUPfy-Xnjeo=/0x0/filters:format(jpeg)/pic6530423.jpg"
+                "https://cf.geekdo-images.com/B5F5ulz0UivNgrI9Ky0euA__original/img/guEKCewM_2e5ugltSN3dTSwdZJI=/0x0/filters:format(jpeg)/pic3122349.jpg"
               ]
             }
           ],
@@ -143,7 +143,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "775"
+                "totalvotes": "907"
               },
               "results": [
                 {
@@ -154,19 +154,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "206"
+                        "numvotes": "242"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "414"
+                        "numvotes": "488"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "58"
+                        "numvotes": "69"
                       }
                     }
                   ]
@@ -179,19 +179,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "522"
+                        "numvotes": "630"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "176"
+                        "numvotes": "193"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "8"
+                        "numvotes": "7"
                       }
                     }
                   ]
@@ -204,19 +204,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "109"
+                        "numvotes": "128"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "254"
+                        "numvotes": "307"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "161"
+                        "numvotes": "183"
                       }
                     }
                   ]
@@ -227,7 +227,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "146"
+                "totalvotes": "158"
               },
               "results": [
                 {
@@ -271,25 +271,25 @@
                     {
                       "_attributes": {
                         "value": "10",
-                        "numvotes": "15"
+                        "numvotes": "14"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "12",
-                        "numvotes": "45"
+                        "numvotes": "47"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "14",
-                        "numvotes": "68"
+                        "numvotes": "78"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "16",
-                        "numvotes": "12"
+                        "numvotes": "13"
                       }
                     },
                     {
@@ -312,44 +312,44 @@
               "_attributes": {
                 "name": "language_dependence",
                 "title": "Language Dependence",
-                "totalvotes": "42"
+                "totalvotes": "45"
               },
               "results": [
                 {
                   "result": [
                     {
                       "_attributes": {
-                        "level": "21",
+                        "level": "1",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "22",
+                        "level": "2",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "23",
+                        "level": "3",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "24",
+                        "level": "4",
                         "value": "Extensive use of text - massive conversion needed to be playable",
-                        "numvotes": "33"
+                        "numvotes": "35"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "25",
+                        "level": "5",
                         "value": "Unplayable in another language",
-                        "numvotes": "9"
+                        "numvotes": "10"
                       }
                     }
                   ]
@@ -410,8 +410,8 @@
             {
               "_attributes": {
                 "type": "boardgamecategory",
-                "id": "1010",
-                "value": "Fantasy"
+                "id": "1020",
+                "value": "Exploration"
               }
             },
             {
@@ -466,13 +466,6 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
-                "id": "2664",
-                "value": "Deck, Bag, and Pool Building"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamemechanic",
                 "id": "2850",
                 "value": "Events"
               }
@@ -496,6 +489,13 @@
                 "type": "boardgamemechanic",
                 "id": "2011",
                 "value": "Modular Board"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2661",
+                "value": "Push Your Luck"
               }
             },
             {
@@ -580,6 +580,13 @@
                 "type": "boardgamefamily",
                 "id": "62258",
                 "value": "Versions & Editions: Card Versions of Non-Card Games"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "379286",
+                "value": "Alice in Wonderland (Fan expansion for Arkham Horror Card Game)"
               }
             },
             {
@@ -760,6 +767,13 @@
             {
               "_attributes": {
                 "type": "boardgameexpansion",
+                "id": "372720",
+                "value": "Arkham Horror: The Card Game – Fortune and Folly: Scenario Pack"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
                 "id": "318833",
                 "value": "Arkham Horror: The Card Game – Gloria Goldberg Promo Cards"
               }
@@ -881,6 +895,13 @@
                 "type": "boardgameexpansion",
                 "id": "309374",
                 "value": "Arkham Horror: The Card Game – Read or Die: Challenge Scenario"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "354504",
+                "value": "Arkham Horror: The Card Game – Red Tide Rising: Challenge Scenario"
               }
             },
             {
@@ -1026,8 +1047,22 @@
             {
               "_attributes": {
                 "type": "boardgameexpansion",
+                "id": "377055",
+                "value": "Arkham Horror: The Card Game – The Forgotten Age: Campaign Expansion"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
                 "id": "245815",
                 "value": "Arkham Horror: The Card Game – The Forgotten Age: Expansion"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "377056",
+                "value": "Arkham Horror: The Card Game – The Forgotten Age: Investigator Expansion"
               }
             },
             {
@@ -1075,8 +1110,36 @@
             {
               "_attributes": {
                 "type": "boardgameexpansion",
+                "id": "358212",
+                "value": "Arkham Horror: The Card Game – The Path to Carcosa: Campaign Expansion"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
                 "id": "225563",
                 "value": "Arkham Horror: The Card Game – The Path to Carcosa: Expansion"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "358213",
+                "value": "Arkham Horror: The Card Game – The Path to Carcosa: Investigator Expansion"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "366215",
+                "value": "Arkham Horror: The Card Game – The Scarlet Keys: Campaign Expansion"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "366213",
+                "value": "Arkham Horror: The Card Game – The Scarlet Keys: Investigator Expansion"
               }
             },
             {
@@ -1172,6 +1235,20 @@
             },
             {
               "_attributes": {
+                "type": "boardgameexpansion",
+                "id": "369493",
+                "value": "Dark Matter (fan expansion for Arkham Horror Card Game)"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameimplementation",
+                "id": "359609",
+                "value": "Arkham Horror: The Card Game (Revised Edition)"
+              }
+            },
+            {
+              "_attributes": {
                 "type": "boardgamedesigner",
                 "id": "11655",
                 "value": "Nate French"
@@ -1244,7 +1321,7 @@
               "_attributes": {
                 "type": "boardgamepublisher",
                 "id": "3475",
-                "value": "Arclight"
+                "value": "Arclight Games"
               }
             },
             {
@@ -1335,21 +1412,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "32858"
+                        "value": "38534"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "8.1631"
+                        "value": "8.14465"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "7.92769"
+                        "value": "7.91474"
                       }
                     }
                   ],
@@ -1362,8 +1439,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "24",
-                            "bayesaverage": "7.92769"
+                            "value": "27",
+                            "bayesaverage": "7.91474"
                           }
                         },
                         {
@@ -1373,7 +1450,7 @@
                             "name": "cgs",
                             "friendlyname": "Customizable Rank",
                             "value": "1",
-                            "bayesaverage": "8.01855"
+                            "bayesaverage": "8.08035"
                           }
                         },
                         {
@@ -1382,8 +1459,8 @@
                             "id": "5496",
                             "name": "thematic",
                             "friendlyname": "Thematic Rank",
-                            "value": "12",
-                            "bayesaverage": "7.94288"
+                            "value": "11",
+                            "bayesaverage": "7.93518"
                           }
                         }
                       ]
@@ -1392,7 +1469,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.506"
+                        "value": "1.52706"
                       }
                     }
                   ],
@@ -1406,49 +1483,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "59270"
+                        "value": "68625"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "805"
+                        "value": "937"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "783"
+                        "value": "754"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "8540"
+                        "value": "9534"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "5236"
+                        "value": "6005"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "1057"
+                        "value": "1260"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "3.4759"
+                        "value": "3.5214"
                       }
                     }
                   ]

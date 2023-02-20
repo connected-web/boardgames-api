@@ -201,14 +201,133 @@
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
                 "totalvotes": "0"
-              }
+              },
+              "results": [
+                {
+                  "result": [
+                    {
+                      "_attributes": {
+                        "value": "2",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "3",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "4",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "5",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "6",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "8",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "10",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "12",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "14",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "16",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "18",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "value": "21 and up",
+                        "numvotes": "0"
+                      }
+                    }
+                  ]
+                }
+              ]
             },
             {
               "_attributes": {
                 "name": "language_dependence",
                 "title": "Language Dependence",
                 "totalvotes": "0"
-              }
+              },
+              "results": [
+                {
+                  "result": [
+                    {
+                      "_attributes": {
+                        "level": "21",
+                        "value": "No necessary in-game text",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "22",
+                        "value": "Some necessary text - easily memorized or small crib sheet",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "23",
+                        "value": "Moderate in-game text - needs crib sheet or paste ups",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "24",
+                        "value": "Extensive use of text - massive conversion needed to be playable",
+                        "numvotes": "0"
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "level": "25",
+                        "value": "Unplayable in another language",
+                        "numvotes": "0"
+                      }
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "playingtime": [
@@ -381,21 +500,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "13"
+                        "value": "44"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.84615"
+                        "value": "8.07955"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "0"
+                        "value": "5.55454"
                       }
                     }
                   ],
@@ -409,7 +528,7 @@
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "Not Ranked"
+                            "bayesaverage": "5.55454"
                           }
                         }
                       ]
@@ -418,7 +537,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.02628"
+                        "value": "1.13289"
                       }
                     }
                   ],
@@ -432,35 +551,35 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "155"
+                        "value": "514"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "3"
+                        "value": "8"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "7"
+                        "value": "15"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "23"
+                        "value": "46"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "9"
+                        "value": "17"
                       }
                     }
                   ],

@@ -257,7 +257,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "1"
+                "totalvotes": "2"
               },
               "results": [
                 {
@@ -295,7 +295,7 @@
                     {
                       "_attributes": {
                         "value": "8",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     },
                     {
@@ -349,35 +349,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "51",
+                        "level": "136",
                         "value": "No necessary in-game text",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "52",
+                        "level": "137",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "53",
+                        "level": "138",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "54",
+                        "level": "139",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "55",
+                        "level": "140",
                         "value": "Unplayable in another language",
                         "numvotes": "0"
                       }
@@ -461,6 +461,13 @@
             {
               "_attributes": {
                 "type": "boardgamefamily",
+                "id": "65328",
+                "value": "Components: Dice with Icons"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
                 "id": "6471",
                 "value": "Country: Egypt"
               }
@@ -497,21 +504,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "284"
+                        "value": "313"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "5.88237"
+                        "value": "5.77778"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "5.54948"
+                        "value": "5.53522"
                       }
                     }
                   ],
@@ -524,8 +531,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "10437",
-                            "bayesaverage": "5.54948"
+                            "value": "12962",
+                            "bayesaverage": "5.53522"
                           }
                         }
                       ]
@@ -534,7 +541,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.43972"
+                        "value": "1.4738"
                       }
                     }
                   ],
@@ -548,14 +555,14 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "785"
+                        "value": "850"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "28"
+                        "value": "27"
                       }
                     }
                   ],
@@ -569,28 +576,28 @@
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "87"
+                        "value": "90"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "63"
+                        "value": "70"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "10"
+                        "value": "11"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "1.4"
+                        "value": "1.3636"
                       }
                     }
                   ]

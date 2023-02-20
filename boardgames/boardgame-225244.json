@@ -43,6 +43,13 @@
               "_attributes": {
                 "type": "alternate",
                 "sortindex": "1",
+                "value": "Ticket to Ride: Alemanha"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
                 "value": "Ticket to Ride: Germania"
               }
             },
@@ -51,6 +58,13 @@
                 "type": "alternate",
                 "sortindex": "1",
                 "value": "Wsiąść do Pociągu: Niemcy"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "alternate",
+                "sortindex": "1",
+                "value": "チケット・トゥ・ライド：ドイツ"
               }
             }
           ],
@@ -87,7 +101,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "13"
+                "totalvotes": "18"
               },
               "results": [
                 {
@@ -110,7 +124,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "5"
+                        "numvotes": "10"
                       }
                     }
                   ]
@@ -123,19 +137,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "0"
+                        "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "9"
+                        "numvotes": "11"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "1"
+                        "numvotes": "3"
                       }
                     }
                   ]
@@ -148,13 +162,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "3"
+                        "numvotes": "6"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "5"
+                        "numvotes": "7"
                       }
                     },
                     {
@@ -173,13 +187,13 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "9"
+                        "numvotes": "13"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "1"
+                        "numvotes": "2"
                       }
                     },
                     {
@@ -198,19 +212,19 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "3"
+                        "numvotes": "4"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "5"
+                        "numvotes": "8"
                       }
                     },
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "1"
+                        "numvotes": "2"
                       }
                     }
                   ]
@@ -235,7 +249,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "4"
+                        "numvotes": "9"
                       }
                     }
                   ]
@@ -246,7 +260,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "2"
+                "totalvotes": "3"
               },
               "results": [
                 {
@@ -278,7 +292,7 @@
                     {
                       "_attributes": {
                         "value": "6",
-                        "numvotes": "1"
+                        "numvotes": "2"
                       }
                     },
                     {
@@ -422,13 +436,6 @@
             {
               "_attributes": {
                 "type": "boardgamemechanic",
-                "id": "2041",
-                "value": "Card Drafting"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "boardgamemechanic",
                 "id": "2040",
                 "value": "Hand Management"
               }
@@ -438,6 +445,13 @@
                 "type": "boardgamemechanic",
                 "id": "2081",
                 "value": "Network and Route Building"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamemechanic",
+                "id": "2041",
+                "value": "Open Drafting"
               }
             },
             {
@@ -558,6 +572,20 @@
             {
               "_attributes": {
                 "type": "boardgamepublisher",
+                "id": "15605",
+                "value": "Galápagos Jogos"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
+                "id": "1391",
+                "value": "Hobby Japan"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamepublisher",
                 "id": "7466",
                 "value": "Rebel Sp. z o.o."
               }
@@ -573,21 +601,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "1246"
+                        "value": "1491"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "7.62695"
+                        "value": "7.60979"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "6.35526"
+                        "value": "6.39033"
                       }
                     }
                   ],
@@ -600,8 +628,8 @@
                             "id": "1",
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
-                            "value": "1343",
-                            "bayesaverage": "6.35526"
+                            "value": "1375",
+                            "bayesaverage": "6.39033"
                           }
                         },
                         {
@@ -610,8 +638,8 @@
                             "id": "5499",
                             "name": "familygames",
                             "friendlyname": "Family Game Rank",
-                            "value": "292",
-                            "bayesaverage": "6.55784"
+                            "value": "323",
+                            "bayesaverage": "6.58162"
                           }
                         }
                       ]
@@ -620,7 +648,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.16378"
+                        "value": "1.15559"
                       }
                     }
                   ],
@@ -634,49 +662,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "2748"
+                        "value": "3351"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "15"
+                        "value": "17"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "129"
+                        "value": "138"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "562"
+                        "value": "605"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "227"
+                        "value": "273"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "32"
+                        "value": "34"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "1.7812"
+                        "value": "1.7353"
                       }
                     }
                   ]

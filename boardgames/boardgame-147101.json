@@ -29,13 +29,6 @@
               "_attributes": {
                 "type": "primary",
                 "sortindex": "1",
-                "value": "Viticulture: Tuscany – Expand the World of Viticulture"
-              }
-            },
-            {
-              "_attributes": {
-                "type": "alternate",
-                "sortindex": "1",
                 "value": "Viticulture: Tuscany"
               }
             },
@@ -80,7 +73,7 @@
               "_attributes": {
                 "name": "suggested_numplayers",
                 "title": "User Suggested Number of Players",
-                "totalvotes": "38"
+                "totalvotes": "39"
               },
               "results": [
                 {
@@ -97,7 +90,7 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "14"
+                        "numvotes": "15"
                       }
                     },
                     {
@@ -122,7 +115,7 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "17"
+                        "numvotes": "18"
                       }
                     },
                     {
@@ -147,7 +140,7 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "14"
+                        "numvotes": "15"
                       }
                     },
                     {
@@ -166,7 +159,7 @@
                     {
                       "_attributes": {
                         "value": "Best",
-                        "numvotes": "20"
+                        "numvotes": "21"
                       }
                     },
                     {
@@ -197,7 +190,7 @@
                     {
                       "_attributes": {
                         "value": "Recommended",
-                        "numvotes": "12"
+                        "numvotes": "13"
                       }
                     },
                     {
@@ -228,7 +221,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "10"
+                        "numvotes": "11"
                       }
                     }
                   ]
@@ -253,7 +246,7 @@
                     {
                       "_attributes": {
                         "value": "Not Recommended",
-                        "numvotes": "15"
+                        "numvotes": "16"
                       }
                     }
                   ]
@@ -264,7 +257,7 @@
               "_attributes": {
                 "name": "suggested_playerage",
                 "title": "User Suggested Player Age",
-                "totalvotes": "10"
+                "totalvotes": "11"
               },
               "results": [
                 {
@@ -320,7 +313,7 @@
                     {
                       "_attributes": {
                         "value": "14",
-                        "numvotes": "3"
+                        "numvotes": "4"
                       }
                     },
                     {
@@ -356,35 +349,35 @@
                   "result": [
                     {
                       "_attributes": {
-                        "level": "6",
+                        "level": "11",
                         "value": "No necessary in-game text",
                         "numvotes": "0"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "7",
+                        "level": "12",
                         "value": "Some necessary text - easily memorized or small crib sheet",
                         "numvotes": "1"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "8",
+                        "level": "13",
                         "value": "Moderate in-game text - needs crib sheet or paste ups",
                         "numvotes": "7"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "9",
+                        "level": "14",
                         "value": "Extensive use of text - massive conversion needed to be playable",
                         "numvotes": "2"
                       }
                     },
                     {
                       "_attributes": {
-                        "level": "10",
+                        "level": "15",
                         "value": "Unplayable in another language",
                         "numvotes": "1"
                       }
@@ -482,6 +475,13 @@
             {
               "_attributes": {
                 "type": "boardgamefamily",
+                "id": "72487",
+                "value": "Organizations: Automa Factory"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgamefamily",
                 "id": "66192",
                 "value": "Region: Tuscany (Italy)"
               }
@@ -503,6 +503,13 @@
             {
               "_attributes": {
                 "type": "boardgameexpansion",
+                "id": "130655",
+                "value": "Viticulture: Arboriculture and Formaggio Expansions"
+              }
+            },
+            {
+              "_attributes": {
+                "type": "boardgameexpansion",
                 "id": "128621",
                 "value": "Viticulture",
                 "inbound": "true"
@@ -512,7 +519,7 @@
               "_attributes": {
                 "type": "boardgamecompilation",
                 "id": "130655",
-                "value": "Viticulture: Arboriculture Expansion",
+                "value": "Viticulture: Arboriculture and Formaggio Expansions",
                 "inbound": "true"
               }
             },
@@ -584,7 +591,7 @@
               "_attributes": {
                 "type": "boardgamepublisher",
                 "id": "3475",
-                "value": "Arclight"
+                "value": "Arclight Games"
               }
             },
             {
@@ -619,21 +626,21 @@
                   "usersrated": [
                     {
                       "_attributes": {
-                        "value": "2502"
+                        "value": "2627"
                       }
                     }
                   ],
                   "average": [
                     {
                       "_attributes": {
-                        "value": "8.436"
+                        "value": "8.416"
                       }
                     }
                   ],
                   "bayesaverage": [
                     {
                       "_attributes": {
-                        "value": "7.22704"
+                        "value": "7.17762"
                       }
                     }
                   ],
@@ -647,7 +654,7 @@
                             "name": "boardgame",
                             "friendlyname": "Board Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "7.22704"
+                            "bayesaverage": "7.17762"
                           }
                         },
                         {
@@ -657,7 +664,7 @@
                             "name": "strategygames",
                             "friendlyname": "Strategy Game Rank",
                             "value": "Not Ranked",
-                            "bayesaverage": "7.4622"
+                            "bayesaverage": "7.41441"
                           }
                         }
                       ]
@@ -666,7 +673,7 @@
                   "stddev": [
                     {
                       "_attributes": {
-                        "value": "1.24376"
+                        "value": "1.23992"
                       }
                     }
                   ],
@@ -680,49 +687,49 @@
                   "owned": [
                     {
                       "_attributes": {
-                        "value": "6027"
+                        "value": "6267"
                       }
                     }
                   ],
                   "trading": [
                     {
                       "_attributes": {
-                        "value": "52"
+                        "value": "63"
                       }
                     }
                   ],
                   "wanting": [
                     {
                       "_attributes": {
-                        "value": "111"
+                        "value": "112"
                       }
                     }
                   ],
                   "wishing": [
                     {
                       "_attributes": {
-                        "value": "453"
+                        "value": "474"
                       }
                     }
                   ],
                   "numcomments": [
                     {
                       "_attributes": {
-                        "value": "578"
+                        "value": "601"
                       }
                     }
                   ],
                   "numweights": [
                     {
                       "_attributes": {
-                        "value": "113"
+                        "value": "115"
                       }
                     }
                   ],
                   "averageweight": [
                     {
                       "_attributes": {
-                        "value": "3.3982"
+                        "value": "3.3913"
                       }
                     }
                   ]
