@@ -2,11 +2,11 @@
   "name": "Topiary",
   "gameFamilyId": "topiary",
   "earliestDate": "2018-07-18",
-  "latestDate": "2022-01-29",
+  "latestDate": "2021-12-26",
   "sequenceStartDate": "2018-07-18",
-  "sequenceEndDate": "2022-01-29",
-  "daysInSequence": 1292,
-  "daysWithUnplayedGames": 1266,
+  "sequenceEndDate": "2021-12-26",
+  "daysInSequence": 1258,
+  "daysWithUnplayedGames": 1233,
   "gamesPlayedPerDay": {
     "1": 1,
     "2": 1,
@@ -1265,41 +1265,7 @@
     "1255": 0,
     "1256": 0,
     "1257": 0,
-    "1258": 1,
-    "1259": 0,
-    "1260": 0,
-    "1261": 0,
-    "1262": 0,
-    "1263": 0,
-    "1264": 0,
-    "1265": 0,
-    "1266": 0,
-    "1267": 0,
-    "1268": 0,
-    "1269": 0,
-    "1270": 0,
-    "1271": 0,
-    "1272": 0,
-    "1273": 0,
-    "1274": 0,
-    "1275": 0,
-    "1276": 0,
-    "1277": 0,
-    "1278": 0,
-    "1279": 0,
-    "1280": 0,
-    "1281": 0,
-    "1282": 0,
-    "1283": 0,
-    "1284": 0,
-    "1285": 0,
-    "1286": 0,
-    "1287": 0,
-    "1288": 0,
-    "1289": 0,
-    "1290": 0,
-    "1291": 0,
-    "1292": 1
+    "1258": 1
   },
   "gamesPlayed": [
     {
@@ -1466,17 +1432,10 @@
       "winner": "John",
       "coOp": "No",
       "name": "Topiary"
-    },
-    {
-      "date": "2022-01-29",
-      "winner": "John",
-      "coOp": "no",
-      "noOfPlayers": 4,
-      "name": "Topiary"
     }
   ],
-  "totalGamesPlayed": 26,
-  "averageGamesPlayedPerDay": 0.0201,
+  "totalGamesPlayed": 25,
+  "averageGamesPlayedPerDay": 0.0199,
   "mostGamesPlayedInADay": [
     {
       "date": "2018-07-18",
@@ -1627,23 +1586,17 @@
       "games": [
         "Topiary"
       ]
-    },
-    {
-      "date": "2022-01-29",
-      "games": [
-        "Topiary"
-      ]
     }
   ],
   "uniqueGamesPlayed": [
     "Topiary"
   ],
   "uniqueGamesPlayedCount": 1,
-  "uniqueGamesPlayedPercentage": 0.0385,
+  "uniqueGamesPlayedPercentage": 0.04,
   "mostPlayedGames": [
     {
       "name": "Topiary",
-      "plays": 26
+      "plays": 25
     }
   ],
   "coOpGamesPlayedCount": 0,
@@ -1653,19 +1606,19 @@
   "coOpWinRate": 0,
   "coOpLossRate": 0,
   "winCountHannah": 13,
-  "winCountJohn": 12,
+  "winCountJohn": 11,
   "winCountOther": 1,
   "winCountDraw": 0,
-  "winnableGamesTotal": 26,
-  "winPercentageHannah": 0.5,
-  "winPercentageJohn": 0.4615,
-  "winPercentageOther": 0.0385,
+  "winnableGamesTotal": 25,
+  "winPercentageHannah": 0.52,
+  "winPercentageJohn": 0.44,
+  "winPercentageOther": 0.04,
   "winPercentageDraw": 0,
   "mostWonGames": "Hannah",
   "mostWonGamesJohn": [
     {
       "game": "Topiary",
-      "plays": 12
+      "plays": 11
     }
   ],
   "mostWonGamesHannah": [

@@ -2,11 +2,11 @@
   "name": "Ungrouped",
   "gameFamilyId": "wildcard",
   "earliestDate": "2021-01-31",
-  "latestDate": "2022-03-28",
+  "latestDate": "2021-12-31",
   "sequenceStartDate": "2021-01-31",
-  "sequenceEndDate": "2022-03-28",
-  "daysInSequence": 422,
-  "daysWithUnplayedGames": 389,
+  "sequenceEndDate": "2021-12-31",
+  "daysInSequence": 335,
+  "daysWithUnplayedGames": 308,
   "gamesPlayedPerDay": {
     "1": 1,
     "2": 0,
@@ -342,94 +342,7 @@
     "332": 0,
     "333": 0,
     "334": 0,
-    "335": 1,
-    "336": 1,
-    "337": 0,
-    "338": 0,
-    "339": 0,
-    "340": 0,
-    "341": 0,
-    "342": 0,
-    "343": 0,
-    "344": 0,
-    "345": 0,
-    "346": 0,
-    "347": 0,
-    "348": 0,
-    "349": 0,
-    "350": 0,
-    "351": 0,
-    "352": 0,
-    "353": 0,
-    "354": 0,
-    "355": 0,
-    "356": 0,
-    "357": 0,
-    "358": 1,
-    "359": 0,
-    "360": 0,
-    "361": 0,
-    "362": 0,
-    "363": 0,
-    "364": 0,
-    "365": 0,
-    "366": 0,
-    "367": 0,
-    "368": 0,
-    "369": 0,
-    "370": 0,
-    "371": 0,
-    "372": 0,
-    "373": 0,
-    "374": 0,
-    "375": 0,
-    "376": 0,
-    "377": 0,
-    "378": 0,
-    "379": 0,
-    "380": 0,
-    "381": 0,
-    "382": 0,
-    "383": 0,
-    "384": 0,
-    "385": 0,
-    "386": 0,
-    "387": 0,
-    "388": 0,
-    "389": 0,
-    "390": 0,
-    "391": 1,
-    "392": 0,
-    "393": 0,
-    "394": 0,
-    "395": 0,
-    "396": 0,
-    "397": 0,
-    "398": 0,
-    "399": 0,
-    "400": 0,
-    "401": 0,
-    "402": 0,
-    "403": 0,
-    "404": 0,
-    "405": 0,
-    "406": 0,
-    "407": 0,
-    "408": 0,
-    "409": 0,
-    "410": 0,
-    "411": 0,
-    "412": 0,
-    "413": 1,
-    "414": 0,
-    "415": 0,
-    "416": 0,
-    "417": 0,
-    "418": 1,
-    "419": 0,
-    "420": 0,
-    "421": 0,
-    "422": 1
+    "335": 1
   },
   "gamesPlayed": [
     {
@@ -658,59 +571,10 @@
       "winner": "Other",
       "coOp": "No",
       "name": "Dog Lover"
-    },
-    {
-      "date": "2022-01-01",
-      "winner": "Hannah",
-      "coOp": "no",
-      "notes": "Played with Prelude expansion. Hannah got away with a massive production lead after corporation Earth bonuses and successive card discount developments; culminating in a huge  space toll.",
-      "noOfPlayers": 2,
-      "name": "Terraforming Mars"
-    },
-    {
-      "date": "2022-01-23",
-      "winner": "John",
-      "coOp": "no",
-      "noOfPlayers": 3,
-      "name": "Terraforming Mars"
-    },
-    {
-      "date": "2022-02-25",
-      "winner": "Hannah",
-      "coOp": "no",
-      "noOfPlayers": 2,
-      "name": "Terraforming Mars: Ares Expedition"
-    },
-    {
-      "date": "2022-03-19",
-      "winner": "Hannah",
-      "coOp": "no",
-      "noOfPlayers": 2,
-      "expansions": [
-        "Terraforming Mars: Prelude"
-      ],
-      "name": "Terraforming Mars"
-    },
-    {
-      "date": "2022-03-24",
-      "winner": "Hannah",
-      "coOp": "no",
-      "noOfPlayers": 2,
-      "name": "Happy Little Dinosaurs"
-    },
-    {
-      "date": "2022-03-28",
-      "winner": "Hannah",
-      "coOp": "no",
-      "noOfPlayers": 2,
-      "expansions": [
-        "Terraforming Mars Colonies"
-      ],
-      "name": "Terraforming Mars"
     }
   ],
-  "totalGamesPlayed": 39,
-  "averageGamesPlayedPerDay": 0.0924,
+  "totalGamesPlayed": 33,
+  "averageGamesPlayedPerDay": 0.0985,
   "mostGamesPlayedInADay": [
     {
       "date": "2021-10-16",
@@ -739,39 +603,59 @@
     "Welcome To Your Perfect Home"
   ],
   "uniqueGamesPlayedCount": 15,
-  "uniqueGamesPlayedPercentage": 0.3846,
+  "uniqueGamesPlayedPercentage": 0.4545,
   "mostPlayedGames": [
     {
       "name": "Terraforming Mars",
-      "plays": 11
+      "plays": 7
     }
   ],
   "coOpGamesPlayedCount": 1,
-  "coOpGamesPlayedPercentage": 0.0256,
+  "coOpGamesPlayedPercentage": 0.0303,
   "coOpGameWins": 0,
   "coOpGameLoses": 1,
   "coOpWinRate": 0,
   "coOpLossRate": 1,
-  "winCountHannah": 22,
-  "winCountJohn": 7,
+  "winCountHannah": 17,
+  "winCountJohn": 6,
   "winCountOther": 7,
   "winCountDraw": 2,
-  "winnableGamesTotal": 38,
-  "winPercentageHannah": 0.5789,
-  "winPercentageJohn": 0.1842,
-  "winPercentageOther": 0.1842,
-  "winPercentageDraw": 0.0526,
+  "winnableGamesTotal": 32,
+  "winPercentageHannah": 0.5313,
+  "winPercentageJohn": 0.1875,
+  "winPercentageOther": 0.2188,
+  "winPercentageDraw": 0.0625,
   "mostWonGames": "Hannah",
   "mostWonGamesJohn": [
     {
+      "game": "Misty",
+      "plays": 1
+    },
+    {
+      "game": "Welcome To Your Perfect Home",
+      "plays": 1
+    },
+    {
+      "game": "Patchwork: Christmas Edition",
+      "plays": 1
+    },
+    {
+      "game": "Viticulture: Tuscany Edition",
+      "plays": 1
+    },
+    {
       "game": "Terraforming Mars",
-      "plays": 2
+      "plays": 1
+    },
+    {
+      "game": "Arctic Scavengers",
+      "plays": 1
     }
   ],
   "mostWonGamesHannah": [
     {
       "game": "Terraforming Mars",
-      "plays": 8
+      "plays": 5
     }
   ]
 }

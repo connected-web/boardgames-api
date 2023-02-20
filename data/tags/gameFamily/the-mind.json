@@ -2,11 +2,11 @@
   "name": "The Mind",
   "gameFamilyId": "the-mind",
   "earliestDate": "2018-08-04",
-  "latestDate": "2022-01-15",
+  "latestDate": "2021-12-31",
   "sequenceStartDate": "2018-08-04",
-  "sequenceEndDate": "2022-01-15",
-  "daysInSequence": 1261,
-  "daysWithUnplayedGames": 1250,
+  "sequenceEndDate": "2021-12-31",
+  "daysInSequence": 1246,
+  "daysWithUnplayedGames": 1237,
   "gamesPlayedPerDay": {
     "1": 1,
     "2": 0,
@@ -1253,22 +1253,7 @@
     "1243": 0,
     "1244": 0,
     "1245": 0,
-    "1246": 1,
-    "1247": 1,
-    "1248": 0,
-    "1249": 0,
-    "1250": 0,
-    "1251": 0,
-    "1252": 0,
-    "1253": 0,
-    "1254": 0,
-    "1255": 0,
-    "1256": 0,
-    "1257": 0,
-    "1258": 0,
-    "1259": 0,
-    "1260": 0,
-    "1261": 2
+    "1246": 1
   },
   "gamesPlayed": [
     {
@@ -1346,32 +1331,10 @@
       "coOpOutcome": "Loss",
       "coOp": "Yes",
       "name": "The Mind Extreme"
-    },
-    {
-      "date": "2022-01-01",
-      "coOpOutcome": "win",
-      "coOp": "yes",
-      "notes": "First game of the year! Played with Alan and Sophie. Made it to level 8!",
-      "noOfPlayers": 4,
-      "name": "The Mind"
-    },
-    {
-      "date": "2022-01-15",
-      "coOpOutcome": "loss",
-      "coOp": "yes",
-      "noOfPlayers": 2,
-      "name": "The Mind"
-    },
-    {
-      "date": "2022-01-15",
-      "coOpOutcome": "win",
-      "coOp": "yes",
-      "noOfPlayers": 2,
-      "name": "The Mind"
     }
   ],
-  "totalGamesPlayed": 14,
-  "averageGamesPlayedPerDay": 0.0111,
+  "totalGamesPlayed": 11,
+  "averageGamesPlayedPerDay": 0.0088,
   "mostGamesPlayedInADay": [
     {
       "date": "2018-09-02",
@@ -1387,19 +1350,19 @@
     "The Mind Extreme"
   ],
   "uniqueGamesPlayedCount": 2,
-  "uniqueGamesPlayedPercentage": 0.1429,
+  "uniqueGamesPlayedPercentage": 0.1818,
   "mostPlayedGames": [
     {
       "name": "The Mind",
-      "plays": 11
+      "plays": 8
     }
   ],
-  "coOpGamesPlayedCount": 14,
+  "coOpGamesPlayedCount": 11,
   "coOpGamesPlayedPercentage": 1,
-  "coOpGameWins": 3,
-  "coOpGameLoses": 11,
-  "coOpWinRate": 0.2143,
-  "coOpLossRate": 0.7857,
+  "coOpGameWins": 1,
+  "coOpGameLoses": 10,
+  "coOpWinRate": 0.0909,
+  "coOpLossRate": 0.9091,
   "winCountHannah": 0,
   "winCountJohn": 0,
   "winCountOther": 0,
