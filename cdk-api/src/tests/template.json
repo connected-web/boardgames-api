@@ -1,25 +1,25 @@
 {
   "Resources": {
-    "NetaceaTemplateAppAPINetaceaApiKeyAuthorizer3042375B": {
+    "OpenAPITemplateAppAPIOpenAPIApiKeyAuthorizer909F8F05": {
       "Type": "AWS::ApiGateway::Authorizer",
       "Properties": {
-        "Name": "MyTestStackNetaceaTemplateAppAPINetaceaApiKeyAuthorizer8E80E1F4",
+        "Name": "MyTestStackOpenAPITemplateAppAPIOpenAPIApiKeyAuthorizerDE6C1962",
         "RestApiId": {
-          "Ref": "NetaceaTemplateAppAPI9DC50D60"
+          "Ref": "OpenAPITemplateAppAPI99E20BF3"
         },
         "Type": "REQUEST",
         "AuthorizerUri": "arn:aws:apigateway:eu-west-1:lambda:path/2015-03-31/functions/arn:aws:lambda:eu-west-1:123456123456:function:dummy-authorizer-arn/invocations",
         "IdentitySource": "method.request.header.Authorization"
       }
     },
-    "NetaceaTemplateAppAPI9DC50D60": {
+    "OpenAPITemplateAppAPI99E20BF3": {
       "Type": "AWS::ApiGateway::RestApi",
       "Properties": {
-        "Description": "Netacea Template App API - part of the Netacea Apps Platform",
-        "Name": "Netacea Template App API"
+        "Description": "OpenAPI Template App API - part of the OpenAPI Apps Platform",
+        "Name": "OpenAPI Template App API"
       }
     },
-    "NetaceaTemplateAppAPICloudWatchRole7952827D": {
+    "OpenAPITemplateAppAPICloudWatchRoleFE1A1654": {
       "Type": "AWS::IAM::Role",
       "Properties": {
         "AssumeRolePolicyDocument": {
@@ -52,75 +52,75 @@
       "UpdateReplacePolicy": "Retain",
       "DeletionPolicy": "Retain"
     },
-    "NetaceaTemplateAppAPIAccountAA2FFBCF": {
+    "OpenAPITemplateAppAPIAccount38A4376E": {
       "Type": "AWS::ApiGateway::Account",
       "Properties": {
         "CloudWatchRoleArn": {
           "Fn::GetAtt": [
-            "NetaceaTemplateAppAPICloudWatchRole7952827D",
+            "OpenAPITemplateAppAPICloudWatchRoleFE1A1654",
             "Arn"
           ]
         }
       },
       "DependsOn": [
-        "NetaceaTemplateAppAPI9DC50D60"
+        "OpenAPITemplateAppAPI99E20BF3"
       ],
       "UpdateReplacePolicy": "Retain",
       "DeletionPolicy": "Retain"
     },
-    "NetaceaTemplateAppAPIDeployment1EAF4014a13da848f574c8c07f57e16236bdaf5e": {
+    "OpenAPITemplateAppAPIDeployment2B7EF351e848d1a251f8d4ea726b626bbcce4669": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
-          "Ref": "NetaceaTemplateAppAPI9DC50D60"
+          "Ref": "OpenAPITemplateAppAPI99E20BF3"
         },
-        "Description": "Netacea Template App API - part of the Netacea Apps Platform"
+        "Description": "OpenAPI Template App API - part of the OpenAPI Apps Platform"
       },
       "DependsOn": [
         "appVersionF1A566C2",
-        "NetaceaTemplateAppAPIhellonameGET5413B348",
-        "NetaceaTemplateAppAPIhellonameOPTIONS49AEA8D7",
-        "NetaceaTemplateAppAPIhelloname8D0D445C",
-        "NetaceaTemplateAppAPIhelloOPTIONS2777F098",
-        "NetaceaTemplateAppAPIhello4574AE31",
-        "NetaceaTemplateAppAPIopenapiGET03CE1A7F",
-        "NetaceaTemplateAppAPIopenapiOPTIONSBD93FE9A",
-        "NetaceaTemplateAppAPIopenapiD35FCD20",
-        "NetaceaTemplateAppAPIOPTIONSD3847E9A",
-        "NetaceaTemplateAppAPIstatusGETF5FFA22F",
-        "NetaceaTemplateAppAPIstatusOPTIONS4D182C4E",
-        "NetaceaTemplateAppAPIstatus813DBEB1",
+        "OpenAPITemplateAppAPIhellonameGET30167954",
+        "OpenAPITemplateAppAPIhellonameOPTIONSE143B9AD",
+        "OpenAPITemplateAppAPIhelloname99F4B4C4",
+        "OpenAPITemplateAppAPIhelloOPTIONS7D624DAE",
+        "OpenAPITemplateAppAPIhello3EC332EB",
+        "OpenAPITemplateAppAPIopenapiGETE6ED4296",
+        "OpenAPITemplateAppAPIopenapiOPTIONS026E2DFD",
+        "OpenAPITemplateAppAPIopenapiDE133EED",
+        "OpenAPITemplateAppAPIOPTIONS30C7B6D2",
+        "OpenAPITemplateAppAPIstatusGETD396A56B",
+        "OpenAPITemplateAppAPIstatusOPTIONS90D9AF2D",
+        "OpenAPITemplateAppAPIstatus5A027D09",
         "stubArray94D44F4F",
         "stubObjectA71F7001"
       ]
     },
-    "NetaceaTemplateAppAPIDeploymentStagev1F67E1759": {
+    "OpenAPITemplateAppAPIDeploymentStagev1819CF49D": {
       "Type": "AWS::ApiGateway::Stage",
       "Properties": {
         "RestApiId": {
-          "Ref": "NetaceaTemplateAppAPI9DC50D60"
+          "Ref": "OpenAPITemplateAppAPI99E20BF3"
         },
         "DeploymentId": {
-          "Ref": "NetaceaTemplateAppAPIDeployment1EAF4014a13da848f574c8c07f57e16236bdaf5e"
+          "Ref": "OpenAPITemplateAppAPIDeployment2B7EF351e848d1a251f8d4ea726b626bbcce4669"
         },
         "StageName": "v1"
       },
       "DependsOn": [
-        "NetaceaTemplateAppAPIAccountAA2FFBCF"
+        "OpenAPITemplateAppAPIAccount38A4376E"
       ]
     },
-    "NetaceaTemplateAppAPIOPTIONSD3847E9A": {
+    "OpenAPITemplateAppAPIOPTIONS30C7B6D2": {
       "Type": "AWS::ApiGateway::Method",
       "Properties": {
         "HttpMethod": "OPTIONS",
         "ResourceId": {
           "Fn::GetAtt": [
-            "NetaceaTemplateAppAPI9DC50D60",
+            "OpenAPITemplateAppAPI99E20BF3",
             "RootResourceId"
           ]
         },
         "RestApiId": {
-          "Ref": "NetaceaTemplateAppAPI9DC50D60"
+          "Ref": "OpenAPITemplateAppAPI99E20BF3"
         },
         "AuthorizationType": "NONE",
         "Integration": {
@@ -153,30 +153,30 @@
         ]
       }
     },
-    "NetaceaTemplateAppAPIstatus813DBEB1": {
+    "OpenAPITemplateAppAPIstatus5A027D09": {
       "Type": "AWS::ApiGateway::Resource",
       "Properties": {
         "ParentId": {
           "Fn::GetAtt": [
-            "NetaceaTemplateAppAPI9DC50D60",
+            "OpenAPITemplateAppAPI99E20BF3",
             "RootResourceId"
           ]
         },
         "PathPart": "status",
         "RestApiId": {
-          "Ref": "NetaceaTemplateAppAPI9DC50D60"
+          "Ref": "OpenAPITemplateAppAPI99E20BF3"
         }
       }
     },
-    "NetaceaTemplateAppAPIstatusOPTIONS4D182C4E": {
+    "OpenAPITemplateAppAPIstatusOPTIONS90D9AF2D": {
       "Type": "AWS::ApiGateway::Method",
       "Properties": {
         "HttpMethod": "OPTIONS",
         "ResourceId": {
-          "Ref": "NetaceaTemplateAppAPIstatus813DBEB1"
+          "Ref": "OpenAPITemplateAppAPIstatus5A027D09"
         },
         "RestApiId": {
-          "Ref": "NetaceaTemplateAppAPI9DC50D60"
+          "Ref": "OpenAPITemplateAppAPI99E20BF3"
         },
         "AuthorizationType": "NONE",
         "Integration": {
@@ -209,7 +209,7 @@
         ]
       }
     },
-    "NetaceaTemplateAppAPIstatusGETApiPermissionMyTestStackNetaceaTemplateAppAPI9F15B34FGETstatusE4D4F712": {
+    "OpenAPITemplateAppAPIstatusGETApiPermissionMyTestStackOpenAPITemplateAppAPI61C18995GETstatusC9936ECF": {
       "Type": "AWS::Lambda::Permission",
       "Properties": {
         "Action": "lambda:InvokeFunction",
@@ -230,11 +230,11 @@
               },
               ":execute-api:eu-west-2:1234567890:",
               {
-                "Ref": "NetaceaTemplateAppAPI9DC50D60"
+                "Ref": "OpenAPITemplateAppAPI99E20BF3"
               },
               "/",
               {
-                "Ref": "NetaceaTemplateAppAPIDeploymentStagev1F67E1759"
+                "Ref": "OpenAPITemplateAppAPIDeploymentStagev1819CF49D"
               },
               "/GET/status"
             ]
@@ -242,7 +242,7 @@
         }
       }
     },
-    "NetaceaTemplateAppAPIstatusGETApiPermissionTestMyTestStackNetaceaTemplateAppAPI9F15B34FGETstatus7FB6ADA6": {
+    "OpenAPITemplateAppAPIstatusGETApiPermissionTestMyTestStackOpenAPITemplateAppAPI61C18995GETstatusF0E33276": {
       "Type": "AWS::Lambda::Permission",
       "Properties": {
         "Action": "lambda:InvokeFunction",
@@ -263,7 +263,7 @@
               },
               ":execute-api:eu-west-2:1234567890:",
               {
-                "Ref": "NetaceaTemplateAppAPI9DC50D60"
+                "Ref": "OpenAPITemplateAppAPI99E20BF3"
               },
               "/test-invoke-stage/GET/status"
             ]
@@ -271,24 +271,24 @@
         }
       }
     },
-    "NetaceaTemplateAppAPIstatusGETF5FFA22F": {
+    "OpenAPITemplateAppAPIstatusGETD396A56B": {
       "Type": "AWS::ApiGateway::Method",
       "Properties": {
         "HttpMethod": "GET",
         "ResourceId": {
-          "Ref": "NetaceaTemplateAppAPIstatus813DBEB1"
+          "Ref": "OpenAPITemplateAppAPIstatus5A027D09"
         },
         "RestApiId": {
-          "Ref": "NetaceaTemplateAppAPI9DC50D60"
+          "Ref": "OpenAPITemplateAppAPI99E20BF3"
         },
         "AuthorizationType": "CUSTOM",
         "AuthorizerId": {
-          "Ref": "NetaceaTemplateAppAPINetaceaApiKeyAuthorizer3042375B"
+          "Ref": "OpenAPITemplateAppAPIOpenAPIApiKeyAuthorizer909F8F05"
         },
         "Integration": {
           "Credentials": {
             "Fn::GetAtt": [
-              "NetaceaTemplateAppAPIApiExecutionRole3560B363",
+              "OpenAPITemplateAppAPIApiExecutionRole718075F5",
               "Arn"
             ]
           },
@@ -332,30 +332,30 @@
         "OperationName": "getStatus"
       }
     },
-    "NetaceaTemplateAppAPIopenapiD35FCD20": {
+    "OpenAPITemplateAppAPIopenapiDE133EED": {
       "Type": "AWS::ApiGateway::Resource",
       "Properties": {
         "ParentId": {
           "Fn::GetAtt": [
-            "NetaceaTemplateAppAPI9DC50D60",
+            "OpenAPITemplateAppAPI99E20BF3",
             "RootResourceId"
           ]
         },
         "PathPart": "openapi",
         "RestApiId": {
-          "Ref": "NetaceaTemplateAppAPI9DC50D60"
+          "Ref": "OpenAPITemplateAppAPI99E20BF3"
         }
       }
     },
-    "NetaceaTemplateAppAPIopenapiOPTIONSBD93FE9A": {
+    "OpenAPITemplateAppAPIopenapiOPTIONS026E2DFD": {
       "Type": "AWS::ApiGateway::Method",
       "Properties": {
         "HttpMethod": "OPTIONS",
         "ResourceId": {
-          "Ref": "NetaceaTemplateAppAPIopenapiD35FCD20"
+          "Ref": "OpenAPITemplateAppAPIopenapiDE133EED"
         },
         "RestApiId": {
-          "Ref": "NetaceaTemplateAppAPI9DC50D60"
+          "Ref": "OpenAPITemplateAppAPI99E20BF3"
         },
         "AuthorizationType": "NONE",
         "Integration": {
@@ -388,7 +388,7 @@
         ]
       }
     },
-    "NetaceaTemplateAppAPIopenapiGETApiPermissionMyTestStackNetaceaTemplateAppAPI9F15B34FGETopenapiB9E613ED": {
+    "OpenAPITemplateAppAPIopenapiGETApiPermissionMyTestStackOpenAPITemplateAppAPI61C18995GETopenapi78AA3052": {
       "Type": "AWS::Lambda::Permission",
       "Properties": {
         "Action": "lambda:InvokeFunction",
@@ -409,11 +409,11 @@
               },
               ":execute-api:eu-west-2:1234567890:",
               {
-                "Ref": "NetaceaTemplateAppAPI9DC50D60"
+                "Ref": "OpenAPITemplateAppAPI99E20BF3"
               },
               "/",
               {
-                "Ref": "NetaceaTemplateAppAPIDeploymentStagev1F67E1759"
+                "Ref": "OpenAPITemplateAppAPIDeploymentStagev1819CF49D"
               },
               "/GET/openapi"
             ]
@@ -421,7 +421,7 @@
         }
       }
     },
-    "NetaceaTemplateAppAPIopenapiGETApiPermissionTestMyTestStackNetaceaTemplateAppAPI9F15B34FGETopenapi76A78DD9": {
+    "OpenAPITemplateAppAPIopenapiGETApiPermissionTestMyTestStackOpenAPITemplateAppAPI61C18995GETopenapiA25F6F6F": {
       "Type": "AWS::Lambda::Permission",
       "Properties": {
         "Action": "lambda:InvokeFunction",
@@ -442,7 +442,7 @@
               },
               ":execute-api:eu-west-2:1234567890:",
               {
-                "Ref": "NetaceaTemplateAppAPI9DC50D60"
+                "Ref": "OpenAPITemplateAppAPI99E20BF3"
               },
               "/test-invoke-stage/GET/openapi"
             ]
@@ -450,24 +450,24 @@
         }
       }
     },
-    "NetaceaTemplateAppAPIopenapiGET03CE1A7F": {
+    "OpenAPITemplateAppAPIopenapiGETE6ED4296": {
       "Type": "AWS::ApiGateway::Method",
       "Properties": {
         "HttpMethod": "GET",
         "ResourceId": {
-          "Ref": "NetaceaTemplateAppAPIopenapiD35FCD20"
+          "Ref": "OpenAPITemplateAppAPIopenapiDE133EED"
         },
         "RestApiId": {
-          "Ref": "NetaceaTemplateAppAPI9DC50D60"
+          "Ref": "OpenAPITemplateAppAPI99E20BF3"
         },
         "AuthorizationType": "CUSTOM",
         "AuthorizerId": {
-          "Ref": "NetaceaTemplateAppAPINetaceaApiKeyAuthorizer3042375B"
+          "Ref": "OpenAPITemplateAppAPIOpenAPIApiKeyAuthorizer909F8F05"
         },
         "Integration": {
           "Credentials": {
             "Fn::GetAtt": [
-              "NetaceaTemplateAppAPIApiExecutionRole3560B363",
+              "OpenAPITemplateAppAPIApiExecutionRole718075F5",
               "Arn"
             ]
           },
@@ -511,30 +511,30 @@
         "OperationName": "getOpenAPISpec"
       }
     },
-    "NetaceaTemplateAppAPIhello4574AE31": {
+    "OpenAPITemplateAppAPIhello3EC332EB": {
       "Type": "AWS::ApiGateway::Resource",
       "Properties": {
         "ParentId": {
           "Fn::GetAtt": [
-            "NetaceaTemplateAppAPI9DC50D60",
+            "OpenAPITemplateAppAPI99E20BF3",
             "RootResourceId"
           ]
         },
         "PathPart": "hello",
         "RestApiId": {
-          "Ref": "NetaceaTemplateAppAPI9DC50D60"
+          "Ref": "OpenAPITemplateAppAPI99E20BF3"
         }
       }
     },
-    "NetaceaTemplateAppAPIhelloOPTIONS2777F098": {
+    "OpenAPITemplateAppAPIhelloOPTIONS7D624DAE": {
       "Type": "AWS::ApiGateway::Method",
       "Properties": {
         "HttpMethod": "OPTIONS",
         "ResourceId": {
-          "Ref": "NetaceaTemplateAppAPIhello4574AE31"
+          "Ref": "OpenAPITemplateAppAPIhello3EC332EB"
         },
         "RestApiId": {
-          "Ref": "NetaceaTemplateAppAPI9DC50D60"
+          "Ref": "OpenAPITemplateAppAPI99E20BF3"
         },
         "AuthorizationType": "NONE",
         "Integration": {
@@ -567,27 +567,27 @@
         ]
       }
     },
-    "NetaceaTemplateAppAPIhelloname8D0D445C": {
+    "OpenAPITemplateAppAPIhelloname99F4B4C4": {
       "Type": "AWS::ApiGateway::Resource",
       "Properties": {
         "ParentId": {
-          "Ref": "NetaceaTemplateAppAPIhello4574AE31"
+          "Ref": "OpenAPITemplateAppAPIhello3EC332EB"
         },
         "PathPart": "{name}",
         "RestApiId": {
-          "Ref": "NetaceaTemplateAppAPI9DC50D60"
+          "Ref": "OpenAPITemplateAppAPI99E20BF3"
         }
       }
     },
-    "NetaceaTemplateAppAPIhellonameOPTIONS49AEA8D7": {
+    "OpenAPITemplateAppAPIhellonameOPTIONSE143B9AD": {
       "Type": "AWS::ApiGateway::Method",
       "Properties": {
         "HttpMethod": "OPTIONS",
         "ResourceId": {
-          "Ref": "NetaceaTemplateAppAPIhelloname8D0D445C"
+          "Ref": "OpenAPITemplateAppAPIhelloname99F4B4C4"
         },
         "RestApiId": {
-          "Ref": "NetaceaTemplateAppAPI9DC50D60"
+          "Ref": "OpenAPITemplateAppAPI99E20BF3"
         },
         "AuthorizationType": "NONE",
         "Integration": {
@@ -620,7 +620,7 @@
         ]
       }
     },
-    "NetaceaTemplateAppAPIhellonameGETApiPermissionMyTestStackNetaceaTemplateAppAPI9F15B34FGEThelloname3E0D9708": {
+    "OpenAPITemplateAppAPIhellonameGETApiPermissionMyTestStackOpenAPITemplateAppAPI61C18995GEThelloname78AF3935": {
       "Type": "AWS::Lambda::Permission",
       "Properties": {
         "Action": "lambda:InvokeFunction",
@@ -641,11 +641,11 @@
               },
               ":execute-api:eu-west-2:1234567890:",
               {
-                "Ref": "NetaceaTemplateAppAPI9DC50D60"
+                "Ref": "OpenAPITemplateAppAPI99E20BF3"
               },
               "/",
               {
-                "Ref": "NetaceaTemplateAppAPIDeploymentStagev1F67E1759"
+                "Ref": "OpenAPITemplateAppAPIDeploymentStagev1819CF49D"
               },
               "/GET/hello/*"
             ]
@@ -653,7 +653,7 @@
         }
       }
     },
-    "NetaceaTemplateAppAPIhellonameGETApiPermissionTestMyTestStackNetaceaTemplateAppAPI9F15B34FGEThelloname54AD7BD9": {
+    "OpenAPITemplateAppAPIhellonameGETApiPermissionTestMyTestStackOpenAPITemplateAppAPI61C18995GEThelloname00166166": {
       "Type": "AWS::Lambda::Permission",
       "Properties": {
         "Action": "lambda:InvokeFunction",
@@ -674,7 +674,7 @@
               },
               ":execute-api:eu-west-2:1234567890:",
               {
-                "Ref": "NetaceaTemplateAppAPI9DC50D60"
+                "Ref": "OpenAPITemplateAppAPI99E20BF3"
               },
               "/test-invoke-stage/GET/hello/*"
             ]
@@ -682,24 +682,24 @@
         }
       }
     },
-    "NetaceaTemplateAppAPIhellonameGET5413B348": {
+    "OpenAPITemplateAppAPIhellonameGET30167954": {
       "Type": "AWS::ApiGateway::Method",
       "Properties": {
         "HttpMethod": "GET",
         "ResourceId": {
-          "Ref": "NetaceaTemplateAppAPIhelloname8D0D445C"
+          "Ref": "OpenAPITemplateAppAPIhelloname99F4B4C4"
         },
         "RestApiId": {
-          "Ref": "NetaceaTemplateAppAPI9DC50D60"
+          "Ref": "OpenAPITemplateAppAPI99E20BF3"
         },
         "AuthorizationType": "CUSTOM",
         "AuthorizerId": {
-          "Ref": "NetaceaTemplateAppAPINetaceaApiKeyAuthorizer3042375B"
+          "Ref": "OpenAPITemplateAppAPIOpenAPIApiKeyAuthorizer909F8F05"
         },
         "Integration": {
           "Credentials": {
             "Fn::GetAtt": [
-              "NetaceaTemplateAppAPIApiExecutionRole3560B363",
+              "OpenAPITemplateAppAPIApiExecutionRole718075F5",
               "Arn"
             ]
           },
@@ -743,7 +743,7 @@
         "OperationName": "helloWorld"
       }
     },
-    "NetaceaTemplateAppAPIApiExecutionRole3560B363": {
+    "OpenAPITemplateAppAPIApiExecutionRole718075F5": {
       "Type": "AWS::IAM::Role",
       "Properties": {
         "AssumeRolePolicyDocument": {
@@ -760,7 +760,7 @@
         }
       }
     },
-    "NetaceaTemplateAppAPIApiExecutionRoleDefaultPolicy8483466A": {
+    "OpenAPITemplateAppAPIApiExecutionRoleDefaultPolicy93F913EF": {
       "Type": "AWS::IAM::Policy",
       "Properties": {
         "PolicyDocument": {
@@ -798,10 +798,10 @@
           ],
           "Version": "2012-10-17"
         },
-        "PolicyName": "NetaceaTemplateAppAPIApiExecutionRoleDefaultPolicy8483466A",
+        "PolicyName": "OpenAPITemplateAppAPIApiExecutionRoleDefaultPolicy93F913EF",
         "Roles": [
           {
-            "Ref": "NetaceaTemplateAppAPIApiExecutionRole3560B363"
+            "Ref": "OpenAPITemplateAppAPIApiExecutionRole718075F5"
           }
         ]
       }
@@ -810,7 +810,7 @@
       "Type": "AWS::ApiGateway::Model",
       "Properties": {
         "RestApiId": {
-          "Ref": "NetaceaTemplateAppAPI9DC50D60"
+          "Ref": "OpenAPITemplateAppAPI99E20BF3"
         },
         "ContentType": "application/json",
         "Name": "StubObjectModel",
@@ -831,7 +831,7 @@
       "Type": "AWS::ApiGateway::Model",
       "Properties": {
         "RestApiId": {
-          "Ref": "NetaceaTemplateAppAPI9DC50D60"
+          "Ref": "OpenAPITemplateAppAPI99E20BF3"
         },
         "ContentType": "application/json",
         "Name": "StubArrayModel",
@@ -855,7 +855,7 @@
       "Type": "AWS::ApiGateway::Model",
       "Properties": {
         "RestApiId": {
-          "Ref": "NetaceaTemplateAppAPI9DC50D60"
+          "Ref": "OpenAPITemplateAppAPI99E20BF3"
         },
         "ContentType": "application/json",
         "Name": "AppMessageModel",
@@ -921,7 +921,7 @@
         },
         "Environment": {
           "Variables": {
-            "STATUS_INFO": "{\"deploymentTime\":\"2023-07-15T16:58:20.676Z\"}",
+            "STATUS_INFO": "{\"deploymentTime\":\"2023-07-15T21:28:37.963Z\"}",
             "AWS_NODEJS_CONNECTION_REUSE_ENABLED": "1"
           }
         },
@@ -1076,14 +1076,14 @@
     }
   },
   "Outputs": {
-    "NetaceaTemplateAppAPIEndpoint7057DFC1": {
+    "OpenAPITemplateAppAPIEndpointB4ABAC36": {
       "Value": {
         "Fn::Join": [
           "",
           [
             "https://",
             {
-              "Ref": "NetaceaTemplateAppAPI9DC50D60"
+              "Ref": "OpenAPITemplateAppAPI99E20BF3"
             },
             ".execute-api.eu-west-2.",
             {
@@ -1091,7 +1091,7 @@
             },
             "/",
             {
-              "Ref": "NetaceaTemplateAppAPIDeploymentStagev1F67E1759"
+              "Ref": "OpenAPITemplateAppAPIDeploymentStagev1819CF49D"
             },
             "/"
           ]

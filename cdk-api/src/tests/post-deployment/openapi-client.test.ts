@@ -6,7 +6,6 @@ import path from 'node:path'
 
 import Ajv from 'ajv'
 import addFormats from 'ajv-formats'
-import { randomUUID } from 'node:crypto'
 
 const ajv = new Ajv({ allErrors: true, strict: false })
 addFormats(ajv)
