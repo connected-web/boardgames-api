@@ -75,9 +75,27 @@
       "winner": "John",
       "coOp": "No",
       "gameFamily": "Coup "
+    },
+    {
+      "date": "2023-02-06",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2
+    },
+    {
+      "date": "2023-06-27",
+      "winner": "other",
+      "coOp": "no",
+      "noOfPlayers": 4
+    },
+    {
+      "date": "2023-06-27",
+      "winner": "other",
+      "coOp": "no",
+      "noOfPlayers": 4
     }
   ],
-  "totalGamesPlayed": 13,
+  "totalGamesPlayed": 16,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
@@ -85,13 +103,13 @@
   "coOpWinRate": 0,
   "coOpLossRate": 0,
   "winCountHannah": 6,
-  "winCountJohn": 6,
-  "winCountOther": 1,
+  "winCountJohn": 7,
+  "winCountOther": 3,
   "winCountDraw": 0,
-  "winnableGamesTotal": 13,
-  "winPercentageHannah": 0.4615,
-  "winPercentageJohn": 0.4615,
-  "winPercentageOther": 0.0769,
+  "winnableGamesTotal": 16,
+  "winPercentageHannah": 0.375,
+  "winPercentageJohn": 0.4375,
+  "winPercentageOther": 0.1875,
   "winPercentageDraw": 0,
-  "mostWonGames": "Draw"
+  "mostWonGames": "John"
 }

@@ -1,0 +1,223 @@
+{
+  "dateCode": "2022-07",
+  "title": "July 2022",
+  "sequenceStartDate": "2022-07-01",
+  "sequenceEndDate": "2022-07-31",
+  "daysInSequence": 31,
+  "daysWithUnplayedGames": 21,
+  "gamesPlayedPerDay": {
+    "1": 0,
+    "2": 2,
+    "3": 2,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 1,
+    "8": 0,
+    "9": 0,
+    "10": 1,
+    "11": 0,
+    "12": 0,
+    "13": 0,
+    "14": 0,
+    "15": 0,
+    "16": 0,
+    "17": 0,
+    "18": 0,
+    "19": 0,
+    "20": 0,
+    "21": 0,
+    "22": 2,
+    "23": 2,
+    "24": 0,
+    "25": 0,
+    "26": 0,
+    "27": 1,
+    "28": 0,
+    "29": 2,
+    "30": 1,
+    "31": 1
+  },
+  "gamesPlayed": [
+    {
+      "date": "2022-07-02",
+      "name": "Werewolf",
+      "coOp": "yes",
+      "coOpOutcome": "loss",
+      "note": "Both were Villagers. Wolves won."
+    },
+    {
+      "date": "2022-07-02",
+      "name": "Werewolf",
+      "coOp": "yes",
+      "coOpOutcome": "win",
+      "note": "Both were Villagers. Village won."
+    },
+    {
+      "date": "2022-07-03",
+      "name": "Kingdomino",
+      "winner": "John",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-07-03",
+      "name": "Kingdomino",
+      "winner": "John",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-07-07",
+      "name": "Kingdomino",
+      "winner": "Hannah",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-07-10",
+      "name": "Star Realms",
+      "winner": "Hannah",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-07-22",
+      "name": "Codenames",
+      "coOp": "yes",
+      "coOpOutcome": "win"
+    },
+    {
+      "date": "2022-07-22",
+      "name": "Troika",
+      "winner": "John",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-07-23",
+      "name": "Bandido",
+      "coOp": "yes",
+      "coOpOutcome": "win"
+    },
+    {
+      "date": "2022-07-23",
+      "name": "Design Town",
+      "winner": "Hannah",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-07-27",
+      "name": "Mystic Vale",
+      "winner": "John",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-07-29",
+      "name": "Ganymede",
+      "winner": "John",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-07-29",
+      "name": "Ticket to Ride Europe: 15th Anniversary ",
+      "winner": "John",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-07-30",
+      "name": "Terraforming Mars",
+      "winner": "Hannah",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-07-31",
+      "name": "Kingdomino",
+      "winner": "Hannah",
+      "coOp": "no"
+    }
+  ],
+  "totalGamesPlayed": 15,
+  "averageGamesPlayedPerDay": 0.4839,
+  "mostGamesPlayedInADay": [
+    {
+      "date": "2022-07-02",
+      "games": [
+        "Werewolf",
+        "Werewolf"
+      ]
+    },
+    {
+      "date": "2022-07-03",
+      "games": [
+        "Kingdomino",
+        "Kingdomino"
+      ]
+    },
+    {
+      "date": "2022-07-22",
+      "games": [
+        "Codenames",
+        "Troika"
+      ]
+    },
+    {
+      "date": "2022-07-23",
+      "games": [
+        "Bandido",
+        "Design Town"
+      ]
+    },
+    {
+      "date": "2022-07-29",
+      "games": [
+        "Ganymede",
+        "Ticket to Ride Europe: 15th Anniversary "
+      ]
+    }
+  ],
+  "uniqueGamesPlayed": [
+    "Bandido",
+    "Codenames",
+    "Design Town",
+    "Ganymede",
+    "Kingdomino",
+    "Mystic Vale",
+    "Star Realms",
+    "Terraforming Mars",
+    "Ticket to Ride Europe: 15th Anniversary ",
+    "Troika",
+    "Werewolf"
+  ],
+  "uniqueGamesPlayedCount": 11,
+  "uniqueGamesPlayedPercentage": 0.7333,
+  "mostPlayedGames": [
+    {
+      "name": "Kingdomino",
+      "plays": 4
+    }
+  ],
+  "coOpGamesPlayedCount": 4,
+  "coOpGamesPlayedPercentage": 0.2667,
+  "coOpGameWins": 3,
+  "coOpGameLoses": 1,
+  "coOpWinRate": 0.75,
+  "coOpLossRate": 0.25,
+  "winCountHannah": 5,
+  "winCountJohn": 6,
+  "winCountOther": 0,
+  "winCountDraw": 0,
+  "winnableGamesTotal": 11,
+  "winPercentageHannah": 0.4545,
+  "winPercentageJohn": 0.5455,
+  "winPercentageOther": 0,
+  "winPercentageDraw": 0,
+  "mostWonGames": "John",
+  "mostWonGamesJohn": [
+    {
+      "game": "Kingdomino",
+      "plays": 2
+    }
+  ],
+  "mostWonGamesHannah": [
+    {
+      "game": "Kingdomino",
+      "plays": 2
+    }
+  ]
+}

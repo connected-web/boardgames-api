@@ -52,9 +52,18 @@
       "winner": "John",
       "coOp": "No",
       "gameFamily": "Dinosaur Island"
+    },
+    {
+      "date": "2023-01-14",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "expansions": [
+        "Dinosaur Island: Totally Liquid"
+      ]
     }
   ],
-  "totalGamesPlayed": 9,
+  "totalGamesPlayed": 10,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
@@ -62,13 +71,13 @@
   "coOpWinRate": 0,
   "coOpLossRate": 0,
   "winCountHannah": 4,
-  "winCountJohn": 4,
+  "winCountJohn": 5,
   "winCountOther": 1,
   "winCountDraw": 0,
-  "winnableGamesTotal": 9,
-  "winPercentageHannah": 0.4444,
-  "winPercentageJohn": 0.4444,
-  "winPercentageOther": 0.1111,
+  "winnableGamesTotal": 10,
+  "winPercentageHannah": 0.4,
+  "winPercentageJohn": 0.5,
+  "winPercentageOther": 0.1,
   "winPercentageDraw": 0,
-  "mostWonGames": "Draw"
+  "mostWonGames": "John"
 }

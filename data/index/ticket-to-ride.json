@@ -71,23 +71,45 @@
       "date": "2021-12-12",
       "winner": "John",
       "coOp": "No"
+    },
+    {
+      "date": "2022-01-29",
+      "winner": "John",
+      "coOp": "no",
+      "notes": "Worst game in existence. TTR is broken af with more than 2 players.",
+      "noOfPlayers": 4
+    },
+    {
+      "date": "2022-11-26",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "expansions": [
+        "Ticket to Ride: USA 1910"
+      ]
+    },
+    {
+      "date": "2023-01-31",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2
     }
   ],
-  "totalGamesPlayed": 12,
+  "totalGamesPlayed": 15,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
   "coOpGameLoses": 0,
   "coOpWinRate": 0,
   "coOpLossRate": 0,
-  "winCountHannah": 4,
-  "winCountJohn": 7,
+  "winCountHannah": 5,
+  "winCountJohn": 9,
   "winCountOther": 0,
   "winCountDraw": 1,
-  "winnableGamesTotal": 12,
+  "winnableGamesTotal": 15,
   "winPercentageHannah": 0.3333,
-  "winPercentageJohn": 0.5833,
+  "winPercentageJohn": 0.6,
   "winPercentageOther": 0,
-  "winPercentageDraw": 0.0833,
+  "winPercentageDraw": 0.0667,
   "mostWonGames": "John"
 }

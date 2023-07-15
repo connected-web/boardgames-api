@@ -4,7 +4,7 @@
   "sequenceStartDate": "2022-06-01",
   "sequenceEndDate": "2022-06-30",
   "daysInSequence": 30,
-  "daysWithUnplayedGames": 17,
+  "daysWithUnplayedGames": 12,
   "gamesPlayedPerDay": {
     "1": 0,
     "2": 2,
@@ -17,7 +17,7 @@
     "9": 1,
     "10": 1,
     "11": 1,
-    "12": 2,
+    "12": 3,
     "13": 0,
     "14": 0,
     "15": 2,
@@ -25,16 +25,16 @@
     "17": 0,
     "18": 1,
     "19": 1,
-    "20": 0,
+    "20": 1,
     "21": 0,
     "22": 0,
-    "23": 0,
+    "23": 1,
     "24": 0,
-    "25": 0,
+    "25": 5,
     "26": 0,
     "27": 0,
-    "28": 0,
-    "29": 0,
+    "28": 1,
+    "29": 1,
     "30": 0
   },
   "gamesPlayed": [
@@ -191,6 +191,12 @@
       "coOp": "no"
     },
     {
+      "date": "2022-06-12",
+      "name": "Mystic Vale",
+      "winner": "John",
+      "coOp": "no"
+    },
+    {
       "date": "2022-06-15",
       "name": "Werewolf",
       "winner": "John",
@@ -218,14 +224,68 @@
     },
     {
       "date": "2022-06-19",
-      "name": "Troika",
+      "name": "World of Warcraft: Wrath of the Lich King",
       "coOp": "yes",
       "coOpOutcome": "win",
       "note": "A Pandemic system game"
+    },
+    {
+      "date": "2022-06-20",
+      "name": "Mystic Vale",
+      "winner": "Hannah",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-06-23",
+      "name": "Mystic Vale",
+      "winner": "John",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-06-25",
+      "name": "Ganymede",
+      "winner": "Hannah",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-06-25",
+      "name": "Kingdomino",
+      "winner": "Hannah",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-06-25",
+      "name": "Mystic Vale",
+      "winner": "John",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-06-25",
+      "name": "Ticket to Ride: First Journey (Europe)",
+      "winner": "John",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-06-25",
+      "name": "Troika",
+      "winner": "other",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-06-28",
+      "name": "Kingdomino",
+      "winner": "John",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-06-29",
+      "name": "Cascadia",
+      "winner": "Hannah",
+      "coOp": "no"
     }
   ],
-  "totalGamesPlayed": 28,
-  "averageGamesPlayedPerDay": 0.9333,
+  "totalGamesPlayed": 38,
+  "averageGamesPlayedPerDay": 1.2667,
   "mostGamesPlayedInADay": [
     {
       "date": "2022-06-04",
@@ -256,46 +316,53 @@
     "Love Letter 2nd Edition",
     "Love Letter: Princess Princess Ever After",
     "Mini Express",
+    "Mystic Vale",
     "Pandemic",
     "Scout",
+    "Ticket to Ride: First Journey (Europe)",
     "Troika",
     "Werewolf",
-    "World Stitchers"
+    "World Stitchers",
+    "World of Warcraft: Wrath of the Lich King"
   ],
-  "uniqueGamesPlayedCount": 20,
-  "uniqueGamesPlayedPercentage": 0.7143,
+  "uniqueGamesPlayedCount": 23,
+  "uniqueGamesPlayedPercentage": 0.6053,
   "mostPlayedGames": [
     {
       "name": "Kingdomino",
-      "plays": 4
+      "plays": 6
     }
   ],
   "coOpGamesPlayedCount": 8,
-  "coOpGamesPlayedPercentage": 0.2857,
+  "coOpGamesPlayedPercentage": 0.2105,
   "coOpGameWins": 7,
   "coOpGameLoses": 1,
   "coOpWinRate": 0.875,
   "coOpLossRate": 0.125,
-  "winCountHannah": 7,
-  "winCountJohn": 12,
-  "winCountOther": 0,
+  "winCountHannah": 11,
+  "winCountJohn": 17,
+  "winCountOther": 1,
   "winCountDraw": 1,
-  "winnableGamesTotal": 20,
-  "winPercentageHannah": 0.35,
-  "winPercentageJohn": 0.6,
-  "winPercentageOther": 0,
-  "winPercentageDraw": 0.05,
+  "winnableGamesTotal": 30,
+  "winPercentageHannah": 0.3667,
+  "winPercentageJohn": 0.5667,
+  "winPercentageOther": 0.0333,
+  "winPercentageDraw": 0.0333,
   "mostWonGames": "John",
   "mostWonGamesJohn": [
     {
+      "game": "Mystic Vale",
+      "plays": 3
+    },
+    {
       "game": "Kingdomino",
-      "plays": 2
+      "plays": 3
     }
   ],
   "mostWonGamesHannah": [
     {
       "game": "Kingdomino",
-      "plays": 2
+      "plays": 3
     }
   ]
 }

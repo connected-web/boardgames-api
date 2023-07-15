@@ -40,23 +40,35 @@
       "winner": "John",
       "coOp": "No",
       "gameFamily": "Cat Lady"
+    },
+    {
+      "date": "2023-01-28",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2
+    },
+    {
+      "date": "2023-04-10",
+      "winner": "draw",
+      "coOp": "no",
+      "noOfPlayers": 2
     }
   ],
-  "totalGamesPlayed": 7,
+  "totalGamesPlayed": 9,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
   "coOpGameLoses": 0,
   "coOpWinRate": 0,
   "coOpLossRate": 0,
-  "winCountHannah": 3,
+  "winCountHannah": 4,
   "winCountJohn": 4,
   "winCountOther": 0,
-  "winCountDraw": 0,
-  "winnableGamesTotal": 7,
-  "winPercentageHannah": 0.4286,
-  "winPercentageJohn": 0.5714,
+  "winCountDraw": 1,
+  "winnableGamesTotal": 9,
+  "winPercentageHannah": 0.4444,
+  "winPercentageJohn": 0.4444,
   "winPercentageOther": 0,
-  "winPercentageDraw": 0,
-  "mostWonGames": "John"
+  "winPercentageDraw": 0.1111,
+  "mostWonGames": "Draw"
 }

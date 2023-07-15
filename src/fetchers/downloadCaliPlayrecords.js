@@ -1,3 +1,5 @@
+const { find, read } = require('promise-path')
+
 const playrecordSources = [{
   year: 2022,
   apiUser: process.env.PLAYRECORD_API_USER || 'John',
@@ -33,7 +35,20 @@ async function downloadFromSources (model) {
   const combinedData = await Promise.all(downloadWork)
 
   const playrecords = combinedData.flat()
-  return playrecords.filter(n => n)
+  const nonEmptyRecords = playrecords.filter(n => n)
+
+  if (nonEmptyRecords.length === 0) {
+    report('No play records found - using local backup data.')
+    const files = await find('./data/boardgames-tracking/**/*.json')
+    report('Found backup files:', files?.length)
+    report('Backup start:', '\n' + files.slice(0, 3).join('\n'))
+    report('...')
+    report('Backup end:', '\n' + files.slice(-3).join('\n'))
+    const work = files.map(file => read(file, 'utf8').then(JSON.parse))
+    return await Promise.all(work)
+  } else {
+    return nonEmptyRecords
+  }
 }
 
 function init (model) {

@@ -34,23 +34,41 @@
       "winner": "Hannah",
       "coOp": "No",
       "gameFamily": "Hey! That's My Fish"
+    },
+    {
+      "date": "2022-01-07",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2
+    },
+    {
+      "date": "2022-09-27",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2
+    },
+    {
+      "date": "2023-02-26",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2
     }
   ],
-  "totalGamesPlayed": 6,
+  "totalGamesPlayed": 9,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
   "coOpGameLoses": 0,
   "coOpWinRate": 0,
   "coOpLossRate": 0,
-  "winCountHannah": 3,
-  "winCountJohn": 3,
+  "winCountHannah": 4,
+  "winCountJohn": 5,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 6,
-  "winPercentageHannah": 0.5,
-  "winPercentageJohn": 0.5,
+  "winnableGamesTotal": 9,
+  "winPercentageHannah": 0.4444,
+  "winPercentageJohn": 0.5556,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
-  "mostWonGames": "Draw"
+  "mostWonGames": "John"
 }

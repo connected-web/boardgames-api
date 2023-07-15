@@ -85,23 +85,58 @@
       "date": "2021-11-17",
       "coOpOutcome": "Won",
       "coOp": "Yes"
+    },
+    {
+      "date": "2022-01-19",
+      "winner": "John",
+      "coOp": "no",
+      "notes": "Hannah was Alpha Wolf",
+      "noOfPlayers": 17
+    },
+    {
+      "date": "2022-06-15",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "notes": "Both H & J were Villagers",
+      "noOfPlayers": 16
+    },
+    {
+      "date": "2022-06-15",
+      "winner": "John",
+      "coOp": "no",
+      "notes": "J = wolf, H = village",
+      "noOfPlayers": 16
+    },
+    {
+      "date": "2022-07-02",
+      "coOpOutcome": "loss",
+      "coOp": "yes",
+      "notes": "Both were Villagers. Wolves won.",
+      "noOfPlayers": 16
+    },
+    {
+      "date": "2022-07-02",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "notes": "Both were Villagers. Village won.",
+      "noOfPlayers": 15
     }
   ],
-  "totalGamesPlayed": 15,
-  "coOpGamesPlayedCount": 10,
-  "coOpGamesPlayedPercentage": 0.6667,
-  "coOpGameWins": 5,
-  "coOpGameLoses": 5,
-  "coOpWinRate": 0.5,
-  "coOpLossRate": 0.5,
+  "totalGamesPlayed": 20,
+  "coOpGamesPlayedCount": 13,
+  "coOpGamesPlayedPercentage": 0.65,
+  "coOpGameWins": 7,
+  "coOpGameLoses": 6,
+  "coOpWinRate": 0.5385,
+  "coOpLossRate": 0.4615,
   "winCountHannah": 2,
-  "winCountJohn": 2,
+  "winCountJohn": 4,
   "winCountOther": 1,
   "winCountDraw": 0,
-  "winnableGamesTotal": 5,
-  "winPercentageHannah": 0.4,
-  "winPercentageJohn": 0.4,
-  "winPercentageOther": 0.2,
+  "winnableGamesTotal": 7,
+  "winPercentageHannah": 0.2857,
+  "winPercentageJohn": 0.5714,
+  "winPercentageOther": 0.1429,
   "winPercentageDraw": 0,
-  "mostWonGames": "Draw"
+  "mostWonGames": "John"
 }

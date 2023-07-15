@@ -10,8 +10,8 @@ async function start () {
 
   const filename = 'cali-playrecords.json'
   const body = JSON.stringify(playrecords, null, 2)
-  report('Total downloaded data:', body.length, 'bytes')
-  report('Writing combined data to:', filename, 'Play Records:', playrecords.length)
+  report('Total downloaded data:', body?.length, 'bytes')
+  report('Writing combined data to:', filename, 'Play Records:', playrecords?.length)
   return write(datapath(filename), body, 'utf8')
 }
 

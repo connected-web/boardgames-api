@@ -8,23 +8,35 @@
       "date": "2018-11-09",
       "coOpOutcome": "Lost",
       "coOp": "Yes"
+    },
+    {
+      "date": "2022-02-02",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 8
+    },
+    {
+      "date": "2022-02-02",
+      "coOpOutcome": "loss",
+      "coOp": "yes",
+      "noOfPlayers": 8
     }
   ],
-  "totalGamesPlayed": 1,
-  "coOpGamesPlayedCount": 1,
-  "coOpGamesPlayedPercentage": 1,
+  "totalGamesPlayed": 3,
+  "coOpGamesPlayedCount": 2,
+  "coOpGamesPlayedPercentage": 0.6667,
   "coOpGameWins": 0,
-  "coOpGameLoses": 1,
+  "coOpGameLoses": 2,
   "coOpWinRate": 0,
   "coOpLossRate": 1,
   "winCountHannah": 0,
-  "winCountJohn": 0,
+  "winCountJohn": 1,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 0,
+  "winnableGamesTotal": 1,
   "winPercentageHannah": 0,
-  "winPercentageJohn": 0,
+  "winPercentageJohn": 1,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
-  "mostWonGames": "Draw"
+  "mostWonGames": "John"
 }

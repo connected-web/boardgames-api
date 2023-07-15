@@ -1,54 +1,177 @@
 {
-  "sequenceStartDate": "2023-02-01",
-  "sequenceEndDate": "2023-02-20",
-  "daysInSequence": 20,
-  "daysWithUnplayedGames": 20,
+  "sequenceStartDate": "2023-07-01",
+  "sequenceEndDate": "2023-07-15",
+  "daysInSequence": 15,
+  "daysWithUnplayedGames": 5,
   "gamesPlayedPerDay": {
-    "1": 0,
+    "1": 1,
     "2": 0,
-    "3": 0,
-    "4": 0,
-    "5": 0,
-    "6": 0,
-    "7": 0,
-    "8": 0,
-    "9": 0,
-    "10": 0,
+    "3": 1,
+    "4": 1,
+    "5": 1,
+    "6": 1,
+    "7": 1,
+    "8": 1,
+    "9": 2,
+    "10": 2,
     "11": 0,
-    "12": 0,
+    "12": 2,
     "13": 0,
     "14": 0,
-    "15": 0,
-    "16": 0,
-    "17": 0,
-    "18": 0,
-    "19": 0,
-    "20": 0
+    "15": 0
   },
-  "gamesPlayed": [],
-  "totalGamesPlayed": 0,
-  "averageGamesPlayedPerDay": 0,
-  "mostGamesPlayedInADay": [],
-  "uniqueGamesPlayed": [],
-  "uniqueGamesPlayedCount": 0,
-  "uniqueGamesPlayedPercentage": 0,
-  "mostPlayedGames": [],
+  "gamesPlayed": [
+    {
+      "date": "2023-07-01",
+      "name": "Lovecraft Letter",
+      "winner": "Hannah",
+      "coOp": "no"
+    },
+    {
+      "date": "2023-07-03",
+      "name": "Town 66",
+      "winner": "Hannah",
+      "coOp": "no"
+    },
+    {
+      "date": "2023-07-04",
+      "name": "Design Town",
+      "winner": "Hannah",
+      "coOp": "no"
+    },
+    {
+      "date": "2023-07-05",
+      "name": "Lovecraft Letter",
+      "winner": "John",
+      "coOp": "no"
+    },
+    {
+      "date": "2023-07-06",
+      "name": "Ticket to Ride: Europe",
+      "winner": "John",
+      "coOp": "no"
+    },
+    {
+      "date": "2023-07-07",
+      "name": "Lovecraft Letter",
+      "winner": "John",
+      "coOp": "no"
+    },
+    {
+      "date": "2023-07-08",
+      "name": "Heat: Pedal to the Metal",
+      "winner": "Hannah",
+      "coOp": "no"
+    },
+    {
+      "date": "2023-07-09",
+      "name": "Lovecraft Letter",
+      "winner": "Hannah",
+      "coOp": "no"
+    },
+    {
+      "date": "2023-07-09",
+      "name": "Town 66",
+      "winner": "Hannah",
+      "coOp": "no"
+    },
+    {
+      "date": "2023-07-10",
+      "name": "Heat: Pedal to the Metal",
+      "winner": "John",
+      "coOp": "no"
+    },
+    {
+      "date": "2023-07-10",
+      "name": "Love Letter",
+      "winner": "Hannah",
+      "coOp": "no"
+    },
+    {
+      "date": "2023-07-12",
+      "name": "Lovecraft Letter",
+      "winner": "John",
+      "coOp": "no"
+    },
+    {
+      "date": "2023-07-12",
+      "name": "Planet",
+      "winner": "Hannah",
+      "coOp": "no"
+    }
+  ],
+  "totalGamesPlayed": 13,
+  "averageGamesPlayedPerDay": 0.8667,
+  "mostGamesPlayedInADay": [
+    {
+      "date": "2023-07-09",
+      "games": [
+        "Lovecraft Letter",
+        "Town 66"
+      ]
+    },
+    {
+      "date": "2023-07-10",
+      "games": [
+        "Heat: Pedal to the Metal",
+        "Love Letter"
+      ]
+    },
+    {
+      "date": "2023-07-12",
+      "games": [
+        "Lovecraft Letter",
+        "Planet"
+      ]
+    }
+  ],
+  "uniqueGamesPlayed": [
+    "Design Town",
+    "Heat: Pedal to the Metal",
+    "Love Letter",
+    "Lovecraft Letter",
+    "Planet",
+    "Ticket to Ride: Europe",
+    "Town 66"
+  ],
+  "uniqueGamesPlayedCount": 7,
+  "uniqueGamesPlayedPercentage": 0.5385,
+  "mostPlayedGames": [
+    {
+      "name": "Lovecraft Letter",
+      "plays": 5
+    }
+  ],
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
   "coOpGameLoses": 0,
   "coOpWinRate": 0,
   "coOpLossRate": 0,
-  "winCountHannah": 0,
-  "winCountJohn": 0,
+  "winCountHannah": 8,
+  "winCountJohn": 5,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 0,
-  "winPercentageHannah": 0,
-  "winPercentageJohn": 0,
+  "winnableGamesTotal": 13,
+  "winPercentageHannah": 0.6154,
+  "winPercentageJohn": 0.3846,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
-  "mostWonGames": "Draw",
-  "mostWonGamesJohn": [],
-  "mostWonGamesHannah": []
+  "mostWonGames": "Hannah",
+  "mostWonGamesJohn": [
+    {
+      "game": "Lovecraft Letter",
+      "plays": 3
+    }
+  ],
+  "mostWonGamesHannah": [
+    {
+      "game": "Town 66",
+      "plays": 2
+    },
+    {
+      "game": "Lovecraft Letter",
+      "plays": 2
+    }
+  ]
 }

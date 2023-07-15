@@ -1,0 +1,130 @@
+{
+  "dateCode": "2022-08",
+  "title": "August 2022",
+  "sequenceStartDate": "2022-08-01",
+  "sequenceEndDate": "2022-08-31",
+  "daysInSequence": 31,
+  "daysWithUnplayedGames": 29,
+  "gamesPlayedPerDay": {
+    "1": 0,
+    "2": 2,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 2,
+    "7": 0,
+    "8": 0,
+    "9": 0,
+    "10": 0,
+    "11": 0,
+    "12": 0,
+    "13": 0,
+    "14": 0,
+    "15": 0,
+    "16": 0,
+    "17": 0,
+    "18": 0,
+    "19": 0,
+    "20": 0,
+    "21": 0,
+    "22": 0,
+    "23": 0,
+    "24": 0,
+    "25": 0,
+    "26": 0,
+    "27": 0,
+    "28": 0,
+    "29": 0,
+    "30": 0,
+    "31": 0
+  },
+  "gamesPlayed": [
+    {
+      "date": "2022-08-02",
+      "name": "Jaipur",
+      "winner": "John",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-08-02",
+      "name": "Love Letter: Princess Princess Ever After",
+      "winner": "John",
+      "coOp": "no"
+    },
+    {
+      "date": "2022-08-06",
+      "name": "Bandido",
+      "coOp": "yes",
+      "coOpOutcome": "win"
+    },
+    {
+      "date": "2022-08-06",
+      "name": "Love Letter: Princess Princess Ever After",
+      "winner": "Hannah",
+      "coOp": "no"
+    }
+  ],
+  "totalGamesPlayed": 4,
+  "averageGamesPlayedPerDay": 0.129,
+  "mostGamesPlayedInADay": [
+    {
+      "date": "2022-08-02",
+      "games": [
+        "Jaipur",
+        "Love Letter: Princess Princess Ever After"
+      ]
+    },
+    {
+      "date": "2022-08-06",
+      "games": [
+        "Bandido",
+        "Love Letter: Princess Princess Ever After"
+      ]
+    }
+  ],
+  "uniqueGamesPlayed": [
+    "Bandido",
+    "Jaipur",
+    "Love Letter: Princess Princess Ever After"
+  ],
+  "uniqueGamesPlayedCount": 3,
+  "uniqueGamesPlayedPercentage": 0.75,
+  "mostPlayedGames": [
+    {
+      "name": "Love Letter: Princess Princess Ever After",
+      "plays": 2
+    }
+  ],
+  "coOpGamesPlayedCount": 1,
+  "coOpGamesPlayedPercentage": 0.25,
+  "coOpGameWins": 1,
+  "coOpGameLoses": 0,
+  "coOpWinRate": 1,
+  "coOpLossRate": 0,
+  "winCountHannah": 1,
+  "winCountJohn": 2,
+  "winCountOther": 0,
+  "winCountDraw": 0,
+  "winnableGamesTotal": 3,
+  "winPercentageHannah": 0.3333,
+  "winPercentageJohn": 0.6667,
+  "winPercentageOther": 0,
+  "winPercentageDraw": 0,
+  "mostWonGames": "John",
+  "mostWonGamesJohn": [
+    {
+      "game": "Love Letter: Princess Princess Ever After",
+      "plays": 1
+    },
+    {
+      "game": "Jaipur",
+      "plays": 1
+    }
+  ],
+  "mostWonGamesHannah": [
+    {
+      "game": "Love Letter: Princess Princess Ever After",
+      "plays": 1
+    }
+  ]
+}
