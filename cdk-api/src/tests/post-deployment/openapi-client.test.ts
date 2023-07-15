@@ -21,7 +21,6 @@ interface ServerInfo {
 const server: ServerInfo = {
   baseUrl: process.env.POST_DEPLOYMENT_SERVER_DOMAIN ?? 'https://template-app.dev-red.connected-web.cloud',
   headers: {
-    'Authorization': randomUUID(),
     Authorization: `Bearer ${process.env.POST_DEPLOYMENT_BEARER_TOKEN as string}`
   }
 }
