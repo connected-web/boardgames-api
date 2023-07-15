@@ -1,0 +1,52 @@
+name: Validate OIDC Connection
+on:
+  workflow_dispatch:
+    inputs:
+      account:
+        description: "The AWS account alias to verify"
+        required: true
+        type: choice
+        options:
+        - connected-web-dev
+        - connected-web-prod
+        default: 'connected-web-dev'
+
+permissions:
+  id-token: write # This is required for OIDC
+  contents: write # This is required for actions/checkout@v2.4.0
+  pull-requests: write # This is required to write comments on the Pull Request
+
+jobs:
+  deploy:
+    name: "Validate OIDC"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Use Node JS LTS
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+            
+      - name: Install npm dependencies
+        run: npm install
+
+      # Authorise for target account
+      - name: Read customer config to set AWS Account ID
+        working-directory: ./.github/workflows/scripts
+        run: sh ./setupGithubEnvironment.sh ${{ github.event.inputs.account }}
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v2
+        env:
+          AWS_ACCOUNT_ID: ${{ env.AWS_ACCOUNT_ID }}
+        with:
+          aws-region: eu-west-1
+          role-to-assume: arn:aws:iam::${{ env.AWS_ACCOUNT_ID }}:role/ConnectedWebGithub-boardgames-api
+          role-session-name: ${{ github.event.repository.name }}
+          role-duration-seconds: 900
+
+      # List stacks in account
+      - name: List infrastructure using the AWS CLI
+        run: aws --region eu-west-2 cloudformation list-stacks --output table
