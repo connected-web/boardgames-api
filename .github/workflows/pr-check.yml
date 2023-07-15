@@ -4,8 +4,8 @@ on:
     branches:
       - main
 jobs:
-  test:
-    name: Linting and Testing
+  test-php-api:
+    name: Test PHP API
     runs-on: ubuntu-latest
 
     steps:
@@ -27,3 +27,24 @@ jobs:
       run: npm test -s
       env:
           GOOGLE_SERVICE_ACCOUNT_SECURE_CREDENTIALS: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_SECURE_CREDENTIALS }}
+
+  test-cdk-api:
+    name: Test CDK API
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Use Node JS LTS
+      uses: actions/setup-node@v2
+      with:
+        node-version: 18.x
+
+    - name: Install npm dependencies
+      run: npm install
+      working-directory: ./cdk-api
+
+    - name: Run default tests
+      run: npm test -s
+      working-directory: ./cdk-api
