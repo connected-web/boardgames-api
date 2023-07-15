@@ -9,7 +9,7 @@
         },
         "Type": "REQUEST",
         "AuthorizerUri": "arn:aws:apigateway:eu-west-1:lambda:path/2015-03-31/functions/arn:aws:lambda:eu-west-1:123456123456:function:dummy-authorizer-arn/invocations",
-        "IdentitySource": "method.request.header.x-connected-web-api"
+        "IdentitySource": "method.request.header.Authorization"
       }
     },
     "NetaceaTemplateAppAPI9DC50D60": {
@@ -127,7 +127,7 @@
           "IntegrationResponses": [
             {
               "ResponseParameters": {
-                "method.response.header.Access-Control-Allow-Headers": "'x-connected-web-api,content-type'",
+                "method.response.header.Access-Control-Allow-Headers": "'Authorization,content-type'",
                 "method.response.header.Access-Control-Allow-Origin": "'*'",
                 "method.response.header.Access-Control-Allow-Methods": "'OPTIONS,GET,PUT,POST,DELETE,PATCH,HEAD'",
                 "method.response.header.Access-Control-Allow-Credentials": "'true'"
@@ -183,7 +183,7 @@
           "IntegrationResponses": [
             {
               "ResponseParameters": {
-                "method.response.header.Access-Control-Allow-Headers": "'x-connected-web-api,content-type'",
+                "method.response.header.Access-Control-Allow-Headers": "'Authorization,content-type'",
                 "method.response.header.Access-Control-Allow-Origin": "'*'",
                 "method.response.header.Access-Control-Allow-Methods": "'OPTIONS,GET,PUT,POST,DELETE,PATCH,HEAD'",
                 "method.response.header.Access-Control-Allow-Credentials": "'true'"
@@ -362,7 +362,7 @@
           "IntegrationResponses": [
             {
               "ResponseParameters": {
-                "method.response.header.Access-Control-Allow-Headers": "'x-connected-web-api,content-type'",
+                "method.response.header.Access-Control-Allow-Headers": "'Authorization,content-type'",
                 "method.response.header.Access-Control-Allow-Origin": "'*'",
                 "method.response.header.Access-Control-Allow-Methods": "'OPTIONS,GET,PUT,POST,DELETE,PATCH,HEAD'",
                 "method.response.header.Access-Control-Allow-Credentials": "'true'"
@@ -541,7 +541,7 @@
           "IntegrationResponses": [
             {
               "ResponseParameters": {
-                "method.response.header.Access-Control-Allow-Headers": "'x-connected-web-api,content-type'",
+                "method.response.header.Access-Control-Allow-Headers": "'Authorization,content-type'",
                 "method.response.header.Access-Control-Allow-Origin": "'*'",
                 "method.response.header.Access-Control-Allow-Methods": "'OPTIONS,GET,PUT,POST,DELETE,PATCH,HEAD'",
                 "method.response.header.Access-Control-Allow-Credentials": "'true'"
@@ -594,7 +594,7 @@
           "IntegrationResponses": [
             {
               "ResponseParameters": {
-                "method.response.header.Access-Control-Allow-Headers": "'x-connected-web-api,content-type'",
+                "method.response.header.Access-Control-Allow-Headers": "'Authorization,content-type'",
                 "method.response.header.Access-Control-Allow-Origin": "'*'",
                 "method.response.header.Access-Control-Allow-Methods": "'OPTIONS,GET,PUT,POST,DELETE,PATCH,HEAD'",
                 "method.response.header.Access-Control-Allow-Credentials": "'true'"

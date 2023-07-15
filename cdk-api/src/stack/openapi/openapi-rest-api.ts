@@ -44,7 +44,7 @@ export default class OpenAPIRestAPI extends Construct {
 
     const requestAuthorizer = new RequestAuthorizer(this, 'OpenAPIApiKeyAuthorizer', {
       handler: authorizerLambda,
-      identitySources: [IdentitySource.header('x-connected-web-api')]
+      identitySources: [IdentitySource.header('Authorization')]
     })
 
     const api = new RestApi(this, id, {
@@ -58,7 +58,7 @@ export default class OpenAPIRestAPI extends Construct {
         allowMethods: Cors.ALL_METHODS,
         allowCredentials: true,
         allowHeaders: [
-          'x-connected-web-api',
+          'Authorization',
           'content-type'
         ]
       }
