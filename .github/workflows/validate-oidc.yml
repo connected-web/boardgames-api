@@ -42,7 +42,7 @@ jobs:
         env:
           AWS_ACCOUNT_ID: ${{ env.AWS_ACCOUNT_ID }}
         with:
-          aws-region: eu-west-1
+          aws-region: eu-west-2
           role-to-assume: arn:aws:iam::${{ env.AWS_ACCOUNT_ID }}:role/ConnectedWebGithub-boardgames-api
           role-session-name: ${{ github.event.repository.name }}
           role-duration-seconds: 900
