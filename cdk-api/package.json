@@ -7,7 +7,7 @@
   "scripts": {
     "cdk": "cdk",
     "cdk:synth": "cdk synth",
-    "cdk:deploy": "cdk deploy",
+    "deploy": "cdk deploy",
     "test": "ts-standard && npm run test:unit && npm run test:pre-deployment",
     "test:unit": "jest src/tests/unit/**.test.ts",
     "test:pre-deployment": "jest src/tests/pre-deployment/**.test.ts",
@@ -15,7 +15,7 @@
     "typegen:for-post-deployment": "typegen src/tests/post-deployment/downloaded-openapi-spec.json > src/tests/post-deployment/api-client.d.ts",
     "lint": "ts-standard --fix"
   },
-  "author": "OpenAPI",
+  "author": "Connected Web",
   "license": "UNLICENCED",
   "devDependencies": {
     "@types/aws-lambda": "^8.10.108",
