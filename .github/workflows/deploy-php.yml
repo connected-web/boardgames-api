@@ -1,8 +1,12 @@
 name: Deploy PHP API via FTP
 
 on: 
+  workflow_dispatch:
   push:
     branches: [ main ]
+    paths-ignore:
+      - cdk-api
+      - .github/workflows
     
 jobs:
   deploy:
