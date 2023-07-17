@@ -1,4 +1,4 @@
-name: Validate OIDC Connection
+name: Deploy CDK API
 on:
   workflow_dispatch:
     inputs:
@@ -18,7 +18,7 @@ permissions:
 
 jobs:
   deploy:
-    name: "Validate OIDC"
+    name: Deploy CDK API
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

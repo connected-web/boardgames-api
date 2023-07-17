@@ -1,4 +1,4 @@
-name: Deploy with tests via FTP
+name: Deploy PHP API via FTP
 
 on: 
   push:
@@ -6,7 +6,7 @@ on:
     
 jobs:
   deploy:
-    name: Test and Deploy
+    name: Deploy PHP API via FTP
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
