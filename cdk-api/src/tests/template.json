@@ -1,14 +1,62 @@
 {
   "Resources": {
-    "OpenAPITemplateAppAPIOpenAPIApiKeyAuthorizer909F8F05": {
+    "OpenAPITemplateAppAPIPrivateApiRequestAuthorizer8886B18A": {
       "Type": "AWS::ApiGateway::Authorizer",
       "Properties": {
-        "Name": "MyTestStackOpenAPITemplateAppAPIOpenAPIApiKeyAuthorizerDE6C1962",
+        "Name": "MyTestStackOpenAPITemplateAppAPIPrivateApiRequestAuthorizerC284ABB5",
         "RestApiId": {
           "Ref": "OpenAPITemplateAppAPI99E20BF3"
         },
         "Type": "REQUEST",
-        "AuthorizerUri": "arn:aws:apigateway:eu-west-1:lambda:path/2015-03-31/functions/arn:aws:lambda:eu-west-1:123456123456:function:dummy-authorizer-arn/invocations",
+        "AuthorizerUri": {
+          "Fn::Join": [
+            "",
+            [
+              "arn:",
+              {
+                "Fn::Select": [
+                  1,
+                  {
+                    "Fn::Split": [
+                      ":",
+                      {
+                        "Fn::GetAtt": [
+                          "PrivateAPIAuthorizer2400616B",
+                          "Arn"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              ":apigateway:",
+              {
+                "Fn::Select": [
+                  3,
+                  {
+                    "Fn::Split": [
+                      ":",
+                      {
+                        "Fn::GetAtt": [
+                          "PrivateAPIAuthorizer2400616B",
+                          "Arn"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              ":lambda:path/2015-03-31/functions/",
+              {
+                "Fn::GetAtt": [
+                  "PrivateAPIAuthorizer2400616B",
+                  "Arn"
+                ]
+              },
+              "/invocations"
+            ]
+          ]
+        },
         "IdentitySource": "method.request.header.Authorization"
       }
     },
@@ -68,7 +116,7 @@
       "UpdateReplacePolicy": "Retain",
       "DeletionPolicy": "Retain"
     },
-    "OpenAPITemplateAppAPIDeployment2B7EF351e848d1a251f8d4ea726b626bbcce4669": {
+    "OpenAPITemplateAppAPIDeployment2B7EF351451beb4a60faa58153b17ff8a5a3bde0": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -101,7 +149,7 @@
           "Ref": "OpenAPITemplateAppAPI99E20BF3"
         },
         "DeploymentId": {
-          "Ref": "OpenAPITemplateAppAPIDeployment2B7EF351e848d1a251f8d4ea726b626bbcce4669"
+          "Ref": "OpenAPITemplateAppAPIDeployment2B7EF351451beb4a60faa58153b17ff8a5a3bde0"
         },
         "StageName": "v1"
       },
@@ -283,7 +331,7 @@
         },
         "AuthorizationType": "CUSTOM",
         "AuthorizerId": {
-          "Ref": "OpenAPITemplateAppAPIOpenAPIApiKeyAuthorizer909F8F05"
+          "Ref": "OpenAPITemplateAppAPIPrivateApiRequestAuthorizer8886B18A"
         },
         "Integration": {
           "Credentials": {
@@ -462,7 +510,7 @@
         },
         "AuthorizationType": "CUSTOM",
         "AuthorizerId": {
-          "Ref": "OpenAPITemplateAppAPIOpenAPIApiKeyAuthorizer909F8F05"
+          "Ref": "OpenAPITemplateAppAPIPrivateApiRequestAuthorizer8886B18A"
         },
         "Integration": {
           "Credentials": {
@@ -694,7 +742,7 @@
         },
         "AuthorizationType": "CUSTOM",
         "AuthorizerId": {
-          "Ref": "OpenAPITemplateAppAPIOpenAPIApiKeyAuthorizer909F8F05"
+          "Ref": "OpenAPITemplateAppAPIPrivateApiRequestAuthorizer8886B18A"
         },
         "Integration": {
           "Credentials": {
@@ -804,6 +852,96 @@
             "Ref": "OpenAPITemplateAppAPIApiExecutionRole718075F5"
           }
         ]
+      }
+    },
+    "PrivateAPIAuthorizerServiceRoleEBFD5560": {
+      "Type": "AWS::IAM::Role",
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "lambda.amazonaws.com"
+              }
+            }
+          ],
+          "Version": "2012-10-17"
+        },
+        "ManagedPolicyArns": [
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition"
+                },
+                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "PrivateAPIAuthorizer2400616B": {
+      "Type": "AWS::Lambda::Function",
+      "Properties": {
+        "Code": {
+          "S3Bucket": "cdk-hnb659fds-assets-1234567890-eu-west-2",
+          "S3Key": "aa6301d24f8727d61b02822f0d23372e680da53a7b124adeef17767596e25d95.zip"
+        },
+        "Role": {
+          "Fn::GetAtt": [
+            "PrivateAPIAuthorizerServiceRoleEBFD5560",
+            "Arn"
+          ]
+        },
+        "Environment": {
+          "Variables": {
+            "AWS_NODEJS_CONNECTION_REUSE_ENABLED": "1"
+          }
+        },
+        "Handler": "index.handler",
+        "MemorySize": 256,
+        "Runtime": "nodejs16.x",
+        "Timeout": 5
+      },
+      "DependsOn": [
+        "PrivateAPIAuthorizerServiceRoleEBFD5560"
+      ]
+    },
+    "PrivateAPIAuthorizerMyTestStackOpenAPITemplateAppAPIPrivateApiRequestAuthorizerC284ABB5Permissions924D1DB2": {
+      "Type": "AWS::Lambda::Permission",
+      "Properties": {
+        "Action": "lambda:InvokeFunction",
+        "FunctionName": {
+          "Fn::GetAtt": [
+            "PrivateAPIAuthorizer2400616B",
+            "Arn"
+          ]
+        },
+        "Principal": "apigateway.amazonaws.com",
+        "SourceArn": {
+          "Fn::Join": [
+            "",
+            [
+              "arn:",
+              {
+                "Ref": "AWS::Partition"
+              },
+              ":execute-api:eu-west-2:1234567890:",
+              {
+                "Ref": "OpenAPITemplateAppAPI99E20BF3"
+              },
+              "/authorizers/",
+              {
+                "Ref": "OpenAPITemplateAppAPIPrivateApiRequestAuthorizer8886B18A"
+              }
+            ]
+          ]
+        }
       }
     },
     "stubObjectA71F7001": {
@@ -921,7 +1059,7 @@
         },
         "Environment": {
           "Variables": {
-            "STATUS_INFO": "{\"deploymentTime\":\"2023-07-15T21:28:37.963Z\"}",
+            "STATUS_INFO": "{\"deploymentTime\":\"2023-07-17T20:23:24.844Z\"}",
             "AWS_NODEJS_CONNECTION_REUSE_ENABLED": "1"
           }
         },

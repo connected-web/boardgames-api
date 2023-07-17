@@ -1,20 +1,20 @@
 import { Duration } from 'aws-cdk-lib'
 import { Effect, PolicyStatement, Role, ServicePrincipal } from 'aws-cdk-lib/aws-iam'
 import { RequestAuthorizer, LambdaIntegration, IdentitySource, RestApi, Cors, IResource, Resource } from 'aws-cdk-lib/aws-apigateway'
-import { HttpMethod } from 'aws-cdk-lib/aws-lambda'
+import { HttpMethod, Runtime } from 'aws-cdk-lib/aws-lambda'
 import { Construct } from 'constructs'
 import { CnameRecord, HostedZone } from 'aws-cdk-lib/aws-route53'
 import { Certificate, CertificateValidation } from 'aws-cdk-lib/aws-certificatemanager'
-import * as lambda from 'aws-cdk-lib/aws-lambda'
 
 import OpenAPIEndpoint from './openapi-endpoint'
 import OpenAPIFunction from './openapi-function'
+import { NodejsFunction } from 'aws-cdk-lib/aws-lambda-nodejs'
+import path from 'path'
 
 interface OpenAPIRestAPIProps {
   Description: string
   SubDomain: string
   HostedZoneDomain: string
-  AuthorizerArn: string
 }
 
 export default class OpenAPIRestAPI extends Construct {
@@ -40,10 +40,20 @@ export default class OpenAPIRestAPI extends Construct {
   }
 
   private createRestApi (scope: Construct, id: string, props: OpenAPIRestAPIProps): RestApi {
-    const authorizerLambda = lambda.Function.fromFunctionArn(scope, 'Authorizer', props.AuthorizerArn)
+    const authLambda = new NodejsFunction(scope, 'PrivateAPIAuthorizer', {
+      memorySize: 256,
+      timeout: Duration.seconds(5),
+      runtime: Runtime.NODEJS_16_X,
+      handler: 'handler',
+      entry: path.join(__dirname, '../../routes/authorizer.ts'),
+      bundling: {
+        minify: true,
+        externalModules: ['aws-sdk', 'aws-jwt-verify', 'axios']
+      }
+    })
 
-    const requestAuthorizer = new RequestAuthorizer(this, 'OpenAPIApiKeyAuthorizer', {
-      handler: authorizerLambda,
+    const requestAuthorizer = new RequestAuthorizer(this, 'PrivateApiRequestAuthorizer', {
+      handler: authLambda,
       identitySources: [IdentitySource.header('Authorization')]
     })
 

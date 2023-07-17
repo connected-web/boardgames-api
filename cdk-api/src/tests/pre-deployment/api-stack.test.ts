@@ -1,20 +1,19 @@
 import * as cdk from 'aws-cdk-lib'
 import { Template } from 'aws-cdk-lib/assertions'
-import * as AppStack from '../../stack/api-stack'
+import { ApiStack } from '../../stack/api-stack'
 
 import fs from 'node:fs'
 
 const getTemplate = (): Template => {
   const app = new cdk.App()
-  const stack = new AppStack.App(app, 'MyTestStack', {
+  const stack = new ApiStack(app, 'MyTestStack', {
     env: {
       account: '1234567890',
       region: 'eu-west-2'
     }
   },
   {
-    hostedZoneDomain: 'dummy.domain.name',
-    authorizerArn: 'arn:aws:lambda:eu-west-1:123456123456:function:dummy-authorizer-arn'
+    hostedZoneDomain: 'dummy.domain.name'
   })
   const template = Template.fromStack(stack)
   fs.writeFileSync('src/tests/template.json', JSON.stringify(template, null, 2))

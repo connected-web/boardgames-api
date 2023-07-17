@@ -18,7 +18,7 @@ interface ServerInfo {
 }
 
 const server: ServerInfo = {
-  baseUrl: process.env.POST_DEPLOYMENT_SERVER_DOMAIN ?? 'https://template-app.dev-red.connected-web.cloud',
+  baseUrl: process.env.POST_DEPLOYMENT_SERVER_DOMAIN ?? 'https://boardgames-api.dev.connected-web.services',
   headers: {
     Authorization: `Bearer ${process.env.POST_DEPLOYMENT_BEARER_TOKEN as string}`
   }

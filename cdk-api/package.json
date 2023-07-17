@@ -12,7 +12,7 @@
     "test:unit": "jest src/tests/unit/**.test.ts",
     "test:pre-deployment": "jest src/tests/pre-deployment/**.test.ts",
     "test:post-deployment": "jest src/tests/post-deployment/**.test.ts",
-    "typegen:for-post-deployment": "typegen src/tests/post-deployment/downloaded-template-app-openapi.json > src/tests/post-deployment/template-app-client.d.ts",
+    "typegen:for-post-deployment": "typegen src/tests/post-deployment/downloaded-openapi-spec.json > src/tests/post-deployment/api-client.d.ts",
     "lint": "ts-standard --fix"
   },
   "author": "OpenAPI",
@@ -41,6 +41,7 @@
     "ajv": "^8.12.0",
     "ajv-formats": "^2.1.1",
     "aws-cdk-lib": "2.80.0",
+    "aws-jwt-verify": "^4.0.0",
     "aws-sdk": "^2.1415.0",
     "axios": "^1.2.1",
     "constructs": "^10.0.0",

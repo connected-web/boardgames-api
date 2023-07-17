@@ -6,17 +6,16 @@ import StatusEndpoint from './endpoints/status'
 import OpenAPISpecEndpoint from './endpoints/openapi'
 import HelloWorldEndpoint from './endpoints/hello'
 
-interface StackParameters { hostedZoneDomain: string, authorizerArn: string }
+interface StackParameters { hostedZoneDomain: string }
 
-export class App extends cdk.Stack {
+export class ApiStack extends cdk.Stack {
   constructor (scope: Construct, id: string, props: cdk.StackProps, config: StackParameters) {
     super(scope, id, props)
 
     const boardgamesApi = new OpenAPIRestAPI(this, 'OpenAPI Template App API', {
       Description: 'OpenAPI Template App API - part of the OpenAPI Apps Platform',
-      SubDomain: 'template-app',
-      HostedZoneDomain: config.hostedZoneDomain,
-      AuthorizerArn: config.authorizerArn
+      SubDomain: 'boardgames-api',
+      HostedZoneDomain: config.hostedZoneDomain
     })
 
     const appModels = new ApiModels(this, boardgamesApi.restApi)
