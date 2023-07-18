@@ -48,7 +48,7 @@ export default class OpenAPIRestAPI extends Construct {
       entry: path.join(__dirname, '../../routes/authorizer.ts'),
       bundling: {
         minify: true,
-        externalModules: ['aws-sdk', 'aws-jwt-verify', 'axios']
+        externalModules: ['aws-sdk']
       }
     })
 
