@@ -9,7 +9,7 @@ export const handler = async (event: APIGatewayProxyEvent): Promise<APIGatewayPr
   let openapiSpec, error
   try {
     const client = new APIGatewayClient({
-      region: 'eu-west-1'
+      region: 'eu-west-2'
     })
     const command = new GetExportCommand({
       restApiId: event.requestContext.apiId,
