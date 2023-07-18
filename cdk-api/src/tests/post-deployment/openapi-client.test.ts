@@ -28,6 +28,8 @@ describe('Open API Spec', () => {
   let openapiDoc: Document
   const downloadedOpenAPIDocPath = path.join(__dirname, './downloaded-app-openapi.json')
 
+  console.log('Server:', { server })
+
   beforeAll(async () => {
     console.log('Implicit test: it should download the openapi spec for the App Store from /openapi')
     const basicClient = axios.create({

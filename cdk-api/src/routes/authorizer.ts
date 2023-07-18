@@ -11,6 +11,7 @@ export async function handler (event: APIGatewayRequestAuthorizerEvent): Promise
 async function getPolicyFromAuthHeader (authHeader: string): Promise<APIGatewayAuthorizerResult> {
   const [descriptor, token] = authHeader.trim().split(/\s+/)
   if (descriptor.toLowerCase() !== 'bearer') {
+    console.log('Unexpected descriptor:', { descriptor })
     return buildPolicy('Deny', 'unknown', { })
   }
   try {
