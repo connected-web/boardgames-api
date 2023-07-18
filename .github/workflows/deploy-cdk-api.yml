@@ -54,4 +54,6 @@ jobs:
 
       - name: Deploy the CDK Stack
         run: npm run deploy -- --require-approval never
+        env:
+          CREATE_CNAME_RECORD: true
         working-directory: ./cdk-api
