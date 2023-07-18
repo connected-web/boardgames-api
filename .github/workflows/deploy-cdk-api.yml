@@ -53,5 +53,5 @@ jobs:
         working-directory: ./cdk-api
 
       - name: Deploy the CDK Stack
-        run: npm run deploy
+        run: npm run deploy -- --require-approval never
         working-directory: ./cdk-api
