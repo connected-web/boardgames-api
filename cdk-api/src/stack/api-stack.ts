@@ -12,8 +12,8 @@ export class ApiStack extends cdk.Stack {
   constructor (scope: Construct, id: string, props: cdk.StackProps, config: StackParameters) {
     super(scope, id, props)
 
-    const boardgamesApi = new OpenAPIRestAPI(this, 'OpenAPI Template App API', {
-      Description: 'OpenAPI Template App API - part of the OpenAPI Apps Platform',
+    const boardgamesApi = new OpenAPIRestAPI(this, 'Board Games API', {
+      Description: 'Board Games API - https://github.com/connected-web/boardgames-api/',
       SubDomain: 'boardgames-api',
       HostedZoneDomain: config.hostedZoneDomain
     })
