@@ -1,11 +1,11 @@
 {
   "Resources": {
-    "OpenAPITemplateAppAPIPrivateApiRequestAuthorizer8886B18A": {
+    "BoardGamesAPIPrivateApiRequestAuthorizer2AF0CB36": {
       "Type": "AWS::ApiGateway::Authorizer",
       "Properties": {
-        "Name": "MyTestStackOpenAPITemplateAppAPIPrivateApiRequestAuthorizerC284ABB5",
+        "Name": "MyTestStackBoardGamesAPIPrivateApiRequestAuthorizer3042B12C",
         "RestApiId": {
-          "Ref": "OpenAPITemplateAppAPI99E20BF3"
+          "Ref": "BoardGamesAPIBD87F933"
         },
         "Type": "REQUEST",
         "AuthorizerUri": {
@@ -60,14 +60,14 @@
         "IdentitySource": "method.request.header.Authorization"
       }
     },
-    "OpenAPITemplateAppAPI99E20BF3": {
+    "BoardGamesAPIBD87F933": {
       "Type": "AWS::ApiGateway::RestApi",
       "Properties": {
-        "Description": "OpenAPI Template App API - part of the OpenAPI Apps Platform",
-        "Name": "OpenAPI Template App API"
+        "Description": "Board Games API - https://github.com/connected-web/boardgames-api/",
+        "Name": "Board Games API"
       }
     },
-    "OpenAPITemplateAppAPICloudWatchRoleFE1A1654": {
+    "BoardGamesAPICloudWatchRole4BD25357": {
       "Type": "AWS::IAM::Role",
       "Properties": {
         "AssumeRolePolicyDocument": {
@@ -100,75 +100,75 @@
       "UpdateReplacePolicy": "Retain",
       "DeletionPolicy": "Retain"
     },
-    "OpenAPITemplateAppAPIAccount38A4376E": {
+    "BoardGamesAPIAccount35CAC8B7": {
       "Type": "AWS::ApiGateway::Account",
       "Properties": {
         "CloudWatchRoleArn": {
           "Fn::GetAtt": [
-            "OpenAPITemplateAppAPICloudWatchRoleFE1A1654",
+            "BoardGamesAPICloudWatchRole4BD25357",
             "Arn"
           ]
         }
       },
       "DependsOn": [
-        "OpenAPITemplateAppAPI99E20BF3"
+        "BoardGamesAPIBD87F933"
       ],
       "UpdateReplacePolicy": "Retain",
       "DeletionPolicy": "Retain"
     },
-    "OpenAPITemplateAppAPIDeployment2B7EF351451beb4a60faa58153b17ff8a5a3bde0": {
+    "BoardGamesAPIDeploymentCF2289E86bf63afbf541913f1406c77eb46d56d8": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
-          "Ref": "OpenAPITemplateAppAPI99E20BF3"
+          "Ref": "BoardGamesAPIBD87F933"
         },
-        "Description": "OpenAPI Template App API - part of the OpenAPI Apps Platform"
+        "Description": "Board Games API - https://github.com/connected-web/boardgames-api/"
       },
       "DependsOn": [
         "appVersionF1A566C2",
-        "OpenAPITemplateAppAPIhellonameGET30167954",
-        "OpenAPITemplateAppAPIhellonameOPTIONSE143B9AD",
-        "OpenAPITemplateAppAPIhelloname99F4B4C4",
-        "OpenAPITemplateAppAPIhelloOPTIONS7D624DAE",
-        "OpenAPITemplateAppAPIhello3EC332EB",
-        "OpenAPITemplateAppAPIopenapiGETE6ED4296",
-        "OpenAPITemplateAppAPIopenapiOPTIONS026E2DFD",
-        "OpenAPITemplateAppAPIopenapiDE133EED",
-        "OpenAPITemplateAppAPIOPTIONS30C7B6D2",
-        "OpenAPITemplateAppAPIstatusGETD396A56B",
-        "OpenAPITemplateAppAPIstatusOPTIONS90D9AF2D",
-        "OpenAPITemplateAppAPIstatus5A027D09",
+        "BoardGamesAPIhellonameGET9F9401AA",
+        "BoardGamesAPIhellonameOPTIONS315E18E9",
+        "BoardGamesAPIhelloname876A42C5",
+        "BoardGamesAPIhelloOPTIONS3593BB68",
+        "BoardGamesAPIhello5BCA6709",
+        "BoardGamesAPIopenapiGET12336D98",
+        "BoardGamesAPIopenapiOPTIONSC45BC1CB",
+        "BoardGamesAPIopenapiB261D55F",
+        "BoardGamesAPIOPTIONS81C311BD",
+        "BoardGamesAPIstatusGET799E8117",
+        "BoardGamesAPIstatusOPTIONS030FBF19",
+        "BoardGamesAPIstatus10B32DBB",
         "stubArray94D44F4F",
         "stubObjectA71F7001"
       ]
     },
-    "OpenAPITemplateAppAPIDeploymentStagev1819CF49D": {
+    "BoardGamesAPIDeploymentStagev13C85ECE1": {
       "Type": "AWS::ApiGateway::Stage",
       "Properties": {
         "RestApiId": {
-          "Ref": "OpenAPITemplateAppAPI99E20BF3"
+          "Ref": "BoardGamesAPIBD87F933"
         },
         "DeploymentId": {
-          "Ref": "OpenAPITemplateAppAPIDeployment2B7EF351451beb4a60faa58153b17ff8a5a3bde0"
+          "Ref": "BoardGamesAPIDeploymentCF2289E86bf63afbf541913f1406c77eb46d56d8"
         },
         "StageName": "v1"
       },
       "DependsOn": [
-        "OpenAPITemplateAppAPIAccount38A4376E"
+        "BoardGamesAPIAccount35CAC8B7"
       ]
     },
-    "OpenAPITemplateAppAPIOPTIONS30C7B6D2": {
+    "BoardGamesAPIOPTIONS81C311BD": {
       "Type": "AWS::ApiGateway::Method",
       "Properties": {
         "HttpMethod": "OPTIONS",
         "ResourceId": {
           "Fn::GetAtt": [
-            "OpenAPITemplateAppAPI99E20BF3",
+            "BoardGamesAPIBD87F933",
             "RootResourceId"
           ]
         },
         "RestApiId": {
-          "Ref": "OpenAPITemplateAppAPI99E20BF3"
+          "Ref": "BoardGamesAPIBD87F933"
         },
         "AuthorizationType": "NONE",
         "Integration": {
@@ -201,30 +201,30 @@
         ]
       }
     },
-    "OpenAPITemplateAppAPIstatus5A027D09": {
+    "BoardGamesAPIstatus10B32DBB": {
       "Type": "AWS::ApiGateway::Resource",
       "Properties": {
         "ParentId": {
           "Fn::GetAtt": [
-            "OpenAPITemplateAppAPI99E20BF3",
+            "BoardGamesAPIBD87F933",
             "RootResourceId"
           ]
         },
         "PathPart": "status",
         "RestApiId": {
-          "Ref": "OpenAPITemplateAppAPI99E20BF3"
+          "Ref": "BoardGamesAPIBD87F933"
         }
       }
     },
-    "OpenAPITemplateAppAPIstatusOPTIONS90D9AF2D": {
+    "BoardGamesAPIstatusOPTIONS030FBF19": {
       "Type": "AWS::ApiGateway::Method",
       "Properties": {
         "HttpMethod": "OPTIONS",
         "ResourceId": {
-          "Ref": "OpenAPITemplateAppAPIstatus5A027D09"
+          "Ref": "BoardGamesAPIstatus10B32DBB"
         },
         "RestApiId": {
-          "Ref": "OpenAPITemplateAppAPI99E20BF3"
+          "Ref": "BoardGamesAPIBD87F933"
         },
         "AuthorizationType": "NONE",
         "Integration": {
@@ -257,7 +257,7 @@
         ]
       }
     },
-    "OpenAPITemplateAppAPIstatusGETApiPermissionMyTestStackOpenAPITemplateAppAPI61C18995GETstatusC9936ECF": {
+    "BoardGamesAPIstatusGETApiPermissionMyTestStackBoardGamesAPI73545F1BGETstatusA5173854": {
       "Type": "AWS::Lambda::Permission",
       "Properties": {
         "Action": "lambda:InvokeFunction",
@@ -278,11 +278,11 @@
               },
               ":execute-api:eu-west-2:1234567890:",
               {
-                "Ref": "OpenAPITemplateAppAPI99E20BF3"
+                "Ref": "BoardGamesAPIBD87F933"
               },
               "/",
               {
-                "Ref": "OpenAPITemplateAppAPIDeploymentStagev1819CF49D"
+                "Ref": "BoardGamesAPIDeploymentStagev13C85ECE1"
               },
               "/GET/status"
             ]
@@ -290,7 +290,7 @@
         }
       }
     },
-    "OpenAPITemplateAppAPIstatusGETApiPermissionTestMyTestStackOpenAPITemplateAppAPI61C18995GETstatusF0E33276": {
+    "BoardGamesAPIstatusGETApiPermissionTestMyTestStackBoardGamesAPI73545F1BGETstatusC2A261CE": {
       "Type": "AWS::Lambda::Permission",
       "Properties": {
         "Action": "lambda:InvokeFunction",
@@ -311,7 +311,7 @@
               },
               ":execute-api:eu-west-2:1234567890:",
               {
-                "Ref": "OpenAPITemplateAppAPI99E20BF3"
+                "Ref": "BoardGamesAPIBD87F933"
               },
               "/test-invoke-stage/GET/status"
             ]
@@ -319,24 +319,24 @@
         }
       }
     },
-    "OpenAPITemplateAppAPIstatusGETD396A56B": {
+    "BoardGamesAPIstatusGET799E8117": {
       "Type": "AWS::ApiGateway::Method",
       "Properties": {
         "HttpMethod": "GET",
         "ResourceId": {
-          "Ref": "OpenAPITemplateAppAPIstatus5A027D09"
+          "Ref": "BoardGamesAPIstatus10B32DBB"
         },
         "RestApiId": {
-          "Ref": "OpenAPITemplateAppAPI99E20BF3"
+          "Ref": "BoardGamesAPIBD87F933"
         },
         "AuthorizationType": "CUSTOM",
         "AuthorizerId": {
-          "Ref": "OpenAPITemplateAppAPIPrivateApiRequestAuthorizer8886B18A"
+          "Ref": "BoardGamesAPIPrivateApiRequestAuthorizer2AF0CB36"
         },
         "Integration": {
           "Credentials": {
             "Fn::GetAtt": [
-              "OpenAPITemplateAppAPIApiExecutionRole718075F5",
+              "BoardGamesAPIApiExecutionRole53A9F419",
               "Arn"
             ]
           },
@@ -380,30 +380,30 @@
         "OperationName": "getStatus"
       }
     },
-    "OpenAPITemplateAppAPIopenapiDE133EED": {
+    "BoardGamesAPIopenapiB261D55F": {
       "Type": "AWS::ApiGateway::Resource",
       "Properties": {
         "ParentId": {
           "Fn::GetAtt": [
-            "OpenAPITemplateAppAPI99E20BF3",
+            "BoardGamesAPIBD87F933",
             "RootResourceId"
           ]
         },
         "PathPart": "openapi",
         "RestApiId": {
-          "Ref": "OpenAPITemplateAppAPI99E20BF3"
+          "Ref": "BoardGamesAPIBD87F933"
         }
       }
     },
-    "OpenAPITemplateAppAPIopenapiOPTIONS026E2DFD": {
+    "BoardGamesAPIopenapiOPTIONSC45BC1CB": {
       "Type": "AWS::ApiGateway::Method",
       "Properties": {
         "HttpMethod": "OPTIONS",
         "ResourceId": {
-          "Ref": "OpenAPITemplateAppAPIopenapiDE133EED"
+          "Ref": "BoardGamesAPIopenapiB261D55F"
         },
         "RestApiId": {
-          "Ref": "OpenAPITemplateAppAPI99E20BF3"
+          "Ref": "BoardGamesAPIBD87F933"
         },
         "AuthorizationType": "NONE",
         "Integration": {
@@ -436,7 +436,7 @@
         ]
       }
     },
-    "OpenAPITemplateAppAPIopenapiGETApiPermissionMyTestStackOpenAPITemplateAppAPI61C18995GETopenapi78AA3052": {
+    "BoardGamesAPIopenapiGETApiPermissionMyTestStackBoardGamesAPI73545F1BGETopenapi48829C3C": {
       "Type": "AWS::Lambda::Permission",
       "Properties": {
         "Action": "lambda:InvokeFunction",
@@ -457,11 +457,11 @@
               },
               ":execute-api:eu-west-2:1234567890:",
               {
-                "Ref": "OpenAPITemplateAppAPI99E20BF3"
+                "Ref": "BoardGamesAPIBD87F933"
               },
               "/",
               {
-                "Ref": "OpenAPITemplateAppAPIDeploymentStagev1819CF49D"
+                "Ref": "BoardGamesAPIDeploymentStagev13C85ECE1"
               },
               "/GET/openapi"
             ]
@@ -469,7 +469,7 @@
         }
       }
     },
-    "OpenAPITemplateAppAPIopenapiGETApiPermissionTestMyTestStackOpenAPITemplateAppAPI61C18995GETopenapiA25F6F6F": {
+    "BoardGamesAPIopenapiGETApiPermissionTestMyTestStackBoardGamesAPI73545F1BGETopenapi4C8E1A9C": {
       "Type": "AWS::Lambda::Permission",
       "Properties": {
         "Action": "lambda:InvokeFunction",
@@ -490,7 +490,7 @@
               },
               ":execute-api:eu-west-2:1234567890:",
               {
-                "Ref": "OpenAPITemplateAppAPI99E20BF3"
+                "Ref": "BoardGamesAPIBD87F933"
               },
               "/test-invoke-stage/GET/openapi"
             ]
@@ -498,24 +498,24 @@
         }
       }
     },
-    "OpenAPITemplateAppAPIopenapiGETE6ED4296": {
+    "BoardGamesAPIopenapiGET12336D98": {
       "Type": "AWS::ApiGateway::Method",
       "Properties": {
         "HttpMethod": "GET",
         "ResourceId": {
-          "Ref": "OpenAPITemplateAppAPIopenapiDE133EED"
+          "Ref": "BoardGamesAPIopenapiB261D55F"
         },
         "RestApiId": {
-          "Ref": "OpenAPITemplateAppAPI99E20BF3"
+          "Ref": "BoardGamesAPIBD87F933"
         },
         "AuthorizationType": "CUSTOM",
         "AuthorizerId": {
-          "Ref": "OpenAPITemplateAppAPIPrivateApiRequestAuthorizer8886B18A"
+          "Ref": "BoardGamesAPIPrivateApiRequestAuthorizer2AF0CB36"
         },
         "Integration": {
           "Credentials": {
             "Fn::GetAtt": [
-              "OpenAPITemplateAppAPIApiExecutionRole718075F5",
+              "BoardGamesAPIApiExecutionRole53A9F419",
               "Arn"
             ]
           },
@@ -559,30 +559,30 @@
         "OperationName": "getOpenAPISpec"
       }
     },
-    "OpenAPITemplateAppAPIhello3EC332EB": {
+    "BoardGamesAPIhello5BCA6709": {
       "Type": "AWS::ApiGateway::Resource",
       "Properties": {
         "ParentId": {
           "Fn::GetAtt": [
-            "OpenAPITemplateAppAPI99E20BF3",
+            "BoardGamesAPIBD87F933",
             "RootResourceId"
           ]
         },
         "PathPart": "hello",
         "RestApiId": {
-          "Ref": "OpenAPITemplateAppAPI99E20BF3"
+          "Ref": "BoardGamesAPIBD87F933"
         }
       }
     },
-    "OpenAPITemplateAppAPIhelloOPTIONS7D624DAE": {
+    "BoardGamesAPIhelloOPTIONS3593BB68": {
       "Type": "AWS::ApiGateway::Method",
       "Properties": {
         "HttpMethod": "OPTIONS",
         "ResourceId": {
-          "Ref": "OpenAPITemplateAppAPIhello3EC332EB"
+          "Ref": "BoardGamesAPIhello5BCA6709"
         },
         "RestApiId": {
-          "Ref": "OpenAPITemplateAppAPI99E20BF3"
+          "Ref": "BoardGamesAPIBD87F933"
         },
         "AuthorizationType": "NONE",
         "Integration": {
@@ -615,27 +615,27 @@
         ]
       }
     },
-    "OpenAPITemplateAppAPIhelloname99F4B4C4": {
+    "BoardGamesAPIhelloname876A42C5": {
       "Type": "AWS::ApiGateway::Resource",
       "Properties": {
         "ParentId": {
-          "Ref": "OpenAPITemplateAppAPIhello3EC332EB"
+          "Ref": "BoardGamesAPIhello5BCA6709"
         },
         "PathPart": "{name}",
         "RestApiId": {
-          "Ref": "OpenAPITemplateAppAPI99E20BF3"
+          "Ref": "BoardGamesAPIBD87F933"
         }
       }
     },
-    "OpenAPITemplateAppAPIhellonameOPTIONSE143B9AD": {
+    "BoardGamesAPIhellonameOPTIONS315E18E9": {
       "Type": "AWS::ApiGateway::Method",
       "Properties": {
         "HttpMethod": "OPTIONS",
         "ResourceId": {
-          "Ref": "OpenAPITemplateAppAPIhelloname99F4B4C4"
+          "Ref": "BoardGamesAPIhelloname876A42C5"
         },
         "RestApiId": {
-          "Ref": "OpenAPITemplateAppAPI99E20BF3"
+          "Ref": "BoardGamesAPIBD87F933"
         },
         "AuthorizationType": "NONE",
         "Integration": {
@@ -668,7 +668,7 @@
         ]
       }
     },
-    "OpenAPITemplateAppAPIhellonameGETApiPermissionMyTestStackOpenAPITemplateAppAPI61C18995GEThelloname78AF3935": {
+    "BoardGamesAPIhellonameGETApiPermissionMyTestStackBoardGamesAPI73545F1BGEThelloname15D40E6C": {
       "Type": "AWS::Lambda::Permission",
       "Properties": {
         "Action": "lambda:InvokeFunction",
@@ -689,11 +689,11 @@
               },
               ":execute-api:eu-west-2:1234567890:",
               {
-                "Ref": "OpenAPITemplateAppAPI99E20BF3"
+                "Ref": "BoardGamesAPIBD87F933"
               },
               "/",
               {
-                "Ref": "OpenAPITemplateAppAPIDeploymentStagev1819CF49D"
+                "Ref": "BoardGamesAPIDeploymentStagev13C85ECE1"
               },
               "/GET/hello/*"
             ]
@@ -701,7 +701,7 @@
         }
       }
     },
-    "OpenAPITemplateAppAPIhellonameGETApiPermissionTestMyTestStackOpenAPITemplateAppAPI61C18995GEThelloname00166166": {
+    "BoardGamesAPIhellonameGETApiPermissionTestMyTestStackBoardGamesAPI73545F1BGEThellonameF9CE73C8": {
       "Type": "AWS::Lambda::Permission",
       "Properties": {
         "Action": "lambda:InvokeFunction",
@@ -722,7 +722,7 @@
               },
               ":execute-api:eu-west-2:1234567890:",
               {
-                "Ref": "OpenAPITemplateAppAPI99E20BF3"
+                "Ref": "BoardGamesAPIBD87F933"
               },
               "/test-invoke-stage/GET/hello/*"
             ]
@@ -730,24 +730,24 @@
         }
       }
     },
-    "OpenAPITemplateAppAPIhellonameGET30167954": {
+    "BoardGamesAPIhellonameGET9F9401AA": {
       "Type": "AWS::ApiGateway::Method",
       "Properties": {
         "HttpMethod": "GET",
         "ResourceId": {
-          "Ref": "OpenAPITemplateAppAPIhelloname99F4B4C4"
+          "Ref": "BoardGamesAPIhelloname876A42C5"
         },
         "RestApiId": {
-          "Ref": "OpenAPITemplateAppAPI99E20BF3"
+          "Ref": "BoardGamesAPIBD87F933"
         },
         "AuthorizationType": "CUSTOM",
         "AuthorizerId": {
-          "Ref": "OpenAPITemplateAppAPIPrivateApiRequestAuthorizer8886B18A"
+          "Ref": "BoardGamesAPIPrivateApiRequestAuthorizer2AF0CB36"
         },
         "Integration": {
           "Credentials": {
             "Fn::GetAtt": [
-              "OpenAPITemplateAppAPIApiExecutionRole718075F5",
+              "BoardGamesAPIApiExecutionRole53A9F419",
               "Arn"
             ]
           },
@@ -791,7 +791,7 @@
         "OperationName": "helloWorld"
       }
     },
-    "OpenAPITemplateAppAPIApiExecutionRole718075F5": {
+    "BoardGamesAPIApiExecutionRole53A9F419": {
       "Type": "AWS::IAM::Role",
       "Properties": {
         "AssumeRolePolicyDocument": {
@@ -808,7 +808,7 @@
         }
       }
     },
-    "OpenAPITemplateAppAPIApiExecutionRoleDefaultPolicy93F913EF": {
+    "BoardGamesAPIApiExecutionRoleDefaultPolicyEE753B39": {
       "Type": "AWS::IAM::Policy",
       "Properties": {
         "PolicyDocument": {
@@ -846,10 +846,10 @@
           ],
           "Version": "2012-10-17"
         },
-        "PolicyName": "OpenAPITemplateAppAPIApiExecutionRoleDefaultPolicy93F913EF",
+        "PolicyName": "BoardGamesAPIApiExecutionRoleDefaultPolicyEE753B39",
         "Roles": [
           {
-            "Ref": "OpenAPITemplateAppAPIApiExecutionRole718075F5"
+            "Ref": "BoardGamesAPIApiExecutionRole53A9F419"
           }
         ]
       }
@@ -890,7 +890,7 @@
       "Properties": {
         "Code": {
           "S3Bucket": "cdk-hnb659fds-assets-1234567890-eu-west-2",
-          "S3Key": "aa6301d24f8727d61b02822f0d23372e680da53a7b124adeef17767596e25d95.zip"
+          "S3Key": "79fd685445da0d8ee84ec68df9c0ae6941364ae6effcbda9f6f817473e95c1d5.zip"
         },
         "Role": {
           "Fn::GetAtt": [
@@ -912,7 +912,7 @@
         "PrivateAPIAuthorizerServiceRoleEBFD5560"
       ]
     },
-    "PrivateAPIAuthorizerMyTestStackOpenAPITemplateAppAPIPrivateApiRequestAuthorizerC284ABB5Permissions924D1DB2": {
+    "PrivateAPIAuthorizerMyTestStackBoardGamesAPIPrivateApiRequestAuthorizer3042B12CPermissions67EBC74D": {
       "Type": "AWS::Lambda::Permission",
       "Properties": {
         "Action": "lambda:InvokeFunction",
@@ -933,11 +933,11 @@
               },
               ":execute-api:eu-west-2:1234567890:",
               {
-                "Ref": "OpenAPITemplateAppAPI99E20BF3"
+                "Ref": "BoardGamesAPIBD87F933"
               },
               "/authorizers/",
               {
-                "Ref": "OpenAPITemplateAppAPIPrivateApiRequestAuthorizer8886B18A"
+                "Ref": "BoardGamesAPIPrivateApiRequestAuthorizer2AF0CB36"
               }
             ]
           ]
@@ -948,7 +948,7 @@
       "Type": "AWS::ApiGateway::Model",
       "Properties": {
         "RestApiId": {
-          "Ref": "OpenAPITemplateAppAPI99E20BF3"
+          "Ref": "BoardGamesAPIBD87F933"
         },
         "ContentType": "application/json",
         "Name": "StubObjectModel",
@@ -969,7 +969,7 @@
       "Type": "AWS::ApiGateway::Model",
       "Properties": {
         "RestApiId": {
-          "Ref": "OpenAPITemplateAppAPI99E20BF3"
+          "Ref": "BoardGamesAPIBD87F933"
         },
         "ContentType": "application/json",
         "Name": "StubArrayModel",
@@ -993,7 +993,7 @@
       "Type": "AWS::ApiGateway::Model",
       "Properties": {
         "RestApiId": {
-          "Ref": "OpenAPITemplateAppAPI99E20BF3"
+          "Ref": "BoardGamesAPIBD87F933"
         },
         "ContentType": "application/json",
         "Name": "AppMessageModel",
@@ -1059,7 +1059,7 @@
         },
         "Environment": {
           "Variables": {
-            "STATUS_INFO": "{\"deploymentTime\":\"2023-07-17T20:23:24.844Z\"}",
+            "STATUS_INFO": "{\"deploymentTime\":\"2023-07-21T21:26:56.339Z\"}",
             "AWS_NODEJS_CONNECTION_REUSE_ENABLED": "1"
           }
         },
@@ -1129,7 +1129,7 @@
       "Properties": {
         "Code": {
           "S3Bucket": "cdk-hnb659fds-assets-1234567890-eu-west-2",
-          "S3Key": "6a7570ad4c3b1db3fa7433a60569c5baf2edbb7e906d5e1c93a344c75ce0f740.zip"
+          "S3Key": "15a22968422880674dbfe8fcc8c7f1f4b3219d4de7cdf17603c11ae44a5d2455.zip"
         },
         "Role": {
           "Fn::GetAtt": [
@@ -1214,14 +1214,14 @@
     }
   },
   "Outputs": {
-    "OpenAPITemplateAppAPIEndpointB4ABAC36": {
+    "BoardGamesAPIEndpoint21DF4E61": {
       "Value": {
         "Fn::Join": [
           "",
           [
             "https://",
             {
-              "Ref": "OpenAPITemplateAppAPI99E20BF3"
+              "Ref": "BoardGamesAPIBD87F933"
             },
             ".execute-api.eu-west-2.",
             {
@@ -1229,7 +1229,7 @@
             },
             "/",
             {
-              "Ref": "OpenAPITemplateAppAPIDeploymentStagev1819CF49D"
+              "Ref": "BoardGamesAPIDeploymentStagev13C85ECE1"
             },
             "/"
           ]
