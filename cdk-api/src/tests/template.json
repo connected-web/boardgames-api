@@ -1059,7 +1059,7 @@
         },
         "Environment": {
           "Variables": {
-            "STATUS_INFO": "{\"deploymentTime\":\"2023-07-21T21:26:56.339Z\"}",
+            "STATUS_INFO": "{\"deploymentTime\":\"2023-07-21T21:31:29.887Z\"}",
             "AWS_NODEJS_CONNECTION_REUSE_ENABLED": "1"
           }
         },
@@ -1198,7 +1198,7 @@
         },
         "Environment": {
           "Variables": {
-            "MESSAGE_TEMPLATE": "No template set, using default: name: \"{{ name }}\", weather: \"{{ weather }}\"",
+            "MESSAGE_TEMPLATE": "Hi {{ name }}, have a {{ weather }} day~ ☀️⛅☁️🌧️⛈️🌩️!",
             "EXAMPLE_ENV": "{\"weather\":\"sunny\"}",
             "AWS_NODEJS_CONNECTION_REUSE_ENABLED": "1"
           }

@@ -3,14 +3,14 @@ import AppModels from '../models/api-models'
 
 import OpenAPIFunction from '../openapi/openapi-function'
 
-const defaultTemplate = 'No template set, using default: name: "{{ name }}", weather: "{{ weather }}"'
+const defaultTemplate = 'Hi {{ name }}, have a {{ weather }} day~ ☀️⛅☁️🌧️⛈️🌩️!'
 
 export default class HelloWorldEndpoint extends OpenAPIFunction {
   constructor (scope: Construct, models: AppModels) {
     super('helloWorld')
     this.lambda = this.createNodeJSLambda(scope, 'routes/hello.ts', {
       environment: {
-        MESSAGE_TEMPLATE: process.env.MESSAGE_TEMPLATE ?? defaultTemplate,
+        MESSAGE_TEMPLATE: defaultTemplate,
         EXAMPLE_ENV: JSON.stringify({
           weather: 'sunny'
         })

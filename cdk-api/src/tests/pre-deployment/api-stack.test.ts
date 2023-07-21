@@ -29,8 +29,8 @@ describe('REST API', () => {
 
   it('Creates an AWS ApiGateway RestApi with the correct title and description', () => {
     template.hasResourceProperties('AWS::ApiGateway::RestApi', {
-      Description: 'OpenAPI Template App API - part of the OpenAPI Apps Platform',
-      Name: 'OpenAPI Template App API'
+      Description: 'Board Games API - https://github.com/connected-web/boardgames-api/',
+      Name: 'Board Games API'
     })
   })
 
