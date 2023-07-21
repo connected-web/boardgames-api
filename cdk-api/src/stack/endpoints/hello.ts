@@ -28,7 +28,7 @@ export default class HelloWorldEndpoint extends OpenAPIFunction {
         'method.response.header.Access-Control-Allow-Credentials': true
       },
       responseModels: {
-        'application/json': models.appMessageModel
+        'application/json': models.MessageResponse
       }
     })
   }

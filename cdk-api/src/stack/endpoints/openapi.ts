@@ -31,7 +31,7 @@ export default class OpenAPISpecEndpoint extends OpenAPIFunction {
         'method.response.header.Access-Control-Allow-Credentials': true
       },
       responseModels: {
-        'application/json': models.stubObjectModel
+        'application/json': models.BasicObjectModel
       }
     })
   }

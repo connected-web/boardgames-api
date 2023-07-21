@@ -116,7 +116,7 @@
       "UpdateReplacePolicy": "Retain",
       "DeletionPolicy": "Retain"
     },
-    "BoardGamesAPIDeploymentCF2289E86bf63afbf541913f1406c77eb46d56d8": {
+    "BoardGamesAPIDeploymentCF2289E806b933aaba571c308f8ca2c037af8f36": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -125,7 +125,9 @@
         "Description": "Board Games API - https://github.com/connected-web/boardgames-api/"
       },
       "DependsOn": [
-        "appVersionF1A566C2",
+        "BasicArray9BB70429",
+        "BasicObject9C56B0F9",
+        "BasicStringArray0EB573AE",
         "BoardGamesAPIhellonameGET9F9401AA",
         "BoardGamesAPIhellonameOPTIONS315E18E9",
         "BoardGamesAPIhelloname876A42C5",
@@ -138,8 +140,7 @@
         "BoardGamesAPIstatusGET799E8117",
         "BoardGamesAPIstatusOPTIONS030FBF19",
         "BoardGamesAPIstatus10B32DBB",
-        "stubArray94D44F4F",
-        "stubObjectA71F7001"
+        "MessageResponseFB81541E"
       ]
     },
     "BoardGamesAPIDeploymentStagev13C85ECE1": {
@@ -149,7 +150,7 @@
           "Ref": "BoardGamesAPIBD87F933"
         },
         "DeploymentId": {
-          "Ref": "BoardGamesAPIDeploymentCF2289E86bf63afbf541913f1406c77eb46d56d8"
+          "Ref": "BoardGamesAPIDeploymentCF2289E806b933aaba571c308f8ca2c037af8f36"
         },
         "StageName": "v1"
       },
@@ -366,7 +367,7 @@
           {
             "ResponseModels": {
               "application/json": {
-                "Ref": "stubObjectA71F7001"
+                "Ref": "BasicObject9C56B0F9"
               }
             },
             "ResponseParameters": {
@@ -545,7 +546,7 @@
           {
             "ResponseModels": {
               "application/json": {
-                "Ref": "stubObjectA71F7001"
+                "Ref": "BasicObject9C56B0F9"
               }
             },
             "ResponseParameters": {
@@ -777,7 +778,7 @@
           {
             "ResponseModels": {
               "application/json": {
-                "Ref": "appVersionF1A566C2"
+                "Ref": "MessageResponseFB81541E"
               }
             },
             "ResponseParameters": {
@@ -944,59 +945,70 @@
         }
       }
     },
-    "stubObjectA71F7001": {
+    "BasicObject9C56B0F9": {
       "Type": "AWS::ApiGateway::Model",
       "Properties": {
         "RestApiId": {
           "Ref": "BoardGamesAPIBD87F933"
         },
         "ContentType": "application/json",
-        "Name": "StubObjectModel",
+        "Name": "BasicObjectModel",
         "Schema": {
           "$schema": "http://json-schema.org/draft-04/schema#",
-          "title": "Object Stub",
+          "title": "Basic Object",
+          "description": "A basic JSON object with key value pairs",
           "type": "object",
-          "properties": {
-            "message": {
-              "type": "string",
-              "description": "This is a stub"
-            }
-          }
+          "properties": {},
+          "additionalProperties": true
         }
       }
     },
-    "stubArray94D44F4F": {
+    "BasicArray9BB70429": {
       "Type": "AWS::ApiGateway::Model",
       "Properties": {
         "RestApiId": {
           "Ref": "BoardGamesAPIBD87F933"
         },
         "ContentType": "application/json",
-        "Name": "StubArrayModel",
+        "Name": "BasicArrayModel",
         "Schema": {
           "$schema": "http://json-schema.org/draft-04/schema#",
-          "title": "Array Stub",
+          "title": "Basic Array of Objects",
           "type": "array",
           "items": {
             "type": "object",
-            "properties": {
-              "message": {
-                "type": "string",
-                "description": "This array item is a stub"
-              }
-            }
+            "properties": {},
+            "additionalProperties": true
           }
         }
       }
     },
-    "appVersionF1A566C2": {
+    "BasicStringArray0EB573AE": {
       "Type": "AWS::ApiGateway::Model",
       "Properties": {
         "RestApiId": {
           "Ref": "BoardGamesAPIBD87F933"
         },
         "ContentType": "application/json",
-        "Name": "AppMessageModel",
+        "Name": "BasicStringArrayModel",
+        "Schema": {
+          "$schema": "http://json-schema.org/draft-04/schema#",
+          "title": "Basic Array of Strings",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "MessageResponseFB81541E": {
+      "Type": "AWS::ApiGateway::Model",
+      "Properties": {
+        "RestApiId": {
+          "Ref": "BoardGamesAPIBD87F933"
+        },
+        "ContentType": "application/json",
+        "Name": "MessageResponseModel",
         "Schema": {
           "$schema": "http://json-schema.org/draft-04/schema#",
           "title": "Message",
@@ -1059,7 +1071,7 @@
         },
         "Environment": {
           "Variables": {
-            "STATUS_INFO": "{\"deploymentTime\":\"2023-07-21T21:31:29.887Z\"}",
+            "STATUS_INFO": "{\"deploymentTime\":\"2023-07-21T21:54:04.373Z\"}",
             "AWS_NODEJS_CONNECTION_REUSE_ENABLED": "1"
           }
         },
