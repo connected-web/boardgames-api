@@ -3,149 +3,149 @@ import type {
   Parameters,
   UnknownParamsObject,
   OperationResponse,
-  AxiosRequestConfig,
-} from 'openapi-client-axios'; 
+  AxiosRequestConfig
+} from 'openapi-client-axios'
 
 declare namespace Components {
-    namespace Schemas {
-        /**
+  namespace Schemas {
+    /**
          * Basic Array of Objects
          */
-        export type BasicArrayModel = {
-            [name: string]: any;
-        }[];
-        /**
+    export type BasicArrayModel = Array<{
+      [name: string]: any
+    }>
+    /**
          * Basic Object
          * A basic JSON object with key value pairs
          */
-        export interface BasicObjectModel {
-            [name: string]: any;
-        }
-        /**
+    export interface BasicObjectModel {
+      [name: string]: any
+    }
+    /**
          * Message
          */
-        export interface MessageResponseModel {
-            /**
+    export interface MessageResponseModel {
+      /**
              * The message returned by the server
              */
-            message: string;
-        }
+      message: string
     }
+  }
 }
 declare namespace Paths {
-    namespace CreatePlayRecord {
-        namespace Responses {
-            export type $200 = /**
+  namespace CreatePlayRecord {
+    namespace Responses {
+      export type $200 = /**
              * Basic Object
              * A basic JSON object with key value pairs
              */
-            Components.Schemas.BasicObjectModel;
-        }
+            Components.Schemas.BasicObjectModel
     }
-    namespace DeletePlayRecord {
-        namespace Responses {
-            export type $200 = /**
+  }
+  namespace DeletePlayRecord {
+    namespace Responses {
+      export type $200 = /**
              * Basic Object
              * A basic JSON object with key value pairs
              */
-            Components.Schemas.BasicObjectModel;
-        }
+            Components.Schemas.BasicObjectModel
     }
-    namespace GetOpenAPISpec {
-        namespace Responses {
-            export type $200 = /**
+  }
+  namespace GetOpenAPISpec {
+    namespace Responses {
+      export type $200 = /**
              * Basic Object
              * A basic JSON object with key value pairs
              */
-            Components.Schemas.BasicObjectModel;
-        }
+            Components.Schemas.BasicObjectModel
     }
-    namespace GetStatus {
-        namespace Responses {
-            export type $200 = /**
+  }
+  namespace GetStatus {
+    namespace Responses {
+      export type $200 = /**
              * Basic Object
              * A basic JSON object with key value pairs
              */
-            Components.Schemas.BasicObjectModel;
-        }
+            Components.Schemas.BasicObjectModel
     }
-    namespace Hello$Name {
-        namespace Options {
-            namespace Parameters {
-                export type Name = string;
-            }
-            export interface PathParameters {
-                name: Parameters.Name;
-            }
-        }
+  }
+  namespace Hello$Name {
+    namespace Options {
+      namespace Parameters {
+        export type Name = string
+      }
+      export interface PathParameters {
+        name: Parameters.Name
+      }
     }
-    namespace HelloWorld {
-        namespace Parameters {
-            export type Name = string;
-        }
-        export interface PathParameters {
-            name: Parameters.Name;
-        }
-        namespace Responses {
-            export type $200 = /* Message */ Components.Schemas.MessageResponseModel;
-        }
+  }
+  namespace HelloWorld {
+    namespace Parameters {
+      export type Name = string
     }
-    namespace ListPlayRecords {
-        namespace Responses {
-            export type $200 = /* Basic Array of Objects */ Components.Schemas.BasicArrayModel;
-        }
+    export interface PathParameters {
+      name: Parameters.Name
     }
+    namespace Responses {
+      export type $200 = /* Message */ Components.Schemas.MessageResponseModel
+    }
+  }
+  namespace ListPlayRecords {
+    namespace Responses {
+      export type $200 = /* Basic Array of Objects */ Components.Schemas.BasicArrayModel
+    }
+  }
 }
 
 export interface OperationMethods {
   /**
    * getStatus
    */
-  'getStatus'(
+  'getStatus': (
     parameters?: Parameters<UnknownParamsObject> | null,
     data?: any,
-    config?: AxiosRequestConfig  
-  ): OperationResponse<Paths.GetStatus.Responses.$200>
+    config?: AxiosRequestConfig
+  ) => OperationResponse<Paths.GetStatus.Responses.$200>
   /**
    * listPlayRecords
    */
-  'listPlayRecords'(
+  'listPlayRecords': (
     parameters?: Parameters<UnknownParamsObject> | null,
     data?: any,
-    config?: AxiosRequestConfig  
-  ): OperationResponse<Paths.ListPlayRecords.Responses.$200>
+    config?: AxiosRequestConfig
+  ) => OperationResponse<Paths.ListPlayRecords.Responses.$200>
   /**
    * helloWorld
    */
-  'helloWorld'(
+  'helloWorld': (
     parameters?: Parameters<Paths.HelloWorld.PathParameters> | null,
     data?: any,
-    config?: AxiosRequestConfig  
-  ): OperationResponse<Paths.HelloWorld.Responses.$200>
+    config?: AxiosRequestConfig
+  ) => OperationResponse<Paths.HelloWorld.Responses.$200>
   /**
    * deletePlayRecord
    */
-  'deletePlayRecord'(
+  'deletePlayRecord': (
     parameters?: Parameters<UnknownParamsObject> | null,
     data?: any,
-    config?: AxiosRequestConfig  
-  ): OperationResponse<Paths.DeletePlayRecord.Responses.$200>
+    config?: AxiosRequestConfig
+  ) => OperationResponse<Paths.DeletePlayRecord.Responses.$200>
   /**
    * getOpenAPISpec
    */
-  'getOpenAPISpec'(
+  'getOpenAPISpec': (
     parameters?: Parameters<UnknownParamsObject> | null,
     data?: any,
-    config?: AxiosRequestConfig  
-  ): OperationResponse<Paths.GetOpenAPISpec.Responses.$200>
+    config?: AxiosRequestConfig
+  ) => OperationResponse<Paths.GetOpenAPISpec.Responses.$200>
   /**
    * createPlayRecord
    */
-  'createPlayRecord'(
+  'createPlayRecord': (
     parameters?: Parameters<UnknownParamsObject> | null,
     data?: any,
-    config?: AxiosRequestConfig  
-  ): OperationResponse<Paths.CreatePlayRecord.Responses.$200>
+    config?: AxiosRequestConfig
+  ) => OperationResponse<Paths.CreatePlayRecord.Responses.$200>
 }
 
 export interface PathsDictionary {
@@ -153,21 +153,21 @@ export interface PathsDictionary {
     /**
      * getStatus
      */
-    'get'(
+    'get': (
       parameters?: Parameters<UnknownParamsObject> | null,
       data?: any,
-      config?: AxiosRequestConfig  
-    ): OperationResponse<Paths.GetStatus.Responses.$200>
+      config?: AxiosRequestConfig
+    ) => OperationResponse<Paths.GetStatus.Responses.$200>
   }
   ['/playrecords/list']: {
     /**
      * listPlayRecords
      */
-    'get'(
+    'get': (
       parameters?: Parameters<UnknownParamsObject> | null,
       data?: any,
-      config?: AxiosRequestConfig  
-    ): OperationResponse<Paths.ListPlayRecords.Responses.$200>
+      config?: AxiosRequestConfig
+    ) => OperationResponse<Paths.ListPlayRecords.Responses.$200>
   }
   ['/playrecords']: {
   }
@@ -175,41 +175,41 @@ export interface PathsDictionary {
     /**
      * helloWorld
      */
-    'get'(
+    'get': (
       parameters?: Parameters<Paths.HelloWorld.PathParameters> | null,
       data?: any,
-      config?: AxiosRequestConfig  
-    ): OperationResponse<Paths.HelloWorld.Responses.$200>
+      config?: AxiosRequestConfig
+    ) => OperationResponse<Paths.HelloWorld.Responses.$200>
   }
   ['/playrecords/delete']: {
     /**
      * deletePlayRecord
      */
-    'get'(
+    'get': (
       parameters?: Parameters<UnknownParamsObject> | null,
       data?: any,
-      config?: AxiosRequestConfig  
-    ): OperationResponse<Paths.DeletePlayRecord.Responses.$200>
+      config?: AxiosRequestConfig
+    ) => OperationResponse<Paths.DeletePlayRecord.Responses.$200>
   }
   ['/openapi']: {
     /**
      * getOpenAPISpec
      */
-    'get'(
+    'get': (
       parameters?: Parameters<UnknownParamsObject> | null,
       data?: any,
-      config?: AxiosRequestConfig  
-    ): OperationResponse<Paths.GetOpenAPISpec.Responses.$200>
+      config?: AxiosRequestConfig
+    ) => OperationResponse<Paths.GetOpenAPISpec.Responses.$200>
   }
   ['/playrecords/create']: {
     /**
      * createPlayRecord
      */
-    'get'(
+    'get': (
       parameters?: Parameters<UnknownParamsObject> | null,
       data?: any,
-      config?: AxiosRequestConfig  
-    ): OperationResponse<Paths.CreatePlayRecord.Responses.$200>
+      config?: AxiosRequestConfig
+    ) => OperationResponse<Paths.CreatePlayRecord.Responses.$200>
   }
   ['/']: {
   }
