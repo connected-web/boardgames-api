@@ -10,5 +10,3 @@ export default async function listObjects (params: ListObjectParams): Promise<Li
   const loc = new ListObjectsV2Command(params)
   return await s3Client.send(loc)
 }
-
-module.exports = listObjects

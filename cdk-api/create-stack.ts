@@ -26,7 +26,8 @@ const stackTemplate = new ApiStack(app, stackName, {
   }
 },
 {
-  hostedZoneDomain: accountConfig.hostedZoneDomain
+  hostedZoneDomain: accountConfig.hostedZoneDomain,
+  playRecordsBucketName: ['boardgames-api-playrecords', accountConfig.environment].join('-')
 })
 
 console.log('Created stack', stackTemplate.stackName)

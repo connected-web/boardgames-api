@@ -116,7 +116,7 @@
       "UpdateReplacePolicy": "Retain",
       "DeletionPolicy": "Retain"
     },
-    "BoardGamesAPIDeploymentCF2289E806b933aaba571c308f8ca2c037af8f36": {
+    "BoardGamesAPIDeploymentCF2289E8fbd0c921abf818503a484256282ec44b": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -137,6 +137,17 @@
         "BoardGamesAPIopenapiOPTIONSC45BC1CB",
         "BoardGamesAPIopenapiB261D55F",
         "BoardGamesAPIOPTIONS81C311BD",
+        "BoardGamesAPIplayrecordscreateGETFA2F1C0C",
+        "BoardGamesAPIplayrecordscreateOPTIONS8170720E",
+        "BoardGamesAPIplayrecordscreate346E2417",
+        "BoardGamesAPIplayrecordsdeleteGET7251663F",
+        "BoardGamesAPIplayrecordsdeleteOPTIONSFFA6A4EC",
+        "BoardGamesAPIplayrecordsdeleteDC3CD7B4",
+        "BoardGamesAPIplayrecordslistGET8CB8A37D",
+        "BoardGamesAPIplayrecordslistOPTIONSDD8211A4",
+        "BoardGamesAPIplayrecordslistFE9A465B",
+        "BoardGamesAPIplayrecordsOPTIONS059E95D5",
+        "BoardGamesAPIplayrecords1B851AE4",
         "BoardGamesAPIstatusGET799E8117",
         "BoardGamesAPIstatusOPTIONS030FBF19",
         "BoardGamesAPIstatus10B32DBB",
@@ -150,7 +161,7 @@
           "Ref": "BoardGamesAPIBD87F933"
         },
         "DeploymentId": {
-          "Ref": "BoardGamesAPIDeploymentCF2289E806b933aaba571c308f8ca2c037af8f36"
+          "Ref": "BoardGamesAPIDeploymentCF2289E8fbd0c921abf818503a484256282ec44b"
         },
         "StageName": "v1"
       },
@@ -792,6 +803,590 @@
         "OperationName": "helloWorld"
       }
     },
+    "BoardGamesAPIplayrecords1B851AE4": {
+      "Type": "AWS::ApiGateway::Resource",
+      "Properties": {
+        "ParentId": {
+          "Fn::GetAtt": [
+            "BoardGamesAPIBD87F933",
+            "RootResourceId"
+          ]
+        },
+        "PathPart": "playrecords",
+        "RestApiId": {
+          "Ref": "BoardGamesAPIBD87F933"
+        }
+      }
+    },
+    "BoardGamesAPIplayrecordsOPTIONS059E95D5": {
+      "Type": "AWS::ApiGateway::Method",
+      "Properties": {
+        "HttpMethod": "OPTIONS",
+        "ResourceId": {
+          "Ref": "BoardGamesAPIplayrecords1B851AE4"
+        },
+        "RestApiId": {
+          "Ref": "BoardGamesAPIBD87F933"
+        },
+        "AuthorizationType": "NONE",
+        "Integration": {
+          "IntegrationResponses": [
+            {
+              "ResponseParameters": {
+                "method.response.header.Access-Control-Allow-Headers": "'Authorization,content-type'",
+                "method.response.header.Access-Control-Allow-Origin": "'*'",
+                "method.response.header.Access-Control-Allow-Methods": "'OPTIONS,GET,PUT,POST,DELETE,PATCH,HEAD'",
+                "method.response.header.Access-Control-Allow-Credentials": "'true'"
+              },
+              "StatusCode": "204"
+            }
+          ],
+          "RequestTemplates": {
+            "application/json": "{ statusCode: 200 }"
+          },
+          "Type": "MOCK"
+        },
+        "MethodResponses": [
+          {
+            "ResponseParameters": {
+              "method.response.header.Access-Control-Allow-Headers": true,
+              "method.response.header.Access-Control-Allow-Origin": true,
+              "method.response.header.Access-Control-Allow-Methods": true,
+              "method.response.header.Access-Control-Allow-Credentials": true
+            },
+            "StatusCode": "204"
+          }
+        ]
+      }
+    },
+    "BoardGamesAPIplayrecordslistFE9A465B": {
+      "Type": "AWS::ApiGateway::Resource",
+      "Properties": {
+        "ParentId": {
+          "Ref": "BoardGamesAPIplayrecords1B851AE4"
+        },
+        "PathPart": "list",
+        "RestApiId": {
+          "Ref": "BoardGamesAPIBD87F933"
+        }
+      }
+    },
+    "BoardGamesAPIplayrecordslistOPTIONSDD8211A4": {
+      "Type": "AWS::ApiGateway::Method",
+      "Properties": {
+        "HttpMethod": "OPTIONS",
+        "ResourceId": {
+          "Ref": "BoardGamesAPIplayrecordslistFE9A465B"
+        },
+        "RestApiId": {
+          "Ref": "BoardGamesAPIBD87F933"
+        },
+        "AuthorizationType": "NONE",
+        "Integration": {
+          "IntegrationResponses": [
+            {
+              "ResponseParameters": {
+                "method.response.header.Access-Control-Allow-Headers": "'Authorization,content-type'",
+                "method.response.header.Access-Control-Allow-Origin": "'*'",
+                "method.response.header.Access-Control-Allow-Methods": "'OPTIONS,GET,PUT,POST,DELETE,PATCH,HEAD'",
+                "method.response.header.Access-Control-Allow-Credentials": "'true'"
+              },
+              "StatusCode": "204"
+            }
+          ],
+          "RequestTemplates": {
+            "application/json": "{ statusCode: 200 }"
+          },
+          "Type": "MOCK"
+        },
+        "MethodResponses": [
+          {
+            "ResponseParameters": {
+              "method.response.header.Access-Control-Allow-Headers": true,
+              "method.response.header.Access-Control-Allow-Origin": true,
+              "method.response.header.Access-Control-Allow-Methods": true,
+              "method.response.header.Access-Control-Allow-Credentials": true
+            },
+            "StatusCode": "204"
+          }
+        ]
+      }
+    },
+    "BoardGamesAPIplayrecordslistGETApiPermissionMyTestStackBoardGamesAPI73545F1BGETplayrecordslistBB7E7C77": {
+      "Type": "AWS::Lambda::Permission",
+      "Properties": {
+        "Action": "lambda:InvokeFunction",
+        "FunctionName": {
+          "Fn::GetAtt": [
+            "ListPlayRecords521D8F0C",
+            "Arn"
+          ]
+        },
+        "Principal": "apigateway.amazonaws.com",
+        "SourceArn": {
+          "Fn::Join": [
+            "",
+            [
+              "arn:",
+              {
+                "Ref": "AWS::Partition"
+              },
+              ":execute-api:eu-west-2:1234567890:",
+              {
+                "Ref": "BoardGamesAPIBD87F933"
+              },
+              "/",
+              {
+                "Ref": "BoardGamesAPIDeploymentStagev13C85ECE1"
+              },
+              "/GET/playrecords/list"
+            ]
+          ]
+        }
+      }
+    },
+    "BoardGamesAPIplayrecordslistGETApiPermissionTestMyTestStackBoardGamesAPI73545F1BGETplayrecordslist01AE3E83": {
+      "Type": "AWS::Lambda::Permission",
+      "Properties": {
+        "Action": "lambda:InvokeFunction",
+        "FunctionName": {
+          "Fn::GetAtt": [
+            "ListPlayRecords521D8F0C",
+            "Arn"
+          ]
+        },
+        "Principal": "apigateway.amazonaws.com",
+        "SourceArn": {
+          "Fn::Join": [
+            "",
+            [
+              "arn:",
+              {
+                "Ref": "AWS::Partition"
+              },
+              ":execute-api:eu-west-2:1234567890:",
+              {
+                "Ref": "BoardGamesAPIBD87F933"
+              },
+              "/test-invoke-stage/GET/playrecords/list"
+            ]
+          ]
+        }
+      }
+    },
+    "BoardGamesAPIplayrecordslistGET8CB8A37D": {
+      "Type": "AWS::ApiGateway::Method",
+      "Properties": {
+        "HttpMethod": "GET",
+        "ResourceId": {
+          "Ref": "BoardGamesAPIplayrecordslistFE9A465B"
+        },
+        "RestApiId": {
+          "Ref": "BoardGamesAPIBD87F933"
+        },
+        "AuthorizationType": "CUSTOM",
+        "AuthorizerId": {
+          "Ref": "BoardGamesAPIPrivateApiRequestAuthorizer2AF0CB36"
+        },
+        "Integration": {
+          "Credentials": {
+            "Fn::GetAtt": [
+              "BoardGamesAPIApiExecutionRole53A9F419",
+              "Arn"
+            ]
+          },
+          "IntegrationHttpMethod": "POST",
+          "Type": "AWS_PROXY",
+          "Uri": {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition"
+                },
+                ":apigateway:eu-west-2:lambda:path/2015-03-31/functions/",
+                {
+                  "Fn::GetAtt": [
+                    "ListPlayRecords521D8F0C",
+                    "Arn"
+                  ]
+                },
+                "/invocations"
+              ]
+            ]
+          }
+        },
+        "MethodResponses": [
+          {
+            "ResponseModels": {
+              "application/json": {
+                "Ref": "BasicArray9BB70429"
+              }
+            },
+            "ResponseParameters": {
+              "method.response.header.Content-Type": true,
+              "method.response.header.Access-Control-Allow-Origin": true,
+              "method.response.header.Access-Control-Allow-Credentials": true
+            },
+            "StatusCode": "200"
+          }
+        ],
+        "OperationName": "listPlayRecords"
+      }
+    },
+    "BoardGamesAPIplayrecordscreate346E2417": {
+      "Type": "AWS::ApiGateway::Resource",
+      "Properties": {
+        "ParentId": {
+          "Ref": "BoardGamesAPIplayrecords1B851AE4"
+        },
+        "PathPart": "create",
+        "RestApiId": {
+          "Ref": "BoardGamesAPIBD87F933"
+        }
+      }
+    },
+    "BoardGamesAPIplayrecordscreateOPTIONS8170720E": {
+      "Type": "AWS::ApiGateway::Method",
+      "Properties": {
+        "HttpMethod": "OPTIONS",
+        "ResourceId": {
+          "Ref": "BoardGamesAPIplayrecordscreate346E2417"
+        },
+        "RestApiId": {
+          "Ref": "BoardGamesAPIBD87F933"
+        },
+        "AuthorizationType": "NONE",
+        "Integration": {
+          "IntegrationResponses": [
+            {
+              "ResponseParameters": {
+                "method.response.header.Access-Control-Allow-Headers": "'Authorization,content-type'",
+                "method.response.header.Access-Control-Allow-Origin": "'*'",
+                "method.response.header.Access-Control-Allow-Methods": "'OPTIONS,GET,PUT,POST,DELETE,PATCH,HEAD'",
+                "method.response.header.Access-Control-Allow-Credentials": "'true'"
+              },
+              "StatusCode": "204"
+            }
+          ],
+          "RequestTemplates": {
+            "application/json": "{ statusCode: 200 }"
+          },
+          "Type": "MOCK"
+        },
+        "MethodResponses": [
+          {
+            "ResponseParameters": {
+              "method.response.header.Access-Control-Allow-Headers": true,
+              "method.response.header.Access-Control-Allow-Origin": true,
+              "method.response.header.Access-Control-Allow-Methods": true,
+              "method.response.header.Access-Control-Allow-Credentials": true
+            },
+            "StatusCode": "204"
+          }
+        ]
+      }
+    },
+    "BoardGamesAPIplayrecordscreateGETApiPermissionMyTestStackBoardGamesAPI73545F1BGETplayrecordscreate783123A2": {
+      "Type": "AWS::Lambda::Permission",
+      "Properties": {
+        "Action": "lambda:InvokeFunction",
+        "FunctionName": {
+          "Fn::GetAtt": [
+            "CreatePlayRecord9C20D2DE",
+            "Arn"
+          ]
+        },
+        "Principal": "apigateway.amazonaws.com",
+        "SourceArn": {
+          "Fn::Join": [
+            "",
+            [
+              "arn:",
+              {
+                "Ref": "AWS::Partition"
+              },
+              ":execute-api:eu-west-2:1234567890:",
+              {
+                "Ref": "BoardGamesAPIBD87F933"
+              },
+              "/",
+              {
+                "Ref": "BoardGamesAPIDeploymentStagev13C85ECE1"
+              },
+              "/GET/playrecords/create"
+            ]
+          ]
+        }
+      }
+    },
+    "BoardGamesAPIplayrecordscreateGETApiPermissionTestMyTestStackBoardGamesAPI73545F1BGETplayrecordscreate556549F0": {
+      "Type": "AWS::Lambda::Permission",
+      "Properties": {
+        "Action": "lambda:InvokeFunction",
+        "FunctionName": {
+          "Fn::GetAtt": [
+            "CreatePlayRecord9C20D2DE",
+            "Arn"
+          ]
+        },
+        "Principal": "apigateway.amazonaws.com",
+        "SourceArn": {
+          "Fn::Join": [
+            "",
+            [
+              "arn:",
+              {
+                "Ref": "AWS::Partition"
+              },
+              ":execute-api:eu-west-2:1234567890:",
+              {
+                "Ref": "BoardGamesAPIBD87F933"
+              },
+              "/test-invoke-stage/GET/playrecords/create"
+            ]
+          ]
+        }
+      }
+    },
+    "BoardGamesAPIplayrecordscreateGETFA2F1C0C": {
+      "Type": "AWS::ApiGateway::Method",
+      "Properties": {
+        "HttpMethod": "GET",
+        "ResourceId": {
+          "Ref": "BoardGamesAPIplayrecordscreate346E2417"
+        },
+        "RestApiId": {
+          "Ref": "BoardGamesAPIBD87F933"
+        },
+        "AuthorizationType": "CUSTOM",
+        "AuthorizerId": {
+          "Ref": "BoardGamesAPIPrivateApiRequestAuthorizer2AF0CB36"
+        },
+        "Integration": {
+          "Credentials": {
+            "Fn::GetAtt": [
+              "BoardGamesAPIApiExecutionRole53A9F419",
+              "Arn"
+            ]
+          },
+          "IntegrationHttpMethod": "POST",
+          "Type": "AWS_PROXY",
+          "Uri": {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition"
+                },
+                ":apigateway:eu-west-2:lambda:path/2015-03-31/functions/",
+                {
+                  "Fn::GetAtt": [
+                    "CreatePlayRecord9C20D2DE",
+                    "Arn"
+                  ]
+                },
+                "/invocations"
+              ]
+            ]
+          }
+        },
+        "MethodResponses": [
+          {
+            "ResponseModels": {
+              "application/json": {
+                "Ref": "BasicObject9C56B0F9"
+              }
+            },
+            "ResponseParameters": {
+              "method.response.header.Content-Type": true,
+              "method.response.header.Access-Control-Allow-Origin": true,
+              "method.response.header.Access-Control-Allow-Credentials": true
+            },
+            "StatusCode": "200"
+          }
+        ],
+        "OperationName": "createPlayRecord"
+      }
+    },
+    "BoardGamesAPIplayrecordsdeleteDC3CD7B4": {
+      "Type": "AWS::ApiGateway::Resource",
+      "Properties": {
+        "ParentId": {
+          "Ref": "BoardGamesAPIplayrecords1B851AE4"
+        },
+        "PathPart": "delete",
+        "RestApiId": {
+          "Ref": "BoardGamesAPIBD87F933"
+        }
+      }
+    },
+    "BoardGamesAPIplayrecordsdeleteOPTIONSFFA6A4EC": {
+      "Type": "AWS::ApiGateway::Method",
+      "Properties": {
+        "HttpMethod": "OPTIONS",
+        "ResourceId": {
+          "Ref": "BoardGamesAPIplayrecordsdeleteDC3CD7B4"
+        },
+        "RestApiId": {
+          "Ref": "BoardGamesAPIBD87F933"
+        },
+        "AuthorizationType": "NONE",
+        "Integration": {
+          "IntegrationResponses": [
+            {
+              "ResponseParameters": {
+                "method.response.header.Access-Control-Allow-Headers": "'Authorization,content-type'",
+                "method.response.header.Access-Control-Allow-Origin": "'*'",
+                "method.response.header.Access-Control-Allow-Methods": "'OPTIONS,GET,PUT,POST,DELETE,PATCH,HEAD'",
+                "method.response.header.Access-Control-Allow-Credentials": "'true'"
+              },
+              "StatusCode": "204"
+            }
+          ],
+          "RequestTemplates": {
+            "application/json": "{ statusCode: 200 }"
+          },
+          "Type": "MOCK"
+        },
+        "MethodResponses": [
+          {
+            "ResponseParameters": {
+              "method.response.header.Access-Control-Allow-Headers": true,
+              "method.response.header.Access-Control-Allow-Origin": true,
+              "method.response.header.Access-Control-Allow-Methods": true,
+              "method.response.header.Access-Control-Allow-Credentials": true
+            },
+            "StatusCode": "204"
+          }
+        ]
+      }
+    },
+    "BoardGamesAPIplayrecordsdeleteGETApiPermissionMyTestStackBoardGamesAPI73545F1BGETplayrecordsdelete3268D95B": {
+      "Type": "AWS::Lambda::Permission",
+      "Properties": {
+        "Action": "lambda:InvokeFunction",
+        "FunctionName": {
+          "Fn::GetAtt": [
+            "DeletePlayRecord899EA4D4",
+            "Arn"
+          ]
+        },
+        "Principal": "apigateway.amazonaws.com",
+        "SourceArn": {
+          "Fn::Join": [
+            "",
+            [
+              "arn:",
+              {
+                "Ref": "AWS::Partition"
+              },
+              ":execute-api:eu-west-2:1234567890:",
+              {
+                "Ref": "BoardGamesAPIBD87F933"
+              },
+              "/",
+              {
+                "Ref": "BoardGamesAPIDeploymentStagev13C85ECE1"
+              },
+              "/GET/playrecords/delete"
+            ]
+          ]
+        }
+      }
+    },
+    "BoardGamesAPIplayrecordsdeleteGETApiPermissionTestMyTestStackBoardGamesAPI73545F1BGETplayrecordsdelete2525DBA6": {
+      "Type": "AWS::Lambda::Permission",
+      "Properties": {
+        "Action": "lambda:InvokeFunction",
+        "FunctionName": {
+          "Fn::GetAtt": [
+            "DeletePlayRecord899EA4D4",
+            "Arn"
+          ]
+        },
+        "Principal": "apigateway.amazonaws.com",
+        "SourceArn": {
+          "Fn::Join": [
+            "",
+            [
+              "arn:",
+              {
+                "Ref": "AWS::Partition"
+              },
+              ":execute-api:eu-west-2:1234567890:",
+              {
+                "Ref": "BoardGamesAPIBD87F933"
+              },
+              "/test-invoke-stage/GET/playrecords/delete"
+            ]
+          ]
+        }
+      }
+    },
+    "BoardGamesAPIplayrecordsdeleteGET7251663F": {
+      "Type": "AWS::ApiGateway::Method",
+      "Properties": {
+        "HttpMethod": "GET",
+        "ResourceId": {
+          "Ref": "BoardGamesAPIplayrecordsdeleteDC3CD7B4"
+        },
+        "RestApiId": {
+          "Ref": "BoardGamesAPIBD87F933"
+        },
+        "AuthorizationType": "CUSTOM",
+        "AuthorizerId": {
+          "Ref": "BoardGamesAPIPrivateApiRequestAuthorizer2AF0CB36"
+        },
+        "Integration": {
+          "Credentials": {
+            "Fn::GetAtt": [
+              "BoardGamesAPIApiExecutionRole53A9F419",
+              "Arn"
+            ]
+          },
+          "IntegrationHttpMethod": "POST",
+          "Type": "AWS_PROXY",
+          "Uri": {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition"
+                },
+                ":apigateway:eu-west-2:lambda:path/2015-03-31/functions/",
+                {
+                  "Fn::GetAtt": [
+                    "DeletePlayRecord899EA4D4",
+                    "Arn"
+                  ]
+                },
+                "/invocations"
+              ]
+            ]
+          }
+        },
+        "MethodResponses": [
+          {
+            "ResponseModels": {
+              "application/json": {
+                "Ref": "BasicObject9C56B0F9"
+              }
+            },
+            "ResponseParameters": {
+              "method.response.header.Content-Type": true,
+              "method.response.header.Access-Control-Allow-Origin": true,
+              "method.response.header.Access-Control-Allow-Credentials": true
+            },
+            "StatusCode": "200"
+          }
+        ],
+        "OperationName": "deletePlayRecord"
+      }
+    },
     "BoardGamesAPIApiExecutionRole53A9F419": {
       "Type": "AWS::IAM::Role",
       "Properties": {
@@ -840,6 +1435,36 @@
               "Resource": {
                 "Fn::GetAtt": [
                   "HelloWorld7964D1E8",
+                  "Arn"
+                ]
+              }
+            },
+            {
+              "Action": "lambda:InvokeFunction",
+              "Effect": "Allow",
+              "Resource": {
+                "Fn::GetAtt": [
+                  "ListPlayRecords521D8F0C",
+                  "Arn"
+                ]
+              }
+            },
+            {
+              "Action": "lambda:InvokeFunction",
+              "Effect": "Allow",
+              "Resource": {
+                "Fn::GetAtt": [
+                  "CreatePlayRecord9C20D2DE",
+                  "Arn"
+                ]
+              }
+            },
+            {
+              "Action": "lambda:InvokeFunction",
+              "Effect": "Allow",
+              "Resource": {
+                "Fn::GetAtt": [
+                  "DeletePlayRecord899EA4D4",
                   "Arn"
                 ]
               }
@@ -944,6 +1569,14 @@
           ]
         }
       }
+    },
+    "PlayRecordsBucket747A7EDE": {
+      "Type": "AWS::S3::Bucket",
+      "Properties": {
+        "BucketName": "unit-test-bucket-name-for-playrecords"
+      },
+      "UpdateReplacePolicy": "Delete",
+      "DeletionPolicy": "Delete"
     },
     "BasicObject9C56B0F9": {
       "Type": "AWS::ApiGateway::Model",
@@ -1071,7 +1704,7 @@
         },
         "Environment": {
           "Variables": {
-            "STATUS_INFO": "{\"deploymentTime\":\"2023-07-21T21:54:04.373Z\"}",
+            "STATUS_INFO": "{\"deploymentTime\":\"2023-07-21T22:47:30.188Z\"}",
             "AWS_NODEJS_CONNECTION_REUSE_ENABLED": "1"
           }
         },
@@ -1222,6 +1855,345 @@
       },
       "DependsOn": [
         "HelloWorldServiceRoleF3F7D8B0"
+      ]
+    },
+    "ListPlayRecordsServiceRole76DC840D": {
+      "Type": "AWS::IAM::Role",
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "lambda.amazonaws.com"
+              }
+            }
+          ],
+          "Version": "2012-10-17"
+        },
+        "ManagedPolicyArns": [
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition"
+                },
+                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "ListPlayRecordsServiceRoleDefaultPolicy57F09A0C": {
+      "Type": "AWS::IAM::Policy",
+      "Properties": {
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": [
+                "s3:GetObject*",
+                "s3:GetBucket*",
+                "s3:List*",
+                "s3:DeleteObject*",
+                "s3:PutObject",
+                "s3:PutObjectLegalHold",
+                "s3:PutObjectRetention",
+                "s3:PutObjectTagging",
+                "s3:PutObjectVersionTagging",
+                "s3:Abort*"
+              ],
+              "Effect": "Allow",
+              "Resource": [
+                {
+                  "Fn::GetAtt": [
+                    "PlayRecordsBucket747A7EDE",
+                    "Arn"
+                  ]
+                },
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      {
+                        "Fn::GetAtt": [
+                          "PlayRecordsBucket747A7EDE",
+                          "Arn"
+                        ]
+                      },
+                      "/*"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "Version": "2012-10-17"
+        },
+        "PolicyName": "ListPlayRecordsServiceRoleDefaultPolicy57F09A0C",
+        "Roles": [
+          {
+            "Ref": "ListPlayRecordsServiceRole76DC840D"
+          }
+        ]
+      }
+    },
+    "ListPlayRecords521D8F0C": {
+      "Type": "AWS::Lambda::Function",
+      "Properties": {
+        "Code": {
+          "S3Bucket": "cdk-hnb659fds-assets-1234567890-eu-west-2",
+          "S3Key": "ee611936bd6ffc423ee1e00150b4b656afb0db0b9cb998653f17108708965a07.zip"
+        },
+        "Role": {
+          "Fn::GetAtt": [
+            "ListPlayRecordsServiceRole76DC840D",
+            "Arn"
+          ]
+        },
+        "Environment": {
+          "Variables": {
+            "DATA_BUCKET_NAME": "unit-test-bucket-name-for-playrecords",
+            "AWS_NODEJS_CONNECTION_REUSE_ENABLED": "1"
+          }
+        },
+        "Handler": "index.handler",
+        "MemorySize": 256,
+        "Runtime": "nodejs16.x",
+        "Timeout": 5
+      },
+      "DependsOn": [
+        "ListPlayRecordsServiceRoleDefaultPolicy57F09A0C",
+        "ListPlayRecordsServiceRole76DC840D"
+      ]
+    },
+    "CreatePlayRecordServiceRole2E98C8E0": {
+      "Type": "AWS::IAM::Role",
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "lambda.amazonaws.com"
+              }
+            }
+          ],
+          "Version": "2012-10-17"
+        },
+        "ManagedPolicyArns": [
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition"
+                },
+                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "CreatePlayRecordServiceRoleDefaultPolicy5E646776": {
+      "Type": "AWS::IAM::Policy",
+      "Properties": {
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": [
+                "s3:GetObject*",
+                "s3:GetBucket*",
+                "s3:List*",
+                "s3:DeleteObject*",
+                "s3:PutObject",
+                "s3:PutObjectLegalHold",
+                "s3:PutObjectRetention",
+                "s3:PutObjectTagging",
+                "s3:PutObjectVersionTagging",
+                "s3:Abort*"
+              ],
+              "Effect": "Allow",
+              "Resource": [
+                {
+                  "Fn::GetAtt": [
+                    "PlayRecordsBucket747A7EDE",
+                    "Arn"
+                  ]
+                },
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      {
+                        "Fn::GetAtt": [
+                          "PlayRecordsBucket747A7EDE",
+                          "Arn"
+                        ]
+                      },
+                      "/*"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "Version": "2012-10-17"
+        },
+        "PolicyName": "CreatePlayRecordServiceRoleDefaultPolicy5E646776",
+        "Roles": [
+          {
+            "Ref": "CreatePlayRecordServiceRole2E98C8E0"
+          }
+        ]
+      }
+    },
+    "CreatePlayRecord9C20D2DE": {
+      "Type": "AWS::Lambda::Function",
+      "Properties": {
+        "Code": {
+          "S3Bucket": "cdk-hnb659fds-assets-1234567890-eu-west-2",
+          "S3Key": "26d140c4918a674e4ead8ba49f1f714c35eead78d67f4783d419430e19b6449a.zip"
+        },
+        "Role": {
+          "Fn::GetAtt": [
+            "CreatePlayRecordServiceRole2E98C8E0",
+            "Arn"
+          ]
+        },
+        "Environment": {
+          "Variables": {
+            "DATA_BUCKET_NAME": "unit-test-bucket-name-for-playrecords",
+            "AWS_NODEJS_CONNECTION_REUSE_ENABLED": "1"
+          }
+        },
+        "Handler": "index.handler",
+        "MemorySize": 256,
+        "Runtime": "nodejs16.x",
+        "Timeout": 5
+      },
+      "DependsOn": [
+        "CreatePlayRecordServiceRoleDefaultPolicy5E646776",
+        "CreatePlayRecordServiceRole2E98C8E0"
+      ]
+    },
+    "DeletePlayRecordServiceRole6BD926B3": {
+      "Type": "AWS::IAM::Role",
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "lambda.amazonaws.com"
+              }
+            }
+          ],
+          "Version": "2012-10-17"
+        },
+        "ManagedPolicyArns": [
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition"
+                },
+                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "DeletePlayRecordServiceRoleDefaultPolicyE5162683": {
+      "Type": "AWS::IAM::Policy",
+      "Properties": {
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": [
+                "s3:GetObject*",
+                "s3:GetBucket*",
+                "s3:List*",
+                "s3:DeleteObject*",
+                "s3:PutObject",
+                "s3:PutObjectLegalHold",
+                "s3:PutObjectRetention",
+                "s3:PutObjectTagging",
+                "s3:PutObjectVersionTagging",
+                "s3:Abort*"
+              ],
+              "Effect": "Allow",
+              "Resource": [
+                {
+                  "Fn::GetAtt": [
+                    "PlayRecordsBucket747A7EDE",
+                    "Arn"
+                  ]
+                },
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      {
+                        "Fn::GetAtt": [
+                          "PlayRecordsBucket747A7EDE",
+                          "Arn"
+                        ]
+                      },
+                      "/*"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "Version": "2012-10-17"
+        },
+        "PolicyName": "DeletePlayRecordServiceRoleDefaultPolicyE5162683",
+        "Roles": [
+          {
+            "Ref": "DeletePlayRecordServiceRole6BD926B3"
+          }
+        ]
+      }
+    },
+    "DeletePlayRecord899EA4D4": {
+      "Type": "AWS::Lambda::Function",
+      "Properties": {
+        "Code": {
+          "S3Bucket": "cdk-hnb659fds-assets-1234567890-eu-west-2",
+          "S3Key": "b21d9cf7df09d14849ce774a49dd799cdb644a8a47d3ce791fe5cf37bf5c0495.zip"
+        },
+        "Role": {
+          "Fn::GetAtt": [
+            "DeletePlayRecordServiceRole6BD926B3",
+            "Arn"
+          ]
+        },
+        "Environment": {
+          "Variables": {
+            "DATA_BUCKET_NAME": "unit-test-bucket-name-for-playrecords",
+            "AWS_NODEJS_CONNECTION_REUSE_ENABLED": "1"
+          }
+        },
+        "Handler": "index.handler",
+        "MemorySize": 256,
+        "Runtime": "nodejs16.x",
+        "Timeout": 5
+      },
+      "DependsOn": [
+        "DeletePlayRecordServiceRoleDefaultPolicyE5162683",
+        "DeletePlayRecordServiceRole6BD926B3"
       ]
     }
   },
