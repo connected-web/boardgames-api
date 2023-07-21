@@ -3,7 +3,7 @@
   "info": {
     "title": "Board Games API",
     "description": "Board Games API - https://github.com/connected-web/boardgames-api/",
-    "version": "2023-07-18T19:54:18Z"
+    "version": "2023-07-21T22:53:20Z"
   },
   "servers": [
     {
@@ -37,7 +37,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/StubObjectModel"
+                  "$ref": "#/components/schemas/BasicObjectModel"
                 }
               }
             }
@@ -49,6 +49,107 @@
           }
         ]
       },
+      "options": {
+        "responses": {
+          "204": {
+            "description": "204 response",
+            "headers": {
+              "Access-Control-Allow-Origin": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Access-Control-Allow-Methods": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Access-Control-Allow-Credentials": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Access-Control-Allow-Headers": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {}
+          }
+        }
+      }
+    },
+    "/playrecords/list": {
+      "get": {
+        "operationId": "listPlayRecords",
+        "responses": {
+          "200": {
+            "description": "200 response",
+            "headers": {
+              "Access-Control-Allow-Origin": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Access-Control-Allow-Credentials": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Content-Type": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BasicArrayModel"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "BoardgamesAPIBoardGamesAPIPrivateApiRequestAuthorizerB54985A8": []
+          }
+        ]
+      },
+      "options": {
+        "responses": {
+          "204": {
+            "description": "204 response",
+            "headers": {
+              "Access-Control-Allow-Origin": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Access-Control-Allow-Methods": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Access-Control-Allow-Credentials": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Access-Control-Allow-Headers": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {}
+          }
+        }
+      }
+    },
+    "/playrecords": {
       "options": {
         "responses": {
           "204": {
@@ -116,7 +217,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/AppMessageModel"
+                  "$ref": "#/components/schemas/MessageResponseModel"
                 }
               }
             }
@@ -139,6 +240,75 @@
             }
           }
         ],
+        "responses": {
+          "204": {
+            "description": "204 response",
+            "headers": {
+              "Access-Control-Allow-Origin": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Access-Control-Allow-Methods": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Access-Control-Allow-Credentials": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Access-Control-Allow-Headers": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {}
+          }
+        }
+      }
+    },
+    "/playrecords/delete": {
+      "get": {
+        "operationId": "deletePlayRecord",
+        "responses": {
+          "200": {
+            "description": "200 response",
+            "headers": {
+              "Access-Control-Allow-Origin": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Access-Control-Allow-Credentials": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Content-Type": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BasicObjectModel"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "BoardgamesAPIBoardGamesAPIPrivateApiRequestAuthorizerB54985A8": []
+          }
+        ]
+      },
+      "options": {
         "responses": {
           "204": {
             "description": "204 response",
@@ -195,7 +365,76 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/StubObjectModel"
+                  "$ref": "#/components/schemas/BasicObjectModel"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "BoardgamesAPIBoardGamesAPIPrivateApiRequestAuthorizerB54985A8": []
+          }
+        ]
+      },
+      "options": {
+        "responses": {
+          "204": {
+            "description": "204 response",
+            "headers": {
+              "Access-Control-Allow-Origin": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Access-Control-Allow-Methods": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Access-Control-Allow-Credentials": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Access-Control-Allow-Headers": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {}
+          }
+        }
+      }
+    },
+    "/playrecords/create": {
+      "get": {
+        "operationId": "createPlayRecord",
+        "responses": {
+          "200": {
+            "description": "200 response",
+            "headers": {
+              "Access-Control-Allow-Origin": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Access-Control-Allow-Credentials": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Content-Type": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BasicObjectModel"
                 }
               }
             }
@@ -305,17 +544,14 @@
   },
   "components": {
     "schemas": {
-      "StubObjectModel": {
-        "title": "Object Stub",
+      "BasicObjectModel": {
+        "title": "Basic Object",
         "type": "object",
-        "properties": {
-          "message": {
-            "type": "string",
-            "description": "This is a stub"
-          }
-        }
+        "properties": {},
+        "additionalProperties": true,
+        "description": "A basic JSON object with key value pairs"
       },
-      "AppMessageModel": {
+      "MessageResponseModel": {
         "title": "Message",
         "required": [
           "message"
@@ -326,6 +562,15 @@
             "type": "string",
             "description": "The message returned by the server"
           }
+        }
+      },
+      "BasicArrayModel": {
+        "title": "Basic Array of Objects",
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {},
+          "additionalProperties": true
         }
       }
     },

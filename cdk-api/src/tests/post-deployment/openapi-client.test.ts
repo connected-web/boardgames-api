@@ -61,6 +61,10 @@ describe('Open API Spec', () => {
       '/hello',
       '/hello/{name}',
       '/openapi',
+      '/playrecords',
+      '/playrecords/create',
+      '/playrecords/delete',
+      '/playrecords/list',
       '/status'
     ])
   })
@@ -104,7 +108,7 @@ describe('Open API Spec', () => {
 
       console.log('Get Open API Spec:', response.status, response.statusText, JSON.stringify(response.data, null, 2))
 
-      ajv.validate({ $ref: 'app-openapi.json#/components/schemas/StubObjectModel' }, response.data)
+      ajv.validate({ $ref: 'app-openapi.json#/components/schemas/BasicObjectModel' }, response.data)
       expect(ajv.errors ?? []).toEqual([])
     })
 
@@ -113,7 +117,7 @@ describe('Open API Spec', () => {
 
       console.log('Get Status:', response.status, response.statusText, JSON.stringify(response.data, null, 2))
 
-      ajv.validate({ $ref: 'app-openapi.json#/components/schemas/StubObjectModel' }, response.data)
+      ajv.validate({ $ref: 'app-openapi.json#/components/schemas/BasicObjectModel' }, response.data)
       expect(ajv.errors ?? []).toEqual([])
     })
 

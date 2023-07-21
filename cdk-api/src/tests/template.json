@@ -1704,7 +1704,7 @@
         },
         "Environment": {
           "Variables": {
-            "STATUS_INFO": "{\"deploymentTime\":\"2023-07-21T22:47:30.188Z\"}",
+            "STATUS_INFO": "{\"deploymentTime\":\"2023-07-21T23:08:31.008Z\"}",
             "AWS_NODEJS_CONNECTION_REUSE_ENABLED": "1"
           }
         },
@@ -1897,14 +1897,7 @@
               "Action": [
                 "s3:GetObject*",
                 "s3:GetBucket*",
-                "s3:List*",
-                "s3:DeleteObject*",
-                "s3:PutObject",
-                "s3:PutObjectLegalHold",
-                "s3:PutObjectRetention",
-                "s3:PutObjectTagging",
-                "s3:PutObjectVersionTagging",
-                "s3:Abort*"
+                "s3:List*"
               ],
               "Effect": "Allow",
               "Resource": [
