@@ -12,7 +12,7 @@ export default class ListPlayrecordsEndpoint extends OpenAPIFunction {
         DATA_BUCKET_NAME: config.playRecordsBucketName
       }
     })
-    bucket.grantReadWrite(this.lambda)
+    bucket.grantRead(this.lambda)
     this.addMetaData(models)
   }
 
