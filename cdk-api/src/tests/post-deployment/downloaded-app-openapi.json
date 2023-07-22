@@ -3,7 +3,7 @@
   "info": {
     "title": "Board Games API",
     "description": "Board Games API - https://github.com/connected-web/boardgames-api/",
-    "version": "2023-07-21T22:53:20Z"
+    "version": "2023-07-22T11:43:31Z"
   },
   "servers": [
     {
@@ -309,6 +309,95 @@
         ]
       },
       "options": {
+        "responses": {
+          "204": {
+            "description": "204 response",
+            "headers": {
+              "Access-Control-Allow-Origin": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Access-Control-Allow-Methods": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Access-Control-Allow-Credentials": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Access-Control-Allow-Headers": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {}
+          }
+        }
+      }
+    },
+    "/playrecords/list/{dateCode}": {
+      "get": {
+        "operationId": "listPlayRecordsByDate",
+        "parameters": [
+          {
+            "name": "dateCode",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "200 response",
+            "headers": {
+              "Access-Control-Allow-Origin": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Access-Control-Allow-Credentials": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Content-Type": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BasicArrayModel"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "BoardgamesAPIBoardGamesAPIPrivateApiRequestAuthorizerB54985A8": []
+          }
+        ]
+      },
+      "options": {
+        "parameters": [
+          {
+            "name": "dateCode",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
         "responses": {
           "204": {
             "description": "204 response",

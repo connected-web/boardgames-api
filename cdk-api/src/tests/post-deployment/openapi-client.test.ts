@@ -49,8 +49,8 @@ describe('Open API Spec', () => {
   it('should contain an info block with title and description', async () => {
     const { version, ...testableProps } = openapiDoc.info
     expect(testableProps).toEqual({
-      title: 'OpenAPI Template App API',
-      description: 'OpenAPI Template App API - part of the OpenAPI Apps Platform'
+      title: 'Board Games API',
+      description: 'Board Games API - https://github.com/connected-web/boardgames-api/'
     })
   })
 
@@ -65,6 +65,7 @@ describe('Open API Spec', () => {
       '/playrecords/create',
       '/playrecords/delete',
       '/playrecords/list',
+      "/playrecords/list/{dateCode}",
       '/status'
     ])
   })
@@ -126,11 +127,11 @@ describe('Open API Spec', () => {
 
       console.log('Hello World:', response.status, response.statusText, JSON.stringify(response.data, null, 2))
 
-      ajv.validate({ $ref: 'app-openapi.json#/components/schemas/AppMessageModel' }, response.data)
+      ajv.validate({ $ref: 'app-openapi.json#/components/schemas/MessageResponseModel' }, response.data)
       expect(ajv.errors ?? []).toEqual([])
 
       expect(response.data).toEqual({
-        message: 'Hello Andy! I hope you have a sunny day :)'
+        message: 'Hi Andy, have a sunny day~ ☀️⛅☁️🌧️⛈️🌩️!'
       })
     })
   })
