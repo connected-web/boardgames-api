@@ -8,9 +8,10 @@ import StatusEndpoint from './endpoints/status'
 import OpenAPISpecEndpoint from './endpoints/openapi'
 import HelloWorldEndpoint from './endpoints/hello'
 
-import ListPlayrecordsEndpoint from './endpoints/listPlayrecords'
-import CreatePlayrecordEndpoint from './endpoints/createPlayrecord'
-import DeletePlayrecordEndpoint from './endpoints/deletePlayrecord'
+import ListPlayRecordsEndpoint from './endpoints/listPlayrecords'
+import CreatePlayRecordEndpoint from './endpoints/createPlayrecord'
+import DeletePlayRecordEndpoint from './endpoints/deletePlayrecord'
+import ListPlayRecordsByDateEndpoint from './endpoints/listPlayRecordsByDate'
 
 export interface StackParameters { hostedZoneDomain: string, playRecordsBucketName: string }
 
@@ -35,9 +36,10 @@ export class ApiStack extends cdk.Stack {
       .get('/status', new StatusEndpoint(this, appModels))
       .get('/openapi', new OpenAPISpecEndpoint(this, appModels))
       .get('/hello/{name}', new HelloWorldEndpoint(this, appModels))
-      .get('/playrecords/list', new ListPlayrecordsEndpoint(this, appModels, config, playRecordsBucket))
-      .get('/playrecords/create', new CreatePlayrecordEndpoint(this, appModels, config, playRecordsBucket))
-      .get('/playrecords/delete', new DeletePlayrecordEndpoint(this, appModels, config, playRecordsBucket))
+      .get('/playrecords/list', new ListPlayRecordsEndpoint(this, appModels, config, playRecordsBucket))
+      .get('/playrecords/list/{dateCode}', new ListPlayRecordsByDateEndpoint(this, appModels, config, playRecordsBucket))
+      .get('/playrecords/create', new CreatePlayRecordEndpoint(this, appModels, config, playRecordsBucket))
+      .get('/playrecords/delete', new DeletePlayRecordEndpoint(this, appModels, config, playRecordsBucket))
       .report()
   }
 }

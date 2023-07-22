@@ -116,7 +116,7 @@
       "UpdateReplacePolicy": "Retain",
       "DeletionPolicy": "Retain"
     },
-    "BoardGamesAPIDeploymentCF2289E8fbd0c921abf818503a484256282ec44b": {
+    "BoardGamesAPIDeploymentCF2289E84dc00e0e36638094b0b913daff82a1d7": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -143,6 +143,9 @@
         "BoardGamesAPIplayrecordsdeleteGET7251663F",
         "BoardGamesAPIplayrecordsdeleteOPTIONSFFA6A4EC",
         "BoardGamesAPIplayrecordsdeleteDC3CD7B4",
+        "BoardGamesAPIplayrecordslistdateCodeGETFD20D6F4",
+        "BoardGamesAPIplayrecordslistdateCodeOPTIONS6B6A4682",
+        "BoardGamesAPIplayrecordslistdateCodeB9F345E9",
         "BoardGamesAPIplayrecordslistGET8CB8A37D",
         "BoardGamesAPIplayrecordslistOPTIONSDD8211A4",
         "BoardGamesAPIplayrecordslistFE9A465B",
@@ -161,7 +164,7 @@
           "Ref": "BoardGamesAPIBD87F933"
         },
         "DeploymentId": {
-          "Ref": "BoardGamesAPIDeploymentCF2289E8fbd0c921abf818503a484256282ec44b"
+          "Ref": "BoardGamesAPIDeploymentCF2289E84dc00e0e36638094b0b913daff82a1d7"
         },
         "StageName": "v1"
       },
@@ -1035,6 +1038,182 @@
         "OperationName": "listPlayRecords"
       }
     },
+    "BoardGamesAPIplayrecordslistdateCodeB9F345E9": {
+      "Type": "AWS::ApiGateway::Resource",
+      "Properties": {
+        "ParentId": {
+          "Ref": "BoardGamesAPIplayrecordslistFE9A465B"
+        },
+        "PathPart": "{dateCode}",
+        "RestApiId": {
+          "Ref": "BoardGamesAPIBD87F933"
+        }
+      }
+    },
+    "BoardGamesAPIplayrecordslistdateCodeOPTIONS6B6A4682": {
+      "Type": "AWS::ApiGateway::Method",
+      "Properties": {
+        "HttpMethod": "OPTIONS",
+        "ResourceId": {
+          "Ref": "BoardGamesAPIplayrecordslistdateCodeB9F345E9"
+        },
+        "RestApiId": {
+          "Ref": "BoardGamesAPIBD87F933"
+        },
+        "AuthorizationType": "NONE",
+        "Integration": {
+          "IntegrationResponses": [
+            {
+              "ResponseParameters": {
+                "method.response.header.Access-Control-Allow-Headers": "'Authorization,content-type'",
+                "method.response.header.Access-Control-Allow-Origin": "'*'",
+                "method.response.header.Access-Control-Allow-Methods": "'OPTIONS,GET,PUT,POST,DELETE,PATCH,HEAD'",
+                "method.response.header.Access-Control-Allow-Credentials": "'true'"
+              },
+              "StatusCode": "204"
+            }
+          ],
+          "RequestTemplates": {
+            "application/json": "{ statusCode: 200 }"
+          },
+          "Type": "MOCK"
+        },
+        "MethodResponses": [
+          {
+            "ResponseParameters": {
+              "method.response.header.Access-Control-Allow-Headers": true,
+              "method.response.header.Access-Control-Allow-Origin": true,
+              "method.response.header.Access-Control-Allow-Methods": true,
+              "method.response.header.Access-Control-Allow-Credentials": true
+            },
+            "StatusCode": "204"
+          }
+        ]
+      }
+    },
+    "BoardGamesAPIplayrecordslistdateCodeGETApiPermissionMyTestStackBoardGamesAPI73545F1BGETplayrecordslistdateCode6C1FA2F2": {
+      "Type": "AWS::Lambda::Permission",
+      "Properties": {
+        "Action": "lambda:InvokeFunction",
+        "FunctionName": {
+          "Fn::GetAtt": [
+            "ListPlayRecordsByDate91922061",
+            "Arn"
+          ]
+        },
+        "Principal": "apigateway.amazonaws.com",
+        "SourceArn": {
+          "Fn::Join": [
+            "",
+            [
+              "arn:",
+              {
+                "Ref": "AWS::Partition"
+              },
+              ":execute-api:eu-west-2:1234567890:",
+              {
+                "Ref": "BoardGamesAPIBD87F933"
+              },
+              "/",
+              {
+                "Ref": "BoardGamesAPIDeploymentStagev13C85ECE1"
+              },
+              "/GET/playrecords/list/*"
+            ]
+          ]
+        }
+      }
+    },
+    "BoardGamesAPIplayrecordslistdateCodeGETApiPermissionTestMyTestStackBoardGamesAPI73545F1BGETplayrecordslistdateCode4BD30DB4": {
+      "Type": "AWS::Lambda::Permission",
+      "Properties": {
+        "Action": "lambda:InvokeFunction",
+        "FunctionName": {
+          "Fn::GetAtt": [
+            "ListPlayRecordsByDate91922061",
+            "Arn"
+          ]
+        },
+        "Principal": "apigateway.amazonaws.com",
+        "SourceArn": {
+          "Fn::Join": [
+            "",
+            [
+              "arn:",
+              {
+                "Ref": "AWS::Partition"
+              },
+              ":execute-api:eu-west-2:1234567890:",
+              {
+                "Ref": "BoardGamesAPIBD87F933"
+              },
+              "/test-invoke-stage/GET/playrecords/list/*"
+            ]
+          ]
+        }
+      }
+    },
+    "BoardGamesAPIplayrecordslistdateCodeGETFD20D6F4": {
+      "Type": "AWS::ApiGateway::Method",
+      "Properties": {
+        "HttpMethod": "GET",
+        "ResourceId": {
+          "Ref": "BoardGamesAPIplayrecordslistdateCodeB9F345E9"
+        },
+        "RestApiId": {
+          "Ref": "BoardGamesAPIBD87F933"
+        },
+        "AuthorizationType": "CUSTOM",
+        "AuthorizerId": {
+          "Ref": "BoardGamesAPIPrivateApiRequestAuthorizer2AF0CB36"
+        },
+        "Integration": {
+          "Credentials": {
+            "Fn::GetAtt": [
+              "BoardGamesAPIApiExecutionRole53A9F419",
+              "Arn"
+            ]
+          },
+          "IntegrationHttpMethod": "POST",
+          "Type": "AWS_PROXY",
+          "Uri": {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition"
+                },
+                ":apigateway:eu-west-2:lambda:path/2015-03-31/functions/",
+                {
+                  "Fn::GetAtt": [
+                    "ListPlayRecordsByDate91922061",
+                    "Arn"
+                  ]
+                },
+                "/invocations"
+              ]
+            ]
+          }
+        },
+        "MethodResponses": [
+          {
+            "ResponseModels": {
+              "application/json": {
+                "Ref": "BasicArray9BB70429"
+              }
+            },
+            "ResponseParameters": {
+              "method.response.header.Content-Type": true,
+              "method.response.header.Access-Control-Allow-Origin": true,
+              "method.response.header.Access-Control-Allow-Credentials": true
+            },
+            "StatusCode": "200"
+          }
+        ],
+        "OperationName": "listPlayRecordsByDate"
+      }
+    },
     "BoardGamesAPIplayrecordscreate346E2417": {
       "Type": "AWS::ApiGateway::Resource",
       "Properties": {
@@ -1454,6 +1633,16 @@
               "Effect": "Allow",
               "Resource": {
                 "Fn::GetAtt": [
+                  "ListPlayRecordsByDate91922061",
+                  "Arn"
+                ]
+              }
+            },
+            {
+              "Action": "lambda:InvokeFunction",
+              "Effect": "Allow",
+              "Resource": {
+                "Fn::GetAtt": [
                   "CreatePlayRecord9C20D2DE",
                   "Arn"
                 ]
@@ -1516,7 +1705,7 @@
       "Properties": {
         "Code": {
           "S3Bucket": "cdk-hnb659fds-assets-1234567890-eu-west-2",
-          "S3Key": "79fd685445da0d8ee84ec68df9c0ae6941364ae6effcbda9f6f817473e95c1d5.zip"
+          "S3Key": "a4fee0edede578cce4a6ed2c1a1df3d9be5d8141fd548dc946985cf2b3bab8d4.zip"
         },
         "Role": {
           "Fn::GetAtt": [
@@ -1704,7 +1893,7 @@
         },
         "Environment": {
           "Variables": {
-            "STATUS_INFO": "{\"deploymentTime\":\"2023-07-21T23:08:31.008Z\"}",
+            "STATUS_INFO": "{\"deploymentTime\":\"2023-07-22T11:39:25.252Z\"}",
             "AWS_NODEJS_CONNECTION_REUSE_ENABLED": "1"
           }
         },
@@ -1939,7 +2128,7 @@
       "Properties": {
         "Code": {
           "S3Bucket": "cdk-hnb659fds-assets-1234567890-eu-west-2",
-          "S3Key": "ee611936bd6ffc423ee1e00150b4b656afb0db0b9cb998653f17108708965a07.zip"
+          "S3Key": "f61ca547a63c78380414cf5a370a5d5b963e5e126d262c2c1aa0033a66fed828.zip"
         },
         "Role": {
           "Fn::GetAtt": [
@@ -1961,6 +2150,112 @@
       "DependsOn": [
         "ListPlayRecordsServiceRoleDefaultPolicy57F09A0C",
         "ListPlayRecordsServiceRole76DC840D"
+      ]
+    },
+    "ListPlayRecordsByDateServiceRoleE60A0C87": {
+      "Type": "AWS::IAM::Role",
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "lambda.amazonaws.com"
+              }
+            }
+          ],
+          "Version": "2012-10-17"
+        },
+        "ManagedPolicyArns": [
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition"
+                },
+                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "ListPlayRecordsByDateServiceRoleDefaultPolicy97884DAE": {
+      "Type": "AWS::IAM::Policy",
+      "Properties": {
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": [
+                "s3:GetObject*",
+                "s3:GetBucket*",
+                "s3:List*"
+              ],
+              "Effect": "Allow",
+              "Resource": [
+                {
+                  "Fn::GetAtt": [
+                    "PlayRecordsBucket747A7EDE",
+                    "Arn"
+                  ]
+                },
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      {
+                        "Fn::GetAtt": [
+                          "PlayRecordsBucket747A7EDE",
+                          "Arn"
+                        ]
+                      },
+                      "/*"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "Version": "2012-10-17"
+        },
+        "PolicyName": "ListPlayRecordsByDateServiceRoleDefaultPolicy97884DAE",
+        "Roles": [
+          {
+            "Ref": "ListPlayRecordsByDateServiceRoleE60A0C87"
+          }
+        ]
+      }
+    },
+    "ListPlayRecordsByDate91922061": {
+      "Type": "AWS::Lambda::Function",
+      "Properties": {
+        "Code": {
+          "S3Bucket": "cdk-hnb659fds-assets-1234567890-eu-west-2",
+          "S3Key": "8938c7cca2489b53ef8574cf7a66377b52e6cb045541f5080428cf11cef4ed16.zip"
+        },
+        "Role": {
+          "Fn::GetAtt": [
+            "ListPlayRecordsByDateServiceRoleE60A0C87",
+            "Arn"
+          ]
+        },
+        "Environment": {
+          "Variables": {
+            "DATA_BUCKET_NAME": "unit-test-bucket-name-for-playrecords",
+            "AWS_NODEJS_CONNECTION_REUSE_ENABLED": "1"
+          }
+        },
+        "Handler": "index.handler",
+        "MemorySize": 256,
+        "Runtime": "nodejs16.x",
+        "Timeout": 5
+      },
+      "DependsOn": [
+        "ListPlayRecordsByDateServiceRoleDefaultPolicy97884DAE",
+        "ListPlayRecordsByDateServiceRoleE60A0C87"
       ]
     },
     "CreatePlayRecordServiceRole2E98C8E0": {
@@ -2052,7 +2347,7 @@
       "Properties": {
         "Code": {
           "S3Bucket": "cdk-hnb659fds-assets-1234567890-eu-west-2",
-          "S3Key": "26d140c4918a674e4ead8ba49f1f714c35eead78d67f4783d419430e19b6449a.zip"
+          "S3Key": "02647311c16d93d353fa918a2a75f9d9ce9ea6d94b28f8b781d032cf27d6a1b7.zip"
         },
         "Role": {
           "Fn::GetAtt": [
@@ -2165,7 +2460,7 @@
       "Properties": {
         "Code": {
           "S3Bucket": "cdk-hnb659fds-assets-1234567890-eu-west-2",
-          "S3Key": "b21d9cf7df09d14849ce774a49dd799cdb644a8a47d3ce791fe5cf37bf5c0495.zip"
+          "S3Key": "f3cfce211812f10088bc8b23907ba5ded2cc883b2cd728e8818a169bbf37779a.zip"
         },
         "Role": {
           "Fn::GetAtt": [
