@@ -12,7 +12,7 @@ interface ListPlayRecordsResponse {
 export async function handler (event: APIGatewayProxyEvent): Promise<APIGatewayProxyResult> {
   const { console, getBucketName, listObjects, putObject } = interfaces.get()
 
-  const dateCode = decodeURIComponent(event?.pathParameters?.name as string)
+  const dateCode = decodeURIComponent(event?.pathParameters?.dateCode as string)
   const forceUpdate = event.queryStringParameters?.forceUpdate ?? false
 
   const result: ListPlayRecordsResponse = { playRecords: [] }
