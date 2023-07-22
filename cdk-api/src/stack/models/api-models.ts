@@ -1,8 +1,15 @@
 import { Construct } from 'constructs'
 import { JsonSchema, JsonSchemaType, JsonSchemaVersion, Model, RestApi } from 'aws-cdk-lib/aws-apigateway'
 import OpenAPIBasicModels from '../openapi/openapi-basic-models'
+import { Fn } from 'aws-cdk-lib'
 
 export class ApiJsonSchemas {
+  readonly restApi: RestApi
+
+  constructor (restApi: RestApi) {
+    this.restApi = restApi
+  }
+
   get StatusResponse (): JsonSchema {
     return {
       schema: JsonSchemaVersion.DRAFT4,
@@ -62,7 +69,16 @@ export class ApiJsonSchemas {
     }
   }
 
-  get PlayRecords (): JsonSchema {
+  getModelRef (api: RestApi, model: Model): string {
+    return Fn.join(
+      '',
+      ['https://apigateway.amazonaws.com/restapis/',
+        api.restApiId,
+        '/models/',
+        model.modelId])
+  }
+
+  getPlayRecords (playRecordModel: Model): JsonSchema {
     return {
       schema: JsonSchemaVersion.DRAFT4,
       title: 'Play Records',
@@ -71,7 +87,7 @@ export class ApiJsonSchemas {
         playRecords: {
           type: JsonSchemaType.ARRAY,
           items: {
-            ref: '#/components/schemas/PlayRecord'
+            ref: this.getModelRef(this.restApi, playRecordModel)
           },
           description: 'An array of play records'
         }
@@ -93,7 +109,7 @@ export default class AppModels extends OpenAPIBasicModels {
   constructor (scope: Construct, restApi: RestApi) {
     super(scope, restApi)
 
-    const schemas = new ApiJsonSchemas()
+    const schemas = new ApiJsonSchemas(restApi)
 
     this.StatusResponse = new Model(scope, 'StatusResponse', {
       restApi,
@@ -120,7 +136,7 @@ export default class AppModels extends OpenAPIBasicModels {
       restApi,
       contentType: 'application/json',
       modelName: 'PlayRecordsModel',
-      schema: schemas.PlayRecords
+      schema: schemas.getPlayRecords(this.PlayRecord)
     })
   }
 }

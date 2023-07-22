@@ -178,7 +178,7 @@ describe('Open API Spec', () => {
       })
     })
 
-    it('should be possible to list play records for 2023', async () => {
+    it('should be possible to list play records for all time', async () => {
       const response = await appClient.listPlayRecords()
 
       console.log('Play Records (All Time):', response.status, response.statusText, JSON.stringify(response.data, null, 2))
