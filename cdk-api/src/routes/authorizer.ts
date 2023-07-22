@@ -1,6 +1,12 @@
-import { APIGatewayAuthorizerResult, APIGatewayRequestAuthorizerEvent } from 'aws-lambda'
+import { APIGatewayAuthorizerResult, APIGatewayAuthorizerResultContext, APIGatewayRequestAuthorizerEvent } from 'aws-lambda'
 import { CognitoJwtVerifier } from 'aws-jwt-verify'
 import axios, { AxiosInstance } from 'axios'
+
+export interface AuthorizerContext extends APIGatewayAuthorizerResultContext {
+  token?: string
+  groups?: string
+  payload?: string
+}
 
 export async function handler (event: APIGatewayRequestAuthorizerEvent): Promise<APIGatewayAuthorizerResult> {
   const authHeader = event?.headers?.authorization ?? 'not-set'
@@ -21,7 +27,8 @@ async function getPolicyFromAuthHeader (authHeader: string): Promise<APIGatewayA
       clientId: '2fomt3amj0luqe3o5ce8ou76m8'
     })
     const payload = await verifier.verify(token)
-    console.log('Authorization token is valid. Payload:', { payload })
+    const groups = (payload['cognito:groups'] ?? []).join(',')
+    console.log('Authorization token is valid. Payload:', { payload, groups })
 
     const oauthUrl: string = 'https://connected-web.auth.eu-west-2.amazoncognito.com'
     const oauthClient: AxiosInstance = axios.create({ baseURL: oauthUrl })
@@ -31,14 +38,14 @@ async function getPolicyFromAuthHeader (authHeader: string): Promise<APIGatewayA
       }
     })
     console.log('User Info:', { userLookup: user.data })
-    return buildPolicy('Allow', user.data.email, { token })
+    return buildPolicy('Allow', user.data.email, { token, payload: JSON.stringify(payload), groups })
   } catch (err) {
     console.log('Authorization token not valid!', err)
-    return buildPolicy('Deny', 'unknown', { })
+    return buildPolicy('Deny', 'unknown', {})
   }
 }
 
-function buildPolicy (allowOrDeny: 'Allow' | 'Deny', principalId: string, context: { [key: string]: string }): APIGatewayAuthorizerResult {
+function buildPolicy (allowOrDeny: 'Allow' | 'Deny', principalId: string, context: AuthorizerContext): APIGatewayAuthorizerResult {
   return {
     principalId,
     policyDocument: {

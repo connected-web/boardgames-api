@@ -7,6 +7,11 @@ import { successResponse, errorResponse } from '../helpers/responses'
 export async function handler (event: APIGatewayProxyEvent): Promise<APIGatewayProxyResult> {
   const { console, deleteObject, getBucketName } = interfaces.get()
 
+  const userGroups: string = event.requestContext.authorizer?.groups ?? ''
+  if (!userGroups.includes('BoardGamesBrowserAdmins')) {
+    return errorResponse(HTTP_CODES.clientForbidden, 'User is authenticated, but not in an authorized user group for this action')
+  }
+
   let payload: { keypath: string }
   try {
     if (typeof event?.body === 'string') {
