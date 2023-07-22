@@ -10,6 +10,9 @@ on:
         - connected-web-dev
         - connected-web-prod
         default: 'connected-web-dev'
+  pull_request:
+    branches:
+      - main
 
 permissions:
   id-token: write # This is required for OIDC
@@ -35,7 +38,7 @@ jobs:
       # Authorise for target account
       - name: Read customer config to set AWS Account ID
         working-directory: ./.github/workflows/scripts
-        run: sh ./setupGithubEnvironment.sh ${{ github.event.inputs.account }}
+        run: sh ./setupGithubEnvironment.sh ${{ github.event.inputs.account || 'connected-web-dev' }}
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v2
