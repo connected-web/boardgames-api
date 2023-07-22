@@ -25,7 +25,7 @@ export default class ListPlayRecordsByDateEndpoint extends OpenAPIFunction {
         'method.response.header.Access-Control-Allow-Credentials': true
       },
       responseModels: {
-        'application/json': models.BasicArrayModel
+        'application/json': models.PlayRecords
       }
     })
   }

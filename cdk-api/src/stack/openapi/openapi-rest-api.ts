@@ -43,7 +43,7 @@ export default class OpenAPIRestAPI extends Construct {
     const authLambda = new NodejsFunction(scope, 'PrivateAPIAuthorizer', {
       memorySize: 256,
       timeout: Duration.seconds(5),
-      runtime: Runtime.NODEJS_16_X,
+      runtime: Runtime.NODEJS_18_X,
       handler: 'handler',
       entry: path.join(__dirname, '../../routes/authorizer.ts'),
       bundling: {

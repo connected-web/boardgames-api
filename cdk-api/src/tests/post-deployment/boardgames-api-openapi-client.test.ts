@@ -1,5 +1,6 @@
 import axios from 'axios'
-import OpenAPIClientAxios, { Document, OpenAPIClient } from 'openapi-client-axios'
+import OpenAPIClientAxios, { Document } from 'openapi-client-axios'
+import { Client as BoardGamesAPIClient } from './api-client'
 
 import fs from 'node:fs/promises'
 import path from 'node:path'
@@ -65,7 +66,7 @@ describe('Open API Spec', () => {
       '/playrecords/create',
       '/playrecords/delete',
       '/playrecords/list',
-      "/playrecords/list/{dateCode}",
+      '/playrecords/list/{dateCode}',
       '/status'
     ])
   })
@@ -80,13 +81,17 @@ describe('Open API Spec', () => {
       expect.arrayContaining([
         'getOpenAPISpec',
         'getStatus',
-        'helloWorld'
+        'helloWorld',
+        'listPlayRecords',
+        'listPlayRecordsByDate',
+        'createPlayRecord',
+        'deletePlayRecord'
       ])
     )
   })
 
   describe('OpenAPI Template App Client', () => {
-    let appClient: OpenAPIClient
+    let appClient: BoardGamesAPIClient
     beforeAll(async () => {
       const axiosApi = new OpenAPIClientAxios({
         definition: openapiDoc,
@@ -98,7 +103,7 @@ describe('Open API Spec', () => {
         }
       })
 
-      appClient = await axiosApi.getClient()
+      appClient = await axiosApi.getClient<BoardGamesAPIClient>()
       appClient.interceptors.response.use((response) => response, (error) => {
         console.log('Caught client error:', error.message)
       })
@@ -132,6 +137,63 @@ describe('Open API Spec', () => {
 
       expect(response.data).toEqual({
         message: 'Hi Andy, have a sunny day~ ☀️⛅☁️🌧️⛈️🌩️!'
+      })
+    })
+
+    it('should be possible to list play records for 2023-01', async () => {
+      const response = await appClient.listPlayRecordsByDate({ dateCode: '2023-01' })
+
+      console.log('Play Records (2023-01):', response.status, response.statusText, JSON.stringify(response.data, null, 2))
+
+      ajv.validate({ $ref: 'app-openapi.json#/components/schemas/PlayRecordsModel' }, response.data)
+      expect(ajv.errors ?? []).toEqual([])
+
+      const tempData = response.data as any
+      expect(tempData?.playRecords ?? []).toContain({
+        name: 'Love Letter: Princess Princess Ever After',
+        date: '01/01/2023',
+        coOp: 'no',
+        noOfPlayers: 2,
+        winner: 'Hannah',
+        key: '2023/01/2023-01-01T20:16:30.573Z.json'
+      })
+    })
+
+    it('should be possible to list play records for 2023', async () => {
+      const response = await appClient.listPlayRecordsByDate({ dateCode: '2023' })
+
+      console.log('Play Records (2023):', response.status, response.statusText, JSON.stringify(response.data, null, 2))
+
+      ajv.validate({ $ref: 'app-openapi.json#/components/schemas/PlayRecordsModel' }, response.data)
+      expect(ajv.errors ?? []).toEqual([])
+
+      const tempData = response.data as any
+      expect(tempData?.playRecords ?? []).toContain({
+        name: 'Design Town',
+        date: '30/01/2023',
+        coOp: 'no',
+        noOfPlayers: 2,
+        winner: 'Hannah',
+        key: '2023/01/2023-01-31T14:37:42.955Z.json'
+      })
+    })
+
+    it('should be possible to list play records for 2023', async () => {
+      const response = await appClient.listPlayRecords()
+
+      console.log('Play Records (All Time):', response.status, response.statusText, JSON.stringify(response.data, null, 2))
+
+      ajv.validate({ $ref: 'app-openapi.json#/components/schemas/PlayRecordsModel' }, response.data)
+      expect(ajv.errors ?? []).toEqual([])
+
+      const tempData = response.data as any
+      expect(tempData?.playRecords ?? []).toContain({
+        name: 'Codenames',
+        date: '29/01/2023',
+        coOp: 'yes',
+        noOfPlayers: 2,
+        coOpOutcome: 'win',
+        key: '2023/01/2023-01-31T14:37:29.851Z.json'
       })
     })
   })

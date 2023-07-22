@@ -47,7 +47,7 @@ export default class OpenAPIFunction {
     const { operationId: operationName } = this
     const defaultProps = {
       memorySize: 256,
-      timeout: Duration.seconds(5),
+      timeout: Duration.seconds(25),
       runtime: Runtime.NODEJS_16_X,
       handler: 'handler',
       entry: path.join(__dirname, '../../', routeEntryPoint),
