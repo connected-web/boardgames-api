@@ -9,12 +9,6 @@ import type {
 declare namespace Components {
   namespace Schemas {
     /**
-         * Basic Array of Objects
-         */
-    export type BasicArrayModel = Array<{
-      [name: string]: any
-    }>
-    /**
          * Basic Object
          * A basic JSON object with key value pairs
          */
@@ -29,6 +23,35 @@ declare namespace Components {
              * The message returned by the server
              */
       message: string
+    }
+    /**
+         * Play Record
+         */
+    export interface PlayRecordModel {
+      date: string
+      coOp: string
+      winner?: string
+      name: string
+      noOfPlayers: number
+      key?: string
+    }
+    /**
+         * Play Records
+         */
+    export interface PlayRecordsModel {
+      /**
+             * An array of play records
+             */
+      playRecords: /* Play Record */ PlayRecordModel[]
+    }
+    /**
+         * Status
+         */
+    export interface StatusResponseModel {
+      /**
+             * The UTC timestamp representing the last time the server was updated
+             */
+      deploymentTime: string
     }
   }
 }
@@ -62,11 +85,7 @@ declare namespace Paths {
   }
   namespace GetStatus {
     namespace Responses {
-      export type $200 = /**
-             * Basic Object
-             * A basic JSON object with key value pairs
-             */
-            Components.Schemas.BasicObjectModel
+      export type $200 = /* Status */ Components.Schemas.StatusResponseModel
     }
   }
   namespace Hello$Name {
@@ -92,7 +111,7 @@ declare namespace Paths {
   }
   namespace ListPlayRecords {
     namespace Responses {
-      export type $200 = /* Basic Array of Objects */ Components.Schemas.BasicArrayModel
+      export type $200 = /* Play Records */ Components.Schemas.PlayRecordsModel
     }
   }
   namespace ListPlayRecordsByDate {
@@ -103,7 +122,7 @@ declare namespace Paths {
       dateCode: Parameters.DateCode
     }
     namespace Responses {
-      export type $200 = /* Basic Array of Objects */ Components.Schemas.BasicArrayModel
+      export type $200 = /* Play Records */ Components.Schemas.PlayRecordsModel
     }
   }
   namespace PlayrecordsList$DateCode {
