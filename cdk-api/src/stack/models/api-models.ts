@@ -65,7 +65,7 @@ export class ApiJsonSchemas {
           type: JsonSchemaType.STRING
         }
       },
-      required: ['name', 'date', 'coOp', 'noOfPlayers', 'winner']
+      required: ['name', 'date', 'coOp', 'noOfPlayers']
     }
   }
 
