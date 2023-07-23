@@ -11,7 +11,7 @@ interface ListPlayRecordsResponse {
 
 export async function handler (event: APIGatewayProxyEvent): Promise<APIGatewayProxyResult> {
   const dateCode = decodeURIComponent(event?.pathParameters?.dateCode as string)
-  const forceUpdate = event.queryStringParameters?.forceUpdate === 'true'
+  const forceUpdate = true //event.queryStringParameters?.forceUpdate === 'true'
 
   const dateCodeMatch = matchDateCode(dateCode)
   if (!dateCodeMatch.valid) {

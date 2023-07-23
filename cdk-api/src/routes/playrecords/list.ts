@@ -10,7 +10,7 @@ interface ListPlayRecordsResponse {
 }
 
 export async function handler (event: APIGatewayProxyEvent): Promise<APIGatewayProxyResult> {
-  const forceUpdate = event.queryStringParameters?.forceUpdate === 'true'
+  const forceUpdate = true // event.queryStringParameters?.forceUpdate === 'true'
   const result: ListPlayRecordsResponse = { playRecords: [] }
 
   try {
