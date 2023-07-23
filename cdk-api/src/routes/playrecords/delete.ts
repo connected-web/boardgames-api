@@ -25,7 +25,7 @@ export async function handler (event: APIGatewayProxyEvent): Promise<APIGatewayP
     return errorResponse(HTTP_CODES.clientError, `Unable to parse payload - expected JSON: ${error.message}`)
   }
 
-  const { keypath } = payload
+  const keypath: string = payload?.keypath
   if (keypath === undefined || keypath === '') {
     const errorMessage = `Unable to delete play record: Empty keypath provided in payload (${keypath})`
     console.log('[Delete Play Record] Client error', errorMessage)

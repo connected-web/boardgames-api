@@ -30,7 +30,7 @@ export async function handler (event: APIGatewayProxyEvent): Promise<APIGatewayP
   const year = `${currentDate.toISOString().substring(0, 4)}`
   const month = `${currentDate.toISOString().substring(5, 7)}`
   const filename = `${currentDate.toISOString()}.json`
-  const keypath = [year, month, filename].join('/')
+  const keypath = ['original', year, month, filename].join('/')
   const payloadBody = JSON.stringify(payload)
 
   try {

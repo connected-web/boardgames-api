@@ -3,7 +3,7 @@
   "info": {
     "title": "Board Games API",
     "description": "Board Games API - https://github.com/connected-web/boardgames-api/",
-    "version": "2023-07-22T11:43:31Z"
+    "version": "2023-07-22T15:09:45Z"
   },
   "servers": [
     {
@@ -37,7 +37,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/BasicObjectModel"
+                  "$ref": "#/components/schemas/StatusResponseModel"
                 }
               }
             }
@@ -106,7 +106,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/BasicArrayModel"
+                  "$ref": "#/components/schemas/PlayRecordsModel"
                 }
               }
             }
@@ -375,7 +375,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/BasicArrayModel"
+                  "$ref": "#/components/schemas/PlayRecordsModel"
                 }
               }
             }
@@ -633,6 +633,19 @@
   },
   "components": {
     "schemas": {
+      "StatusResponseModel": {
+        "title": "Status",
+        "required": [
+          "deploymentTime"
+        ],
+        "type": "object",
+        "properties": {
+          "deploymentTime": {
+            "type": "string",
+            "description": "The UTC timestamp representing the last time the server was updated"
+          }
+        }
+      },
       "BasicObjectModel": {
         "title": "Basic Object",
         "type": "object",
@@ -653,13 +666,51 @@
           }
         }
       },
-      "BasicArrayModel": {
-        "title": "Basic Array of Objects",
-        "type": "array",
-        "items": {
-          "type": "object",
-          "properties": {},
-          "additionalProperties": true
+      "PlayRecordModel": {
+        "title": "Play Record",
+        "required": [
+          "coOp",
+          "date",
+          "name",
+          "noOfPlayers",
+          "winner"
+        ],
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string"
+          },
+          "coOp": {
+            "type": "string"
+          },
+          "winner": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "noOfPlayers": {
+            "type": "number"
+          },
+          "key": {
+            "type": "string"
+          }
+        }
+      },
+      "PlayRecordsModel": {
+        "title": "Play Records",
+        "required": [
+          "playRecords"
+        ],
+        "type": "object",
+        "properties": {
+          "playRecords": {
+            "type": "array",
+            "description": "An array of play records",
+            "items": {
+              "$ref": "#/components/schemas/PlayRecordModel"
+            }
+          }
         }
       }
     },
