@@ -194,9 +194,8 @@ export async function getOriginalPlayRecordsByDateCode (dateCode: string): Promi
     .filter((item: _Object) => {
       const isJson = item?.Key?.includes('.json') === true
       const isApiKey = item?.Key?.includes('apiKeys') === true
-      const matchesDateCoded = item?.Key?.includes(dateCode) === true
       const isGrouped = item?.Key?.includes('grouped') === true
-      return isJson && matchesDateCoded && !isGrouped && !isApiKey
+      return isJson && !isGrouped && !isApiKey
     })
     .map((item: any) => item.Key)
   const recordGathering = recordKeys.map(getJsonObject)
