@@ -2,14 +2,46 @@
 
 This is a AWS CDK stack definition for the Board Games API 2023 edition.
 
-### Planned features
+### Implemented features
 - API Gateway
 - SSO Authorization using Connected Web shared Auth services
-- Track play record
-- List play records
+- Track play record (untested)
+- List play records with multi layer caching - byAllTime, byYear, byMonth
 - Deployed via Github Actions using preconfigured OIDC relationship
 
 ### Wishlist
 - Generate board game stats on the fly for any time period
 - Cache play records from raw entries
 - Flush and regenerate play records for a given time period
+
+## Restoring Data
+
+You can upload existing (original) data to a target bucket to restore data to the API.
+
+Log in to your AWS management console, find the correct AWS Account, and get the appropriate keys:
+
+```
+export AWS_ACCESS_KEY_ID="..."
+export AWS_SECRET_ACCESS_KEY="..."
+export AWS_SESSION_TOKEN="..."
+```
+
+Then sync to a target bucket for the selected environment, e.g. Dev:
+
+```
+aws s3 sync data/boardgames-tracking s3://boardgames-api-playrecords-dev/original/
+```
+
+Or Prod:
+
+```
+aws s3 sync data/boardgames-tracking s3://boardgames-api-playrecords-prod/original/
+```
+
+## Backing up Data
+
+In reverse, download all the files to your local machine. 
+
+```
+aws s3 sync s3://boardgames-api-playrecords-prod/original/ data/boardgames-tracking
+```
