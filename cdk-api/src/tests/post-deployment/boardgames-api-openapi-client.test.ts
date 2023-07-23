@@ -199,5 +199,34 @@ describe('Open API Spec', () => {
         key: 'original/2023/01/2023-01-31T14:37:29.851Z.json'
       })
     })
+
+    it.only('should be possible create a play record', async () => {
+      const now = new Date()
+      const payload = {
+        name: `John Testing (${now.getTime()})`,
+        date: '05/03/2031',
+        coOp: 'no',
+        noOfPlayers: 2,
+        winner: 'John',
+        expansions: [
+          'Fluffy hair John'
+        ],
+        notes: 'Hair was fluffed!'
+      }
+      const createPlayRecordResponse = await appClient.createPlayRecord(null, payload)
+      const fileKey = createPlayRecordResponse?.data?.keypath
+
+      console.log('Create Play Record:', createPlayRecordResponse.status, createPlayRecordResponse.statusText, JSON.stringify(createPlayRecordResponse.data, null, 2))
+
+      // ajv.validate({ $ref: 'app-openapi.json#/components/schemas/PlayRecord' }, response.data)
+      // expect(ajv.errors ?? []).toEqual([])
+
+      const playRecordsResponse = await appClient.listPlayRecordsByDate({ dateCode: '2031-03' })
+      console.log('Create Play Record - List Records from 2031-03:', playRecordsResponse.status, playRecordsResponse.statusText, JSON.stringify(playRecordsResponse.data, null, 2))
+
+      const tempData = playRecordsResponse.data as any
+      const record = (tempData?.playRecords ?? []).find((item: any) => item.name === fileKey)
+      expect(record).toEqual(payload)
+    })
   })
 })

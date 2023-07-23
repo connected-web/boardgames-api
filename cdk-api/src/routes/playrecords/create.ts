@@ -27,8 +27,9 @@ export async function handler (event: APIGatewayProxyEvent): Promise<APIGatewayP
 
   // Generate S3 key e.g. 2021-12-01T23:11:25.556Z.json
   const currentDate: Date = now()
-  const year = `${currentDate.toISOString().substring(0, 4)}`
-  const month = `${currentDate.toISOString().substring(5, 7)}`
+  const [,payloadMonth, payloadYear] = ((typeof payload?.date === 'string') ? payload?.date as string : '').split('/') // 05/03/2031 (5th of March 2031?)
+  const year = payloadYear ?? `${currentDate.toISOString().substring(0, 4)}`
+  const month = payloadMonth ?? `${currentDate.toISOString().substring(5, 7)}`
   const filename = `${currentDate.toISOString()}.json`
   const keypath = ['original', year, month, filename].join('/')
   const payloadBody = JSON.stringify(payload)
