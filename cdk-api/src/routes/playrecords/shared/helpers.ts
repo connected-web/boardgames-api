@@ -122,7 +122,7 @@ export async function getPlayRecordsByYear (dateCode: string, forceUpdate: boole
     const isCurrentMonth = workMonth === currentMonth
     const isPreviousMonth = workMonth === currentMonth - 1
     const shouldUpdate = isCurrentMonth || isPreviousMonth
-    const monthCode = currentMonth >= 10 ? `${currentMonth}` : `0${currentMonth}`
+    const monthCode = workMonth >= 10 ? `${workMonth}` : `0${workMonth}`
     const task = getPlayRecordsByMonth(`${yearCode}-${monthCode}`, shouldUpdate)
     work.push(task)
     workMonth++
