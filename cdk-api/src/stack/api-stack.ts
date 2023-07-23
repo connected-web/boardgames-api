@@ -38,8 +38,8 @@ export class ApiStack extends cdk.Stack {
       .get('/hello/{name}', new HelloWorldEndpoint(this, appModels))
       .get('/playrecords/list', new ListPlayRecordsEndpoint(this, appModels, config, playRecordsBucket))
       .get('/playrecords/list/{dateCode}', new ListPlayRecordsByDateEndpoint(this, appModels, config, playRecordsBucket))
-      .get('/playrecords/create', new CreatePlayRecordEndpoint(this, appModels, config, playRecordsBucket))
-      .get('/playrecords/delete', new DeletePlayRecordEndpoint(this, appModels, config, playRecordsBucket))
+      .post('/playrecords/create', new CreatePlayRecordEndpoint(this, appModels, config, playRecordsBucket))
+      .delete('/playrecords/delete', new DeletePlayRecordEndpoint(this, appModels, config, playRecordsBucket))
       .report()
   }
 }
