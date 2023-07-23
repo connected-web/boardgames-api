@@ -14,6 +14,23 @@ This is a AWS CDK stack definition for the Board Games API 2023 edition.
 - Cache play records from raw entries
 - Flush and regenerate play records for a given time period
 
+## Manual Testing
+
+From your AWS Account:
+
+```
+export CONNECTED_WEB_DEV_SSO_CLIENT_ID="..."
+export CONNECTED_WEB_DEV_SSO_SECRET="..."
+node getOAuthToken.mjs
+```
+
+Then use that token:
+
+```
+export APP_AUTH_TOKEN="..."
+curl -H "Authorization: Bearer $APP_AUTH_TOKEN" https://boardgames-api.dev.connected-web.services/status
+```
+
 ## Restoring Data
 
 You can upload existing (original) data to a target bucket to restore data to the API.

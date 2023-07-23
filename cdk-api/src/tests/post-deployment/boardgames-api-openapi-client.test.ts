@@ -11,6 +11,12 @@ import addFormats from 'ajv-formats'
 const ajv = new Ajv({ allErrors: true, strict: false })
 addFormats(ajv)
 
+const {
+  POST_DEPLOYMENT_SERVER_DOMAIN,
+  CONNECTED_WEB_DEV_SSO_CLIENT_ID,
+  CONNECTED_WEB_DEV_SSO_SECRET
+} = process.env
+
 interface ServerInfo {
   baseUrl: string
   headers: {
@@ -19,10 +25,28 @@ interface ServerInfo {
 }
 
 const server: ServerInfo = {
-  baseUrl: process.env.POST_DEPLOYMENT_SERVER_DOMAIN ?? 'https://boardgames-api.dev.connected-web.services',
+  baseUrl: POST_DEPLOYMENT_SERVER_DOMAIN ?? 'https://boardgames-api.dev.connected-web.services',
   headers: {
-    Authorization: `Bearer ${process.env.POST_DEPLOYMENT_BEARER_TOKEN as string}`
+    Authorization: 'Bearer not-specified'
   }
+}
+
+async function getOAuthToken (): Promise<string> {
+  const oauthTokenEndpoint = 'https://connected-web-dev.auth.eu-west-2.amazoncognito.com/oauth2/token'
+  const clientId = CONNECTED_WEB_DEV_SSO_CLIENT_ID as string
+  const clientSecret = CONNECTED_WEB_DEV_SSO_SECRET as string
+  const requestPayload = [
+    'grant_type=client_credentials',
+    `client_id=${clientId}`
+  ].join('&')
+  const requestHeaders = {
+    Accept: 'application/json',
+    'Content-Type': 'application/x-www-form-urlencoded',
+    Authorization: `Basic ${btoa([clientId, clientSecret].join(':'))}`
+  }
+  const tokenResponse = await axios.post(oauthTokenEndpoint, requestPayload, { headers: requestHeaders })
+  console.log('[getOAuthToken] Token response', { tokenResponse: tokenResponse.data })
+  return tokenResponse?.data?.access_token ?? 'not-set'
 }
 
 describe('Open API Spec', () => {
@@ -33,9 +57,13 @@ describe('Open API Spec', () => {
 
   beforeAll(async () => {
     console.log('Implicit test: it should download the openapi spec for the App Store from /openapi')
+    const oauthToken = await getOAuthToken()
+    console.log('Received OAuth Token:', { oauthToken })
     const basicClient = axios.create({
       baseURL: server.baseUrl,
-      headers: server.headers
+      headers: {
+        Authorization: `Bearer ${oauthToken}`
+      }
     })
     console.log('Created basic Axios client using:', { baseUrl: server.baseUrl })
 
