@@ -114,14 +114,18 @@ export async function getPlayRecordsByYear (dateCode: string, forceUpdate: boole
   // fall through if no cached records
   const now = new Date()
   const startMonth = 1
+  const currentYear = now.getFullYear()
   const currentMonth = now.getMonth() + 1
+
+  const isCurrentYear = `${currentYear}` === dateCodeMatch.yearCode
+  const lastMonthInYear = isCurrentYear ? currentMonth : 12
 
   const work = []
   let workMonth = startMonth
-  while (workMonth <= currentMonth) {
+  while (workMonth <= lastMonthInYear) {
     const isCurrentMonth = workMonth === currentMonth
     const isPreviousMonth = workMonth === currentMonth - 1
-    const shouldUpdate = isCurrentMonth || isPreviousMonth
+    const shouldUpdate = (isCurrentYear && isCurrentMonth) || isPreviousMonth
     const monthCode = workMonth >= 10 ? `${workMonth}` : `0${workMonth}`
     const task = getPlayRecordsByMonth(`${yearCode}-${monthCode}`, shouldUpdate)
     work.push(task)

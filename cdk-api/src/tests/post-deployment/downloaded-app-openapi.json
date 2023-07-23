@@ -3,7 +3,7 @@
   "info": {
     "title": "Board Games API",
     "description": "Board Games API - https://github.com/connected-web/boardgames-api/",
-    "version": "2023-07-22T15:09:45Z"
+    "version": "2023-07-23T02:14:25Z"
   },
   "servers": [
     {
@@ -672,8 +672,7 @@
           "coOp",
           "date",
           "name",
-          "noOfPlayers",
-          "winner"
+          "noOfPlayers"
         ],
         "type": "object",
         "properties": {
