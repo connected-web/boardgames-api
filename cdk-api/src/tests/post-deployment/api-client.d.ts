@@ -165,11 +165,15 @@ export interface OperationMethods {
   /**
    * deletePlayRecord
    */
-  'deletePlayRecord': (
+  'deletePlayRecord': ((
     parameters?: Parameters<UnknownParamsObject> | null,
     data?: any,
     config?: AxiosRequestConfig
-  ) => OperationResponse<Paths.DeletePlayRecord.Responses.$200>
+  ) => OperationResponse<Paths.DeletePlayRecord.Responses.$200>) & ((
+    parameters?: Parameters<UnknownParamsObject> | null,
+    data?: any,
+    config?: AxiosRequestConfig
+  ) => OperationResponse<Paths.DeletePlayRecord.Responses.$200>)
   /**
    * listPlayRecordsByDate
    */
@@ -189,11 +193,15 @@ export interface OperationMethods {
   /**
    * createPlayRecord
    */
-  'createPlayRecord': (
+  'createPlayRecord': ((
     parameters?: Parameters<UnknownParamsObject> | null,
     data?: any,
     config?: AxiosRequestConfig
-  ) => OperationResponse<Paths.CreatePlayRecord.Responses.$200>
+  ) => OperationResponse<Paths.CreatePlayRecord.Responses.$200>) & ((
+    parameters?: Parameters<UnknownParamsObject> | null,
+    data?: any,
+    config?: AxiosRequestConfig
+  ) => OperationResponse<Paths.CreatePlayRecord.Responses.$200>)
 }
 
 export interface PathsDictionary {
@@ -238,6 +246,14 @@ export interface PathsDictionary {
       data?: any,
       config?: AxiosRequestConfig
     ) => OperationResponse<Paths.DeletePlayRecord.Responses.$200>
+    /**
+     * deletePlayRecord
+     */
+    'delete': (
+      parameters?: Parameters<UnknownParamsObject> | null,
+      data?: any,
+      config?: AxiosRequestConfig
+    ) => OperationResponse<Paths.DeletePlayRecord.Responses.$200>
   }
   ['/playrecords/list/{dateCode}']: {
     /**
@@ -264,6 +280,14 @@ export interface PathsDictionary {
      * createPlayRecord
      */
     'get': (
+      parameters?: Parameters<UnknownParamsObject> | null,
+      data?: any,
+      config?: AxiosRequestConfig
+    ) => OperationResponse<Paths.CreatePlayRecord.Responses.$200>
+    /**
+     * createPlayRecord
+     */
+    'post': (
       parameters?: Parameters<UnknownParamsObject> | null,
       data?: any,
       config?: AxiosRequestConfig

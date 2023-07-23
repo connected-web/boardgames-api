@@ -3,7 +3,7 @@
   "info": {
     "title": "Board Games API",
     "description": "Board Games API - https://github.com/connected-web/boardgames-api/",
-    "version": "2023-07-23T02:14:25Z"
+    "version": "2023-07-23T19:02:17Z"
   },
   "servers": [
     {
@@ -308,6 +308,43 @@
           }
         ]
       },
+      "delete": {
+        "operationId": "deletePlayRecord",
+        "responses": {
+          "200": {
+            "description": "200 response",
+            "headers": {
+              "Access-Control-Allow-Origin": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Access-Control-Allow-Credentials": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Content-Type": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BasicObjectModel"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "BoardgamesAPIBoardGamesAPIPrivateApiRequestAuthorizerB54985A8": []
+          }
+        ]
+      },
       "options": {
         "responses": {
           "204": {
@@ -499,6 +536,43 @@
     },
     "/playrecords/create": {
       "get": {
+        "operationId": "createPlayRecord",
+        "responses": {
+          "200": {
+            "description": "200 response",
+            "headers": {
+              "Access-Control-Allow-Origin": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Access-Control-Allow-Credentials": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Content-Type": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BasicObjectModel"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "BoardgamesAPIBoardGamesAPIPrivateApiRequestAuthorizerB54985A8": []
+          }
+        ]
+      },
+      "post": {
         "operationId": "createPlayRecord",
         "responses": {
           "200": {
