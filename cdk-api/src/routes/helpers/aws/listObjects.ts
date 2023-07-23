@@ -4,6 +4,7 @@ import { s3Client } from './s3Client'
 export interface ListObjectParams {
   Bucket: string
   Prefix: string
+  Delimiter?: string
 }
 
 export default async function listObjects (params: ListObjectParams): Promise<ListObjectsV2CommandOutput> {

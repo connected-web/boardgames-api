@@ -5,7 +5,7 @@ import listObjects, { ListObjectParams } from './aws/listObjects'
 
 import { DeleteObjectCommandOutput, ListObjectsV2CommandOutput, PutObjectCommandOutput } from '@aws-sdk/client-s3'
 
-interface Interfaces {
+export interface Interfaces {
   console: Console
   deleteObject: (params: DeleteObjectParams) => Promise<DeleteObjectCommandOutput>
   getObject: (params: GetObjectParams) => Promise<string>
@@ -15,7 +15,7 @@ interface Interfaces {
   getBucketName: () => string
 }
 
-interface PartialInterfaces {
+export interface PartialInterfaces {
   console?: Console
   deleteObject?: (params: DeleteObjectParams) => Promise<DeleteObjectCommandOutput>
   getObject?: (params: GetObjectParams) => Promise<string>

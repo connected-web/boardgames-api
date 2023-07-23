@@ -145,18 +145,19 @@ describe('Open API Spec', () => {
 
       console.log('Play Records (2023-01):', response.status, response.statusText, JSON.stringify(response.data, null, 2))
 
-      ajv.validate({ $ref: 'app-openapi.json#/components/schemas/PlayRecordsModel' }, response.data)
-      expect(ajv.errors ?? []).toEqual([])
-
       const tempData = response.data as any
-      expect(tempData?.playRecords ?? []).toContain({
+      const record = (tempData?.playRecords ?? []).find((item: any) => item.key === 'original/2023/01/2023-01-01T20:16:30.573Z.json')
+      expect(record).toEqual({
         name: 'Love Letter: Princess Princess Ever After',
         date: '01/01/2023',
         coOp: 'no',
         noOfPlayers: 2,
         winner: 'Hannah',
-        key: '2023/01/2023-01-01T20:16:30.573Z.json'
+        key: 'original/2023/01/2023-01-01T20:16:30.573Z.json'
       })
+
+      ajv.validate({ $ref: 'app-openapi.json#/components/schemas/PlayRecordsModel' }, response.data)
+      expect(ajv.errors ?? []).toEqual([])
     })
 
     it('should be possible to list play records for 2023', async () => {
@@ -168,13 +169,14 @@ describe('Open API Spec', () => {
       expect(ajv.errors ?? []).toEqual([])
 
       const tempData = response.data as any
-      expect(tempData?.playRecords ?? []).toContain({
+      const record = (tempData?.playRecords ?? []).find((item: any) => item.key === 'original/2023/01/2023-01-31T14:37:42.955Z.json')
+      expect(record).toEqual({
         name: 'Design Town',
         date: '30/01/2023',
         coOp: 'no',
         noOfPlayers: 2,
         winner: 'Hannah',
-        key: '2023/01/2023-01-31T14:37:42.955Z.json'
+        key: 'original/2023/01/2023-01-31T14:37:42.955Z.json'
       })
     })
 
@@ -187,13 +189,14 @@ describe('Open API Spec', () => {
       expect(ajv.errors ?? []).toEqual([])
 
       const tempData = response.data as any
-      expect(tempData?.playRecords ?? []).toContain({
+      const record = (tempData?.playRecords ?? []).find((item: any) => item.key === 'original/2023/01/2023-01-31T14:37:29.851Z.json')
+      expect(record).toEqual({
         name: 'Codenames',
         date: '29/01/2023',
         coOp: 'yes',
         noOfPlayers: 2,
         coOpOutcome: 'win',
-        key: '2023/01/2023-01-31T14:37:29.851Z.json'
+        key: 'original/2023/01/2023-01-31T14:37:29.851Z.json'
       })
     })
   })
