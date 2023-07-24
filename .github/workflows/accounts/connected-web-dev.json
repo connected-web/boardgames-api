@@ -4,5 +4,21 @@
   "service": "connected-web",
   "environment": "dev",
   "prefix": "dev",
-  "hostedZoneDomain": "dev.connected-web.services"
+  "hostedZoneDomain": "dev.connected-web.services",
+  "identity": {
+    "verifiers": [{
+      "name": "Users Dev",
+      "userPoolId": "eu-west-2_VBRbzaly6",
+      "tokenUse": "access",
+      "clientId": "5rgdg0eeeeu043fbfvl12ehrmg",
+      "oauthUrl": "https://connected-web-dev.auth.eu-west-2.amazoncognito.com"
+    }, {
+      "name": "Apps Dev",
+      "userPoolId": "eu-west-2_VBRbzaly6",
+      "tokenUse": "access",
+      "clientId": "4jflpkjl6c4u6ve18o822ovu1m",
+      "oauthUrl": "https://connected-web-dev.auth.eu-west-2.amazoncognito.com"
+    }]
+  }
 }
+
