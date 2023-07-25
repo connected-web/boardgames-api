@@ -13,7 +13,13 @@ import CreatePlayRecordEndpoint from './endpoints/createPlayrecord'
 import DeletePlayRecordEndpoint from './endpoints/deletePlayrecord'
 import ListPlayRecordsByDateEndpoint from './endpoints/listPlayRecordsByDate'
 
-export interface StackParameters { hostedZoneDomain: string, playRecordsBucketName: string }
+import { Verifier } from '../routes/authorizer'
+
+export interface IdentityConfig {
+  verifiers: Verifier[]
+}
+
+export interface StackParameters { hostedZoneDomain: string, playRecordsBucketName: string, identity: IdentityConfig }
 
 export class ApiStack extends cdk.Stack {
   constructor (scope: Construct, id: string, props: cdk.StackProps, config: StackParameters) {
@@ -22,7 +28,8 @@ export class ApiStack extends cdk.Stack {
     const boardgamesApi = new OpenAPIRestAPI(this, 'Board Games API', {
       Description: 'Board Games API - https://github.com/connected-web/boardgames-api/',
       SubDomain: 'boardgames-api',
-      HostedZoneDomain: config.hostedZoneDomain
+      HostedZoneDomain: config.hostedZoneDomain,
+      Verifiers: config?.identity.verifiers ?? []
     })
 
     // Create an S3 bucket

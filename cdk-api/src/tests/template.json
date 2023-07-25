@@ -116,7 +116,7 @@
       "UpdateReplacePolicy": "Retain",
       "DeletionPolicy": "Retain"
     },
-    "BoardGamesAPIDeploymentCF2289E84dc00e0e36638094b0b913daff82a1d7": {
+    "BoardGamesAPIDeploymentCF2289E86258eaa3ec14888b5f8b452f4b940c83": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -137,10 +137,10 @@
         "BoardGamesAPIopenapiOPTIONSC45BC1CB",
         "BoardGamesAPIopenapiB261D55F",
         "BoardGamesAPIOPTIONS81C311BD",
-        "BoardGamesAPIplayrecordscreateGETFA2F1C0C",
         "BoardGamesAPIplayrecordscreateOPTIONS8170720E",
+        "BoardGamesAPIplayrecordscreatePOSTDA043C67",
         "BoardGamesAPIplayrecordscreate346E2417",
-        "BoardGamesAPIplayrecordsdeleteGET7251663F",
+        "BoardGamesAPIplayrecordsdeleteDELETEEC75310F",
         "BoardGamesAPIplayrecordsdeleteOPTIONSFFA6A4EC",
         "BoardGamesAPIplayrecordsdeleteDC3CD7B4",
         "BoardGamesAPIplayrecordslistdateCodeGETFD20D6F4",
@@ -154,7 +154,10 @@
         "BoardGamesAPIstatusGET799E8117",
         "BoardGamesAPIstatusOPTIONS030FBF19",
         "BoardGamesAPIstatus10B32DBB",
-        "MessageResponseFB81541E"
+        "MessageResponseFB81541E",
+        "PlayRecord92A9E09B",
+        "PlayRecords182062D1",
+        "StatusResponse73E13F5C"
       ]
     },
     "BoardGamesAPIDeploymentStagev13C85ECE1": {
@@ -164,7 +167,7 @@
           "Ref": "BoardGamesAPIBD87F933"
         },
         "DeploymentId": {
-          "Ref": "BoardGamesAPIDeploymentCF2289E84dc00e0e36638094b0b913daff82a1d7"
+          "Ref": "BoardGamesAPIDeploymentCF2289E86258eaa3ec14888b5f8b452f4b940c83"
         },
         "StageName": "v1"
       },
@@ -381,7 +384,7 @@
           {
             "ResponseModels": {
               "application/json": {
-                "Ref": "BasicObject9C56B0F9"
+                "Ref": "StatusResponse73E13F5C"
               }
             },
             "ResponseParameters": {
@@ -1024,7 +1027,7 @@
           {
             "ResponseModels": {
               "application/json": {
-                "Ref": "BasicArray9BB70429"
+                "Ref": "PlayRecords182062D1"
               }
             },
             "ResponseParameters": {
@@ -1200,7 +1203,7 @@
           {
             "ResponseModels": {
               "application/json": {
-                "Ref": "BasicArray9BB70429"
+                "Ref": "PlayRecords182062D1"
               }
             },
             "ResponseParameters": {
@@ -1267,7 +1270,7 @@
         ]
       }
     },
-    "BoardGamesAPIplayrecordscreateGETApiPermissionMyTestStackBoardGamesAPI73545F1BGETplayrecordscreate783123A2": {
+    "BoardGamesAPIplayrecordscreatePOSTApiPermissionMyTestStackBoardGamesAPI73545F1BPOSTplayrecordscreateC6758CE8": {
       "Type": "AWS::Lambda::Permission",
       "Properties": {
         "Action": "lambda:InvokeFunction",
@@ -1294,13 +1297,13 @@
               {
                 "Ref": "BoardGamesAPIDeploymentStagev13C85ECE1"
               },
-              "/GET/playrecords/create"
+              "/POST/playrecords/create"
             ]
           ]
         }
       }
     },
-    "BoardGamesAPIplayrecordscreateGETApiPermissionTestMyTestStackBoardGamesAPI73545F1BGETplayrecordscreate556549F0": {
+    "BoardGamesAPIplayrecordscreatePOSTApiPermissionTestMyTestStackBoardGamesAPI73545F1BPOSTplayrecordscreate19CDE83C": {
       "Type": "AWS::Lambda::Permission",
       "Properties": {
         "Action": "lambda:InvokeFunction",
@@ -1323,16 +1326,16 @@
               {
                 "Ref": "BoardGamesAPIBD87F933"
               },
-              "/test-invoke-stage/GET/playrecords/create"
+              "/test-invoke-stage/POST/playrecords/create"
             ]
           ]
         }
       }
     },
-    "BoardGamesAPIplayrecordscreateGETFA2F1C0C": {
+    "BoardGamesAPIplayrecordscreatePOSTDA043C67": {
       "Type": "AWS::ApiGateway::Method",
       "Properties": {
-        "HttpMethod": "GET",
+        "HttpMethod": "POST",
         "ResourceId": {
           "Ref": "BoardGamesAPIplayrecordscreate346E2417"
         },
@@ -1443,7 +1446,7 @@
         ]
       }
     },
-    "BoardGamesAPIplayrecordsdeleteGETApiPermissionMyTestStackBoardGamesAPI73545F1BGETplayrecordsdelete3268D95B": {
+    "BoardGamesAPIplayrecordsdeleteDELETEApiPermissionMyTestStackBoardGamesAPI73545F1BDELETEplayrecordsdelete6696EBE9": {
       "Type": "AWS::Lambda::Permission",
       "Properties": {
         "Action": "lambda:InvokeFunction",
@@ -1470,13 +1473,13 @@
               {
                 "Ref": "BoardGamesAPIDeploymentStagev13C85ECE1"
               },
-              "/GET/playrecords/delete"
+              "/DELETE/playrecords/delete"
             ]
           ]
         }
       }
     },
-    "BoardGamesAPIplayrecordsdeleteGETApiPermissionTestMyTestStackBoardGamesAPI73545F1BGETplayrecordsdelete2525DBA6": {
+    "BoardGamesAPIplayrecordsdeleteDELETEApiPermissionTestMyTestStackBoardGamesAPI73545F1BDELETEplayrecordsdelete039BE9A0": {
       "Type": "AWS::Lambda::Permission",
       "Properties": {
         "Action": "lambda:InvokeFunction",
@@ -1499,16 +1502,16 @@
               {
                 "Ref": "BoardGamesAPIBD87F933"
               },
-              "/test-invoke-stage/GET/playrecords/delete"
+              "/test-invoke-stage/DELETE/playrecords/delete"
             ]
           ]
         }
       }
     },
-    "BoardGamesAPIplayrecordsdeleteGET7251663F": {
+    "BoardGamesAPIplayrecordsdeleteDELETEEC75310F": {
       "Type": "AWS::ApiGateway::Method",
       "Properties": {
-        "HttpMethod": "GET",
+        "HttpMethod": "DELETE",
         "ResourceId": {
           "Ref": "BoardGamesAPIplayrecordsdeleteDC3CD7B4"
         },
@@ -1705,7 +1708,7 @@
       "Properties": {
         "Code": {
           "S3Bucket": "cdk-hnb659fds-assets-1234567890-eu-west-2",
-          "S3Key": "a4fee0edede578cce4a6ed2c1a1df3d9be5d8141fd548dc946985cf2b3bab8d4.zip"
+          "S3Key": "ec5ad5499f6d14eef4e2f288842fe2303a2ca76099323bdc78a421bdc1cc4abf.zip"
         },
         "Role": {
           "Fn::GetAtt": [
@@ -1715,12 +1718,13 @@
         },
         "Environment": {
           "Variables": {
+            "AUTH_VERIFIERS_JSON": "[]",
             "AWS_NODEJS_CONNECTION_REUSE_ENABLED": "1"
           }
         },
         "Handler": "index.handler",
         "MemorySize": 256,
-        "Runtime": "nodejs16.x",
+        "Runtime": "nodejs18.x",
         "Timeout": 5
       },
       "DependsOn": [
@@ -1823,6 +1827,30 @@
         }
       }
     },
+    "StatusResponse73E13F5C": {
+      "Type": "AWS::ApiGateway::Model",
+      "Properties": {
+        "RestApiId": {
+          "Ref": "BoardGamesAPIBD87F933"
+        },
+        "ContentType": "application/json",
+        "Name": "StatusResponseModel",
+        "Schema": {
+          "$schema": "http://json-schema.org/draft-04/schema#",
+          "title": "Status",
+          "type": "object",
+          "properties": {
+            "deploymentTime": {
+              "type": "string",
+              "description": "The UTC timestamp representing the last time the server was updated"
+            }
+          },
+          "required": [
+            "deploymentTime"
+          ]
+        }
+      }
+    },
     "MessageResponseFB81541E": {
       "Type": "AWS::ApiGateway::Model",
       "Properties": {
@@ -1843,6 +1871,88 @@
           },
           "required": [
             "message"
+          ]
+        }
+      }
+    },
+    "PlayRecord92A9E09B": {
+      "Type": "AWS::ApiGateway::Model",
+      "Properties": {
+        "RestApiId": {
+          "Ref": "BoardGamesAPIBD87F933"
+        },
+        "ContentType": "application/json",
+        "Name": "PlayRecordModel",
+        "Schema": {
+          "$schema": "http://json-schema.org/draft-04/schema#",
+          "title": "Play Record",
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "date": {
+              "type": "string"
+            },
+            "coOp": {
+              "type": "string"
+            },
+            "noOfPlayers": {
+              "type": "number"
+            },
+            "winner": {
+              "type": "string"
+            },
+            "key": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "name",
+            "date",
+            "coOp",
+            "noOfPlayers"
+          ]
+        }
+      }
+    },
+    "PlayRecords182062D1": {
+      "Type": "AWS::ApiGateway::Model",
+      "Properties": {
+        "RestApiId": {
+          "Ref": "BoardGamesAPIBD87F933"
+        },
+        "ContentType": "application/json",
+        "Name": "PlayRecordsModel",
+        "Schema": {
+          "$schema": "http://json-schema.org/draft-04/schema#",
+          "title": "Play Records",
+          "type": "object",
+          "properties": {
+            "playRecords": {
+              "type": "array",
+              "items": {
+                "$ref": {
+                  "Fn::Join": [
+                    "",
+                    [
+                      "https://apigateway.amazonaws.com/restapis/",
+                      {
+                        "Ref": "BoardGamesAPIBD87F933"
+                      },
+                      "/models/",
+                      {
+                        "Ref": "PlayRecord92A9E09B"
+                      }
+                    ]
+                  ]
+                }
+              },
+              "description": "An array of play records"
+            }
+          },
+          "required": [
+            "playRecords"
           ]
         }
       }
@@ -1893,14 +2003,14 @@
         },
         "Environment": {
           "Variables": {
-            "STATUS_INFO": "{\"deploymentTime\":\"2023-07-22T11:39:25.252Z\"}",
+            "STATUS_INFO": "{\"deploymentTime\":\"2023-07-25T21:53:17.288Z\"}",
             "AWS_NODEJS_CONNECTION_REUSE_ENABLED": "1"
           }
         },
         "Handler": "index.handler",
         "MemorySize": 256,
-        "Runtime": "nodejs16.x",
-        "Timeout": 5
+        "Runtime": "nodejs18.x",
+        "Timeout": 25
       },
       "DependsOn": [
         "GetStatusServiceRoleF4D04B56"
@@ -1963,7 +2073,7 @@
       "Properties": {
         "Code": {
           "S3Bucket": "cdk-hnb659fds-assets-1234567890-eu-west-2",
-          "S3Key": "15a22968422880674dbfe8fcc8c7f1f4b3219d4de7cdf17603c11ae44a5d2455.zip"
+          "S3Key": "5505bb64d95e9fab2a40756a13a9c7fa52b84a6be95695e3c664b30dc21ad433.zip"
         },
         "Role": {
           "Fn::GetAtt": [
@@ -1978,8 +2088,8 @@
         },
         "Handler": "index.handler",
         "MemorySize": 256,
-        "Runtime": "nodejs16.x",
-        "Timeout": 5
+        "Runtime": "nodejs18.x",
+        "Timeout": 25
       },
       "DependsOn": [
         "GetOpenAPISpecServiceRoleDefaultPolicy5E77468C",
@@ -2022,7 +2132,7 @@
       "Properties": {
         "Code": {
           "S3Bucket": "cdk-hnb659fds-assets-1234567890-eu-west-2",
-          "S3Key": "934af710f73f0d1500d32347cab45ac995720c6e39d1420ec670c79543726a38.zip"
+          "S3Key": "b0341d112fe12f70077eb63fd609a6e8f79a34567e3f102c48a6382adc8035bf.zip"
         },
         "Role": {
           "Fn::GetAtt": [
@@ -2039,8 +2149,8 @@
         },
         "Handler": "index.handler",
         "MemorySize": 256,
-        "Runtime": "nodejs16.x",
-        "Timeout": 5
+        "Runtime": "nodejs18.x",
+        "Timeout": 25
       },
       "DependsOn": [
         "HelloWorldServiceRoleF3F7D8B0"
@@ -2086,7 +2196,14 @@
               "Action": [
                 "s3:GetObject*",
                 "s3:GetBucket*",
-                "s3:List*"
+                "s3:List*",
+                "s3:DeleteObject*",
+                "s3:PutObject",
+                "s3:PutObjectLegalHold",
+                "s3:PutObjectRetention",
+                "s3:PutObjectTagging",
+                "s3:PutObjectVersionTagging",
+                "s3:Abort*"
               ],
               "Effect": "Allow",
               "Resource": [
@@ -2128,7 +2245,7 @@
       "Properties": {
         "Code": {
           "S3Bucket": "cdk-hnb659fds-assets-1234567890-eu-west-2",
-          "S3Key": "f61ca547a63c78380414cf5a370a5d5b963e5e126d262c2c1aa0033a66fed828.zip"
+          "S3Key": "5a52e3e45519db3f6a3bae244a885007fbb0cd349e6537069b51b0d324271df6.zip"
         },
         "Role": {
           "Fn::GetAtt": [
@@ -2144,8 +2261,8 @@
         },
         "Handler": "index.handler",
         "MemorySize": 256,
-        "Runtime": "nodejs16.x",
-        "Timeout": 5
+        "Runtime": "nodejs18.x",
+        "Timeout": 25
       },
       "DependsOn": [
         "ListPlayRecordsServiceRoleDefaultPolicy57F09A0C",
@@ -2192,7 +2309,14 @@
               "Action": [
                 "s3:GetObject*",
                 "s3:GetBucket*",
-                "s3:List*"
+                "s3:List*",
+                "s3:DeleteObject*",
+                "s3:PutObject",
+                "s3:PutObjectLegalHold",
+                "s3:PutObjectRetention",
+                "s3:PutObjectTagging",
+                "s3:PutObjectVersionTagging",
+                "s3:Abort*"
               ],
               "Effect": "Allow",
               "Resource": [
@@ -2234,7 +2358,7 @@
       "Properties": {
         "Code": {
           "S3Bucket": "cdk-hnb659fds-assets-1234567890-eu-west-2",
-          "S3Key": "8938c7cca2489b53ef8574cf7a66377b52e6cb045541f5080428cf11cef4ed16.zip"
+          "S3Key": "131d044876c888ed4e1a88f993418d844980c4627158b3d1ea926a3f3247a655.zip"
         },
         "Role": {
           "Fn::GetAtt": [
@@ -2250,8 +2374,8 @@
         },
         "Handler": "index.handler",
         "MemorySize": 256,
-        "Runtime": "nodejs16.x",
-        "Timeout": 5
+        "Runtime": "nodejs18.x",
+        "Timeout": 25
       },
       "DependsOn": [
         "ListPlayRecordsByDateServiceRoleDefaultPolicy97884DAE",
@@ -2347,7 +2471,7 @@
       "Properties": {
         "Code": {
           "S3Bucket": "cdk-hnb659fds-assets-1234567890-eu-west-2",
-          "S3Key": "02647311c16d93d353fa918a2a75f9d9ce9ea6d94b28f8b781d032cf27d6a1b7.zip"
+          "S3Key": "194ae45bad61b4cb7099dc75e5ee78914f998d9350a5e94552c17baec0853b28.zip"
         },
         "Role": {
           "Fn::GetAtt": [
@@ -2363,8 +2487,8 @@
         },
         "Handler": "index.handler",
         "MemorySize": 256,
-        "Runtime": "nodejs16.x",
-        "Timeout": 5
+        "Runtime": "nodejs18.x",
+        "Timeout": 25
       },
       "DependsOn": [
         "CreatePlayRecordServiceRoleDefaultPolicy5E646776",
@@ -2460,7 +2584,7 @@
       "Properties": {
         "Code": {
           "S3Bucket": "cdk-hnb659fds-assets-1234567890-eu-west-2",
-          "S3Key": "f3cfce211812f10088bc8b23907ba5ded2cc883b2cd728e8818a169bbf37779a.zip"
+          "S3Key": "02245d134305cd53ecc7db3de469b5266f1cc174d927b30414d5c537e96bf22f.zip"
         },
         "Role": {
           "Fn::GetAtt": [
@@ -2476,8 +2600,8 @@
         },
         "Handler": "index.handler",
         "MemorySize": 256,
-        "Runtime": "nodejs16.x",
-        "Timeout": 5
+        "Runtime": "nodejs18.x",
+        "Timeout": 25
       },
       "DependsOn": [
         "DeletePlayRecordServiceRoleDefaultPolicyE5162683",

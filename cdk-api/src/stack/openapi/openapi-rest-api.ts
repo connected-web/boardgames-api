@@ -8,6 +8,7 @@ import { Certificate, CertificateValidation } from 'aws-cdk-lib/aws-certificatem
 
 import OpenAPIEndpoint from './openapi-endpoint'
 import OpenAPIFunction from './openapi-function'
+import { Verifier } from '../../routes/authorizer'
 import { NodejsFunction } from 'aws-cdk-lib/aws-lambda-nodejs'
 import path from 'path'
 
@@ -15,6 +16,7 @@ interface OpenAPIRestAPIProps {
   Description: string
   SubDomain: string
   HostedZoneDomain: string
+  Verifiers: Verifier[]
 }
 
 export default class OpenAPIRestAPI extends Construct {
@@ -49,6 +51,9 @@ export default class OpenAPIRestAPI extends Construct {
       bundling: {
         minify: true,
         externalModules: ['aws-sdk']
+      },
+      environment: {
+        AUTH_VERIFIERS_JSON: JSON.stringify(props.Verifiers)
       }
     })
 

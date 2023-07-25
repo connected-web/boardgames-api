@@ -14,7 +14,10 @@ const getTemplate = (): Template => {
   },
   {
     hostedZoneDomain: 'dummy.domain.name',
-    playRecordsBucketName: 'unit-test-bucket-name-for-playrecords'
+    playRecordsBucketName: 'unit-test-bucket-name-for-playrecords',
+    identity: {
+      verifiers: []
+    }
   })
   const template = Template.fromStack(stack)
   fs.writeFileSync('src/tests/template.json', JSON.stringify(template, null, 2))
