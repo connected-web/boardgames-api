@@ -18,12 +18,12 @@ const clientConfigs = {
   'not-set': {
     error: 'No mode set; use --dev or --prod to specify credentials realm'
   },
-  'dev': {
+  dev: {
     clientId: CONNECTED_WEB_DEV_SSO_CLIENT_ID,
     clientSecret: CONNECTED_WEB_DEV_SSO_SECRET,
     oauthTokenEndpoint: 'https://connected-web-dev.auth.eu-west-2.amazoncognito.com/oauth2/token'
   },
-  'prod': {
+  prod: {
     clientId: CONNECTED_WEB_PROD_SSO_CLIENT_ID,
     clientSecret: CONNECTED_WEB_PROD_SSO_SECRET,
     oauthTokenEndpoint: 'https://connected-web.auth.eu-west-2.amazoncognito.com/oauth2/token'
