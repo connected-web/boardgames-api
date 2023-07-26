@@ -40,18 +40,24 @@ async function getPolicyFromAuthHeader (authHeader: string, verifiers: Verifier[
         clientId: verifierConfig.clientId // '2fomt3amj0luqe3o5ce8ou76m8'
       })
       const payload = await verifier.verify(token)
-      const groups = (payload['cognito:groups'] ?? []).join(',')
-      console.log('Authorization token is valid. Payload:', { payload, groups })
+      console.log('Authorization token is valid. Payload:', { payload })
 
-      const oauthUrl: string = verifierConfig.oauthUrl // 'https://connected-web.auth.eu-west-2.amazoncognito.com'
-      const oauthClient: AxiosInstance = axios.create({ baseURL: oauthUrl })
-      const user = await oauthClient.get('/oauth2/userInfo', {
-        headers: {
-          authorization: `Bearer ${token}`
-        }
-      })
-      console.log('User Info:', { userLookup: user.data })
-      return buildPolicy('Allow', user.data.email, { token, payload: JSON.stringify(payload), groups })
+      if (payload.username !== undefined) {
+        const oauthUrl: string = verifierConfig.oauthUrl // 'https://connected-web.auth.eu-west-2.amazoncognito.com'
+        const oauthClient: AxiosInstance = axios.create({ baseURL: oauthUrl })
+        const user = await oauthClient.get('/oauth2/userInfo', {
+          headers: {
+            authorization: `Bearer ${token}`
+          }
+        })
+        const userGroups = (payload['cognito:groups'] ?? []).join(', ')
+        console.log('User Info:', { userLookup: user.data, userGroups })
+        return buildPolicy('Allow', user.data.email, { token, payload: JSON.stringify(payload), groups: userGroups })
+      } else {
+        const appGroups = (payload.scope as string ?? '').split(' ').join(', ')
+        console.log('App Info:', { appGroups })
+        return buildPolicy('Allow', payload.scope as string, { token, payload: JSON.stringify(payload), groups: appGroups })
+      }
     } catch (err) {
       console.log('Authorization token not valid!', err)
       return buildPolicy('Deny', 'unknown', {})

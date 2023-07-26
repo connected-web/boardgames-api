@@ -21,13 +21,20 @@ From your AWS Account:
 ```
 export CONNECTED_WEB_DEV_SSO_CLIENT_ID="..."
 export CONNECTED_WEB_DEV_SSO_SECRET="..."
-node getOAuthToken.mjs
+export APP_AUTH_TOKEN=$(node getOAuthToken.mjs)
+```
+
+Or:
+
+```
+export CONNECTED_WEB_PROD_SSO_CLIENT_ID="..."
+export CONNECTED_WEB_PROD_SSO_SECRET="..."
+export APP_AUTH_TOKEN=$(node getOAuthToken.mjs)
 ```
 
 Then use that token:
 
 ```
-export APP_AUTH_TOKEN="..."
 curl -H "Authorization: Bearer $APP_AUTH_TOKEN" https://boardgames-api.dev.connected-web.services/status
 ```
 

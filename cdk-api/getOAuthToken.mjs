@@ -20,17 +20,19 @@ async function getOAuthToken () {
     Authorization: `Basic ${btoa([clientId, clientSecret].join(':'))}`
   }
   const tokenResponse = await axios.post(oauthTokenEndpoint, requestPayload, { headers: requestHeaders })
-  console.log('[getOAuthToken] Token response', { tokenResponse: tokenResponse.data })
+  // console.log('[getOAuthToken] Token response', { tokenResponse: tokenResponse.data })
   return tokenResponse?.data?.access_token ?? 'not-set'
 }
 
 async function run () {
   try {
     const result = await getOAuthToken()
-    console.log('Result:', { result })
+    // console.log('Result:', { result })
+    process.stdout.write(result)
   } catch (ex) {
     console.error({ response: ex?.response?.data, payload: ex?.config?.data })
     console.error('Error:', { message: ex.message })
+    process.exit(1)
   }
 }
 
