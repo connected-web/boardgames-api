@@ -13,8 +13,13 @@ addFormats(ajv)
 
 const {
   POST_DEPLOYMENT_SERVER_DOMAIN,
+  POST_DEPLOYMENT_AUTH_URL,
+  POST_DEPLOYMENT_CLIENT_ID,
+  POST_DEPLOYMENT_CLIENT_SECRET,
   CONNECTED_WEB_DEV_SSO_CLIENT_ID,
-  CONNECTED_WEB_DEV_SSO_SECRET
+  CONNECTED_WEB_DEV_SSO_SECRET,
+  CONNECTED_WEB_PROD_SSO_CLIENT_ID,
+  CONNECTED_WEB_PROD_SSO_SECRET
 } = process.env
 
 interface ServerInfo {
@@ -24,17 +29,40 @@ interface ServerInfo {
   }
 }
 
-const server: ServerInfo = {
-  baseUrl: POST_DEPLOYMENT_SERVER_DOMAIN ?? 'https://boardgames-api.dev.connected-web.services',
+const clientConfigs = {
+  'not-set': {
+    error: 'No mode set; use --dev or --prod to specify credentials realm'
+  },
+  dev: {
+    clientId: CONNECTED_WEB_DEV_SSO_CLIENT_ID as string,
+    clientSecret: CONNECTED_WEB_DEV_SSO_SECRET as string,
+    oauthTokenEndpoint: 'https://connected-web-dev.auth.eu-west-2.amazoncognito.com/oauth2/token',
+    serviceUnderTest: 'https://boardgames-api.dev.connected-web.services'
+  },
+  prod: {
+    clientId: CONNECTED_WEB_PROD_SSO_CLIENT_ID as string,
+    clientSecret: CONNECTED_WEB_PROD_SSO_SECRET as string,
+    oauthTokenEndpoint: 'https://connected-web.auth.eu-west-2.amazoncognito.com/oauth2/token',
+    serviceUnderTest: 'https://boardgames-api.prod.connected-web.services'
+  },
+  ci: {
+    clientId: POST_DEPLOYMENT_CLIENT_ID as string,
+    clientSecret: POST_DEPLOYMENT_CLIENT_SECRET as string,
+    oauthTokenEndpoint: POST_DEPLOYMENT_AUTH_URL as string,
+    serviceUnderTest: POST_DEPLOYMENT_SERVER_DOMAIN as string
+  }
+}
+
+const clientConfig = POST_DEPLOYMENT_AUTH_URL !== undefined ? clientConfigs.ci : clientConfigs.dev
+const serverConfig: ServerInfo = {
+  baseUrl: clientConfig.serviceUnderTest,
   headers: {
     Authorization: 'Bearer not-specified'
   }
 }
 
 async function getOAuthToken (): Promise<string> {
-  const oauthTokenEndpoint = 'https://connected-web-dev.auth.eu-west-2.amazoncognito.com/oauth2/token'
-  const clientId = CONNECTED_WEB_DEV_SSO_CLIENT_ID as string
-  const clientSecret = CONNECTED_WEB_DEV_SSO_SECRET as string
+  const { clientId, clientSecret, oauthTokenEndpoint } = clientConfig
   const requestPayload = [
     'grant_type=client_credentials',
     `client_id=${clientId}`
@@ -45,7 +73,7 @@ async function getOAuthToken (): Promise<string> {
     Authorization: `Basic ${btoa([clientId, clientSecret].join(':'))}`
   }
   const tokenResponse = await axios.post(oauthTokenEndpoint, requestPayload, { headers: requestHeaders })
-  console.log('[getOAuthToken] Token response', { tokenResponse: tokenResponse.data })
+  // console.log('[getOAuthToken] Token response', { tokenResponse: tokenResponse.data })
   return tokenResponse?.data?.access_token ?? 'not-set'
 }
 
@@ -53,19 +81,15 @@ describe('Open API Spec', () => {
   let openapiDoc: Document
   const downloadedOpenAPIDocPath = path.join(__dirname, './downloaded-app-openapi.json')
 
-  console.log('Server:', { server })
+  console.log('Server:', { serverConfig })
 
   beforeAll(async () => {
     console.log('Implicit test: it should download the openapi spec for the App Store from /openapi')
     const oauthToken = await getOAuthToken()
     console.log('Received OAuth Token:', { oauthToken })
-    const basicClient = axios.create({
-      baseURL: server.baseUrl,
-      headers: {
-        Authorization: `Bearer ${oauthToken}`
-      }
-    })
-    console.log('Created basic Axios client using:', { baseUrl: server.baseUrl })
+    serverConfig.headers.Authorization = `Bearer ${oauthToken}`
+    const basicClient = axios.create(serverConfig)
+    console.log('Created basic Axios client using:', { baseUrl: serverConfig.baseUrl })
 
     const response = await basicClient.get('/openapi')
     openapiDoc = response.data
@@ -102,7 +126,7 @@ describe('Open API Spec', () => {
   it('should be possible to create an Open API Client based on the spec', async () => {
     // Note: this requires a manual run of: npm run typegen:for-post-deployment
     // Which uses the openapi-client-axios-typegen package to create appStore-client.d.ts
-    const axiosApi = new OpenAPIClientAxios({ definition: openapiDoc, axiosConfigDefaults: { headers: server.headers } })
+    const axiosApi = new OpenAPIClientAxios({ definition: openapiDoc, axiosConfigDefaults: { headers: serverConfig.headers } })
     const appStoreClient = await axiosApi.getClient()
     const actualClientKeys = Object.keys(appStoreClient)
     expect(actualClientKeys).toEqual(
@@ -124,7 +148,7 @@ describe('Open API Spec', () => {
       const axiosApi = new OpenAPIClientAxios({
         definition: openapiDoc,
         axiosConfigDefaults: {
-          headers: server.headers,
+          headers: serverConfig.headers,
           validateStatus: function (status) {
             return status >= 200 // don't throw errors on non-200 codes
           }
@@ -228,7 +252,7 @@ describe('Open API Spec', () => {
       })
     })
 
-    it.only('should be possible create a play record', async () => {
+    it('should be possible create a play record', async () => {
       const now = new Date()
       const payload = {
         name: `John Testing (${now.getTime()})`,
