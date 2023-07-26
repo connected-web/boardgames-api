@@ -1,3 +1,4 @@
+/* global btoa */
 import axios from 'axios'
 
 const {
