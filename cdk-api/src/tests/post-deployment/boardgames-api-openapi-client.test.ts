@@ -99,47 +99,50 @@ describe('Open API Spec', () => {
     ajv.addSchema(openapiDoc, 'app-openapi.json')
   })
 
-  it('should contain an info block with title and description', async () => {
-    const { version, ...testableProps } = openapiDoc.info
-    expect(testableProps).toEqual({
-      title: 'Board Games API',
-      description: 'Board Games API - https://github.com/connected-web/boardgames-api/'
+  describe('Open API Document', () => {
+
+    it('should contain an info block with title and description', async () => {
+      const { version, ...testableProps } = openapiDoc.info
+      expect(testableProps).toEqual({
+        title: 'Board Games API',
+        description: 'Board Games API - https://github.com/connected-web/boardgames-api/'
+      })
     })
-  })
-
-  it('should contain a list of paths', async () => {
-    const pathStrings = Object.keys(openapiDoc.paths as any).sort()
-    expect(pathStrings).toEqual([
-      '/',
-      '/hello',
-      '/hello/{name}',
-      '/openapi',
-      '/playrecords',
-      '/playrecords/create',
-      '/playrecords/delete',
-      '/playrecords/list',
-      '/playrecords/list/{dateCode}',
-      '/status'
-    ])
-  })
-
-  it('should be possible to create an Open API Client based on the spec', async () => {
-    // Note: this requires a manual run of: npm run typegen:for-post-deployment
-    // Which uses the openapi-client-axios-typegen package to create appStore-client.d.ts
-    const axiosApi = new OpenAPIClientAxios({ definition: openapiDoc, axiosConfigDefaults: { headers: serverConfig.headers } })
-    const appStoreClient = await axiosApi.getClient()
-    const actualClientKeys = Object.keys(appStoreClient)
-    expect(actualClientKeys).toEqual(
-      expect.arrayContaining([
-        'getOpenAPISpec',
-        'getStatus',
-        'helloWorld',
-        'listPlayRecords',
-        'listPlayRecordsByDate',
-        'createPlayRecord',
-        'deletePlayRecord'
+  
+    it('should contain a list of paths', async () => {
+      const pathStrings = Object.keys(openapiDoc.paths as any).sort()
+      expect(pathStrings).toEqual([
+        '/',
+        '/hello',
+        '/hello/{name}',
+        '/openapi',
+        '/playrecords',
+        '/playrecords/create',
+        '/playrecords/delete',
+        '/playrecords/list',
+        '/playrecords/list/{dateCode}',
+        '/status'
       ])
-    )
+    })
+  
+    it('should be possible to create an Open API Client based on the spec', async () => {
+      // Note: this requires a manual run of: npm run typegen:for-post-deployment
+      // Which uses the openapi-client-axios-typegen package to create appStore-client.d.ts
+      const axiosApi = new OpenAPIClientAxios({ definition: openapiDoc, axiosConfigDefaults: { headers: serverConfig.headers } })
+      const appStoreClient = await axiosApi.getClient()
+      const actualClientKeys = Object.keys(appStoreClient)
+      expect(actualClientKeys).toEqual(
+        expect.arrayContaining([
+          'getOpenAPISpec',
+          'getStatus',
+          'helloWorld',
+          'listPlayRecords',
+          'listPlayRecordsByDate',
+          'createPlayRecord',
+          'deletePlayRecord'
+        ])
+      )
+    })
   })
 
   describe('OpenAPI Template App Client', () => {
