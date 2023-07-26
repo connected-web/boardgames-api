@@ -21,15 +21,7 @@ From your AWS Account:
 ```
 export CONNECTED_WEB_DEV_SSO_CLIENT_ID="..."
 export CONNECTED_WEB_DEV_SSO_SECRET="..."
-export APP_AUTH_TOKEN=$(node getOAuthToken.mjs)
-```
-
-Or:
-
-```
-export CONNECTED_WEB_PROD_SSO_CLIENT_ID="..."
-export CONNECTED_WEB_PROD_SSO_SECRET="..."
-export APP_AUTH_TOKEN=$(node getOAuthToken.mjs)
+export APP_AUTH_TOKEN=$(node getOAuthToken.mjs --dev)
 ```
 
 Then use that token:
@@ -37,6 +29,26 @@ Then use that token:
 ```
 curl -H "Authorization: Bearer $APP_AUTH_TOKEN" https://boardgames-api.dev.connected-web.services/status
 ```
+
+Or:
+
+```
+export CONNECTED_WEB_PROD_SSO_CLIENT_ID="..."
+export CONNECTED_WEB_PROD_SSO_SECRET="..."
+export APP_AUTH_TOKEN=$(node getOAuthToken.mjs --prod)
+```
+
+Then use that token:
+
+```
+curl -H "Authorization: Bearer $APP_AUTH_TOKEN" https://boardgames-api.prod.connected-web.services/status
+```
+
+The CLIENT_ID and CLIENT_SECRET values can then be saved to your `~/.bashrc` equivalent and loaded on each terminal.
+
+⚠️ Be careful not to reveal the CLIENT_ID and CLIENT_SECRET values as they can be used to get OAuth tokens.
+
+If credentials leak; you will need to remove the App Integration from Cognito and create new credentials.
 
 ## Restoring Data
 
