@@ -284,7 +284,8 @@ describe('Open API Spec', () => {
 
       console.log('List of play records after create play record:', { playRecords: tempData.playRecords })
 
-      const record = (tempData?.playRecords ?? []).find((item: any) => item.keypath === fileKey)
+      const record = (tempData?.playRecords ?? []).find((item: any) => item.key === fileKey)
+      delete record.key
       expect(record).toEqual(payload)
     })
   })
