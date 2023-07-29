@@ -8,7 +8,10 @@ export async function handler (event: APIGatewayProxyEvent): Promise<APIGatewayP
   const { console, deleteObject, getBucketName } = interfaces.get()
 
   const userGroups: string = event.requestContext.authorizer?.groups ?? ''
-  if (!userGroups.includes('BoardGamesBrowserAdmins')) {
+  if (userGroups.includes('BoardGamesBrowserAdmins') || userGroups.includes('app-to-app-connected-web-prod/Github')) {
+    console.log('User part of authorized group', { userGroups })
+  } else {
+    console.log('User not part of an authorized group:', { userGroups })
     return errorResponse(HTTP_CODES.clientForbidden, 'User is authenticated, but not in an authorized user group for this action')
   }
 
