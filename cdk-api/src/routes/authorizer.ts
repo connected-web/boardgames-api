@@ -20,7 +20,7 @@ const { AUTH_VERIFIERS_JSON } = process.env
 const verifiers = JSON.parse((AUTH_VERIFIERS_JSON ?? '[]')) as Verifier[]
 
 export async function handler (event: APIGatewayRequestAuthorizerEvent): Promise<APIGatewayAuthorizerResult> {
-  const authHeader = event?.headers?.authorization ?? 'not-set'
+  const authHeader = event?.headers?.authorization ?? event?.headers?.Authorization ?? 'not-found'
   console.log('Authorizing using Bearer Token')
   return await getPolicyFromAuthHeader(authHeader, verifiers)
 }
