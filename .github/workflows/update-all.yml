@@ -29,6 +29,8 @@ jobs:
           GOOGLE_SERVICE_ACCOUNT_SECURE_CREDENTIALS: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_SECURE_CREDENTIALS }}
           PLAYRECORD_API_USER: ${{ secrets.PLAYRECORD_API_USER }}
           PLAYRECORD_API_KEY: ${{ secrets.PLAYRECORD_API_KEY }}
+          CONNECTED_WEB_PROD_SSO_CLIENT_ID: ${{ secrets.CONNECTED_WEB_PROD_SSO_CLIENT_ID }}
+          CONNECTED_WEB_PROD_SSO_SECRET: ${{ secrets.CONNECTED_WEB_PROD_SSO_SECRET }}
 
     - name: Create data sets
       run: node run create-all

@@ -1,35 +1,70 @@
+/* global btoa */
+const axios = require('axios')
 const { find, read } = require('promise-path')
 
-const playrecordSources = [{
-  year: 2022,
-  apiUser: process.env.PLAYRECORD_API_USER || 'John',
-  apiKey: process.env.PLAYRECORD_API_KEY,
-  url: 'https://nn58gn0krl.execute-api.eu-west-2.amazonaws.com/Prod/playrecords/list'
-}]
+async function getOAuthToken () {
+  const {
+    CONNECTED_WEB_PROD_SSO_CLIENT_ID,
+    CONNECTED_WEB_PROD_SSO_SECRET
+  } = process.env
+
+  const clientConfig = {
+    clientId: CONNECTED_WEB_PROD_SSO_CLIENT_ID,
+    clientSecret: CONNECTED_WEB_PROD_SSO_SECRET,
+    oauthTokenEndpoint: 'https://connected-web.auth.eu-west-2.amazoncognito.com/oauth2/token'
+  }
+
+  const { clientId, clientSecret, oauthTokenEndpoint } = clientConfig
+
+  const requestPayload = [
+    'grant_type=client_credentials',
+    `client_id=${clientId}`
+  ].join('&')
+  const requestHeaders = {
+    Accept: 'application/json',
+    'Content-Type': 'application/x-www-form-urlencoded',
+    Authorization: `Basic ${btoa([clientId, clientSecret].join(':'))}`
+  }
+  const tokenResponse = await axios.post(oauthTokenEndpoint, requestPayload, { headers: requestHeaders })
+  return tokenResponse?.data?.access_token ?? 'not-set'
+}
+
+async function createPlayRecordSources () {
+  return [{
+    year: 2022,
+    authToken: await getOAuthToken(),
+    url: 'https://boardgames-api.prod.connected-web.services/playrecords/list'
+  }]
+}
 
 const log = []
 const report = (...messages) => log.push(['[Download Cali Play Records]', ...messages].join(' '))
 
-async function downloadPlayrecords ({ axios }, { year, apiUser, apiKey, url }) {
-  report('Downloading data for', year, 'from', url, 'with user API key:', apiUser, apiKey)
+async function downloadPlayrecords ({ axios }, { year, authToken, url }) {
+  const startTime = new Date().getTime()
+  report('Downloading data for', year, 'from', url, 'with App authKey (', authToken?.length ?? 0, 'bytes )')
   try {
     const axiosConfig = {
       headers: {
-        'calisaurus-user': apiUser,
-        'calisaurus-user-api-key': apiKey
+        Authorization: `Bearer ${authToken}`,
+        'Content-Type': 'application/json'
       }
     }
     const { data } = await axios.get(url, axiosConfig)
-    report('Downloaded playrecords from', url, JSON.stringify(data))
+    const endTime = new Date().getTime()
+    const executionTime = endTime - startTime
+    report('Downloaded playrecords from', url, 'Result:', JSON.stringify(data), 'Time taken:', executionTime, 'ms')
     return data?.playRecords || []
   } catch (ex) {
     report('Unable to download playrecord data:', ex)
     return []
   }
 }
+
 async function downloadFromSources (model) {
   const { fetchers } = model
-  const downloadWork = await playrecordSources.map(source => {
+  const playRecordSources = await createPlayRecordSources()
+  const downloadWork = playRecordSources.map(source => {
     return downloadPlayrecords(fetchers, source)
   })
   const combinedData = await Promise.all(downloadWork)
