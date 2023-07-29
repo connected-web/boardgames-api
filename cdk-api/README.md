@@ -18,7 +18,7 @@ This is a AWS CDK stack definition for the Board Games API 2023 edition.
 
 From your AWS Account:
 
-```
+```sh
 export CONNECTED_WEB_DEV_SSO_CLIENT_ID="..."
 export CONNECTED_WEB_DEV_SSO_SECRET="..."
 export APP_AUTH_TOKEN=$(node getOAuthToken.mjs --dev)
@@ -26,13 +26,13 @@ export APP_AUTH_TOKEN=$(node getOAuthToken.mjs --dev)
 
 Then use that token:
 
-```
+```sh
 curl -H "Authorization: Bearer $APP_AUTH_TOKEN" https://boardgames-api.dev.connected-web.services/status
 ```
 
 Or:
 
-```
+```sh
 export CONNECTED_WEB_PROD_SSO_CLIENT_ID="..."
 export CONNECTED_WEB_PROD_SSO_SECRET="..."
 export APP_AUTH_TOKEN=$(node getOAuthToken.mjs --prod)
@@ -40,7 +40,7 @@ export APP_AUTH_TOKEN=$(node getOAuthToken.mjs --prod)
 
 Then use that token:
 
-```
+```sh
 curl -H "Authorization: Bearer $APP_AUTH_TOKEN" https://boardgames-api.prod.connected-web.services/status
 ```
 
@@ -56,7 +56,7 @@ You can upload existing (original) data to a target bucket to restore data to th
 
 Log in to your AWS management console, find the correct AWS Account, and get the appropriate keys:
 
-```
+```sh
 export AWS_ACCESS_KEY_ID="..."
 export AWS_SECRET_ACCESS_KEY="..."
 export AWS_SESSION_TOKEN="..."
@@ -64,13 +64,13 @@ export AWS_SESSION_TOKEN="..."
 
 Then sync to a target bucket for the selected environment, e.g. Dev:
 
-```
+```sh
 aws s3 sync data/boardgames-tracking s3://boardgames-api-playrecords-dev/original/
 ```
 
 Or Prod:
 
-```
+```sh
 aws s3 sync data/boardgames-tracking s3://boardgames-api-playrecords-prod/original/
 ```
 
@@ -78,6 +78,6 @@ aws s3 sync data/boardgames-tracking s3://boardgames-api-playrecords-prod/origin
 
 In reverse, download all the files to your local machine. 
 
-```
+```sh
 aws s3 sync s3://boardgames-api-playrecords-prod/original/ data/boardgames-tracking
 ```
