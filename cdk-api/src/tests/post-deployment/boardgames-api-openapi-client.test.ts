@@ -102,7 +102,6 @@ describe('Open API Spec', () => {
   })
 
   describe('Open API Document', () => {
-
     it('should contain an info block with title and description', async () => {
       const { version, ...testableProps } = openapiDoc.info
       expect(testableProps).toEqual({
@@ -110,7 +109,7 @@ describe('Open API Spec', () => {
         description: 'Board Games API - https://github.com/connected-web/boardgames-api/'
       })
     })
-  
+
     it('should contain a list of paths', async () => {
       const pathStrings = Object.keys(openapiDoc.paths as any).sort()
       expect(pathStrings).toEqual([
@@ -126,7 +125,7 @@ describe('Open API Spec', () => {
         '/status'
       ])
     })
-  
+
     it('should be possible to create an Open API Client based on the spec', async () => {
       // Note: this requires a manual run of: npm run typegen:for-post-deployment
       // Which uses the openapi-client-axios-typegen package to create appStore-client.d.ts
@@ -282,7 +281,10 @@ describe('Open API Spec', () => {
       console.log('Create Play Record - List Records from 2031-03:', playRecordsResponse.status, playRecordsResponse.statusText, JSON.stringify(playRecordsResponse.data, null, 2))
 
       const tempData = playRecordsResponse.data as any
-      const record = (tempData?.playRecords ?? []).find((item: any) => item.name === fileKey)
+
+      console.log('List of play records after create play record:', { playRecords: tempData.playRecords })
+
+      const record = (tempData?.playRecords ?? []).find((item: any) => item.keypath === fileKey)
       expect(record).toEqual(payload)
     })
   })
