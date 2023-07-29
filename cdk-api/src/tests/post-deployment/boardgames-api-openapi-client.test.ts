@@ -23,7 +23,7 @@ const {
 } = process.env
 
 interface ServerInfo {
-  baseUrl: string
+  baseURL: string
   headers: {
     [param: string]: string
   }
@@ -54,10 +54,12 @@ const clientConfigs = {
 }
 
 const clientConfig = POST_DEPLOYMENT_AUTH_URL !== undefined ? clientConfigs.ci : clientConfigs.dev
+console.log('Using client config:', { clientConfig })
 const serverConfig: ServerInfo = {
-  baseUrl: clientConfig.serviceUnderTest,
+  baseURL: clientConfig.serviceUnderTest,
   headers: {
-    Authorization: 'Bearer not-specified'
+    authorization: 'Bearer not-specified',
+    'content-type': 'application/json'
   }
 }
 
@@ -68,9 +70,9 @@ async function getOAuthToken (): Promise<string> {
     `client_id=${clientId}`
   ].join('&')
   const requestHeaders = {
-    Accept: 'application/json',
-    'Content-Type': 'application/x-www-form-urlencoded',
-    Authorization: `Basic ${btoa([clientId, clientSecret].join(':'))}`
+    accept: 'application/json',
+    'content-type': 'application/x-www-form-urlencoded',
+    authorization: `Basic ${btoa([clientId, clientSecret].join(':'))}`
   }
   const tokenResponse = await axios.post(oauthTokenEndpoint, requestPayload, { headers: requestHeaders })
   // console.log('[getOAuthToken] Token response', { tokenResponse: tokenResponse.data })
@@ -87,9 +89,9 @@ describe('Open API Spec', () => {
     console.log('Implicit test: it should download the openapi spec for the App Store from /openapi')
     const oauthToken = await getOAuthToken()
     console.log('Received OAuth Token:', { oauthToken })
-    serverConfig.headers.Authorization = `Bearer ${oauthToken}`
+    serverConfig.headers.authorization = `Bearer ${oauthToken}`
     const basicClient = axios.create(serverConfig)
-    console.log('Created basic Axios client using:', { baseUrl: serverConfig.baseUrl })
+    console.log('Created basic Axios client using:', { serverConfig })
 
     const response = await basicClient.get('/openapi')
     openapiDoc = response.data
