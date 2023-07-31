@@ -1,19 +1,12 @@
 import { APIGatewayAuthorizerResult, APIGatewayAuthorizerResultContext, APIGatewayRequestAuthorizerEvent } from 'aws-lambda'
 import { CognitoJwtVerifier } from 'aws-jwt-verify'
 import axios, { AxiosInstance } from 'axios'
+import { Verifier } from '../stack/openapi/openapi-rest-api'
 
 export interface AuthorizerContext extends APIGatewayAuthorizerResultContext {
   token?: string
   groups?: string
   payload?: string
-}
-
-export interface Verifier {
-  name: string
-  userPoolId: string // "eu-west-2_VBRbzaly6",
-  tokenUse: 'id' | 'access' // "access",
-  clientId: string // "5rgdg0eeeeu043fbfvl12ehrmg",
-  oauthUrl: string // "https://connected-web-dev.auth.eu-west-2.amazoncognito.com"
 }
 
 const { AUTH_VERIFIERS_JSON } = process.env

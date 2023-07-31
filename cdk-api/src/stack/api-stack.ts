@@ -2,7 +2,7 @@ import * as cdk from 'aws-cdk-lib'
 import * as s3 from 'aws-cdk-lib/aws-s3'
 
 import { Construct } from 'constructs'
-import OpenAPIRestAPI from './openapi/openapi-rest-api'
+import OpenAPIRestAPI, { Verifier } from './openapi/openapi-rest-api'
 import ApiModels from './models/api-models'
 import StatusEndpoint from './endpoints/status'
 import OpenAPISpecEndpoint from './endpoints/openapi'
@@ -12,8 +12,6 @@ import ListPlayRecordsEndpoint from './endpoints/listPlayrecords'
 import CreatePlayRecordEndpoint from './endpoints/createPlayrecord'
 import DeletePlayRecordEndpoint from './endpoints/deletePlayrecord'
 import ListPlayRecordsByDateEndpoint from './endpoints/listPlayRecordsByDate'
-
-import { Verifier } from '../routes/authorizer'
 
 export interface IdentityConfig {
   verifiers: Verifier[]

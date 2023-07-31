@@ -3,16 +3,14 @@ import { APIGatewayProxyEvent, APIGatewayProxyResult } from 'aws-lambda'
 import interfaces from '../helpers/interfaces'
 import HTTP_CODES from '../helpers/httpCodes'
 import { successResponse, errorResponse } from '../helpers/responses'
+import { verifyAdminScope } from '../helpers/userScopes'
 
 export async function handler (event: APIGatewayProxyEvent): Promise<APIGatewayProxyResult> {
   const { console, deleteObject, getBucketName } = interfaces.get()
 
-  const userGroups: string = event.requestContext.authorizer?.groups ?? ''
-  if (userGroups.includes('BoardGamesBrowserAdmins') || userGroups.includes('app-to-app-connected-web-dev/Github') || userGroups.includes('app-to-app-connected-web-prod/Github')) {
-    console.log('User part of authorized group', { userGroups })
-  } else {
-    console.log('User not part of an authorized group:', { userGroups })
-    return errorResponse(HTTP_CODES.clientForbidden, 'User is authenticated, but not in an authorized user group for this action')
+  const unauthorized = verifyAdminScope(event)
+  if (unauthorized != null) {
+    return unauthorized
   }
 
   let payload: { keypath: string }

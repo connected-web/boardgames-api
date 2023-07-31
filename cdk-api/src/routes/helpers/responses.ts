@@ -1,7 +1,7 @@
 import HTTP_CODES from './httpCodes'
 import corsHeaders from './corsHeaders'
 
-interface ResponseObject {
+export interface ResponseObject {
   statusCode: number
   headers: any
   body: string

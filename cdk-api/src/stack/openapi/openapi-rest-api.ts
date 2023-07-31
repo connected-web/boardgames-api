@@ -8,15 +8,22 @@ import { Certificate, CertificateValidation } from 'aws-cdk-lib/aws-certificatem
 
 import OpenAPIEndpoint from './openapi-endpoint'
 import OpenAPIFunction from './openapi-function'
-import { Verifier } from '../../routes/authorizer'
 import { NodejsFunction } from 'aws-cdk-lib/aws-lambda-nodejs'
 import path from 'path'
 
-interface OpenAPIRestAPIProps {
+export interface OpenAPIRestAPIProps {
   Description: string
   SubDomain: string
   HostedZoneDomain: string
   Verifiers: Verifier[]
+}
+
+export interface Verifier {
+  name: string
+  userPoolId: string // "eu-west-2_VBRbzaly6",
+  tokenUse: 'id' | 'access' // "access",
+  clientId: string // "5rgdg0eeeeu043fbfvl12ehrmg",
+  oauthUrl: string // "https://connected-web-dev.auth.eu-west-2.amazoncognito.com"
 }
 
 export default class OpenAPIRestAPI extends Construct {
