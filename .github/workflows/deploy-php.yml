@@ -14,22 +14,33 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+
     - name: Setup node.js 18.x LTS
       uses: actions/setup-node@v2
       with:
         node-version: 18.x
+
     - name: Install / Dependencies
-      run: npm install
+      run: npm ci
+
     - name: Setup PHP + Composer
       run: npm run setup -s
+
     - name: Run Tests
       run: npm test -s
       env:
           GOOGLE_SERVICE_ACCOUNT_SECURE_CREDENTIALS: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_SECURE_CREDENTIALS }}
+          PLAYRECORD_API_USER: ${{ secrets.PLAYRECORD_API_USER }}
+          PLAYRECORD_API_KEY: ${{ secrets.PLAYRECORD_API_KEY }}
+          CONNECTED_WEB_PROD_SSO_CLIENT_ID: ${{ secrets.CONNECTED_WEB_PROD_SSO_CLIENT_ID }}
+          CONNECTED_WEB_PROD_SSO_SECRET: ${{ secrets.CONNECTED_WEB_PROD_SSO_SECRET }}
+
     - name: Install /deploy Dependencies
-      run: npm install
+      run: npm ci
       working-directory: deploy
+
     - name: Setup /deploy/.ftp-pass
       run: ./scripts/setup/createFTPSecrets.sh "${{ secrets.FTP_USERNAME }}" "${{ secrets.FTP_PASSWORD }}"
+
     - name: Deploy Files
       run: node deploy live-php
