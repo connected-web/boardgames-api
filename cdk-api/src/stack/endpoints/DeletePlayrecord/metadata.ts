@@ -1,13 +1,13 @@
 import { Construct } from 'constructs'
-import { StackParameters } from '../api-stack'
-import AppModels from '../models/api-models'
+import { StackParameters } from '../../api-stack'
+import AppModels from '../../models/ApiModels'
 import OpenAPIFunction from '../openapi/openapi-function'
 import * as s3 from 'aws-cdk-lib/aws-s3'
 
-export default class ListPlayRecordsByDateEndpoint extends OpenAPIFunction {
+export default class DeletePlayrecordEndpoint extends OpenAPIFunction {
   constructor (scope: Construct, models: AppModels, config: StackParameters, bucket: s3.Bucket) {
-    super('listPlayRecordsByDate')
-    this.lambda = this.createNodeJSLambda(scope, 'routes/playrecords/listByDateCode.ts', {
+    super('deletePlayRecord')
+    this.lambda = this.createNodeJSLambda(scope, 'routes/playrecords/delete.ts', {
       environment: {
         DATA_BUCKET_NAME: config.playRecordsBucketName
       }
@@ -25,7 +25,7 @@ export default class ListPlayRecordsByDateEndpoint extends OpenAPIFunction {
         'method.response.header.Access-Control-Allow-Credentials': true
       },
       responseModels: {
-        'application/json': models.PlayRecords
+        'application/json': models.BasicObjectModel
       }
     })
   }

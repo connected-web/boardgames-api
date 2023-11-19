@@ -3,7 +3,7 @@ import { APIGatewayProxyEvent, APIGatewayProxyResult } from 'aws-lambda'
 import HTTP_CODES from '../helpers/httpCodes'
 import { successResponse, errorResponse } from '../helpers/responses'
 import { JsonObject } from '../helpers/getJson'
-import { getPlayRecordsByDateCode, matchDateCode } from './shared/helpers'
+import { getPlayRecordsByDateCode, matchDateCode } from '../helpers/playrecords/helpers'
 
 interface ListPlayRecordsResponse {
   playRecords: JsonObject[]

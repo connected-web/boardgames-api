@@ -1,18 +1,16 @@
 import { Construct } from 'constructs'
-import AppModels from '../models/api-models'
+import AppModels from '../../models/ApiModels'
 
 import OpenAPIFunction from '../openapi/openapi-function'
 
-const defaultTemplate = 'Hi {{ name }}, have a {{ weather }} day~ ☀️⛅☁️🌧️⛈️🌩️!'
-
-export default class HelloWorldEndpoint extends OpenAPIFunction {
+export default class StatusEndpoint extends OpenAPIFunction {
   constructor (scope: Construct, models: AppModels) {
-    super('helloWorld')
-    this.lambda = this.createNodeJSLambda(scope, 'routes/hello.ts', {
+    super('getStatus')
+    const currentDateTime = process.env.USE_MOCK_TIME ?? new Date()
+    this.lambda = this.createNodeJSLambda(scope, 'routes/status.ts', {
       environment: {
-        MESSAGE_TEMPLATE: defaultTemplate,
-        EXAMPLE_ENV: JSON.stringify({
-          weather: 'sunny'
+        STATUS_INFO: JSON.stringify({
+          deploymentTime: currentDateTime
         })
       }
     })
@@ -28,7 +26,7 @@ export default class HelloWorldEndpoint extends OpenAPIFunction {
         'method.response.header.Access-Control-Allow-Credentials': true
       },
       responseModels: {
-        'application/json': models.MessageResponse
+        'application/json': models.StatusResponse
       }
     })
   }

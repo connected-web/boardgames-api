@@ -3,7 +3,7 @@ import {
   APIGatewayProxyResult
 } from 'aws-lambda/trigger/api-gateway-proxy'
 import { APIGatewayClient, GetExportCommand } from '@aws-sdk/client-api-gateway'
-import { lambdaResponse } from './helpers/lambdaResponse'
+import { lambdaResponse } from '../helpers/lambdaResponse'
 
 export const handler = async (event: APIGatewayProxyEvent): Promise<APIGatewayProxyResult> => {
   let openapiSpec, error

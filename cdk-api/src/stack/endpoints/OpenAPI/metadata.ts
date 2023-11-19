@@ -1,7 +1,7 @@
 import { NodejsFunction } from 'aws-cdk-lib/aws-lambda-nodejs'
 import { Construct } from 'constructs'
 import { PolicyStatement } from 'aws-cdk-lib/aws-iam'
-import AppModels from '../models/api-models'
+import AppModels from '../../models/ApiModels'
 
 import OpenAPIFunction from '../openapi/openapi-function'
 

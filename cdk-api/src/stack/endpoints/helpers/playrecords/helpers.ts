@@ -1,6 +1,6 @@
 import { _Object } from '@aws-sdk/client-s3'
-import getJsonObject, { JsonArray, JsonObject } from '../../helpers/getJson'
-import interfaces from '../../helpers/interfaces'
+import getJsonObject, { JsonArray, JsonObject } from '../getJson'
+import interfaces from '../interfaces'
 
 export type RecordList = JsonObject[]
 

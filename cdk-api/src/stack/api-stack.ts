@@ -2,16 +2,17 @@ import * as cdk from 'aws-cdk-lib'
 import * as s3 from 'aws-cdk-lib/aws-s3'
 
 import { Construct } from 'constructs'
-import OpenAPIRestAPI, { Verifier } from './openapi/openapi-rest-api'
-import ApiModels from './models/api-models'
-import StatusEndpoint from './endpoints/status'
-import OpenAPISpecEndpoint from './endpoints/openapi'
-import HelloWorldEndpoint from './endpoints/hello'
+import { OpenAPIRestAPI, OpenAPIVerifiers, OpenAPIBasicModels } from '@connected-web/openapi-rest-api'
+import ApiModels from './models/ApiModels'
+import StatusEndpoint from './endpoints/Status/metadata'
+import OpenAPISpecEndpoint from './endpoints/OpenAPI/metadata'
+import HelloWorldEndpoint from './endpoints/Hello/metadata'
 
-import ListPlayRecordsEndpoint from './endpoints/listPlayrecords'
-import CreatePlayRecordEndpoint from './endpoints/createPlayrecord'
-import DeletePlayRecordEndpoint from './endpoints/deletePlayrecord'
-import ListPlayRecordsByDateEndpoint from './endpoints/listPlayRecordsByDate'
+import ListPlayRecordsEndpoint from './endpoints/ListPlayrecords/metadata'
+import CreatePlayRecordEndpoint from './endpoints/CreatePlayrecord/metadata'
+import DeletePlayRecordEndpoint from './endpoints/DeletePlayrecord/metadata'
+import ListPlayRecordsByDateEndpoint from './endpoints/ListPlayrecordsByDate/metadata'
+import { Resources } from './Resources'
 
 export interface IdentityConfig {
   verifiers: Verifier[]
@@ -23,20 +24,18 @@ export class ApiStack extends cdk.Stack {
   constructor (scope: Construct, id: string, props: cdk.StackProps, config: StackParameters) {
     super(scope, id, props)
 
-    const boardgamesApi = new OpenAPIRestAPI(this, 'Board Games API', {
+    const resources = new Resources(scope, this, config)
+
+    const boardgamesApi = new OpenAPIRestAPI<Resources>(this, 'Board Games API', {
       Description: 'Board Games API - https://github.com/connected-web/boardgames-api/',
       SubDomain: 'boardgames-api',
       HostedZoneDomain: config.hostedZoneDomain,
       Verifiers: config?.identity.verifiers ?? []
-    })
+    }, resources)
 
-    // Create an S3 bucket
-    const playRecordsBucket = new s3.Bucket(this, 'PlayRecordsBucket', {
-      bucketName: config.playRecordsBucketName,
-      removalPolicy: cdk.RemovalPolicy.DESTROY // You can choose the appropriate removal policy based on your use case
-    })
-
+    OpenAPIBasicModels.setup(this, boardgamesApi.restApi)
     const appModels = new ApiModels(this, boardgamesApi.restApi)
+
     boardgamesApi
       .get('/status', new StatusEndpoint(this, appModels))
       .get('/openapi', new OpenAPISpecEndpoint(this, appModels))

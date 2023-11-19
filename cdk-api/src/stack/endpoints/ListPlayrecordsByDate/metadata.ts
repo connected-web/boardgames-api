@@ -1,13 +1,13 @@
 import { Construct } from 'constructs'
-import { StackParameters } from '../api-stack'
-import AppModels from '../models/api-models'
+import { StackParameters } from '../../api-stack'
+import AppModels from '../../models/ApiModels'
 import OpenAPIFunction from '../openapi/openapi-function'
 import * as s3 from 'aws-cdk-lib/aws-s3'
 
-export default class ListPlayrecordsEndpoint extends OpenAPIFunction {
+export default class ListPlayRecordsByDateEndpoint extends OpenAPIFunction {
   constructor (scope: Construct, models: AppModels, config: StackParameters, bucket: s3.Bucket) {
-    super('listPlayRecords')
-    this.lambda = this.createNodeJSLambda(scope, 'routes/playrecords/list.ts', {
+    super('listPlayRecordsByDate')
+    this.lambda = this.createNodeJSLambda(scope, 'routes/playrecords/listByDateCode.ts', {
       environment: {
         DATA_BUCKET_NAME: config.playRecordsBucketName
       }

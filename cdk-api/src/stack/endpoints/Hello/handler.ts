@@ -2,7 +2,7 @@ import {
   APIGatewayProxyEvent,
   APIGatewayProxyResult
 } from 'aws-lambda/trigger/api-gateway-proxy'
-import { lambdaResponse } from './helpers/lambdaResponse'
+import { lambdaResponse } from '../helpers/lambdaResponse'
 
 export const handler = async (event: APIGatewayProxyEvent): Promise<APIGatewayProxyResult> => {
   const messageTemplate = process.env.MESSAGE_TEMPLATE ?? 'Hi {{ name }}, have a {{ weather }} day~'
