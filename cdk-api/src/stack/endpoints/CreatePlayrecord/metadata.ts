@@ -43,4 +43,10 @@ export default class CreatePlayrecordEndpoint extends OpenAPIRouteMetadata<Resou
       }
     }]
   }
+
+  get methodRequestModels (): Record<string, any> {
+    return {
+      'application/json': AppModels.playRecord
+    }
+  }
 }
