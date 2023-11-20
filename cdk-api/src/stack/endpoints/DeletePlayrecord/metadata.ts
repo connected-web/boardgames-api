@@ -39,7 +39,7 @@ export default class DeletePlayrecordEndpoint extends OpenAPIRouteMetadata<Resou
         'method.response.header.Access-Control-Allow-Credentials': true
       },
       responseModels: {
-        'application/json': AppModels.messageResponse
+        'application/json': AppModels.message
       }
     }]
   }

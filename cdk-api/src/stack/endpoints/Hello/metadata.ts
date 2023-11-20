@@ -42,7 +42,7 @@ export default class HelloWorldEndpoint extends OpenAPIRouteMetadata<Resources> 
         'method.response.header.Access-Control-Allow-Credentials': true
       },
       responseModels: {
-        'application/json': AppModels.messageResponse
+        'application/json': AppModels.message
       }
     }]
   }

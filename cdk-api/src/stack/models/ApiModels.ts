@@ -15,8 +15,8 @@ export default class AppModels extends OpenAPIBasicModels {
         model.modelId])
   }
 
-  static get statusResponse (): IModel {
-    return OpenAPIBasicModels.modelFactory?.create('StatusResponse', {
+  static get status (): IModel {
+    return OpenAPIBasicModels.modelFactory?.create('Status', {
       schema: JsonSchemaVersion.DRAFT4,
       title: 'Status',
       type: JsonSchemaType.OBJECT,
@@ -30,8 +30,8 @@ export default class AppModels extends OpenAPIBasicModels {
     })
   }
 
-  static get messageResponse (): IModel {
-    return OpenAPIBasicModels.modelFactory?.create('MessageResponse', {
+  static get message (): IModel {
+    return OpenAPIBasicModels.modelFactory?.create('Message', {
       schema: JsonSchemaVersion.DRAFT4,
       title: 'Message',
       type: JsonSchemaType.OBJECT,

@@ -25,7 +25,7 @@ export default class StatusEndpoint extends OpenAPIRouteMetadata<Resources> {
         'method.response.header.Access-Control-Allow-Credentials': true
       },
       responseModels: {
-        'application/json': AppModels.statusResponse
+        'application/json': AppModels.status
       }
     }]
   }

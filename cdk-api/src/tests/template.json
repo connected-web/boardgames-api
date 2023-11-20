@@ -64,7 +64,7 @@
       "UpdateReplacePolicy": "Retain",
       "DeletionPolicy": "Retain"
     },
-    "BoardGamesAPIDeploymentCF2289E8e2f1408f0a8cd34519e7c6d3d49daec9": {
+    "BoardGamesAPIDeploymentCF2289E8ae9d7c8080c2a94879743d776949025e": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -100,10 +100,10 @@
         "BoardGamesAPIstatusGET799E8117",
         "BoardGamesAPIstatusOPTIONS030FBF19",
         "BoardGamesAPIstatus10B32DBB",
-        "MessageResponseModel4FDE0A6B",
+        "MessageModelA0F1659C",
         "PlayRecordModel8A6B2589",
         "PlayRecordsModel20D8BC6E",
-        "StatusResponseModel7CA00167"
+        "StatusModel9A2AB4BA"
       ]
     },
     "BoardGamesAPIDeploymentStagev13C85ECE1": {
@@ -113,7 +113,7 @@
           "Ref": "BoardGamesAPIBD87F933"
         },
         "DeploymentId": {
-          "Ref": "BoardGamesAPIDeploymentCF2289E8e2f1408f0a8cd34519e7c6d3d49daec9"
+          "Ref": "BoardGamesAPIDeploymentCF2289E8ae9d7c8080c2a94879743d776949025e"
         },
         "StageName": "v1"
       },
@@ -327,7 +327,7 @@
           {
             "ResponseModels": {
               "application/json": {
-                "Ref": "StatusResponseModel7CA00167"
+                "Ref": "StatusModel9A2AB4BA"
               }
             },
             "ResponseParameters": {
@@ -732,7 +732,7 @@
           {
             "ResponseModels": {
               "application/json": {
-                "Ref": "MessageResponseModel4FDE0A6B"
+                "Ref": "MessageModelA0F1659C"
               }
             },
             "ResponseParameters": {
@@ -1311,7 +1311,7 @@
           {
             "ResponseModels": {
               "application/json": {
-                "Ref": "MessageResponseModel4FDE0A6B"
+                "Ref": "MessageModelA0F1659C"
               }
             },
             "ResponseParameters": {
@@ -1322,7 +1322,12 @@
             "StatusCode": "200"
           }
         ],
-        "OperationName": "postPlayrecordsCreate"
+        "OperationName": "postPlayrecordsCreate",
+        "RequestModels": {
+          "application/json": {
+            "Ref": "PlayRecordModel8A6B2589"
+          }
+        }
       }
     },
     "BoardGamesAPIplayrecordsdeleteDC3CD7B4": {
@@ -1484,7 +1489,7 @@
           {
             "ResponseModels": {
               "application/json": {
-                "Ref": "MessageResponseModel4FDE0A6B"
+                "Ref": "MessageModelA0F1659C"
               }
             },
             "ResponseParameters": {
@@ -2367,14 +2372,14 @@
         "BoardGamesAPIDeletePlayrecordsDeleteServiceRole0D3F1B57"
       ]
     },
-    "StatusResponseModel7CA00167": {
+    "StatusModel9A2AB4BA": {
       "Type": "AWS::ApiGateway::Model",
       "Properties": {
         "RestApiId": {
           "Ref": "BoardGamesAPIBD87F933"
         },
         "ContentType": "application/json",
-        "Name": "StatusResponseModel",
+        "Name": "StatusModel",
         "Schema": {
           "$schema": "http://json-schema.org/draft-04/schema#",
           "title": "Status",
@@ -2409,14 +2414,14 @@
         }
       }
     },
-    "MessageResponseModel4FDE0A6B": {
+    "MessageModelA0F1659C": {
       "Type": "AWS::ApiGateway::Model",
       "Properties": {
         "RestApiId": {
           "Ref": "BoardGamesAPIBD87F933"
         },
         "ContentType": "application/json",
-        "Name": "MessageResponseModel",
+        "Name": "MessageModel",
         "Schema": {
           "$schema": "http://json-schema.org/draft-04/schema#",
           "title": "Message",
