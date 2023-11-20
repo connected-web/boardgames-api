@@ -1,23 +1,37 @@
 import { Construct } from 'constructs'
-import { StackParameters } from '../../api-stack'
 import AppModels from '../../models/ApiModels'
-import OpenAPIFunction from '../openapi/openapi-function'
-import * as s3 from 'aws-cdk-lib/aws-s3'
+import path from 'path'
+import { NodejsFunction, NodejsFunctionProps } from 'aws-cdk-lib/aws-lambda-nodejs'
+import { Resources } from '../../Resources'
+import { MethodResponse } from 'aws-cdk-lib/aws-apigateway'
+import { OpenAPIRouteMetadata } from '@connected-web/openapi-rest-api'
 
-export default class ListPlayrecordsEndpoint extends OpenAPIFunction {
-  constructor (scope: Construct, models: AppModels, config: StackParameters, bucket: s3.Bucket) {
-    super('listPlayRecords')
-    this.lambda = this.createNodeJSLambda(scope, 'routes/playrecords/list.ts', {
-      environment: {
-        DATA_BUCKET_NAME: config.playRecordsBucketName
-      }
-    })
-    bucket.grantReadWrite(this.lambda)
-    this.addMetaData(models)
+export default class ListPlayrecordsEndpoint extends OpenAPIRouteMetadata<Resources> {
+  resources: Resources
+
+  constructor (resources: Resources) {
+    super()
+    this.resources = resources
   }
 
-  addMetaData (models: AppModels): void {
-    this.addMethodResponse({
+  grantPermissions (scope: Construct, endpoint: NodejsFunction, resources: Resources): void {
+    resources.playRecordsBucket.grantReadWrite(endpoint)
+  }
+
+  get routeEntryPoint (): string {
+    return path.join(__dirname, 'handler.ts')
+  }
+
+  get lambdaConfig (): NodejsFunctionProps {
+    return {
+      environment: {
+        DATA_BUCKET_NAME: this.resources.playRecordsBucket.bucketName
+      }
+    }
+  }
+
+  get methodResponses (): MethodResponse[] {
+    return [{
       statusCode: '200',
       responseParameters: {
         'method.response.header.Content-Type': true,
@@ -25,8 +39,8 @@ export default class ListPlayrecordsEndpoint extends OpenAPIFunction {
         'method.response.header.Access-Control-Allow-Credentials': true
       },
       responseModels: {
-        'application/json': models.PlayRecords
+        'application/json': AppModels.playRecords
       }
-    })
+    }]
   }
 }

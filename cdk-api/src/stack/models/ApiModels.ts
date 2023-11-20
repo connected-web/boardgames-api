@@ -30,7 +30,7 @@ export default class AppModels extends OpenAPIBasicModels {
     })
   }
 
-  static get messageResponse(): IModel {
+  static get messageResponse (): IModel {
     return OpenAPIBasicModels.modelFactory?.create('MessageResponse', {
       schema: JsonSchemaVersion.DRAFT4,
       title: 'Message',
@@ -45,7 +45,7 @@ export default class AppModels extends OpenAPIBasicModels {
     })
   }
 
-  static get playRecord(): IModel {
+  static get playRecord (): IModel {
     return OpenAPIBasicModels.modelFactory?.create('PlayRecord', {
       schema: JsonSchemaVersion.DRAFT4,
       title: 'Play Record',
@@ -74,7 +74,7 @@ export default class AppModels extends OpenAPIBasicModels {
     })
   }
 
-  static get playRecords(): IModel {
+  static get playRecords (): IModel {
     return OpenAPIBasicModels.modelFactory?.create('PlayRecords', {
       schema: JsonSchemaVersion.DRAFT4,
       title: 'Play Records',

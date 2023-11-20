@@ -1,6 +1,6 @@
 import * as cdk from 'aws-cdk-lib'
 import { Template } from 'aws-cdk-lib/assertions'
-import { ApiStack } from '../../stack/api-stack'
+import { ApiStack } from '../../stack/ApiStack'
 
 import fs from 'node:fs'
 

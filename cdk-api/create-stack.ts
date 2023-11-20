@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import 'source-map-support/register'
 import * as cdk from 'aws-cdk-lib'
-import { ApiStack } from './src/stack/api-stack'
+import { ApiStack } from './src/stack/ApiStack'
 
 const {
   ACCOUNT_PROFILE,

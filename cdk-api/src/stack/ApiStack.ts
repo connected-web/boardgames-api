@@ -1,9 +1,8 @@
 import * as cdk from 'aws-cdk-lib'
-import * as s3 from 'aws-cdk-lib/aws-s3'
 
 import { Construct } from 'constructs'
-import { OpenAPIRestAPI, OpenAPIVerifiers, OpenAPIBasicModels } from '@connected-web/openapi-rest-api'
-import ApiModels from './models/ApiModels'
+import { OpenAPIRestAPI, OpenAPIBasicModels } from '@connected-web/openapi-rest-api'
+
 import StatusEndpoint from './endpoints/Status/metadata'
 import OpenAPISpecEndpoint from './endpoints/OpenAPI/metadata'
 import HelloWorldEndpoint from './endpoints/Hello/metadata'
@@ -13,6 +12,7 @@ import CreatePlayRecordEndpoint from './endpoints/CreatePlayrecord/metadata'
 import DeletePlayRecordEndpoint from './endpoints/DeletePlayrecord/metadata'
 import ListPlayRecordsByDateEndpoint from './endpoints/ListPlayrecordsByDate/metadata'
 import { Resources } from './Resources'
+import { Verifier } from '@connected-web/openapi-rest-api/library/dist/src/openapi/RestAPI'
 
 export interface IdentityConfig {
   verifiers: Verifier[]
@@ -34,16 +34,17 @@ export class ApiStack extends cdk.Stack {
     }, resources)
 
     OpenAPIBasicModels.setup(this, boardgamesApi.restApi)
-    const appModels = new ApiModels(this, boardgamesApi.restApi)
 
     boardgamesApi
-      .get('/status', new StatusEndpoint(this, appModels))
-      .get('/openapi', new OpenAPISpecEndpoint(this, appModels))
-      .get('/hello/{name}', new HelloWorldEndpoint(this, appModels))
-      .get('/playrecords/list', new ListPlayRecordsEndpoint(this, appModels, config, playRecordsBucket))
-      .get('/playrecords/list/{dateCode}', new ListPlayRecordsByDateEndpoint(this, appModels, config, playRecordsBucket))
-      .post('/playrecords/create', new CreatePlayRecordEndpoint(this, appModels, config, playRecordsBucket))
-      .delete('/playrecords/delete', new DeletePlayRecordEndpoint(this, appModels, config, playRecordsBucket))
+      .addEndpoints({
+        'GET /status': new StatusEndpoint(),
+        'GET /openapi': new OpenAPISpecEndpoint(),
+        'GET /hello/{name}': new HelloWorldEndpoint(),
+        'GET /playrecords/list': new ListPlayRecordsEndpoint(resources),
+        'GET /playrecords/list/{dateCode}': new ListPlayRecordsByDateEndpoint(resources),
+        'POST /playrecords/create': new CreatePlayRecordEndpoint(resources),
+        'DELETE /playrecords/delete': new DeletePlayRecordEndpoint(resources)
+      })
       .report()
   }
 }

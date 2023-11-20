@@ -1,24 +1,23 @@
 import { Construct } from 'constructs'
 import AppModels from '../../models/ApiModels'
 
-import OpenAPIFunction from '../openapi/openapi-function'
+import path from 'path'
+import { NodejsFunction } from 'aws-cdk-lib/aws-lambda-nodejs'
+import { MethodResponse } from 'aws-cdk-lib/aws-apigateway'
+import { Resources } from '../../Resources'
+import { OpenAPIRouteMetadata } from '@connected-web/openapi-rest-api'
 
-export default class StatusEndpoint extends OpenAPIFunction {
-  constructor (scope: Construct, models: AppModels) {
-    super('getStatus')
-    const currentDateTime = process.env.USE_MOCK_TIME ?? new Date()
-    this.lambda = this.createNodeJSLambda(scope, 'routes/status.ts', {
-      environment: {
-        STATUS_INFO: JSON.stringify({
-          deploymentTime: currentDateTime
-        })
-      }
-    })
-    this.addMetaData(models)
+export default class StatusEndpoint extends OpenAPIRouteMetadata<Resources> {
+  grantPermissions (scope: Construct, endpoint: NodejsFunction, resources: Resources): void {
+    resources.playRecordsBucket.grantReadWrite(endpoint)
   }
 
-  addMetaData (models: AppModels): void {
-    this.addMethodResponse({
+  get routeEntryPoint (): string {
+    return path.join(__dirname, 'handler.ts')
+  }
+
+  get methodResponses (): MethodResponse[] {
+    return [{
       statusCode: '200',
       responseParameters: {
         'method.response.header.Content-Type': true,
@@ -26,8 +25,8 @@ export default class StatusEndpoint extends OpenAPIFunction {
         'method.response.header.Access-Control-Allow-Credentials': true
       },
       responseModels: {
-        'application/json': models.StatusResponse
+        'application/json': AppModels.statusResponse
       }
-    })
+    }]
   }
 }
