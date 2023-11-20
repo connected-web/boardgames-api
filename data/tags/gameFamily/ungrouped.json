@@ -2,11 +2,11 @@
   "name": "Ungrouped",
   "gameFamilyId": "ungrouped",
   "earliestDate": "2018-01-03",
-  "latestDate": "2023-07-12",
+  "latestDate": "2023-07-28",
   "sequenceStartDate": "2018-01-03",
-  "sequenceEndDate": "2023-07-12",
-  "daysInSequence": 2017,
-  "daysWithUnplayedGames": 1759,
+  "sequenceEndDate": "2023-07-28",
+  "daysInSequence": 2033,
+  "daysWithUnplayedGames": 1768,
   "gamesPlayedPerDay": {
     "1": 1,
     "2": 0,
@@ -2024,7 +2024,23 @@
     "2014": 1,
     "2015": 1,
     "2016": 0,
-    "2017": 1
+    "2017": 1,
+    "2018": 0,
+    "2019": 0,
+    "2020": 0,
+    "2021": 0,
+    "2022": 0,
+    "2023": 0,
+    "2024": 1,
+    "2025": 1,
+    "2026": 1,
+    "2027": 2,
+    "2028": 0,
+    "2029": 0,
+    "2030": 0,
+    "2031": 1,
+    "2032": 2,
+    "2033": 1
   },
   "gamesPlayed": [
     {
@@ -4336,10 +4352,73 @@
       "coOp": "no",
       "noOfPlayers": 2,
       "name": "Planet"
+    },
+    {
+      "date": "2023-07-19",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "name": "Love Letter: Princess Princess Ever After"
+    },
+    {
+      "date": "2023-07-20",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 3,
+      "name": "Town 66"
+    },
+    {
+      "date": "2023-07-21",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "name": "Bandido"
+    },
+    {
+      "date": "2023-07-22",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "name": "Bandido"
+    },
+    {
+      "date": "2023-07-22",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "name": "Love Letter: Adventure Time"
+    },
+    {
+      "date": "2023-07-26",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "name": "Cascadia"
+    },
+    {
+      "date": "2023-07-27",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "name": "Bandido"
+    },
+    {
+      "date": "2023-07-27",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "name": "Bandido"
+    },
+    {
+      "date": "2023-07-28",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "name": "Heat: Pedal to the Metal"
     }
   ],
-  "totalGamesPlayed": 345,
-  "averageGamesPlayedPerDay": 0.171,
+  "totalGamesPlayed": 354,
+  "averageGamesPlayedPerDay": 0.1741,
   "mostGamesPlayedInADay": [
     {
       "date": "2023-06-03",
@@ -4490,28 +4569,28 @@
     "Zuuli"
   ],
   "uniqueGamesPlayedCount": 134,
-  "uniqueGamesPlayedPercentage": 0.3884,
+  "uniqueGamesPlayedPercentage": 0.3785,
   "mostPlayedGames": [
     {
       "name": "Kingdomino",
       "plays": 26
     }
   ],
-  "coOpGamesPlayedCount": 116,
-  "coOpGamesPlayedPercentage": 0.3362,
-  "coOpGameWins": 68,
+  "coOpGamesPlayedCount": 120,
+  "coOpGamesPlayedPercentage": 0.339,
+  "coOpGameWins": 72,
   "coOpGameLoses": 48,
-  "coOpWinRate": 0.5862,
-  "coOpLossRate": 0.4138,
-  "winCountHannah": 119,
-  "winCountJohn": 95,
+  "coOpWinRate": 0.6,
+  "coOpLossRate": 0.4,
+  "winCountHannah": 123,
+  "winCountJohn": 96,
   "winCountOther": 9,
   "winCountDraw": 9,
-  "winnableGamesTotal": 232,
-  "winPercentageHannah": 0.5129,
-  "winPercentageJohn": 0.4095,
-  "winPercentageOther": 0.0388,
-  "winPercentageDraw": 0.0388,
+  "winnableGamesTotal": 237,
+  "winPercentageHannah": 0.519,
+  "winPercentageJohn": 0.4051,
+  "winPercentageOther": 0.038,
+  "winPercentageDraw": 0.038,
   "mostWonGames": "Hannah",
   "mostWonGamesJohn": [
     {

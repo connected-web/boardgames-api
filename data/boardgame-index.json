@@ -1374,9 +1374,15 @@
         "winner": "John",
         "coOp": "no",
         "noOfPlayers": 2
+      },
+      {
+        "date": "2023-07-15",
+        "winner": "John",
+        "coOp": "no",
+        "noOfPlayers": 2
       }
     ],
-    "totalGamesPlayed": 9,
+    "totalGamesPlayed": 10,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
@@ -1384,12 +1390,12 @@
     "coOpWinRate": 0,
     "coOpLossRate": 0,
     "winCountHannah": 3,
-    "winCountJohn": 6,
+    "winCountJohn": 7,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 9,
-    "winPercentageHannah": 0.3333,
-    "winPercentageJohn": 0.6667,
+    "winnableGamesTotal": 10,
+    "winPercentageHannah": 0.3,
+    "winPercentageJohn": 0.7,
     "winPercentageOther": 0,
     "winPercentageDraw": 0,
     "mostWonGames": "John"
@@ -2547,9 +2553,15 @@
         "winner": "Hannah",
         "coOp": "no",
         "noOfPlayers": 3
+      },
+      {
+        "date": "2023-07-13",
+        "winner": "John",
+        "coOp": "no",
+        "noOfPlayers": 2
       }
     ],
-    "totalGamesPlayed": 33,
+    "totalGamesPlayed": 34,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
@@ -2557,14 +2569,14 @@
     "coOpWinRate": 0,
     "coOpLossRate": 0,
     "winCountHannah": 19,
-    "winCountJohn": 13,
+    "winCountJohn": 14,
     "winCountOther": 0,
     "winCountDraw": 1,
-    "winnableGamesTotal": 33,
-    "winPercentageHannah": 0.5758,
-    "winPercentageJohn": 0.3939,
+    "winnableGamesTotal": 34,
+    "winPercentageHannah": 0.5588,
+    "winPercentageJohn": 0.4118,
     "winPercentageOther": 0,
-    "winPercentageDraw": 0.0303,
+    "winPercentageDraw": 0.0294,
     "mostWonGames": "Hannah"
   },
   "coup": {
@@ -4489,9 +4501,15 @@
         "winner": "Hannah",
         "coOp": "no",
         "noOfPlayers": 2
+      },
+      {
+        "date": "2023-07-20",
+        "winner": "other",
+        "coOp": "no",
+        "noOfPlayers": 3
       }
     ],
-    "totalGamesPlayed": 24,
+    "totalGamesPlayed": 25,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
@@ -4500,13 +4518,13 @@
     "coOpLossRate": 0,
     "winCountHannah": 12,
     "winCountJohn": 9,
-    "winCountOther": 0,
+    "winCountOther": 1,
     "winCountDraw": 1,
-    "winnableGamesTotal": 22,
-    "winPercentageHannah": 0.5455,
-    "winPercentageJohn": 0.4091,
-    "winPercentageOther": 0,
-    "winPercentageDraw": 0.0455,
+    "winnableGamesTotal": 23,
+    "winPercentageHannah": 0.5217,
+    "winPercentageJohn": 0.3913,
+    "winPercentageOther": 0.0435,
+    "winPercentageDraw": 0.0435,
     "mostWonGames": "Hannah"
   },
   "fluxx": {
@@ -5560,9 +5578,15 @@
         "winner": "John",
         "coOp": "no",
         "noOfPlayers": 2
+      },
+      {
+        "date": "2023-07-23",
+        "winner": "John",
+        "coOp": "no",
+        "noOfPlayers": 2
       }
     ],
-    "totalGamesPlayed": 9,
+    "totalGamesPlayed": 10,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
@@ -5570,12 +5594,12 @@
     "coOpWinRate": 0,
     "coOpLossRate": 0,
     "winCountHannah": 4,
-    "winCountJohn": 5,
+    "winCountJohn": 6,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 9,
-    "winPercentageHannah": 0.4444,
-    "winPercentageJohn": 0.5556,
+    "winnableGamesTotal": 10,
+    "winPercentageHannah": 0.4,
+    "winPercentageJohn": 0.6,
     "winPercentageOther": 0,
     "winPercentageDraw": 0,
     "mostWonGames": "John"
@@ -6433,20 +6457,26 @@
         "winner": "Hannah",
         "coOp": "no",
         "noOfPlayers": 2
+      },
+      {
+        "date": "2023-07-22",
+        "winner": "Hannah",
+        "coOp": "no",
+        "noOfPlayers": 2
       }
     ],
-    "totalGamesPlayed": 2,
+    "totalGamesPlayed": 3,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
     "coOpGameLoses": 0,
     "coOpWinRate": 0,
     "coOpLossRate": 0,
-    "winCountHannah": 2,
+    "winCountHannah": 3,
     "winCountJohn": 0,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 2,
+    "winnableGamesTotal": 3,
     "winPercentageHannah": 1,
     "winPercentageJohn": 0,
     "winPercentageOther": 0,
@@ -7197,24 +7227,60 @@
         "winner": "John",
         "coOp": "no",
         "noOfPlayers": 2
+      },
+      {
+        "date": "2023-07-17",
+        "winner": "John",
+        "coOp": "no",
+        "noOfPlayers": 2
+      },
+      {
+        "date": "2023-07-18",
+        "winner": "Hannah",
+        "coOp": "no",
+        "noOfPlayers": 2
+      },
+      {
+        "date": "2023-07-26",
+        "winner": "John",
+        "coOp": "no",
+        "noOfPlayers": 2
+      },
+      {
+        "date": "2023-07-26",
+        "winner": "Hannah",
+        "coOp": "no",
+        "noOfPlayers": 2
+      },
+      {
+        "date": "2023-07-27",
+        "winner": "John",
+        "coOp": "no",
+        "noOfPlayers": 2
+      },
+      {
+        "date": "2023-07-28",
+        "winner": "John",
+        "coOp": "no",
+        "noOfPlayers": 2
       }
     ],
-    "totalGamesPlayed": 96,
+    "totalGamesPlayed": 102,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
     "coOpGameLoses": 0,
     "coOpWinRate": 0,
     "coOpLossRate": 0,
-    "winCountHannah": 55,
-    "winCountJohn": 36,
+    "winCountHannah": 57,
+    "winCountJohn": 40,
     "winCountOther": 2,
     "winCountDraw": 1,
-    "winnableGamesTotal": 94,
-    "winPercentageHannah": 0.5851,
-    "winPercentageJohn": 0.383,
-    "winPercentageOther": 0.0213,
-    "winPercentageDraw": 0.0106,
+    "winnableGamesTotal": 100,
+    "winPercentageHannah": 0.57,
+    "winPercentageJohn": 0.4,
+    "winPercentageOther": 0.02,
+    "winPercentageDraw": 0.01,
     "mostWonGames": "Hannah"
   },
   "lunar-command": {
@@ -9868,9 +9934,15 @@
         "winner": "John",
         "coOp": "no",
         "noOfPlayers": 2
+      },
+      {
+        "date": "2023-07-23",
+        "winner": "John",
+        "coOp": "no",
+        "noOfPlayers": 2
       }
     ],
-    "totalGamesPlayed": 10,
+    "totalGamesPlayed": 11,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
@@ -9878,12 +9950,12 @@
     "coOpWinRate": 0,
     "coOpLossRate": 0,
     "winCountHannah": 6,
-    "winCountJohn": 4,
+    "winCountJohn": 5,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 10,
-    "winPercentageHannah": 0.6,
-    "winPercentageJohn": 0.4,
+    "winnableGamesTotal": 11,
+    "winPercentageHannah": 0.5455,
+    "winPercentageJohn": 0.4545,
     "winPercentageOther": 0,
     "winPercentageDraw": 0,
     "mostWonGames": "Hannah"
@@ -12141,9 +12213,15 @@
         "winner": "John",
         "coOp": "no",
         "noOfPlayers": 2
+      },
+      {
+        "date": "2023-07-22",
+        "winner": "draw",
+        "coOp": "no",
+        "noOfPlayers": 2
       }
     ],
-    "totalGamesPlayed": 29,
+    "totalGamesPlayed": 30,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
@@ -12153,12 +12231,12 @@
     "winCountHannah": 10,
     "winCountJohn": 14,
     "winCountOther": 3,
-    "winCountDraw": 2,
-    "winnableGamesTotal": 29,
-    "winPercentageHannah": 0.3448,
-    "winPercentageJohn": 0.4828,
-    "winPercentageOther": 0.1034,
-    "winPercentageDraw": 0.069,
+    "winCountDraw": 3,
+    "winnableGamesTotal": 30,
+    "winPercentageHannah": 0.3333,
+    "winPercentageJohn": 0.4667,
+    "winPercentageOther": 0.1,
+    "winPercentageDraw": 0.1,
     "mostWonGames": "John"
   },
   "twilight-struggle": {
@@ -16420,16 +16498,40 @@
         "coOpOutcome": "win",
         "coOp": "yes",
         "noOfPlayers": 2
+      },
+      {
+        "date": "2023-07-21",
+        "coOpOutcome": "win",
+        "coOp": "yes",
+        "noOfPlayers": 2
+      },
+      {
+        "date": "2023-07-22",
+        "coOpOutcome": "win",
+        "coOp": "yes",
+        "noOfPlayers": 2
+      },
+      {
+        "date": "2023-07-27",
+        "coOpOutcome": "win",
+        "coOp": "yes",
+        "noOfPlayers": 2
+      },
+      {
+        "date": "2023-07-27",
+        "coOpOutcome": "win",
+        "coOp": "yes",
+        "noOfPlayers": 2
       }
     ],
     "name": "Bandido",
-    "totalGamesPlayed": 20,
-    "coOpGamesPlayedCount": 20,
+    "totalGamesPlayed": 24,
+    "coOpGamesPlayedCount": 24,
     "coOpGamesPlayedPercentage": 1,
-    "coOpGameWins": 17,
+    "coOpGameWins": 21,
     "coOpGameLoses": 3,
-    "coOpWinRate": 0.85,
-    "coOpLossRate": 0.15,
+    "coOpWinRate": 0.875,
+    "coOpLossRate": 0.125,
     "winCountHannah": 0,
     "winCountJohn": 0,
     "winCountOther": 0,
@@ -16909,25 +17011,31 @@
         "winner": "John",
         "coOp": "no",
         "noOfPlayers": 2
+      },
+      {
+        "date": "2023-07-19",
+        "winner": "Hannah",
+        "coOp": "no",
+        "noOfPlayers": 2
       }
     ],
     "name": "Love Letter: Princess Princess Ever After",
-    "totalGamesPlayed": 13,
+    "totalGamesPlayed": 14,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
     "coOpGameLoses": 0,
     "coOpWinRate": 0,
     "coOpLossRate": 0,
-    "winCountHannah": 5,
+    "winCountHannah": 6,
     "winCountJohn": 7,
     "winCountOther": 0,
     "winCountDraw": 1,
-    "winnableGamesTotal": 13,
-    "winPercentageHannah": 0.3846,
-    "winPercentageJohn": 0.5385,
+    "winnableGamesTotal": 14,
+    "winPercentageHannah": 0.4286,
+    "winPercentageJohn": 0.5,
     "winPercentageOther": 0,
-    "winPercentageDraw": 0.0769,
+    "winPercentageDraw": 0.0714,
     "mostWonGames": "John"
   },
   "d-corum": {
@@ -17295,10 +17403,16 @@
         "winner": "Hannah",
         "coOp": "no",
         "noOfPlayers": 2
+      },
+      {
+        "date": "2023-07-26",
+        "winner": "John",
+        "coOp": "no",
+        "noOfPlayers": 2
       }
     ],
     "name": "Cascadia",
-    "totalGamesPlayed": 6,
+    "totalGamesPlayed": 7,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
@@ -17306,12 +17420,12 @@
     "coOpWinRate": 0,
     "coOpLossRate": 0,
     "winCountHannah": 5,
-    "winCountJohn": 1,
+    "winCountJohn": 2,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 6,
-    "winPercentageHannah": 0.8333,
-    "winPercentageJohn": 0.1667,
+    "winnableGamesTotal": 7,
+    "winPercentageHannah": 0.7143,
+    "winPercentageJohn": 0.2857,
     "winPercentageOther": 0,
     "winPercentageDraw": 0,
     "mostWonGames": "Hannah"
@@ -17934,21 +18048,27 @@
         "winner": "Hannah",
         "coOp": "no",
         "noOfPlayers": 2
+      },
+      {
+        "date": "2023-07-20",
+        "winner": "Hannah",
+        "coOp": "no",
+        "noOfPlayers": 3
       }
     ],
     "name": "Town 66",
-    "totalGamesPlayed": 4,
+    "totalGamesPlayed": 5,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
     "coOpGameLoses": 0,
     "coOpWinRate": 0,
     "coOpLossRate": 0,
-    "winCountHannah": 4,
+    "winCountHannah": 5,
     "winCountJohn": 0,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 4,
+    "winnableGamesTotal": 5,
     "winPercentageHannah": 1,
     "winPercentageJohn": 0,
     "winPercentageOther": 0,
@@ -18236,25 +18356,31 @@
         "winner": "John",
         "coOp": "no",
         "noOfPlayers": 2
+      },
+      {
+        "date": "2023-07-28",
+        "winner": "Hannah",
+        "coOp": "no",
+        "noOfPlayers": 2
       }
     ],
     "name": "Heat: Pedal to the Metal",
-    "totalGamesPlayed": 2,
+    "totalGamesPlayed": 3,
     "coOpGamesPlayedCount": 0,
     "coOpGamesPlayedPercentage": 0,
     "coOpGameWins": 0,
     "coOpGameLoses": 0,
     "coOpWinRate": 0,
     "coOpLossRate": 0,
-    "winCountHannah": 1,
+    "winCountHannah": 2,
     "winCountJohn": 1,
     "winCountOther": 0,
     "winCountDraw": 0,
-    "winnableGamesTotal": 2,
-    "winPercentageHannah": 0.5,
-    "winPercentageJohn": 0.5,
+    "winnableGamesTotal": 3,
+    "winPercentageHannah": 0.6667,
+    "winPercentageJohn": 0.3333,
     "winPercentageOther": 0,
     "winPercentageDraw": 0,
-    "mostWonGames": "Draw"
+    "mostWonGames": "Hannah"
   }
 }

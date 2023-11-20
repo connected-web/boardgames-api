@@ -2,11 +2,11 @@
   "name": "Love Letter",
   "gameFamilyId": "love-letter",
   "earliestDate": "2018-01-02",
-  "latestDate": "2023-07-12",
+  "latestDate": "2023-07-28",
   "sequenceStartDate": "2018-01-02",
-  "sequenceEndDate": "2023-07-12",
-  "daysInSequence": 2018,
-  "daysWithUnplayedGames": 1817,
+  "sequenceEndDate": "2023-07-28",
+  "daysInSequence": 2034,
+  "daysWithUnplayedGames": 1828,
   "gamesPlayedPerDay": {
     "1": 1,
     "2": 0,
@@ -2025,7 +2025,23 @@
     "2015": 1,
     "2016": 1,
     "2017": 0,
-    "2018": 1
+    "2018": 1,
+    "2019": 0,
+    "2020": 0,
+    "2021": 0,
+    "2022": 0,
+    "2023": 1,
+    "2024": 1,
+    "2025": 0,
+    "2026": 0,
+    "2027": 0,
+    "2028": 0,
+    "2029": 0,
+    "2030": 0,
+    "2031": 0,
+    "2032": 2,
+    "2033": 1,
+    "2034": 1
   },
   "gamesPlayed": [
     {
@@ -3510,10 +3526,52 @@
       "coOp": "no",
       "noOfPlayers": 2,
       "name": "Lovecraft Letter"
+    },
+    {
+      "date": "2023-07-17",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "name": "Lovecraft Letter"
+    },
+    {
+      "date": "2023-07-18",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "name": "Lovecraft Letter"
+    },
+    {
+      "date": "2023-07-26",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "name": "Lovecraft Letter"
+    },
+    {
+      "date": "2023-07-26",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "name": "Lovecraft Letter"
+    },
+    {
+      "date": "2023-07-27",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "name": "Lovecraft Letter"
+    },
+    {
+      "date": "2023-07-28",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "name": "Lovecraft Letter"
     }
   ],
-  "totalGamesPlayed": 219,
-  "averageGamesPlayedPerDay": 0.1085,
+  "totalGamesPlayed": 225,
+  "averageGamesPlayedPerDay": 0.1106,
   "mostGamesPlayedInADay": [
     {
       "date": "2018-02-26",
@@ -3548,39 +3606,39 @@
     "Marvel: Infinity Gauntlet"
   ],
   "uniqueGamesPlayedCount": 13,
-  "uniqueGamesPlayedPercentage": 0.0594,
+  "uniqueGamesPlayedPercentage": 0.0578,
   "mostPlayedGames": [
     {
       "name": "Lovecraft Letter",
-      "plays": 96
+      "plays": 102
     }
   ],
   "coOpGamesPlayedCount": 1,
-  "coOpGamesPlayedPercentage": 0.0046,
+  "coOpGamesPlayedPercentage": 0.0044,
   "coOpGameWins": 1,
   "coOpGameLoses": 0,
   "coOpWinRate": 1,
   "coOpLossRate": 0,
-  "winCountHannah": 131,
-  "winCountJohn": 79,
+  "winCountHannah": 133,
+  "winCountJohn": 83,
   "winCountOther": 5,
   "winCountDraw": 3,
-  "winnableGamesTotal": 218,
-  "winPercentageHannah": 0.6009,
-  "winPercentageJohn": 0.3624,
-  "winPercentageOther": 0.0229,
-  "winPercentageDraw": 0.0138,
+  "winnableGamesTotal": 224,
+  "winPercentageHannah": 0.5938,
+  "winPercentageJohn": 0.3705,
+  "winPercentageOther": 0.0223,
+  "winPercentageDraw": 0.0134,
   "mostWonGames": "Hannah",
   "mostWonGamesJohn": [
     {
       "game": "Lovecraft Letter",
-      "plays": 36
+      "plays": 40
     }
   ],
   "mostWonGamesHannah": [
     {
       "game": "Lovecraft Letter",
-      "plays": 57
+      "plays": 59
     }
   ]
 }
