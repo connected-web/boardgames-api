@@ -10,10 +10,10 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
     - name: Use Node JS LTS
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v4
       with:
         node-version: 18.x
 
@@ -24,9 +24,11 @@ jobs:
       run: npm run setup -s
 
     - name: Run default tests
-      run: npm test -s
+      run: npm test
       env:
-          GOOGLE_SERVICE_ACCOUNT_SECURE_CREDENTIALS: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_SECURE_CREDENTIALS }}
+        GOOGLE_SERVICE_ACCOUNT_SECURE_CREDENTIALS: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_SECURE_CREDENTIALS }}
+        CONNECTED_WEB_PROD_SSO_CLIENT_ID: ${{ secrets.CONNECTED_WEB_PROD_SSO_CLIENT_ID }}
+        CONNECTED_WEB_PROD_SSO_SECRET: ${{ secrets.CONNECTED_WEB_PROD_SSO_SECRET }}
 
   test-cdk-api:
     name: Test CDK API
@@ -34,10 +36,10 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
     - name: Use Node JS LTS
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v4
       with:
         node-version: 18.x
 
@@ -46,5 +48,16 @@ jobs:
       working-directory: ./cdk-api
 
     - name: Run default tests
-      run: npm test -s
+      run: npm test
       working-directory: ./cdk-api
+      env:
+        CONNECTED_WEB_PROD_SSO_CLIENT_ID: ${{ secrets.CONNECTED_WEB_PROD_SSO_CLIENT_ID }}
+        CONNECTED_WEB_PROD_SSO_SECRET: ${{ secrets.CONNECTED_WEB_PROD_SSO_SECRET }}
+
+  deploy-cdk-api:
+    name: Deploy API via CDK
+    needs: [test-php-api, test-cdk-api]
+    uses: ./.github/workflows/deploy-cdk-api.yml
+    secrets: inherit
+    with:
+      account: connected-web-dev

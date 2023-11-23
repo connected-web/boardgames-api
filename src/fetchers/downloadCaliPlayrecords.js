@@ -64,6 +64,7 @@ async function downloadPlayrecords ({ axios }, { year, authToken, url }) {
 async function downloadFromSources (model) {
   const { fetchers } = model
   const playRecordSources = await createPlayRecordSources()
+  report('Created sources:', playRecordSources)
   const downloadWork = playRecordSources.map(source => {
     return downloadPlayrecords(fetchers, source)
   })
@@ -88,7 +89,11 @@ async function downloadFromSources (model) {
 
 function init (model) {
   return async () => {
-    model.calisaurus.playrecords = await downloadFromSources(model)
+    try {
+      model.calisaurus.playrecords = await downloadFromSources(model)
+    } catch (ex) {
+      report('Unable to download playrecords:', ex)
+    }
     return {
       playrecords: model.calisaurus.playrecords,
       log

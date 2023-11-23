@@ -12,11 +12,11 @@
       "name": "Ungrouped",
       "gameFamilyId": "ungrouped",
       "earliestDate": "2018-01-03",
-      "latestDate": "2023-07-12",
+      "latestDate": "2023-07-28",
       "sequenceStartDate": "2018-01-03",
-      "sequenceEndDate": "2023-07-12",
-      "daysInSequence": 2017,
-      "daysWithUnplayedGames": 1759,
+      "sequenceEndDate": "2023-07-28",
+      "daysInSequence": 2033,
+      "daysWithUnplayedGames": 1768,
       "gamesPlayedPerDay": {
         "1": 1,
         "2": 0,
@@ -2034,7 +2034,23 @@
         "2014": 1,
         "2015": 1,
         "2016": 0,
-        "2017": 1
+        "2017": 1,
+        "2018": 0,
+        "2019": 0,
+        "2020": 0,
+        "2021": 0,
+        "2022": 0,
+        "2023": 0,
+        "2024": 1,
+        "2025": 1,
+        "2026": 1,
+        "2027": 2,
+        "2028": 0,
+        "2029": 0,
+        "2030": 0,
+        "2031": 1,
+        "2032": 2,
+        "2033": 1
       },
       "gamesPlayed": [
         {
@@ -4346,10 +4362,73 @@
           "coOp": "no",
           "noOfPlayers": 2,
           "name": "Planet"
+        },
+        {
+          "date": "2023-07-19",
+          "winner": "Hannah",
+          "coOp": "no",
+          "noOfPlayers": 2,
+          "name": "Love Letter: Princess Princess Ever After"
+        },
+        {
+          "date": "2023-07-20",
+          "winner": "Hannah",
+          "coOp": "no",
+          "noOfPlayers": 3,
+          "name": "Town 66"
+        },
+        {
+          "date": "2023-07-21",
+          "coOpOutcome": "win",
+          "coOp": "yes",
+          "noOfPlayers": 2,
+          "name": "Bandido"
+        },
+        {
+          "date": "2023-07-22",
+          "coOpOutcome": "win",
+          "coOp": "yes",
+          "noOfPlayers": 2,
+          "name": "Bandido"
+        },
+        {
+          "date": "2023-07-22",
+          "winner": "Hannah",
+          "coOp": "no",
+          "noOfPlayers": 2,
+          "name": "Love Letter: Adventure Time"
+        },
+        {
+          "date": "2023-07-26",
+          "winner": "John",
+          "coOp": "no",
+          "noOfPlayers": 2,
+          "name": "Cascadia"
+        },
+        {
+          "date": "2023-07-27",
+          "coOpOutcome": "win",
+          "coOp": "yes",
+          "noOfPlayers": 2,
+          "name": "Bandido"
+        },
+        {
+          "date": "2023-07-27",
+          "coOpOutcome": "win",
+          "coOp": "yes",
+          "noOfPlayers": 2,
+          "name": "Bandido"
+        },
+        {
+          "date": "2023-07-28",
+          "winner": "Hannah",
+          "coOp": "no",
+          "noOfPlayers": 2,
+          "name": "Heat: Pedal to the Metal"
         }
       ],
-      "totalGamesPlayed": 345,
-      "averageGamesPlayedPerDay": 0.171,
+      "totalGamesPlayed": 354,
+      "averageGamesPlayedPerDay": 0.1741,
       "mostGamesPlayedInADay": [
         {
           "date": "2023-06-03",
@@ -4500,28 +4579,28 @@
         "Zuuli"
       ],
       "uniqueGamesPlayedCount": 134,
-      "uniqueGamesPlayedPercentage": 0.3884,
+      "uniqueGamesPlayedPercentage": 0.3785,
       "mostPlayedGames": [
         {
           "name": "Kingdomino",
           "plays": 26
         }
       ],
-      "coOpGamesPlayedCount": 116,
-      "coOpGamesPlayedPercentage": 0.3362,
-      "coOpGameWins": 68,
+      "coOpGamesPlayedCount": 120,
+      "coOpGamesPlayedPercentage": 0.339,
+      "coOpGameWins": 72,
       "coOpGameLoses": 48,
-      "coOpWinRate": 0.5862,
-      "coOpLossRate": 0.4138,
-      "winCountHannah": 119,
-      "winCountJohn": 95,
+      "coOpWinRate": 0.6,
+      "coOpLossRate": 0.4,
+      "winCountHannah": 123,
+      "winCountJohn": 96,
       "winCountOther": 9,
       "winCountDraw": 9,
-      "winnableGamesTotal": 232,
-      "winPercentageHannah": 0.5129,
-      "winPercentageJohn": 0.4095,
-      "winPercentageOther": 0.0388,
-      "winPercentageDraw": 0.0388,
+      "winnableGamesTotal": 237,
+      "winPercentageHannah": 0.519,
+      "winPercentageJohn": 0.4051,
+      "winPercentageOther": 0.038,
+      "winPercentageDraw": 0.038,
       "mostWonGames": "Hannah",
       "mostWonGamesJohn": [
         {
@@ -9004,11 +9083,11 @@
       "name": "Love Letter",
       "gameFamilyId": "love-letter",
       "earliestDate": "2018-01-02",
-      "latestDate": "2023-07-12",
+      "latestDate": "2023-07-28",
       "sequenceStartDate": "2018-01-02",
-      "sequenceEndDate": "2023-07-12",
-      "daysInSequence": 2018,
-      "daysWithUnplayedGames": 1817,
+      "sequenceEndDate": "2023-07-28",
+      "daysInSequence": 2034,
+      "daysWithUnplayedGames": 1828,
       "gamesPlayedPerDay": {
         "1": 1,
         "2": 0,
@@ -11027,7 +11106,23 @@
         "2015": 1,
         "2016": 1,
         "2017": 0,
-        "2018": 1
+        "2018": 1,
+        "2019": 0,
+        "2020": 0,
+        "2021": 0,
+        "2022": 0,
+        "2023": 1,
+        "2024": 1,
+        "2025": 0,
+        "2026": 0,
+        "2027": 0,
+        "2028": 0,
+        "2029": 0,
+        "2030": 0,
+        "2031": 0,
+        "2032": 2,
+        "2033": 1,
+        "2034": 1
       },
       "gamesPlayed": [
         {
@@ -12512,10 +12607,52 @@
           "coOp": "no",
           "noOfPlayers": 2,
           "name": "Lovecraft Letter"
+        },
+        {
+          "date": "2023-07-17",
+          "winner": "John",
+          "coOp": "no",
+          "noOfPlayers": 2,
+          "name": "Lovecraft Letter"
+        },
+        {
+          "date": "2023-07-18",
+          "winner": "Hannah",
+          "coOp": "no",
+          "noOfPlayers": 2,
+          "name": "Lovecraft Letter"
+        },
+        {
+          "date": "2023-07-26",
+          "winner": "Hannah",
+          "coOp": "no",
+          "noOfPlayers": 2,
+          "name": "Lovecraft Letter"
+        },
+        {
+          "date": "2023-07-26",
+          "winner": "John",
+          "coOp": "no",
+          "noOfPlayers": 2,
+          "name": "Lovecraft Letter"
+        },
+        {
+          "date": "2023-07-27",
+          "winner": "John",
+          "coOp": "no",
+          "noOfPlayers": 2,
+          "name": "Lovecraft Letter"
+        },
+        {
+          "date": "2023-07-28",
+          "winner": "John",
+          "coOp": "no",
+          "noOfPlayers": 2,
+          "name": "Lovecraft Letter"
         }
       ],
-      "totalGamesPlayed": 219,
-      "averageGamesPlayedPerDay": 0.1085,
+      "totalGamesPlayed": 225,
+      "averageGamesPlayedPerDay": 0.1106,
       "mostGamesPlayedInADay": [
         {
           "date": "2018-02-26",
@@ -12550,39 +12687,39 @@
         "Marvel: Infinity Gauntlet"
       ],
       "uniqueGamesPlayedCount": 13,
-      "uniqueGamesPlayedPercentage": 0.0594,
+      "uniqueGamesPlayedPercentage": 0.0578,
       "mostPlayedGames": [
         {
           "name": "Lovecraft Letter",
-          "plays": 96
+          "plays": 102
         }
       ],
       "coOpGamesPlayedCount": 1,
-      "coOpGamesPlayedPercentage": 0.0046,
+      "coOpGamesPlayedPercentage": 0.0044,
       "coOpGameWins": 1,
       "coOpGameLoses": 0,
       "coOpWinRate": 1,
       "coOpLossRate": 0,
-      "winCountHannah": 131,
-      "winCountJohn": 79,
+      "winCountHannah": 133,
+      "winCountJohn": 83,
       "winCountOther": 5,
       "winCountDraw": 3,
-      "winnableGamesTotal": 218,
-      "winPercentageHannah": 0.6009,
-      "winPercentageJohn": 0.3624,
-      "winPercentageOther": 0.0229,
-      "winPercentageDraw": 0.0138,
+      "winnableGamesTotal": 224,
+      "winPercentageHannah": 0.5938,
+      "winPercentageJohn": 0.3705,
+      "winPercentageOther": 0.0223,
+      "winPercentageDraw": 0.0134,
       "mostWonGames": "Hannah",
       "mostWonGamesJohn": [
         {
           "game": "Lovecraft Letter",
-          "plays": 36
+          "plays": 40
         }
       ],
       "mostWonGamesHannah": [
         {
           "game": "Lovecraft Letter",
-          "plays": 57
+          "plays": 59
         }
       ]
     },
@@ -14694,11 +14831,11 @@
       "name": "Ungrouped",
       "gameFamilyId": "brass",
       "earliestDate": "2020-03-14",
-      "latestDate": "2023-04-10",
+      "latestDate": "2023-07-15",
       "sequenceStartDate": "2020-03-14",
-      "sequenceEndDate": "2023-04-10",
-      "daysInSequence": 1123,
-      "daysWithUnplayedGames": 1111,
+      "sequenceEndDate": "2023-07-15",
+      "daysInSequence": 1219,
+      "daysWithUnplayedGames": 1206,
       "gamesPlayedPerDay": {
         "1": 1,
         "2": 0,
@@ -15822,7 +15959,103 @@
         "1120": 0,
         "1121": 0,
         "1122": 0,
-        "1123": 1
+        "1123": 1,
+        "1124": 0,
+        "1125": 0,
+        "1126": 0,
+        "1127": 0,
+        "1128": 0,
+        "1129": 0,
+        "1130": 0,
+        "1131": 0,
+        "1132": 0,
+        "1133": 0,
+        "1134": 0,
+        "1135": 0,
+        "1136": 0,
+        "1137": 0,
+        "1138": 0,
+        "1139": 0,
+        "1140": 0,
+        "1141": 0,
+        "1142": 0,
+        "1143": 0,
+        "1144": 0,
+        "1145": 0,
+        "1146": 0,
+        "1147": 0,
+        "1148": 0,
+        "1149": 0,
+        "1150": 0,
+        "1151": 0,
+        "1152": 0,
+        "1153": 0,
+        "1154": 0,
+        "1155": 0,
+        "1156": 0,
+        "1157": 0,
+        "1158": 0,
+        "1159": 0,
+        "1160": 0,
+        "1161": 0,
+        "1162": 0,
+        "1163": 0,
+        "1164": 0,
+        "1165": 0,
+        "1166": 0,
+        "1167": 0,
+        "1168": 0,
+        "1169": 0,
+        "1170": 0,
+        "1171": 0,
+        "1172": 0,
+        "1173": 0,
+        "1174": 0,
+        "1175": 0,
+        "1176": 0,
+        "1177": 0,
+        "1178": 0,
+        "1179": 0,
+        "1180": 0,
+        "1181": 0,
+        "1182": 0,
+        "1183": 0,
+        "1184": 0,
+        "1185": 0,
+        "1186": 0,
+        "1187": 0,
+        "1188": 0,
+        "1189": 0,
+        "1190": 0,
+        "1191": 0,
+        "1192": 0,
+        "1193": 0,
+        "1194": 0,
+        "1195": 0,
+        "1196": 0,
+        "1197": 0,
+        "1198": 0,
+        "1199": 0,
+        "1200": 0,
+        "1201": 0,
+        "1202": 0,
+        "1203": 0,
+        "1204": 0,
+        "1205": 0,
+        "1206": 0,
+        "1207": 0,
+        "1208": 0,
+        "1209": 0,
+        "1210": 0,
+        "1211": 0,
+        "1212": 0,
+        "1213": 0,
+        "1214": 0,
+        "1215": 0,
+        "1216": 0,
+        "1217": 0,
+        "1218": 0,
+        "1219": 1
       },
       "gamesPlayed": [
         {
@@ -15913,10 +16146,17 @@
           "coOp": "no",
           "noOfPlayers": 2,
           "name": "Brass: Birmingham"
+        },
+        {
+          "date": "2023-07-15",
+          "winner": "John",
+          "coOp": "no",
+          "noOfPlayers": 2,
+          "name": "Brass: Birmingham"
         }
       ],
-      "totalGamesPlayed": 13,
-      "averageGamesPlayedPerDay": 0.0116,
+      "totalGamesPlayed": 14,
+      "averageGamesPlayedPerDay": 0.0115,
       "mostGamesPlayedInADay": [
         {
           "date": "2021-01-16",
@@ -15931,11 +16171,11 @@
         "Brass: Lancashire "
       ],
       "uniqueGamesPlayedCount": 2,
-      "uniqueGamesPlayedPercentage": 0.1538,
+      "uniqueGamesPlayedPercentage": 0.1429,
       "mostPlayedGames": [
         {
           "name": "Brass: Birmingham",
-          "plays": 9
+          "plays": 10
         }
       ],
       "coOpGamesPlayedCount": 0,
@@ -15945,19 +16185,19 @@
       "coOpWinRate": 0,
       "coOpLossRate": 0,
       "winCountHannah": 3,
-      "winCountJohn": 10,
+      "winCountJohn": 11,
       "winCountOther": 0,
       "winCountDraw": 0,
-      "winnableGamesTotal": 13,
-      "winPercentageHannah": 0.2308,
-      "winPercentageJohn": 0.7692,
+      "winnableGamesTotal": 14,
+      "winPercentageHannah": 0.2143,
+      "winPercentageJohn": 0.7857,
       "winPercentageOther": 0,
       "winPercentageDraw": 0,
       "mostWonGames": "John",
       "mostWonGamesJohn": [
         {
           "game": "Brass: Birmingham",
-          "plays": 6
+          "plays": 7
         }
       ],
       "mostWonGamesHannah": [
@@ -24244,11 +24484,11 @@
       "name": "Corsairs of Valeria",
       "gameFamilyId": "corsairs-of-valeria",
       "earliestDate": "2020-05-10",
-      "latestDate": "2023-05-06",
+      "latestDate": "2023-07-13",
       "sequenceStartDate": "2020-05-10",
-      "sequenceEndDate": "2023-05-06",
-      "daysInSequence": 1092,
-      "daysWithUnplayedGames": 1059,
+      "sequenceEndDate": "2023-07-13",
+      "daysInSequence": 1160,
+      "daysWithUnplayedGames": 1126,
       "gamesPlayedPerDay": {
         "1": 1,
         "2": 1,
@@ -25341,7 +25581,75 @@
         "1089": 0,
         "1090": 0,
         "1091": 0,
-        "1092": 1
+        "1092": 1,
+        "1093": 0,
+        "1094": 0,
+        "1095": 0,
+        "1096": 0,
+        "1097": 0,
+        "1098": 0,
+        "1099": 0,
+        "1100": 0,
+        "1101": 0,
+        "1102": 0,
+        "1103": 0,
+        "1104": 0,
+        "1105": 0,
+        "1106": 0,
+        "1107": 0,
+        "1108": 0,
+        "1109": 0,
+        "1110": 0,
+        "1111": 0,
+        "1112": 0,
+        "1113": 0,
+        "1114": 0,
+        "1115": 0,
+        "1116": 0,
+        "1117": 0,
+        "1118": 0,
+        "1119": 0,
+        "1120": 0,
+        "1121": 0,
+        "1122": 0,
+        "1123": 0,
+        "1124": 0,
+        "1125": 0,
+        "1126": 0,
+        "1127": 0,
+        "1128": 0,
+        "1129": 0,
+        "1130": 0,
+        "1131": 0,
+        "1132": 0,
+        "1133": 0,
+        "1134": 0,
+        "1135": 0,
+        "1136": 0,
+        "1137": 0,
+        "1138": 0,
+        "1139": 0,
+        "1140": 0,
+        "1141": 0,
+        "1142": 0,
+        "1143": 0,
+        "1144": 0,
+        "1145": 0,
+        "1146": 0,
+        "1147": 0,
+        "1148": 0,
+        "1149": 0,
+        "1150": 0,
+        "1151": 0,
+        "1152": 0,
+        "1153": 0,
+        "1154": 0,
+        "1155": 0,
+        "1156": 0,
+        "1157": 0,
+        "1158": 0,
+        "1159": 0,
+        "1160": 1
       },
       "gamesPlayed": [
         {
@@ -25574,10 +25882,17 @@
           "coOp": "no",
           "noOfPlayers": 3,
           "name": "Corsairs of Valeria"
+        },
+        {
+          "date": "2023-07-13",
+          "winner": "John",
+          "coOp": "no",
+          "noOfPlayers": 2,
+          "name": "Corsairs of Valeria"
         }
       ],
-      "totalGamesPlayed": 33,
-      "averageGamesPlayedPerDay": 0.0302,
+      "totalGamesPlayed": 34,
+      "averageGamesPlayedPerDay": 0.0293,
       "mostGamesPlayedInADay": [
         {
           "date": "2020-05-10",
@@ -25776,17 +26091,23 @@
           "games": [
             "Corsairs of Valeria"
           ]
+        },
+        {
+          "date": "2023-07-13",
+          "games": [
+            "Corsairs of Valeria"
+          ]
         }
       ],
       "uniqueGamesPlayed": [
         "Corsairs of Valeria"
       ],
       "uniqueGamesPlayedCount": 1,
-      "uniqueGamesPlayedPercentage": 0.0303,
+      "uniqueGamesPlayedPercentage": 0.0294,
       "mostPlayedGames": [
         {
           "name": "Corsairs of Valeria",
-          "plays": 33
+          "plays": 34
         }
       ],
       "coOpGamesPlayedCount": 0,
@@ -25796,19 +26117,19 @@
       "coOpWinRate": 0,
       "coOpLossRate": 0,
       "winCountHannah": 19,
-      "winCountJohn": 13,
+      "winCountJohn": 14,
       "winCountOther": 0,
       "winCountDraw": 1,
-      "winnableGamesTotal": 33,
-      "winPercentageHannah": 0.5758,
-      "winPercentageJohn": 0.3939,
+      "winnableGamesTotal": 34,
+      "winPercentageHannah": 0.5588,
+      "winPercentageJohn": 0.4118,
       "winPercentageOther": 0,
-      "winPercentageDraw": 0.0303,
+      "winPercentageDraw": 0.0294,
       "mostWonGames": "Hannah",
       "mostWonGamesJohn": [
         {
           "game": "Corsairs of Valeria",
-          "plays": 13
+          "plays": 14
         }
       ],
       "mostWonGamesHannah": [
@@ -38753,11 +39074,11 @@
       "name": "Flotsam Fight",
       "gameFamilyId": "flotsam-fight",
       "earliestDate": "2020-03-20",
-      "latestDate": "2023-05-16",
+      "latestDate": "2023-07-20",
       "sequenceStartDate": "2020-03-20",
-      "sequenceEndDate": "2023-05-16",
-      "daysInSequence": 1153,
-      "daysWithUnplayedGames": 1129,
+      "sequenceEndDate": "2023-07-20",
+      "daysInSequence": 1218,
+      "daysWithUnplayedGames": 1193,
       "gamesPlayedPerDay": {
         "1": 1,
         "2": 0,
@@ -39911,7 +40232,72 @@
         "1150": 0,
         "1151": 0,
         "1152": 0,
-        "1153": 1
+        "1153": 1,
+        "1154": 0,
+        "1155": 0,
+        "1156": 0,
+        "1157": 0,
+        "1158": 0,
+        "1159": 0,
+        "1160": 0,
+        "1161": 0,
+        "1162": 0,
+        "1163": 0,
+        "1164": 0,
+        "1165": 0,
+        "1166": 0,
+        "1167": 0,
+        "1168": 0,
+        "1169": 0,
+        "1170": 0,
+        "1171": 0,
+        "1172": 0,
+        "1173": 0,
+        "1174": 0,
+        "1175": 0,
+        "1176": 0,
+        "1177": 0,
+        "1178": 0,
+        "1179": 0,
+        "1180": 0,
+        "1181": 0,
+        "1182": 0,
+        "1183": 0,
+        "1184": 0,
+        "1185": 0,
+        "1186": 0,
+        "1187": 0,
+        "1188": 0,
+        "1189": 0,
+        "1190": 0,
+        "1191": 0,
+        "1192": 0,
+        "1193": 0,
+        "1194": 0,
+        "1195": 0,
+        "1196": 0,
+        "1197": 0,
+        "1198": 0,
+        "1199": 0,
+        "1200": 0,
+        "1201": 0,
+        "1202": 0,
+        "1203": 0,
+        "1204": 0,
+        "1205": 0,
+        "1206": 0,
+        "1207": 0,
+        "1208": 0,
+        "1209": 0,
+        "1210": 0,
+        "1211": 0,
+        "1212": 0,
+        "1213": 0,
+        "1214": 0,
+        "1215": 0,
+        "1216": 0,
+        "1217": 0,
+        "1218": 1
       },
       "gamesPlayed": [
         {
@@ -40081,10 +40467,17 @@
           "coOp": "no",
           "noOfPlayers": 2,
           "name": "Flotsam Fight"
+        },
+        {
+          "date": "2023-07-20",
+          "winner": "other",
+          "coOp": "no",
+          "noOfPlayers": 3,
+          "name": "Flotsam Fight"
         }
       ],
-      "totalGamesPlayed": 24,
-      "averageGamesPlayedPerDay": 0.0208,
+      "totalGamesPlayed": 25,
+      "averageGamesPlayedPerDay": 0.0205,
       "mostGamesPlayedInADay": [
         {
           "date": "2020-03-20",
@@ -40229,17 +40622,23 @@
           "games": [
             "Flotsam Fight"
           ]
+        },
+        {
+          "date": "2023-07-20",
+          "games": [
+            "Flotsam Fight"
+          ]
         }
       ],
       "uniqueGamesPlayed": [
         "Flotsam Fight"
       ],
       "uniqueGamesPlayedCount": 1,
-      "uniqueGamesPlayedPercentage": 0.0417,
+      "uniqueGamesPlayedPercentage": 0.04,
       "mostPlayedGames": [
         {
           "name": "Flotsam Fight",
-          "plays": 24
+          "plays": 25
         }
       ],
       "coOpGamesPlayedCount": 0,
@@ -40250,13 +40649,13 @@
       "coOpLossRate": 0,
       "winCountHannah": 13,
       "winCountJohn": 10,
-      "winCountOther": 0,
+      "winCountOther": 1,
       "winCountDraw": 1,
-      "winnableGamesTotal": 24,
-      "winPercentageHannah": 0.5417,
-      "winPercentageJohn": 0.4167,
-      "winPercentageOther": 0,
-      "winPercentageDraw": 0.0417,
+      "winnableGamesTotal": 25,
+      "winPercentageHannah": 0.52,
+      "winPercentageJohn": 0.4,
+      "winPercentageOther": 0.04,
+      "winPercentageDraw": 0.04,
       "mostWonGames": "Hannah",
       "mostWonGamesJohn": [
         {
@@ -45189,11 +45588,11 @@
       "name": "Hey, That's My Fish!",
       "gameFamilyId": "hey-thats-my-fish",
       "earliestDate": "2018-02-13",
-      "latestDate": "2023-02-26",
+      "latestDate": "2023-07-23",
       "sequenceStartDate": "2018-02-13",
-      "sequenceEndDate": "2023-02-26",
-      "daysInSequence": 1840,
-      "daysWithUnplayedGames": 1831,
+      "sequenceEndDate": "2023-07-23",
+      "daysInSequence": 1987,
+      "daysWithUnplayedGames": 1977,
       "gamesPlayedPerDay": {
         "1": 1,
         "2": 0,
@@ -47034,7 +47433,154 @@
         "1837": 0,
         "1838": 0,
         "1839": 0,
-        "1840": 1
+        "1840": 1,
+        "1841": 0,
+        "1842": 0,
+        "1843": 0,
+        "1844": 0,
+        "1845": 0,
+        "1846": 0,
+        "1847": 0,
+        "1848": 0,
+        "1849": 0,
+        "1850": 0,
+        "1851": 0,
+        "1852": 0,
+        "1853": 0,
+        "1854": 0,
+        "1855": 0,
+        "1856": 0,
+        "1857": 0,
+        "1858": 0,
+        "1859": 0,
+        "1860": 0,
+        "1861": 0,
+        "1862": 0,
+        "1863": 0,
+        "1864": 0,
+        "1865": 0,
+        "1866": 0,
+        "1867": 0,
+        "1868": 0,
+        "1869": 0,
+        "1870": 0,
+        "1871": 0,
+        "1872": 0,
+        "1873": 0,
+        "1874": 0,
+        "1875": 0,
+        "1876": 0,
+        "1877": 0,
+        "1878": 0,
+        "1879": 0,
+        "1880": 0,
+        "1881": 0,
+        "1882": 0,
+        "1883": 0,
+        "1884": 0,
+        "1885": 0,
+        "1886": 0,
+        "1887": 0,
+        "1888": 0,
+        "1889": 0,
+        "1890": 0,
+        "1891": 0,
+        "1892": 0,
+        "1893": 0,
+        "1894": 0,
+        "1895": 0,
+        "1896": 0,
+        "1897": 0,
+        "1898": 0,
+        "1899": 0,
+        "1900": 0,
+        "1901": 0,
+        "1902": 0,
+        "1903": 0,
+        "1904": 0,
+        "1905": 0,
+        "1906": 0,
+        "1907": 0,
+        "1908": 0,
+        "1909": 0,
+        "1910": 0,
+        "1911": 0,
+        "1912": 0,
+        "1913": 0,
+        "1914": 0,
+        "1915": 0,
+        "1916": 0,
+        "1917": 0,
+        "1918": 0,
+        "1919": 0,
+        "1920": 0,
+        "1921": 0,
+        "1922": 0,
+        "1923": 0,
+        "1924": 0,
+        "1925": 0,
+        "1926": 0,
+        "1927": 0,
+        "1928": 0,
+        "1929": 0,
+        "1930": 0,
+        "1931": 0,
+        "1932": 0,
+        "1933": 0,
+        "1934": 0,
+        "1935": 0,
+        "1936": 0,
+        "1937": 0,
+        "1938": 0,
+        "1939": 0,
+        "1940": 0,
+        "1941": 0,
+        "1942": 0,
+        "1943": 0,
+        "1944": 0,
+        "1945": 0,
+        "1946": 0,
+        "1947": 0,
+        "1948": 0,
+        "1949": 0,
+        "1950": 0,
+        "1951": 0,
+        "1952": 0,
+        "1953": 0,
+        "1954": 0,
+        "1955": 0,
+        "1956": 0,
+        "1957": 0,
+        "1958": 0,
+        "1959": 0,
+        "1960": 0,
+        "1961": 0,
+        "1962": 0,
+        "1963": 0,
+        "1964": 0,
+        "1965": 0,
+        "1966": 0,
+        "1967": 0,
+        "1968": 0,
+        "1969": 0,
+        "1970": 0,
+        "1971": 0,
+        "1972": 0,
+        "1973": 0,
+        "1974": 0,
+        "1975": 0,
+        "1976": 0,
+        "1977": 0,
+        "1978": 0,
+        "1979": 0,
+        "1980": 0,
+        "1981": 0,
+        "1982": 0,
+        "1983": 0,
+        "1984": 0,
+        "1985": 0,
+        "1986": 0,
+        "1987": 1
       },
       "gamesPlayed": [
         {
@@ -47094,10 +47640,17 @@
           "coOp": "no",
           "noOfPlayers": 2,
           "name": "Hey, That's My Fish!"
+        },
+        {
+          "date": "2023-07-23",
+          "winner": "John",
+          "coOp": "no",
+          "noOfPlayers": 2,
+          "name": "Hey, That's My Fish!"
         }
       ],
-      "totalGamesPlayed": 9,
-      "averageGamesPlayedPerDay": 0.0049,
+      "totalGamesPlayed": 10,
+      "averageGamesPlayedPerDay": 0.005,
       "mostGamesPlayedInADay": [
         {
           "date": "2018-02-13",
@@ -47152,17 +47705,23 @@
           "games": [
             "Hey, That's My Fish!"
           ]
+        },
+        {
+          "date": "2023-07-23",
+          "games": [
+            "Hey, That's My Fish!"
+          ]
         }
       ],
       "uniqueGamesPlayed": [
         "Hey, That's My Fish!"
       ],
       "uniqueGamesPlayedCount": 1,
-      "uniqueGamesPlayedPercentage": 0.1111,
+      "uniqueGamesPlayedPercentage": 0.1,
       "mostPlayedGames": [
         {
           "name": "Hey, That's My Fish!",
-          "plays": 9
+          "plays": 10
         }
       ],
       "coOpGamesPlayedCount": 0,
@@ -47172,19 +47731,19 @@
       "coOpWinRate": 0,
       "coOpLossRate": 0,
       "winCountHannah": 4,
-      "winCountJohn": 5,
+      "winCountJohn": 6,
       "winCountOther": 0,
       "winCountDraw": 0,
-      "winnableGamesTotal": 9,
-      "winPercentageHannah": 0.4444,
-      "winPercentageJohn": 0.5556,
+      "winnableGamesTotal": 10,
+      "winPercentageHannah": 0.4,
+      "winPercentageJohn": 0.6,
       "winPercentageOther": 0,
       "winPercentageDraw": 0,
       "mostWonGames": "John",
       "mostWonGamesJohn": [
         {
           "game": "Hey, That's My Fish!",
-          "plays": 5
+          "plays": 6
         }
       ],
       "mostWonGamesHannah": [
@@ -69254,11 +69813,11 @@
       "name": "Sushi Go!",
       "gameFamilyId": "sushi-go",
       "earliestDate": "2018-03-07",
-      "latestDate": "2023-05-14",
+      "latestDate": "2023-07-23",
       "sequenceStartDate": "2018-03-07",
-      "sequenceEndDate": "2023-05-14",
-      "daysInSequence": 1895,
-      "daysWithUnplayedGames": 1885,
+      "sequenceEndDate": "2023-07-23",
+      "daysInSequence": 1965,
+      "daysWithUnplayedGames": 1954,
       "gamesPlayedPerDay": {
         "1": 1,
         "2": 0,
@@ -71154,7 +71713,77 @@
         "1892": 0,
         "1893": 0,
         "1894": 0,
-        "1895": 1
+        "1895": 1,
+        "1896": 0,
+        "1897": 0,
+        "1898": 0,
+        "1899": 0,
+        "1900": 0,
+        "1901": 0,
+        "1902": 0,
+        "1903": 0,
+        "1904": 0,
+        "1905": 0,
+        "1906": 0,
+        "1907": 0,
+        "1908": 0,
+        "1909": 0,
+        "1910": 0,
+        "1911": 0,
+        "1912": 0,
+        "1913": 0,
+        "1914": 0,
+        "1915": 0,
+        "1916": 0,
+        "1917": 0,
+        "1918": 0,
+        "1919": 0,
+        "1920": 0,
+        "1921": 0,
+        "1922": 0,
+        "1923": 0,
+        "1924": 0,
+        "1925": 0,
+        "1926": 0,
+        "1927": 0,
+        "1928": 0,
+        "1929": 0,
+        "1930": 0,
+        "1931": 0,
+        "1932": 0,
+        "1933": 0,
+        "1934": 0,
+        "1935": 0,
+        "1936": 0,
+        "1937": 0,
+        "1938": 0,
+        "1939": 0,
+        "1940": 0,
+        "1941": 0,
+        "1942": 0,
+        "1943": 0,
+        "1944": 0,
+        "1945": 0,
+        "1946": 0,
+        "1947": 0,
+        "1948": 0,
+        "1949": 0,
+        "1950": 0,
+        "1951": 0,
+        "1952": 0,
+        "1953": 0,
+        "1954": 0,
+        "1955": 0,
+        "1956": 0,
+        "1957": 0,
+        "1958": 0,
+        "1959": 0,
+        "1960": 0,
+        "1961": 0,
+        "1962": 0,
+        "1963": 0,
+        "1964": 0,
+        "1965": 1
       },
       "gamesPlayed": [
         {
@@ -71224,10 +71853,17 @@
           "coOp": "no",
           "noOfPlayers": 2,
           "name": "Sushi Go!"
+        },
+        {
+          "date": "2023-07-23",
+          "winner": "John",
+          "coOp": "no",
+          "noOfPlayers": 2,
+          "name": "Sushi Go!"
         }
       ],
-      "totalGamesPlayed": 10,
-      "averageGamesPlayedPerDay": 0.0053,
+      "totalGamesPlayed": 11,
+      "averageGamesPlayedPerDay": 0.0056,
       "mostGamesPlayedInADay": [
         {
           "date": "2018-03-07",
@@ -71288,17 +71924,23 @@
           "games": [
             "Sushi Go!"
           ]
+        },
+        {
+          "date": "2023-07-23",
+          "games": [
+            "Sushi Go!"
+          ]
         }
       ],
       "uniqueGamesPlayed": [
         "Sushi Go!"
       ],
       "uniqueGamesPlayedCount": 1,
-      "uniqueGamesPlayedPercentage": 0.1,
+      "uniqueGamesPlayedPercentage": 0.0909,
       "mostPlayedGames": [
         {
           "name": "Sushi Go!",
-          "plays": 10
+          "plays": 11
         }
       ],
       "coOpGamesPlayedCount": 0,
@@ -71308,19 +71950,19 @@
       "coOpWinRate": 0,
       "coOpLossRate": 0,
       "winCountHannah": 6,
-      "winCountJohn": 4,
+      "winCountJohn": 5,
       "winCountOther": 0,
       "winCountDraw": 0,
-      "winnableGamesTotal": 10,
-      "winPercentageHannah": 0.6,
-      "winPercentageJohn": 0.4,
+      "winnableGamesTotal": 11,
+      "winPercentageHannah": 0.5455,
+      "winPercentageJohn": 0.4545,
       "winPercentageOther": 0,
       "winPercentageDraw": 0,
       "mostWonGames": "Hannah",
       "mostWonGamesJohn": [
         {
           "game": "Sushi Go!",
-          "plays": 4
+          "plays": 5
         }
       ],
       "mostWonGamesHannah": [
@@ -79981,11 +80623,11 @@
       "name": "Troika",
       "gameFamilyId": "troika",
       "earliestDate": "2018-06-03",
-      "latestDate": "2023-05-16",
+      "latestDate": "2023-07-22",
       "sequenceStartDate": "2018-06-03",
-      "sequenceEndDate": "2023-05-16",
-      "daysInSequence": 1809,
-      "daysWithUnplayedGames": 1781,
+      "sequenceEndDate": "2023-07-22",
+      "daysInSequence": 1876,
+      "daysWithUnplayedGames": 1847,
       "gamesPlayedPerDay": {
         "1": 1,
         "2": 0,
@@ -81795,7 +82437,74 @@
         "1806": 0,
         "1807": 0,
         "1808": 0,
-        "1809": 1
+        "1809": 1,
+        "1810": 0,
+        "1811": 0,
+        "1812": 0,
+        "1813": 0,
+        "1814": 0,
+        "1815": 0,
+        "1816": 0,
+        "1817": 0,
+        "1818": 0,
+        "1819": 0,
+        "1820": 0,
+        "1821": 0,
+        "1822": 0,
+        "1823": 0,
+        "1824": 0,
+        "1825": 0,
+        "1826": 0,
+        "1827": 0,
+        "1828": 0,
+        "1829": 0,
+        "1830": 0,
+        "1831": 0,
+        "1832": 0,
+        "1833": 0,
+        "1834": 0,
+        "1835": 0,
+        "1836": 0,
+        "1837": 0,
+        "1838": 0,
+        "1839": 0,
+        "1840": 0,
+        "1841": 0,
+        "1842": 0,
+        "1843": 0,
+        "1844": 0,
+        "1845": 0,
+        "1846": 0,
+        "1847": 0,
+        "1848": 0,
+        "1849": 0,
+        "1850": 0,
+        "1851": 0,
+        "1852": 0,
+        "1853": 0,
+        "1854": 0,
+        "1855": 0,
+        "1856": 0,
+        "1857": 0,
+        "1858": 0,
+        "1859": 0,
+        "1860": 0,
+        "1861": 0,
+        "1862": 0,
+        "1863": 0,
+        "1864": 0,
+        "1865": 0,
+        "1866": 0,
+        "1867": 0,
+        "1868": 0,
+        "1869": 0,
+        "1870": 0,
+        "1871": 0,
+        "1872": 0,
+        "1873": 0,
+        "1874": 0,
+        "1875": 0,
+        "1876": 1
       },
       "gamesPlayed": [
         {
@@ -81988,9 +82697,16 @@
           "coOp": "no",
           "noOfPlayers": 2,
           "name": "Troika"
+        },
+        {
+          "date": "2023-07-22",
+          "winner": "draw",
+          "coOp": "no",
+          "noOfPlayers": 2,
+          "name": "Troika"
         }
       ],
-      "totalGamesPlayed": 29,
+      "totalGamesPlayed": 30,
       "averageGamesPlayedPerDay": 0.016,
       "mostGamesPlayedInADay": [
         {
@@ -82005,11 +82721,11 @@
         "Troika"
       ],
       "uniqueGamesPlayedCount": 1,
-      "uniqueGamesPlayedPercentage": 0.0345,
+      "uniqueGamesPlayedPercentage": 0.0333,
       "mostPlayedGames": [
         {
           "name": "Troika",
-          "plays": 29
+          "plays": 30
         }
       ],
       "coOpGamesPlayedCount": 0,
@@ -82021,12 +82737,12 @@
       "winCountHannah": 10,
       "winCountJohn": 14,
       "winCountOther": 3,
-      "winCountDraw": 2,
-      "winnableGamesTotal": 29,
-      "winPercentageHannah": 0.3448,
-      "winPercentageJohn": 0.4828,
-      "winPercentageOther": 0.1034,
-      "winPercentageDraw": 0.069,
+      "winCountDraw": 3,
+      "winnableGamesTotal": 30,
+      "winPercentageHannah": 0.3333,
+      "winPercentageJohn": 0.4667,
+      "winPercentageOther": 0.1,
+      "winPercentageDraw": 0.1,
       "mostWonGames": "John",
       "mostWonGamesJohn": [
         {

@@ -4,7 +4,7 @@
   "sequenceStartDate": "2023-01-01",
   "sequenceEndDate": "2023-12-31",
   "daysInSequence": 365,
-  "daysWithUnplayedGames": 237,
+  "daysWithUnplayedGames": 225,
   "gamesPlayedPerDay": {
     "1": 1,
     "2": 1,
@@ -199,22 +199,22 @@
     "191": 2,
     "192": 0,
     "193": 2,
-    "194": 0,
+    "194": 1,
     "195": 0,
-    "196": 0,
+    "196": 1,
     "197": 0,
-    "198": 0,
-    "199": 0,
-    "200": 0,
-    "201": 0,
-    "202": 0,
-    "203": 0,
-    "204": 0,
+    "198": 1,
+    "199": 1,
+    "200": 1,
+    "201": 2,
+    "202": 1,
+    "203": 3,
+    "204": 2,
     "205": 0,
     "206": 0,
-    "207": 0,
-    "208": 0,
-    "209": 0,
+    "207": 3,
+    "208": 3,
+    "209": 2,
     "210": 0,
     "211": 0,
     "212": 0,
@@ -1689,10 +1689,136 @@
       "name": "Planet",
       "winner": "Hannah",
       "coOp": "no"
+    },
+    {
+      "date": "2023-07-13",
+      "name": "Corsairs of Valeria",
+      "winner": "John",
+      "coOp": "no"
+    },
+    {
+      "date": "2023-07-15",
+      "name": "Brass: Birmingham",
+      "winner": "John",
+      "coOp": "no"
+    },
+    {
+      "date": "2023-07-17",
+      "name": "Lovecraft Letter",
+      "winner": "John",
+      "coOp": "no"
+    },
+    {
+      "date": "2023-07-18",
+      "name": "Lovecraft Letter",
+      "winner": "Hannah",
+      "coOp": "no"
+    },
+    {
+      "date": "2023-07-19",
+      "name": "Love Letter: Princess Princess Ever After",
+      "winner": "Hannah",
+      "coOp": "no"
+    },
+    {
+      "date": "2023-07-20",
+      "name": "Flotsam Fight",
+      "winner": "other",
+      "coOp": "no"
+    },
+    {
+      "date": "2023-07-20",
+      "name": "Town 66",
+      "winner": "Hannah",
+      "coOp": "no"
+    },
+    {
+      "date": "2023-07-21",
+      "name": "Bandido",
+      "coOp": "yes",
+      "coOpOutcome": "win"
+    },
+    {
+      "date": "2023-07-22",
+      "name": "Bandido",
+      "coOp": "yes",
+      "coOpOutcome": "win"
+    },
+    {
+      "date": "2023-07-22",
+      "name": "Love Letter: Adventure Time",
+      "winner": "Hannah",
+      "coOp": "no"
+    },
+    {
+      "date": "2023-07-22",
+      "name": "Troika",
+      "winner": "draw",
+      "coOp": "no"
+    },
+    {
+      "date": "2023-07-23",
+      "name": "Hey, That's My Fish!",
+      "winner": "John",
+      "coOp": "no"
+    },
+    {
+      "date": "2023-07-23",
+      "name": "Sushi Go!",
+      "winner": "John",
+      "coOp": "no"
+    },
+    {
+      "date": "2023-07-26",
+      "name": "Cascadia",
+      "winner": "John",
+      "coOp": "no"
+    },
+    {
+      "date": "2023-07-26",
+      "name": "Lovecraft Letter",
+      "winner": "Hannah",
+      "coOp": "no"
+    },
+    {
+      "date": "2023-07-26",
+      "name": "Lovecraft Letter",
+      "winner": "John",
+      "coOp": "no"
+    },
+    {
+      "date": "2023-07-27",
+      "name": "Bandido",
+      "coOp": "yes",
+      "coOpOutcome": "win"
+    },
+    {
+      "date": "2023-07-27",
+      "name": "Bandido",
+      "coOp": "yes",
+      "coOpOutcome": "win"
+    },
+    {
+      "date": "2023-07-27",
+      "name": "Lovecraft Letter",
+      "winner": "John",
+      "coOp": "no"
+    },
+    {
+      "date": "2023-07-28",
+      "name": "Heat: Pedal to the Metal",
+      "winner": "Hannah",
+      "coOp": "no"
+    },
+    {
+      "date": "2023-07-28",
+      "name": "Lovecraft Letter",
+      "winner": "John",
+      "coOp": "no"
     }
   ],
-  "totalGamesPlayed": 219,
-  "averageGamesPlayedPerDay": 0.6,
+  "totalGamesPlayed": 240,
+  "averageGamesPlayedPerDay": 0.6575,
   "mostGamesPlayedInADay": [
     {
       "date": "2023-06-03",
@@ -1791,39 +1917,39 @@
     "Zuuli"
   ],
   "uniqueGamesPlayedCount": 81,
-  "uniqueGamesPlayedPercentage": 0.3699,
+  "uniqueGamesPlayedPercentage": 0.3375,
   "mostPlayedGames": [
     {
       "name": "Lovecraft Letter",
-      "plays": 37
+      "plays": 43
     }
   ],
-  "coOpGamesPlayedCount": 41,
-  "coOpGamesPlayedPercentage": 0.1872,
-  "coOpGameWins": 33,
+  "coOpGamesPlayedCount": 45,
+  "coOpGamesPlayedPercentage": 0.1875,
+  "coOpGameWins": 37,
   "coOpGameLoses": 8,
-  "coOpWinRate": 0.8049,
-  "coOpLossRate": 0.1951,
-  "winCountHannah": 103,
-  "winCountJohn": 65,
-  "winCountOther": 4,
-  "winCountDraw": 6,
-  "winnableGamesTotal": 178,
-  "winPercentageHannah": 0.5787,
-  "winPercentageJohn": 0.3652,
-  "winPercentageOther": 0.0225,
-  "winPercentageDraw": 0.0337,
+  "coOpWinRate": 0.8222,
+  "coOpLossRate": 0.1778,
+  "winCountHannah": 109,
+  "winCountJohn": 74,
+  "winCountOther": 5,
+  "winCountDraw": 7,
+  "winnableGamesTotal": 195,
+  "winPercentageHannah": 0.559,
+  "winPercentageJohn": 0.3795,
+  "winPercentageOther": 0.0256,
+  "winPercentageDraw": 0.0359,
   "mostWonGames": "Hannah",
   "mostWonGamesJohn": [
     {
       "game": "Lovecraft Letter",
-      "plays": 15
+      "plays": 19
     }
   ],
   "mostWonGamesHannah": [
     {
       "game": "Lovecraft Letter",
-      "plays": 21
+      "plays": 23
     }
   ]
 }

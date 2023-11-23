@@ -165,9 +165,15 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2
+    },
+    {
+      "date": "2023-07-22",
+      "winner": "draw",
+      "coOp": "no",
+      "noOfPlayers": 2
     }
   ],
-  "totalGamesPlayed": 29,
+  "totalGamesPlayed": 30,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
@@ -177,11 +183,11 @@
   "winCountHannah": 10,
   "winCountJohn": 14,
   "winCountOther": 3,
-  "winCountDraw": 2,
-  "winnableGamesTotal": 29,
-  "winPercentageHannah": 0.3448,
-  "winPercentageJohn": 0.4828,
-  "winPercentageOther": 0.1034,
-  "winPercentageDraw": 0.069,
+  "winCountDraw": 3,
+  "winnableGamesTotal": 30,
+  "winPercentageHannah": 0.3333,
+  "winPercentageJohn": 0.4667,
+  "winPercentageOther": 0.1,
+  "winPercentageDraw": 0.1,
   "mostWonGames": "John"
 }

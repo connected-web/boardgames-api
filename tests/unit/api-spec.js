@@ -65,7 +65,7 @@ describe('Boardgames API', () => {
   })
 
   describe('Download Cali Play Records', () => {
-    it('should return a list of playrecords from the boardgames-sam-api', async () => {
+    it('should return a list of playrecords from the boardgames-api', async () => {
       const firstGameInJanuary = {
         title: 'The Mind',
         date: '01/01/2022',
@@ -83,9 +83,18 @@ describe('Boardgames API', () => {
           }
         }
       }
-      const { playrecords, log } = await api.downloadCaliPlayrecords()
-      expect(log.length).to.equal(2)
-      expect(playrecords).to.deep.equal([firstGameInJanuary])
+      let playrecords, log
+      try {
+        const results = await api.downloadCaliPlayrecords()
+        playrecords = results.playrecords
+        log = results.log
+        console.log('Playrecords:', playrecords, 'Log:', log)
+        expect(log.length).to.equal(3)
+        expect(playrecords).to.deep.equal([firstGameInJanuary])
+      } catch (ex) {
+        console.log('Playrecords:', playrecords, 'Log:', log)
+        throw ex
+      }
     })
   })
 
