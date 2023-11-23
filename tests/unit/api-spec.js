@@ -83,10 +83,17 @@ describe('Boardgames API', () => {
           }
         }
       }
-      const { playrecords, log } = await api.downloadCaliPlayrecords()
-      console.log('Playrecords:', playrecords, 'Log:', log)
-      expect(log.length).to.equal(3)
-      expect(playrecords).to.deep.equal([firstGameInJanuary])
+      let playrecords, log
+      try {
+        const results = await api.downloadCaliPlayrecords()
+        playrecords = results.playrecords
+        log = results.log
+        expect(log.length).to.equal(3)
+        expect(playrecords).to.deep.equal([firstGameInJanuary])
+      } catch (ex) {
+        console.log('Playrecords:', playrecords, 'Log:', log)
+        throw ex
+      }
     })
   })
 
