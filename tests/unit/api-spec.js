@@ -84,7 +84,8 @@ describe('Boardgames API', () => {
         }
       }
       const { playrecords, log } = await api.downloadCaliPlayrecords()
-      expect(log.length).to.equal(2)
+      console.log('Playrecords:', playrecords, 'Log:', log)
+      expect(log.length).to.equal(3)
       expect(playrecords).to.deep.equal([firstGameInJanuary])
     })
   })

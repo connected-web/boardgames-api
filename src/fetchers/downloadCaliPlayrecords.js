@@ -64,7 +64,7 @@ async function downloadPlayrecords ({ axios }, { year, authToken, url }) {
 async function downloadFromSources (model) {
   const { fetchers } = model
   const playRecordSources = await createPlayRecordSources()
-  console.log('Created sources:', playRecordSources)
+  report('Created sources:', playRecordSources)
   const downloadWork = playRecordSources.map(source => {
     return downloadPlayrecords(fetchers, source)
   })
