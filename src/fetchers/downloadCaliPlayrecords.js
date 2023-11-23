@@ -89,7 +89,11 @@ async function downloadFromSources (model) {
 
 function init (model) {
   return async () => {
-    model.calisaurus.playrecords = await downloadFromSources(model)
+    try {
+      model.calisaurus.playrecords = await downloadFromSources(model)
+    } catch (ex) {
+      report('Unable to download playrecords:', ex)
+    }
     return {
       playrecords: model.calisaurus.playrecords,
       log
