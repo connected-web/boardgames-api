@@ -65,7 +65,7 @@ describe('Boardgames API', () => {
   })
 
   describe('Download Cali Play Records', () => {
-    it('should return a list of playrecords from the boardgames-sam-api', async () => {
+    it('should return a list of playrecords from the boardgames-api', async () => {
       const firstGameInJanuary = {
         title: 'The Mind',
         date: '01/01/2022',
