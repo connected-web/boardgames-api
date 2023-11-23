@@ -16,7 +16,7 @@ on:
 
 permissions:
   id-token: write # This is required for OIDC
-  contents: write # This is required for actions/checkout@v2.4.0
+  contents: write # This is required for actions/checkout@v4.4.0
   pull-requests: write # This is required to write comments on the Pull Request
 
 jobs:
