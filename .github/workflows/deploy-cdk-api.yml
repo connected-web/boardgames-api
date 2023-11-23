@@ -3,16 +3,20 @@ on:
   workflow_dispatch:
     inputs:
       account:
-        description: "The AWS account alias to verify"
+        description: "The AWS account alias to target"
         required: true
         type: choice
         options:
         - connected-web-dev
         - connected-web-prod
         default: 'connected-web-dev'
-  pull_request:
-    branches:
-      - main
+  workflow_call:
+    inputs:
+      account:
+        description: "The AWS account alias to target"
+        required: true
+        type: string
+        default: 'connected-web-dev'
 
 permissions:
   id-token: write # This is required for OIDC

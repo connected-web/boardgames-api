@@ -48,3 +48,11 @@ jobs:
     - name: Run default tests
       run: npm test -s
       working-directory: ./cdk-api
+
+  deploy-cdk-api:
+    name: Deploy API via CDK
+    needs: ['test-cdk-api']
+    uses: ./.github/workflows/deploy-cdk-api.yml
+    secrets: inherit
+    with:
+      account: connected-web-dev
