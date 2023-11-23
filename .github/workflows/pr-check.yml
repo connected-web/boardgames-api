@@ -24,9 +24,11 @@ jobs:
       run: npm run setup -s
 
     - name: Run default tests
-      run: npm test -s
+      run: npm test
       env:
-          GOOGLE_SERVICE_ACCOUNT_SECURE_CREDENTIALS: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_SECURE_CREDENTIALS }}
+        GOOGLE_SERVICE_ACCOUNT_SECURE_CREDENTIALS: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_SECURE_CREDENTIALS }}
+        CONNECTED_WEB_PROD_SSO_CLIENT_ID: ${{ secrets.CONNECTED_WEB_PROD_SSO_CLIENT_ID }}
+        CONNECTED_WEB_PROD_SSO_SECRET: ${{ secrets.CONNECTED_WEB_PROD_SSO_SECRET }}
 
   test-cdk-api:
     name: Test CDK API
@@ -46,8 +48,11 @@ jobs:
       working-directory: ./cdk-api
 
     - name: Run default tests
-      run: npm test -s
+      run: npm test
       working-directory: ./cdk-api
+      env:
+        CONNECTED_WEB_PROD_SSO_CLIENT_ID: ${{ secrets.CONNECTED_WEB_PROD_SSO_CLIENT_ID }}
+        CONNECTED_WEB_PROD_SSO_SECRET: ${{ secrets.CONNECTED_WEB_PROD_SSO_SECRET }}
 
   deploy-cdk-api:
     name: Deploy API via CDK
