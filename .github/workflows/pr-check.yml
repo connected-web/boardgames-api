@@ -51,7 +51,7 @@ jobs:
 
   deploy-cdk-api:
     name: Deploy API via CDK
-    needs: ['test-cdk-api']
+    needs: [test-php-api, test-cdk-api]
     uses: ./.github/workflows/deploy-cdk-api.yml
     secrets: inherit
     with:
