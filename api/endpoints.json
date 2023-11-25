@@ -56,6 +56,14 @@
     "sample": "/api/boardgame/stats/sample",
     "sourceId": "boardgame-stats"
   }, {
+    "path": "/api/boardgame/stats/byAllTime",
+    "method": "GET",
+    "description": "Return a summary of board games stats for all time so far as played by John and Hannah.",
+    "accepts": "application/json",
+    "schema": "/api/boardgame/stats/byAllTime/schema",
+    "sample": "/api/boardgame/stats/byAllTime/sample",
+    "sourceId": "boardgame-stats-byAllTime"
+  }, {
     "path": "/api/boardgame/stats/byMonth/toDate",
     "example": "/api/boardgame/stats/byMonth/toDate",
     "method": "GET",
