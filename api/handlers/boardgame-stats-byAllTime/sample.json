@@ -1,0 +1,59 @@
+{
+  "sequenceStartDate": "2018-04-01",
+  "sequenceEndDate": "2018-04-04",
+  "daysInSequence": 4,
+  "daysWithUnplayedGames": 0,
+  "gamesPlayedPerDay": {
+    "1": 2,
+    "2": 1,
+    "3": 0,
+    "4": 0
+  },
+  "gamesPlayed": [{
+      "date": "2018-04-01",
+      "game": "Harry Potter: Hogwarts Battle",
+      "coOp": "Yes",
+      "coOpOutcome": "Won",
+      "note": "Game 1"
+    },
+    {
+      "date": "2018-04-01",
+      "game": "Machi Koro",
+      "winner": "John",
+      "coOp": "No"
+    },
+    {
+      "date": "2018-04-02",
+      "game": "Machi Koro",
+      "winner": "Hannah",
+      "coOp": "No"
+    }
+  ],
+  "totalGamesPlayed": 3,
+  "averageGamesPlayedPerDay": 1.50,
+  "mostGamesPlayedInADay": [{
+    "date": "2018-04-01",
+    "games": [
+      "Harry Potter: Hogwarts Battle",
+      "Machi Koro"
+    ]
+  }],
+  "mostPlayedGames": [{
+    "game": "Machi Koro",
+    "plays": 2
+  }],
+  "coOpGamesPlayedCount": 1,
+  "coOpGamesPlayedPercentage": 0.33,
+  "coOpGameWins": 1,
+  "coOpGameLoses": 0,
+  "winCountHannah": 1,
+  "winCountJohn": 1,
+  "winCountOther": 0,
+  "winCountDraw": 0,
+  "winnableGamesTotal": 2,
+  "winPercentageHannah": 0.50,
+  "winPercentageJohn": 0.50,
+  "winPercentageOther": 0,
+  "winPercentageDraw": 0,
+  "mostWonGames": "Draw"
+}
