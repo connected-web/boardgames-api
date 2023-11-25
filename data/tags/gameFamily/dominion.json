@@ -2,11 +2,11 @@
   "name": "Dominion",
   "gameFamilyId": "dominion",
   "earliestDate": "2018-02-23",
-  "latestDate": "2023-06-23",
+  "latestDate": "2023-09-26",
   "sequenceStartDate": "2018-02-23",
-  "sequenceEndDate": "2023-06-23",
-  "daysInSequence": 1947,
-  "daysWithUnplayedGames": 1902,
+  "sequenceEndDate": "2023-09-26",
+  "daysInSequence": 2042,
+  "daysWithUnplayedGames": 1995,
   "gamesPlayedPerDay": {
     "1": 1,
     "2": 0,
@@ -1954,7 +1954,102 @@
     "1944": 0,
     "1945": 0,
     "1946": 0,
-    "1947": 1
+    "1947": 1,
+    "1948": 0,
+    "1949": 0,
+    "1950": 0,
+    "1951": 0,
+    "1952": 0,
+    "1953": 0,
+    "1954": 0,
+    "1955": 0,
+    "1956": 0,
+    "1957": 0,
+    "1958": 0,
+    "1959": 0,
+    "1960": 0,
+    "1961": 0,
+    "1962": 0,
+    "1963": 0,
+    "1964": 0,
+    "1965": 0,
+    "1966": 0,
+    "1967": 0,
+    "1968": 0,
+    "1969": 0,
+    "1970": 0,
+    "1971": 0,
+    "1972": 0,
+    "1973": 0,
+    "1974": 0,
+    "1975": 0,
+    "1976": 0,
+    "1977": 0,
+    "1978": 0,
+    "1979": 0,
+    "1980": 0,
+    "1981": 0,
+    "1982": 0,
+    "1983": 0,
+    "1984": 0,
+    "1985": 0,
+    "1986": 0,
+    "1987": 0,
+    "1988": 0,
+    "1989": 0,
+    "1990": 0,
+    "1991": 0,
+    "1992": 0,
+    "1993": 0,
+    "1994": 0,
+    "1995": 0,
+    "1996": 0,
+    "1997": 0,
+    "1998": 0,
+    "1999": 0,
+    "2000": 0,
+    "2001": 0,
+    "2002": 0,
+    "2003": 0,
+    "2004": 0,
+    "2005": 0,
+    "2006": 0,
+    "2007": 0,
+    "2008": 0,
+    "2009": 0,
+    "2010": 0,
+    "2011": 0,
+    "2012": 0,
+    "2013": 0,
+    "2014": 0,
+    "2015": 1,
+    "2016": 0,
+    "2017": 0,
+    "2018": 0,
+    "2019": 0,
+    "2020": 0,
+    "2021": 0,
+    "2022": 0,
+    "2023": 0,
+    "2024": 0,
+    "2025": 0,
+    "2026": 0,
+    "2027": 0,
+    "2028": 0,
+    "2029": 0,
+    "2030": 0,
+    "2031": 0,
+    "2032": 0,
+    "2033": 0,
+    "2034": 0,
+    "2035": 0,
+    "2036": 0,
+    "2037": 0,
+    "2038": 0,
+    "2039": 0,
+    "2040": 0,
+    "2041": 0,
+    "2042": 1
   },
   "gamesPlayed": [
     {
@@ -2367,10 +2462,30 @@
         "Dominion: Hinterlands"
       ],
       "name": "Dominion (Second Edition)"
+    },
+    {
+      "date": "2023-08-30",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "expansions": [
+        "Dominion: Hinterlands"
+      ],
+      "name": "Dominion (Second Edition)"
+    },
+    {
+      "date": "2023-09-26",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "expansions": [
+        "Dominion: Prosperity"
+      ],
+      "name": "Dominion (Second Edition)"
     }
   ],
-  "totalGamesPlayed": 52,
-  "averageGamesPlayedPerDay": 0.0267,
+  "totalGamesPlayed": 54,
+  "averageGamesPlayedPerDay": 0.0264,
   "mostGamesPlayedInADay": [
     {
       "date": "2018-03-02",
@@ -2431,11 +2546,11 @@
     "Dominion: Seaside"
   ],
   "uniqueGamesPlayedCount": 6,
-  "uniqueGamesPlayedPercentage": 0.1154,
+  "uniqueGamesPlayedPercentage": 0.1111,
   "mostPlayedGames": [
     {
       "name": "Dominion (Second Edition)",
-      "plays": 20
+      "plays": 22
     }
   ],
   "coOpGamesPlayedCount": 0,
@@ -2444,26 +2559,26 @@
   "coOpGameLoses": 0,
   "coOpWinRate": 0,
   "coOpLossRate": 0,
-  "winCountHannah": 29,
-  "winCountJohn": 22,
+  "winCountHannah": 30,
+  "winCountJohn": 23,
   "winCountOther": 0,
   "winCountDraw": 1,
-  "winnableGamesTotal": 52,
-  "winPercentageHannah": 0.5577,
-  "winPercentageJohn": 0.4231,
+  "winnableGamesTotal": 54,
+  "winPercentageHannah": 0.5556,
+  "winPercentageJohn": 0.4259,
   "winPercentageOther": 0,
-  "winPercentageDraw": 0.0192,
+  "winPercentageDraw": 0.0185,
   "mostWonGames": "Hannah",
   "mostWonGamesJohn": [
     {
       "game": "Dominion (Second Edition)",
-      "plays": 8
+      "plays": 9
     }
   ],
   "mostWonGamesHannah": [
     {
       "game": "Dominion (Second Edition)",
-      "plays": 11
+      "plays": 12
     }
   ]
 }

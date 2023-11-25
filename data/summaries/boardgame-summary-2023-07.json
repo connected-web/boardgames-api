@@ -4,7 +4,7 @@
   "sequenceStartDate": "2023-07-01",
   "sequenceEndDate": "2023-07-31",
   "daysInSequence": 31,
-  "daysWithUnplayedGames": 9,
+  "daysWithUnplayedGames": 7,
   "gamesPlayedPerDay": {
     "1": 1,
     "2": 0,
@@ -35,8 +35,8 @@
     "27": 3,
     "28": 2,
     "29": 0,
-    "30": 0,
-    "31": 0
+    "30": 2,
+    "31": 3
   },
   "gamesPlayed": [
     {
@@ -242,10 +242,40 @@
       "name": "Lovecraft Letter",
       "winner": "John",
       "coOp": "no"
+    },
+    {
+      "date": "2023-07-30",
+      "name": "Dorfromantik",
+      "coOp": "yes",
+      "coOpOutcome": "win"
+    },
+    {
+      "date": "2023-07-30",
+      "name": "Lovecraft Letter",
+      "winner": "John",
+      "coOp": "no"
+    },
+    {
+      "date": "2023-07-31",
+      "name": "Bandido",
+      "coOp": "yes",
+      "coOpOutcome": "win"
+    },
+    {
+      "date": "2023-07-31",
+      "name": "Lovecraft Letter",
+      "winner": "John",
+      "coOp": "no"
+    },
+    {
+      "date": "2023-07-31",
+      "name": "Troika",
+      "winner": "Hannah",
+      "coOp": "no"
     }
   ],
-  "totalGamesPlayed": 34,
-  "averageGamesPlayedPerDay": 1.0968,
+  "totalGamesPlayed": 39,
+  "averageGamesPlayedPerDay": 1.2581,
   "mostGamesPlayedInADay": [
     {
       "date": "2023-07-22",
@@ -270,6 +300,14 @@
         "Bandido",
         "Lovecraft Letter"
       ]
+    },
+    {
+      "date": "2023-07-31",
+      "games": [
+        "Bandido",
+        "Lovecraft Letter",
+        "Troika"
+      ]
     }
   ],
   "uniqueGamesPlayed": [
@@ -278,6 +316,7 @@
     "Cascadia",
     "Corsairs of Valeria",
     "Design Town",
+    "Dorfromantik",
     "Flotsam Fight",
     "Heat: Pedal to the Metal",
     "Hey, That's My Fish!",
@@ -291,34 +330,34 @@
     "Town 66",
     "Troika"
   ],
-  "uniqueGamesPlayedCount": 17,
-  "uniqueGamesPlayedPercentage": 0.5,
+  "uniqueGamesPlayedCount": 18,
+  "uniqueGamesPlayedPercentage": 0.4615,
   "mostPlayedGames": [
     {
       "name": "Lovecraft Letter",
-      "plays": 11
+      "plays": 13
     }
   ],
-  "coOpGamesPlayedCount": 4,
-  "coOpGamesPlayedPercentage": 0.1176,
-  "coOpGameWins": 4,
+  "coOpGamesPlayedCount": 6,
+  "coOpGamesPlayedPercentage": 0.1538,
+  "coOpGameWins": 6,
   "coOpGameLoses": 0,
   "coOpWinRate": 1,
   "coOpLossRate": 0,
-  "winCountHannah": 14,
-  "winCountJohn": 14,
+  "winCountHannah": 15,
+  "winCountJohn": 16,
   "winCountOther": 1,
   "winCountDraw": 1,
-  "winnableGamesTotal": 30,
-  "winPercentageHannah": 0.4667,
-  "winPercentageJohn": 0.4667,
-  "winPercentageOther": 0.0333,
-  "winPercentageDraw": 0.0333,
-  "mostWonGames": "Draw",
+  "winnableGamesTotal": 33,
+  "winPercentageHannah": 0.4545,
+  "winPercentageJohn": 0.4848,
+  "winPercentageOther": 0.0303,
+  "winPercentageDraw": 0.0303,
+  "mostWonGames": "John",
   "mostWonGamesJohn": [
     {
       "game": "Lovecraft Letter",
-      "plays": 7
+      "plays": 9
     }
   ],
   "mostWonGamesHannah": [

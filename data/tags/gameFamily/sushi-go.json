@@ -2,11 +2,11 @@
   "name": "Sushi Go!",
   "gameFamilyId": "sushi-go",
   "earliestDate": "2018-03-07",
-  "latestDate": "2023-07-23",
+  "latestDate": "2023-10-07",
   "sequenceStartDate": "2018-03-07",
-  "sequenceEndDate": "2023-07-23",
-  "daysInSequence": 1965,
-  "daysWithUnplayedGames": 1954,
+  "sequenceEndDate": "2023-10-07",
+  "daysInSequence": 2041,
+  "daysWithUnplayedGames": 2026,
   "gamesPlayedPerDay": {
     "1": 1,
     "2": 0,
@@ -1972,7 +1972,83 @@
     "1962": 0,
     "1963": 0,
     "1964": 0,
-    "1965": 1
+    "1965": 1,
+    "1966": 0,
+    "1967": 0,
+    "1968": 0,
+    "1969": 0,
+    "1970": 0,
+    "1971": 0,
+    "1972": 0,
+    "1973": 0,
+    "1974": 1,
+    "1975": 0,
+    "1976": 0,
+    "1977": 0,
+    "1978": 0,
+    "1979": 0,
+    "1980": 0,
+    "1981": 0,
+    "1982": 0,
+    "1983": 0,
+    "1984": 0,
+    "1985": 0,
+    "1986": 0,
+    "1987": 0,
+    "1988": 0,
+    "1989": 0,
+    "1990": 0,
+    "1991": 0,
+    "1992": 0,
+    "1993": 0,
+    "1994": 0,
+    "1995": 0,
+    "1996": 0,
+    "1997": 0,
+    "1998": 0,
+    "1999": 0,
+    "2000": 0,
+    "2001": 0,
+    "2002": 0,
+    "2003": 0,
+    "2004": 0,
+    "2005": 0,
+    "2006": 0,
+    "2007": 0,
+    "2008": 0,
+    "2009": 0,
+    "2010": 0,
+    "2011": 0,
+    "2012": 0,
+    "2013": 0,
+    "2014": 0,
+    "2015": 0,
+    "2016": 0,
+    "2017": 0,
+    "2018": 0,
+    "2019": 0,
+    "2020": 0,
+    "2021": 0,
+    "2022": 0,
+    "2023": 0,
+    "2024": 0,
+    "2025": 1,
+    "2026": 0,
+    "2027": 0,
+    "2028": 0,
+    "2029": 0,
+    "2030": 0,
+    "2031": 1,
+    "2032": 0,
+    "2033": 0,
+    "2034": 0,
+    "2035": 0,
+    "2036": 0,
+    "2037": 0,
+    "2038": 0,
+    "2039": 0,
+    "2040": 0,
+    "2041": 1
   },
   "gamesPlayed": [
     {
@@ -2049,10 +2125,38 @@
       "coOp": "no",
       "noOfPlayers": 2,
       "name": "Sushi Go!"
+    },
+    {
+      "date": "2023-08-01",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "name": "Sushi Go!"
+    },
+    {
+      "date": "2023-09-21",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "name": "Sushi Go!"
+    },
+    {
+      "date": "2023-09-27",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "name": "Sushi Go!"
+    },
+    {
+      "date": "2023-10-07",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "name": "Sushi Go!"
     }
   ],
-  "totalGamesPlayed": 11,
-  "averageGamesPlayedPerDay": 0.0056,
+  "totalGamesPlayed": 15,
+  "averageGamesPlayedPerDay": 0.0073,
   "mostGamesPlayedInADay": [
     {
       "date": "2018-03-07",
@@ -2119,17 +2223,41 @@
       "games": [
         "Sushi Go!"
       ]
+    },
+    {
+      "date": "2023-08-01",
+      "games": [
+        "Sushi Go!"
+      ]
+    },
+    {
+      "date": "2023-09-21",
+      "games": [
+        "Sushi Go!"
+      ]
+    },
+    {
+      "date": "2023-09-27",
+      "games": [
+        "Sushi Go!"
+      ]
+    },
+    {
+      "date": "2023-10-07",
+      "games": [
+        "Sushi Go!"
+      ]
     }
   ],
   "uniqueGamesPlayed": [
     "Sushi Go!"
   ],
   "uniqueGamesPlayedCount": 1,
-  "uniqueGamesPlayedPercentage": 0.0909,
+  "uniqueGamesPlayedPercentage": 0.0667,
   "mostPlayedGames": [
     {
       "name": "Sushi Go!",
-      "plays": 11
+      "plays": 15
     }
   ],
   "coOpGamesPlayedCount": 0,
@@ -2138,26 +2266,26 @@
   "coOpGameLoses": 0,
   "coOpWinRate": 0,
   "coOpLossRate": 0,
-  "winCountHannah": 6,
-  "winCountJohn": 5,
+  "winCountHannah": 9,
+  "winCountJohn": 6,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 11,
-  "winPercentageHannah": 0.5455,
-  "winPercentageJohn": 0.4545,
+  "winnableGamesTotal": 15,
+  "winPercentageHannah": 0.6,
+  "winPercentageJohn": 0.4,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
   "mostWonGames": "Hannah",
   "mostWonGamesJohn": [
     {
       "game": "Sushi Go!",
-      "plays": 5
+      "plays": 6
     }
   ],
   "mostWonGamesHannah": [
     {
       "game": "Sushi Go!",
-      "plays": 6
+      "plays": 9
     }
   ]
 }
