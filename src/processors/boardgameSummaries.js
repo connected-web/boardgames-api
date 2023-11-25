@@ -130,6 +130,7 @@ async function createBoardGameSummaries (model) {
     startDate: earliestDate,
     endDate: latestDate
   })
+  summaries.byAllTime = byAllTime
 
   return {
     summaries: copy(summaries),

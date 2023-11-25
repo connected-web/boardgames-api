@@ -31,11 +31,16 @@ async function start () {
     return writeJson('Board Game Summary for Year to Date', filename, summary)
   }
 
+  async function writeByAllTime (summary) {
+    const filename = 'summaries/boardgame-summary-all-time.json'
+    return writeJson('All time board game summary', filename, summary)
+  }
+
   await Promise.all(monthsInUse.map(writeMonth))
   await Promise.all(yearsInUse.map(writeYear))
   await writeMonthToDate(monthToDate)
   await writeYearToDate(yearToDate)
-  await writeJson('All time board game summary', 'summaries/boardgame-summary-all-time.json', byAllTime)
+  await writeByAllTime(byAllTime)
 
   return writeJson('Board Game Summaries', 'boardgame-summaries.json', summaries)
 }
