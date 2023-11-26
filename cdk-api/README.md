@@ -65,13 +65,13 @@ export AWS_SESSION_TOKEN="..."
 Then sync to a target bucket for the selected environment, e.g. Dev:
 
 ```sh
-aws s3 sync data/boardgames-tracking s3://boardgames-api-playrecords-dev/original/
+aws s3 sync data/original s3://boardgames-api-playrecords-dev/original/
 ```
 
 Or Prod:
 
 ```sh
-aws s3 sync data/boardgames-tracking s3://boardgames-api-playrecords-prod/original/
+aws s3 sync data/original s3://boardgames-api-playrecords-prod/original/
 ```
 
 ## Backing up Data
@@ -79,5 +79,5 @@ aws s3 sync data/boardgames-tracking s3://boardgames-api-playrecords-prod/origin
 In reverse, download all the files to your local machine. 
 
 ```sh
-aws s3 sync s3://boardgames-api-playrecords-prod/original/ data/boardgames-tracking
+aws s3 sync s3://boardgames-api-playrecords-prod/original/ data/original
 ```
