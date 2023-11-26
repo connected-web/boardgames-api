@@ -22,6 +22,10 @@ async function downloadData ({ gsjson }, { year, id }) {
     report('Downloaded data:', (worksheets + '').length, 'bytes')
     const cells = worksheets.reduce((acc, item) => acc.concat(item), [])
     report(year, 'cells', cells.length)
+    cells.forEach((cell, line) => {
+      cell.source = `gsheets://${id}/${year}/${line}`
+      cell.lineNumber = line
+    })
     return cells
   } catch (ex) {
     report('Unable to download spreadsheet data:', ex)
