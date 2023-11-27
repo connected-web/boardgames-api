@@ -187,7 +187,7 @@ export async function getOriginalPlayRecordsByDateCode (dateCode: string): Promi
   console.log(`[List Play Records by Date Code] Searching for matching records to cache: (${dateCode})`)
   const recordSearch = await listObjects({
     Bucket: bucket,
-    Prefix: `original/${dateCode.replace('-', '/')}/`
+    Prefix: `playrecords/${dateCode.replace('-', '/')}/`
   })
   const recordList = recordSearch?.Contents ?? []
   const recordKeys = recordList

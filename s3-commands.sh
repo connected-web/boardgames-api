@@ -16,6 +16,14 @@ function syncToDev() {
   aws s3 sync data "$DEV_S3"
 }
 
+function moveOriginalToPlayrecordsProd() {
+  aws s3 --recursive cp "$PROD_S3/original" "$PROD_S3/playrecords"
+}
+
+function moveOriginalToPlayrecordsDev() {
+  aws s3 --recursive cp "$DEV_S3/original" "$DEV_S3/playrecords"
+}
+
 function syncFromProd() {
   aws s3 sync "$PROD_S3" data
 }
@@ -24,4 +32,4 @@ function syncFromDev() {
   aws s3 sync "$DEV_S3" data
 }
 
-syncFromDev
+moveOriginalToPlayrecordsProd
