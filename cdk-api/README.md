@@ -52,7 +52,7 @@ If credentials leak; you will need to remove the App Integration from Cognito an
 
 ## Restoring Data
 
-You can upload existing (original) data to a target bucket to restore data to the API.
+You can upload existing (playrecords) data to a target bucket to restore data to the API.
 
 Log in to your AWS management console, find the correct AWS Account, and get the appropriate keys:
 
@@ -65,13 +65,13 @@ export AWS_SESSION_TOKEN="..."
 Then sync to a target bucket for the selected environment, e.g. Dev:
 
 ```sh
-aws s3 sync data/boardgames-tracking s3://boardgames-api-playrecords-dev/original/
+aws s3 sync data/playrecords s3://boardgames-api-playrecords-dev/playrecords/
 ```
 
 Or Prod:
 
 ```sh
-aws s3 sync data/boardgames-tracking s3://boardgames-api-playrecords-prod/original/
+aws s3 sync data/playrecords s3://boardgames-api-playrecords-prod/playrecords/
 ```
 
 ## Backing up Data
@@ -79,5 +79,5 @@ aws s3 sync data/boardgames-tracking s3://boardgames-api-playrecords-prod/origin
 In reverse, download all the files to your local machine. 
 
 ```sh
-aws s3 sync s3://boardgames-api-playrecords-prod/original/ data/boardgames-tracking
+aws s3 sync s3://boardgames-api-playrecords-prod/playrecords/ data/playrecords
 ```
