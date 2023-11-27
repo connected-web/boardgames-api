@@ -33,14 +33,15 @@ async function createPlayRecordSources () {
   return [{
     year: 2022,
     authToken: await getOAuthToken(),
-    url: 'https://boardgames-api.prod.connected-web.services/playrecords/list'
+    url: 'https://boardgames-api.prod.connected-web.services/playrecords/list',
+    source: 's3://boardgames-api-playrecords-prod'
   }]
 }
 
 const log = []
 const report = (...messages) => log.push(['[Download Cali Play Records]', ...messages].join(' '))
 
-async function downloadPlayrecords ({ axios }, { year, authToken, url }) {
+async function downloadPlayrecords ({ axios }, { year, authToken, url, source }) {
   const startTime = new Date().getTime()
   report('Downloading data for', year, 'from', url, 'with App authKey (', authToken?.length ?? 0, 'bytes )')
   try {
@@ -54,7 +55,11 @@ async function downloadPlayrecords ({ axios }, { year, authToken, url }) {
     const endTime = new Date().getTime()
     const executionTime = endTime - startTime
     report('Downloaded playrecords from', url, 'Result:', JSON.stringify(data), 'Time taken:', executionTime, 'ms')
-    return data?.playRecords || []
+    const playRecords = data?.playRecords ?? []
+    playRecords.forEach((record, index) => {
+      record.source = `${source}/${record.key}`
+    })
+    return playRecords
   } catch (ex) {
     report('Unable to download playrecord data:', ex)
     return []
