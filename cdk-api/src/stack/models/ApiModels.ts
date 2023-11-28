@@ -45,7 +45,7 @@ export default class AppModels extends OpenAPIBasicModels {
     })
   }
 
-  static get openApiSpec(): IModel {
+  static get openApiSpec (): IModel {
     return OpenAPIBasicModels.modelFactory?.create('OpenAPISpec', {
       schema: JsonSchemaVersion.DRAFT4,
       title: 'OpenAPI Spec',

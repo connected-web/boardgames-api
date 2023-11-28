@@ -1,7 +1,7 @@
 import { NodejsFunction, NodejsFunctionProps } from 'aws-cdk-lib/aws-lambda-nodejs'
 import { PolicyStatement } from 'aws-cdk-lib/aws-iam'
 
-import { OpenAPIBasicModels, OpenAPIEnums, OpenAPIRouteMetadata } from '@connected-web/openapi-rest-api'
+import { OpenAPIEnums, OpenAPIRouteMetadata } from '@connected-web/openapi-rest-api'
 import { Resources } from '../../Resources'
 import { MethodResponse } from 'aws-cdk-lib/aws-apigateway'
 import { Construct } from 'constructs'
