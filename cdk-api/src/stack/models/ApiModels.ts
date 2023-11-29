@@ -45,6 +45,33 @@ export default class AppModels extends OpenAPIBasicModels {
     })
   }
 
+  static get openApiSpec (): IModel {
+    return OpenAPIBasicModels.modelFactory?.create('OpenAPISpec', {
+      schema: JsonSchemaVersion.DRAFT4,
+      title: 'OpenAPI Spec',
+      type: JsonSchemaType.OBJECT,
+      properties: {
+        openapi: {
+          type: JsonSchemaType.STRING,
+          description: 'The OpenAPI version'
+        },
+        info: {
+          type: JsonSchemaType.OBJECT,
+          description: 'The OpenAPI info'
+        },
+        paths: {
+          type: JsonSchemaType.OBJECT,
+          description: 'The OpenAPI paths'
+        },
+        components: {
+          type: JsonSchemaType.OBJECT,
+          description: 'The OpenAPI components'
+        }
+      },
+      required: ['openapi', 'info', 'paths', 'components']
+    })
+  }
+
   static get playRecord (): IModel {
     return OpenAPIBasicModels.modelFactory?.create('PlayRecord', {
       schema: JsonSchemaVersion.DRAFT4,
