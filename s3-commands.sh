@@ -32,4 +32,4 @@ function syncFromDev() {
   aws s3 sync "$DEV_S3" data
 }
 
-moveOriginalToPlayrecordsProd
+syncFromProd
