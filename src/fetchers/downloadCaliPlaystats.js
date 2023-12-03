@@ -15,17 +15,24 @@ const report = (...messages) => console.log(['[Download Cali Play Stats]', ...me
 
 async function downloadData ({ gsjson }, { year, id }) {
   report('Downloading data for', year, 'using id:', id)
+
+  function addMetadata (worksheet) {
+    return worksheet.map((cell, line) => {
+      return {
+        ...cell,
+        source: `gsheets://${id}/${year}/${line}`,
+        lineNumber: line
+      }
+    })
+  }
+
   const spreadsheetId = id
   try {
     const credentials = await readCredentials()
     const worksheets = await gsjson({ spreadsheetId, allWorksheets: true, credentials })
     report('Downloaded data:', (worksheets + '').length, 'bytes')
-    const cells = worksheets.reduce((acc, item) => acc.concat(item), [])
+    const cells = worksheets.map(addMetadata).reduce((acc, item) => acc.concat(item), [])
     report(year, 'cells', cells.length)
-    cells.forEach((cell, line) => {
-      cell.source = `gsheets://${id}/${year}/${line}`
-      cell.lineNumber = line
-    })
     return cells
   } catch (ex) {
     report('Unable to download spreadsheet data:', ex)
