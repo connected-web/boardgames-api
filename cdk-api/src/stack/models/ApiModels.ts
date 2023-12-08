@@ -119,3 +119,13 @@ export default class AppModels extends OpenAPIBasicModels {
     })
   }
 }
+
+export interface PlayRecordType {
+  name: string
+  date: string
+  coOp: string
+  noOfPlayers: number
+  winner: string
+  key?: string
+  history?: PlayRecordType[]
+}
