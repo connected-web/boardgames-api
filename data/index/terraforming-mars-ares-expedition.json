@@ -5,30 +5,35 @@
       "date": "2021-10-01",
       "winner": "Hannah",
       "coOp": "No",
-      "gameFamily": "Wildcard"
+      "gameFamily": "Wildcard",
+      "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/0"
     },
     {
       "date": "2021-10-15",
       "winner": "Hannah",
       "coOp": "No",
-      "gameFamily": "Wildcard"
+      "gameFamily": "Wildcard",
+      "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/18"
     },
     {
       "date": "2021-11-14",
       "winner": "Hannah",
-      "coOp": "No"
+      "coOp": "No",
+      "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/10"
     },
     {
       "date": "2022-02-25",
       "winner": "Hannah",
       "coOp": "no",
-      "noOfPlayers": 2
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/03/2022-03-03T20:53:28.080Z.json"
     },
     {
       "date": "2022-11-05",
       "winner": "John",
       "coOp": "no",
-      "noOfPlayers": 2
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/11/2022-11-11T06:48:12.098Z.json"
     }
   ],
   "name": "Terraforming Mars: Ares Expedition",

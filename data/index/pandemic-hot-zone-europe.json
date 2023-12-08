@@ -5,31 +5,36 @@
       "date": "2021-10-23",
       "coOpOutcome": "Won",
       "coOp": "Yes",
-      "gameFamily": "Pandemic"
+      "gameFamily": "Pandemic",
+      "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/26"
     },
     {
       "date": "2022-01-14",
       "coOpOutcome": "win",
       "coOp": "yes",
-      "noOfPlayers": 2
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/01/2022-01-14T20:40:58.352Z.json"
     },
     {
       "date": "2022-02-18",
       "coOpOutcome": "win",
       "coOp": "yes",
-      "noOfPlayers": 2
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/02/2022-02-18T20:30:47.364Z.json"
     },
     {
       "date": "2023-05-04",
       "coOpOutcome": "win",
       "coOp": "yes",
-      "noOfPlayers": 2
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/05/2023-05-05T06:09:58.223Z.json"
     },
     {
       "date": "2023-10-13",
       "coOpOutcome": "win",
       "coOp": "yes",
-      "noOfPlayers": 2
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/10/2023-10-15T17:09:08.075Z.json"
     }
   ],
   "name": "Pandemic: Hot Zone Europe",

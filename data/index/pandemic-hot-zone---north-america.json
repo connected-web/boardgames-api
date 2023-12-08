@@ -5,13 +5,15 @@
       "date": "2021-03-17",
       "coOpOutcome": "Won",
       "coOp": "Yes",
-      "gameFamily": "Pandemic"
+      "gameFamily": "Pandemic",
+      "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/20"
     },
     {
       "date": "2023-09-21",
       "coOpOutcome": "win",
       "coOp": "yes",
-      "noOfPlayers": 2
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/09/2023-09-26T14:10:42.881Z.json"
     }
   ],
   "name": "Pandemic: Hot Zone - North America",

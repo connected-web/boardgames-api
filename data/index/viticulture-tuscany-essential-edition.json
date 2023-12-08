@@ -5,13 +5,15 @@
       "date": "2020-04-12",
       "winner": "John",
       "coOp": "No",
-      "gameFamily": "Viticulture"
+      "gameFamily": "Viticulture",
+      "source": "gsheets://1FyeEeWPKch4jVoBoD_lB89GbsUPkYTESkfIeknUhyJw/2020/15"
     },
     {
       "date": "2022-03-10",
       "winner": "Hannah",
       "coOp": "no",
-      "noOfPlayers": 2
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/03/2022-03-12T11:00:57.109Z.json"
     }
   ],
   "name": "Viticulture: Tuscany Essential Edition",

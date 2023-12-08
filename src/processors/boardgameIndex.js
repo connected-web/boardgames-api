@@ -1,11 +1,8 @@
 const mapCaliPlaystatGame = require('../util/mapCaliPlaystatGame')
-const convertDDMMYYYYDate = require('../util/convertDDMMYYYYDate')
+const mapCaliPlayRecordGame = require('../util/mapCaliPlayRecordGame')
 const reduceNameToBoardGameApiId = require('../util/reduceNameToBoardGameApiId')
 const log = []
 const report = (...messages) => log.push(['[Create Board Game Index]', ...messages].join(' '))
-
-const expectedPlayrecordProperties = ['name', 'date', 'winner', 'coOpOutcome', 'coOp', 'notes', 'noOfPlayers', 'expansions']
-const playRecordProperties = ['date', 'winner', 'coOpOutcome', 'coOp', 'notes', 'gameFamily', 'noOfPlayers', 'expansions', 'mechanics']
 const clone = d => JSON.parse(JSON.stringify(d))
 
 function fmn (n) {
@@ -20,7 +17,7 @@ async function createIndex (model) {
   const boardGameIndex = {}
   collection.items[0].item.reduce(mapBoardGameGeekGame, boardGameIndex)
   caliPlayStats.reduce(mapCaliPlaystatGame, boardGameIndex)
-  caliPlayRecords.reduce(mapCaliPlayrecordGame, boardGameIndex)
+  caliPlayRecords.reduce(mapCaliPlayRecordGame, boardGameIndex)
 
   function mapBoardGameGeekGame (accumulator, item) {
     const name = item.name[0]._text[0]
@@ -32,31 +29,6 @@ async function createIndex (model) {
       boardGameApiId: boardGameApiId,
       name,
       playRecords: []
-    }
-    return accumulator
-  }
-
-  function mapCaliPlayrecordGame (accumulator, item) {
-    const name = item.name
-    if (name) {
-      const boardGameApiId = reduceNameToBoardGameApiId(name)
-      const entry = accumulator[boardGameApiId] || { boardGameApiId, playRecords: [], name }
-      const playRecord = {}
-      expectedPlayrecordProperties.forEach(key => {
-        let value = item[key]
-        if (key.toLowerCase().includes('date')) {
-          value = convertDDMMYYYYDate(value)
-        }
-
-        if (playRecordProperties.includes(key)) {
-          playRecord[key] = value
-        }
-      })
-      playRecord.gameFamily = playRecord.gameFamily || item.tags
-      entry.playRecords.push(playRecord)
-      accumulator[boardGameApiId] = entry
-    } else {
-      report('No name found on play record:', JSON.stringify(item))
     }
     return accumulator
   }

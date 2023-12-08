@@ -4,13 +4,15 @@
     {
       "date": "2021-12-31",
       "winner": "John",
-      "coOp": "No"
+      "coOp": "No",
+      "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/20"
     },
     {
       "date": "2022-01-04",
       "winner": "John",
       "coOp": "no",
-      "noOfPlayers": 2
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/01/2022-01-07T14:50:35.509Z.json"
     }
   ],
   "name": "Mint Control",

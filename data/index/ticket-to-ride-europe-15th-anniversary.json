@@ -5,25 +5,29 @@
       "date": "2021-07-06",
       "winner": "Hannah",
       "coOp": "No",
-      "gameFamily": "Ticket to Ride"
+      "gameFamily": "Ticket to Ride",
+      "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/2"
     },
     {
       "date": "2021-09-21",
       "winner": "John",
       "coOp": "No",
-      "gameFamily": "Ticket to Ride"
+      "gameFamily": "Ticket to Ride",
+      "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/5"
     },
     {
       "date": "2022-07-29",
       "winner": "John",
       "coOp": "no",
-      "noOfPlayers": 2
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/07/2022-07-30T13:02:10.300Z.json"
     },
     {
       "date": "2023-02-16",
       "winner": "Hannah",
       "coOp": "no",
-      "noOfPlayers": 2
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/02/2023-02-20T19:11:56.374Z.json"
     }
   ],
   "name": "Ticket to Ride Europe: 15th Anniversary ",

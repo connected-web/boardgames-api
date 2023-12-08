@@ -5,13 +5,15 @@
       "date": "2020-06-14",
       "winner": "John",
       "coOp": "No",
-      "gameFamily": "Doki Doki"
+      "gameFamily": "Doki Doki",
+      "source": "gsheets://1FyeEeWPKch4jVoBoD_lB89GbsUPkYTESkfIeknUhyJw/2020/11"
     },
     {
       "date": "2023-02-17",
       "winner": "Hannah",
       "coOp": "no",
-      "noOfPlayers": 2
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/02/2023-02-20T19:12:34.884Z.json"
     }
   ],
   "name": "Doki Doki Beach Volleyball",

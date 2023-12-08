@@ -8,23 +8,27 @@
       "date": "2020-02-16",
       "winner": "Hannah",
       "coOp": "No",
-      "gameFamily": "Patchwork"
+      "gameFamily": "Patchwork",
+      "source": "gsheets://1FyeEeWPKch4jVoBoD_lB89GbsUPkYTESkfIeknUhyJw/2020/14"
     },
     {
       "date": "2020-04-19",
       "winner": "John",
       "coOp": "No",
-      "gameFamily": "Patchwork"
+      "gameFamily": "Patchwork",
+      "source": "gsheets://1FyeEeWPKch4jVoBoD_lB89GbsUPkYTESkfIeknUhyJw/2020/21"
     },
     {
       "date": "2021-05-03",
-      "winner": "Hannah"
+      "winner": "Hannah",
+      "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/1"
     },
     {
       "date": "2023-04-03",
       "winner": "Hannah",
       "coOp": "no",
-      "noOfPlayers": 2
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/04/2023-04-14T07:58:14.234Z.json"
     }
   ],
   "totalGamesPlayed": 4,

@@ -5,29 +5,34 @@
       "date": "2021-10-16",
       "winner": "John",
       "coOp": "No",
-      "gameFamily": "Jurassic Snack"
+      "gameFamily": "Jurassic Snack",
+      "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/19"
     },
     {
       "date": "2021-10-16",
       "winner": "John",
       "coOp": "No",
-      "gameFamily": "Jurassic Snack"
+      "gameFamily": "Jurassic Snack",
+      "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/23"
     },
     {
       "date": "2021-12-14",
       "winner": "Hannah",
-      "coOp": "No"
+      "coOp": "No",
+      "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/7"
     },
     {
       "date": "2021-12-31",
       "coOpOutcome": "Won",
-      "coOp": "Yes"
+      "coOp": "Yes",
+      "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/23"
     },
     {
       "date": "2022-05-24",
       "winner": "Hannah",
       "coOp": "no",
-      "noOfPlayers": 2
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/05/2022-05-27T09:44:14.320Z.json"
     }
   ],
   "name": "Jurassic Brunch",

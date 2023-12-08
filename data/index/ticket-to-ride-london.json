@@ -8,36 +8,42 @@
       "date": "2020-06-14",
       "winner": "Hannah",
       "coOp": "No",
-      "gameFamily": "Ticket to Ride"
+      "gameFamily": "Ticket to Ride",
+      "source": "gsheets://1FyeEeWPKch4jVoBoD_lB89GbsUPkYTESkfIeknUhyJw/2020/10"
     },
     {
       "date": "2021-04-30",
       "winner": "Hannah",
       "coOp": "No",
-      "gameFamily": "Ticket to Ride "
+      "gameFamily": "Ticket to Ride ",
+      "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/15"
     },
     {
       "date": "2021-11-13",
       "winner": "John",
-      "coOp": "No"
+      "coOp": "No",
+      "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/9"
     },
     {
       "date": "2022-09-07",
       "winner": "Hannah",
       "coOp": "no",
-      "noOfPlayers": 2
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/09/2022-09-08T07:29:02.578Z.json"
     },
     {
       "date": "2023-01-15",
       "winner": "Hannah",
       "coOp": "no",
-      "noOfPlayers": 2
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/01/2023-01-17T20:17:08.002Z.json"
     },
     {
       "date": "2023-05-27",
       "winner": "John",
       "coOp": "no",
-      "noOfPlayers": 2
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/05/2023-05-28T15:33:09.714Z.json"
     }
   ],
   "totalGamesPlayed": 6,
