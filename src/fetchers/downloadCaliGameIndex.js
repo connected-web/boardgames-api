@@ -7,7 +7,12 @@ async function downloadData ({ gsjson }, spreadsheetId) {
   try {
     const credentials = await readCredentials()
     const worksheets = await gsjson({ spreadsheetId, allWorksheets: true, credentials })
-    report('Downloaded data:', (worksheets + '').length, 'bytes')
+    const body = (worksheets + '')
+    report('Downloaded data:', body.length, 'bytes')
+    if (body.length < 100) {
+      report(`Data too small - aborting: Body: ${body}`)
+      return
+    }
     const entries = worksheets.reduce((acc, item) => acc.concat(item), [])
     return entries
   } catch (ex) {

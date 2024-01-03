@@ -30,7 +30,12 @@ async function downloadData ({ gsjson }, { year, id }) {
   try {
     const credentials = await readCredentials()
     const worksheets = await gsjson({ spreadsheetId, allWorksheets: true, credentials })
-    report('Downloaded data:', (worksheets + '').length, 'bytes')
+    const body = (worksheets + '')
+    report('Downloaded data:', body.length, 'bytes')
+    if (body.length < 100) {
+      report(`Data too small - aborting: Body: ${body}`)
+      return
+    }
     const cells = worksheets.map(addMetadata).reduce((acc, item) => acc.concat(item), [])
     report(year, 'cells', cells.length)
     return cells
