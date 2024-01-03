@@ -30,8 +30,8 @@ async function downloadData ({ gsjson }, { year, id }) {
   try {
     const credentials = await readCredentials()
     const worksheets = await gsjson({ spreadsheetId, allWorksheets: true, credentials })
-    const body = (worksheets + '')
-    report('Downloaded data:', body.length, 'bytes')
+    const body = JSON.stringify(worksheets)
+    report('Downloaded data:', body.length, 'bytes', body)
     if (body.length < 100) {
       report(`Data too small - aborting: Body: ${body}`)
       return
