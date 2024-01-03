@@ -106,10 +106,19 @@ describe('Boardgames API', () => {
         boardGameName: '221B Baker Street: The Master Detective Game',
         purchaseDate: 2017
       }
-      model.fetchers.gsjson = () => {
-        return [firstGameInList]
+      const secondGameInList = {
+        boardGameName: '7 Wonders',
+        purchaseDate: 2018
       }
-      const { gameIndex } = await api.downloadCaliGameIndex()
+      const thirdGameInList = {
+        boardGameName: '7 Wonders Duel',
+        purchaseDate: 2019
+      }
+      model.fetchers.gsjson = () => {
+        return [firstGameInList, secondGameInList, thirdGameInList]
+      }
+      const { gameIndex, log } = await api.downloadCaliGameIndex()
+      console.log('Game Index:', gameIndex, 'Log:', log)
       expect(gameIndex[0]).to.deep.equal(firstGameInList)
     })
   })
