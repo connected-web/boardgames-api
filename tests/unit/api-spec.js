@@ -57,7 +57,7 @@ describe('Boardgames API', () => {
         tag: 'Deckbuilder'
       }
       model.fetchers.gsjson = () => {
-        return [firstGameInJanuary]
+        return [[firstGameInJanuary]]
       }
       const { playstats } = await api.downloadCaliPlaystats()
       expect(playstats[0]).to.deep.equal(firstGameInJanuary)
@@ -105,7 +105,7 @@ describe('Boardgames API', () => {
         purchaseDate: 2017
       }
       model.fetchers.gsjson = () => {
-        return [firstGameInList]
+        return [[firstGameInList]]
       }
       const { gameIndex } = await api.downloadCaliGameIndex()
       expect(gameIndex[0]).to.deep.equal(firstGameInList)
