@@ -53,7 +53,9 @@ describe('Boardgames API', () => {
         coOpOutcome: 'Won',
         date: 43101,
         game: 'Harry Potter: Hogwarts Battle',
+        lineNumber: 0,
         notes: 'Game 1',
+        source: 'gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/0',
         tag: 'Deckbuilder'
       }
       model.fetchers.gsjson = () => {
@@ -105,7 +107,7 @@ describe('Boardgames API', () => {
         purchaseDate: 2017
       }
       model.fetchers.gsjson = () => {
-        return [[firstGameInList]]
+        return [firstGameInList]
       }
       const { gameIndex } = await api.downloadCaliGameIndex()
       expect(gameIndex[0]).to.deep.equal(firstGameInList)
