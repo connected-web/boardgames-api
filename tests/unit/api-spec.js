@@ -3,7 +3,8 @@ const { validate } = require('jsonschema')
 const api = require('../../')
 const model = require('../../src/model')
 
-const boardGameStatsSchema = require('../../api/handlers/boardgame-stats/schema.json')
+const boardGameStatsSchemaAllMonths = require('../../api/handlers/boardgame-stats-allMonths/schema.json')
+const boardGameStatsSchemaAllYears = require('../../api/handlers/boardgame-stats-allYears/schema.json')
 const boardGameStatsByMonthSchema = require('../../api/handlers/boardgame-stats-byMonth/schema.json')
 const boardGameStatsByYearSchema = require('../../api/handlers/boardgame-stats-byYear/schema.json')
 const boardGameStatsByTagSchema = require('../../api/handlers/boardgame-stats-byTag/schema.json')
@@ -389,12 +390,18 @@ describe('Boardgames API', () => {
       expect(simplified(schemaValidation.errors), 'Schema validation errors for last year').to.deep.equal([])
     })
 
-    it('should summarise the feed by all time', () => {
+    it('should summarise the feed by all months', () => {
       const schemaValidation = validate({
-        byMonth: actual.byMonth,
+        byMonth: actual.byMonth
+      }, boardGameStatsSchemaAllMonths)
+      expect(simplified(schemaValidation.errors), 'Schema validation errors for all months feed').to.deep.equal([])
+    })
+
+    it('should summarise the feed by all years', () => {
+      const schemaValidation = validate({
         byYear: actual.byYear
-      }, boardGameStatsSchema)
-      expect(simplified(schemaValidation.errors), 'Schema validation errors for all time feed').to.deep.equal([])
+      }, boardGameStatsSchemaAllYears)
+      expect(simplified(schemaValidation.errors), 'Schema validation errors for all years feed').to.deep.equal([])
     })
   })
 

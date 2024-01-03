@@ -106,8 +106,10 @@ function generateResponse($handler, $requestUri, $path, $endpoints)
         try {
             if (endsWith($path, '/schema')) {
                 $response = SchemaHandler::handleRequest($handler['data']->sourceId);
+                exit(json_encode($response));
             } elseif (endsWith($path, '/sample')) {
                 $response = SampleHandler::handleRequest($handler['data']->sourceId);
+                exit(json_encode($response));
             } else {
                 $matches = array();
                 includeRequestHandler($handler);
@@ -118,7 +120,11 @@ function generateResponse($handler, $requestUri, $path, $endpoints)
                     $requestUri, $path, $matches, $endpoints
                 );
             }
-            exit(json_encode($response));
+            if ($handler['data']->skipEncoding) {
+                exit($response);
+            } else {
+                exit(json_encode($response));
+            }
         } catch(Exception $ex) {
             header("HTTP/1.0 500 Server error");
             exit(

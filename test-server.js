@@ -27,7 +27,8 @@ function render (phpScriptPath) {
       }
     }, (err, body) => {
       if (err) {
-        res.status(500).send({ error: err })
+        console.log('[PHP Test Server] error', err)
+        res.status(500).send(err)
       } else {
         try {
           const data = JSON.parse(body)

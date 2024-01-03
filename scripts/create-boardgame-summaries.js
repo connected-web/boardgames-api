@@ -40,9 +40,22 @@ async function start () {
   await Promise.all(yearsInUse.map(writeYear))
   await writeMonthToDate(monthToDate)
   await writeYearToDate(yearToDate)
-  await writeByAllTime(byAllTime)
 
-  return writeJson('Board Game Summaries', 'boardgame-summaries.json', summaries)
+  await writeJson('Board Game Summaries all Months', 'boardgame-summaries-all-months.json', {
+    earliestDate: summaries.earliestDate,
+    latestDate: summaries.latestDate,
+    numberOfDaysCovered: summaries.numberOfDaysCovered,
+    byMonth: summaries.byMonth
+  })
+
+  await writeJson('Board Game Summaries all Years', 'boardgame-summaries-all-years.json', {
+    earliestDate: summaries.earliestDate,
+    latestDate: summaries.latestDate,
+    numberOfDaysCovered: summaries.numberOfDaysCovered,
+    byYear: summaries.byYear
+  })
+
+  await writeByAllTime(byAllTime)
 }
 
 module.exports = start
