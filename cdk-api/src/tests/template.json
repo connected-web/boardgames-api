@@ -64,7 +64,7 @@
       "UpdateReplacePolicy": "Retain",
       "DeletionPolicy": "Retain"
     },
-    "BoardGamesAPIDeploymentCF2289E81360a153f5a0c3682add5fed0a2cfc3f": {
+    "BoardGamesAPIDeploymentCF2289E8748a5d69e4fc56bfa7f91aa7381dc614": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -99,6 +99,11 @@
         "BoardGamesAPIplayrecordsupdateOPTIONSEB57122E",
         "BoardGamesAPIplayrecordsupdatePUT86A959D1",
         "BoardGamesAPIplayrecordsupdate2EDFE851",
+        "BoardGamesAPIplayrecordsviewplayRecordKeyGETD78B1FBD",
+        "BoardGamesAPIplayrecordsviewplayRecordKeyOPTIONS063F6335",
+        "BoardGamesAPIplayrecordsviewplayRecordKeyBE67098E",
+        "BoardGamesAPIplayrecordsviewOPTIONS1ED2E30A",
+        "BoardGamesAPIplayrecordsview1E4C3E77",
         "BoardGamesAPIstatusGET799E8117",
         "BoardGamesAPIstatusOPTIONS030FBF19",
         "BoardGamesAPIstatus10B32DBB",
@@ -116,7 +121,7 @@
           "Ref": "BoardGamesAPIBD87F933"
         },
         "DeploymentId": {
-          "Ref": "BoardGamesAPIDeploymentCF2289E81360a153f5a0c3682add5fed0a2cfc3f"
+          "Ref": "BoardGamesAPIDeploymentCF2289E8748a5d69e4fc56bfa7f91aa7381dc614"
         },
         "StageName": "v1"
       },
@@ -805,6 +810,601 @@
         ]
       }
     },
+    "BoardGamesAPIplayrecordscreate346E2417": {
+      "Type": "AWS::ApiGateway::Resource",
+      "Properties": {
+        "ParentId": {
+          "Ref": "BoardGamesAPIplayrecords1B851AE4"
+        },
+        "PathPart": "create",
+        "RestApiId": {
+          "Ref": "BoardGamesAPIBD87F933"
+        }
+      }
+    },
+    "BoardGamesAPIplayrecordscreateOPTIONS8170720E": {
+      "Type": "AWS::ApiGateway::Method",
+      "Properties": {
+        "HttpMethod": "OPTIONS",
+        "ResourceId": {
+          "Ref": "BoardGamesAPIplayrecordscreate346E2417"
+        },
+        "RestApiId": {
+          "Ref": "BoardGamesAPIBD87F933"
+        },
+        "AuthorizationType": "NONE",
+        "Integration": {
+          "IntegrationResponses": [
+            {
+              "ResponseParameters": {
+                "method.response.header.Access-Control-Allow-Headers": "'Authorization,content-type'",
+                "method.response.header.Access-Control-Allow-Origin": "'*'",
+                "method.response.header.Access-Control-Allow-Methods": "'OPTIONS,GET,PUT,POST,DELETE,PATCH,HEAD'",
+                "method.response.header.Access-Control-Allow-Credentials": "'true'"
+              },
+              "StatusCode": "204"
+            }
+          ],
+          "RequestTemplates": {
+            "application/json": "{ statusCode: 200 }"
+          },
+          "Type": "MOCK"
+        },
+        "MethodResponses": [
+          {
+            "ResponseParameters": {
+              "method.response.header.Access-Control-Allow-Headers": true,
+              "method.response.header.Access-Control-Allow-Origin": true,
+              "method.response.header.Access-Control-Allow-Methods": true,
+              "method.response.header.Access-Control-Allow-Credentials": true
+            },
+            "StatusCode": "204"
+          }
+        ]
+      }
+    },
+    "BoardGamesAPIplayrecordscreatePOSTApiPermissionMyTestStackBoardGamesAPI73545F1BPOSTplayrecordscreateC6758CE8": {
+      "Type": "AWS::Lambda::Permission",
+      "Properties": {
+        "Action": "lambda:InvokeFunction",
+        "FunctionName": {
+          "Fn::GetAtt": [
+            "BoardGamesAPIPostPlayrecordsCreate07E1DBBB",
+            "Arn"
+          ]
+        },
+        "Principal": "apigateway.amazonaws.com",
+        "SourceArn": {
+          "Fn::Join": [
+            "",
+            [
+              "arn:",
+              {
+                "Ref": "AWS::Partition"
+              },
+              ":execute-api:eu-west-2:1234567890:",
+              {
+                "Ref": "BoardGamesAPIBD87F933"
+              },
+              "/",
+              {
+                "Ref": "BoardGamesAPIDeploymentStagev13C85ECE1"
+              },
+              "/POST/playrecords/create"
+            ]
+          ]
+        }
+      }
+    },
+    "BoardGamesAPIplayrecordscreatePOSTApiPermissionTestMyTestStackBoardGamesAPI73545F1BPOSTplayrecordscreate19CDE83C": {
+      "Type": "AWS::Lambda::Permission",
+      "Properties": {
+        "Action": "lambda:InvokeFunction",
+        "FunctionName": {
+          "Fn::GetAtt": [
+            "BoardGamesAPIPostPlayrecordsCreate07E1DBBB",
+            "Arn"
+          ]
+        },
+        "Principal": "apigateway.amazonaws.com",
+        "SourceArn": {
+          "Fn::Join": [
+            "",
+            [
+              "arn:",
+              {
+                "Ref": "AWS::Partition"
+              },
+              ":execute-api:eu-west-2:1234567890:",
+              {
+                "Ref": "BoardGamesAPIBD87F933"
+              },
+              "/test-invoke-stage/POST/playrecords/create"
+            ]
+          ]
+        }
+      }
+    },
+    "BoardGamesAPIplayrecordscreatePOSTDA043C67": {
+      "Type": "AWS::ApiGateway::Method",
+      "Properties": {
+        "HttpMethod": "POST",
+        "ResourceId": {
+          "Ref": "BoardGamesAPIplayrecordscreate346E2417"
+        },
+        "RestApiId": {
+          "Ref": "BoardGamesAPIBD87F933"
+        },
+        "AuthorizationType": "NONE",
+        "Integration": {
+          "Credentials": {
+            "Fn::GetAtt": [
+              "BoardGamesAPIApiExecutionRole53A9F419",
+              "Arn"
+            ]
+          },
+          "IntegrationHttpMethod": "POST",
+          "Type": "AWS_PROXY",
+          "Uri": {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition"
+                },
+                ":apigateway:eu-west-2:lambda:path/2015-03-31/functions/",
+                {
+                  "Fn::GetAtt": [
+                    "BoardGamesAPIPostPlayrecordsCreate07E1DBBB",
+                    "Arn"
+                  ]
+                },
+                "/invocations"
+              ]
+            ]
+          }
+        },
+        "MethodResponses": [
+          {
+            "ResponseModels": {
+              "application/json": {
+                "Ref": "MessageModelA0F1659C"
+              }
+            },
+            "ResponseParameters": {
+              "method.response.header.Content-Type": true,
+              "method.response.header.Access-Control-Allow-Origin": true,
+              "method.response.header.Access-Control-Allow-Credentials": true
+            },
+            "StatusCode": "200"
+          }
+        ],
+        "OperationName": "postPlayrecordsCreate",
+        "RequestModels": {
+          "application/json": {
+            "Ref": "PlayRecordModel8A6B2589"
+          }
+        }
+      }
+    },
+    "BoardGamesAPIplayrecordsview1E4C3E77": {
+      "Type": "AWS::ApiGateway::Resource",
+      "Properties": {
+        "ParentId": {
+          "Ref": "BoardGamesAPIplayrecords1B851AE4"
+        },
+        "PathPart": "view",
+        "RestApiId": {
+          "Ref": "BoardGamesAPIBD87F933"
+        }
+      }
+    },
+    "BoardGamesAPIplayrecordsviewOPTIONS1ED2E30A": {
+      "Type": "AWS::ApiGateway::Method",
+      "Properties": {
+        "HttpMethod": "OPTIONS",
+        "ResourceId": {
+          "Ref": "BoardGamesAPIplayrecordsview1E4C3E77"
+        },
+        "RestApiId": {
+          "Ref": "BoardGamesAPIBD87F933"
+        },
+        "AuthorizationType": "NONE",
+        "Integration": {
+          "IntegrationResponses": [
+            {
+              "ResponseParameters": {
+                "method.response.header.Access-Control-Allow-Headers": "'Authorization,content-type'",
+                "method.response.header.Access-Control-Allow-Origin": "'*'",
+                "method.response.header.Access-Control-Allow-Methods": "'OPTIONS,GET,PUT,POST,DELETE,PATCH,HEAD'",
+                "method.response.header.Access-Control-Allow-Credentials": "'true'"
+              },
+              "StatusCode": "204"
+            }
+          ],
+          "RequestTemplates": {
+            "application/json": "{ statusCode: 200 }"
+          },
+          "Type": "MOCK"
+        },
+        "MethodResponses": [
+          {
+            "ResponseParameters": {
+              "method.response.header.Access-Control-Allow-Headers": true,
+              "method.response.header.Access-Control-Allow-Origin": true,
+              "method.response.header.Access-Control-Allow-Methods": true,
+              "method.response.header.Access-Control-Allow-Credentials": true
+            },
+            "StatusCode": "204"
+          }
+        ]
+      }
+    },
+    "BoardGamesAPIplayrecordsviewplayRecordKeyBE67098E": {
+      "Type": "AWS::ApiGateway::Resource",
+      "Properties": {
+        "ParentId": {
+          "Ref": "BoardGamesAPIplayrecordsview1E4C3E77"
+        },
+        "PathPart": ":playRecordKey",
+        "RestApiId": {
+          "Ref": "BoardGamesAPIBD87F933"
+        }
+      }
+    },
+    "BoardGamesAPIplayrecordsviewplayRecordKeyOPTIONS063F6335": {
+      "Type": "AWS::ApiGateway::Method",
+      "Properties": {
+        "HttpMethod": "OPTIONS",
+        "ResourceId": {
+          "Ref": "BoardGamesAPIplayrecordsviewplayRecordKeyBE67098E"
+        },
+        "RestApiId": {
+          "Ref": "BoardGamesAPIBD87F933"
+        },
+        "AuthorizationType": "NONE",
+        "Integration": {
+          "IntegrationResponses": [
+            {
+              "ResponseParameters": {
+                "method.response.header.Access-Control-Allow-Headers": "'Authorization,content-type'",
+                "method.response.header.Access-Control-Allow-Origin": "'*'",
+                "method.response.header.Access-Control-Allow-Methods": "'OPTIONS,GET,PUT,POST,DELETE,PATCH,HEAD'",
+                "method.response.header.Access-Control-Allow-Credentials": "'true'"
+              },
+              "StatusCode": "204"
+            }
+          ],
+          "RequestTemplates": {
+            "application/json": "{ statusCode: 200 }"
+          },
+          "Type": "MOCK"
+        },
+        "MethodResponses": [
+          {
+            "ResponseParameters": {
+              "method.response.header.Access-Control-Allow-Headers": true,
+              "method.response.header.Access-Control-Allow-Origin": true,
+              "method.response.header.Access-Control-Allow-Methods": true,
+              "method.response.header.Access-Control-Allow-Credentials": true
+            },
+            "StatusCode": "204"
+          }
+        ]
+      }
+    },
+    "BoardGamesAPIplayrecordsviewplayRecordKeyGETApiPermissionMyTestStackBoardGamesAPI73545F1BGETplayrecordsviewplayRecordKey3FBBED89": {
+      "Type": "AWS::Lambda::Permission",
+      "Properties": {
+        "Action": "lambda:InvokeFunction",
+        "FunctionName": {
+          "Fn::GetAtt": [
+            "BoardGamesAPIGetPlayrecordsViewPlayRecordKey6B84ACAA",
+            "Arn"
+          ]
+        },
+        "Principal": "apigateway.amazonaws.com",
+        "SourceArn": {
+          "Fn::Join": [
+            "",
+            [
+              "arn:",
+              {
+                "Ref": "AWS::Partition"
+              },
+              ":execute-api:eu-west-2:1234567890:",
+              {
+                "Ref": "BoardGamesAPIBD87F933"
+              },
+              "/",
+              {
+                "Ref": "BoardGamesAPIDeploymentStagev13C85ECE1"
+              },
+              "/GET/playrecords/view/:playRecordKey"
+            ]
+          ]
+        }
+      }
+    },
+    "BoardGamesAPIplayrecordsviewplayRecordKeyGETApiPermissionTestMyTestStackBoardGamesAPI73545F1BGETplayrecordsviewplayRecordKey55D8C30F": {
+      "Type": "AWS::Lambda::Permission",
+      "Properties": {
+        "Action": "lambda:InvokeFunction",
+        "FunctionName": {
+          "Fn::GetAtt": [
+            "BoardGamesAPIGetPlayrecordsViewPlayRecordKey6B84ACAA",
+            "Arn"
+          ]
+        },
+        "Principal": "apigateway.amazonaws.com",
+        "SourceArn": {
+          "Fn::Join": [
+            "",
+            [
+              "arn:",
+              {
+                "Ref": "AWS::Partition"
+              },
+              ":execute-api:eu-west-2:1234567890:",
+              {
+                "Ref": "BoardGamesAPIBD87F933"
+              },
+              "/test-invoke-stage/GET/playrecords/view/:playRecordKey"
+            ]
+          ]
+        }
+      }
+    },
+    "BoardGamesAPIplayrecordsviewplayRecordKeyGETD78B1FBD": {
+      "Type": "AWS::ApiGateway::Method",
+      "Properties": {
+        "HttpMethod": "GET",
+        "ResourceId": {
+          "Ref": "BoardGamesAPIplayrecordsviewplayRecordKeyBE67098E"
+        },
+        "RestApiId": {
+          "Ref": "BoardGamesAPIBD87F933"
+        },
+        "AuthorizationType": "NONE",
+        "Integration": {
+          "Credentials": {
+            "Fn::GetAtt": [
+              "BoardGamesAPIApiExecutionRole53A9F419",
+              "Arn"
+            ]
+          },
+          "IntegrationHttpMethod": "POST",
+          "Type": "AWS_PROXY",
+          "Uri": {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition"
+                },
+                ":apigateway:eu-west-2:lambda:path/2015-03-31/functions/",
+                {
+                  "Fn::GetAtt": [
+                    "BoardGamesAPIGetPlayrecordsViewPlayRecordKey6B84ACAA",
+                    "Arn"
+                  ]
+                },
+                "/invocations"
+              ]
+            ]
+          }
+        },
+        "MethodResponses": [
+          {
+            "ResponseModels": {
+              "application/json": {
+                "Ref": "MessageModelA0F1659C"
+              }
+            },
+            "ResponseParameters": {
+              "method.response.header.Content-Type": true,
+              "method.response.header.Access-Control-Allow-Origin": true,
+              "method.response.header.Access-Control-Allow-Credentials": true
+            },
+            "StatusCode": "200"
+          },
+          {
+            "ResponseModels": {
+              "application/json": {
+                "Ref": "PlayRecordModel8A6B2589"
+              }
+            },
+            "ResponseParameters": {
+              "method.response.header.Content-Type": true,
+              "method.response.header.Access-Control-Allow-Origin": true,
+              "method.response.header.Access-Control-Allow-Credentials": true
+            },
+            "StatusCode": "200"
+          }
+        ],
+        "OperationName": "getPlayrecordsViewPlayRecordKey"
+      }
+    },
+    "BoardGamesAPIplayrecordsupdate2EDFE851": {
+      "Type": "AWS::ApiGateway::Resource",
+      "Properties": {
+        "ParentId": {
+          "Ref": "BoardGamesAPIplayrecords1B851AE4"
+        },
+        "PathPart": "update",
+        "RestApiId": {
+          "Ref": "BoardGamesAPIBD87F933"
+        }
+      }
+    },
+    "BoardGamesAPIplayrecordsupdateOPTIONSEB57122E": {
+      "Type": "AWS::ApiGateway::Method",
+      "Properties": {
+        "HttpMethod": "OPTIONS",
+        "ResourceId": {
+          "Ref": "BoardGamesAPIplayrecordsupdate2EDFE851"
+        },
+        "RestApiId": {
+          "Ref": "BoardGamesAPIBD87F933"
+        },
+        "AuthorizationType": "NONE",
+        "Integration": {
+          "IntegrationResponses": [
+            {
+              "ResponseParameters": {
+                "method.response.header.Access-Control-Allow-Headers": "'Authorization,content-type'",
+                "method.response.header.Access-Control-Allow-Origin": "'*'",
+                "method.response.header.Access-Control-Allow-Methods": "'OPTIONS,GET,PUT,POST,DELETE,PATCH,HEAD'",
+                "method.response.header.Access-Control-Allow-Credentials": "'true'"
+              },
+              "StatusCode": "204"
+            }
+          ],
+          "RequestTemplates": {
+            "application/json": "{ statusCode: 200 }"
+          },
+          "Type": "MOCK"
+        },
+        "MethodResponses": [
+          {
+            "ResponseParameters": {
+              "method.response.header.Access-Control-Allow-Headers": true,
+              "method.response.header.Access-Control-Allow-Origin": true,
+              "method.response.header.Access-Control-Allow-Methods": true,
+              "method.response.header.Access-Control-Allow-Credentials": true
+            },
+            "StatusCode": "204"
+          }
+        ]
+      }
+    },
+    "BoardGamesAPIplayrecordsupdatePUTApiPermissionMyTestStackBoardGamesAPI73545F1BPUTplayrecordsupdate5A155E7B": {
+      "Type": "AWS::Lambda::Permission",
+      "Properties": {
+        "Action": "lambda:InvokeFunction",
+        "FunctionName": {
+          "Fn::GetAtt": [
+            "BoardGamesAPIPutPlayrecordsUpdate653F5EA5",
+            "Arn"
+          ]
+        },
+        "Principal": "apigateway.amazonaws.com",
+        "SourceArn": {
+          "Fn::Join": [
+            "",
+            [
+              "arn:",
+              {
+                "Ref": "AWS::Partition"
+              },
+              ":execute-api:eu-west-2:1234567890:",
+              {
+                "Ref": "BoardGamesAPIBD87F933"
+              },
+              "/",
+              {
+                "Ref": "BoardGamesAPIDeploymentStagev13C85ECE1"
+              },
+              "/PUT/playrecords/update"
+            ]
+          ]
+        }
+      }
+    },
+    "BoardGamesAPIplayrecordsupdatePUTApiPermissionTestMyTestStackBoardGamesAPI73545F1BPUTplayrecordsupdate4A039815": {
+      "Type": "AWS::Lambda::Permission",
+      "Properties": {
+        "Action": "lambda:InvokeFunction",
+        "FunctionName": {
+          "Fn::GetAtt": [
+            "BoardGamesAPIPutPlayrecordsUpdate653F5EA5",
+            "Arn"
+          ]
+        },
+        "Principal": "apigateway.amazonaws.com",
+        "SourceArn": {
+          "Fn::Join": [
+            "",
+            [
+              "arn:",
+              {
+                "Ref": "AWS::Partition"
+              },
+              ":execute-api:eu-west-2:1234567890:",
+              {
+                "Ref": "BoardGamesAPIBD87F933"
+              },
+              "/test-invoke-stage/PUT/playrecords/update"
+            ]
+          ]
+        }
+      }
+    },
+    "BoardGamesAPIplayrecordsupdatePUT86A959D1": {
+      "Type": "AWS::ApiGateway::Method",
+      "Properties": {
+        "HttpMethod": "PUT",
+        "ResourceId": {
+          "Ref": "BoardGamesAPIplayrecordsupdate2EDFE851"
+        },
+        "RestApiId": {
+          "Ref": "BoardGamesAPIBD87F933"
+        },
+        "AuthorizationType": "NONE",
+        "Integration": {
+          "Credentials": {
+            "Fn::GetAtt": [
+              "BoardGamesAPIApiExecutionRole53A9F419",
+              "Arn"
+            ]
+          },
+          "IntegrationHttpMethod": "POST",
+          "Type": "AWS_PROXY",
+          "Uri": {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition"
+                },
+                ":apigateway:eu-west-2:lambda:path/2015-03-31/functions/",
+                {
+                  "Fn::GetAtt": [
+                    "BoardGamesAPIPutPlayrecordsUpdate653F5EA5",
+                    "Arn"
+                  ]
+                },
+                "/invocations"
+              ]
+            ]
+          }
+        },
+        "MethodResponses": [
+          {
+            "ResponseModels": {
+              "application/json": {
+                "Ref": "MessageModelA0F1659C"
+              }
+            },
+            "ResponseParameters": {
+              "method.response.header.Content-Type": true,
+              "method.response.header.Access-Control-Allow-Origin": true,
+              "method.response.header.Access-Control-Allow-Credentials": true
+            },
+            "StatusCode": "200"
+          }
+        ],
+        "OperationName": "putPlayrecordsUpdate",
+        "RequestModels": {
+          "application/json": {
+            "Ref": "PlayRecordModel8A6B2589"
+          }
+        }
+      }
+    },
     "BoardGamesAPIplayrecordslistFE9A465B": {
       "Type": "AWS::ApiGateway::Resource",
       "Properties": {
@@ -1155,362 +1755,6 @@
         }
       }
     },
-    "BoardGamesAPIplayrecordscreate346E2417": {
-      "Type": "AWS::ApiGateway::Resource",
-      "Properties": {
-        "ParentId": {
-          "Ref": "BoardGamesAPIplayrecords1B851AE4"
-        },
-        "PathPart": "create",
-        "RestApiId": {
-          "Ref": "BoardGamesAPIBD87F933"
-        }
-      }
-    },
-    "BoardGamesAPIplayrecordscreateOPTIONS8170720E": {
-      "Type": "AWS::ApiGateway::Method",
-      "Properties": {
-        "HttpMethod": "OPTIONS",
-        "ResourceId": {
-          "Ref": "BoardGamesAPIplayrecordscreate346E2417"
-        },
-        "RestApiId": {
-          "Ref": "BoardGamesAPIBD87F933"
-        },
-        "AuthorizationType": "NONE",
-        "Integration": {
-          "IntegrationResponses": [
-            {
-              "ResponseParameters": {
-                "method.response.header.Access-Control-Allow-Headers": "'Authorization,content-type'",
-                "method.response.header.Access-Control-Allow-Origin": "'*'",
-                "method.response.header.Access-Control-Allow-Methods": "'OPTIONS,GET,PUT,POST,DELETE,PATCH,HEAD'",
-                "method.response.header.Access-Control-Allow-Credentials": "'true'"
-              },
-              "StatusCode": "204"
-            }
-          ],
-          "RequestTemplates": {
-            "application/json": "{ statusCode: 200 }"
-          },
-          "Type": "MOCK"
-        },
-        "MethodResponses": [
-          {
-            "ResponseParameters": {
-              "method.response.header.Access-Control-Allow-Headers": true,
-              "method.response.header.Access-Control-Allow-Origin": true,
-              "method.response.header.Access-Control-Allow-Methods": true,
-              "method.response.header.Access-Control-Allow-Credentials": true
-            },
-            "StatusCode": "204"
-          }
-        ]
-      }
-    },
-    "BoardGamesAPIplayrecordscreatePOSTApiPermissionMyTestStackBoardGamesAPI73545F1BPOSTplayrecordscreateC6758CE8": {
-      "Type": "AWS::Lambda::Permission",
-      "Properties": {
-        "Action": "lambda:InvokeFunction",
-        "FunctionName": {
-          "Fn::GetAtt": [
-            "BoardGamesAPIPostPlayrecordsCreate07E1DBBB",
-            "Arn"
-          ]
-        },
-        "Principal": "apigateway.amazonaws.com",
-        "SourceArn": {
-          "Fn::Join": [
-            "",
-            [
-              "arn:",
-              {
-                "Ref": "AWS::Partition"
-              },
-              ":execute-api:eu-west-2:1234567890:",
-              {
-                "Ref": "BoardGamesAPIBD87F933"
-              },
-              "/",
-              {
-                "Ref": "BoardGamesAPIDeploymentStagev13C85ECE1"
-              },
-              "/POST/playrecords/create"
-            ]
-          ]
-        }
-      }
-    },
-    "BoardGamesAPIplayrecordscreatePOSTApiPermissionTestMyTestStackBoardGamesAPI73545F1BPOSTplayrecordscreate19CDE83C": {
-      "Type": "AWS::Lambda::Permission",
-      "Properties": {
-        "Action": "lambda:InvokeFunction",
-        "FunctionName": {
-          "Fn::GetAtt": [
-            "BoardGamesAPIPostPlayrecordsCreate07E1DBBB",
-            "Arn"
-          ]
-        },
-        "Principal": "apigateway.amazonaws.com",
-        "SourceArn": {
-          "Fn::Join": [
-            "",
-            [
-              "arn:",
-              {
-                "Ref": "AWS::Partition"
-              },
-              ":execute-api:eu-west-2:1234567890:",
-              {
-                "Ref": "BoardGamesAPIBD87F933"
-              },
-              "/test-invoke-stage/POST/playrecords/create"
-            ]
-          ]
-        }
-      }
-    },
-    "BoardGamesAPIplayrecordscreatePOSTDA043C67": {
-      "Type": "AWS::ApiGateway::Method",
-      "Properties": {
-        "HttpMethod": "POST",
-        "ResourceId": {
-          "Ref": "BoardGamesAPIplayrecordscreate346E2417"
-        },
-        "RestApiId": {
-          "Ref": "BoardGamesAPIBD87F933"
-        },
-        "AuthorizationType": "NONE",
-        "Integration": {
-          "Credentials": {
-            "Fn::GetAtt": [
-              "BoardGamesAPIApiExecutionRole53A9F419",
-              "Arn"
-            ]
-          },
-          "IntegrationHttpMethod": "POST",
-          "Type": "AWS_PROXY",
-          "Uri": {
-            "Fn::Join": [
-              "",
-              [
-                "arn:",
-                {
-                  "Ref": "AWS::Partition"
-                },
-                ":apigateway:eu-west-2:lambda:path/2015-03-31/functions/",
-                {
-                  "Fn::GetAtt": [
-                    "BoardGamesAPIPostPlayrecordsCreate07E1DBBB",
-                    "Arn"
-                  ]
-                },
-                "/invocations"
-              ]
-            ]
-          }
-        },
-        "MethodResponses": [
-          {
-            "ResponseModels": {
-              "application/json": {
-                "Ref": "MessageModelA0F1659C"
-              }
-            },
-            "ResponseParameters": {
-              "method.response.header.Content-Type": true,
-              "method.response.header.Access-Control-Allow-Origin": true,
-              "method.response.header.Access-Control-Allow-Credentials": true
-            },
-            "StatusCode": "200"
-          }
-        ],
-        "OperationName": "postPlayrecordsCreate",
-        "RequestModels": {
-          "application/json": {
-            "Ref": "PlayRecordModel8A6B2589"
-          }
-        }
-      }
-    },
-    "BoardGamesAPIplayrecordsupdate2EDFE851": {
-      "Type": "AWS::ApiGateway::Resource",
-      "Properties": {
-        "ParentId": {
-          "Ref": "BoardGamesAPIplayrecords1B851AE4"
-        },
-        "PathPart": "update",
-        "RestApiId": {
-          "Ref": "BoardGamesAPIBD87F933"
-        }
-      }
-    },
-    "BoardGamesAPIplayrecordsupdateOPTIONSEB57122E": {
-      "Type": "AWS::ApiGateway::Method",
-      "Properties": {
-        "HttpMethod": "OPTIONS",
-        "ResourceId": {
-          "Ref": "BoardGamesAPIplayrecordsupdate2EDFE851"
-        },
-        "RestApiId": {
-          "Ref": "BoardGamesAPIBD87F933"
-        },
-        "AuthorizationType": "NONE",
-        "Integration": {
-          "IntegrationResponses": [
-            {
-              "ResponseParameters": {
-                "method.response.header.Access-Control-Allow-Headers": "'Authorization,content-type'",
-                "method.response.header.Access-Control-Allow-Origin": "'*'",
-                "method.response.header.Access-Control-Allow-Methods": "'OPTIONS,GET,PUT,POST,DELETE,PATCH,HEAD'",
-                "method.response.header.Access-Control-Allow-Credentials": "'true'"
-              },
-              "StatusCode": "204"
-            }
-          ],
-          "RequestTemplates": {
-            "application/json": "{ statusCode: 200 }"
-          },
-          "Type": "MOCK"
-        },
-        "MethodResponses": [
-          {
-            "ResponseParameters": {
-              "method.response.header.Access-Control-Allow-Headers": true,
-              "method.response.header.Access-Control-Allow-Origin": true,
-              "method.response.header.Access-Control-Allow-Methods": true,
-              "method.response.header.Access-Control-Allow-Credentials": true
-            },
-            "StatusCode": "204"
-          }
-        ]
-      }
-    },
-    "BoardGamesAPIplayrecordsupdatePUTApiPermissionMyTestStackBoardGamesAPI73545F1BPUTplayrecordsupdate5A155E7B": {
-      "Type": "AWS::Lambda::Permission",
-      "Properties": {
-        "Action": "lambda:InvokeFunction",
-        "FunctionName": {
-          "Fn::GetAtt": [
-            "BoardGamesAPIPutPlayrecordsUpdate653F5EA5",
-            "Arn"
-          ]
-        },
-        "Principal": "apigateway.amazonaws.com",
-        "SourceArn": {
-          "Fn::Join": [
-            "",
-            [
-              "arn:",
-              {
-                "Ref": "AWS::Partition"
-              },
-              ":execute-api:eu-west-2:1234567890:",
-              {
-                "Ref": "BoardGamesAPIBD87F933"
-              },
-              "/",
-              {
-                "Ref": "BoardGamesAPIDeploymentStagev13C85ECE1"
-              },
-              "/PUT/playrecords/update"
-            ]
-          ]
-        }
-      }
-    },
-    "BoardGamesAPIplayrecordsupdatePUTApiPermissionTestMyTestStackBoardGamesAPI73545F1BPUTplayrecordsupdate4A039815": {
-      "Type": "AWS::Lambda::Permission",
-      "Properties": {
-        "Action": "lambda:InvokeFunction",
-        "FunctionName": {
-          "Fn::GetAtt": [
-            "BoardGamesAPIPutPlayrecordsUpdate653F5EA5",
-            "Arn"
-          ]
-        },
-        "Principal": "apigateway.amazonaws.com",
-        "SourceArn": {
-          "Fn::Join": [
-            "",
-            [
-              "arn:",
-              {
-                "Ref": "AWS::Partition"
-              },
-              ":execute-api:eu-west-2:1234567890:",
-              {
-                "Ref": "BoardGamesAPIBD87F933"
-              },
-              "/test-invoke-stage/PUT/playrecords/update"
-            ]
-          ]
-        }
-      }
-    },
-    "BoardGamesAPIplayrecordsupdatePUT86A959D1": {
-      "Type": "AWS::ApiGateway::Method",
-      "Properties": {
-        "HttpMethod": "PUT",
-        "ResourceId": {
-          "Ref": "BoardGamesAPIplayrecordsupdate2EDFE851"
-        },
-        "RestApiId": {
-          "Ref": "BoardGamesAPIBD87F933"
-        },
-        "AuthorizationType": "NONE",
-        "Integration": {
-          "Credentials": {
-            "Fn::GetAtt": [
-              "BoardGamesAPIApiExecutionRole53A9F419",
-              "Arn"
-            ]
-          },
-          "IntegrationHttpMethod": "POST",
-          "Type": "AWS_PROXY",
-          "Uri": {
-            "Fn::Join": [
-              "",
-              [
-                "arn:",
-                {
-                  "Ref": "AWS::Partition"
-                },
-                ":apigateway:eu-west-2:lambda:path/2015-03-31/functions/",
-                {
-                  "Fn::GetAtt": [
-                    "BoardGamesAPIPutPlayrecordsUpdate653F5EA5",
-                    "Arn"
-                  ]
-                },
-                "/invocations"
-              ]
-            ]
-          }
-        },
-        "MethodResponses": [
-          {
-            "ResponseModels": {
-              "application/json": {
-                "Ref": "MessageModelA0F1659C"
-              }
-            },
-            "ResponseParameters": {
-              "method.response.header.Content-Type": true,
-              "method.response.header.Access-Control-Allow-Origin": true,
-              "method.response.header.Access-Control-Allow-Credentials": true
-            },
-            "StatusCode": "200"
-          }
-        ],
-        "OperationName": "putPlayrecordsUpdate",
-        "RequestModels": {
-          "application/json": {
-            "Ref": "PlayRecordModel8A6B2589"
-          }
-        }
-      }
-    },
     "BoardGamesAPIplayrecordsdeleteDC3CD7B4": {
       "Type": "AWS::ApiGateway::Resource",
       "Properties": {
@@ -1741,6 +1985,36 @@
               "Effect": "Allow",
               "Resource": {
                 "Fn::GetAtt": [
+                  "BoardGamesAPIPostPlayrecordsCreate07E1DBBB",
+                  "Arn"
+                ]
+              }
+            },
+            {
+              "Action": "lambda:InvokeFunction",
+              "Effect": "Allow",
+              "Resource": {
+                "Fn::GetAtt": [
+                  "BoardGamesAPIGetPlayrecordsViewPlayRecordKey6B84ACAA",
+                  "Arn"
+                ]
+              }
+            },
+            {
+              "Action": "lambda:InvokeFunction",
+              "Effect": "Allow",
+              "Resource": {
+                "Fn::GetAtt": [
+                  "BoardGamesAPIPutPlayrecordsUpdate653F5EA5",
+                  "Arn"
+                ]
+              }
+            },
+            {
+              "Action": "lambda:InvokeFunction",
+              "Effect": "Allow",
+              "Resource": {
+                "Fn::GetAtt": [
                   "BoardGamesAPIGetPlayrecordsListAFA5BC03",
                   "Arn"
                 ]
@@ -1752,26 +2026,6 @@
               "Resource": {
                 "Fn::GetAtt": [
                   "BoardGamesAPIGetPlayrecordsListDateCode5621E54C",
-                  "Arn"
-                ]
-              }
-            },
-            {
-              "Action": "lambda:InvokeFunction",
-              "Effect": "Allow",
-              "Resource": {
-                "Fn::GetAtt": [
-                  "BoardGamesAPIPostPlayrecordsCreate07E1DBBB",
-                  "Arn"
-                ]
-              }
-            },
-            {
-              "Action": "lambda:InvokeFunction",
-              "Effect": "Allow",
-              "Resource": {
-                "Fn::GetAtt": [
-                  "BoardGamesAPIPutPlayrecordsUpdate653F5EA5",
                   "Arn"
                 ]
               }
@@ -2103,6 +2357,351 @@
         "BoardGamesAPIHelloWorldServiceRole2FA4A485"
       ]
     },
+    "BoardGamesAPIPostPlayrecordsCreateServiceRole40521D15": {
+      "Type": "AWS::IAM::Role",
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "lambda.amazonaws.com"
+              }
+            }
+          ],
+          "Version": "2012-10-17"
+        },
+        "ManagedPolicyArns": [
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition"
+                },
+                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "BoardGamesAPIPostPlayrecordsCreateServiceRoleDefaultPolicyD3CB5C05": {
+      "Type": "AWS::IAM::Policy",
+      "Properties": {
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": [
+                "s3:GetObject*",
+                "s3:GetBucket*",
+                "s3:List*",
+                "s3:DeleteObject*",
+                "s3:PutObject",
+                "s3:PutObjectLegalHold",
+                "s3:PutObjectRetention",
+                "s3:PutObjectTagging",
+                "s3:PutObjectVersionTagging",
+                "s3:Abort*"
+              ],
+              "Effect": "Allow",
+              "Resource": [
+                {
+                  "Fn::GetAtt": [
+                    "PlayRecordsBucket747A7EDE",
+                    "Arn"
+                  ]
+                },
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      {
+                        "Fn::GetAtt": [
+                          "PlayRecordsBucket747A7EDE",
+                          "Arn"
+                        ]
+                      },
+                      "/*"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "Version": "2012-10-17"
+        },
+        "PolicyName": "BoardGamesAPIPostPlayrecordsCreateServiceRoleDefaultPolicyD3CB5C05",
+        "Roles": [
+          {
+            "Ref": "BoardGamesAPIPostPlayrecordsCreateServiceRole40521D15"
+          }
+        ]
+      }
+    },
+    "BoardGamesAPIPostPlayrecordsCreate07E1DBBB": {
+      "Type": "AWS::Lambda::Function",
+      "Properties": {
+        "Code": {
+          "S3Bucket": "cdk-hnb659fds-assets-1234567890-eu-west-2",
+          "S3Key": "3edbce4f3edc8ad75e008a33d7fcb20886247bf881efa9feef1778627c4a0021.zip"
+        },
+        "Role": {
+          "Fn::GetAtt": [
+            "BoardGamesAPIPostPlayrecordsCreateServiceRole40521D15",
+            "Arn"
+          ]
+        },
+        "Environment": {
+          "Variables": {
+            "DATA_BUCKET_NAME": {
+              "Ref": "PlayRecordsBucket747A7EDE"
+            },
+            "AWS_NODEJS_CONNECTION_REUSE_ENABLED": "1"
+          }
+        },
+        "Handler": "index.handler",
+        "MemorySize": 256,
+        "Runtime": "nodejs18.x",
+        "Timeout": 25
+      },
+      "DependsOn": [
+        "BoardGamesAPIPostPlayrecordsCreateServiceRoleDefaultPolicyD3CB5C05",
+        "BoardGamesAPIPostPlayrecordsCreateServiceRole40521D15"
+      ]
+    },
+    "BoardGamesAPIGetPlayrecordsViewPlayRecordKeyServiceRole77E2B198": {
+      "Type": "AWS::IAM::Role",
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "lambda.amazonaws.com"
+              }
+            }
+          ],
+          "Version": "2012-10-17"
+        },
+        "ManagedPolicyArns": [
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition"
+                },
+                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "BoardGamesAPIGetPlayrecordsViewPlayRecordKeyServiceRoleDefaultPolicy5A9EC5BE": {
+      "Type": "AWS::IAM::Policy",
+      "Properties": {
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": [
+                "s3:GetObject*",
+                "s3:GetBucket*",
+                "s3:List*",
+                "s3:DeleteObject*",
+                "s3:PutObject",
+                "s3:PutObjectLegalHold",
+                "s3:PutObjectRetention",
+                "s3:PutObjectTagging",
+                "s3:PutObjectVersionTagging",
+                "s3:Abort*"
+              ],
+              "Effect": "Allow",
+              "Resource": [
+                {
+                  "Fn::GetAtt": [
+                    "PlayRecordsBucket747A7EDE",
+                    "Arn"
+                  ]
+                },
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      {
+                        "Fn::GetAtt": [
+                          "PlayRecordsBucket747A7EDE",
+                          "Arn"
+                        ]
+                      },
+                      "/*"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "Version": "2012-10-17"
+        },
+        "PolicyName": "BoardGamesAPIGetPlayrecordsViewPlayRecordKeyServiceRoleDefaultPolicy5A9EC5BE",
+        "Roles": [
+          {
+            "Ref": "BoardGamesAPIGetPlayrecordsViewPlayRecordKeyServiceRole77E2B198"
+          }
+        ]
+      }
+    },
+    "BoardGamesAPIGetPlayrecordsViewPlayRecordKey6B84ACAA": {
+      "Type": "AWS::Lambda::Function",
+      "Properties": {
+        "Code": {
+          "S3Bucket": "cdk-hnb659fds-assets-1234567890-eu-west-2",
+          "S3Key": "748dc52ce65e3bd2c38f163245f6a16d2e5657322fc86f160f92344405aae501.zip"
+        },
+        "Role": {
+          "Fn::GetAtt": [
+            "BoardGamesAPIGetPlayrecordsViewPlayRecordKeyServiceRole77E2B198",
+            "Arn"
+          ]
+        },
+        "Environment": {
+          "Variables": {
+            "DATA_BUCKET_NAME": {
+              "Ref": "PlayRecordsBucket747A7EDE"
+            },
+            "AWS_NODEJS_CONNECTION_REUSE_ENABLED": "1"
+          }
+        },
+        "Handler": "index.handler",
+        "MemorySize": 256,
+        "Runtime": "nodejs18.x",
+        "Timeout": 25
+      },
+      "DependsOn": [
+        "BoardGamesAPIGetPlayrecordsViewPlayRecordKeyServiceRoleDefaultPolicy5A9EC5BE",
+        "BoardGamesAPIGetPlayrecordsViewPlayRecordKeyServiceRole77E2B198"
+      ]
+    },
+    "BoardGamesAPIPutPlayrecordsUpdateServiceRole347B45F8": {
+      "Type": "AWS::IAM::Role",
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "lambda.amazonaws.com"
+              }
+            }
+          ],
+          "Version": "2012-10-17"
+        },
+        "ManagedPolicyArns": [
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition"
+                },
+                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "BoardGamesAPIPutPlayrecordsUpdateServiceRoleDefaultPolicyEACB5CD7": {
+      "Type": "AWS::IAM::Policy",
+      "Properties": {
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": [
+                "s3:GetObject*",
+                "s3:GetBucket*",
+                "s3:List*",
+                "s3:DeleteObject*",
+                "s3:PutObject",
+                "s3:PutObjectLegalHold",
+                "s3:PutObjectRetention",
+                "s3:PutObjectTagging",
+                "s3:PutObjectVersionTagging",
+                "s3:Abort*"
+              ],
+              "Effect": "Allow",
+              "Resource": [
+                {
+                  "Fn::GetAtt": [
+                    "PlayRecordsBucket747A7EDE",
+                    "Arn"
+                  ]
+                },
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      {
+                        "Fn::GetAtt": [
+                          "PlayRecordsBucket747A7EDE",
+                          "Arn"
+                        ]
+                      },
+                      "/*"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "Version": "2012-10-17"
+        },
+        "PolicyName": "BoardGamesAPIPutPlayrecordsUpdateServiceRoleDefaultPolicyEACB5CD7",
+        "Roles": [
+          {
+            "Ref": "BoardGamesAPIPutPlayrecordsUpdateServiceRole347B45F8"
+          }
+        ]
+      }
+    },
+    "BoardGamesAPIPutPlayrecordsUpdate653F5EA5": {
+      "Type": "AWS::Lambda::Function",
+      "Properties": {
+        "Code": {
+          "S3Bucket": "cdk-hnb659fds-assets-1234567890-eu-west-2",
+          "S3Key": "6b2a5028f1061aa9bc9a08f65b987cbabcae34762bd90bbd772cda9504df4b8c.zip"
+        },
+        "Role": {
+          "Fn::GetAtt": [
+            "BoardGamesAPIPutPlayrecordsUpdateServiceRole347B45F8",
+            "Arn"
+          ]
+        },
+        "Environment": {
+          "Variables": {
+            "DATA_BUCKET_NAME": {
+              "Ref": "PlayRecordsBucket747A7EDE"
+            },
+            "AWS_NODEJS_CONNECTION_REUSE_ENABLED": "1"
+          }
+        },
+        "Handler": "index.handler",
+        "MemorySize": 256,
+        "Runtime": "nodejs18.x",
+        "Timeout": 25
+      },
+      "DependsOn": [
+        "BoardGamesAPIPutPlayrecordsUpdateServiceRoleDefaultPolicyEACB5CD7",
+        "BoardGamesAPIPutPlayrecordsUpdateServiceRole347B45F8"
+      ]
+    },
     "BoardGamesAPIGetPlayrecordsListServiceRole9A5178B5": {
       "Type": "AWS::IAM::Role",
       "Properties": {
@@ -2331,236 +2930,6 @@
       "DependsOn": [
         "BoardGamesAPIGetPlayrecordsListDateCodeServiceRoleDefaultPolicyD6747F9E",
         "BoardGamesAPIGetPlayrecordsListDateCodeServiceRole7D9AFA38"
-      ]
-    },
-    "BoardGamesAPIPostPlayrecordsCreateServiceRole40521D15": {
-      "Type": "AWS::IAM::Role",
-      "Properties": {
-        "AssumeRolePolicyDocument": {
-          "Statement": [
-            {
-              "Action": "sts:AssumeRole",
-              "Effect": "Allow",
-              "Principal": {
-                "Service": "lambda.amazonaws.com"
-              }
-            }
-          ],
-          "Version": "2012-10-17"
-        },
-        "ManagedPolicyArns": [
-          {
-            "Fn::Join": [
-              "",
-              [
-                "arn:",
-                {
-                  "Ref": "AWS::Partition"
-                },
-                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
-              ]
-            ]
-          }
-        ]
-      }
-    },
-    "BoardGamesAPIPostPlayrecordsCreateServiceRoleDefaultPolicyD3CB5C05": {
-      "Type": "AWS::IAM::Policy",
-      "Properties": {
-        "PolicyDocument": {
-          "Statement": [
-            {
-              "Action": [
-                "s3:GetObject*",
-                "s3:GetBucket*",
-                "s3:List*",
-                "s3:DeleteObject*",
-                "s3:PutObject",
-                "s3:PutObjectLegalHold",
-                "s3:PutObjectRetention",
-                "s3:PutObjectTagging",
-                "s3:PutObjectVersionTagging",
-                "s3:Abort*"
-              ],
-              "Effect": "Allow",
-              "Resource": [
-                {
-                  "Fn::GetAtt": [
-                    "PlayRecordsBucket747A7EDE",
-                    "Arn"
-                  ]
-                },
-                {
-                  "Fn::Join": [
-                    "",
-                    [
-                      {
-                        "Fn::GetAtt": [
-                          "PlayRecordsBucket747A7EDE",
-                          "Arn"
-                        ]
-                      },
-                      "/*"
-                    ]
-                  ]
-                }
-              ]
-            }
-          ],
-          "Version": "2012-10-17"
-        },
-        "PolicyName": "BoardGamesAPIPostPlayrecordsCreateServiceRoleDefaultPolicyD3CB5C05",
-        "Roles": [
-          {
-            "Ref": "BoardGamesAPIPostPlayrecordsCreateServiceRole40521D15"
-          }
-        ]
-      }
-    },
-    "BoardGamesAPIPostPlayrecordsCreate07E1DBBB": {
-      "Type": "AWS::Lambda::Function",
-      "Properties": {
-        "Code": {
-          "S3Bucket": "cdk-hnb659fds-assets-1234567890-eu-west-2",
-          "S3Key": "3edbce4f3edc8ad75e008a33d7fcb20886247bf881efa9feef1778627c4a0021.zip"
-        },
-        "Role": {
-          "Fn::GetAtt": [
-            "BoardGamesAPIPostPlayrecordsCreateServiceRole40521D15",
-            "Arn"
-          ]
-        },
-        "Environment": {
-          "Variables": {
-            "DATA_BUCKET_NAME": {
-              "Ref": "PlayRecordsBucket747A7EDE"
-            },
-            "AWS_NODEJS_CONNECTION_REUSE_ENABLED": "1"
-          }
-        },
-        "Handler": "index.handler",
-        "MemorySize": 256,
-        "Runtime": "nodejs18.x",
-        "Timeout": 25
-      },
-      "DependsOn": [
-        "BoardGamesAPIPostPlayrecordsCreateServiceRoleDefaultPolicyD3CB5C05",
-        "BoardGamesAPIPostPlayrecordsCreateServiceRole40521D15"
-      ]
-    },
-    "BoardGamesAPIPutPlayrecordsUpdateServiceRole347B45F8": {
-      "Type": "AWS::IAM::Role",
-      "Properties": {
-        "AssumeRolePolicyDocument": {
-          "Statement": [
-            {
-              "Action": "sts:AssumeRole",
-              "Effect": "Allow",
-              "Principal": {
-                "Service": "lambda.amazonaws.com"
-              }
-            }
-          ],
-          "Version": "2012-10-17"
-        },
-        "ManagedPolicyArns": [
-          {
-            "Fn::Join": [
-              "",
-              [
-                "arn:",
-                {
-                  "Ref": "AWS::Partition"
-                },
-                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
-              ]
-            ]
-          }
-        ]
-      }
-    },
-    "BoardGamesAPIPutPlayrecordsUpdateServiceRoleDefaultPolicyEACB5CD7": {
-      "Type": "AWS::IAM::Policy",
-      "Properties": {
-        "PolicyDocument": {
-          "Statement": [
-            {
-              "Action": [
-                "s3:GetObject*",
-                "s3:GetBucket*",
-                "s3:List*",
-                "s3:DeleteObject*",
-                "s3:PutObject",
-                "s3:PutObjectLegalHold",
-                "s3:PutObjectRetention",
-                "s3:PutObjectTagging",
-                "s3:PutObjectVersionTagging",
-                "s3:Abort*"
-              ],
-              "Effect": "Allow",
-              "Resource": [
-                {
-                  "Fn::GetAtt": [
-                    "PlayRecordsBucket747A7EDE",
-                    "Arn"
-                  ]
-                },
-                {
-                  "Fn::Join": [
-                    "",
-                    [
-                      {
-                        "Fn::GetAtt": [
-                          "PlayRecordsBucket747A7EDE",
-                          "Arn"
-                        ]
-                      },
-                      "/*"
-                    ]
-                  ]
-                }
-              ]
-            }
-          ],
-          "Version": "2012-10-17"
-        },
-        "PolicyName": "BoardGamesAPIPutPlayrecordsUpdateServiceRoleDefaultPolicyEACB5CD7",
-        "Roles": [
-          {
-            "Ref": "BoardGamesAPIPutPlayrecordsUpdateServiceRole347B45F8"
-          }
-        ]
-      }
-    },
-    "BoardGamesAPIPutPlayrecordsUpdate653F5EA5": {
-      "Type": "AWS::Lambda::Function",
-      "Properties": {
-        "Code": {
-          "S3Bucket": "cdk-hnb659fds-assets-1234567890-eu-west-2",
-          "S3Key": "6b2a5028f1061aa9bc9a08f65b987cbabcae34762bd90bbd772cda9504df4b8c.zip"
-        },
-        "Role": {
-          "Fn::GetAtt": [
-            "BoardGamesAPIPutPlayrecordsUpdateServiceRole347B45F8",
-            "Arn"
-          ]
-        },
-        "Environment": {
-          "Variables": {
-            "DATA_BUCKET_NAME": {
-              "Ref": "PlayRecordsBucket747A7EDE"
-            },
-            "AWS_NODEJS_CONNECTION_REUSE_ENABLED": "1"
-          }
-        },
-        "Handler": "index.handler",
-        "MemorySize": 256,
-        "Runtime": "nodejs18.x",
-        "Timeout": 25
-      },
-      "DependsOn": [
-        "BoardGamesAPIPutPlayrecordsUpdateServiceRoleDefaultPolicyEACB5CD7",
-        "BoardGamesAPIPutPlayrecordsUpdateServiceRole347B45F8"
       ]
     },
     "BoardGamesAPIDeletePlayrecordsDeleteServiceRole0D3F1B57": {

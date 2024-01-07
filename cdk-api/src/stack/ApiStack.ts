@@ -11,6 +11,7 @@ import ListPlayRecordsEndpoint from './endpoints/ListPlayrecords/metadata'
 import CreatePlayRecordEndpoint from './endpoints/CreatePlayrecord/metadata'
 import DeletePlayRecordEndpoint from './endpoints/DeletePlayrecord/metadata'
 import ListPlayRecordsByDateEndpoint from './endpoints/ListPlayrecordsByDate/metadata'
+import ViewPlayRecordEndpoint from './endpoints/ViewPlayrecord/metadata'
 import UpdatePlayRecordEndpoint from './endpoints/UpdatePlayrecord/metadata'
 
 import { Resources } from './Resources'
@@ -42,10 +43,11 @@ export class ApiStack extends cdk.Stack {
         'GET /status': new StatusEndpoint(),
         'GET /openapi': new OpenAPISpecEndpoint(),
         'GET /hello/{name}': new HelloWorldEndpoint(),
+        'POST /playrecords/create': new CreatePlayRecordEndpoint(resources),
+        'GET /playrecords/view/:playRecordKey': new ViewPlayRecordEndpoint(resources),
+        'PUT /playrecords/update': new UpdatePlayRecordEndpoint(resources),
         'GET /playrecords/list': new ListPlayRecordsEndpoint(resources),
         'GET /playrecords/list/{dateCode}': new ListPlayRecordsByDateEndpoint(resources),
-        'POST /playrecords/create': new CreatePlayRecordEndpoint(resources),
-        'PUT /playrecords/update': new UpdatePlayRecordEndpoint(resources),
         'DELETE /playrecords/delete': new DeletePlayRecordEndpoint(resources)
       })
       .report()
