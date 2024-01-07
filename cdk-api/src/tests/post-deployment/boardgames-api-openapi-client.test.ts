@@ -122,6 +122,8 @@ describe('Open API Spec', () => {
         '/playrecords/delete',
         '/playrecords/list',
         '/playrecords/list/{dateCode}',
+        '/playrecords/update',
+        '/playrecords/view/{playRecordKey}',
         '/status'
       ])
     })
@@ -139,6 +141,8 @@ describe('Open API Spec', () => {
           'helloWorld',
           'listPlayRecords',
           'listPlayRecordsByDate',
+          'viewPlayRecord',
+          'updatePlayRecord',
           'createPlayRecord',
           'deletePlayRecord'
         ])

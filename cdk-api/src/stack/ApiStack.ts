@@ -44,10 +44,10 @@ export class ApiStack extends cdk.Stack {
         'GET /openapi': new OpenAPISpecEndpoint(),
         'GET /hello/{name}': new HelloWorldEndpoint(),
         'POST /playrecords/create': new CreatePlayRecordEndpoint(resources),
-        'GET /playrecords/view/:playRecordKey': new ViewPlayRecordEndpoint(resources),
-        'PUT /playrecords/update': new UpdatePlayRecordEndpoint(resources),
         'GET /playrecords/list': new ListPlayRecordsEndpoint(resources),
         'GET /playrecords/list/{dateCode}': new ListPlayRecordsByDateEndpoint(resources),
+        'PUT /playrecords/update': new UpdatePlayRecordEndpoint(resources),
+        'GET /playrecords/view/{playRecordKey}': new ViewPlayRecordEndpoint(resources),
         'DELETE /playrecords/delete': new DeletePlayRecordEndpoint(resources)
       })
       .report()
