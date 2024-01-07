@@ -2,7 +2,7 @@ import { Construct } from 'constructs'
 import AppModels from '../../models/ApiModels'
 
 import path from 'path'
-import { NodejsFunction } from 'aws-cdk-lib/aws-lambda-nodejs'
+import { NodejsFunction, NodejsFunctionProps } from 'aws-cdk-lib/aws-lambda-nodejs'
 import { MethodResponse } from 'aws-cdk-lib/aws-apigateway'
 import { Resources } from '../../Resources'
 import { OpenAPIRouteMetadata } from '@connected-web/openapi-rest-api'
@@ -14,6 +14,14 @@ export default class StatusEndpoint extends OpenAPIRouteMetadata<Resources> {
 
   get routeEntryPoint (): string {
     return path.join(__dirname, 'handler.ts')
+  }
+
+  get lambdaConfig (): NodejsFunctionProps {
+    return {
+      environment: {
+        STATUS_INFO: JSON.stringify({ deploymentTime: new Date().toISOString() })
+      }
+    }
   }
 
   get methodResponses (): MethodResponse[] {

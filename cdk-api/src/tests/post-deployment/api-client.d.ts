@@ -9,20 +9,40 @@ import type {
 declare namespace Components {
   namespace Schemas {
     /**
-         * Basic Object
-         * A basic JSON object with key value pairs
-         */
-    export interface BasicObjectModel {
-      [name: string]: any
-    }
-    /**
          * Message
          */
-    export interface MessageResponseModel {
+    export interface MessageModel {
       /**
              * The message returned by the server
              */
       message: string
+    }
+    /**
+         * OpenAPI Spec
+         */
+    export interface OpenAPISpecModel {
+      /**
+             * The OpenAPI components
+             */
+      components: {
+        [key: string]: any
+      }
+      /**
+             * The OpenAPI version
+             */
+      openapi: string
+      /**
+             * The OpenAPI paths
+             */
+      paths: {
+        [key: string]: any
+      }
+      /**
+             * The OpenAPI info
+             */
+      info: {
+        [key: string]: any
+      }
     }
     /**
          * Play Record
@@ -47,7 +67,7 @@ declare namespace Components {
     /**
          * Status
          */
-    export interface StatusResponseModel {
+    export interface StatusModel {
       /**
              * The UTC timestamp representing the last time the server was updated
              */
@@ -56,36 +76,50 @@ declare namespace Components {
   }
 }
 declare namespace Paths {
-  namespace CreatePlayRecord {
+  namespace DeletePlayrecordsDelete {
     namespace Responses {
-      export type $200 = /**
-             * Basic Object
-             * A basic JSON object with key value pairs
-             */
-            Components.Schemas.BasicObjectModel
-    }
-  }
-  namespace DeletePlayRecord {
-    namespace Responses {
-      export type $200 = /**
-             * Basic Object
-             * A basic JSON object with key value pairs
-             */
-            Components.Schemas.BasicObjectModel
+      export type $200 = /* Message */ Components.Schemas.MessageModel
     }
   }
   namespace GetOpenAPISpec {
     namespace Responses {
-      export type $200 = /**
-             * Basic Object
-             * A basic JSON object with key value pairs
-             */
-            Components.Schemas.BasicObjectModel
+      export type $200 = /* OpenAPI Spec */ Components.Schemas.OpenAPISpecModel
+    }
+  }
+  namespace GetPlayrecordsList {
+    namespace Responses {
+      export type $200 = /* Play Records */ Components.Schemas.PlayRecordsModel
+    }
+  }
+  namespace GetPlayrecordsListDateCode {
+    namespace Parameters {
+      export type DateCode = string
+      export type ForceUpdate = string
+    }
+    export interface PathParameters {
+      dateCode: Parameters.DateCode
+    }
+    export interface QueryParameters {
+      forceUpdate?: Parameters.ForceUpdate
+    }
+    namespace Responses {
+      export type $200 = /* Play Records */ Components.Schemas.PlayRecordsModel
+    }
+  }
+  namespace GetPlayrecordsViewPlayRecordKey {
+    namespace Parameters {
+      export type PlayRecordKey = string
+    }
+    export interface PathParameters {
+      playRecordKey: Parameters.PlayRecordKey
+    }
+    namespace Responses {
+      export type $200 = /* Message */ Components.Schemas.MessageModel
     }
   }
   namespace GetStatus {
     namespace Responses {
-      export type $200 = /* Status */ Components.Schemas.StatusResponseModel
+      export type $200 = /* Status */ Components.Schemas.StatusModel
     }
   }
   namespace Hello$Name {
@@ -106,23 +140,7 @@ declare namespace Paths {
       name: Parameters.Name
     }
     namespace Responses {
-      export type $200 = /* Message */ Components.Schemas.MessageResponseModel
-    }
-  }
-  namespace ListPlayRecords {
-    namespace Responses {
-      export type $200 = /* Play Records */ Components.Schemas.PlayRecordsModel
-    }
-  }
-  namespace ListPlayRecordsByDate {
-    namespace Parameters {
-      export type DateCode = string
-    }
-    export interface PathParameters {
-      dateCode: Parameters.DateCode
-    }
-    namespace Responses {
-      export type $200 = /* Play Records */ Components.Schemas.PlayRecordsModel
+      export type $200 = /* Message */ Components.Schemas.MessageModel
     }
   }
   namespace PlayrecordsList$DateCode {
@@ -135,53 +153,55 @@ declare namespace Paths {
       }
     }
   }
+  namespace PlayrecordsView$PlayRecordKey {
+    namespace Options {
+      namespace Parameters {
+        export type PlayRecordKey = string
+      }
+      export interface PathParameters {
+        playRecordKey: Parameters.PlayRecordKey
+      }
+    }
+  }
+  namespace PostPlayrecordsCreate {
+    export type RequestBody = /* Play Record */ Components.Schemas.PlayRecordModel
+    namespace Responses {
+      export type $200 = /* Message */ Components.Schemas.MessageModel
+    }
+  }
+  namespace PutPlayrecordsUpdate {
+    export type RequestBody = /* Play Record */ Components.Schemas.PlayRecordModel
+    namespace Responses {
+      export type $200 = /* Message */ Components.Schemas.MessageModel
+    }
+  }
 }
 
 export interface OperationMethods {
   /**
-   * getStatus
+   * getPlayrecordsList
    */
-  'getStatus': (
+  'getPlayrecordsList': (
     parameters?: Parameters<UnknownParamsObject> | null,
     data?: any,
     config?: AxiosRequestConfig
-  ) => OperationResponse<Paths.GetStatus.Responses.$200>
+  ) => OperationResponse<Paths.GetPlayrecordsList.Responses.$200>
   /**
-   * listPlayRecords
+   * deletePlayrecordsDelete
    */
-  'listPlayRecords': (
+  'deletePlayrecordsDelete': (
     parameters?: Parameters<UnknownParamsObject> | null,
     data?: any,
     config?: AxiosRequestConfig
-  ) => OperationResponse<Paths.ListPlayRecords.Responses.$200>
+  ) => OperationResponse<Paths.DeletePlayrecordsDelete.Responses.$200>
   /**
-   * helloWorld
+   * getPlayrecordsViewPlayRecordKey
    */
-  'helloWorld': (
-    parameters?: Parameters<Paths.HelloWorld.PathParameters> | null,
+  'getPlayrecordsViewPlayRecordKey': (
+    parameters?: Parameters<Paths.GetPlayrecordsViewPlayRecordKey.PathParameters> | null,
     data?: any,
     config?: AxiosRequestConfig
-  ) => OperationResponse<Paths.HelloWorld.Responses.$200>
-  /**
-   * deletePlayRecord
-   */
-  'deletePlayRecord': ((
-    parameters?: Parameters<UnknownParamsObject> | null,
-    data?: any,
-    config?: AxiosRequestConfig
-  ) => OperationResponse<Paths.DeletePlayRecord.Responses.$200>) & ((
-    parameters?: Parameters<UnknownParamsObject> | null,
-    data?: any,
-    config?: AxiosRequestConfig
-  ) => OperationResponse<Paths.DeletePlayRecord.Responses.$200>)
-  /**
-   * listPlayRecordsByDate
-   */
-  'listPlayRecordsByDate': (
-    parameters?: Parameters<Paths.ListPlayRecordsByDate.PathParameters> | null,
-    data?: any,
-    config?: AxiosRequestConfig
-  ) => OperationResponse<Paths.ListPlayRecordsByDate.Responses.$200>
+  ) => OperationResponse<Paths.GetPlayrecordsViewPlayRecordKey.Responses.$200>
   /**
    * getOpenAPISpec
    */
@@ -191,20 +211,92 @@ export interface OperationMethods {
     config?: AxiosRequestConfig
   ) => OperationResponse<Paths.GetOpenAPISpec.Responses.$200>
   /**
-   * createPlayRecord
+   * getStatus
    */
-  'createPlayRecord': ((
+  'getStatus': (
     parameters?: Parameters<UnknownParamsObject> | null,
     data?: any,
     config?: AxiosRequestConfig
-  ) => OperationResponse<Paths.CreatePlayRecord.Responses.$200>) & ((
+  ) => OperationResponse<Paths.GetStatus.Responses.$200>
+  /**
+   * putPlayrecordsUpdate
+   */
+  'putPlayrecordsUpdate': (
     parameters?: Parameters<UnknownParamsObject> | null,
+    data?: Paths.PutPlayrecordsUpdate.RequestBody,
+    config?: AxiosRequestConfig
+  ) => OperationResponse<Paths.PutPlayrecordsUpdate.Responses.$200>
+  /**
+   * helloWorld
+   */
+  'helloWorld': (
+    parameters?: Parameters<Paths.HelloWorld.PathParameters> | null,
     data?: any,
     config?: AxiosRequestConfig
-  ) => OperationResponse<Paths.CreatePlayRecord.Responses.$200>)
+  ) => OperationResponse<Paths.HelloWorld.Responses.$200>
+  /**
+   * getPlayrecordsListDateCode
+   */
+  'getPlayrecordsListDateCode': (
+    parameters?: Parameters<Paths.GetPlayrecordsListDateCode.PathParameters & Paths.GetPlayrecordsListDateCode.QueryParameters> | null,
+    data?: any,
+    config?: AxiosRequestConfig
+  ) => OperationResponse<Paths.GetPlayrecordsListDateCode.Responses.$200>
+  /**
+   * postPlayrecordsCreate
+   */
+  'postPlayrecordsCreate': (
+    parameters?: Parameters<UnknownParamsObject> | null,
+    data?: Paths.PostPlayrecordsCreate.RequestBody,
+    config?: AxiosRequestConfig
+  ) => OperationResponse<Paths.PostPlayrecordsCreate.Responses.$200>
 }
 
 export interface PathsDictionary {
+  ['/playrecords/list']: {
+    /**
+     * getPlayrecordsList
+     */
+    'get': (
+      parameters?: Parameters<UnknownParamsObject> | null,
+      data?: any,
+      config?: AxiosRequestConfig
+    ) => OperationResponse<Paths.GetPlayrecordsList.Responses.$200>
+  }
+  ['/playrecords/view']: {
+  }
+  ['/playrecords/delete']: {
+    /**
+     * deletePlayrecordsDelete
+     */
+    'delete': (
+      parameters?: Parameters<UnknownParamsObject> | null,
+      data?: any,
+      config?: AxiosRequestConfig
+    ) => OperationResponse<Paths.DeletePlayrecordsDelete.Responses.$200>
+  }
+  ['/playrecords/view/{playRecordKey}']: {
+    /**
+     * getPlayrecordsViewPlayRecordKey
+     */
+    'get': (
+      parameters?: Parameters<Paths.GetPlayrecordsViewPlayRecordKey.PathParameters> | null,
+      data?: any,
+      config?: AxiosRequestConfig
+    ) => OperationResponse<Paths.GetPlayrecordsViewPlayRecordKey.Responses.$200>
+  }
+  ['/openapi']: {
+    /**
+     * getOpenAPISpec
+     */
+    'get': (
+      parameters?: Parameters<UnknownParamsObject> | null,
+      data?: any,
+      config?: AxiosRequestConfig
+    ) => OperationResponse<Paths.GetOpenAPISpec.Responses.$200>
+  }
+  ['/']: {
+  }
   ['/status']: {
     /**
      * getStatus
@@ -215,15 +307,15 @@ export interface PathsDictionary {
       config?: AxiosRequestConfig
     ) => OperationResponse<Paths.GetStatus.Responses.$200>
   }
-  ['/playrecords/list']: {
+  ['/playrecords/update']: {
     /**
-     * listPlayRecords
+     * putPlayrecordsUpdate
      */
-    'get': (
+    'put': (
       parameters?: Parameters<UnknownParamsObject> | null,
-      data?: any,
+      data?: Paths.PutPlayrecordsUpdate.RequestBody,
       config?: AxiosRequestConfig
-    ) => OperationResponse<Paths.ListPlayRecords.Responses.$200>
+    ) => OperationResponse<Paths.PutPlayrecordsUpdate.Responses.$200>
   }
   ['/playrecords']: {
   }
@@ -237,63 +329,25 @@ export interface PathsDictionary {
       config?: AxiosRequestConfig
     ) => OperationResponse<Paths.HelloWorld.Responses.$200>
   }
-  ['/playrecords/delete']: {
-    /**
-     * deletePlayRecord
-     */
-    'get': (
-      parameters?: Parameters<UnknownParamsObject> | null,
-      data?: any,
-      config?: AxiosRequestConfig
-    ) => OperationResponse<Paths.DeletePlayRecord.Responses.$200>
-    /**
-     * deletePlayRecord
-     */
-    'delete': (
-      parameters?: Parameters<UnknownParamsObject> | null,
-      data?: any,
-      config?: AxiosRequestConfig
-    ) => OperationResponse<Paths.DeletePlayRecord.Responses.$200>
-  }
   ['/playrecords/list/{dateCode}']: {
     /**
-     * listPlayRecordsByDate
+     * getPlayrecordsListDateCode
      */
     'get': (
-      parameters?: Parameters<Paths.ListPlayRecordsByDate.PathParameters> | null,
+      parameters?: Parameters<Paths.GetPlayrecordsListDateCode.PathParameters & Paths.GetPlayrecordsListDateCode.QueryParameters> | null,
       data?: any,
       config?: AxiosRequestConfig
-    ) => OperationResponse<Paths.ListPlayRecordsByDate.Responses.$200>
-  }
-  ['/openapi']: {
-    /**
-     * getOpenAPISpec
-     */
-    'get': (
-      parameters?: Parameters<UnknownParamsObject> | null,
-      data?: any,
-      config?: AxiosRequestConfig
-    ) => OperationResponse<Paths.GetOpenAPISpec.Responses.$200>
+    ) => OperationResponse<Paths.GetPlayrecordsListDateCode.Responses.$200>
   }
   ['/playrecords/create']: {
     /**
-     * createPlayRecord
-     */
-    'get': (
-      parameters?: Parameters<UnknownParamsObject> | null,
-      data?: any,
-      config?: AxiosRequestConfig
-    ) => OperationResponse<Paths.CreatePlayRecord.Responses.$200>
-    /**
-     * createPlayRecord
+     * postPlayrecordsCreate
      */
     'post': (
       parameters?: Parameters<UnknownParamsObject> | null,
-      data?: any,
+      data?: Paths.PostPlayrecordsCreate.RequestBody,
       config?: AxiosRequestConfig
-    ) => OperationResponse<Paths.CreatePlayRecord.Responses.$200>
-  }
-  ['/']: {
+    ) => OperationResponse<Paths.PostPlayrecordsCreate.Responses.$200>
   }
   ['/hello']: {
   }
