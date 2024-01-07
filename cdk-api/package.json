@@ -11,7 +11,7 @@
     "test": "ts-standard && npm run test:unit && npm run test:pre-deployment",
     "test:unit": "jest src/tests/unit/**.test.ts",
     "test:pre-deployment": "jest src/tests/pre-deployment/**.test.ts",
-    "test:post-deployment": "jest src/tests/post-deployment/**.test.ts",
+    "test:post-deployment": "npm run typegen:for-post-deployment && jest src/tests/post-deployment/**.test.ts",
     "typegen:for-post-deployment": "typegen src/tests/post-deployment/downloaded-app-openapi.json > src/tests/post-deployment/api-client.d.ts && npm run lint",
     "lint": "ts-standard --fix"
   },
