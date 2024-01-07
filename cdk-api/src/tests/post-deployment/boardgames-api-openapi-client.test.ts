@@ -179,7 +179,7 @@ describe('Open API Spec', () => {
       expect(ajv.errors ?? []).toEqual([])
     })
 
-    it.only('should be possible to getStatus', async () => {
+    it('should be possible to getStatus', async () => {
       const response = await appClient.getStatus()
 
       console.log('Get Status:', response.status, response.statusText, JSON.stringify(response.data, null, 2))
