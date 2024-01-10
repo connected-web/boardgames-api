@@ -39,6 +39,26 @@ export default class UpdatePlayRecordEndpoint extends OpenAPIRouteMetadata<Resou
         'method.response.header.Access-Control-Allow-Credentials': true
       },
       responseModels: {
+        'application/json': AppModels.updatedPlayrecord
+      }
+    }, {
+      statusCode: '400',
+      responseParameters: {
+        'method.response.header.Content-Type': true,
+        'method.response.header.Access-Control-Allow-Origin': true,
+        'method.response.header.Access-Control-Allow-Credentials': true
+      },
+      responseModels: {
+        'application/json': AppModels.message
+      }
+    }, {
+      statusCode: '500',
+      responseParameters: {
+        'method.response.header.Content-Type': true,
+        'method.response.header.Access-Control-Allow-Origin': true,
+        'method.response.header.Access-Control-Allow-Credentials': true
+      },
+      responseModels: {
         'application/json': AppModels.message
       }
     }]
