@@ -46,9 +46,9 @@ export default class AppModels extends OpenAPIBasicModels {
   }
 
   static get updatedPlayrecord (): IModel {
-    return OpenAPIBasicModels.modelFactory?.create('Message', {
+    return OpenAPIBasicModels.modelFactory?.create('UpdatedPlayrecord', {
       schema: JsonSchemaVersion.DRAFT4,
-      title: 'Message',
+      title: 'Updated Playrecord',
       type: JsonSchemaType.OBJECT,
       properties: {
         message: {

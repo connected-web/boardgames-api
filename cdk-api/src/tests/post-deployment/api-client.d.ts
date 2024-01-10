@@ -114,7 +114,8 @@ declare namespace Paths {
       playRecordKey: Parameters.PlayRecordKey
     }
     namespace Responses {
-      export type $200 = /* Message */ Components.Schemas.MessageModel
+      export type $200 = /* Play Record */ Components.Schemas.PlayRecordModel
+      export type $400 = /* Message */ Components.Schemas.MessageModel
     }
   }
   namespace GetStatus {
@@ -173,6 +174,8 @@ declare namespace Paths {
     export type RequestBody = /* Play Record */ Components.Schemas.PlayRecordModel
     namespace Responses {
       export type $200 = /* Message */ Components.Schemas.MessageModel
+      export type $400 = /* Message */ Components.Schemas.MessageModel
+      export type $500 = /* Message */ Components.Schemas.MessageModel
     }
   }
 }
