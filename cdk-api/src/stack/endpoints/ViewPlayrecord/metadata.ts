@@ -39,17 +39,17 @@ export default class ViewPlayRecordEndpoint extends OpenAPIRouteMetadata<Resourc
         'method.response.header.Access-Control-Allow-Credentials': true
       },
       responseModels: {
-        'application/json': AppModels.message
+        'application/json': AppModels.playRecord
       }
     }, {
-      statusCode: '200',
+      statusCode: '400',
       responseParameters: {
         'method.response.header.Content-Type': true,
         'method.response.header.Access-Control-Allow-Origin': true,
         'method.response.header.Access-Control-Allow-Credentials': true
       },
       responseModels: {
-        'application/json': AppModels.playRecord
+        'application/json': AppModels.message
       }
     }]
   }
