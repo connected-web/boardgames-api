@@ -8,48 +8,56 @@
       "date": "2020-01-20",
       "winner": "Hannah",
       "coOp": "No",
-      "gameFamily": "Splendor"
+      "gameFamily": "Splendor",
+      "source": "gsheets://1FyeEeWPKch4jVoBoD_lB89GbsUPkYTESkfIeknUhyJw/2020/19"
     },
     {
       "date": "2020-01-26",
       "winner": "John",
       "coOp": "Yes",
-      "gameFamily": "Splendor"
+      "gameFamily": "Splendor",
+      "source": "gsheets://1FyeEeWPKch4jVoBoD_lB89GbsUPkYTESkfIeknUhyJw/2020/27"
     },
     {
       "date": "2020-08-24",
       "winner": "John",
       "coOp": "No",
-      "gameFamily": "Splendor"
+      "gameFamily": "Splendor",
+      "source": "gsheets://1FyeEeWPKch4jVoBoD_lB89GbsUPkYTESkfIeknUhyJw/2020/29"
     },
     {
       "date": "2021-07-24",
       "winner": "John",
       "coOp": "No",
-      "gameFamily": "Wildcard"
+      "gameFamily": "Wildcard",
+      "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/7"
     },
     {
       "date": "2021-12-26",
       "winner": "Hannah",
-      "coOp": "No"
+      "coOp": "No",
+      "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/15"
     },
     {
       "date": "2022-10-16",
       "winner": "Hannah",
       "coOp": "no",
-      "noOfPlayers": 2
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/10/2022-10-17T16:54:13.698Z.json"
     },
     {
       "date": "2023-01-15",
       "winner": "Hannah",
       "coOp": "no",
-      "noOfPlayers": 2
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/01/2023-01-17T20:16:47.637Z.json"
     },
     {
       "date": "2023-04-20",
       "winner": "John",
       "coOp": "no",
-      "noOfPlayers": 2
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/05/2023-05-04T10:34:27.889Z.json"
     }
   ],
   "totalGamesPlayed": 8,

@@ -2,11 +2,11 @@
   "name": "Ungrouped",
   "gameFamilyId": "ungrouped",
   "earliestDate": "2018-01-03",
-  "latestDate": "2023-11-17",
+  "latestDate": "2023-11-24",
   "sequenceStartDate": "2018-01-03",
-  "sequenceEndDate": "2023-11-17",
-  "daysInSequence": 2145,
-  "daysWithUnplayedGames": 1845,
+  "sequenceEndDate": "2023-11-24",
+  "daysInSequence": 2152,
+  "daysWithUnplayedGames": 1850,
   "gamesPlayedPerDay": {
     "1": 1,
     "2": 0,
@@ -2152,42 +2152,55 @@
     "2142": 0,
     "2143": 2,
     "2144": 0,
-    "2145": 1
+    "2145": 1,
+    "2146": 0,
+    "2147": 0,
+    "2148": 0,
+    "2149": 0,
+    "2150": 0,
+    "2151": 1,
+    "2152": 1
   },
   "gamesPlayed": [
     {
       "date": "2018-01-03",
       "coOp": "Yes",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/3",
       "name": "Dungeons & Dragons Starter Set"
     },
     {
       "date": "2018-01-06",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/8",
       "name": "Heart of Crown"
     },
     {
       "date": "2018-01-08",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/10",
       "name": "Deadly Premonition: The Board Game"
     },
     {
       "date": "2018-01-09",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/11",
       "name": "Heart of Crown"
     },
     {
       "date": "2018-01-11",
       "coOpOutcome": "Heroes won",
       "coOp": "Yes",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/14",
       "name": "Betrayal at House on the Hill"
     },
     {
       "date": "2018-01-11",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/13",
       "name": "Game of Thrones: Westeros Intrigue"
     },
     {
@@ -2195,12 +2208,14 @@
       "coOpOutcome": "Won",
       "coOp": "Yes",
       "notes": "OP event at FB3",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/16",
       "name": "Arkham Horror: The Card Game"
     },
     {
       "date": "2018-01-15",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/19",
       "name": "7 Wonders Duel"
     },
     {
@@ -2208,12 +2223,14 @@
       "winner": "John",
       "coOp": "No",
       "notes": "New decks trial",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/22",
       "name": "A Game of Thrones: The Card Game (Second Edition)"
     },
     {
       "date": "2018-01-18",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/23",
       "name": "The Castles of Burgundy"
     },
     {
@@ -2221,12 +2238,14 @@
       "winner": "Hannah",
       "coOp": "No",
       "notes": "The Commonwealth",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/26",
       "name": "Fallout"
     },
     {
       "date": "2018-01-22",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/27",
       "name": "The Castles of Burgundy"
     },
     {
@@ -2234,6 +2253,7 @@
       "winner": "Hannah",
       "coOp": "No",
       "notes": "Far Harbour",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/33",
       "name": "Fallout"
     },
     {
@@ -2241,12 +2261,14 @@
       "winner": "Hannah",
       "coOp": "Yes",
       "notes": "Cylons won. Hannah was a Cylon",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/34",
       "name": "Battlestar Galactica: The Board Game"
     },
     {
       "date": "2018-01-31",
       "coOp": "Yes",
       "notes": "Score: 295",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/41",
       "name": "Carcassonne: The River"
     },
     {
@@ -2254,24 +2276,28 @@
       "coOpOutcome": "Lost",
       "coOp": "Yes",
       "notes": "Box 1",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/40",
       "name": "Harry Potter: Hogwarts Battle – The Monster Box of Monsters Expansion"
     },
     {
       "date": "2018-02-01",
       "coOpOutcome": "Won",
       "coOp": "Yes",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/0",
       "name": "Harry Potter: Hogwarts Battle – The Monster Box of Monsters Expansion"
     },
     {
       "date": "2018-02-05",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/6",
       "name": "Heart of Crown"
     },
     {
       "date": "2018-02-07",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/10",
       "name": "Grifters"
     },
     {
@@ -2279,18 +2305,21 @@
       "coOpOutcome": "Heroes lost",
       "coOp": "Yes",
       "notes": "2 player, each playing two characters",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/13",
       "name": "Betrayal at House on the Hill"
     },
     {
       "date": "2018-02-12",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/16",
       "name": "Game of Thrones: Westeros Intrigue"
     },
     {
       "date": "2018-02-17",
       "coOp": "Yes",
       "notes": "Co-op score: 340",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/22",
       "name": "Carcassonne: The River"
     },
     {
@@ -2298,6 +2327,7 @@
       "coOpOutcome": "Heroes won",
       "coOp": "Yes",
       "notes": "John was betrayer",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/25",
       "name": "Betrayal at Baldur's Gate"
     },
     {
@@ -2305,12 +2335,14 @@
       "coOpOutcome": "Won",
       "coOp": "Yes",
       "notes": "Tutorial game",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/24",
       "name": "Unicornus Knights"
     },
     {
       "date": "2018-02-19",
       "coOpOutcome": "Lost",
       "coOp": "Yes",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/27",
       "name": "Flash Point: Fire Rescue"
     },
     {
@@ -2318,36 +2350,42 @@
       "coOpOutcome": "Won",
       "coOp": "Yes",
       "notes": "Just about!",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/28",
       "name": "Flash Point: Fire Rescue"
     },
     {
       "date": "2018-02-21",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/29",
       "name": "Grifters"
     },
     {
       "date": "2018-02-22",
       "coOp": "Yes",
       "notes": "Score: 344",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/30",
       "name": "Carcassonne: The River"
     },
     {
       "date": "2018-02-22",
       "coOpOutcome": "Won",
       "coOp": "Yes",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/31",
       "name": "Flash Point: Fire Rescue"
     },
     {
       "date": "2018-02-23",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/32",
       "name": "Tortuga 1667"
     },
     {
       "date": "2018-02-24",
       "coOpOutcome": "Lost",
       "coOp": "Yes",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/34",
       "name": "Legendary Encounters: A Firefly Deck Building Game"
     },
     {
@@ -2355,30 +2393,35 @@
       "coOpOutcome": "Heroes lost",
       "coOp": "Yes",
       "notes": "John was betrayer",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/36",
       "name": "Betrayal at House on the Hill"
     },
     {
       "date": "2018-02-26",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/39",
       "name": "Heart of Crown"
     },
     {
       "date": "2018-03-04",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/8",
       "name": "Machi Koro: Bright Lights, Big City"
     },
     {
       "date": "2018-03-04",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/7",
       "name": "Machi Koro: Bright Lights, Big City"
     },
     {
       "date": "2018-03-08",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/15",
       "name": "Heart of Crown"
     },
     {
@@ -2386,6 +2429,7 @@
       "coOpOutcome": "Won",
       "coOp": "Yes",
       "notes": "Night of the Zealot: Part 1",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/17",
       "name": "Arkham Horror: The Card Game"
     },
     {
@@ -2393,6 +2437,7 @@
       "coOpOutcome": "Won",
       "coOp": "Yes",
       "notes": "Night of the Zealot: Part 2",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/18",
       "name": "Arkham Horror: The Card Game"
     },
     {
@@ -2400,30 +2445,35 @@
       "coOpOutcome": "Won",
       "coOp": "Yes",
       "notes": "Night of the Zealot: Part 3",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/19",
       "name": "Arkham Horror: The Card Game"
     },
     {
       "date": "2018-03-11",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/20",
       "name": "Android: Mainframe"
     },
     {
       "date": "2018-03-15",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/24",
       "name": "Sagrada"
     },
     {
       "date": "2018-03-17",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/27",
       "name": "Ticket to Ride: USA 1910"
     },
     {
       "date": "2018-03-27",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/41",
       "name": "Love Letter: Legend of the Five Rings"
     },
     {
@@ -2431,18 +2481,21 @@
       "coOpOutcome": "Lost",
       "coOp": "Yes",
       "notes": "4 player",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/45",
       "name": "Tortuga 1667"
     },
     {
       "date": "2018-04-01",
       "coOpOutcome": "Win",
       "coOp": "Yes",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/0",
       "name": "Sherlock Holmes Consulting Detective: The Thames Murders & Other Cases"
     },
     {
       "date": "2018-04-02",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/2",
       "name": "Dominion: Intrigue (Second Edition)"
     },
     {
@@ -2450,12 +2503,14 @@
       "coOpOutcome": "Win",
       "coOp": "Yes",
       "notes": "Scenario 1",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/1",
       "name": "Gloomhaven"
     },
     {
       "date": "2018-04-03",
       "coOpOutcome": "Win",
       "coOp": "Yes",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/4",
       "name": "Flash Point: Fire Rescue"
     },
     {
@@ -2463,12 +2518,14 @@
       "coOpOutcome": "Lost",
       "coOp": "Yes",
       "notes": "Scenario 2",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/10",
       "name": "Gloomhaven"
     },
     {
       "date": "2018-04-08",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/11",
       "name": "Dominion: Intrigue (Second Edition)"
     },
     {
@@ -2477,12 +2534,14 @@
       "coOpOutcome": "Win",
       "coOp": "Yes",
       "notes": "6 player at Fanfest",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/18",
       "name": "Secret Hitler"
     },
     {
       "date": "2018-04-15",
       "coOp": "No",
       "notes": "6 player at Fanfest",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/20",
       "name": "Cards Against Humanity: EVE Edition"
     },
     {
@@ -2490,36 +2549,42 @@
       "coOpOutcome": "Win",
       "coOp": "Yes",
       "notes": "Score: 337",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/21",
       "name": "Carcassonne: The River"
     },
     {
       "date": "2018-04-27",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/34",
       "name": "Love Letter: Legend of the Five Rings"
     },
     {
       "date": "2018-04-29",
       "coOpOutcome": "Lost",
       "coOp": "Yes",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/40",
       "name": "T.I.M.E Stories"
     },
     {
       "date": "2018-04-29",
       "coOpOutcome": "Lost",
       "coOp": "Yes",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/41",
       "name": "T.I.M.E Stories"
     },
     {
       "date": "2018-04-29",
       "coOpOutcome": "Win",
       "coOp": "Yes",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/42",
       "name": "T.I.M.E Stories"
     },
     {
       "date": "2018-04-30",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/43",
       "name": "Game of Thrones: Westeros Intrigue"
     },
     {
@@ -2527,6 +2592,7 @@
       "coOpOutcome": "Lost",
       "coOp": "Yes",
       "notes": "Marcy case",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/5",
       "name": "T.I.M.E Stories: The Marcy Case"
     },
     {
@@ -2534,6 +2600,7 @@
       "coOpOutcome": "Lost",
       "coOp": "Yes",
       "notes": "Marcy case",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/6",
       "name": "T.I.M.E Stories: The Marcy Case"
     },
     {
@@ -2541,42 +2608,49 @@
       "coOpOutcome": "Won",
       "coOp": "Yes",
       "notes": "Marcy case",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/7",
       "name": "T.I.M.E Stories: The Marcy Case"
     },
     {
       "date": "2018-05-08",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/10",
       "name": "Dominion: Intrigue (Second Edition)"
     },
     {
       "date": "2018-05-09",
       "winner": "Draw",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/11",
       "name": "Bad Beets"
     },
     {
       "date": "2018-05-13",
       "coOpOutcome": "Won",
       "coOp": "Yes",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/17",
       "name": "Betrayal at House on the Hill"
     },
     {
       "date": "2018-05-16",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/20",
       "name": "Ticket to Ride: USA 1910"
     },
     {
       "date": "2018-05-17",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/21",
       "name": "Love Letter: Legend of the Five Rings"
     },
     {
       "date": "2018-05-19",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/23",
       "name": "Sagrada"
     },
     {
@@ -2584,12 +2658,14 @@
       "coOpOutcome": "Won",
       "coOp": "Yes",
       "notes": "Inns and Cathedrals - 594",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/26",
       "name": "Carcassonne Big Box 6"
     },
     {
       "date": "2018-05-25",
       "winner": "Draw",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/31",
       "name": "Dominion: Intrigue (Second Edition)"
     },
     {
@@ -2598,6 +2674,7 @@
       "coOp": "No",
       "notes": "Boardgames party",
       "mechanics": "5 player",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/34",
       "name": "Coup: Reformation"
     },
     {
@@ -2606,24 +2683,28 @@
       "coOp": "No",
       "notes": "Boardgames party",
       "mechanics": "5 player",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/35",
       "name": "Coup: Reformation"
     },
     {
       "date": "2018-05-27",
       "coOpOutcome": "Lost",
       "coOp": "Yes",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/38",
       "name": "Harry Potter: Hogwarts Battle – The Monster Box of Monsters Expansion"
     },
     {
       "date": "2018-05-29",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/41",
       "name": "The Castles of Burgundy"
     },
     {
       "date": "2018-06-01",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/0",
       "name": "The Castles of Burgundy"
     },
     {
@@ -2631,6 +2712,7 @@
       "winner": "Hannah",
       "coOpOutcome": "Lost",
       "coOp": "Yes",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/5",
       "name": "Fog of Love"
     },
     {
@@ -2638,6 +2720,7 @@
       "coOpOutcome": "Lost",
       "coOp": "Yes",
       "notes": "5P",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/2",
       "name": "Shadows Amsterdam"
     },
     {
@@ -2645,113 +2728,132 @@
       "coOpOutcome": "Lost",
       "coOp": "Yes",
       "notes": "5P",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/3",
       "name": "Shadows Amsterdam"
     },
     {
       "date": "2018-06-03",
       "coOpOutcome": "Won",
       "coOp": "Yes",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/11",
       "name": "Fog of Love"
     },
     {
       "date": "2018-06-03",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/9",
       "name": "Heroica: Fortaan"
     },
     {
       "date": "2018-06-09",
       "coOpOutcome": "Won",
       "coOp": "Yes",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/19",
       "name": "Carcassonne Big Box 6"
     },
     {
       "date": "2018-06-09",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/18",
       "name": "The Castles of Burgundy"
     },
     {
       "date": "2018-06-14",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/24",
       "name": "Heart of Crown"
     },
     {
       "date": "2018-06-17",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/27",
       "name": "Galaxy Trucker"
     },
     {
       "date": "2018-06-26",
       "coOpOutcome": "Lost",
       "coOp": "Yes",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/42",
       "name": "Pandemic: In the Lab"
     },
     {
       "date": "2018-06-27",
       "coOpOutcome": "Won",
       "coOp": "Yes",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/43",
       "name": "Pandemic: In the Lab"
     },
     {
       "date": "2018-07-12",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/13",
       "name": "Sagrada"
     },
     {
       "date": "2018-07-16",
       "coOp": "Yes",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/17",
       "name": "Untold: Adventures Await"
     },
     {
       "date": "2018-07-20",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/21",
       "name": "Dominion: Intrigue (Second Edition)"
     },
     {
       "date": "2018-07-21",
       "winner": "Draw",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/23",
       "name": "BioShock Infinite: The Siege of Columbia"
     },
     {
       "date": "2018-07-21",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/22",
       "name": "Twilight Struggle"
     },
     {
       "date": "2018-07-22",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/24",
       "name": "Fallout"
     },
     {
       "date": "2018-07-23",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/25",
       "name": "The Castles of Burgundy"
     },
     {
       "date": "2018-07-30",
       "coOp": "Yes",
       "notes": "Flying Machines",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/32",
       "name": "Carcassonne Big Box 6"
     },
     {
       "date": "2018-08-05",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/7",
       "name": "Love Letter Nordic"
     },
     {
       "date": "2018-08-05",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/6",
       "name": "The Pyramid's Deadline"
     },
     {
@@ -2759,42 +2861,49 @@
       "winner": "Hannah",
       "coOp": "No",
       "notes": "Europe map",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/10",
       "name": "Ticket to Ride: The Dice Expansion"
     },
     {
       "date": "2018-08-09",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/13",
       "name": "Love Letter Nordic"
     },
     {
       "date": "2018-08-10",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/14",
       "name": "Marrying Mr. Darcy: the Emma Expansion"
     },
     {
       "date": "2018-08-12",
       "coOpOutcome": "Lost",
       "coOp": "Yes",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/16",
       "name": "Dead of Winter: A Crossroads Game"
     },
     {
       "date": "2018-08-18",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/22",
       "name": "Love Letter: Legend of the Five Rings"
     },
     {
       "date": "2018-08-18",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/25",
       "name": "SpyNet"
     },
     {
       "date": "2018-08-18",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/27",
       "name": "Tortuga 1667"
     },
     {
@@ -2802,6 +2911,7 @@
       "winner": "Hannah",
       "coOp": "No",
       "notes": "4 player",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/30",
       "name": "Lords of Vegas"
     },
     {
@@ -2809,6 +2919,7 @@
       "winner": "Other",
       "coOp": "No",
       "notes": "3 player",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/35",
       "name": "Exploding Kittens"
     },
     {
@@ -2816,12 +2927,14 @@
       "winner": "John",
       "coOp": "No",
       "notes": "4 player",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/34",
       "name": "Fluxx"
     },
     {
       "date": "2018-08-25",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/38",
       "name": "Bunny Kingdom"
     },
     {
@@ -2829,24 +2942,28 @@
       "winner": "Hannah",
       "coOp": "No",
       "notes": "Hannah = runner",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/40",
       "name": "Android: Netrunner"
     },
     {
       "date": "2018-08-28",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/41",
       "name": "The Pyramid's Deadline"
     },
     {
       "date": "2018-09-03",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/5",
       "name": "Ticket to Ride: USA 1910"
     },
     {
       "date": "2018-09-06",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/8",
       "name": "Grifters"
     },
     {
@@ -2854,6 +2971,7 @@
       "winner": "Other",
       "coOp": "No",
       "notes": "4-player",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/20",
       "name": "Exploding Kittens"
     },
     {
@@ -2861,18 +2979,21 @@
       "winner": "Other",
       "coOp": "No",
       "notes": "4-player",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/21",
       "name": "Skull"
     },
     {
       "date": "2018-09-15",
       "coOpOutcome": "won",
       "coOp": "Yes",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/22",
       "name": "Arkham Horror: The Card Game – The Dunwich Legacy: Expansion"
     },
     {
       "date": "2018-09-16",
       "coOpOutcome": "won",
       "coOp": "Yes",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/23",
       "name": "Arkham Horror: The Card Game – The Dunwich Legacy: Expansion"
     },
     {
@@ -2880,6 +3001,7 @@
       "coOpOutcome": "won",
       "coOp": "Yes",
       "notes": "base game at work",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/25",
       "name": "Carcassonne: The River"
     },
     {
@@ -2887,6 +3009,7 @@
       "winner": "Hannah",
       "coOp": "No",
       "notes": "as the corp",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/27",
       "name": "Android: Netrunner"
     },
     {
@@ -2894,18 +3017,21 @@
       "coOpOutcome": "lost",
       "coOp": "Yes",
       "notes": "Curse of the Rougarou",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/30",
       "name": "Arkham Horror: The Card Game – Curse of the Rougarou: Scenario Pack"
     },
     {
       "date": "2018-09-22",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/29",
       "name": "Kanagawa"
     },
     {
       "date": "2018-09-27",
       "coOpOutcome": "lost",
       "coOp": "Yes",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/35",
       "name": "Carcassonne: The River"
     },
     {
@@ -2914,47 +3040,55 @@
       "coOpOutcome": "lost",
       "coOp": "Yes",
       "notes": "Traitor won. Hannah was traitor",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/36",
       "name": "Betrayal at Baldur's Gate"
     },
     {
       "date": "2018-09-29",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/37",
       "name": "Dominion: Intrigue (Second Edition)"
     },
     {
       "date": "2018-10-02",
       "winner": "Draw",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/1",
       "name": "Hive Pocket"
     },
     {
       "date": "2018-10-06",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/5",
       "name": "Hive Pocket"
     },
     {
       "date": "2018-10-13",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/13",
       "name": "Hive Pocket"
     },
     {
       "date": "2018-10-14",
       "coOp": "Yes",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/14",
       "name": "Carcassonne: The River"
     },
     {
       "date": "2018-10-16",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/16",
       "name": "Dominion: Intrigue (Second Edition)"
     },
     {
       "date": "2018-10-17",
       "coOp": "No",
       "notes": "20 player",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/19",
       "name": "Werewolf"
     },
     {
@@ -2963,6 +3097,7 @@
       "coOp": "Yes",
       "notes": "18-player ",
       "mechanics": "Team-based",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/17",
       "name": "Werewolf"
     },
     {
@@ -2970,126 +3105,147 @@
       "coOpOutcome": "Won",
       "coOp": "Yes",
       "notes": "19 player",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/18",
       "name": "Werewolf"
     },
     {
       "date": "2018-10-19",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/21",
       "name": "The Castles of Burgundy"
     },
     {
       "date": "2018-10-21",
       "winner": "Other",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/24",
       "name": "Between Two Castles of Mad King Ludwig"
     },
     {
       "date": "2018-10-21",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/23",
       "name": "Deadwood 1876"
     },
     {
       "date": "2018-10-27",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/31",
       "name": "Heart of Crown"
     },
     {
       "date": "2018-10-28",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/32",
       "name": "Heart of Crown"
     },
     {
       "date": "2018-10-31",
       "winner": "Hannah",
       "coOp": "Yes",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/37",
       "name": "Betrayal at House on the Hill: Widow's Walk"
     },
     {
       "date": "2018-11-03",
       "winner": "Other",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/3",
       "name": "Deadwood 1876"
     },
     {
       "date": "2018-11-04",
       "coOpOutcome": "Lost",
       "coOp": "Yes",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/4",
       "name": "T.I.M.E Stories: Under the Mask"
     },
     {
       "date": "2018-11-06",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/7",
       "name": "Love Letter: The Hobbit – The Battle of the Five Armies"
     },
     {
       "date": "2018-11-07",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/8",
       "name": "Love Letter Premium"
     },
     {
       "date": "2018-11-09",
       "coOpOutcome": "Won",
       "coOp": "Yes",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/11",
       "name": "Battlestar Galactica: The Board Game"
     },
     {
       "date": "2018-11-09",
       "coOpOutcome": "Lost",
       "coOp": "Yes",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/10",
       "name": "The Resistance"
     },
     {
       "date": "2018-11-11",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/13",
       "name": "221B Baker Street: The Master Detective Game"
     },
     {
       "date": "2018-11-12",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/14",
       "name": "Adventure Time Card Wars: Princess Bubblegum vs. Lumpy Space Princess"
     },
     {
       "date": "2018-11-13",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/15",
       "name": "Batman: Love Letter"
     },
     {
       "date": "2018-11-15",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/18",
       "name": "Salem"
     },
     {
       "date": "2018-11-15",
       "coOpOutcome": "Win",
       "coOp": "Yes",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/17",
       "name": "Salem"
     },
     {
       "date": "2018-11-18",
       "coOpOutcome": "Won",
       "coOp": "Yes",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/22",
       "name": "Fallout: New California"
     },
     {
       "date": "2018-11-19",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/23",
       "name": "Ticket to Ride: Asia"
     },
     {
       "date": "2018-11-21",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/25",
       "name": "Werewolf"
     },
     {
@@ -3097,48 +3253,56 @@
       "winner": "Other",
       "coOpOutcome": "Lost",
       "coOp": "Yes",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/27",
       "name": "Werewolf"
     },
     {
       "date": "2018-11-21",
       "coOpOutcome": "Lost",
       "coOp": "Yes",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/26",
       "name": "Werewolf"
     },
     {
       "date": "2018-11-25",
       "coOpOutcome": "Lost",
       "coOp": "Yes",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/34",
       "name": "Sherlock Holmes Consulting Detective"
     },
     {
       "date": "2018-12-05",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/4",
       "name": "The Castles of Burghundy"
     },
     {
       "date": "2018-12-13",
       "winner": "Other",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/13",
       "name": "Bunny Kingdom"
     },
     {
       "date": "2018-12-14",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/14",
       "name": "Heart of Crown"
     },
     {
       "date": "2018-12-15",
       "winner": "Draw",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/15",
       "name": "Duelosaur Island"
     },
     {
       "date": "2018-12-17",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/19",
       "name": "Love Letter (Kanai)"
     },
     {
@@ -3146,6 +3310,7 @@
       "coOpOutcome": "Lost",
       "coOp": "Yes",
       "notes": 13,
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/22",
       "name": "Werewolf"
     },
     {
@@ -3153,6 +3318,7 @@
       "coOpOutcome": "Lost",
       "coOp": "Yes",
       "notes": 15,
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/24",
       "name": "Werewolf"
     },
     {
@@ -3160,101 +3326,118 @@
       "coOpOutcome": "Won",
       "coOp": "Yes",
       "notes": 15,
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/23",
       "name": "Werewolf"
     },
     {
       "date": "2018-12-22",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/28",
       "name": "Ticket to Ride: Africa"
     },
     {
       "date": "2018-12-27",
       "winner": "Draw",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/33",
       "name": "Discover: Lands Unknown"
     },
     {
       "date": "2018-12-29",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/35",
       "name": "Archer Love Letter"
     },
     {
       "date": "2021-05-08",
       "coOpOutcome": "Lost",
+      "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/2",
       "name": "Apollo"
     },
     {
       "date": "2021-09-29",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/8",
       "name": "Werewolf"
     },
     {
       "date": "2021-09-29",
       "coOpOutcome": "Lose",
       "coOp": "Yes",
+      "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/9",
       "name": "Werewolf"
     },
     {
       "date": "2021-11-07",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/5",
       "name": "Love Letter: Premium Edition"
     },
     {
       "date": "2021-11-17",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/11",
       "name": "Werewolf"
     },
     {
       "date": "2021-11-17",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/12",
       "name": "Werewolf"
     },
     {
       "date": "2021-11-17",
       "coOpOutcome": "Won",
       "coOp": "Yes",
+      "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/13",
       "name": "Werewolf"
     },
     {
       "date": "2021-11-17",
       "coOpOutcome": "Won",
       "coOp": "Yes",
+      "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/14",
       "name": "Werewolf"
     },
     {
       "date": "2021-12-13",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/4",
       "name": "Planet"
     },
     {
       "date": "2021-12-14",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/6",
       "name": "Planet"
     },
     {
       "date": "2021-12-25",
       "winner": "Hannah",
       "coOp": "No",
+      "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/12",
       "name": "Planet"
     },
     {
       "date": "2021-12-30",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/17",
       "name": "Race for the Galaxy"
     },
     {
       "date": "2021-12-31",
       "winner": "John",
       "coOp": "No",
+      "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/20",
       "name": "Mint Control"
     },
     {
@@ -3262,6 +3445,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/01/2022-01-07T14:50:35.509Z.json",
       "name": "Mint Control"
     },
     {
@@ -3269,6 +3453,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/01/2022-01-07T14:49:14.368Z.json",
       "name": "Mint Cooperative"
     },
     {
@@ -3276,6 +3461,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/01/2022-01-08T21:02:20.084Z.json",
       "name": "Bandido"
     },
     {
@@ -3283,6 +3469,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/01/2022-01-08T21:16:34.607Z.json",
       "name": "Bandido"
     },
     {
@@ -3290,6 +3477,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/01/2022-01-08T21:45:51.277Z.json",
       "name": "Tucano"
     },
     {
@@ -3297,6 +3485,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/01/2022-01-09T22:11:12.446Z.json",
       "name": "Bandido"
     },
     {
@@ -3304,6 +3493,7 @@
       "coOpOutcome": "loss",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/01/2022-01-11T21:04:37.319Z.json",
       "name": "Bandido"
     },
     {
@@ -3312,6 +3502,7 @@
       "coOp": "no",
       "notes": "Hannah was Alpha Wolf",
       "noOfPlayers": 17,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/01/2022-01-19T20:11:37.126Z.json",
       "name": "Werewolf"
     },
     {
@@ -3319,6 +3510,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 3,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/01/2022-01-23T14:50:12.780Z.json",
       "name": "Bandido"
     },
     {
@@ -3326,6 +3518,7 @@
       "coOpOutcome": "loss",
       "coOp": "yes",
       "noOfPlayers": 4,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/01/2022-01-30T21:05:23.025Z.json",
       "name": "Bandido"
     },
     {
@@ -3333,6 +3526,7 @@
       "coOpOutcome": "loss",
       "coOp": "yes",
       "noOfPlayers": 4,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/01/2022-01-30T21:05:25.988Z.json",
       "name": "Bandido"
     },
     {
@@ -3340,6 +3534,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/01/2022-01-30T21:28:45.482Z.json",
       "name": "Bandido"
     },
     {
@@ -3348,6 +3543,7 @@
       "coOp": "yes",
       "notes": "On torch cards",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/01/2022-01-30T21:28:51.127Z.json",
       "name": "Bandido"
     },
     {
@@ -3355,6 +3551,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 8,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/02/2022-02-02T21:30:19.896Z.json",
       "name": "The Resistance"
     },
     {
@@ -3362,6 +3559,7 @@
       "coOpOutcome": "loss",
       "coOp": "yes",
       "noOfPlayers": 8,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/02/2022-02-02T21:30:30.641Z.json",
       "name": "The Resistance"
     },
     {
@@ -3370,6 +3568,7 @@
       "coOp": "no",
       "notes": "In D20 - Watford ",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/02/2022-02-06T21:01:19.664Z.json",
       "name": "Jaipur"
     },
     {
@@ -3378,6 +3577,7 @@
       "coOp": "no",
       "notes": "In D20 - Watford ",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/02/2022-02-06T21:01:44.625Z.json",
       "name": "Machi Koro 2"
     },
     {
@@ -3386,6 +3586,7 @@
       "coOp": "no",
       "notes": "In D20 - Watford ",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/02/2022-02-06T21:02:09.265Z.json",
       "name": "Splendor: Cities"
     },
     {
@@ -3393,6 +3594,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/02/2022-02-06T21:03:12.973Z.json",
       "name": "Welcome To..."
     },
     {
@@ -3400,6 +3602,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/02/2022-02-19T20:09:07.213Z.json",
       "name": "Tapestry"
     },
     {
@@ -3407,6 +3610,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/02/2022-02-19T20:08:59.789Z.json",
       "name": "Tapestry"
     },
     {
@@ -3414,6 +3618,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/02/2022-02-20T11:36:03.194Z.json",
       "name": "Tapestry"
     },
     {
@@ -3421,6 +3626,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/03/2022-03-03T20:58:44.650Z.json",
       "name": "Love Letter: Adventure Time"
     },
     {
@@ -3428,6 +3634,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/03/2022-03-12T15:50:59.122Z.json",
       "name": "The Castles of Burgundy"
     },
     {
@@ -3436,6 +3643,7 @@
       "coOp": "no",
       "notes": "Technically, John should’ve won.",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/03/2022-03-19T22:10:47.469Z.json",
       "name": "Runir"
     },
     {
@@ -3443,6 +3651,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/03/2022-03-27T14:09:38.605Z.json",
       "name": "Runir"
     },
     {
@@ -3450,6 +3659,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/04/2022-04-03T20:16:25.974Z.json",
       "name": "Azul: Queen’s Garden"
     },
     {
@@ -3457,6 +3667,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/04/2022-04-03T20:16:48.193Z.json",
       "name": "Stardew Valley"
     },
     {
@@ -3464,6 +3675,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/04/2022-04-21T19:10:24.863Z.json",
       "name": "Bandido"
     },
     {
@@ -3471,6 +3683,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/05/2022-05-15T12:46:15.122Z.json",
       "name": "Astronauts"
     },
     {
@@ -3479,6 +3692,7 @@
       "coOp": "yes",
       "notes": "At UKGE",
       "noOfPlayers": 6,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/06/2022-06-20T20:01:02.612Z.json",
       "name": "Just One"
     },
     {
@@ -3487,6 +3701,7 @@
       "coOp": "no",
       "notes": "At UKGE",
       "noOfPlayers": 6,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/06/2022-06-20T20:01:56.310Z.json",
       "name": "Krakenlaken Poker"
     },
     {
@@ -3495,6 +3710,7 @@
       "coOp": "yes",
       "notes": "At UKGE",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/06/2022-06-20T20:02:49.323Z.json",
       "name": "Connecting London"
     },
     {
@@ -3503,6 +3719,7 @@
       "coOp": "no",
       "notes": "At UKGE",
       "noOfPlayers": 3,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/06/2022-06-20T20:03:31.351Z.json",
       "name": "Love Letter: Princess Princess Ever After"
     },
     {
@@ -3511,6 +3728,7 @@
       "coOp": "no",
       "notes": "At UKGE",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/06/2022-06-20T20:02:35.925Z.json",
       "name": "World Stitchers"
     },
     {
@@ -3519,6 +3737,7 @@
       "coOp": "yes",
       "notes": "At UKGE",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/06/2022-06-20T20:05:27.861Z.json",
       "name": " Décorum"
     },
     {
@@ -3527,6 +3746,7 @@
       "coOp": "yes",
       "notes": "At UKGE",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/06/2022-06-20T20:05:29.346Z.json",
       "name": " Décorum"
     },
     {
@@ -3535,6 +3755,7 @@
       "coOp": "no",
       "notes": "At UKGE",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/06/2022-06-20T20:04:10.395Z.json",
       "name": "Jaipur"
     },
     {
@@ -3543,6 +3764,7 @@
       "coOp": "no",
       "notes": "At UKGE",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/06/2022-06-20T20:05:47.246Z.json",
       "name": "Kingdomino"
     },
     {
@@ -3554,6 +3776,7 @@
       "expansions": [
         "Mini Express Map Pack 1: Taiwan & United Kingdom"
       ],
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/06/2022-06-20T20:07:00.073Z.json",
       "name": "Mini Express"
     },
     {
@@ -3562,6 +3785,7 @@
       "coOp": "no",
       "notes": "At UKGE",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/06/2022-06-20T20:09:38.363Z.json",
       "name": "Kingdomino"
     },
     {
@@ -3569,6 +3793,7 @@
       "winner": "draw",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/06/2022-06-20T20:10:18.108Z.json",
       "name": "Love Letter: Princess Princess Ever After"
     },
     {
@@ -3576,6 +3801,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/06/2022-06-20T20:09:57.194Z.json",
       "name": "Scout"
     },
     {
@@ -3583,6 +3809,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/06/2022-06-20T20:12:01.564Z.json",
       "name": "Bandido"
     },
     {
@@ -3590,6 +3817,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/06/2022-06-20T20:12:29.114Z.json",
       "name": "Ganymede"
     },
     {
@@ -3597,6 +3825,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/06/2022-06-20T20:12:57.702Z.json",
       "name": "Kingdomino"
     },
     {
@@ -3604,6 +3833,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/06/2022-06-20T20:13:26.102Z.json",
       "name": "Cascadia"
     },
     {
@@ -3611,6 +3841,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/06/2022-06-20T20:13:14.465Z.json",
       "name": "Kingdomino"
     },
     {
@@ -3618,6 +3849,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/07/2022-07-06T19:46:25.082Z.json",
       "name": "Mystic Vale"
     },
     {
@@ -3626,6 +3858,7 @@
       "coOp": "no",
       "notes": "J = wolf, H = village",
       "noOfPlayers": 16,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/06/2022-06-20T20:14:18.881Z.json",
       "name": "Werewolf"
     },
     {
@@ -3634,6 +3867,7 @@
       "coOp": "yes",
       "notes": "Both H & J were Villagers",
       "noOfPlayers": 16,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/06/2022-06-20T20:14:00.325Z.json",
       "name": "Werewolf"
     },
     {
@@ -3642,6 +3876,7 @@
       "coOp": "yes",
       "notes": "A Pandemic system game",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/07/2022-07-06T19:37:18.456Z.json",
       "name": "World of Warcraft: Wrath of the Lich King"
     },
     {
@@ -3649,6 +3884,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/07/2022-07-06T19:48:40.904Z.json",
       "name": "Mystic Vale"
     },
     {
@@ -3656,6 +3892,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/07/2022-07-06T19:48:57.186Z.json",
       "name": "Mystic Vale"
     },
     {
@@ -3663,6 +3900,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/07/2022-07-06T19:42:19.601Z.json",
       "name": "Ganymede"
     },
     {
@@ -3670,6 +3908,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 4,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/07/2022-07-06T19:41:42.124Z.json",
       "name": "Kingdomino"
     },
     {
@@ -3677,6 +3916,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/07/2022-07-06T19:49:04.404Z.json",
       "name": "Mystic Vale"
     },
     {
@@ -3684,6 +3924,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/07/2022-07-06T19:49:32.105Z.json",
       "name": "Kingdomino"
     },
     {
@@ -3691,6 +3932,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/07/2022-07-06T19:49:59.057Z.json",
       "name": "Cascadia"
     },
     {
@@ -3699,6 +3941,7 @@
       "coOp": "yes",
       "notes": "Both were Villagers. Wolves won.",
       "noOfPlayers": 16,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/07/2022-07-06T19:51:59.925Z.json",
       "name": "Werewolf"
     },
     {
@@ -3707,6 +3950,7 @@
       "coOp": "yes",
       "notes": "Both were Villagers. Village won.",
       "noOfPlayers": 15,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/07/2022-07-06T19:52:25.338Z.json",
       "name": "Werewolf"
     },
     {
@@ -3714,6 +3958,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 3,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/07/2022-07-06T19:53:13.527Z.json",
       "name": "Kingdomino"
     },
     {
@@ -3721,6 +3966,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 3,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/07/2022-07-06T19:53:15.478Z.json",
       "name": "Kingdomino"
     },
     {
@@ -3728,6 +3974,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/07/2022-07-07T19:34:36.204Z.json",
       "name": "Kingdomino"
     },
     {
@@ -3735,6 +3982,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/07/2022-07-30T13:00:57.657Z.json",
       "name": "Bandido"
     },
     {
@@ -3742,6 +3990,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/07/2022-07-30T13:01:28.262Z.json",
       "name": "Mystic Vale"
     },
     {
@@ -3749,6 +3998,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/07/2022-07-30T13:02:20.161Z.json",
       "name": "Ganymede"
     },
     {
@@ -3756,6 +4006,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/07/2022-07-31T19:27:53.724Z.json",
       "name": "Kingdomino"
     },
     {
@@ -3763,6 +4014,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/08/2022-08-02T21:02:57.860Z.json",
       "name": "Jaipur"
     },
     {
@@ -3770,6 +4022,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/08/2022-08-02T21:02:48.694Z.json",
       "name": "Love Letter: Princess Princess Ever After"
     },
     {
@@ -3777,6 +4030,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/09/2022-09-04T09:58:41.666Z.json",
       "name": "Bandido"
     },
     {
@@ -3784,6 +4038,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/09/2022-09-04T09:59:06.957Z.json",
       "name": "Love Letter: Princess Princess Ever After"
     },
     {
@@ -3791,6 +4046,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/09/2022-09-05T11:38:07.938Z.json",
       "name": "Ganymede"
     },
     {
@@ -3798,6 +4054,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/09/2022-09-06T12:48:28.522Z.json",
       "name": "Kingdomino"
     },
     {
@@ -3805,6 +4062,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/10/2022-10-01T19:44:36.335Z.json",
       "name": "Demeter"
     },
     {
@@ -3812,6 +4070,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/10/2022-10-01T19:44:23.238Z.json",
       "name": "Trails"
     },
     {
@@ -3819,6 +4078,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/10/2022-10-01T19:44:58.184Z.json",
       "name": "Demeter"
     },
     {
@@ -3826,6 +4086,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/10/2022-10-01T19:45:40.501Z.json",
       "name": "Ticket to Ride: San Francisco"
     },
     {
@@ -3833,6 +4094,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/10/2022-10-01T19:47:56.931Z.json",
       "name": "Love Letter: Princess Princess Ever After"
     },
     {
@@ -3840,6 +4102,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/10/2022-10-17T19:59:49.053Z.json",
       "name": "Cascadia"
     },
     {
@@ -3847,6 +4110,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/10/2022-10-17T19:59:15.908Z.json",
       "name": "Ticket to Ride: San Francisco"
     },
     {
@@ -3854,6 +4118,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/10/2022-10-30T21:14:13.360Z.json",
       "name": "Kingdomino"
     },
     {
@@ -3861,6 +4126,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/11/2022-11-11T06:48:37.863Z.json",
       "name": "Kingdomino"
     },
     {
@@ -3868,6 +4134,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/11/2022-11-21T20:46:51.607Z.json",
       "name": "Trails"
     },
     {
@@ -3875,6 +4142,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 3,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/11/2022-11-21T10:33:45.737Z.json",
       "name": "Kingdomino"
     },
     {
@@ -3882,6 +4150,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 3,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/11/2022-11-21T10:33:56.125Z.json",
       "name": "Love Letter: Princess Princess Ever After"
     },
     {
@@ -3889,6 +4158,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/12/2022-12-05T20:03:44.283Z.json",
       "name": "The Castles of Burgundy"
     },
     {
@@ -3896,6 +4166,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/12/2022-12-29T20:28:20.544Z.json",
       "name": "Dragonimo"
     },
     {
@@ -3903,6 +4174,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/12/2022-12-29T20:28:23.807Z.json",
       "name": "Dragonimo"
     },
     {
@@ -3910,6 +4182,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/12/2022-12-29T20:25:09.255Z.json",
       "name": "Kingdomino"
     },
     {
@@ -3917,6 +4190,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/12/2022-12-29T20:28:42.487Z.json",
       "name": "Dragonimo"
     },
     {
@@ -3924,6 +4198,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/12/2022-12-31T22:32:56.622Z.json",
       "name": "Exit The Game: Theft On The Mississippi"
     },
     {
@@ -3931,6 +4206,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/01/2023-01-01T20:16:30.573Z.json",
       "name": "Love Letter: Princess Princess Ever After"
     },
     {
@@ -3938,6 +4214,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/01/2023-01-12T09:45:30.837Z.json",
       "name": "Tapestry"
     },
     {
@@ -3945,6 +4222,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/01/2023-01-12T09:45:44.896Z.json",
       "name": "Dragonimo"
     },
     {
@@ -3952,6 +4230,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/01/2023-01-12T09:45:55.753Z.json",
       "name": "Kingdomino"
     },
     {
@@ -3959,6 +4238,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/01/2023-01-17T20:17:23.097Z.json",
       "name": "Cascadia"
     },
     {
@@ -3966,6 +4246,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/01/2023-01-19T08:55:35.535Z.json",
       "name": "Kingdomino"
     },
     {
@@ -3973,6 +4254,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/01/2023-01-20T10:03:04.610Z.json",
       "name": "Bandido"
     },
     {
@@ -3980,6 +4262,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/02/2023-02-07T07:42:50.330Z.json",
       "name": "Kingdomino"
     },
     {
@@ -3987,6 +4270,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/02/2023-02-07T07:43:17.663Z.json",
       "name": "Kingdomino"
     },
     {
@@ -3994,6 +4278,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/02/2023-02-07T07:44:11.440Z.json",
       "name": "Bandido"
     },
     {
@@ -4001,6 +4286,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/02/2023-02-07T07:43:34.198Z.json",
       "name": "Welcome To..."
     },
     {
@@ -4008,6 +4294,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/02/2023-02-14T16:28:30.605Z.json",
       "name": "Trails"
     },
     {
@@ -4015,6 +4302,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/02/2023-02-14T16:29:29.029Z.json",
       "name": "Bandido"
     },
     {
@@ -4022,6 +4310,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/02/2023-02-14T16:28:56.249Z.json",
       "name": "Dragonimo"
     },
     {
@@ -4029,6 +4318,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/02/2023-02-20T19:12:24.474Z.json",
       "name": "Jaipur"
     },
     {
@@ -4036,6 +4326,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/02/2023-02-28T19:26:42.943Z.json",
       "name": "Love Letter: Princess Princess Ever After"
     },
     {
@@ -4043,6 +4334,7 @@
       "coOpOutcome": "loss",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/03/2023-03-22T16:20:13.047Z.json",
       "name": "Bandida"
     },
     {
@@ -4050,6 +4342,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/03/2023-03-22T16:20:43.736Z.json",
       "name": "Kingdomino"
     },
     {
@@ -4057,6 +4350,7 @@
       "coOpOutcome": "loss",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/03/2023-03-22T16:21:42.430Z.json",
       "name": "Bandida"
     },
     {
@@ -4064,6 +4358,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/03/2023-03-22T16:21:22.537Z.json",
       "name": "Mists Over Carcassonne"
     },
     {
@@ -4071,6 +4366,7 @@
       "winner": "draw",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/03/2023-03-22T16:23:24.034Z.json",
       "name": "Kingdomino"
     },
     {
@@ -4078,6 +4374,7 @@
       "coOpOutcome": "loss",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/03/2023-03-22T16:24:31.519Z.json",
       "name": "Mists Over Carcassonne"
     },
     {
@@ -4085,6 +4382,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/03/2023-03-22T16:25:10.680Z.json",
       "name": "Love Letter: Princess Princess Ever After"
     },
     {
@@ -4092,6 +4390,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 4,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/03/2023-03-22T16:26:00.135Z.json",
       "name": "Bandido"
     },
     {
@@ -4099,6 +4398,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 4,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/03/2023-03-22T16:26:03.030Z.json",
       "name": "Bandido"
     },
     {
@@ -4106,6 +4406,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 4,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/03/2023-03-22T16:25:31.796Z.json",
       "name": "Kingdomino"
     },
     {
@@ -4113,6 +4414,7 @@
       "winner": "other",
       "coOp": "no",
       "noOfPlayers": 4,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/03/2023-03-22T16:25:27.873Z.json",
       "name": "Kingdomino"
     },
     {
@@ -4120,6 +4422,7 @@
       "winner": "draw",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/04/2023-04-14T07:54:43.396Z.json",
       "name": "Dragonimo"
     },
     {
@@ -4127,6 +4430,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/04/2023-04-14T07:55:15.338Z.json",
       "name": "Cascadia"
     },
     {
@@ -4134,6 +4438,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/04/2023-04-14T07:56:17.798Z.json",
       "name": "Love Letter: Princess Princess Ever After"
     },
     {
@@ -4141,6 +4446,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/04/2023-04-14T07:57:37.281Z.json",
       "name": "Wingspan: Asia Expansion"
     },
     {
@@ -4148,6 +4454,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/04/2023-04-14T07:59:00.216Z.json",
       "name": "Kingdomino"
     },
     {
@@ -4155,6 +4462,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/04/2023-04-14T08:00:54.156Z.json",
       "name": "Love Letter: Adventure Time"
     },
     {
@@ -4162,6 +4470,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/05/2023-05-04T10:33:32.712Z.json",
       "name": "Bandido"
     },
     {
@@ -4169,6 +4478,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/05/2023-05-04T10:33:58.025Z.json",
       "name": "Love Letter: Princess Princess Ever After"
     },
     {
@@ -4176,6 +4486,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/05/2023-05-04T10:36:10.675Z.json",
       "name": "Love Letter: Princess Princess Ever After"
     },
     {
@@ -4183,6 +4494,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/05/2023-05-04T10:37:37.898Z.json",
       "name": "Ticket to Ride: USA 1910"
     },
     {
@@ -4190,6 +4502,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/05/2023-05-16T15:47:53.495Z.json",
       "name": "Mystic Vale"
     },
     {
@@ -4197,6 +4510,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/05/2023-05-16T15:49:47.280Z.json",
       "name": "Great Western Trail"
     },
     {
@@ -4204,6 +4518,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/05/2023-05-28T15:14:34.255Z.json",
       "name": "Ticket to Ride: San Francisco"
     },
     {
@@ -4211,6 +4526,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/05/2023-05-28T15:15:36.323Z.json",
       "name": "Kingdomino"
     },
     {
@@ -4218,6 +4534,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/05/2023-05-28T15:16:12.006Z.json",
       "name": "Bandido"
     },
     {
@@ -4225,6 +4542,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/05/2023-05-28T15:16:41.774Z.json",
       "name": "Cascadia"
     },
     {
@@ -4232,6 +4550,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/05/2023-05-28T15:18:54.686Z.json",
       "name": "Jaipur"
     },
     {
@@ -4239,6 +4558,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/05/2023-05-28T15:20:21.346Z.json",
       "name": "The Castles of Burgundy"
     },
     {
@@ -4246,6 +4566,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/06/2023-06-09T14:19:51.750Z.json",
       "name": "Love Letter: Princess Princess Ever After"
     },
     {
@@ -4253,6 +4574,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/06/2023-06-09T14:20:35.342Z.json",
       "name": "Azul: Master Chocolatier"
     },
     {
@@ -4260,6 +4582,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/06/2023-06-09T14:21:56.388Z.json",
       "name": "Dorfromantik"
     },
     {
@@ -4267,6 +4590,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/06/2023-06-09T14:20:49.179Z.json",
       "name": "Kingdomino"
     },
     {
@@ -4274,6 +4598,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/06/2023-06-09T14:22:13.498Z.json",
       "name": "Moonrakers"
     },
     {
@@ -4281,6 +4606,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 3,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/06/2023-06-09T14:21:16.196Z.json",
       "name": "Zombie Kidz: Evolution"
     },
     {
@@ -4288,6 +4614,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/06/2023-06-09T14:22:53.820Z.json",
       "name": "Make The Difference"
     },
     {
@@ -4295,6 +4622,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/06/2023-06-09T14:23:25.614Z.json",
       "name": "Queendomino"
     },
     {
@@ -4302,6 +4630,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/06/2023-06-09T14:23:10.940Z.json",
       "name": "The Great American Mail Race"
     },
     {
@@ -4309,6 +4638,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/06/2023-06-09T14:22:39.418Z.json",
       "name": "Town 66"
     },
     {
@@ -4316,6 +4646,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/06/2023-06-09T14:23:57.214Z.json",
       "name": "Town 66"
     },
     {
@@ -4323,6 +4654,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/06/2023-06-09T14:23:37.380Z.json",
       "name": "Zuuli"
     },
     {
@@ -4330,6 +4662,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/06/2023-06-09T14:25:33.428Z.json",
       "name": "Moonrakers"
     },
     {
@@ -4337,6 +4670,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/06/2023-06-09T14:25:17.579Z.json",
       "name": "Ticket to Ride: First Journey (Ghost Train)"
     },
     {
@@ -4344,6 +4678,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/06/2023-06-09T14:25:54.441Z.json",
       "name": "Flamecraft"
     },
     {
@@ -4351,6 +4686,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/06/2023-06-09T14:26:19.324Z.json",
       "name": "Kingdomino: Origins"
     },
     {
@@ -4358,6 +4694,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/06/2023-06-25T16:30:53.497Z.json",
       "name": "Ticket to Ride: Northern Lights"
     },
     {
@@ -4365,6 +4702,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/06/2023-06-25T16:32:29.224Z.json",
       "name": "Zuuli"
     },
     {
@@ -4372,6 +4710,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/06/2023-06-25T16:32:47.246Z.json",
       "name": "Dorfromantik"
     },
     {
@@ -4379,6 +4718,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/06/2023-06-26T19:00:51.455Z.json",
       "name": "Dorfromantik"
     },
     {
@@ -4386,6 +4726,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/06/2023-06-25T16:33:45.882Z.json",
       "name": "Dorfromantik"
     },
     {
@@ -4393,6 +4734,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/06/2023-06-25T16:33:47.804Z.json",
       "name": "Dorfromantik"
     },
     {
@@ -4400,6 +4742,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/06/2023-06-25T16:34:17.665Z.json",
       "name": "Dorfromantik"
     },
     {
@@ -4407,6 +4750,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/06/2023-06-25T16:35:15.724Z.json",
       "name": "Dominion: Hinterlands"
     },
     {
@@ -4414,6 +4758,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/06/2023-06-25T16:36:14.728Z.json",
       "name": "Dorfromantik"
     },
     {
@@ -4421,6 +4766,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/06/2023-06-25T16:36:20.333Z.json",
       "name": "Dorfromantik"
     },
     {
@@ -4428,6 +4774,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 4,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/07/2023-07-12T17:00:21.099Z.json",
       "name": "Dorfromantik"
     },
     {
@@ -4435,6 +4782,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/07/2023-07-12T17:01:50.744Z.json",
       "name": "Town 66"
     },
     {
@@ -4442,6 +4790,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/07/2023-07-12T17:04:26.686Z.json",
       "name": "Heat: Pedal to the Metal"
     },
     {
@@ -4449,6 +4798,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/07/2023-07-12T17:04:46.737Z.json",
       "name": "Town 66"
     },
     {
@@ -4456,6 +4806,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/07/2023-07-12T17:05:14.310Z.json",
       "name": "Heat: Pedal to the Metal"
     },
     {
@@ -4463,6 +4814,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/07/2023-07-13T15:38:14.305Z.json",
       "name": "Planet"
     },
     {
@@ -4470,6 +4822,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/07/2023-07-29T13:15:05.689Z.json",
       "name": "Love Letter: Princess Princess Ever After"
     },
     {
@@ -4477,6 +4830,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 3,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/07/2023-07-29T13:15:30.089Z.json",
       "name": "Town 66"
     },
     {
@@ -4484,6 +4838,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/07/2023-07-29T13:16:01.443Z.json",
       "name": "Bandido"
     },
     {
@@ -4491,6 +4846,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/07/2023-07-29T13:16:13.307Z.json",
       "name": "Bandido"
     },
     {
@@ -4498,6 +4854,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/07/2023-07-29T13:16:47.491Z.json",
       "name": "Love Letter: Adventure Time"
     },
     {
@@ -4505,6 +4862,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/07/2023-07-29T13:17:46.164Z.json",
       "name": "Cascadia"
     },
     {
@@ -4512,6 +4870,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/07/2023-07-29T13:18:03.550Z.json",
       "name": "Bandido"
     },
     {
@@ -4519,6 +4878,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/07/2023-07-29T13:18:05.553Z.json",
       "name": "Bandido"
     },
     {
@@ -4526,6 +4886,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/07/2023-07-29T13:18:29.509Z.json",
       "name": "Heat: Pedal to the Metal"
     },
     {
@@ -4533,6 +4894,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/07/2023-07-31T19:49:59.926Z.json",
       "name": "Dorfromantik"
     },
     {
@@ -4540,6 +4902,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/07/2023-07-31T19:50:41.849Z.json",
       "name": "Bandido"
     },
     {
@@ -4547,6 +4910,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/08/2023-08-02T11:37:30.608Z.json",
       "name": "Bandido"
     },
     {
@@ -4554,6 +4918,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/08/2023-08-29T07:25:17.372Z.json",
       "name": "Dorfromantik"
     },
     {
@@ -4561,6 +4926,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/08/2023-08-29T07:25:26.931Z.json",
       "name": "Dorfromantik"
     },
     {
@@ -4568,6 +4934,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/08/2023-08-29T07:25:31.620Z.json",
       "name": "Dorfromantik"
     },
     {
@@ -4575,6 +4942,7 @@
       "coOpOutcome": "loss",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/08/2023-08-29T07:25:50.139Z.json",
       "name": "Dorfromantik"
     },
     {
@@ -4582,6 +4950,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/08/2023-08-29T07:26:25.335Z.json",
       "name": "Kingdomino"
     },
     {
@@ -4589,6 +4958,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/08/2023-08-29T07:27:33.374Z.json",
       "name": "Love Letter: Adventure Time"
     },
     {
@@ -4596,6 +4966,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 3,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/08/2023-08-29T07:28:05.282Z.json",
       "name": "Dorfromantik"
     },
     {
@@ -4603,6 +4974,7 @@
       "coOpOutcome": "loss",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/08/2023-08-29T07:28:56.896Z.json",
       "name": "Bandido"
     },
     {
@@ -4610,6 +4982,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/08/2023-08-29T07:31:13.549Z.json",
       "name": "Kamigami Battles: Rise of the Old Ones"
     },
     {
@@ -4617,6 +4990,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/08/2023-08-29T07:30:23.817Z.json",
       "name": "Love Letter: Princess Princess Ever After"
     },
     {
@@ -4624,6 +4998,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/08/2023-08-29T07:31:50.934Z.json",
       "name": "Bandido"
     },
     {
@@ -4631,6 +5006,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/08/2023-08-29T07:33:08.253Z.json",
       "name": "Kingdomino"
     },
     {
@@ -4638,6 +5014,7 @@
       "coOpOutcome": "loss",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/08/2023-08-29T07:33:54.804Z.json",
       "name": "Bandido"
     },
     {
@@ -4645,6 +5022,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/08/2023-08-29T19:50:10.407Z.json",
       "name": "Love Letter: Princess Princess Ever After"
     },
     {
@@ -4652,6 +5030,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/09/2023-09-26T14:06:36.271Z.json",
       "name": "Kingdomino"
     },
     {
@@ -4659,6 +5038,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/09/2023-09-26T14:07:43.539Z.json",
       "name": "The Great American Mail Race"
     },
     {
@@ -4666,6 +5046,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/09/2023-09-26T14:08:21.048Z.json",
       "name": "Bandido"
     },
     {
@@ -4673,6 +5054,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/09/2023-09-26T14:09:26.824Z.json",
       "name": "Bandido"
     },
     {
@@ -4680,6 +5062,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/09/2023-09-26T14:11:18.147Z.json",
       "name": "Dragonimo"
     },
     {
@@ -4687,6 +5070,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/09/2023-09-26T14:12:10.110Z.json",
       "name": "Kingdomino"
     },
     {
@@ -4694,6 +5078,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/10/2023-10-15T17:05:42.468Z.json",
       "name": "Kingdomino"
     },
     {
@@ -4701,6 +5086,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/10/2023-10-15T17:07:11.125Z.json",
       "name": "Bandido"
     },
     {
@@ -4708,6 +5094,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/10/2023-10-15T17:07:24.275Z.json",
       "name": "Love Letter: Princess Princess Ever After"
     },
     {
@@ -4715,6 +5102,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/10/2023-10-15T17:08:36.425Z.json",
       "name": "Bandido"
     },
     {
@@ -4722,6 +5110,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/10/2023-10-18T09:13:32.880Z.json",
       "name": "Kingdomino"
     },
     {
@@ -4729,6 +5118,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/10/2023-10-25T15:13:29.714Z.json",
       "name": "Zuuli"
     },
     {
@@ -4736,6 +5126,7 @@
       "coOpOutcome": "loss",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/10/2023-10-25T15:13:54.908Z.json",
       "name": "Bandido"
     },
     {
@@ -4743,6 +5134,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/10/2023-10-29T06:04:52.990Z.json",
       "name": "Ticket to Ride: Legends of the West"
     },
     {
@@ -4750,6 +5142,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/10/2023-10-29T06:05:18.730Z.json",
       "name": "Ticket to Ride: Legends of the West"
     },
     {
@@ -4757,6 +5150,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/10/2023-10-29T06:05:22.890Z.json",
       "name": "Ticket to Ride: Legends of the West"
     },
     {
@@ -4764,6 +5158,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/10/2023-11-02T20:19:12.487Z.json",
       "name": "Ticket to Ride: Legends of the West"
     },
     {
@@ -4771,6 +5166,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-10T15:31:09.290Z.json",
       "name": "Kingdomino"
     },
     {
@@ -4778,6 +5174,7 @@
       "winner": "John",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-10T15:31:45.039Z.json",
       "name": "Ticket to Ride: Legends of the West"
     },
     {
@@ -4785,6 +5182,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 3,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-10T15:32:33.411Z.json",
       "name": "Bandido"
     },
     {
@@ -4792,6 +5190,7 @@
       "winner": "other",
       "coOp": "no",
       "noOfPlayers": 3,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-10T15:32:05.378Z.json",
       "name": "Mystic Vale"
     },
     {
@@ -4799,6 +5198,7 @@
       "coOpOutcome": "loss",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-10T15:33:03.346Z.json",
       "name": "Bandido"
     },
     {
@@ -4806,6 +5206,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-10T15:33:16.552Z.json",
       "name": "Cascadia"
     },
     {
@@ -4813,6 +5214,7 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-19T08:56:42.239Z.json",
       "name": "Bandido"
     },
     {
@@ -4820,6 +5222,7 @@
       "winner": "Hannah",
       "coOp": "no",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-19T08:56:15.529Z.json",
       "name": "Love Letter: Princess Princess Ever After"
     },
     {
@@ -4827,11 +5230,28 @@
       "coOpOutcome": "win",
       "coOp": "yes",
       "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-19T08:56:55.448Z.json",
       "name": "Bandido"
+    },
+    {
+      "date": "2023-11-23",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-30T20:59:52.019Z.json",
+      "name": "The Castles of Burgundy"
+    },
+    {
+      "date": "2023-11-24",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-30T21:00:34.583Z.json",
+      "name": "Ticket to Ride: Legends of the West"
     }
   ],
-  "totalGamesPlayed": 397,
-  "averageGamesPlayedPerDay": 0.1851,
+  "totalGamesPlayed": 399,
+  "averageGamesPlayedPerDay": 0.1854,
   "mostGamesPlayedInADay": [
     {
       "date": "2023-06-03",
@@ -4984,7 +5404,7 @@
     "Zuuli"
   ],
   "uniqueGamesPlayedCount": 136,
-  "uniqueGamesPlayedPercentage": 0.3426,
+  "uniqueGamesPlayedPercentage": 0.3409,
   "mostPlayedGames": [
     {
       "name": "Bandido",
@@ -4992,20 +5412,20 @@
     }
   ],
   "coOpGamesPlayedCount": 140,
-  "coOpGamesPlayedPercentage": 0.3526,
+  "coOpGamesPlayedPercentage": 0.3509,
   "coOpGameWins": 87,
   "coOpGameLoses": 53,
   "coOpWinRate": 0.6214,
   "coOpLossRate": 0.3786,
   "winCountHannah": 134,
-  "winCountJohn": 107,
+  "winCountJohn": 109,
   "winCountOther": 10,
   "winCountDraw": 9,
-  "winnableGamesTotal": 260,
-  "winPercentageHannah": 0.5154,
-  "winPercentageJohn": 0.4115,
-  "winPercentageOther": 0.0385,
-  "winPercentageDraw": 0.0346,
+  "winnableGamesTotal": 262,
+  "winPercentageHannah": 0.5115,
+  "winPercentageJohn": 0.416,
+  "winPercentageOther": 0.0382,
+  "winPercentageDraw": 0.0344,
   "mostWonGames": "Hannah",
   "mostWonGamesJohn": [
     {

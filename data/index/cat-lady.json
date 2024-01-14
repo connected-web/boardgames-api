@@ -7,51 +7,60 @@
     {
       "date": "2018-08-07",
       "winner": "John",
-      "coOp": "No"
+      "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/11"
     },
     {
       "date": "2018-08-17",
       "winner": "Hannah",
-      "coOp": "No"
+      "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/21"
     },
     {
       "date": "2018-08-18",
       "winner": "John",
-      "coOp": "No"
+      "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/24"
     },
     {
       "date": "2018-10-15",
       "winner": "Hannah",
-      "coOp": "No"
+      "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/15"
     },
     {
       "date": "2018-12-30",
       "winner": "Hannah",
-      "coOp": "No"
+      "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/37"
     },
     {
       "date": "2020-01-07",
       "winner": "John",
       "coOp": "No",
-      "gameFamily": "Cat Lady"
+      "gameFamily": "Cat Lady",
+      "source": "gsheets://1FyeEeWPKch4jVoBoD_lB89GbsUPkYTESkfIeknUhyJw/2020/7"
     },
     {
       "date": "2020-08-16",
       "winner": "John",
       "coOp": "No",
-      "gameFamily": "Cat Lady"
+      "gameFamily": "Cat Lady",
+      "source": "gsheets://1FyeEeWPKch4jVoBoD_lB89GbsUPkYTESkfIeknUhyJw/2020/15"
     },
     {
       "date": "2023-01-28",
       "winner": "Hannah",
       "coOp": "no",
-      "noOfPlayers": 2
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/01/2023-01-31T14:36:59.227Z.json"
     },
     {
       "date": "2023-04-10",
       "winner": "draw",
       "coOp": "no",
-      "noOfPlayers": 2
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/04/2023-04-14T08:00:26.538Z.json"
     }
   ],
   "totalGamesPlayed": 9,

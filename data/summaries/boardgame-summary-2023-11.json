@@ -4,7 +4,7 @@
   "sequenceStartDate": "2023-11-01",
   "sequenceEndDate": "2023-11-30",
   "daysInSequence": 30,
-  "daysWithUnplayedGames": 14,
+  "daysWithUnplayedGames": 7,
   "gamesPlayedPerDay": {
     "1": 1,
     "2": 2,
@@ -28,175 +28,285 @@
     "20": 2,
     "21": 1,
     "22": 1,
-    "23": 0,
-    "24": 0,
-    "25": 0,
+    "23": 2,
+    "24": 1,
+    "25": 3,
     "26": 0,
-    "27": 0,
-    "28": 0,
-    "29": 0,
-    "30": 0
+    "27": 1,
+    "28": 1,
+    "29": 3,
+    "30": 1
   },
   "gamesPlayed": [
     {
       "date": "2023-11-01",
       "name": "Lovecraft Letter",
       "winner": "Hannah",
-      "coOp": "no"
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-02T20:19:29.547Z.json"
     },
     {
       "date": "2023-11-02",
       "name": "Flotsam Fight",
       "winner": "John",
-      "coOp": "no"
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-02T20:19:42.942Z.json"
     },
     {
       "date": "2023-11-02",
       "name": "Lovecraft Letter",
       "winner": "Hannah",
-      "coOp": "no"
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-02T20:32:50.836Z.json"
     },
     {
       "date": "2023-11-03",
       "name": "Kingdomino",
       "winner": "Hannah",
-      "coOp": "no"
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-10T15:31:09.290Z.json"
     },
     {
       "date": "2023-11-03",
       "name": "Lovecraft Letter",
       "winner": "Hannah",
-      "coOp": "no"
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-10T15:31:19.565Z.json"
     },
     {
       "date": "2023-11-04",
       "name": "Ticket to Ride: Legends of the West",
       "winner": "John",
-      "coOp": "no"
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-10T15:31:45.039Z.json"
     },
     {
       "date": "2023-11-06",
       "name": "Bandido",
       "coOp": "yes",
-      "coOpOutcome": "win"
+      "coOpOutcome": "win",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-10T15:32:33.411Z.json"
     },
     {
       "date": "2023-11-06",
       "name": "Lovecraft Letter",
       "winner": "John",
-      "coOp": "no"
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-10T15:32:20.556Z.json"
     },
     {
       "date": "2023-11-06",
       "name": "Mystic Vale",
       "winner": "other",
-      "coOp": "no"
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-10T15:32:05.378Z.json"
     },
     {
       "date": "2023-11-08",
       "name": "Bandido",
       "coOp": "yes",
-      "coOpOutcome": "loss"
+      "coOpOutcome": "loss",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-10T15:33:03.346Z.json"
     },
     {
       "date": "2023-11-08",
       "name": "Lovecraft Letter",
       "winner": "John",
-      "coOp": "no"
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-10T15:32:53.675Z.json"
     },
     {
       "date": "2023-11-09",
       "name": "Cascadia",
       "winner": "Hannah",
-      "coOp": "no"
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-10T15:33:16.552Z.json"
     },
     {
       "date": "2023-11-12",
       "name": "Lovecraft Letter",
       "winner": "John",
-      "coOp": "no"
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-19T08:55:31.914Z.json"
     },
     {
       "date": "2023-11-13",
       "name": "Lovecraft Letter",
       "winner": "John",
-      "coOp": "no"
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-19T08:55:41.509Z.json"
     },
     {
       "date": "2023-11-15",
       "name": "Bandido",
       "coOp": "yes",
-      "coOpOutcome": "win"
+      "coOpOutcome": "win",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-19T08:56:42.239Z.json"
     },
     {
       "date": "2023-11-15",
       "name": "Design Town",
       "winner": "Hannah",
-      "coOp": "no"
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-19T08:56:22.929Z.json"
     },
     {
       "date": "2023-11-15",
       "name": "Love Letter: Princess Princess Ever After",
       "winner": "Hannah",
-      "coOp": "no"
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-19T08:56:15.529Z.json"
     },
     {
       "date": "2023-11-15",
       "name": "Lovecraft Letter",
       "winner": "Hannah",
-      "coOp": "no"
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-19T08:56:29.427Z.json"
     },
     {
       "date": "2023-11-17",
       "name": "Bandido",
       "coOp": "yes",
-      "coOpOutcome": "win"
+      "coOpOutcome": "win",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-19T08:56:55.448Z.json"
     },
     {
       "date": "2023-11-17",
       "name": "Lovecraft Letter",
       "winner": "Hannah",
-      "coOp": "no"
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-19T08:57:03.926Z.json"
     },
     {
       "date": "2023-11-18",
       "name": "Brass: Birmingham",
       "winner": "Hannah",
-      "coOp": "no"
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-19T08:57:13.402Z.json"
     },
     {
       "date": "2023-11-19",
       "name": "Lovecraft Letter",
       "winner": "John",
-      "coOp": "no"
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-19T08:57:24.070Z.json"
     },
     {
       "date": "2023-11-20",
       "name": "Archer: Once You Go Blackmail...",
       "winner": "John",
-      "coOp": "no"
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-20T20:14:57.776Z.json"
     },
     {
       "date": "2023-11-20",
       "name": "Topiary",
       "winner": "John",
-      "coOp": "no"
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-20T20:14:12.802Z.json"
     },
     {
       "date": "2023-11-21",
       "name": "Lovecraft Letter",
       "winner": "John",
-      "coOp": "no"
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-22T17:04:05.459Z.json"
     },
     {
       "date": "2023-11-22",
       "name": "Lovecraft Letter",
       "winner": "John",
-      "coOp": "no"
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-22T17:04:15.597Z.json"
+    },
+    {
+      "date": "2023-11-23",
+      "name": "Lovecraft Letter",
+      "winner": "Hannah",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-30T21:00:09.179Z.json"
+    },
+    {
+      "date": "2023-11-23",
+      "name": "The Castles of Burgundy",
+      "winner": "John",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-30T20:59:52.019Z.json"
+    },
+    {
+      "date": "2023-11-24",
+      "name": "Ticket to Ride: Legends of the West",
+      "winner": "John",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-30T21:00:34.583Z.json"
+    },
+    {
+      "date": "2023-11-25",
+      "name": "Flotsam Fight",
+      "winner": "Hannah",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-30T21:00:52.040Z.json"
+    },
+    {
+      "date": "2023-11-25",
+      "name": "Lovecraft Letter",
+      "winner": "John",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-30T21:01:03.573Z.json"
+    },
+    {
+      "date": "2023-11-25",
+      "name": "Troika",
+      "winner": "Hannah",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-30T21:01:20.886Z.json"
+    },
+    {
+      "date": "2023-11-27",
+      "name": "Lovecraft Letter",
+      "winner": "Hannah",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-30T21:01:40.651Z.json"
+    },
+    {
+      "date": "2023-11-28",
+      "name": "Love Letter",
+      "winner": "Hannah",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-30T21:02:00.283Z.json"
+    },
+    {
+      "date": "2023-11-29",
+      "name": "Dominion (Second Edition)",
+      "winner": "Hannah",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-30T21:02:36.953Z.json"
+    },
+    {
+      "date": "2023-11-29",
+      "name": "Love Letter",
+      "winner": "John",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-30T21:03:00.098Z.json"
+    },
+    {
+      "date": "2023-11-29",
+      "name": "Lovecraft Letter",
+      "winner": "John",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-30T21:02:19.460Z.json"
+    },
+    {
+      "date": "2023-11-30",
+      "name": "Dominion (Second Edition)",
+      "winner": "John",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-30T21:02:42.737Z.json"
     }
   ],
-  "totalGamesPlayed": 26,
-  "averageGamesPlayedPerDay": 0.8667,
+  "totalGamesPlayed": 38,
+  "averageGamesPlayedPerDay": 1.2667,
   "mostGamesPlayedInADay": [
     {
       "date": "2023-11-15",
@@ -214,48 +324,52 @@
     "Brass: Birmingham",
     "Cascadia",
     "Design Town",
+    "Dominion (Second Edition)",
     "Flotsam Fight",
     "Kingdomino",
+    "Love Letter",
     "Love Letter: Princess Princess Ever After",
     "Lovecraft Letter",
     "Mystic Vale",
+    "The Castles of Burgundy",
     "Ticket to Ride: Legends of the West",
-    "Topiary"
+    "Topiary",
+    "Troika"
   ],
-  "uniqueGamesPlayedCount": 12,
-  "uniqueGamesPlayedPercentage": 0.4615,
+  "uniqueGamesPlayedCount": 16,
+  "uniqueGamesPlayedPercentage": 0.4211,
   "mostPlayedGames": [
     {
       "name": "Lovecraft Letter",
-      "plays": 12
+      "plays": 16
     }
   ],
   "coOpGamesPlayedCount": 4,
-  "coOpGamesPlayedPercentage": 0.1538,
+  "coOpGamesPlayedPercentage": 0.1053,
   "coOpGameWins": 3,
   "coOpGameLoses": 1,
   "coOpWinRate": 0.75,
   "coOpLossRate": 0.25,
-  "winCountHannah": 10,
-  "winCountJohn": 11,
+  "winCountHannah": 16,
+  "winCountJohn": 17,
   "winCountOther": 1,
   "winCountDraw": 0,
-  "winnableGamesTotal": 22,
-  "winPercentageHannah": 0.4545,
+  "winnableGamesTotal": 34,
+  "winPercentageHannah": 0.4706,
   "winPercentageJohn": 0.5,
-  "winPercentageOther": 0.0455,
+  "winPercentageOther": 0.0294,
   "winPercentageDraw": 0,
   "mostWonGames": "John",
   "mostWonGamesJohn": [
     {
       "game": "Lovecraft Letter",
-      "plays": 7
+      "plays": 9
     }
   ],
   "mostWonGamesHannah": [
     {
       "game": "Lovecraft Letter",
-      "plays": 5
+      "plays": 7
     }
   ]
 }

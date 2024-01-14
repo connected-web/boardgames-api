@@ -3,54 +3,63 @@
   "playRecords": [
     {
       "date": "2018-12-03",
-      "coOp": "Yes"
+      "coOp": "Yes",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/2"
     },
     {
       "date": "2020-05-05",
       "winner": "John",
       "coOp": "No",
-      "gameFamily": "Carcassonne"
+      "gameFamily": "Carcassonne",
+      "source": "gsheets://1FyeEeWPKch4jVoBoD_lB89GbsUPkYTESkfIeknUhyJw/2020/3"
     },
     {
       "date": "2020-05-21",
       "coOp": "Yes",
-      "gameFamily": "Carcassonne"
+      "gameFamily": "Carcassonne",
+      "source": "gsheets://1FyeEeWPKch4jVoBoD_lB89GbsUPkYTESkfIeknUhyJw/2020/18"
     },
     {
       "date": "2020-05-23",
       "winner": "John",
       "coOp": "No",
-      "gameFamily": "Carcassonne"
+      "gameFamily": "Carcassonne",
+      "source": "gsheets://1FyeEeWPKch4jVoBoD_lB89GbsUPkYTESkfIeknUhyJw/2020/21"
     },
     {
       "date": "2020-08-09",
       "coOpOutcome": "Won",
       "coOp": "Yes",
-      "gameFamily": "Carcassonne"
+      "gameFamily": "Carcassonne",
+      "source": "gsheets://1FyeEeWPKch4jVoBoD_lB89GbsUPkYTESkfIeknUhyJw/2020/7"
     },
     {
       "date": "2021-08-12",
       "coOpOutcome": "Won",
       "coOp": "Yes",
-      "gameFamily": "Wildcard"
+      "gameFamily": "Wildcard",
+      "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/9"
     },
     {
       "date": "2021-12-26",
       "winner": "John",
-      "coOp": "No"
+      "coOp": "No",
+      "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/13"
     },
     {
       "date": "2022-05-13",
       "coOpOutcome": "win",
       "coOp": "yes",
       "notes": "Total points 345 ",
-      "noOfPlayers": 2
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/05/2022-05-13T20:00:48.442Z.json"
     },
     {
       "date": "2023-02-28",
       "coOpOutcome": "win",
       "coOp": "yes",
-      "noOfPlayers": 2
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/02/2023-02-28T19:30:04.221Z.json"
     }
   ],
   "name": "Carcassonne",

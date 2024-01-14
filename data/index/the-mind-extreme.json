@@ -8,24 +8,28 @@
       "date": "2020-03-16",
       "coOpOutcome": "Lost",
       "coOp": "Yes",
-      "gameFamily": "The Mind"
+      "gameFamily": "The Mind",
+      "source": "gsheets://1FyeEeWPKch4jVoBoD_lB89GbsUPkYTESkfIeknUhyJw/2020/16"
     },
     {
       "date": "2020-06-10",
       "coOpOutcome": "Lost",
       "coOp": "Yes",
-      "gameFamily": "The Mind"
+      "gameFamily": "The Mind",
+      "source": "gsheets://1FyeEeWPKch4jVoBoD_lB89GbsUPkYTESkfIeknUhyJw/2020/7"
     },
     {
       "date": "2021-12-31",
       "coOpOutcome": "Loss",
-      "coOp": "Yes"
+      "coOp": "Yes",
+      "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/24"
     },
     {
       "date": "2023-05-25",
       "coOpOutcome": "loss",
       "coOp": "yes",
-      "noOfPlayers": 2
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/05/2023-05-28T15:21:09.911Z.json"
     }
   ],
   "totalGamesPlayed": 4,

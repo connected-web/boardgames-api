@@ -48,13 +48,23 @@
     "sample": "/api/boardgame/feed/sample",
     "sourceId": "boardgame-feed"
   }, {
-    "path": "/api/boardgame/stats",
+    "path": "/api/boardgame/stats/allMonths",
     "method": "GET",
-    "description": "Return a summary of board games stats by month and year played by John and Hannah.",
+    "description": "Return a summary of board games stats for all months played by John and Hannah.",
     "accepts": "application/json",
-    "schema": "/api/boardgame/stats/schema",
-    "sample": "/api/boardgame/stats/sample",
-    "sourceId": "boardgame-stats"
+    "schema": "/api/boardgame/stats/allMonths/schema",
+    "sample": "/api/boardgame/stats/allMonths/sample",
+    "sourceId": "boardgame-stats-allMonths",
+    "skipEncoding": true
+  }, {
+    "path": "/api/boardgame/stats/allYears",
+    "method": "GET",
+    "description": "Return a summary of board games stats for all years played by John and Hannah.",
+    "accepts": "application/json",
+    "schema": "/api/boardgame/stats/allYears/schema",
+    "sample": "/api/boardgame/stats/allYears/sample",
+    "sourceId": "boardgame-stats-allYears",
+    "skipEncoding": true
   }, {
     "path": "/api/boardgame/stats/byAllTime",
     "method": "GET",

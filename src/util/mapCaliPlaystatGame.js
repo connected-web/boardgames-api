@@ -1,9 +1,9 @@
 const reduceNameToBoardGameApiId = require('./reduceNameToBoardGameApiId')
 const convertGSheetsDate = require('./convertGSheetsDate')
+const playRecordProperties = require('./commonPlayRecordProperties')
 const report = (...messages) => console.log('[Map Cali Playstat Game]', ...messages)
 
-const expectedPlaystatProperties = ['game', 'date', 'winner', 'coOpOutcome', 'coOp', 'notes', 'gameFamily', 'mechanics']
-const playRecordProperties = ['date', 'winner', 'coOpOutcome', 'coOp', 'notes', 'gameFamily', 'noOfPlayers', 'expansions', 'mechanics']
+const expectedPlaystatProperties = ['game', 'date', 'winner', 'coOpOutcome', 'coOp', 'notes', 'gameFamily', 'mechanics', 'source']
 
 function mapCaliPlaystatGame (accumulator, item) {
   const name = item.game

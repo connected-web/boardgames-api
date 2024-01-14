@@ -37,6 +37,7 @@ For a list of commands, use `node run`; this outputs:
 ```
 [Board Game API Run] Available scripts to run:
   node run all
+  node run convert-playstats-to-playrecords
   node run create-all
   node run create-bgg-index
   node run create-boardgame-feed

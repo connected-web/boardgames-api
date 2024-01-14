@@ -8,49 +8,57 @@
       "date": "2020-04-09",
       "winner": "John",
       "coOp": "No",
-      "gameFamily": "Space Explorers"
+      "gameFamily": "Space Explorers",
+      "source": "gsheets://1FyeEeWPKch4jVoBoD_lB89GbsUPkYTESkfIeknUhyJw/2020/7"
     },
     {
       "date": "2020-07-17",
       "winner": "Hannah",
       "coOp": "No",
-      "gameFamily": "Space Explorers"
+      "gameFamily": "Space Explorers",
+      "source": "gsheets://1FyeEeWPKch4jVoBoD_lB89GbsUPkYTESkfIeknUhyJw/2020/18"
     },
     {
       "date": "2020-07-27",
       "winner": "Hannah",
       "coOp": "No",
-      "gameFamily": "Space Explorers"
+      "gameFamily": "Space Explorers",
+      "source": "gsheets://1FyeEeWPKch4jVoBoD_lB89GbsUPkYTESkfIeknUhyJw/2020/32"
     },
     {
       "date": "2020-09-28",
       "winner": "Hannah",
       "coOp": "No",
-      "gameFamily": "Space Explorers"
+      "gameFamily": "Space Explorers",
+      "source": "gsheets://1FyeEeWPKch4jVoBoD_lB89GbsUPkYTESkfIeknUhyJw/2020/28"
     },
     {
       "date": "2022-01-22",
       "winner": "Hannah",
       "coOp": "no",
-      "noOfPlayers": 2
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/01/2022-01-22T20:19:11.062Z.json"
     },
     {
       "date": "2022-10-27",
       "winner": "John",
       "coOp": "no",
-      "noOfPlayers": 2
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/10/2022-10-29T10:17:31.445Z.json"
     },
     {
       "date": "2023-03-23",
       "winner": "Hannah",
       "coOp": "no",
-      "noOfPlayers": 2
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/04/2023-04-14T07:53:43.961Z.json"
     },
     {
       "date": "2023-04-07",
       "winner": "Hannah",
       "coOp": "no",
-      "noOfPlayers": 2
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/04/2023-04-14T07:59:54.555Z.json"
     }
   ],
   "totalGamesPlayed": 8,

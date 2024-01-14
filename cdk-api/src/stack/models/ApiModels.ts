@@ -45,6 +45,41 @@ export default class AppModels extends OpenAPIBasicModels {
     })
   }
 
+  static get updatedPlayrecord (): IModel {
+    return OpenAPIBasicModels.modelFactory?.create('UpdatedPlayrecord', {
+      schema: JsonSchemaVersion.DRAFT4,
+      title: 'Updated Playrecord',
+      type: JsonSchemaType.OBJECT,
+      properties: {
+        message: {
+          type: JsonSchemaType.STRING,
+          description: 'The message returned by the server'
+        },
+        year: {
+          type: JsonSchemaType.STRING,
+          description: 'The year of the play record'
+        },
+        month: {
+          type: JsonSchemaType.STRING,
+          description: 'The month of the play record'
+        },
+        filename: {
+          type: JsonSchemaType.STRING,
+          description: 'The filename of the play record'
+        },
+        keypath: {
+          type: JsonSchemaType.STRING,
+          description: 'The keypath of the play record; may have changed if year or month have changed'
+        },
+        payload: {
+          type: JsonSchemaType.OBJECT,
+          description: 'The payload of the play record'
+        }
+      },
+      required: ['message', 'keypath']
+    })
+  }
+
   static get openApiSpec (): IModel {
     return OpenAPIBasicModels.modelFactory?.create('OpenAPISpec', {
       schema: JsonSchemaVersion.DRAFT4,
@@ -118,4 +153,14 @@ export default class AppModels extends OpenAPIBasicModels {
       required: ['playRecords']
     })
   }
+}
+
+export interface PlayRecordType {
+  name: string
+  date: string
+  coOp: string
+  noOfPlayers: number
+  winner: string
+  key?: string
+  history?: PlayRecordType[]
 }

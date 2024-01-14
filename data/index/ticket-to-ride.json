@@ -8,76 +8,89 @@
       "date": "2018-01-06",
       "winner": "John",
       "coOp": "No",
-      "gameFamily": "Ticket to Ride"
+      "gameFamily": "Ticket to Ride",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/6"
     },
     {
       "date": "2018-04-22",
       "winner": "John",
-      "coOp": "No"
+      "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/29"
     },
     {
       "date": "2018-07-06",
       "winner": "John",
-      "coOp": "No"
+      "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/5"
     },
     {
       "date": "2018-07-10",
       "winner": "Draw",
-      "coOp": "No"
+      "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/11"
     },
     {
       "date": "2020-02-15",
       "winner": "Hannah",
       "coOp": "No",
-      "gameFamily": "Ticket to Ride"
+      "gameFamily": "Ticket to Ride",
+      "source": "gsheets://1FyeEeWPKch4jVoBoD_lB89GbsUPkYTESkfIeknUhyJw/2020/13"
     },
     {
       "date": "2020-03-21",
       "winner": "Hannah",
       "coOp": "No",
-      "gameFamily": "Ticket to Ride"
+      "gameFamily": "Ticket to Ride",
+      "source": "gsheets://1FyeEeWPKch4jVoBoD_lB89GbsUPkYTESkfIeknUhyJw/2020/30"
     },
     {
       "date": "2020-07-25",
       "winner": "John",
       "coOp": "No",
-      "gameFamily": "Ticket to Ride"
+      "gameFamily": "Ticket to Ride",
+      "source": "gsheets://1FyeEeWPKch4jVoBoD_lB89GbsUPkYTESkfIeknUhyJw/2020/26"
     },
     {
       "date": "2020-07-30",
       "winner": "John",
       "coOp": "No",
-      "gameFamily": "Ticket to Ride"
+      "gameFamily": "Ticket to Ride",
+      "source": "gsheets://1FyeEeWPKch4jVoBoD_lB89GbsUPkYTESkfIeknUhyJw/2020/34"
     },
     {
       "date": "2020-09-27",
       "winner": "Hannah",
       "coOp": "No",
-      "gameFamily": "Ticket to Ride"
+      "gameFamily": "Ticket to Ride",
+      "source": "gsheets://1FyeEeWPKch4jVoBoD_lB89GbsUPkYTESkfIeknUhyJw/2020/26"
     },
     {
       "date": "2021-01-05",
       "winner": "John",
       "coOp": "No",
-      "gameFamily": "Ticket to Ride"
+      "gameFamily": "Ticket to Ride",
+      "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/13"
     },
     {
       "date": "2021-08-08",
       "winner": "Hannah",
       "coOp": "No",
-      "gameFamily": "Ticket to Ride"
+      "gameFamily": "Ticket to Ride",
+      "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/8"
     },
     {
       "date": "2021-12-12",
       "winner": "John",
-      "coOp": "No"
+      "coOp": "No",
+      "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/2"
     },
     {
       "date": "2022-01-29",
       "winner": "John",
       "coOp": "no",
       "notes": "Worst game in existence. TTR is broken af with more than 2 players.",
-      "noOfPlayers": 4
+      "noOfPlayers": 4,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/01/2022-01-29T15:02:56.912Z.json"
     },
     {
       "date": "2022-11-26",
@@ -86,19 +99,22 @@
       "noOfPlayers": 2,
       "expansions": [
         "Ticket to Ride: USA 1910"
-      ]
+      ],
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/12/2022-12-05T20:02:40.519Z.json"
     },
     {
       "date": "2023-01-31",
       "winner": "Hannah",
       "coOp": "no",
-      "noOfPlayers": 2
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/02/2023-02-01T13:32:06.264Z.json"
     },
     {
       "date": "2023-08-28",
       "winner": "Hannah",
       "coOp": "no",
-      "noOfPlayers": 2
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/08/2023-08-29T07:34:15.519Z.json"
     }
   ],
   "totalGamesPlayed": 16,

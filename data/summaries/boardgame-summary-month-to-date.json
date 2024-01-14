@@ -1,256 +1,37 @@
 {
-  "sequenceStartDate": "2023-11-01",
-  "sequenceEndDate": "2023-11-27",
-  "daysInSequence": 27,
-  "daysWithUnplayedGames": 11,
+  "sequenceStartDate": "2024-01-01",
+  "sequenceEndDate": "2024-01-03",
+  "daysInSequence": 3,
+  "daysWithUnplayedGames": 3,
   "gamesPlayedPerDay": {
-    "1": 1,
-    "2": 2,
-    "3": 2,
-    "4": 1,
-    "5": 0,
-    "6": 3,
-    "7": 0,
-    "8": 2,
-    "9": 1,
-    "10": 0,
-    "11": 0,
-    "12": 1,
-    "13": 1,
-    "14": 0,
-    "15": 4,
-    "16": 0,
-    "17": 2,
-    "18": 1,
-    "19": 1,
-    "20": 2,
-    "21": 1,
-    "22": 1,
-    "23": 0,
-    "24": 0,
-    "25": 0,
-    "26": 0,
-    "27": 0
+    "1": 0,
+    "2": 0,
+    "3": 0
   },
-  "gamesPlayed": [
-    {
-      "date": "2023-11-01",
-      "name": "Lovecraft Letter",
-      "winner": "Hannah",
-      "coOp": "no"
-    },
-    {
-      "date": "2023-11-02",
-      "name": "Flotsam Fight",
-      "winner": "John",
-      "coOp": "no"
-    },
-    {
-      "date": "2023-11-02",
-      "name": "Lovecraft Letter",
-      "winner": "Hannah",
-      "coOp": "no"
-    },
-    {
-      "date": "2023-11-03",
-      "name": "Kingdomino",
-      "winner": "Hannah",
-      "coOp": "no"
-    },
-    {
-      "date": "2023-11-03",
-      "name": "Lovecraft Letter",
-      "winner": "Hannah",
-      "coOp": "no"
-    },
-    {
-      "date": "2023-11-04",
-      "name": "Ticket to Ride: Legends of the West",
-      "winner": "John",
-      "coOp": "no"
-    },
-    {
-      "date": "2023-11-06",
-      "name": "Bandido",
-      "coOp": "yes",
-      "coOpOutcome": "win"
-    },
-    {
-      "date": "2023-11-06",
-      "name": "Lovecraft Letter",
-      "winner": "John",
-      "coOp": "no"
-    },
-    {
-      "date": "2023-11-06",
-      "name": "Mystic Vale",
-      "winner": "other",
-      "coOp": "no"
-    },
-    {
-      "date": "2023-11-08",
-      "name": "Bandido",
-      "coOp": "yes",
-      "coOpOutcome": "loss"
-    },
-    {
-      "date": "2023-11-08",
-      "name": "Lovecraft Letter",
-      "winner": "John",
-      "coOp": "no"
-    },
-    {
-      "date": "2023-11-09",
-      "name": "Cascadia",
-      "winner": "Hannah",
-      "coOp": "no"
-    },
-    {
-      "date": "2023-11-12",
-      "name": "Lovecraft Letter",
-      "winner": "John",
-      "coOp": "no"
-    },
-    {
-      "date": "2023-11-13",
-      "name": "Lovecraft Letter",
-      "winner": "John",
-      "coOp": "no"
-    },
-    {
-      "date": "2023-11-15",
-      "name": "Bandido",
-      "coOp": "yes",
-      "coOpOutcome": "win"
-    },
-    {
-      "date": "2023-11-15",
-      "name": "Design Town",
-      "winner": "Hannah",
-      "coOp": "no"
-    },
-    {
-      "date": "2023-11-15",
-      "name": "Love Letter: Princess Princess Ever After",
-      "winner": "Hannah",
-      "coOp": "no"
-    },
-    {
-      "date": "2023-11-15",
-      "name": "Lovecraft Letter",
-      "winner": "Hannah",
-      "coOp": "no"
-    },
-    {
-      "date": "2023-11-17",
-      "name": "Bandido",
-      "coOp": "yes",
-      "coOpOutcome": "win"
-    },
-    {
-      "date": "2023-11-17",
-      "name": "Lovecraft Letter",
-      "winner": "Hannah",
-      "coOp": "no"
-    },
-    {
-      "date": "2023-11-18",
-      "name": "Brass: Birmingham",
-      "winner": "Hannah",
-      "coOp": "no"
-    },
-    {
-      "date": "2023-11-19",
-      "name": "Lovecraft Letter",
-      "winner": "John",
-      "coOp": "no"
-    },
-    {
-      "date": "2023-11-20",
-      "name": "Archer: Once You Go Blackmail...",
-      "winner": "John",
-      "coOp": "no"
-    },
-    {
-      "date": "2023-11-20",
-      "name": "Topiary",
-      "winner": "John",
-      "coOp": "no"
-    },
-    {
-      "date": "2023-11-21",
-      "name": "Lovecraft Letter",
-      "winner": "John",
-      "coOp": "no"
-    },
-    {
-      "date": "2023-11-22",
-      "name": "Lovecraft Letter",
-      "winner": "John",
-      "coOp": "no"
-    }
-  ],
-  "totalGamesPlayed": 26,
-  "averageGamesPlayedPerDay": 0.963,
-  "mostGamesPlayedInADay": [
-    {
-      "date": "2023-11-15",
-      "games": [
-        "Bandido",
-        "Design Town",
-        "Love Letter: Princess Princess Ever After",
-        "Lovecraft Letter"
-      ]
-    }
-  ],
-  "uniqueGamesPlayed": [
-    "Archer: Once You Go Blackmail...",
-    "Bandido",
-    "Brass: Birmingham",
-    "Cascadia",
-    "Design Town",
-    "Flotsam Fight",
-    "Kingdomino",
-    "Love Letter: Princess Princess Ever After",
-    "Lovecraft Letter",
-    "Mystic Vale",
-    "Ticket to Ride: Legends of the West",
-    "Topiary"
-  ],
-  "uniqueGamesPlayedCount": 12,
-  "uniqueGamesPlayedPercentage": 0.4615,
-  "mostPlayedGames": [
-    {
-      "name": "Lovecraft Letter",
-      "plays": 12
-    }
-  ],
-  "coOpGamesPlayedCount": 4,
-  "coOpGamesPlayedPercentage": 0.1538,
-  "coOpGameWins": 3,
-  "coOpGameLoses": 1,
-  "coOpWinRate": 0.75,
-  "coOpLossRate": 0.25,
-  "winCountHannah": 10,
-  "winCountJohn": 11,
-  "winCountOther": 1,
+  "gamesPlayed": [],
+  "totalGamesPlayed": 0,
+  "averageGamesPlayedPerDay": 0,
+  "mostGamesPlayedInADay": [],
+  "uniqueGamesPlayed": [],
+  "uniqueGamesPlayedCount": 0,
+  "uniqueGamesPlayedPercentage": 0,
+  "mostPlayedGames": [],
+  "coOpGamesPlayedCount": 0,
+  "coOpGamesPlayedPercentage": 0,
+  "coOpGameWins": 0,
+  "coOpGameLoses": 0,
+  "coOpWinRate": 0,
+  "coOpLossRate": 0,
+  "winCountHannah": 0,
+  "winCountJohn": 0,
+  "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 22,
-  "winPercentageHannah": 0.4545,
-  "winPercentageJohn": 0.5,
-  "winPercentageOther": 0.0455,
+  "winnableGamesTotal": 0,
+  "winPercentageHannah": 0,
+  "winPercentageJohn": 0,
+  "winPercentageOther": 0,
   "winPercentageDraw": 0,
-  "mostWonGames": "John",
-  "mostWonGamesJohn": [
-    {
-      "game": "Lovecraft Letter",
-      "plays": 7
-    }
-  ],
-  "mostWonGamesHannah": [
-    {
-      "game": "Lovecraft Letter",
-      "plays": 5
-    }
-  ]
+  "mostWonGames": "Draw",
+  "mostWonGamesJohn": [],
+  "mostWonGamesHannah": []
 }

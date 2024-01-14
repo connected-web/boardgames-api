@@ -28,7 +28,8 @@ async function createFeed (model) {
         coOp: record.coOp,
         coOpOutcome: record.coOpOutcome,
         note: record.notes ? record.notes + '' : record.notes,
-        gameFamily: record.gameFamily
+        gameFamily: record.gameFamily,
+        source: record.source
       }
       feed.push(feedItem)
     })

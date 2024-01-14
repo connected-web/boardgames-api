@@ -3,7 +3,8 @@ const { validate } = require('jsonschema')
 const api = require('../../')
 const model = require('../../src/model')
 
-const boardGameStatsSchema = require('../../api/handlers/boardgame-stats/schema.json')
+const boardGameStatsSchemaAllMonths = require('../../api/handlers/boardgame-stats-allMonths/schema.json')
+const boardGameStatsSchemaAllYears = require('../../api/handlers/boardgame-stats-allYears/schema.json')
 const boardGameStatsByMonthSchema = require('../../api/handlers/boardgame-stats-byMonth/schema.json')
 const boardGameStatsByYearSchema = require('../../api/handlers/boardgame-stats-byYear/schema.json')
 const boardGameStatsByTagSchema = require('../../api/handlers/boardgame-stats-byTag/schema.json')
@@ -53,11 +54,13 @@ describe('Boardgames API', () => {
         coOpOutcome: 'Won',
         date: 43101,
         game: 'Harry Potter: Hogwarts Battle',
+        lineNumber: 0,
         notes: 'Game 1',
+        source: 'gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/0',
         tag: 'Deckbuilder'
       }
       model.fetchers.gsjson = () => {
-        return [firstGameInJanuary]
+        return [[firstGameInJanuary]]
       }
       const { playstats } = await api.downloadCaliPlaystats()
       expect(playstats[0]).to.deep.equal(firstGameInJanuary)
@@ -104,10 +107,19 @@ describe('Boardgames API', () => {
         boardGameName: '221B Baker Street: The Master Detective Game',
         purchaseDate: 2017
       }
-      model.fetchers.gsjson = () => {
-        return [firstGameInList]
+      const secondGameInList = {
+        boardGameName: '7 Wonders',
+        purchaseDate: 2018
       }
-      const { gameIndex } = await api.downloadCaliGameIndex()
+      const thirdGameInList = {
+        boardGameName: '7 Wonders Duel',
+        purchaseDate: 2019
+      }
+      model.fetchers.gsjson = () => {
+        return [firstGameInList, secondGameInList, thirdGameInList]
+      }
+      const { gameIndex, log } = await api.downloadCaliGameIndex()
+      console.log('Game Index:', gameIndex, 'Log:', log)
       expect(gameIndex[0]).to.deep.equal(firstGameInList)
     })
   })
@@ -378,12 +390,18 @@ describe('Boardgames API', () => {
       expect(simplified(schemaValidation.errors), 'Schema validation errors for last year').to.deep.equal([])
     })
 
-    it('should summarise the feed by all time', () => {
+    it('should summarise the feed by all months', () => {
       const schemaValidation = validate({
-        byMonth: actual.byMonth,
+        byMonth: actual.byMonth
+      }, boardGameStatsSchemaAllMonths)
+      expect(simplified(schemaValidation.errors), 'Schema validation errors for all months feed').to.deep.equal([])
+    })
+
+    it('should summarise the feed by all years', () => {
+      const schemaValidation = validate({
         byYear: actual.byYear
-      }, boardGameStatsSchema)
-      expect(simplified(schemaValidation.errors), 'Schema validation errors for all time feed').to.deep.equal([])
+      }, boardGameStatsSchemaAllYears)
+      expect(simplified(schemaValidation.errors), 'Schema validation errors for all years feed').to.deep.equal([])
     })
   })
 

@@ -1,0 +1,197 @@
+{
+	"id": "/",
+	"type": "object",
+	"properties": {
+		"byYear": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"dateCode": {
+						"type": "string",
+						"pattern": "^\\d{4}$"
+					},
+					"title": {
+						"type": "string"
+					},
+					"sequenceStartDate": {
+						"type": "string",
+						"pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+					},
+					"sequenceEndDate": {
+						"type": "string",
+						"pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+					},
+					"daysInSequence": {
+						"type": "integer"
+					},
+					"daysWithUnplayedGames": {
+						"type": "integer"
+					},
+					"gamesPlayedPerDay": {
+						"type": "object",
+						"patternProperties": {
+							"^[0-3]?\\d{1}$": {
+								"type": "integer"
+							}
+						}
+					},
+					"gamesPlayed": {
+						"type": "array",
+						"items": {
+							"type": "object",
+							"properties": {
+								"date": {
+									"type": "string",
+									"pattern": "\\d{4}(-\\d{2}){2}"
+								},
+								"game": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"uniqueGamesPlayed": {
+						"type": "array",
+						"items": {
+							"type": "string"
+						}
+					},
+					"uniqueGamesPlayedCount": {
+						"type": "number"
+					},
+					"uniqueGamesPlayedPercentage": {
+						"type": "number"
+					},
+					"totalGamesPlayed": {
+						"type": "integer"
+					},
+					"averageGamesPlayedPerDay": {
+						"type": "number"
+					},
+					"mostGamesPlayedInADay": {
+						"type": "array",
+						"items": {
+							"type": "object",
+							"properties": {
+								"date": {
+									"type": "string",
+									"pattern": "\\d{4}(-\\d{2}){2}"
+								},
+								"games": {
+									"type": "array",
+									"items": {
+										"type": "string"
+									}
+								}
+							}
+						}
+					},
+					"mostPlayedGames": {
+						"type": "array",
+						"items": {
+							"type": "object",
+							"properties": {
+								"game": {
+									"type": "string"
+								},
+								"plays": {
+									"type": "integer"
+								}
+							}
+						}
+					},
+					"coOpGamesPlayedCount": {
+						"type": "integer"
+					},
+					"coOpGamesPlayedPercentage": {
+						"type": "number"
+					},
+					"coOpGameWins": {
+						"type": "integer"
+					},
+					"coOpGameLoses": {
+						"type": "integer"
+					},
+					"coOpWinRate": {
+						"type": "number"
+					},
+					"coOpLossRate": {
+						"type": "number"
+					},
+					"winCountHannah": {
+						"type": "integer"
+					},
+					"winCountJohn": {
+						"type": "integer"
+					},
+					"winCountOther": {
+						"type": "integer"
+					},
+					"winCountDraw": {
+						"type": "integer"
+					},
+					"winnableGamesTotal": {
+						"type": "integer"
+					},
+					"winPercentageHannah": {
+						"type": "number"
+					},
+					"winPercentageJohn": {
+						"type": "number"
+					},
+					"winPercentageOther": {
+						"type": "number"
+					},
+					"winPercentageDraw": {
+						"type": "number"
+					},
+					"mostWonGames": {
+						"type": "string"
+					},
+					"mostWonGamesJohn": {
+						"type": "array",
+						"items": {
+							"type": "object",
+							"properties": {
+								"game": {
+									"type": "string"
+								},
+								"plays": {
+									"type": "integer"
+								}
+							}
+						}
+					},
+					"mostWonGamesHannah": {
+						"type": "array",
+						"items": {
+							"type": "object",
+							"properties": {
+								"game": {
+									"type": "string"
+								},
+								"plays": {
+									"type": "integer"
+								}
+							}
+						}
+					}
+				},
+				"additionalProperties": false
+			}
+		},
+		"earliestDate": {
+			"type": "string",
+			"pattern": "^\\d{4}(-\\d{2}){2}$"
+		},
+		"latestDate": {
+			"type": "string",
+			"pattern": "^\\d{4}(-\\d{2}){2}$"
+		},
+		"numberOfDaysCovered": {
+			"type": "integer"
+		}
+	},
+	"additionalProperties": false
+}

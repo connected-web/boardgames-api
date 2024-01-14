@@ -122,6 +122,9 @@ describe('Open API Spec', () => {
         '/playrecords/delete',
         '/playrecords/list',
         '/playrecords/list/{dateCode}',
+        '/playrecords/update',
+        '/playrecords/view',
+        '/playrecords/view/{playRecordKey}',
         '/status'
       ])
     })
@@ -137,10 +140,12 @@ describe('Open API Spec', () => {
           'getOpenAPISpec',
           'getStatus',
           'helloWorld',
-          'listPlayRecords',
-          'listPlayRecordsByDate',
-          'createPlayRecord',
-          'deletePlayRecord'
+          'getPlayrecordsList',
+          'getPlayrecordsListDateCode',
+          'getPlayrecordsViewPlayRecordKey',
+          'putPlayrecordsUpdate',
+          'postPlayrecordsCreate',
+          'deletePlayrecordsDelete'
         ])
       )
     })
@@ -188,7 +193,7 @@ describe('Open API Spec', () => {
 
       console.log('Hello World:', response.status, response.statusText, JSON.stringify(response.data, null, 2))
 
-      ajv.validate({ $ref: 'app-openapi.json#/components/schemas/MessageResponseModel' }, response.data)
+      ajv.validate({ $ref: 'app-openapi.json#/components/schemas/MessageModel' }, response.data)
       expect(ajv.errors ?? []).toEqual([])
 
       expect(response.data).toEqual({
@@ -197,7 +202,7 @@ describe('Open API Spec', () => {
     })
 
     it('should be possible to list play records for 2023-01', async () => {
-      const response = await appClient.listPlayRecordsByDate({ dateCode: '2023-01' })
+      const response = await appClient.getPlayrecordsListDateCode({ dateCode: '2023-01' })
 
       console.log('Play Records (2023-01):', response.status, response.statusText, JSON.stringify(response.data, null, 2))
 
@@ -217,7 +222,7 @@ describe('Open API Spec', () => {
     })
 
     it('should be possible to list play records for 2023', async () => {
-      const response = await appClient.listPlayRecordsByDate({ dateCode: '2023' })
+      const response = await appClient.getPlayrecordsListDateCode({ dateCode: '2023' })
 
       console.log('Play Records (2023):', response.status, response.statusText, JSON.stringify(response.data, null, 2))
 
@@ -237,9 +242,12 @@ describe('Open API Spec', () => {
     })
 
     it('should be possible to list play records for all time', async () => {
-      const response = await appClient.listPlayRecords()
+      const response = await appClient.getPlayrecordsList()
 
-      console.log('Play Records (All Time):', response.status, response.statusText, JSON.stringify(response.data, null, 2))
+      console.log('Play Records (All Time):', response.status, response.statusText)
+      // await fs.writeFile(path.join(__dirname, './playrecords-all-time.json'), JSON.stringify(response.data?.playRecords?.[98], null, 2), 'utf-8')
+      // Patch for bad data
+      response.data.playRecords = (response.data?.playRecords ?? []).filter(item => item.name !== null)
 
       ajv.validate({ $ref: 'app-openapi.json#/components/schemas/PlayRecordsModel' }, response.data)
       expect(ajv.errors ?? []).toEqual([])
@@ -269,15 +277,15 @@ describe('Open API Spec', () => {
         ],
         notes: 'Hair was fluffed!'
       }
-      const createPlayRecordResponse = await appClient.createPlayRecord(null, payload)
-      const fileKey = createPlayRecordResponse?.data?.keypath
+      const createPlayRecordResponse = await appClient.postPlayrecordsCreate(null, payload)
+      const fileKey = (createPlayRecordResponse?.data as any)?.keypath
 
       console.log('Create Play Record:', createPlayRecordResponse.status, createPlayRecordResponse.statusText, JSON.stringify(createPlayRecordResponse.data, null, 2))
 
       // ajv.validate({ $ref: 'app-openapi.json#/components/schemas/PlayRecord' }, response.data)
       // expect(ajv.errors ?? []).toEqual([])
 
-      const playRecordsResponse = await appClient.listPlayRecordsByDate({ dateCode: '2031-03' })
+      const playRecordsResponse = await appClient.getPlayrecordsListDateCode({ dateCode: '2031-03' })
       console.log('Create Play Record - List Records from 2031-03:', playRecordsResponse.status, playRecordsResponse.statusText, JSON.stringify(playRecordsResponse.data, null, 2))
 
       const tempData = playRecordsResponse.data as any

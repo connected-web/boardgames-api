@@ -8,46 +8,54 @@
       "date": "2018-02-23",
       "winner": "Hannah",
       "coOp": "No",
-      "gameFamily": "Dominion"
+      "gameFamily": "Dominion",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/33"
     },
     {
       "date": "2018-02-25",
       "winner": "John",
       "coOp": "No",
-      "gameFamily": "Dominion"
+      "gameFamily": "Dominion",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/35"
     },
     {
       "date": "2018-03-02",
       "winner": "John",
       "coOp": "No",
-      "notes": "\"Deck top\""
+      "notes": "\"Deck top\"",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/2"
     },
     {
       "date": "2018-03-02",
       "winner": "Hannah",
       "coOp": "No",
-      "notes": "\"Deck top\""
+      "notes": "\"Deck top\"",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/3"
     },
     {
       "date": "2018-03-07",
       "winner": "John",
-      "coOp": "No"
+      "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/13"
     },
     {
       "date": "2018-03-16",
       "winner": "John",
-      "coOp": "No"
+      "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/25"
     },
     {
       "date": "2018-03-23",
       "winner": "Draw",
-      "coOp": "No"
+      "coOp": "No",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/37"
     },
     {
       "date": "2018-06-02",
       "winner": "Hannah",
       "coOp": "No",
-      "notes": "Base game"
+      "notes": "Base game",
+      "source": "gsheets://1WUx5D5gONHukgaHjqLl334fBUQzy6NQiaEouztVp-L4/2018/6"
     },
     {
       "date": "2022-01-03",
@@ -56,7 +64,8 @@
       "noOfPlayers": 2,
       "expansions": [
         "Dominion: Mixed Box"
-      ]
+      ],
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/01/2022-01-03T16:51:01.209Z.json"
     },
     {
       "date": "2022-02-26",
@@ -67,7 +76,8 @@
       "expansions": [
         "Dominion: Seaside",
         "Dominion: Intrigue (Second Edition)"
-      ]
+      ],
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/02/2022-02-26T17:45:02.441Z.json"
     },
     {
       "date": "2022-02-26",
@@ -77,7 +87,8 @@
       "expansions": [
         "Dominion: Seaside",
         "Dominion: Intrigue (Second Edition)"
-      ]
+      ],
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/03/2022-03-03T20:57:17.559Z.json"
     },
     {
       "date": "2022-02-27",
@@ -87,7 +98,8 @@
       "expansions": [
         "Dominion: Seaside",
         "Dominion: Intrigue (Second Edition)"
-      ]
+      ],
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/03/2022-03-03T20:57:30.307Z.json"
     },
     {
       "date": "2022-02-27",
@@ -97,13 +109,15 @@
       "expansions": [
         "Dominion: Seaside",
         "Dominion: Intrigue (Second Edition)"
-      ]
+      ],
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/03/2022-03-03T20:57:32.303Z.json"
     },
     {
       "date": "2022-09-03",
       "winner": "John",
       "coOp": "no",
-      "noOfPlayers": 2
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/09/2022-09-04T10:01:19.332Z.json"
     },
     {
       "date": "2022-11-26",
@@ -112,7 +126,8 @@
       "noOfPlayers": 2,
       "expansions": [
         "Dominion: Alchemy"
-      ]
+      ],
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/12/2022-12-05T20:03:07.285Z.json"
     },
     {
       "date": "2022-11-27",
@@ -121,7 +136,8 @@
       "noOfPlayers": 2,
       "expansions": [
         "Dominion: Alchemy"
-      ]
+      ],
+      "source": "s3://boardgames-api-playrecords-prod/original/2022/12/2022-12-05T20:03:16.784Z.json"
     },
     {
       "date": "2023-02-19",
@@ -130,7 +146,8 @@
       "noOfPlayers": 2,
       "expansions": [
         "Dominion: Seaside"
-      ]
+      ],
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/02/2023-02-20T19:12:58.313Z.json"
     },
     {
       "date": "2023-02-19",
@@ -139,7 +156,8 @@
       "noOfPlayers": 2,
       "expansions": [
         "Dominion: Seaside"
-      ]
+      ],
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/02/2023-02-20T19:13:00.887Z.json"
     },
     {
       "date": "2023-05-05",
@@ -149,7 +167,8 @@
       "expansions": [
         "Dominion: Intrigue (Second Edition)",
         "Dominion: Prosperity"
-      ]
+      ],
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/05/2023-05-16T15:45:46.266Z.json"
     },
     {
       "date": "2023-06-23",
@@ -158,7 +177,8 @@
       "noOfPlayers": 2,
       "expansions": [
         "Dominion: Hinterlands"
-      ]
+      ],
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/06/2023-06-25T16:35:44.471Z.json"
     },
     {
       "date": "2023-08-30",
@@ -167,7 +187,8 @@
       "noOfPlayers": 2,
       "expansions": [
         "Dominion: Hinterlands"
-      ]
+      ],
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/08/2023-08-30T19:32:42.323Z.json"
     },
     {
       "date": "2023-09-26",
@@ -176,24 +197,45 @@
       "noOfPlayers": 2,
       "expansions": [
         "Dominion: Prosperity"
-      ]
+      ],
+      "source": "s3://boardgames-api-playrecords-prod/original/2023/09/2023-09-26T19:04:49.809Z.json"
+    },
+    {
+      "date": "2023-11-29",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "expansions": [
+        "Dominion: Prosperity"
+      ],
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-30T21:02:36.953Z.json"
+    },
+    {
+      "date": "2023-11-30",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "expansions": [
+        "Dominion: Prosperity"
+      ],
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-30T21:02:42.737Z.json"
     }
   ],
-  "totalGamesPlayed": 22,
+  "totalGamesPlayed": 24,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
   "coOpGameLoses": 0,
   "coOpWinRate": 0,
   "coOpLossRate": 0,
-  "winCountHannah": 12,
-  "winCountJohn": 9,
+  "winCountHannah": 13,
+  "winCountJohn": 10,
   "winCountOther": 0,
   "winCountDraw": 1,
-  "winnableGamesTotal": 22,
-  "winPercentageHannah": 0.5455,
-  "winPercentageJohn": 0.4091,
+  "winnableGamesTotal": 24,
+  "winPercentageHannah": 0.5417,
+  "winPercentageJohn": 0.4167,
   "winPercentageOther": 0,
-  "winPercentageDraw": 0.0455,
+  "winPercentageDraw": 0.0417,
   "mostWonGames": "Hannah"
 }

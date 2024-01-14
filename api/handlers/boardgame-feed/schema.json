@@ -34,6 +34,10 @@
 					"gameFamily": {
 						"type": "string",
 						"pattern": "^.*$"
+					},
+					"source": {
+						"type": "string",
+						"pattern": "^.*$"
 					}
 				},
 				"additionalProperties": false
