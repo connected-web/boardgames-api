@@ -3,7 +3,7 @@
   "info": {
     "title": "Board Games API",
     "description": "Board Games API - https://github.com/connected-web/boardgames-api/",
-    "version": "2024-01-10T21:33:17Z"
+    "version": "2024-01-10T21:55:42Z"
   },
   "servers": [
     {
@@ -503,7 +503,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/MessageModel"
+                  "$ref": "#/components/schemas/UpdatedPlayrecordModel"
                 }
               }
             }
@@ -938,6 +938,40 @@
         ],
         "type": "object",
         "properties": {
+          "message": {
+            "type": "string",
+            "description": "The message returned by the server"
+          }
+        }
+      },
+      "UpdatedPlayrecordModel": {
+        "title": "Updated Playrecord",
+        "required": [
+          "keypath",
+          "message"
+        ],
+        "type": "object",
+        "properties": {
+          "filename": {
+            "type": "string",
+            "description": "The filename of the play record"
+          },
+          "month": {
+            "type": "string",
+            "description": "The month of the play record"
+          },
+          "year": {
+            "type": "string",
+            "description": "The year of the play record"
+          },
+          "keypath": {
+            "type": "string",
+            "description": "The keypath of the play record; may have changed if year or month have changed"
+          },
+          "payload": {
+            "type": "object",
+            "description": "The payload of the play record"
+          },
           "message": {
             "type": "string",
             "description": "The message returned by the server"
