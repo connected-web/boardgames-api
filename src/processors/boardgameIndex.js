@@ -61,10 +61,10 @@ function performFurtherAnalysis (entry) {
   result.coOpGameLoses = result.coOpGamesPlayedCount - result.coOpGameWins
   result.coOpWinRate = fmn(result.coOpGameWins / result.coOpGamesPlayedCount)
   result.coOpLossRate = fmn(result.coOpGameLoses / result.coOpGamesPlayedCount)
-  result.winCountHannah = playRecords.filter(r => (r.winner + '').toLowerCase() === 'hannah').length
-  result.winCountJohn = playRecords.filter(r => (r.winner + '').toLowerCase() === 'john').length
-  result.winCountOther = playRecords.filter(r => (r.winner + '').toLowerCase() === 'other').length
-  result.winCountDraw = playRecords.filter(r => (r.winner + '').toLowerCase() === 'draw').length
+  result.winCountHannah = playRecords.filter(r => (r.winner + '').toLowerCase().trim() === 'hannah').length
+  result.winCountJohn = playRecords.filter(r => (r.winner + '').toLowerCase().trim() === 'john').length
+  result.winCountOther = playRecords.filter(r => (r.winner + '').toLowerCase().trim() === 'other').length
+  result.winCountDraw = playRecords.filter(r => (r.winner + '').toLowerCase().trim() === 'draw').length
   result.winnableGamesTotal = result.winCountHannah + result.winCountJohn + result.winCountOther + result.winCountDraw
   result.winPercentageHannah = fmn(result.winCountHannah / result.winnableGamesTotal)
   result.winPercentageJohn = fmn(result.winCountJohn / result.winnableGamesTotal)
