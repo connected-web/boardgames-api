@@ -1,0 +1,37 @@
+{
+  "boardGameApiId": "village-rails",
+  "playRecords": [
+    {
+      "date": "2023-12-10",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-12T08:50:24.089Z.json"
+    },
+    {
+      "date": "2023-12-11",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-12T08:50:38.664Z.json"
+    }
+  ],
+  "name": "Village Rails",
+  "totalGamesPlayed": 2,
+  "coOpGamesPlayedCount": 0,
+  "coOpGamesPlayedPercentage": 0,
+  "coOpGameWins": 0,
+  "coOpGameLoses": 0,
+  "coOpWinRate": 0,
+  "coOpLossRate": 0,
+  "winCountHannah": 1,
+  "winCountJohn": 1,
+  "winCountOther": 0,
+  "winCountDraw": 0,
+  "winnableGamesTotal": 2,
+  "winPercentageHannah": 0.5,
+  "winPercentageJohn": 0.5,
+  "winPercentageOther": 0,
+  "winPercentageDraw": 0,
+  "mostWonGames": "Draw"
+}

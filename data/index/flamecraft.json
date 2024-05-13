@@ -7,10 +7,17 @@
       "coOp": "no",
       "noOfPlayers": 2,
       "source": "s3://boardgames-api-playrecords-prod/original/2023/06/2023-06-09T14:25:54.441Z.json"
+    },
+    {
+      "date": "2024-02-14",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/02/2024-02-15T14:46:12.356Z.json"
     }
   ],
   "name": "Flamecraft",
-  "totalGamesPlayed": 1,
+  "totalGamesPlayed": 2,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
@@ -18,10 +25,10 @@
   "coOpWinRate": 0,
   "coOpLossRate": 0,
   "winCountHannah": 0,
-  "winCountJohn": 1,
+  "winCountJohn": 2,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 1,
+  "winnableGamesTotal": 2,
   "winPercentageHannah": 0,
   "winPercentageJohn": 1,
   "winPercentageOther": 0,

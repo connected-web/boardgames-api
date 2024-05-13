@@ -44,10 +44,17 @@
         "Scoundrels of Skullport"
       ],
       "source": "s3://boardgames-api-playrecords-prod/original/2022/10/2022-10-01T19:46:21.628Z.json"
+    },
+    {
+      "date": "2024-01-26",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/01/2024-01-31T08:27:49.654Z.json"
     }
   ],
   "name": "Lords of Waterdeep",
-  "totalGamesPlayed": 6,
+  "totalGamesPlayed": 7,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
@@ -55,12 +62,12 @@
   "coOpWinRate": 0,
   "coOpLossRate": 0,
   "winCountHannah": 2,
-  "winCountJohn": 4,
+  "winCountJohn": 5,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 6,
-  "winPercentageHannah": 0.3333,
-  "winPercentageJohn": 0.6667,
+  "winnableGamesTotal": 7,
+  "winPercentageHannah": 0.2857,
+  "winPercentageJohn": 0.7143,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
   "mostWonGames": "John"

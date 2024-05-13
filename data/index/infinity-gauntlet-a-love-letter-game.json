@@ -17,23 +17,30 @@
       "coOp": "No",
       "gameFamily": "Love Letter",
       "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/53"
+    },
+    {
+      "date": "2024-02-05",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/02/2024-02-08T09:41:48.248Z.json"
     }
   ],
-  "totalGamesPlayed": 2,
+  "totalGamesPlayed": 3,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
   "coOpGameLoses": 0,
   "coOpWinRate": 0,
   "coOpLossRate": 0,
-  "winCountHannah": 1,
+  "winCountHannah": 2,
   "winCountJohn": 0,
   "winCountOther": 0,
   "winCountDraw": 1,
-  "winnableGamesTotal": 2,
-  "winPercentageHannah": 0.5,
+  "winnableGamesTotal": 3,
+  "winPercentageHannah": 0.6667,
   "winPercentageJohn": 0,
   "winPercentageOther": 0,
-  "winPercentageDraw": 0.5,
+  "winPercentageDraw": 0.3333,
   "mostWonGames": "Hannah"
 }

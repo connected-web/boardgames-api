@@ -1,0 +1,93 @@
+{
+  "boardGameApiId": "kariba",
+  "playRecords": [
+    {
+      "date": "2023-12-09",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-09T19:35:32.225Z.json"
+    },
+    {
+      "date": "2023-12-10",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-12T08:50:07.842Z.json"
+    },
+    {
+      "date": "2023-12-16",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-22T11:10:42.614Z.json"
+    },
+    {
+      "date": "2023-12-25",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-28T07:58:08.006Z.json"
+    },
+    {
+      "date": "2023-12-29",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-31T21:23:08.925Z.json"
+    },
+    {
+      "date": "2023-12-31",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-31T21:24:53.125Z.json"
+    },
+    {
+      "date": "2024-01-16",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/01/2024-01-16T21:12:03.509Z.json"
+    },
+    {
+      "date": "2024-02-15",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/02/2024-02-16T07:02:12.644Z.json"
+    },
+    {
+      "date": "2024-03-19",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/03/2024-03-20T16:17:07.180Z.json"
+    },
+    {
+      "date": "2024-04-10",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/04/2024-04-13T18:01:56.214Z.json"
+    }
+  ],
+  "name": "Kariba",
+  "totalGamesPlayed": 10,
+  "coOpGamesPlayedCount": 0,
+  "coOpGamesPlayedPercentage": 0,
+  "coOpGameWins": 0,
+  "coOpGameLoses": 0,
+  "coOpWinRate": 0,
+  "coOpLossRate": 0,
+  "winCountHannah": 4,
+  "winCountJohn": 6,
+  "winCountOther": 0,
+  "winCountDraw": 0,
+  "winnableGamesTotal": 10,
+  "winPercentageHannah": 0.4,
+  "winPercentageJohn": 0.6,
+  "winPercentageOther": 0,
+  "winPercentageDraw": 0,
+  "mostWonGames": "John"
+}

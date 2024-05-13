@@ -2,11 +2,11 @@
   "name": "Love Letter",
   "gameFamilyId": "love-letter",
   "earliestDate": "2018-01-02",
-  "latestDate": "2023-12-03",
+  "latestDate": "2024-05-09",
   "sequenceStartDate": "2018-01-02",
-  "sequenceEndDate": "2023-12-03",
-  "daysInSequence": 2162,
-  "daysWithUnplayedGames": 1899,
+  "sequenceEndDate": "2024-05-09",
+  "daysInSequence": 2320,
+  "daysWithUnplayedGames": 2007,
   "gamesPlayedPerDay": {
     "1": 1,
     "2": 0,
@@ -2169,7 +2169,165 @@
     "2159": 0,
     "2160": 0,
     "2161": 1,
-    "2162": 1
+    "2162": 1,
+    "2163": 1,
+    "2164": 0,
+    "2165": 1,
+    "2166": 0,
+    "2167": 1,
+    "2168": 0,
+    "2169": 0,
+    "2170": 1,
+    "2171": 0,
+    "2172": 0,
+    "2173": 1,
+    "2174": 0,
+    "2175": 1,
+    "2176": 1,
+    "2177": 1,
+    "2178": 0,
+    "2179": 1,
+    "2180": 1,
+    "2181": 0,
+    "2182": 0,
+    "2183": 0,
+    "2184": 0,
+    "2185": 0,
+    "2186": 0,
+    "2187": 1,
+    "2188": 1,
+    "2189": 1,
+    "2190": 1,
+    "2191": 1,
+    "2192": 0,
+    "2193": 1,
+    "2194": 0,
+    "2195": 0,
+    "2196": 0,
+    "2197": 0,
+    "2198": 0,
+    "2199": 0,
+    "2200": 0,
+    "2201": 0,
+    "2202": 0,
+    "2203": 0,
+    "2204": 0,
+    "2205": 0,
+    "2206": 3,
+    "2207": 0,
+    "2208": 0,
+    "2209": 1,
+    "2210": 0,
+    "2211": 0,
+    "2212": 0,
+    "2213": 0,
+    "2214": 1,
+    "2215": 0,
+    "2216": 0,
+    "2217": 0,
+    "2218": 0,
+    "2219": 1,
+    "2220": 0,
+    "2221": 1,
+    "2222": 2,
+    "2223": 1,
+    "2224": 1,
+    "2225": 0,
+    "2226": 1,
+    "2227": 1,
+    "2228": 0,
+    "2229": 0,
+    "2230": 0,
+    "2231": 0,
+    "2232": 0,
+    "2233": 1,
+    "2234": 0,
+    "2235": 0,
+    "2236": 0,
+    "2237": 0,
+    "2238": 0,
+    "2239": 1,
+    "2240": 1,
+    "2241": 0,
+    "2242": 1,
+    "2243": 0,
+    "2244": 0,
+    "2245": 0,
+    "2246": 1,
+    "2247": 0,
+    "2248": 1,
+    "2249": 0,
+    "2250": 1,
+    "2251": 0,
+    "2252": 1,
+    "2253": 1,
+    "2254": 0,
+    "2255": 0,
+    "2256": 0,
+    "2257": 0,
+    "2258": 1,
+    "2259": 0,
+    "2260": 0,
+    "2261": 1,
+    "2262": 1,
+    "2263": 0,
+    "2264": 0,
+    "2265": 0,
+    "2266": 1,
+    "2267": 0,
+    "2268": 0,
+    "2269": 0,
+    "2270": 0,
+    "2271": 0,
+    "2272": 1,
+    "2273": 0,
+    "2274": 0,
+    "2275": 0,
+    "2276": 1,
+    "2277": 0,
+    "2278": 0,
+    "2279": 0,
+    "2280": 1,
+    "2281": 0,
+    "2282": 0,
+    "2283": 1,
+    "2284": 0,
+    "2285": 0,
+    "2286": 0,
+    "2287": 0,
+    "2288": 0,
+    "2289": 0,
+    "2290": 0,
+    "2291": 1,
+    "2292": 0,
+    "2293": 0,
+    "2294": 1,
+    "2295": 0,
+    "2296": 0,
+    "2297": 0,
+    "2298": 0,
+    "2299": 1,
+    "2300": 0,
+    "2301": 0,
+    "2302": 0,
+    "2303": 0,
+    "2304": 0,
+    "2305": 0,
+    "2306": 0,
+    "2307": 0,
+    "2308": 0,
+    "2309": 0,
+    "2310": 1,
+    "2311": 1,
+    "2312": 0,
+    "2313": 0,
+    "2314": 0,
+    "2315": 0,
+    "2316": 0,
+    "2317": 0,
+    "2318": 1,
+    "2319": 0,
+    "2320": 1
   },
   "gamesPlayed": [
     {
@@ -4393,10 +4551,434 @@
       "noOfPlayers": 2,
       "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-03T19:07:00.533Z.json",
       "name": "Love Letter"
+    },
+    {
+      "date": "2023-12-04",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-09T19:33:10.699Z.json",
+      "name": "Lovecraft Letter"
+    },
+    {
+      "date": "2023-12-06",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-09T19:34:07.418Z.json",
+      "name": "Lovecraft Letter"
+    },
+    {
+      "date": "2023-12-08",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-09T19:34:48.137Z.json",
+      "name": "Lovecraft Letter"
+    },
+    {
+      "date": "2023-12-11",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-12T08:50:48.363Z.json",
+      "name": "Lovecraft Letter"
+    },
+    {
+      "date": "2023-12-14",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-16T16:02:23.845Z.json",
+      "name": "Lovecraft Letter"
+    },
+    {
+      "date": "2023-12-16",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-22T11:10:53.285Z.json",
+      "name": "Lovecraft Letter"
+    },
+    {
+      "date": "2023-12-17",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-22T11:11:03.074Z.json",
+      "name": "Lovecraft Letter"
+    },
+    {
+      "date": "2023-12-18",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-22T11:11:42.891Z.json",
+      "name": "Lovecraft Letter"
+    },
+    {
+      "date": "2023-12-20",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-22T11:12:12.051Z.json",
+      "name": "Lovecraft Letter"
+    },
+    {
+      "date": "2023-12-21",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-22T11:12:32.275Z.json",
+      "name": "Lovecraft Letter"
+    },
+    {
+      "date": "2023-12-28",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-31T21:22:33.168Z.json",
+      "name": "Love Letter"
+    },
+    {
+      "date": "2023-12-29",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-31T21:23:24.219Z.json",
+      "name": "Love Letter"
+    },
+    {
+      "date": "2023-12-30",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-31T21:24:07.574Z.json",
+      "name": "Love Letter"
+    },
+    {
+      "date": "2023-12-31",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-31T21:25:07.241Z.json",
+      "name": "Love Letter"
+    },
+    {
+      "date": "2024-01-01",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/01/2024-01-07T15:47:22.853Z.json",
+      "name": "Love Letter"
+    },
+    {
+      "date": "2024-01-03",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/01/2024-01-07T15:47:38.560Z.json",
+      "name": "Lovecraft Letter"
+    },
+    {
+      "date": "2024-01-16",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/01/2024-01-16T21:00:09.153Z.json",
+      "name": "Archer: Once You Go Blackmail..."
+    },
+    {
+      "date": "2024-01-16",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/01/2024-01-16T21:01:08.976Z.json",
+      "name": "Love Letter Kanai Factory Limited Edition"
+    },
+    {
+      "date": "2024-01-16",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/01/2024-01-16T21:00:29.431Z.json",
+      "name": "Love Letter: Batman"
+    },
+    {
+      "date": "2024-01-19",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/01/2024-01-31T08:26:33.402Z.json",
+      "name": "Lovecraft Letter"
+    },
+    {
+      "date": "2024-01-24",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/01/2024-01-31T08:27:12.697Z.json",
+      "name": "Lovecraft Letter"
+    },
+    {
+      "date": "2024-01-29",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/01/2024-01-31T08:28:31.417Z.json",
+      "name": "Lovecraft Letter"
+    },
+    {
+      "date": "2024-01-31",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/01/2024-01-31T19:14:24.518Z.json",
+      "name": "Lovecraft Letter"
+    },
+    {
+      "date": "2024-02-01",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/02/2024-02-08T09:40:39.360Z.json",
+      "name": "Love Letter 2nd Edition"
+    },
+    {
+      "date": "2024-02-01",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/02/2024-02-08T09:39:58.315Z.json",
+      "name": "Lovecraft Letter"
+    },
+    {
+      "date": "2024-02-02",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/02/2024-02-08T09:41:02.184Z.json",
+      "name": "Love Letter: Batman"
+    },
+    {
+      "date": "2024-02-03",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/02/2024-02-08T09:41:32.865Z.json",
+      "name": "Archer: Once You Go Blackmail..."
+    },
+    {
+      "date": "2024-02-05",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/02/2024-02-08T09:41:48.248Z.json",
+      "name": "Infinity Gauntlet: A Love Letter Game"
+    },
+    {
+      "date": "2024-02-06",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/02/2024-02-08T09:43:03.128Z.json",
+      "name": "Love Letter: Wedding Edition"
+    },
+    {
+      "date": "2024-02-12",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/02/2024-02-13T09:37:15.094Z.json",
+      "name": "Love Letter Kanai Factory Limited Edition"
+    },
+    {
+      "date": "2024-02-18",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/02/2024-03-01T07:24:58.715Z.json",
+      "name": "Lovecraft Letter"
+    },
+    {
+      "date": "2024-02-19",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/02/2024-03-01T07:25:10.178Z.json",
+      "name": "Lovecraft Letter"
+    },
+    {
+      "date": "2024-02-21",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/02/2024-03-01T07:25:20.738Z.json",
+      "name": "Lovecraft Letter"
+    },
+    {
+      "date": "2024-02-25",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/02/2024-03-01T07:26:01.952Z.json",
+      "name": "Lovecraft Letter"
+    },
+    {
+      "date": "2024-02-27",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/02/2024-03-01T07:26:08.958Z.json",
+      "name": "Lovecraft Letter"
+    },
+    {
+      "date": "2024-02-29",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/02/2024-03-01T07:26:58.526Z.json",
+      "name": "Lovecraft Letter"
+    },
+    {
+      "date": "2024-03-02",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/03/2024-03-02T21:19:15.232Z.json",
+      "name": "Love Letter"
+    },
+    {
+      "date": "2024-03-03",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/03/2024-03-05T10:13:46.398Z.json",
+      "name": "Lovecraft Letter"
+    },
+    {
+      "date": "2024-03-08",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/03/2024-03-12T10:06:28.950Z.json",
+      "name": "Love Letter Kanai Factory Limited Edition"
+    },
+    {
+      "date": "2024-03-11",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/03/2024-03-12T10:06:54.565Z.json",
+      "name": "Archer: Once You Go Blackmail..."
+    },
+    {
+      "date": "2024-03-12",
+      "winner": "other",
+      "coOp": "no",
+      "noOfPlayers": 4,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/03/2024-03-16T18:50:46.161Z.json",
+      "name": "Lovecraft Letter"
+    },
+    {
+      "date": "2024-03-16",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/03/2024-03-16T18:51:36.159Z.json",
+      "name": "Love Letter: Batman"
+    },
+    {
+      "date": "2024-03-22",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/03/2024-03-22T20:26:02.226Z.json",
+      "name": "Lovecraft Letter"
+    },
+    {
+      "date": "2024-03-26",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/03/2024-03-31T12:31:49.500Z.json",
+      "name": "Lovecraft Letter"
+    },
+    {
+      "date": "2024-03-30",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/03/2024-03-31T12:32:55.056Z.json",
+      "name": "Lovecraft Letter"
+    },
+    {
+      "date": "2024-04-02",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/04/2024-04-02T20:02:30.075Z.json",
+      "name": "Lovecraft Letter"
+    },
+    {
+      "date": "2024-04-10",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/04/2024-04-13T18:02:19.512Z.json",
+      "name": "Love Letter: Batman"
+    },
+    {
+      "date": "2024-04-13",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/04/2024-04-15T08:50:05.094Z.json",
+      "name": "Archer: Once You Go Blackmail..."
+    },
+    {
+      "date": "2024-04-18",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/04/2024-04-22T10:55:29.673Z.json",
+      "name": "Love Letter Kanai Factory Limited Edition"
+    },
+    {
+      "date": "2024-04-29",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/04/2024-04-30T19:06:34.050Z.json",
+      "name": "Lovecraft Letter"
+    },
+    {
+      "date": "2024-04-30",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/04/2024-04-30T19:06:55.391Z.json",
+      "name": "Lovecraft Letter"
+    },
+    {
+      "date": "2024-05-07",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/05/2024-05-12T18:09:24.150Z.json",
+      "name": "Love Letter Kanai Factory Limited Edition"
+    },
+    {
+      "date": "2024-05-09",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/05/2024-05-12T18:09:54.396Z.json",
+      "name": "Archer: Once You Go Blackmail..."
     }
   ],
-  "totalGamesPlayed": 284,
-  "averageGamesPlayedPerDay": 0.1314,
+  "totalGamesPlayed": 337,
+  "averageGamesPlayedPerDay": 0.1453,
   "mostGamesPlayedInADay": [
     {
       "date": "2018-02-26",
@@ -4408,6 +4990,14 @@
     },
     {
       "date": "2021-02-03",
+      "games": [
+        "Archer: Once You Go Blackmail...",
+        "Love Letter: Batman",
+        "Love Letter Kanai Factory Limited Edition"
+      ]
+    },
+    {
+      "date": "2024-01-16",
       "games": [
         "Archer: Once You Go Blackmail...",
         "Love Letter: Batman",
@@ -4431,39 +5021,39 @@
     "Marvel: Infinity Gauntlet"
   ],
   "uniqueGamesPlayedCount": 13,
-  "uniqueGamesPlayedPercentage": 0.0458,
+  "uniqueGamesPlayedPercentage": 0.0386,
   "mostPlayedGames": [
     {
       "name": "Lovecraft Letter",
-      "plays": 153
+      "plays": 183
     }
   ],
   "coOpGamesPlayedCount": 1,
-  "coOpGamesPlayedPercentage": 0.0035,
+  "coOpGamesPlayedPercentage": 0.003,
   "coOpGameWins": 1,
   "coOpGameLoses": 0,
   "coOpWinRate": 1,
   "coOpLossRate": 0,
-  "winCountHannah": 166,
-  "winCountJohn": 109,
-  "winCountOther": 5,
+  "winCountHannah": 194,
+  "winCountJohn": 133,
+  "winCountOther": 6,
   "winCountDraw": 3,
-  "winnableGamesTotal": 283,
-  "winPercentageHannah": 0.5866,
-  "winPercentageJohn": 0.3852,
-  "winPercentageOther": 0.0177,
-  "winPercentageDraw": 0.0106,
+  "winnableGamesTotal": 336,
+  "winPercentageHannah": 0.5774,
+  "winPercentageJohn": 0.3958,
+  "winPercentageOther": 0.0179,
+  "winPercentageDraw": 0.0089,
   "mostWonGames": "Hannah",
   "mostWonGamesJohn": [
     {
       "game": "Lovecraft Letter",
-      "plays": 62
+      "plays": 74
     }
   ],
   "mostWonGamesHannah": [
     {
       "game": "Lovecraft Letter",
-      "plays": 88
+      "plays": 105
     }
   ]
 }

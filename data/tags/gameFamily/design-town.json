@@ -2,11 +2,11 @@
   "name": "Design Town",
   "gameFamilyId": "design-town",
   "earliestDate": "2020-03-18",
-  "latestDate": "2023-11-15",
+  "latestDate": "2024-02-13",
   "sequenceStartDate": "2020-03-18",
-  "sequenceEndDate": "2023-11-15",
-  "daysInSequence": 1338,
-  "daysWithUnplayedGames": 1315,
+  "sequenceEndDate": "2024-02-13",
+  "daysInSequence": 1428,
+  "daysWithUnplayedGames": 1403,
   "gamesPlayedPerDay": {
     "1": 1,
     "2": 1,
@@ -1345,7 +1345,97 @@
     "1335": 0,
     "1336": 0,
     "1337": 0,
-    "1338": 1
+    "1338": 1,
+    "1339": 0,
+    "1340": 0,
+    "1341": 0,
+    "1342": 0,
+    "1343": 0,
+    "1344": 0,
+    "1345": 0,
+    "1346": 0,
+    "1347": 0,
+    "1348": 0,
+    "1349": 0,
+    "1350": 0,
+    "1351": 0,
+    "1352": 0,
+    "1353": 0,
+    "1354": 0,
+    "1355": 0,
+    "1356": 0,
+    "1357": 0,
+    "1358": 0,
+    "1359": 0,
+    "1360": 0,
+    "1361": 0,
+    "1362": 0,
+    "1363": 0,
+    "1364": 0,
+    "1365": 0,
+    "1366": 0,
+    "1367": 0,
+    "1368": 0,
+    "1369": 0,
+    "1370": 0,
+    "1371": 0,
+    "1372": 0,
+    "1373": 0,
+    "1374": 0,
+    "1375": 0,
+    "1376": 0,
+    "1377": 0,
+    "1378": 0,
+    "1379": 0,
+    "1380": 0,
+    "1381": 0,
+    "1382": 0,
+    "1383": 0,
+    "1384": 0,
+    "1385": 0,
+    "1386": 0,
+    "1387": 0,
+    "1388": 0,
+    "1389": 0,
+    "1390": 0,
+    "1391": 0,
+    "1392": 1,
+    "1393": 0,
+    "1394": 0,
+    "1395": 0,
+    "1396": 0,
+    "1397": 0,
+    "1398": 0,
+    "1399": 0,
+    "1400": 0,
+    "1401": 0,
+    "1402": 0,
+    "1403": 0,
+    "1404": 0,
+    "1405": 0,
+    "1406": 0,
+    "1407": 0,
+    "1408": 0,
+    "1409": 0,
+    "1410": 0,
+    "1411": 0,
+    "1412": 0,
+    "1413": 0,
+    "1414": 0,
+    "1415": 0,
+    "1416": 0,
+    "1417": 0,
+    "1418": 0,
+    "1419": 0,
+    "1420": 0,
+    "1421": 0,
+    "1422": 0,
+    "1423": 0,
+    "1424": 0,
+    "1425": 0,
+    "1426": 0,
+    "1427": 0,
+    "1428": 1
   },
   "gamesPlayed": [
     {
@@ -1529,10 +1619,26 @@
       "noOfPlayers": 2,
       "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-19T08:56:22.929Z.json",
       "name": "Design Town"
+    },
+    {
+      "date": "2024-01-08",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/01/2024-01-10T13:33:48.436Z.json",
+      "name": "Design Town"
+    },
+    {
+      "date": "2024-02-13",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/02/2024-02-14T09:34:20.484Z.json",
+      "name": "Design Town"
     }
   ],
-  "totalGamesPlayed": 23,
-  "averageGamesPlayedPerDay": 0.0172,
+  "totalGamesPlayed": 25,
+  "averageGamesPlayedPerDay": 0.0175,
   "mostGamesPlayedInADay": [
     {
       "date": "2020-03-18",
@@ -1671,17 +1777,29 @@
       "games": [
         "Design Town"
       ]
+    },
+    {
+      "date": "2024-01-08",
+      "games": [
+        "Design Town"
+      ]
+    },
+    {
+      "date": "2024-02-13",
+      "games": [
+        "Design Town"
+      ]
     }
   ],
   "uniqueGamesPlayed": [
     "Design Town"
   ],
   "uniqueGamesPlayedCount": 1,
-  "uniqueGamesPlayedPercentage": 0.0435,
+  "uniqueGamesPlayedPercentage": 0.04,
   "mostPlayedGames": [
     {
       "name": "Design Town",
-      "plays": 23
+      "plays": 25
     }
   ],
   "coOpGamesPlayedCount": 0,
@@ -1690,26 +1808,26 @@
   "coOpGameLoses": 0,
   "coOpWinRate": 0,
   "coOpLossRate": 0,
-  "winCountHannah": 17,
-  "winCountJohn": 6,
+  "winCountHannah": 18,
+  "winCountJohn": 7,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 23,
-  "winPercentageHannah": 0.7391,
-  "winPercentageJohn": 0.2609,
+  "winnableGamesTotal": 25,
+  "winPercentageHannah": 0.72,
+  "winPercentageJohn": 0.28,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
   "mostWonGames": "Hannah",
   "mostWonGamesJohn": [
     {
       "game": "Design Town",
-      "plays": 6
+      "plays": 7
     }
   ],
   "mostWonGamesHannah": [
     {
       "game": "Design Town",
-      "plays": 17
+      "plays": 18
     }
   ]
 }

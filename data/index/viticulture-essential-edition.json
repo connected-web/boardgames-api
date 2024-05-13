@@ -3,8 +3,19 @@
   "boardGameGeekName": "Viticulture Essential Edition",
   "boardGameApiId": "viticulture-essential-edition",
   "name": "Viticulture Essential Edition",
-  "playRecords": [],
-  "totalGamesPlayed": 0,
+  "playRecords": [
+    {
+      "date": "2024-02-29",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "expansions": [
+        "Viticulture: Tuscany"
+      ],
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/02/2024-03-01T07:27:28.339Z.json"
+    }
+  ],
+  "totalGamesPlayed": 1,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
@@ -12,13 +23,13 @@
   "coOpWinRate": 0,
   "coOpLossRate": 0,
   "winCountHannah": 0,
-  "winCountJohn": 0,
+  "winCountJohn": 1,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 0,
+  "winnableGamesTotal": 1,
   "winPercentageHannah": 0,
-  "winPercentageJohn": 0,
+  "winPercentageJohn": 1,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
-  "mostWonGames": "Draw"
+  "mostWonGames": "John"
 }

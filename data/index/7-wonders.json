@@ -107,23 +107,30 @@
         "7 Wonders: Leaders"
       ],
       "source": "s3://boardgames-api-playrecords-prod/original/2023/07/2023-07-12T17:01:07.167Z.json"
+    },
+    {
+      "date": "2024-03-22",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/03/2024-03-22T20:25:52.814Z.json"
     }
   ],
-  "totalGamesPlayed": 15,
+  "totalGamesPlayed": 16,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
   "coOpGameLoses": 0,
   "coOpWinRate": 0,
   "coOpLossRate": 0,
-  "winCountHannah": 6,
+  "winCountHannah": 7,
   "winCountJohn": 8,
   "winCountOther": 1,
   "winCountDraw": 0,
-  "winnableGamesTotal": 15,
-  "winPercentageHannah": 0.4,
-  "winPercentageJohn": 0.5333,
-  "winPercentageOther": 0.0667,
+  "winnableGamesTotal": 16,
+  "winPercentageHannah": 0.4375,
+  "winPercentageJohn": 0.5,
+  "winPercentageOther": 0.0625,
   "winPercentageDraw": 0,
   "mostWonGames": "John"
 }

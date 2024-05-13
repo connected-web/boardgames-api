@@ -267,16 +267,121 @@
       "coOp": "yes",
       "noOfPlayers": 2,
       "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-19T08:56:55.448Z.json"
+    },
+    {
+      "date": "2023-12-07",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-09T19:34:19.349Z.json"
+    },
+    {
+      "date": "2023-12-18",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-22T11:11:30.734Z.json"
+    },
+    {
+      "date": "2023-12-19",
+      "coOpOutcome": "loss",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-22T11:11:57.464Z.json"
+    },
+    {
+      "date": "2023-12-29",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-31T21:22:50.023Z.json"
+    },
+    {
+      "date": "2023-12-31",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-31T21:25:19.840Z.json"
+    },
+    {
+      "date": "2024-01-06",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/01/2024-01-07T16:00:45.302Z.json"
+    },
+    {
+      "date": "2024-02-15",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/02/2024-02-15T14:46:36.261Z.json"
+    },
+    {
+      "date": "2024-02-29",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/02/2024-03-01T07:27:11.907Z.json"
+    },
+    {
+      "date": "2024-03-01",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/03/2024-03-01T20:11:33.235Z.json"
+    },
+    {
+      "date": "2024-03-12",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 4,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/03/2024-03-16T18:50:34.623Z.json"
+    },
+    {
+      "date": "2024-03-12",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 4,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/03/2024-03-16T18:50:35.879Z.json"
+    },
+    {
+      "date": "2024-03-26",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/03/2024-03-31T12:32:20.693Z.json"
+    },
+    {
+      "date": "2024-03-31",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/03/2024-03-31T20:17:01.737Z.json"
+    },
+    {
+      "date": "2024-04-01",
+      "coOpOutcome": "loss",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/04/2024-04-02T06:29:36.718Z.json"
+    },
+    {
+      "date": "2024-05-03",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/05/2024-05-04T06:06:55.385Z.json"
     }
   ],
   "name": "Bandido",
-  "totalGamesPlayed": 38,
-  "coOpGamesPlayedCount": 38,
+  "totalGamesPlayed": 53,
+  "coOpGamesPlayedCount": 53,
   "coOpGamesPlayedPercentage": 1,
-  "coOpGameWins": 31,
-  "coOpGameLoses": 7,
-  "coOpWinRate": 0.8158,
-  "coOpLossRate": 0.1842,
+  "coOpGameWins": 44,
+  "coOpGameLoses": 9,
+  "coOpWinRate": 0.8302,
+  "coOpLossRate": 0.1698,
   "winCountHannah": 0,
   "winCountJohn": 0,
   "winCountOther": 0,

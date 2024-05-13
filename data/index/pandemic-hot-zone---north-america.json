@@ -14,16 +14,23 @@
       "coOp": "yes",
       "noOfPlayers": 2,
       "source": "s3://boardgames-api-playrecords-prod/original/2023/09/2023-09-26T14:10:42.881Z.json"
+    },
+    {
+      "date": "2024-02-01",
+      "coOpOutcome": "loss",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/02/2024-02-08T09:39:45.430Z.json"
     }
   ],
   "name": "Pandemic: Hot Zone - North America",
-  "totalGamesPlayed": 2,
-  "coOpGamesPlayedCount": 2,
+  "totalGamesPlayed": 3,
+  "coOpGamesPlayedCount": 3,
   "coOpGamesPlayedPercentage": 1,
   "coOpGameWins": 2,
-  "coOpGameLoses": 0,
-  "coOpWinRate": 1,
-  "coOpLossRate": 0,
+  "coOpGameLoses": 1,
+  "coOpWinRate": 0.6667,
+  "coOpLossRate": 0.3333,
   "winCountHannah": 0,
   "winCountJohn": 0,
   "winCountOther": 0,

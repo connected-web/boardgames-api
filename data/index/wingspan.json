@@ -54,9 +54,19 @@
         "Wingspan: European Expansion "
       ],
       "source": "s3://boardgames-api-playrecords-prod/original/2022/02/2022-02-13T20:14:00.152Z.json"
+    },
+    {
+      "date": "2023-12-25",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "expansions": [
+        "Wingspan: European Expansion "
+      ],
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-28T07:57:58.081Z.json"
     }
   ],
-  "totalGamesPlayed": 7,
+  "totalGamesPlayed": 8,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
@@ -64,12 +74,12 @@
   "coOpWinRate": 0,
   "coOpLossRate": 0,
   "winCountHannah": 5,
-  "winCountJohn": 2,
+  "winCountJohn": 3,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 7,
-  "winPercentageHannah": 0.7143,
-  "winPercentageJohn": 0.2857,
+  "winnableGamesTotal": 8,
+  "winPercentageHannah": 0.625,
+  "winPercentageJohn": 0.375,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
   "mostWonGames": "Hannah"

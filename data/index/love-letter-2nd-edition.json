@@ -84,10 +84,17 @@
       "coOp": "no",
       "noOfPlayers": 2,
       "source": "s3://boardgames-api-playrecords-prod/original/2023/05/2023-05-28T15:18:03.450Z.json"
+    },
+    {
+      "date": "2024-02-01",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/02/2024-02-08T09:40:39.360Z.json"
     }
   ],
   "name": "Love Letter 2nd Edition",
-  "totalGamesPlayed": 12,
+  "totalGamesPlayed": 13,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
@@ -95,12 +102,12 @@
   "coOpWinRate": 0,
   "coOpLossRate": 0,
   "winCountHannah": 7,
-  "winCountJohn": 5,
+  "winCountJohn": 6,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 12,
-  "winPercentageHannah": 0.5833,
-  "winPercentageJohn": 0.4167,
+  "winnableGamesTotal": 13,
+  "winPercentageHannah": 0.5385,
+  "winPercentageJohn": 0.4615,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
   "mostWonGames": "Hannah"

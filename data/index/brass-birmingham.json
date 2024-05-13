@@ -80,9 +80,23 @@
       "coOp": "no",
       "noOfPlayers": 2,
       "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-19T08:57:13.402Z.json"
+    },
+    {
+      "date": "2024-01-30",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/01/2024-01-31T08:28:42.489Z.json"
+    },
+    {
+      "date": "2024-05-04",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/05/2024-05-04T20:08:37.785Z.json"
     }
   ],
-  "totalGamesPlayed": 11,
+  "totalGamesPlayed": 13,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
@@ -90,12 +104,12 @@
   "coOpWinRate": 0,
   "coOpLossRate": 0,
   "winCountHannah": 4,
-  "winCountJohn": 7,
+  "winCountJohn": 9,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 11,
-  "winPercentageHannah": 0.3636,
-  "winPercentageJohn": 0.6364,
+  "winnableGamesTotal": 13,
+  "winPercentageHannah": 0.3077,
+  "winPercentageJohn": 0.6923,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
   "mostWonGames": "John"

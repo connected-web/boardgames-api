@@ -2,11 +2,11 @@
   "name": "Dominion",
   "gameFamilyId": "dominion",
   "earliestDate": "2018-02-23",
-  "latestDate": "2023-11-30",
+  "latestDate": "2024-02-12",
   "sequenceStartDate": "2018-02-23",
-  "sequenceEndDate": "2023-11-30",
-  "daysInSequence": 2107,
-  "daysWithUnplayedGames": 2058,
+  "sequenceEndDate": "2024-02-12",
+  "daysInSequence": 2181,
+  "daysWithUnplayedGames": 2130,
   "gamesPlayedPerDay": {
     "1": 1,
     "2": 0,
@@ -2114,7 +2114,81 @@
     "2104": 0,
     "2105": 0,
     "2106": 1,
-    "2107": 1
+    "2107": 1,
+    "2108": 0,
+    "2109": 0,
+    "2110": 0,
+    "2111": 0,
+    "2112": 0,
+    "2113": 0,
+    "2114": 0,
+    "2115": 0,
+    "2116": 0,
+    "2117": 0,
+    "2118": 0,
+    "2119": 0,
+    "2120": 0,
+    "2121": 0,
+    "2122": 0,
+    "2123": 0,
+    "2124": 0,
+    "2125": 0,
+    "2126": 0,
+    "2127": 0,
+    "2128": 0,
+    "2129": 0,
+    "2130": 0,
+    "2131": 0,
+    "2132": 0,
+    "2133": 0,
+    "2134": 0,
+    "2135": 0,
+    "2136": 0,
+    "2137": 0,
+    "2138": 0,
+    "2139": 0,
+    "2140": 0,
+    "2141": 0,
+    "2142": 0,
+    "2143": 0,
+    "2144": 0,
+    "2145": 0,
+    "2146": 0,
+    "2147": 0,
+    "2148": 0,
+    "2149": 0,
+    "2150": 0,
+    "2151": 0,
+    "2152": 0,
+    "2153": 0,
+    "2154": 0,
+    "2155": 0,
+    "2156": 0,
+    "2157": 0,
+    "2158": 0,
+    "2159": 0,
+    "2160": 0,
+    "2161": 0,
+    "2162": 0,
+    "2163": 0,
+    "2164": 0,
+    "2165": 0,
+    "2166": 0,
+    "2167": 0,
+    "2168": 0,
+    "2169": 0,
+    "2170": 0,
+    "2171": 0,
+    "2172": 0,
+    "2173": 0,
+    "2174": 0,
+    "2175": 0,
+    "2176": 0,
+    "2177": 0,
+    "2178": 0,
+    "2179": 0,
+    "2180": 1,
+    "2181": 1
   },
   "gamesPlayed": [
     {
@@ -2623,9 +2697,25 @@
       ],
       "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-30T21:02:42.737Z.json",
       "name": "Dominion (Second Edition)"
+    },
+    {
+      "date": "2024-02-11",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/02/2024-02-13T09:36:54.038Z.json",
+      "name": "Dominion (Second Edition)"
+    },
+    {
+      "date": "2024-02-12",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/02/2024-02-13T09:37:27.108Z.json",
+      "name": "Dominion (Second Edition)"
     }
   ],
-  "totalGamesPlayed": 56,
+  "totalGamesPlayed": 58,
   "averageGamesPlayedPerDay": 0.0266,
   "mostGamesPlayedInADay": [
     {
@@ -2687,11 +2777,11 @@
     "Dominion: Seaside"
   ],
   "uniqueGamesPlayedCount": 6,
-  "uniqueGamesPlayedPercentage": 0.1071,
+  "uniqueGamesPlayedPercentage": 0.1034,
   "mostPlayedGames": [
     {
       "name": "Dominion (Second Edition)",
-      "plays": 24
+      "plays": 26
     }
   ],
   "coOpGamesPlayedCount": 0,
@@ -2700,15 +2790,15 @@
   "coOpGameLoses": 0,
   "coOpWinRate": 0,
   "coOpLossRate": 0,
-  "winCountHannah": 31,
+  "winCountHannah": 33,
   "winCountJohn": 24,
   "winCountOther": 0,
   "winCountDraw": 1,
-  "winnableGamesTotal": 56,
-  "winPercentageHannah": 0.5536,
-  "winPercentageJohn": 0.4286,
+  "winnableGamesTotal": 58,
+  "winPercentageHannah": 0.569,
+  "winPercentageJohn": 0.4138,
   "winPercentageOther": 0,
-  "winPercentageDraw": 0.0179,
+  "winPercentageDraw": 0.0172,
   "mostWonGames": "Hannah",
   "mostWonGamesJohn": [
     {
@@ -2719,7 +2809,7 @@
   "mostWonGamesHannah": [
     {
       "game": "Dominion (Second Edition)",
-      "plays": 13
+      "plays": 15
     }
   ]
 }
