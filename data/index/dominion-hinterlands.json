@@ -7,24 +7,31 @@
       "coOp": "no",
       "noOfPlayers": 2,
       "source": "s3://boardgames-api-playrecords-prod/original/2023/06/2023-06-25T16:35:15.724Z.json"
+    },
+    {
+      "date": "2024-05-09",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/05/2024-05-12T18:10:07.205Z.json"
     }
   ],
   "name": "Dominion: Hinterlands",
-  "totalGamesPlayed": 1,
+  "totalGamesPlayed": 2,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
   "coOpGameLoses": 0,
   "coOpWinRate": 0,
   "coOpLossRate": 0,
-  "winCountHannah": 0,
+  "winCountHannah": 1,
   "winCountJohn": 1,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 1,
-  "winPercentageHannah": 0,
-  "winPercentageJohn": 1,
+  "winnableGamesTotal": 2,
+  "winPercentageHannah": 0.5,
+  "winPercentageJohn": 0.5,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
-  "mostWonGames": "John"
+  "mostWonGames": "Draw"
 }

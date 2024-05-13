@@ -249,23 +249,30 @@
       "notes": "Played on a pirate ship!",
       "noOfPlayers": 2,
       "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/10/2023-10-15T17:09:35.368Z.json"
+    },
+    {
+      "date": "2024-04-22",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/04/2024-04-22T19:34:07.540Z.json"
     }
   ],
-  "totalGamesPlayed": 35,
+  "totalGamesPlayed": 36,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
   "coOpGameLoses": 0,
   "coOpWinRate": 0,
   "coOpLossRate": 0,
-  "winCountHannah": 20,
+  "winCountHannah": 21,
   "winCountJohn": 14,
   "winCountOther": 0,
   "winCountDraw": 1,
-  "winnableGamesTotal": 35,
-  "winPercentageHannah": 0.5714,
-  "winPercentageJohn": 0.4,
+  "winnableGamesTotal": 36,
+  "winPercentageHannah": 0.5833,
+  "winPercentageJohn": 0.3889,
   "winPercentageOther": 0,
-  "winPercentageDraw": 0.0286,
+  "winPercentageDraw": 0.0278,
   "mostWonGames": "Hannah"
 }

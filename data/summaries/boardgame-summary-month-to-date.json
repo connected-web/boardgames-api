@@ -1,37 +1,296 @@
 {
-  "sequenceStartDate": "2024-01-01",
-  "sequenceEndDate": "2024-01-03",
-  "daysInSequence": 3,
-  "daysWithUnplayedGames": 3,
+  "sequenceStartDate": "2024-05-01",
+  "sequenceEndDate": "2024-05-13",
+  "daysInSequence": 13,
+  "daysWithUnplayedGames": 5,
   "gamesPlayedPerDay": {
     "1": 0,
-    "2": 0,
-    "3": 0
+    "2": 1,
+    "3": 6,
+    "4": 2,
+    "5": 0,
+    "6": 0,
+    "7": 1,
+    "8": 1,
+    "9": 2,
+    "10": 1,
+    "11": 0,
+    "12": 1,
+    "13": 0
   },
-  "gamesPlayed": [],
-  "totalGamesPlayed": 0,
-  "averageGamesPlayedPerDay": 0,
-  "mostGamesPlayedInADay": [],
-  "uniqueGamesPlayed": [],
-  "uniqueGamesPlayedCount": 0,
-  "uniqueGamesPlayedPercentage": 0,
-  "mostPlayedGames": [],
-  "coOpGamesPlayedCount": 0,
-  "coOpGamesPlayedPercentage": 0,
-  "coOpGameWins": 0,
+  "gamesPlayed": [
+    {
+      "date": "2024-05-02",
+      "name": "Kingdomino",
+      "winner": "Hannah",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/05/2024-05-04T06:05:34.936Z.json"
+    },
+    {
+      "date": "2024-05-03",
+      "name": "Bandido",
+      "coOp": "yes",
+      "coOpOutcome": "win",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/05/2024-05-04T06:06:55.385Z.json"
+    },
+    {
+      "date": "2024-05-03",
+      "name": "Flotsam Fight",
+      "winner": "John",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/05/2024-05-04T06:06:31.171Z.json"
+    },
+    {
+      "date": "2024-05-03",
+      "name": "Framework",
+      "winner": "Hannah",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/05/2024-05-04T06:06:08.271Z.json"
+    },
+    {
+      "date": "2024-05-03",
+      "name": "Love Letter: Princess Princess Ever After",
+      "winner": "John",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/05/2024-05-04T06:05:55.211Z.json"
+    },
+    {
+      "date": "2024-05-03",
+      "name": "Papageno",
+      "winner": "Hannah",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/05/2024-05-04T06:06:22.273Z.json"
+    },
+    {
+      "date": "2024-05-03",
+      "name": "Splendor Duel",
+      "winner": "John",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/05/2024-05-04T06:06:40.347Z.json"
+    },
+    {
+      "date": "2024-05-04",
+      "name": "Brass: Birmingham",
+      "winner": "John",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/05/2024-05-04T20:08:37.785Z.json"
+    },
+    {
+      "date": "2024-05-04",
+      "name": "Terraforming Mars",
+      "winner": "John",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/05/2024-05-04T20:08:47.465Z.json"
+    },
+    {
+      "date": "2024-05-07",
+      "name": "Love Letter Kanai Factory Limited Edition",
+      "winner": "Hannah",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/05/2024-05-12T18:09:24.150Z.json"
+    },
+    {
+      "date": "2024-05-08",
+      "name": "Jurassic Snack",
+      "winner": "Hannah",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/05/2024-05-12T18:09:35.976Z.json"
+    },
+    {
+      "date": "2024-05-09",
+      "name": "Archer: Once You Go Blackmail...",
+      "winner": "Hannah",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/05/2024-05-12T18:09:54.396Z.json"
+    },
+    {
+      "date": "2024-05-09",
+      "name": "Dominion: Hinterlands",
+      "winner": "Hannah",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/05/2024-05-12T18:10:07.205Z.json"
+    },
+    {
+      "date": "2024-05-10",
+      "name": "Dorfromantik",
+      "coOp": "yes",
+      "coOpOutcome": "win",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/05/2024-05-12T18:10:20.277Z.json"
+    },
+    {
+      "date": "2024-05-12",
+      "name": "Diamonsters",
+      "winner": "John",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/05/2024-05-12T18:10:33.154Z.json"
+    }
+  ],
+  "totalGamesPlayed": 15,
+  "averageGamesPlayedPerDay": 1.1538,
+  "mostGamesPlayedInADay": [
+    {
+      "date": "2024-05-03",
+      "games": [
+        "Bandido",
+        "Flotsam Fight",
+        "Framework",
+        "Love Letter: Princess Princess Ever After",
+        "Papageno",
+        "Splendor Duel"
+      ]
+    }
+  ],
+  "uniqueGamesPlayed": [
+    "Archer: Once You Go Blackmail...",
+    "Bandido",
+    "Brass: Birmingham",
+    "Diamonsters",
+    "Dominion: Hinterlands",
+    "Dorfromantik",
+    "Flotsam Fight",
+    "Framework",
+    "Jurassic Snack",
+    "Kingdomino",
+    "Love Letter Kanai Factory Limited Edition",
+    "Love Letter: Princess Princess Ever After",
+    "Papageno",
+    "Splendor Duel",
+    "Terraforming Mars"
+  ],
+  "uniqueGamesPlayedCount": 15,
+  "uniqueGamesPlayedPercentage": 1,
+  "mostPlayedGames": [
+    {
+      "name": "Kingdomino",
+      "plays": 1
+    },
+    {
+      "name": "Bandido",
+      "plays": 1
+    },
+    {
+      "name": "Flotsam Fight",
+      "plays": 1
+    },
+    {
+      "name": "Framework",
+      "plays": 1
+    },
+    {
+      "name": "Love Letter: Princess Princess Ever After",
+      "plays": 1
+    },
+    {
+      "name": "Papageno",
+      "plays": 1
+    },
+    {
+      "name": "Splendor Duel",
+      "plays": 1
+    },
+    {
+      "name": "Brass: Birmingham",
+      "plays": 1
+    },
+    {
+      "name": "Terraforming Mars",
+      "plays": 1
+    },
+    {
+      "name": "Love Letter Kanai Factory Limited Edition",
+      "plays": 1
+    },
+    {
+      "name": "Jurassic Snack",
+      "plays": 1
+    },
+    {
+      "name": "Archer: Once You Go Blackmail...",
+      "plays": 1
+    },
+    {
+      "name": "Dominion: Hinterlands",
+      "plays": 1
+    },
+    {
+      "name": "Dorfromantik",
+      "plays": 1
+    },
+    {
+      "name": "Diamonsters",
+      "plays": 1
+    }
+  ],
+  "coOpGamesPlayedCount": 2,
+  "coOpGamesPlayedPercentage": 0.1333,
+  "coOpGameWins": 2,
   "coOpGameLoses": 0,
-  "coOpWinRate": 0,
+  "coOpWinRate": 1,
   "coOpLossRate": 0,
-  "winCountHannah": 0,
-  "winCountJohn": 0,
+  "winCountHannah": 7,
+  "winCountJohn": 6,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 0,
-  "winPercentageHannah": 0,
-  "winPercentageJohn": 0,
+  "winnableGamesTotal": 13,
+  "winPercentageHannah": 0.5385,
+  "winPercentageJohn": 0.4615,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
-  "mostWonGames": "Draw",
-  "mostWonGamesJohn": [],
-  "mostWonGamesHannah": []
+  "mostWonGames": "Hannah",
+  "mostWonGamesJohn": [
+    {
+      "game": "Diamonsters",
+      "plays": 1
+    },
+    {
+      "game": "Terraforming Mars",
+      "plays": 1
+    },
+    {
+      "game": "Brass: Birmingham",
+      "plays": 1
+    },
+    {
+      "game": "Splendor Duel",
+      "plays": 1
+    },
+    {
+      "game": "Love Letter: Princess Princess Ever After",
+      "plays": 1
+    },
+    {
+      "game": "Flotsam Fight",
+      "plays": 1
+    }
+  ],
+  "mostWonGamesHannah": [
+    {
+      "game": "Dominion: Hinterlands",
+      "plays": 1
+    },
+    {
+      "game": "Archer: Once You Go Blackmail...",
+      "plays": 1
+    },
+    {
+      "game": "Jurassic Snack",
+      "plays": 1
+    },
+    {
+      "game": "Love Letter Kanai Factory Limited Edition",
+      "plays": 1
+    },
+    {
+      "game": "Papageno",
+      "plays": 1
+    },
+    {
+      "game": "Framework",
+      "plays": 1
+    },
+    {
+      "game": "Kingdomino",
+      "plays": 1
+    }
+  ]
 }

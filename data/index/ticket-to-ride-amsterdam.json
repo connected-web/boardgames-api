@@ -21,24 +21,31 @@
       "coOp": "No",
       "gameFamily": "Ticket to Ride ",
       "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/37"
+    },
+    {
+      "date": "2024-01-22",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/01/2024-01-31T08:26:56.062Z.json"
     }
   ],
   "name": "Ticket to Ride: Amsterdam",
-  "totalGamesPlayed": 3,
+  "totalGamesPlayed": 4,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
   "coOpGameLoses": 0,
   "coOpWinRate": 0,
   "coOpLossRate": 0,
-  "winCountHannah": 1,
+  "winCountHannah": 2,
   "winCountJohn": 2,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 3,
-  "winPercentageHannah": 0.3333,
-  "winPercentageJohn": 0.6667,
+  "winnableGamesTotal": 4,
+  "winPercentageHannah": 0.5,
+  "winPercentageJohn": 0.5,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
-  "mostWonGames": "John"
+  "mostWonGames": "Draw"
 }

@@ -56,10 +56,17 @@
       "coOp": "no",
       "noOfPlayers": 2,
       "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/11/2023-11-10T15:33:16.552Z.json"
+    },
+    {
+      "date": "2024-02-23",
+      "winner": "other",
+      "coOp": "no",
+      "noOfPlayers": 4,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/02/2024-03-01T07:25:41.079Z.json"
     }
   ],
   "name": "Cascadia",
-  "totalGamesPlayed": 8,
+  "totalGamesPlayed": 9,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
@@ -68,12 +75,12 @@
   "coOpLossRate": 0,
   "winCountHannah": 6,
   "winCountJohn": 2,
-  "winCountOther": 0,
+  "winCountOther": 1,
   "winCountDraw": 0,
-  "winnableGamesTotal": 8,
-  "winPercentageHannah": 0.75,
-  "winPercentageJohn": 0.25,
-  "winPercentageOther": 0,
+  "winnableGamesTotal": 9,
+  "winPercentageHannah": 0.6667,
+  "winPercentageJohn": 0.2222,
+  "winPercentageOther": 0.1111,
   "winPercentageDraw": 0,
   "mostWonGames": "Hannah"
 }

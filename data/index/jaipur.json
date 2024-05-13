@@ -37,24 +37,31 @@
       "coOp": "no",
       "noOfPlayers": 2,
       "source": "s3://boardgames-api-playrecords-prod/original/2023/05/2023-05-28T15:18:54.686Z.json"
+    },
+    {
+      "date": "2024-01-04",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/01/2024-01-07T15:47:52.119Z.json"
     }
   ],
   "name": "Jaipur",
-  "totalGamesPlayed": 5,
+  "totalGamesPlayed": 6,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
   "coOpGameLoses": 0,
   "coOpWinRate": 0,
   "coOpLossRate": 0,
-  "winCountHannah": 2,
+  "winCountHannah": 3,
   "winCountJohn": 3,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 5,
-  "winPercentageHannah": 0.4,
-  "winPercentageJohn": 0.6,
+  "winnableGamesTotal": 6,
+  "winPercentageHannah": 0.5,
+  "winPercentageJohn": 0.5,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
-  "mostWonGames": "John"
+  "mostWonGames": "Draw"
 }

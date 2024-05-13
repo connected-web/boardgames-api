@@ -497,23 +497,65 @@
       "coOp": "no",
       "noOfPlayers": 2,
       "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-03T19:07:00.533Z.json"
+    },
+    {
+      "date": "2023-12-28",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-31T21:22:33.168Z.json"
+    },
+    {
+      "date": "2023-12-29",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-31T21:23:24.219Z.json"
+    },
+    {
+      "date": "2023-12-30",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-31T21:24:07.574Z.json"
+    },
+    {
+      "date": "2023-12-31",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-31T21:25:07.241Z.json"
+    },
+    {
+      "date": "2024-01-01",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/01/2024-01-07T15:47:22.853Z.json"
+    },
+    {
+      "date": "2024-03-02",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/03/2024-03-02T21:19:15.232Z.json"
     }
   ],
-  "totalGamesPlayed": 73,
+  "totalGamesPlayed": 79,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
   "coOpGameLoses": 0,
   "coOpWinRate": 0,
   "coOpLossRate": 0,
-  "winCountHannah": 46,
-  "winCountJohn": 23,
+  "winCountHannah": 48,
+  "winCountJohn": 27,
   "winCountOther": 3,
   "winCountDraw": 1,
-  "winnableGamesTotal": 73,
-  "winPercentageHannah": 0.6301,
-  "winPercentageJohn": 0.3151,
-  "winPercentageOther": 0.0411,
-  "winPercentageDraw": 0.0137,
+  "winnableGamesTotal": 79,
+  "winPercentageHannah": 0.6076,
+  "winPercentageJohn": 0.3418,
+  "winPercentageOther": 0.038,
+  "winPercentageDraw": 0.0127,
   "mostWonGames": "Hannah"
 }

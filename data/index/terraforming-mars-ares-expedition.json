@@ -34,10 +34,17 @@
       "coOp": "no",
       "noOfPlayers": 2,
       "source": "s3://boardgames-api-playrecords-prod/original/2022/11/2022-11-11T06:48:12.098Z.json"
+    },
+    {
+      "date": "2024-02-17",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/02/2024-03-01T07:24:42.375Z.json"
     }
   ],
   "name": "Terraforming Mars: Ares Expedition",
-  "totalGamesPlayed": 5,
+  "totalGamesPlayed": 6,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
@@ -45,12 +52,12 @@
   "coOpWinRate": 0,
   "coOpLossRate": 0,
   "winCountHannah": 4,
-  "winCountJohn": 1,
+  "winCountJohn": 2,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 5,
-  "winPercentageHannah": 0.8,
-  "winPercentageJohn": 0.2,
+  "winnableGamesTotal": 6,
+  "winPercentageHannah": 0.6667,
+  "winPercentageJohn": 0.3333,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
   "mostWonGames": "Hannah"

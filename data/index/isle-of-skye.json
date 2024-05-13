@@ -1,0 +1,38 @@
+{
+  "boardGameApiId": "isle-of-skye",
+  "playRecords": [
+    {
+      "date": "2023-12-09",
+      "winner": "John",
+      "coOp": "no",
+      "notes": "Not in collection.",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-09T19:36:26.292Z.json"
+    },
+    {
+      "date": "2024-02-27",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/02/2024-03-01T07:26:22.319Z.json"
+    }
+  ],
+  "name": "Isle of Skye",
+  "totalGamesPlayed": 2,
+  "coOpGamesPlayedCount": 0,
+  "coOpGamesPlayedPercentage": 0,
+  "coOpGameWins": 0,
+  "coOpGameLoses": 0,
+  "coOpWinRate": 0,
+  "coOpLossRate": 0,
+  "winCountHannah": 0,
+  "winCountJohn": 2,
+  "winCountOther": 0,
+  "winCountDraw": 0,
+  "winnableGamesTotal": 2,
+  "winPercentageHannah": 0,
+  "winPercentageJohn": 1,
+  "winPercentageOther": 0,
+  "winPercentageDraw": 0,
+  "mostWonGames": "John"
+}

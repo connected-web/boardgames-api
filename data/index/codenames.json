@@ -491,15 +491,64 @@
       "coOp": "yes",
       "noOfPlayers": 2,
       "source": "s3://boardgames-api-playrecords-prod/original/2023/06/2023-06-25T16:34:53.668Z.json"
+    },
+    {
+      "date": "2024-01-16",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/01/2024-01-16T21:00:42.951Z.json"
+    },
+    {
+      "date": "2024-03-10",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/03/2024-03-12T10:06:40.245Z.json"
+    },
+    {
+      "date": "2024-03-10",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/03/2024-03-12T10:06:42.307Z.json"
+    },
+    {
+      "date": "2024-03-29",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/03/2024-03-31T12:32:38.247Z.json"
+    },
+    {
+      "date": "2024-03-29",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/03/2024-03-31T12:32:40.689Z.json"
+    },
+    {
+      "date": "2024-04-03",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/04/2024-04-04T07:05:15.965Z.json"
+    },
+    {
+      "date": "2024-04-03",
+      "coOpOutcome": "loss",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/04/2024-04-04T07:05:19.716Z.json"
     }
   ],
-  "totalGamesPlayed": 71,
-  "coOpGamesPlayedCount": 68,
-  "coOpGamesPlayedPercentage": 0.9577,
-  "coOpGameWins": 52,
-  "coOpGameLoses": 16,
-  "coOpWinRate": 0.7647,
-  "coOpLossRate": 0.2353,
+  "totalGamesPlayed": 78,
+  "coOpGamesPlayedCount": 75,
+  "coOpGamesPlayedPercentage": 0.9615,
+  "coOpGameWins": 58,
+  "coOpGameLoses": 17,
+  "coOpWinRate": 0.7733,
+  "coOpLossRate": 0.2267,
   "winCountHannah": 1,
   "winCountJohn": 2,
   "winCountOther": 0,

@@ -4,7 +4,7 @@
   "sequenceStartDate": "2023-01-01",
   "sequenceEndDate": "2023-12-31",
   "daysInSequence": 365,
-  "daysWithUnplayedGames": 135,
+  "daysWithUnplayedGames": 112,
   "gamesPlayedPerDay": {
     "1": 1,
     "2": 1,
@@ -343,34 +343,34 @@
     "335": 0,
     "336": 1,
     "337": 1,
-    "338": 0,
-    "339": 0,
-    "340": 0,
-    "341": 0,
-    "342": 0,
-    "343": 0,
-    "344": 0,
-    "345": 0,
-    "346": 0,
+    "338": 1,
+    "339": 2,
+    "340": 1,
+    "341": 2,
+    "342": 3,
+    "343": 3,
+    "344": 2,
+    "345": 2,
+    "346": 1,
     "347": 0,
-    "348": 0,
-    "349": 0,
-    "350": 0,
-    "351": 0,
-    "352": 0,
-    "353": 0,
-    "354": 0,
-    "355": 0,
+    "348": 1,
+    "349": 2,
+    "350": 2,
+    "351": 1,
+    "352": 2,
+    "353": 1,
+    "354": 1,
+    "355": 2,
     "356": 0,
-    "357": 0,
+    "357": 1,
     "358": 0,
-    "359": 0,
+    "359": 2,
     "360": 0,
     "361": 0,
-    "362": 0,
-    "363": 0,
-    "364": 0,
-    "365": 0
+    "362": 1,
+    "363": 3,
+    "364": 2,
+    "365": 5
   },
   "gamesPlayed": [
     {
@@ -3058,10 +3058,314 @@
       "winner": "Hannah",
       "coOp": "no",
       "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-03T19:07:00.533Z.json"
+    },
+    {
+      "date": "2023-12-04",
+      "name": "Lovecraft Letter",
+      "winner": "John",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-09T19:33:10.699Z.json"
+    },
+    {
+      "date": "2023-12-05",
+      "name": "Kingdomino",
+      "winner": "Hannah",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-09T19:33:37.377Z.json"
+    },
+    {
+      "date": "2023-12-05",
+      "name": "Love Letter: Princess Princess Ever After",
+      "winner": "Hannah",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-09T19:33:28.347Z.json"
+    },
+    {
+      "date": "2023-12-06",
+      "name": "Lovecraft Letter",
+      "winner": "Hannah",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-09T19:34:07.418Z.json"
+    },
+    {
+      "date": "2023-12-07",
+      "name": "Bandido",
+      "coOp": "yes",
+      "coOpOutcome": "win",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-09T19:34:19.349Z.json"
+    },
+    {
+      "date": "2023-12-07",
+      "name": "Patchwork: Christmas Edition",
+      "winner": "Hannah",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-09T19:34:35.895Z.json"
+    },
+    {
+      "date": "2023-12-08",
+      "name": "Heat: Pedal to the Metal",
+      "winner": "Hannah",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-09T19:34:57.631Z.json"
+    },
+    {
+      "date": "2023-12-08",
+      "name": "Lovecraft Letter",
+      "winner": "John",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-09T19:34:48.137Z.json"
+    },
+    {
+      "date": "2023-12-08",
+      "name": "The Game",
+      "coOp": "yes",
+      "coOpOutcome": "win",
+      "note": "Not in collection.",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-09T19:35:15.746Z.json"
+    },
+    {
+      "date": "2023-12-09",
+      "name": "Isle of Skye",
+      "winner": "John",
+      "coOp": "no",
+      "note": "Not in collection.",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-09T19:36:26.292Z.json"
+    },
+    {
+      "date": "2023-12-09",
+      "name": "Kariba",
+      "winner": "Hannah",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-09T19:35:32.225Z.json"
+    },
+    {
+      "date": "2023-12-09",
+      "name": "Terraforming Mars",
+      "winner": "John",
+      "coOp": "no",
+      "note": "Base game at Airecon NW",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-09T19:35:50.813Z.json"
+    },
+    {
+      "date": "2023-12-10",
+      "name": "Kariba",
+      "winner": "Hannah",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-12T08:50:07.842Z.json"
+    },
+    {
+      "date": "2023-12-10",
+      "name": "Village Rails",
+      "winner": "Hannah",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-12T08:50:24.089Z.json"
+    },
+    {
+      "date": "2023-12-11",
+      "name": "Lovecraft Letter",
+      "winner": "John",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-12T08:50:48.363Z.json"
+    },
+    {
+      "date": "2023-12-11",
+      "name": "Village Rails",
+      "winner": "John",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-12T08:50:38.664Z.json"
+    },
+    {
+      "date": "2023-12-12",
+      "name": "Love Letter: Adventure Time",
+      "winner": "Hannah",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-13T09:23:18.417Z.json"
+    },
+    {
+      "date": "2023-12-14",
+      "name": "Lovecraft Letter",
+      "winner": "Hannah",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-16T16:02:23.845Z.json"
+    },
+    {
+      "date": "2023-12-15",
+      "name": "Ticket to Ride: Legends of the West",
+      "winner": "Hannah",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-16T16:03:05.326Z.json"
+    },
+    {
+      "date": "2023-12-15",
+      "name": "Whale To Look",
+      "winner": "Hannah",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-16T16:02:52.086Z.json"
+    },
+    {
+      "date": "2023-12-16",
+      "name": "Kariba",
+      "winner": "John",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-22T11:10:42.614Z.json"
+    },
+    {
+      "date": "2023-12-16",
+      "name": "Lovecraft Letter",
+      "winner": "John",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-22T11:10:53.285Z.json"
+    },
+    {
+      "date": "2023-12-17",
+      "name": "Lovecraft Letter",
+      "winner": "Hannah",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-22T11:11:03.074Z.json"
+    },
+    {
+      "date": "2023-12-18",
+      "name": "Bandido",
+      "coOp": "yes",
+      "coOpOutcome": "win",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-22T11:11:30.734Z.json"
+    },
+    {
+      "date": "2023-12-18",
+      "name": "Lovecraft Letter",
+      "winner": "Hannah",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-22T11:11:42.891Z.json"
+    },
+    {
+      "date": "2023-12-19",
+      "name": "Bandido",
+      "coOp": "yes",
+      "coOpOutcome": "loss",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-22T11:11:57.464Z.json"
+    },
+    {
+      "date": "2023-12-20",
+      "name": "Lovecraft Letter",
+      "winner": "Hannah",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-22T11:12:12.051Z.json"
+    },
+    {
+      "date": "2023-12-21",
+      "name": "Ark Nova",
+      "winner": "Hannah",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-22T11:12:20.954Z.json"
+    },
+    {
+      "date": "2023-12-21",
+      "name": "Lovecraft Letter",
+      "winner": "Hannah",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-22T11:12:32.275Z.json"
+    },
+    {
+      "date": "2023-12-23",
+      "name": "Dominion: Dark Ages",
+      "winner": "John",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-28T07:57:33.985Z.json"
+    },
+    {
+      "date": "2023-12-25",
+      "name": "Kariba",
+      "winner": "John",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-28T07:58:08.006Z.json"
+    },
+    {
+      "date": "2023-12-25",
+      "name": "Wingspan",
+      "winner": "John",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-28T07:57:58.081Z.json"
+    },
+    {
+      "date": "2023-12-28",
+      "name": "Love Letter",
+      "winner": "Hannah",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-31T21:22:33.168Z.json"
+    },
+    {
+      "date": "2023-12-29",
+      "name": "Bandido",
+      "coOp": "yes",
+      "coOpOutcome": "win",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-31T21:22:50.023Z.json"
+    },
+    {
+      "date": "2023-12-29",
+      "name": "Kariba",
+      "winner": "John",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-31T21:23:08.925Z.json"
+    },
+    {
+      "date": "2023-12-29",
+      "name": "Love Letter",
+      "winner": "John",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-31T21:23:24.219Z.json"
+    },
+    {
+      "date": "2023-12-30",
+      "name": "Love Letter",
+      "winner": "John",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-31T21:24:07.574Z.json"
+    },
+    {
+      "date": "2023-12-30",
+      "name": "Troika",
+      "winner": "Hannah",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-31T21:23:51.057Z.json"
+    },
+    {
+      "date": "2023-12-31",
+      "name": "Bandido",
+      "coOp": "yes",
+      "coOpOutcome": "win",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-31T21:25:19.840Z.json"
+    },
+    {
+      "date": "2023-12-31",
+      "name": "Kariba",
+      "winner": "John",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-31T21:24:53.125Z.json"
+    },
+    {
+      "date": "2023-12-31",
+      "name": "Love Letter",
+      "winner": "John",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-31T21:25:07.241Z.json"
+    },
+    {
+      "date": "2023-12-31",
+      "name": "Troika",
+      "winner": "John",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-31T21:24:40.235Z.json"
+    },
+    {
+      "date": "2023-12-31",
+      "name": "Whale To Look",
+      "winner": "Hannah",
+      "coOp": "no",
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2023/12/2023-12-31T21:24:27.475Z.json"
     }
   ],
-  "totalGamesPlayed": 383,
-  "averageGamesPlayedPerDay": 1.0493,
+  "totalGamesPlayed": 426,
+  "averageGamesPlayedPerDay": 1.1671,
   "mostGamesPlayedInADay": [
     {
       "date": "2023-06-03",
@@ -3080,6 +3384,7 @@
     "7 Wonders",
     "Archer: Once You Go Blackmail...",
     "Arctic Scavengers",
+    "Ark Nova",
     "Azul",
     "Azul: Master Chocolatier",
     "Bandida",
@@ -3099,6 +3404,7 @@
     "Doki Doki Beach Volleyball",
     "Dominion",
     "Dominion (Second Edition)",
+    "Dominion: Dark Ages",
     "Dominion: Hinterlands",
     "Dorfromantik",
     "Dragonimo",
@@ -3107,9 +3413,11 @@
     "Great Western Trail",
     "Heat: Pedal to the Metal",
     "Hey, That's My Fish!",
+    "Isle of Skye",
     "Jaipur",
     "Jurassic Snack",
     "Kamigami Battles: Rise of the Old Ones",
+    "Kariba",
     "Kingdomino",
     "Kingdomino: Origins",
     "Love Letter",
@@ -3128,6 +3436,7 @@
     "Pandemic: Hot Zone - North America",
     "Pandemic: Hot Zone Europe",
     "Patchwork",
+    "Patchwork: Christmas Edition",
     "Photosynthesis",
     "Planet",
     "Queendomino",
@@ -3139,6 +3448,7 @@
     "Tapestry",
     "Terraforming Mars",
     "The Castles of Burgundy",
+    "The Game",
     "The Great American Mail Race",
     "The Mind Extreme",
     "Ticket to Ride",
@@ -3158,46 +3468,49 @@
     "Trails",
     "Troika",
     "Valeria: Card Kingdoms",
+    "Village Rails",
     "Welcome To...",
+    "Whale To Look",
+    "Wingspan",
     "Wingspan: Asia Expansion",
     "Yam Yam",
     "Zombie Kidz: Evolution",
     "Zuuli"
   ],
-  "uniqueGamesPlayedCount": 86,
-  "uniqueGamesPlayedPercentage": 0.2245,
+  "uniqueGamesPlayedCount": 95,
+  "uniqueGamesPlayedPercentage": 0.223,
   "mostPlayedGames": [
     {
       "name": "Lovecraft Letter",
-      "plays": 94
+      "plays": 104
     }
   ],
-  "coOpGamesPlayedCount": 68,
-  "coOpGamesPlayedPercentage": 0.1775,
-  "coOpGameWins": 55,
-  "coOpGameLoses": 13,
-  "coOpWinRate": 0.8088,
-  "coOpLossRate": 0.1912,
-  "winCountHannah": 174,
-  "winCountJohn": 128,
+  "coOpGamesPlayedCount": 74,
+  "coOpGamesPlayedPercentage": 0.1737,
+  "coOpGameWins": 60,
+  "coOpGameLoses": 14,
+  "coOpWinRate": 0.8108,
+  "coOpLossRate": 0.1892,
+  "winCountHannah": 194,
+  "winCountJohn": 145,
   "winCountOther": 6,
   "winCountDraw": 7,
-  "winnableGamesTotal": 315,
-  "winPercentageHannah": 0.5524,
-  "winPercentageJohn": 0.4063,
-  "winPercentageOther": 0.019,
-  "winPercentageDraw": 0.0222,
+  "winnableGamesTotal": 352,
+  "winPercentageHannah": 0.5511,
+  "winPercentageJohn": 0.4119,
+  "winPercentageOther": 0.017,
+  "winPercentageDraw": 0.0199,
   "mostWonGames": "Hannah",
   "mostWonGamesJohn": [
     {
       "game": "Lovecraft Letter",
-      "plays": 41
+      "plays": 45
     }
   ],
   "mostWonGamesHannah": [
     {
       "game": "Lovecraft Letter",
-      "plays": 52
+      "plays": 58
     }
   ]
 }
