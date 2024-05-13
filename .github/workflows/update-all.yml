@@ -2,6 +2,13 @@ name: Update All - Manual Deployment
 
 on: 
   workflow_dispatch:
+  workflow_call:
+    inputs:
+      reason:
+        type: string
+        description: 'Reason for deployment'     
+        required: false
+        default: 'I want to update all the data'
 
 jobs:
   deploy:

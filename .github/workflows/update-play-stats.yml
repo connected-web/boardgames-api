@@ -47,3 +47,12 @@ jobs:
 
     - name: Deploy Files
       run: node deploy live-summaries
+
+  deploy-all:
+    name: Deploy API App to Dev
+    needs: [deploy]
+    uses: ./.github/workflows/update-all.yml
+    if: ${{ github.actor != 'dependabot[bot]' }}
+    secrets: inherit
+    with:
+      reason: workflow_dispatch.inputs.reason
