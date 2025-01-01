@@ -20,10 +20,17 @@
       "coOp": "No",
       "gameFamily": "Ticket to Ride",
       "source": "gsheets://1FyeEeWPKch4jVoBoD_lB89GbsUPkYTESkfIeknUhyJw/2020/3"
+    },
+    {
+      "date": "2024-07-15",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/07/2024-07-16T08:50:21.227Z.json"
     }
   ],
   "name": "Ticket to Ride Map Collection: Volume 4 – Nederland",
-  "totalGamesPlayed": 3,
+  "totalGamesPlayed": 4,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
@@ -31,13 +38,13 @@
   "coOpWinRate": 0,
   "coOpLossRate": 0,
   "winCountHannah": 1,
-  "winCountJohn": 1,
+  "winCountJohn": 2,
   "winCountOther": 0,
   "winCountDraw": 1,
-  "winnableGamesTotal": 3,
-  "winPercentageHannah": 0.3333,
-  "winPercentageJohn": 0.3333,
+  "winnableGamesTotal": 4,
+  "winPercentageHannah": 0.25,
+  "winPercentageJohn": 0.5,
   "winPercentageOther": 0,
-  "winPercentageDraw": 0.3333,
-  "mostWonGames": "Draw"
+  "winPercentageDraw": 0.25,
+  "mostWonGames": "John"
 }

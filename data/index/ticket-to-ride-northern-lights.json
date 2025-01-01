@@ -7,10 +7,17 @@
       "coOp": "no",
       "noOfPlayers": 2,
       "source": "s3://boardgames-api-playrecords-prod/original/2023/06/2023-06-25T16:30:53.497Z.json"
+    },
+    {
+      "date": "2024-07-23",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/07/2024-07-27T15:58:07.272Z.json"
     }
   ],
   "name": "Ticket to Ride: Northern Lights",
-  "totalGamesPlayed": 1,
+  "totalGamesPlayed": 2,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
@@ -18,13 +25,13 @@
   "coOpWinRate": 0,
   "coOpLossRate": 0,
   "winCountHannah": 1,
-  "winCountJohn": 0,
+  "winCountJohn": 1,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 1,
-  "winPercentageHannah": 1,
-  "winPercentageJohn": 0,
+  "winnableGamesTotal": 2,
+  "winPercentageHannah": 0.5,
+  "winPercentageJohn": 0.5,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
-  "mostWonGames": "Hannah"
+  "mostWonGames": "Draw"
 }

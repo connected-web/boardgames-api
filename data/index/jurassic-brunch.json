@@ -33,24 +33,31 @@
       "coOp": "no",
       "noOfPlayers": 2,
       "source": "s3://boardgames-api-playrecords-prod/original/2022/05/2022-05-27T09:44:14.320Z.json"
+    },
+    {
+      "date": "2024-11-16",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/11/2024-11-26T10:59:57.240Z.json"
     }
   ],
   "name": "Jurassic Brunch",
-  "totalGamesPlayed": 5,
+  "totalGamesPlayed": 6,
   "coOpGamesPlayedCount": 1,
-  "coOpGamesPlayedPercentage": 0.2,
+  "coOpGamesPlayedPercentage": 0.1667,
   "coOpGameWins": 1,
   "coOpGameLoses": 0,
   "coOpWinRate": 1,
   "coOpLossRate": 0,
-  "winCountHannah": 2,
+  "winCountHannah": 3,
   "winCountJohn": 2,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 4,
-  "winPercentageHannah": 0.5,
-  "winPercentageJohn": 0.5,
+  "winnableGamesTotal": 5,
+  "winPercentageHannah": 0.6,
+  "winPercentageJohn": 0.4,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
-  "mostWonGames": "Draw"
+  "mostWonGames": "Hannah"
 }

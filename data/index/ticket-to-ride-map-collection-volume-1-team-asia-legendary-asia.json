@@ -37,24 +37,31 @@
       "coOp": "No",
       "gameFamily": "Ticket to Ride",
       "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/19"
+    },
+    {
+      "date": "2024-07-02",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/07/2024-07-08T19:56:35.460Z.json"
     }
   ],
   "name": "Ticket to Ride Map Collection: Volume 1 – Team Asia & Legendary Asia",
-  "totalGamesPlayed": 5,
+  "totalGamesPlayed": 6,
   "coOpGamesPlayedCount": 1,
-  "coOpGamesPlayedPercentage": 0.2,
+  "coOpGamesPlayedPercentage": 0.1667,
   "coOpGameWins": 0,
   "coOpGameLoses": 1,
   "coOpWinRate": 0,
   "coOpLossRate": 1,
   "winCountHannah": 3,
-  "winCountJohn": 2,
+  "winCountJohn": 3,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 5,
-  "winPercentageHannah": 0.6,
-  "winPercentageJohn": 0.4,
+  "winnableGamesTotal": 6,
+  "winPercentageHannah": 0.5,
+  "winPercentageJohn": 0.5,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
-  "mostWonGames": "Hannah"
+  "mostWonGames": "Draw"
 }

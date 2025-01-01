@@ -43,9 +43,16 @@
       "coOp": "No",
       "gameFamily": "Ticket to Ride",
       "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/9"
+    },
+    {
+      "date": "2024-07-22",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/07/2024-07-27T15:57:54.119Z.json"
     }
   ],
-  "totalGamesPlayed": 6,
+  "totalGamesPlayed": 7,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
@@ -53,13 +60,13 @@
   "coOpWinRate": 0,
   "coOpLossRate": 0,
   "winCountHannah": 3,
-  "winCountJohn": 3,
+  "winCountJohn": 4,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 6,
-  "winPercentageHannah": 0.5,
-  "winPercentageJohn": 0.5,
+  "winnableGamesTotal": 7,
+  "winPercentageHannah": 0.4286,
+  "winPercentageJohn": 0.5714,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
-  "mostWonGames": "Draw"
+  "mostWonGames": "John"
 }

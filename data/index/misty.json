@@ -7,10 +7,24 @@
       "coOp": "No",
       "gameFamily": "Wildcard",
       "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/24"
+    },
+    {
+      "date": "2024-09-13",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/09/2024-09-16T07:30:05.107Z.json"
+    },
+    {
+      "date": "2024-12-23",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/12/2024-12-25T18:35:46.546Z.json"
     }
   ],
   "name": "Misty",
-  "totalGamesPlayed": 1,
+  "totalGamesPlayed": 3,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
@@ -18,10 +32,10 @@
   "coOpWinRate": 0,
   "coOpLossRate": 0,
   "winCountHannah": 0,
-  "winCountJohn": 1,
+  "winCountJohn": 3,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 1,
+  "winnableGamesTotal": 3,
   "winPercentageHannah": 0,
   "winPercentageJohn": 1,
   "winPercentageOther": 0,

@@ -1,0 +1,44 @@
+{
+  "boardGameApiId": "odins-ravens",
+  "playRecords": [
+    {
+      "date": "2024-05-20",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/05/2024-05-20T20:22:17.519Z.json"
+    },
+    {
+      "date": "2024-05-31",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/05/2024-06-01T06:06:43.542Z.json"
+    },
+    {
+      "date": "2024-09-10",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/09/2024-09-16T07:28:35.210Z.json"
+    }
+  ],
+  "name": "Odin's Ravens",
+  "totalGamesPlayed": 3,
+  "coOpGamesPlayedCount": 0,
+  "coOpGamesPlayedPercentage": 0,
+  "coOpGameWins": 0,
+  "coOpGameLoses": 0,
+  "coOpWinRate": 0,
+  "coOpLossRate": 0,
+  "winCountHannah": 3,
+  "winCountJohn": 0,
+  "winCountOther": 0,
+  "winCountDraw": 0,
+  "winnableGamesTotal": 3,
+  "winPercentageHannah": 1,
+  "winPercentageJohn": 0,
+  "winPercentageOther": 0,
+  "winPercentageDraw": 0,
+  "mostWonGames": "Hannah"
+}

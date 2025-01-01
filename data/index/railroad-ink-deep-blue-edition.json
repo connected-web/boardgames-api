@@ -8,10 +8,17 @@
       "notes": "Not in collection. Played at The Dice Box - Leamington. ",
       "noOfPlayers": 2,
       "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/01/2024-01-15T20:20:08.384Z.json"
+    },
+    {
+      "date": "2024-11-17",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/11/2024-11-26T11:00:59.506Z.json"
     }
   ],
   "name": "Railroad Ink: Deep Blue Edition",
-  "totalGamesPlayed": 1,
+  "totalGamesPlayed": 2,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
@@ -19,13 +26,13 @@
   "coOpWinRate": 0,
   "coOpLossRate": 0,
   "winCountHannah": 1,
-  "winCountJohn": 0,
+  "winCountJohn": 1,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 1,
-  "winPercentageHannah": 1,
-  "winPercentageJohn": 0,
+  "winnableGamesTotal": 2,
+  "winPercentageHannah": 0.5,
+  "winPercentageJohn": 0.5,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
-  "mostWonGames": "Hannah"
+  "mostWonGames": "Draw"
 }

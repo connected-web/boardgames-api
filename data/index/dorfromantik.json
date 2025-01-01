@@ -119,16 +119,23 @@
       "coOp": "yes",
       "noOfPlayers": 2,
       "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/05/2024-05-12T18:10:20.277Z.json"
+    },
+    {
+      "date": "2024-09-30",
+      "coOpOutcome": "loss",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/09/2024-09-30T20:21:30.665Z.json"
     }
   ],
   "name": "Dorfromantik",
-  "totalGamesPlayed": 17,
-  "coOpGamesPlayedCount": 17,
+  "totalGamesPlayed": 18,
+  "coOpGamesPlayedCount": 18,
   "coOpGamesPlayedPercentage": 1,
   "coOpGameWins": 16,
-  "coOpGameLoses": 1,
-  "coOpWinRate": 0.9412,
-  "coOpLossRate": 0.0588,
+  "coOpGameLoses": 2,
+  "coOpWinRate": 0.8889,
+  "coOpLossRate": 0.1111,
   "winCountHannah": 0,
   "winCountJohn": 0,
   "winCountOther": 0,

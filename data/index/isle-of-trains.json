@@ -1,0 +1,37 @@
+{
+  "boardGameApiId": "isle-of-trains",
+  "playRecords": [
+    {
+      "date": "2024-06-01",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 4,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/06/2024-06-01T19:44:45.297Z.json"
+    },
+    {
+      "date": "2024-07-27",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/07/2024-07-29T09:05:24.203Z.json"
+    }
+  ],
+  "name": "Isle of Trains",
+  "totalGamesPlayed": 2,
+  "coOpGamesPlayedCount": 0,
+  "coOpGamesPlayedPercentage": 0,
+  "coOpGameWins": 0,
+  "coOpGameLoses": 0,
+  "coOpWinRate": 0,
+  "coOpLossRate": 0,
+  "winCountHannah": 1,
+  "winCountJohn": 1,
+  "winCountOther": 0,
+  "winCountDraw": 0,
+  "winnableGamesTotal": 2,
+  "winPercentageHannah": 0.5,
+  "winPercentageJohn": 0.5,
+  "winPercentageOther": 0,
+  "winPercentageDraw": 0,
+  "mostWonGames": "Draw"
+}

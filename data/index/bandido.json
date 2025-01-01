@@ -372,16 +372,79 @@
       "coOp": "yes",
       "noOfPlayers": 2,
       "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/05/2024-05-04T06:06:55.385Z.json"
+    },
+    {
+      "date": "2024-06-01",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 4,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/06/2024-06-01T19:45:57.681Z.json"
+    },
+    {
+      "date": "2024-06-01",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 4,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/06/2024-06-01T19:46:00.482Z.json"
+    },
+    {
+      "date": "2024-07-30",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/07/2024-07-31T20:25:15.819Z.json"
+    },
+    {
+      "date": "2024-08-05",
+      "coOpOutcome": "loss",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/08/2024-08-08T09:54:22.652Z.json"
+    },
+    {
+      "date": "2024-09-04",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/09/2024-09-09T08:48:11.377Z.json"
+    },
+    {
+      "date": "2024-10-21",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/10/2024-10-31T20:59:35.331Z.json"
+    },
+    {
+      "date": "2024-11-07",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/11/2024-11-08T11:25:59.396Z.json"
+    },
+    {
+      "date": "2024-12-04",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/12/2024-12-14T06:50:55.794Z.json"
+    },
+    {
+      "date": "2024-12-31",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 3,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/12/2025-01-01T11:04:10.305Z.json"
     }
   ],
   "name": "Bandido",
-  "totalGamesPlayed": 53,
-  "coOpGamesPlayedCount": 53,
+  "totalGamesPlayed": 62,
+  "coOpGamesPlayedCount": 62,
   "coOpGamesPlayedPercentage": 1,
-  "coOpGameWins": 44,
-  "coOpGameLoses": 9,
-  "coOpWinRate": 0.8302,
-  "coOpLossRate": 0.1698,
+  "coOpGameWins": 52,
+  "coOpGameLoses": 10,
+  "coOpWinRate": 0.8387,
+  "coOpLossRate": 0.1613,
   "winCountHannah": 0,
   "winCountJohn": 0,
   "winCountOther": 0,

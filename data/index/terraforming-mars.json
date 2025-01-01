@@ -218,24 +218,38 @@
       "coOp": "no",
       "noOfPlayers": 2,
       "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/05/2024-05-04T20:08:47.465Z.json"
+    },
+    {
+      "date": "2024-08-19",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/08/2024-08-20T12:35:26.445Z.json"
+    },
+    {
+      "date": "2024-11-02",
+      "winner": "draw",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/11/2024-11-08T11:24:40.584Z.json"
     }
   ],
   "name": "Terraforming Mars",
-  "totalGamesPlayed": 25,
+  "totalGamesPlayed": 27,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
   "coOpGameLoses": 0,
   "coOpWinRate": 0,
   "coOpLossRate": 0,
-  "winCountHannah": 14,
+  "winCountHannah": 15,
   "winCountJohn": 10,
   "winCountOther": 1,
-  "winCountDraw": 0,
-  "winnableGamesTotal": 25,
-  "winPercentageHannah": 0.56,
-  "winPercentageJohn": 0.4,
-  "winPercentageOther": 0.04,
-  "winPercentageDraw": 0,
+  "winCountDraw": 1,
+  "winnableGamesTotal": 27,
+  "winPercentageHannah": 0.5556,
+  "winPercentageJohn": 0.3704,
+  "winPercentageOther": 0.037,
+  "winPercentageDraw": 0.037,
   "mostWonGames": "Hannah"
 }

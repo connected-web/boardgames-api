@@ -49,24 +49,38 @@
       "coOp": "no",
       "noOfPlayers": 2,
       "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/03/2024-03-12T10:05:55.138Z.json"
+    },
+    {
+      "date": "2024-07-03",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/07/2024-07-08T19:56:53.007Z.json"
+    },
+    {
+      "date": "2024-12-31",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/12/2025-01-01T11:03:41.726Z.json"
     }
   ],
   "name": "Ticket to Ride Map Collection: Volume 2 – India & Switzerland",
-  "totalGamesPlayed": 7,
+  "totalGamesPlayed": 9,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
   "coOpGameLoses": 0,
   "coOpWinRate": 0,
   "coOpLossRate": 0,
-  "winCountHannah": 3,
+  "winCountHannah": 5,
   "winCountJohn": 4,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 7,
-  "winPercentageHannah": 0.4286,
-  "winPercentageJohn": 0.5714,
+  "winnableGamesTotal": 9,
+  "winPercentageHannah": 0.5556,
+  "winPercentageJohn": 0.4444,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
-  "mostWonGames": "John"
+  "mostWonGames": "Hannah"
 }

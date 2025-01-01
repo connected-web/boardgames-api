@@ -8,10 +8,27 @@
       "notes": "Not in collection. Played at The Dice Box - Leamington. ",
       "noOfPlayers": 2,
       "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/01/2024-01-15T20:20:23.464Z.json"
+    },
+    {
+      "date": "2024-05-31",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/05/2024-06-01T06:06:30.672Z.json"
+    },
+    {
+      "date": "2024-06-16",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "expansions": [
+        "New Leaf"
+      ],
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/06/2024-06-17T11:29:13.978Z.json"
     }
   ],
   "name": "Everdell",
-  "totalGamesPlayed": 1,
+  "totalGamesPlayed": 3,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
@@ -19,13 +36,13 @@
   "coOpWinRate": 0,
   "coOpLossRate": 0,
   "winCountHannah": 1,
-  "winCountJohn": 0,
+  "winCountJohn": 2,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 1,
-  "winPercentageHannah": 1,
-  "winPercentageJohn": 0,
+  "winnableGamesTotal": 3,
+  "winPercentageHannah": 0.3333,
+  "winPercentageJohn": 0.6667,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
-  "mostWonGames": "Hannah"
+  "mostWonGames": "John"
 }

@@ -155,24 +155,66 @@
       "coOp": "no",
       "noOfPlayers": 2,
       "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/05/2024-05-04T06:05:55.211Z.json"
+    },
+    {
+      "date": "2024-05-30",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/05/2024-06-01T06:05:45.871Z.json"
+    },
+    {
+      "date": "2024-06-01",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/06/2024-06-01T19:49:12.664Z.json"
+    },
+    {
+      "date": "2024-08-04",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/08/2024-08-08T09:54:08.859Z.json"
+    },
+    {
+      "date": "2024-09-17",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/09/2024-09-18T08:05:19.712Z.json"
+    },
+    {
+      "date": "2024-11-10",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/11/2024-11-11T11:48:16.572Z.json"
+    },
+    {
+      "date": "2024-12-17",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/12/2024-12-19T16:25:38.569Z.json"
     }
   ],
   "name": "Love Letter: Princess Princess Ever After",
-  "totalGamesPlayed": 22,
+  "totalGamesPlayed": 28,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
   "coOpGameLoses": 0,
   "coOpWinRate": 0,
   "coOpLossRate": 0,
-  "winCountHannah": 9,
-  "winCountJohn": 12,
+  "winCountHannah": 12,
+  "winCountJohn": 15,
   "winCountOther": 0,
   "winCountDraw": 1,
-  "winnableGamesTotal": 22,
-  "winPercentageHannah": 0.4091,
-  "winPercentageJohn": 0.5455,
+  "winnableGamesTotal": 28,
+  "winPercentageHannah": 0.4286,
+  "winPercentageJohn": 0.5357,
   "winPercentageOther": 0,
-  "winPercentageDraw": 0.0455,
+  "winPercentageDraw": 0.0357,
   "mostWonGames": "John"
 }

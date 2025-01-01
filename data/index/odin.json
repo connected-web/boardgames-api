@@ -1,0 +1,37 @@
+{
+  "boardGameApiId": "odin",
+  "playRecords": [
+    {
+      "date": "2024-06-02",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/06/2024-06-05T18:35:23.950Z.json"
+    },
+    {
+      "date": "2024-09-16",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/09/2024-09-18T08:05:06.732Z.json"
+    }
+  ],
+  "name": "Odin",
+  "totalGamesPlayed": 2,
+  "coOpGamesPlayedCount": 0,
+  "coOpGamesPlayedPercentage": 0,
+  "coOpGameWins": 0,
+  "coOpGameLoses": 0,
+  "coOpWinRate": 0,
+  "coOpLossRate": 0,
+  "winCountHannah": 0,
+  "winCountJohn": 2,
+  "winCountOther": 0,
+  "winCountDraw": 0,
+  "winnableGamesTotal": 2,
+  "winPercentageHannah": 0,
+  "winPercentageJohn": 1,
+  "winPercentageOther": 0,
+  "winPercentageDraw": 0,
+  "mostWonGames": "John"
+}

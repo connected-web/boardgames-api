@@ -27,16 +27,23 @@
       "coOp": "Yes",
       "gameFamily": "Pandemic",
       "source": "gsheets://1FyeEeWPKch4jVoBoD_lB89GbsUPkYTESkfIeknUhyJw/2020/26"
+    },
+    {
+      "date": "2024-07-20",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/07/2024-07-22T07:05:23.212Z.json"
     }
   ],
   "name": "Pandemic: Iberia",
-  "totalGamesPlayed": 4,
-  "coOpGamesPlayedCount": 4,
+  "totalGamesPlayed": 5,
+  "coOpGamesPlayedCount": 5,
   "coOpGamesPlayedPercentage": 1,
-  "coOpGameWins": 3,
+  "coOpGameWins": 4,
   "coOpGameLoses": 1,
-  "coOpWinRate": 0.75,
-  "coOpLossRate": 0.25,
+  "coOpWinRate": 0.8,
+  "coOpLossRate": 0.2,
   "winCountHannah": 0,
   "winCountJohn": 0,
   "winCountOther": 0,

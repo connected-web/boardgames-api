@@ -233,23 +233,43 @@
       "coOp": "no",
       "noOfPlayers": 2,
       "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/02/2024-02-13T09:37:27.108Z.json"
+    },
+    {
+      "date": "2024-08-24",
+      "winner": "draw",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "expansions": [
+        "Dominion: Prosperity"
+      ],
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/08/2024-08-24T20:42:12.289Z.json"
+    },
+    {
+      "date": "2024-12-22",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "expansions": [
+        "Dominion: Prosperity"
+      ],
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/12/2024-12-25T18:34:26.348Z.json"
     }
   ],
-  "totalGamesPlayed": 26,
+  "totalGamesPlayed": 28,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
   "coOpGameLoses": 0,
   "coOpWinRate": 0,
   "coOpLossRate": 0,
-  "winCountHannah": 15,
+  "winCountHannah": 16,
   "winCountJohn": 10,
   "winCountOther": 0,
-  "winCountDraw": 1,
-  "winnableGamesTotal": 26,
-  "winPercentageHannah": 0.5769,
-  "winPercentageJohn": 0.3846,
+  "winCountDraw": 2,
+  "winnableGamesTotal": 28,
+  "winPercentageHannah": 0.5714,
+  "winPercentageJohn": 0.3571,
   "winPercentageOther": 0,
-  "winPercentageDraw": 0.0385,
+  "winPercentageDraw": 0.0714,
   "mostWonGames": "Hannah"
 }

@@ -1,0 +1,31 @@
+{
+  "boardGameApiId": "fantasy-duel",
+  "playRecords": [
+    {
+      "date": "2024-10-04",
+      "winner": "Hannah",
+      "coOp": "no",
+      "notes": "Played on a train in Germany!",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/10/2024-10-08T08:41:03.531Z.json"
+    }
+  ],
+  "name": "Fantasy Duel",
+  "totalGamesPlayed": 1,
+  "coOpGamesPlayedCount": 0,
+  "coOpGamesPlayedPercentage": 0,
+  "coOpGameWins": 0,
+  "coOpGameLoses": 0,
+  "coOpWinRate": 0,
+  "coOpLossRate": 0,
+  "winCountHannah": 1,
+  "winCountJohn": 0,
+  "winCountOther": 0,
+  "winCountDraw": 0,
+  "winnableGamesTotal": 1,
+  "winPercentageHannah": 1,
+  "winPercentageJohn": 0,
+  "winPercentageOther": 0,
+  "winPercentageDraw": 0,
+  "mostWonGames": "Hannah"
+}

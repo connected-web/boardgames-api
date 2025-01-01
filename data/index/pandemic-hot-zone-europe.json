@@ -42,13 +42,27 @@
       "coOp": "yes",
       "noOfPlayers": 2,
       "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/02/2024-02-08T09:40:23.995Z.json"
+    },
+    {
+      "date": "2024-09-16",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/09/2024-09-18T08:04:54.918Z.json"
+    },
+    {
+      "date": "2024-12-25",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/12/2024-12-25T18:36:25.171Z.json"
     }
   ],
   "name": "Pandemic: Hot Zone Europe",
-  "totalGamesPlayed": 6,
-  "coOpGamesPlayedCount": 6,
+  "totalGamesPlayed": 8,
+  "coOpGamesPlayedCount": 8,
   "coOpGamesPlayedPercentage": 1,
-  "coOpGameWins": 6,
+  "coOpGameWins": 8,
   "coOpGameLoses": 0,
   "coOpWinRate": 1,
   "coOpLossRate": 0,

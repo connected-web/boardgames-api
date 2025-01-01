@@ -1,0 +1,44 @@
+{
+  "boardGameApiId": "love-letter-bridgerton",
+  "playRecords": [
+    {
+      "date": "2024-06-01",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/06/2024-06-01T19:45:20.735Z.json"
+    },
+    {
+      "date": "2024-08-22",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/08/2024-08-23T06:06:59.508Z.json"
+    },
+    {
+      "date": "2024-11-26",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/11/2024-11-27T15:35:28.250Z.json"
+    }
+  ],
+  "name": "Love Letter: Bridgerton",
+  "totalGamesPlayed": 3,
+  "coOpGamesPlayedCount": 0,
+  "coOpGamesPlayedPercentage": 0,
+  "coOpGameWins": 0,
+  "coOpGameLoses": 0,
+  "coOpWinRate": 0,
+  "coOpLossRate": 0,
+  "winCountHannah": 2,
+  "winCountJohn": 1,
+  "winCountOther": 0,
+  "winCountDraw": 0,
+  "winnableGamesTotal": 3,
+  "winPercentageHannah": 0.6667,
+  "winPercentageJohn": 0.3333,
+  "winPercentageOther": 0,
+  "winPercentageDraw": 0,
+  "mostWonGames": "Hannah"
+}

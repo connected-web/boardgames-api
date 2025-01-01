@@ -1,0 +1,45 @@
+{
+  "boardGameApiId": "ticket-to-ride-berlin",
+  "playRecords": [
+    {
+      "date": "2024-05-31",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/05/2024-06-01T06:06:19.971Z.json"
+    },
+    {
+      "date": "2024-07-15",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/07/2024-07-16T08:50:33.032Z.json"
+    },
+    {
+      "date": "2024-10-03",
+      "winner": "Hannah",
+      "coOp": "no",
+      "notes": "Played on a train in Germany!",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/10/2024-10-08T08:39:50.262Z.json"
+    }
+  ],
+  "name": "Ticket to Ride: Berlin",
+  "totalGamesPlayed": 3,
+  "coOpGamesPlayedCount": 0,
+  "coOpGamesPlayedPercentage": 0,
+  "coOpGameWins": 0,
+  "coOpGameLoses": 0,
+  "coOpWinRate": 0,
+  "coOpLossRate": 0,
+  "winCountHannah": 3,
+  "winCountJohn": 0,
+  "winCountOther": 0,
+  "winCountDraw": 0,
+  "winnableGamesTotal": 3,
+  "winPercentageHannah": 1,
+  "winPercentageJohn": 0,
+  "winPercentageOther": 0,
+  "winPercentageDraw": 0,
+  "mostWonGames": "Hannah"
+}

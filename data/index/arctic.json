@@ -1,0 +1,30 @@
+{
+  "boardGameApiId": "arctic",
+  "playRecords": [
+    {
+      "date": "2024-10-09",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/10/2024-10-14T13:42:37.083Z.json"
+    }
+  ],
+  "name": "Arctic",
+  "totalGamesPlayed": 1,
+  "coOpGamesPlayedCount": 0,
+  "coOpGamesPlayedPercentage": 0,
+  "coOpGameWins": 0,
+  "coOpGameLoses": 0,
+  "coOpWinRate": 0,
+  "coOpLossRate": 0,
+  "winCountHannah": 0,
+  "winCountJohn": 1,
+  "winCountOther": 0,
+  "winCountDraw": 0,
+  "winnableGamesTotal": 1,
+  "winPercentageHannah": 0,
+  "winPercentageJohn": 1,
+  "winPercentageOther": 0,
+  "winPercentageDraw": 0,
+  "mostWonGames": "John"
+}

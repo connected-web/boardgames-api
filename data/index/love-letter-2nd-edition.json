@@ -91,10 +91,31 @@
       "coOp": "no",
       "noOfPlayers": 2,
       "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/02/2024-02-08T09:40:39.360Z.json"
+    },
+    {
+      "date": "2024-06-10",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/06/2024-06-10T20:13:49.600Z.json"
+    },
+    {
+      "date": "2024-08-17",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/08/2024-08-20T12:34:39.246Z.json"
+    },
+    {
+      "date": "2024-09-14",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/09/2024-09-16T07:31:24.662Z.json"
     }
   ],
   "name": "Love Letter 2nd Edition",
-  "totalGamesPlayed": 13,
+  "totalGamesPlayed": 16,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
@@ -102,13 +123,13 @@
   "coOpWinRate": 0,
   "coOpLossRate": 0,
   "winCountHannah": 7,
-  "winCountJohn": 6,
+  "winCountJohn": 9,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 13,
-  "winPercentageHannah": 0.5385,
-  "winPercentageJohn": 0.4615,
+  "winnableGamesTotal": 16,
+  "winPercentageHannah": 0.4375,
+  "winPercentageJohn": 0.5625,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
-  "mostWonGames": "Hannah"
+  "mostWonGames": "John"
 }

@@ -1,0 +1,31 @@
+{
+  "boardGameApiId": "trio",
+  "playRecords": [
+    {
+      "date": "2024-06-01",
+      "winner": "John",
+      "coOp": "no",
+      "notes": "",
+      "noOfPlayers": 4,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/06/2024-06-01T19:46:35.618Z.json"
+    }
+  ],
+  "name": "Trio",
+  "totalGamesPlayed": 1,
+  "coOpGamesPlayedCount": 0,
+  "coOpGamesPlayedPercentage": 0,
+  "coOpGameWins": 0,
+  "coOpGameLoses": 0,
+  "coOpWinRate": 0,
+  "coOpLossRate": 0,
+  "winCountHannah": 0,
+  "winCountJohn": 1,
+  "winCountOther": 0,
+  "winCountDraw": 0,
+  "winnableGamesTotal": 1,
+  "winPercentageHannah": 0,
+  "winPercentageJohn": 1,
+  "winPercentageOther": 0,
+  "winPercentageDraw": 0,
+  "mostWonGames": "John"
+}

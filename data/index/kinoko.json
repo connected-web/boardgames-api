@@ -1,0 +1,37 @@
+{
+  "boardGameApiId": "kinoko",
+  "playRecords": [
+    {
+      "date": "2024-06-10",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/06/2024-06-10T20:13:57.058Z.json"
+    },
+    {
+      "date": "2024-09-11",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/09/2024-09-16T07:29:41.144Z.json"
+    }
+  ],
+  "name": "Kinoko",
+  "totalGamesPlayed": 2,
+  "coOpGamesPlayedCount": 0,
+  "coOpGamesPlayedPercentage": 0,
+  "coOpGameWins": 0,
+  "coOpGameLoses": 0,
+  "coOpWinRate": 0,
+  "coOpLossRate": 0,
+  "winCountHannah": 2,
+  "winCountJohn": 0,
+  "winCountOther": 0,
+  "winCountDraw": 0,
+  "winnableGamesTotal": 2,
+  "winPercentageHannah": 1,
+  "winPercentageJohn": 0,
+  "winPercentageOther": 0,
+  "winPercentageDraw": 0,
+  "mostWonGames": "Hannah"
+}

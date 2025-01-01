@@ -1,0 +1,51 @@
+{
+  "boardGameApiId": "the-lakes-card-game",
+  "playRecords": [
+    {
+      "date": "2024-06-01",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/06/2024-06-01T19:44:26.697Z.json"
+    },
+    {
+      "date": "2024-08-25",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/08/2024-08-25T19:21:53.658Z.json"
+    },
+    {
+      "date": "2024-09-28",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/09/2024-09-30T17:20:44.630Z.json"
+    },
+    {
+      "date": "2024-12-07",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/12/2024-12-14T06:51:26.406Z.json"
+    }
+  ],
+  "name": "The Lakes Card Game",
+  "totalGamesPlayed": 4,
+  "coOpGamesPlayedCount": 0,
+  "coOpGamesPlayedPercentage": 0,
+  "coOpGameWins": 0,
+  "coOpGameLoses": 0,
+  "coOpWinRate": 0,
+  "coOpLossRate": 0,
+  "winCountHannah": 2,
+  "winCountJohn": 2,
+  "winCountOther": 0,
+  "winCountDraw": 0,
+  "winnableGamesTotal": 4,
+  "winPercentageHannah": 0.5,
+  "winPercentageJohn": 0.5,
+  "winPercentageOther": 0,
+  "winPercentageDraw": 0,
+  "mostWonGames": "Draw"
+}

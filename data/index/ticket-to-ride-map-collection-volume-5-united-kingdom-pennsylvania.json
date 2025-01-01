@@ -27,10 +27,17 @@
       "coOp": "No",
       "gameFamily": "Ticket to Ride",
       "source": "gsheets://1FyeEeWPKch4jVoBoD_lB89GbsUPkYTESkfIeknUhyJw/2020/13"
+    },
+    {
+      "date": "2024-07-16",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/07/2024-07-18T07:38:12.280Z.json"
     }
   ],
   "name": "Ticket to Ride Map Collection: Volume 5 – United Kingdom & Pennsylvania",
-  "totalGamesPlayed": 4,
+  "totalGamesPlayed": 5,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
@@ -38,13 +45,13 @@
   "coOpWinRate": 0,
   "coOpLossRate": 0,
   "winCountHannah": 2,
-  "winCountJohn": 1,
+  "winCountJohn": 2,
   "winCountOther": 0,
   "winCountDraw": 1,
-  "winnableGamesTotal": 4,
-  "winPercentageHannah": 0.5,
-  "winPercentageJohn": 0.25,
+  "winnableGamesTotal": 5,
+  "winPercentageHannah": 0.4,
+  "winPercentageJohn": 0.4,
   "winPercentageOther": 0,
-  "winPercentageDraw": 0.25,
-  "mostWonGames": "Hannah"
+  "winPercentageDraw": 0.2,
+  "mostWonGames": "Draw"
 }

@@ -149,15 +149,29 @@
       "coOp": "yes",
       "noOfPlayers": 2,
       "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/04/2024-04-22T19:34:51.599Z.json"
+    },
+    {
+      "date": "2024-09-09",
+      "coOpOutcome": "win",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/09/2024-09-09T12:15:54.938Z.json"
+    },
+    {
+      "date": "2024-12-06",
+      "coOpOutcome": "loss",
+      "coOp": "yes",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/12/2024-12-14T06:51:09.876Z.json"
     }
   ],
-  "totalGamesPlayed": 22,
-  "coOpGamesPlayedCount": 19,
-  "coOpGamesPlayedPercentage": 0.8636,
-  "coOpGameWins": 15,
-  "coOpGameLoses": 4,
-  "coOpWinRate": 0.7895,
-  "coOpLossRate": 0.2105,
+  "totalGamesPlayed": 24,
+  "coOpGamesPlayedCount": 21,
+  "coOpGamesPlayedPercentage": 0.875,
+  "coOpGameWins": 16,
+  "coOpGameLoses": 5,
+  "coOpWinRate": 0.7619,
+  "coOpLossRate": 0.2381,
   "winCountHannah": 2,
   "winCountJohn": 1,
   "winCountOther": 0,

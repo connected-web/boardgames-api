@@ -42,24 +42,45 @@
       "coOp": "no",
       "noOfPlayers": 2,
       "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/05/2024-05-12T18:09:24.150Z.json"
+    },
+    {
+      "date": "2024-08-17",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/08/2024-08-20T12:34:58.598Z.json"
+    },
+    {
+      "date": "2024-10-22",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/10/2024-10-31T20:59:52.968Z.json"
+    },
+    {
+      "date": "2024-11-02",
+      "winner": "Hannah",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/11/2024-11-08T11:24:14.665Z.json"
     }
   ],
   "name": "Love Letter Kanai Factory Limited Edition",
-  "totalGamesPlayed": 6,
+  "totalGamesPlayed": 9,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
   "coOpGameLoses": 0,
   "coOpWinRate": 0,
   "coOpLossRate": 0,
-  "winCountHannah": 3,
+  "winCountHannah": 6,
   "winCountJohn": 3,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 6,
-  "winPercentageHannah": 0.5,
-  "winPercentageJohn": 0.5,
+  "winnableGamesTotal": 9,
+  "winPercentageHannah": 0.6667,
+  "winPercentageJohn": 0.3333,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
-  "mostWonGames": "Draw"
+  "mostWonGames": "Hannah"
 }

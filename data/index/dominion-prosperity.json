@@ -59,9 +59,16 @@
       "coOp": "No",
       "gameFamily": "Dominion",
       "source": "gsheets://1Va-06sfmVq-UFBxWwo6U5v6N9W_lizW5GvgyogQdGQQ/2021/3"
+    },
+    {
+      "date": "2024-06-30",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/06/2024-06-30T19:36:22.146Z.json"
     }
   ],
-  "totalGamesPlayed": 8,
+  "totalGamesPlayed": 9,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
@@ -69,12 +76,12 @@
   "coOpWinRate": 0,
   "coOpLossRate": 0,
   "winCountHannah": 6,
-  "winCountJohn": 2,
+  "winCountJohn": 3,
   "winCountOther": 0,
   "winCountDraw": 0,
-  "winnableGamesTotal": 8,
-  "winPercentageHannah": 0.75,
-  "winPercentageJohn": 0.25,
+  "winnableGamesTotal": 9,
+  "winPercentageHannah": 0.6667,
+  "winPercentageJohn": 0.3333,
   "winPercentageOther": 0,
   "winPercentageDraw": 0,
   "mostWonGames": "Hannah"

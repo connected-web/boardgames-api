@@ -1,0 +1,31 @@
+{
+  "boardGameApiId": "sheep-sheep",
+  "playRecords": [
+    {
+      "date": "2024-10-04",
+      "winner": "draw",
+      "coOp": "no",
+      "notes": "Played on a train in Germany!",
+      "noOfPlayers": 2,
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/10/2024-10-08T08:40:34.817Z.json"
+    }
+  ],
+  "name": "Sheep Sheep",
+  "totalGamesPlayed": 1,
+  "coOpGamesPlayedCount": 0,
+  "coOpGamesPlayedPercentage": 0,
+  "coOpGameWins": 0,
+  "coOpGameLoses": 0,
+  "coOpWinRate": 0,
+  "coOpLossRate": 0,
+  "winCountHannah": 0,
+  "winCountJohn": 0,
+  "winCountOther": 0,
+  "winCountDraw": 1,
+  "winnableGamesTotal": 1,
+  "winPercentageHannah": 0,
+  "winPercentageJohn": 0,
+  "winPercentageOther": 0,
+  "winPercentageDraw": 1,
+  "mostWonGames": "Draw"
+}

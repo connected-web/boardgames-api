@@ -63,10 +63,20 @@
       "coOp": "no",
       "noOfPlayers": 4,
       "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/02/2024-03-01T07:25:41.079Z.json"
+    },
+    {
+      "date": "2024-10-02",
+      "winner": "John",
+      "coOp": "no",
+      "noOfPlayers": 2,
+      "expansions": [
+        "Cascadia: Landmarks"
+      ],
+      "source": "s3://boardgames-api-playrecords-prod/playrecords/2024/10/2024-10-08T08:39:15.067Z.json"
     }
   ],
   "name": "Cascadia",
-  "totalGamesPlayed": 9,
+  "totalGamesPlayed": 10,
   "coOpGamesPlayedCount": 0,
   "coOpGamesPlayedPercentage": 0,
   "coOpGameWins": 0,
@@ -74,13 +84,13 @@
   "coOpWinRate": 0,
   "coOpLossRate": 0,
   "winCountHannah": 6,
-  "winCountJohn": 2,
+  "winCountJohn": 3,
   "winCountOther": 1,
   "winCountDraw": 0,
-  "winnableGamesTotal": 9,
-  "winPercentageHannah": 0.6667,
-  "winPercentageJohn": 0.2222,
-  "winPercentageOther": 0.1111,
+  "winnableGamesTotal": 10,
+  "winPercentageHannah": 0.6,
+  "winPercentageJohn": 0.3,
+  "winPercentageOther": 0.1,
   "winPercentageDraw": 0,
   "mostWonGames": "Hannah"
 }
