@@ -121,11 +121,14 @@ jobs:
           CLIENT_ID="${{ steps.config.outputs.client_id }}"
           CLIENT_SECRET="${{ steps.config.outputs.client_secret }}"
           OAUTH_URL="${{ steps.config.outputs.oauth_url }}"
+          CLIENT_ID_SUFFIX="${CLIENT_ID: -4}"
 
           if [[ -z "$CLIENT_ID" || -z "$CLIENT_SECRET" ]]; then
             echo "Missing OAuth client credentials for this environment." >&2
             exit 1
           fi
+          echo "Using OAuth URL: ${OAUTH_URL}"
+          echo "Using client ID suffix: ${CLIENT_ID_SUFFIX}"
 
           BASIC_AUTH=$(printf "%s:%s" "$CLIENT_ID" "$CLIENT_SECRET" | base64)
           TOKEN_RESPONSE_FILE="$(mktemp)"
