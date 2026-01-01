@@ -13,6 +13,7 @@ import DeletePlayRecordEndpoint from './endpoints/DeletePlayrecord/metadata'
 import ListPlayRecordsByDateEndpoint from './endpoints/ListPlayrecordsByDate/metadata'
 import ViewPlayRecordEndpoint from './endpoints/ViewPlayrecord/metadata'
 import UpdatePlayRecordEndpoint from './endpoints/UpdatePlayrecord/metadata'
+import RehydratePlayrecordsEndpoint from './endpoints/RehydratePlayrecords/metadata'
 
 import { Resources } from './Resources'
 import { Verifier } from '@connected-web/openapi-rest-api/library/dist/src/openapi/RestAPI'
@@ -48,7 +49,8 @@ export class ApiStack extends cdk.Stack {
         'GET /playrecords/list/{dateCode}': new ListPlayRecordsByDateEndpoint(resources),
         'PUT /playrecords/update': new UpdatePlayRecordEndpoint(resources),
         'GET /playrecords/view/{playRecordKey}': new ViewPlayRecordEndpoint(resources),
-        'DELETE /playrecords/delete': new DeletePlayRecordEndpoint(resources)
+        'DELETE /playrecords/delete': new DeletePlayRecordEndpoint(resources),
+        'POST /playrecords/rehydrate': new RehydratePlayrecordsEndpoint(resources)
       })
       .report()
   }
