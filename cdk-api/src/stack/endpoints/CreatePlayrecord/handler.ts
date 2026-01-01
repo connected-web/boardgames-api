@@ -4,6 +4,7 @@ import interfaces from '../helpers/interfaces'
 import HTTP_CODES from '../helpers/httpCodes'
 import { successResponse, errorResponse } from '../helpers/responses'
 import { verifyAdminScope } from '../helpers/userScopes'
+import { resolvePlayRecordYearMonth } from '../helpers/playrecords/date'
 
 export async function handler (event: APIGatewayProxyEvent): Promise<APIGatewayProxyResult> {
   const { console, putObject, now, getBucketName } = interfaces.get()
@@ -28,9 +29,7 @@ export async function handler (event: APIGatewayProxyEvent): Promise<APIGatewayP
 
   // Generate S3 key e.g. 2021-12-01T23:11:25.556Z.json
   const currentDate: Date = now()
-  const [,payloadMonth, payloadYear] = ((typeof payload?.date === 'string') ? payload?.date as string : '').split('/') // 05/03/2031 (5th of March 2031?)
-  const year = payloadYear ?? `${currentDate.toISOString().substring(0, 4)}`
-  const month = payloadMonth ?? `${currentDate.toISOString().substring(5, 7)}`
+  const { year, month } = resolvePlayRecordYearMonth(payload?.date, currentDate)
   const filename = `${currentDate.toISOString()}.json`
   const keypath = ['playrecords', year, month, filename].join('/')
   const payloadBody = JSON.stringify(payload)
