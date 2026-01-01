@@ -144,11 +144,18 @@ export async function handler (event: APIGatewayProxyEvent): Promise<APIGatewayP
     const monthsToRebuild: string[] = []
     if (rebuildYear != null) {
       const groupedYearKey = `grouped/byYear/${rebuildYear}_playrecords.json`
+      const groupedAllTimeKey = 'grouped/byAllTime/all_playrecords.json'
       try {
         await deleteObject({ Bucket: bucket, Key: groupedYearKey })
       } catch (ex) {
         const error = ex as Error
         errors.push(`[Rehydrate Play Records] Unable to delete grouped cache ${groupedYearKey}: ${error.message}`)
+      }
+      try {
+        await deleteObject({ Bucket: bucket, Key: groupedAllTimeKey })
+      } catch (ex) {
+        const error = ex as Error
+        errors.push(`[Rehydrate Play Records] Unable to delete grouped cache ${groupedAllTimeKey}: ${error.message}`)
       }
       for (let month = 1; month <= 12; month += 1) {
         const monthCode = month >= 10 ? `${month}` : `0${month}`
