@@ -5,6 +5,7 @@ export interface ListObjectParams {
   Bucket: string
   Prefix: string
   Delimiter?: string
+  ContinuationToken?: string
 }
 
 export default async function listObjects (params: ListObjectParams): Promise<ListObjectsV2CommandOutput> {

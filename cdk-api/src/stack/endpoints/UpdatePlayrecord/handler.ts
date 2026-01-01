@@ -7,6 +7,7 @@ import { verifyAdminScope } from '../helpers/userScopes'
 import getObject from '../helpers/aws/getObject'
 import { PlayRecordType } from '../../models/ApiModels'
 import deleteObject from '../helpers/aws/deleteObject'
+import { resolvePlayRecordYearMonth } from '../helpers/playrecords/date'
 
 export async function handler (event: APIGatewayProxyEvent): Promise<APIGatewayProxyResult> {
   const { console, putObject, now, getBucketName } = interfaces.get()
@@ -45,9 +46,7 @@ export async function handler (event: APIGatewayProxyEvent): Promise<APIGatewayP
 
   // Generate S3 key e.g. 2021-12-01T23:11:25.556Z.json
   const currentDate: Date = now()
-  const [,payloadMonth, payloadYear] = ((typeof payload?.date === 'string') ? payload?.date as string : '').split('/') // 05/03/2031 (5th of March 2031?)
-  const year = payloadYear ?? `${currentDate.toISOString().substring(0, 4)}`
-  const month = payloadMonth ?? `${currentDate.toISOString().substring(5, 7)}`
+  const { year, month } = resolvePlayRecordYearMonth(payload?.date, currentDate)
   const originalFilename = payload.key.split('/').pop()
   const updatedKeypath = ['playrecords', year, month, originalFilename].join('/')
 
