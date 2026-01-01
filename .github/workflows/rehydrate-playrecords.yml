@@ -1,0 +1,159 @@
+name: Rehydrate Playrecords - Manual
+
+on:
+  workflow_dispatch:
+    inputs:
+      account:
+        description: "Target environment"
+        required: true
+        type: choice
+        options:
+          - dev
+          - prod
+        default: "prod"
+      mode:
+        description: "Prefix mode to scan"
+        required: true
+        type: choice
+        options:
+          - all
+          - year
+          - month
+          - custom
+        default: "all"
+      year:
+        description: "Year for mode=year/month (YYYY)"
+        required: false
+        type: string
+      month:
+        description: "Month for mode=month (MM)"
+        required: false
+        type: string
+      prefix:
+        description: "Custom prefix for mode=custom (e.g. playrecords/2025/12/)"
+        required: false
+        type: string
+      dryRun:
+        description: "Dry run (no writes)"
+        required: true
+        type: boolean
+        default: true
+      maxKeys:
+        description: "Max keys to scan (blank = no limit)"
+        required: false
+        type: string
+
+jobs:
+  rehydrate:
+    name: Rehydrate Playrecords
+    runs-on: ubuntu-latest
+    steps:
+      - name: Resolve target config
+        id: config
+        shell: bash
+        run: |
+          set -euo pipefail
+          ACCOUNT="${{ github.event.inputs.account }}"
+          MODE="${{ github.event.inputs.mode }}"
+          YEAR="${{ github.event.inputs.year }}"
+          MONTH="${{ github.event.inputs.month }}"
+          CUSTOM_PREFIX="${{ github.event.inputs.prefix }}"
+
+          if [[ "$ACCOUNT" == "prod" ]]; then
+            echo "api_base=https://boardgames-api.prod.connected-web.services" >> "$GITHUB_OUTPUT"
+            echo "oauth_url=https://connected-web.auth.eu-west-2.amazoncognito.com" >> "$GITHUB_OUTPUT"
+            echo "client_id=${{ secrets.CONNECTED_WEB_PROD_SSO_CLIENT_ID }}" >> "$GITHUB_OUTPUT"
+            echo "client_secret=${{ secrets.CONNECTED_WEB_PROD_SSO_SECRET }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "api_base=https://boardgames-api.dev.connected-web.services" >> "$GITHUB_OUTPUT"
+            echo "oauth_url=https://connected-web-dev.auth.eu-west-2.amazoncognito.com" >> "$GITHUB_OUTPUT"
+            echo "client_id=${{ secrets.CONNECTED_WEB_DEV_SSO_CLIENT_ID }}" >> "$GITHUB_OUTPUT"
+            echo "client_secret=${{ secrets.CONNECTED_WEB_DEV_SSO_SECRET }}" >> "$GITHUB_OUTPUT"
+          fi
+
+          case "$MODE" in
+            all)
+              PREFIX="playrecords/"
+              ;;
+            year)
+              if [[ -z "$YEAR" ]]; then
+                echo "Year is required for mode=year" >&2
+                exit 1
+              fi
+              PREFIX="playrecords/${YEAR}/"
+              ;;
+            month)
+              if [[ -z "$YEAR" || -z "$MONTH" ]]; then
+                echo "Year and month are required for mode=month" >&2
+                exit 1
+              fi
+              PREFIX="playrecords/${YEAR}/${MONTH}/"
+              ;;
+            custom)
+              if [[ -z "$CUSTOM_PREFIX" ]]; then
+                echo "Prefix is required for mode=custom" >&2
+                exit 1
+              fi
+              PREFIX="$CUSTOM_PREFIX"
+              ;;
+            *)
+              echo "Unknown mode: $MODE" >&2
+              exit 1
+              ;;
+          esac
+
+          echo "prefix=$PREFIX" >> "$GITHUB_OUTPUT"
+
+      - name: Get OAuth token
+        id: auth
+        shell: bash
+        run: |
+          set -euo pipefail
+          CLIENT_ID="${{ steps.config.outputs.client_id }}"
+          CLIENT_SECRET="${{ steps.config.outputs.client_secret }}"
+          OAUTH_URL="${{ steps.config.outputs.oauth_url }}"
+
+          if [[ -z "$CLIENT_ID" || -z "$CLIENT_SECRET" ]]; then
+            echo "Missing OAuth client credentials for this environment." >&2
+            exit 1
+          fi
+
+          BASIC_AUTH=$(printf "%s:%s" "$CLIENT_ID" "$CLIENT_SECRET" | base64)
+          TOKEN_RESPONSE=$(curl -sS -X POST "${OAUTH_URL}/oauth2/token" \
+            -H "Accept: application/json" \
+            -H "Content-Type: application/x-www-form-urlencoded" \
+            -H "Authorization: Basic ${BASIC_AUTH}" \
+            --data "grant_type=client_credentials&client_id=${CLIENT_ID}")
+
+          ACCESS_TOKEN=$(echo "$TOKEN_RESPONSE" | jq -r '.access_token // empty')
+          if [[ -z "$ACCESS_TOKEN" || "$ACCESS_TOKEN" == "null" ]]; then
+            echo "Unable to retrieve access token. Response: $TOKEN_RESPONSE" >&2
+            exit 1
+          fi
+
+          echo "token=$ACCESS_TOKEN" >> "$GITHUB_OUTPUT"
+
+      - name: Call rehydrate endpoint
+        shell: bash
+        run: |
+          set -euo pipefail
+          API_BASE="${{ steps.config.outputs.api_base }}"
+          PREFIX="${{ steps.config.outputs.prefix }}"
+          DRY_RUN="${{ github.event.inputs.dryRun }}"
+          MAX_KEYS="${{ github.event.inputs.maxKeys }}"
+          TOKEN="${{ steps.auth.outputs.token }}"
+
+          PAYLOAD=$(jq -n \
+            --arg prefix "$PREFIX" \
+            --argjson dryRun "$DRY_RUN" \
+            --arg maxKeys "$MAX_KEYS" \
+            '{
+              prefix: $prefix,
+              dryRun: $dryRun
+            } + ( ($maxKeys | length) > 0 ? { maxKeys: ($maxKeys | tonumber) } : {} )')
+
+          echo "Calling ${API_BASE}/playrecords/rehydrate with payload: ${PAYLOAD}"
+          curl -sS -X POST "${API_BASE}/playrecords/rehydrate" \
+            -H "Authorization: Bearer ${TOKEN}" \
+            -H "Content-Type: application/json" \
+            -d "${PAYLOAD}"
