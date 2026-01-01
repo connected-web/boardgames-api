@@ -5,11 +5,14 @@ import HTTP_CODES from '../helpers/httpCodes'
 import { successResponse, errorResponse } from '../helpers/responses'
 import { verifyAdminScope } from '../helpers/userScopes'
 import { resolvePlayRecordYearMonth } from '../helpers/playrecords/date'
+import { getPlayRecordsByMonth } from '../helpers/playrecords/helpers'
 
 interface RehydratePayload {
   dryRun?: boolean
   maxKeys?: number
   prefix?: string
+  rebuildYear?: string | number
+  rebuildTouched?: boolean
 }
 
 interface MoveResult {
@@ -39,9 +42,14 @@ export async function handler (event: APIGatewayProxyEvent): Promise<APIGatewayP
   const dryRun = payload?.dryRun === true
   const maxKeys = Number.isInteger(payload?.maxKeys) ? (payload?.maxKeys as number) : undefined
   const prefix = (typeof payload?.prefix === 'string' && payload.prefix.length > 0) ? payload.prefix : 'playrecords/'
+  const rebuildTouched = payload?.rebuildTouched === true
+  const rebuildYear = (typeof payload?.rebuildYear === 'string' && payload.rebuildYear.length > 0)
+    ? payload.rebuildYear
+    : (typeof payload?.rebuildYear === 'number' ? `${payload.rebuildYear}` : undefined)
 
   const bucket = getBucketName()
   const movedKeys: MoveResult[] = []
+  const touchedMonths = new Set<string>()
   const errors: string[] = []
   let scanned = 0
   let moved = 0
@@ -94,6 +102,7 @@ export async function handler (event: APIGatewayProxyEvent): Promise<APIGatewayP
           invalidDate++
           continue
         }
+        touchedMonths.add(`${year}-${month}`)
 
         const filename = key.split('/').pop() ?? 'filename-not-set'
         const expectedKey = ['playrecords', year, month, filename].join('/')
@@ -131,6 +140,27 @@ export async function handler (event: APIGatewayProxyEvent): Promise<APIGatewayP
     return errorResponse(HTTP_CODES.serverError, `Unable to rehydrate play records: ${error.message}`)
   }
 
+  if (!dryRun && (rebuildTouched || rebuildYear != null)) {
+    const monthsToRebuild: string[] = []
+    if (rebuildYear != null) {
+      for (let month = 1; month <= 12; month += 1) {
+        const monthCode = month >= 10 ? `${month}` : `0${month}`
+        monthsToRebuild.push(`${rebuildYear}-${monthCode}`)
+      }
+    } else {
+      monthsToRebuild.push(...Array.from(touchedMonths))
+    }
+
+    for (const dateCode of monthsToRebuild) {
+      try {
+        await getPlayRecordsByMonth(dateCode, true)
+      } catch (ex) {
+        const error = ex as Error
+        errors.push(`[Rehydrate Play Records] Unable to rebuild cache for ${dateCode}: ${error.message}`)
+      }
+    }
+  }
+
   const message = dryRun
     ? 'Dry run complete - no records moved.'
     : 'Rehydration complete - records moved if needed.'
@@ -143,6 +173,8 @@ export async function handler (event: APIGatewayProxyEvent): Promise<APIGatewayP
     moved,
     skipped,
     invalidDate,
+    rebuildTouched,
+    rebuildYear,
     movedKeys,
     errors: errors.slice(0, 50)
   })

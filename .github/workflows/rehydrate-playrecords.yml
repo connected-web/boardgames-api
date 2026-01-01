@@ -42,6 +42,15 @@ on:
         description: "Max keys to scan (blank = no limit)"
         required: false
         type: string
+      rebuildTouched:
+        description: "Rebuild grouped caches for touched months"
+        required: true
+        type: boolean
+        default: false
+      rebuildYear:
+        description: "Rebuild grouped caches for a whole year (YYYY)"
+        required: false
+        type: string
 
 jobs:
   rehydrate:
@@ -141,16 +150,25 @@ jobs:
           PREFIX="${{ steps.config.outputs.prefix }}"
           DRY_RUN="${{ github.event.inputs.dryRun }}"
           MAX_KEYS="${{ github.event.inputs.maxKeys }}"
+          REBUILD_TOUCHED="${{ github.event.inputs.rebuildTouched }}"
+          REBUILD_YEAR="${{ github.event.inputs.rebuildYear }}"
           TOKEN="${{ steps.auth.outputs.token }}"
 
           PAYLOAD=$(jq -n \
             --arg prefix "$PREFIX" \
             --argjson dryRun "$DRY_RUN" \
             --arg maxKeys "$MAX_KEYS" \
+            --argjson rebuildTouched "$REBUILD_TOUCHED" \
+            --arg rebuildYear "$REBUILD_YEAR" \
             '{
               prefix: $prefix,
-              dryRun: $dryRun
+              dryRun: $dryRun,
+              rebuildTouched: $rebuildTouched
             } + ( ($maxKeys | length) > 0 ? { maxKeys: ($maxKeys | tonumber) } : {} )')
+
+          if [[ -n "${REBUILD_YEAR}" ]]; then
+            PAYLOAD=$(echo "${PAYLOAD}" | jq --arg rebuildYear "${REBUILD_YEAR}" '. + { rebuildYear: $rebuildYear }')
+          fi
 
           echo "Calling ${API_BASE}/playrecords/rehydrate with payload: ${PAYLOAD}"
           curl -sS -X POST "${API_BASE}/playrecords/rehydrate" \
