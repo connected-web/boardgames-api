@@ -121,24 +121,17 @@ jobs:
           CLIENT_ID="${{ steps.config.outputs.client_id }}"
           CLIENT_SECRET="${{ steps.config.outputs.client_secret }}"
           OAUTH_URL="${{ steps.config.outputs.oauth_url }}"
-          CLIENT_ID_SUFFIX="${CLIENT_ID: -4}"
 
           if [[ -z "$CLIENT_ID" || -z "$CLIENT_SECRET" ]]; then
             echo "Missing OAuth client credentials for this environment." >&2
             exit 1
           fi
-          echo "Using OAuth URL: ${OAUTH_URL}"
-          echo "Using client ID suffix: ${CLIENT_ID_SUFFIX}"
-          echo "Client secret length: ${#CLIENT_SECRET}"
-          echo -n "${CLIENT_SECRET}" | sha256sum | awk '{print "Client secret sha256: "$1}'
 
-          BASIC_AUTH=$(printf "%s:%s" "$CLIENT_ID" "$CLIENT_SECRET" | base64)
           TOKEN_RESPONSE_FILE="$(mktemp)"
           HTTP_STATUS=$(curl -sS --http1.1 --retry 5 --retry-all-errors --retry-delay 2 -o "${TOKEN_RESPONSE_FILE}" -w "%{http_code}" -X POST "${OAUTH_URL}/oauth2/token" \
-            -H "Accept: application/json" \
             -H "Content-Type: application/x-www-form-urlencoded" \
-            -H "Authorization: Basic ${BASIC_AUTH}" \
-            --data "grant_type=client_credentials&client_id=${CLIENT_ID}" || true)
+            -u "${CLIENT_ID}:${CLIENT_SECRET}" \
+            -d "grant_type=client_credentials" || true)
 
           TOKEN_RESPONSE=$(cat "${TOKEN_RESPONSE_FILE}")
           if [[ "${HTTP_STATUS}" != "200" ]]; then
