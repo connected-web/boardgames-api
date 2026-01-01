@@ -128,11 +128,18 @@ jobs:
           fi
 
           BASIC_AUTH=$(printf "%s:%s" "$CLIENT_ID" "$CLIENT_SECRET" | base64)
-          TOKEN_RESPONSE=$(curl -sS --http1.1 --retry 5 --retry-all-errors --retry-delay 2 --fail-with-body -X POST "${OAUTH_URL}/oauth2/token" \
+          TOKEN_RESPONSE_FILE="$(mktemp)"
+          HTTP_STATUS=$(curl -sS --http1.1 --retry 5 --retry-all-errors --retry-delay 2 -o "${TOKEN_RESPONSE_FILE}" -w "%{http_code}" -X POST "${OAUTH_URL}/oauth2/token" \
             -H "Accept: application/json" \
             -H "Content-Type: application/x-www-form-urlencoded" \
             -H "Authorization: Basic ${BASIC_AUTH}" \
-            --data "grant_type=client_credentials&client_id=${CLIENT_ID}")
+            --data "grant_type=client_credentials&client_id=${CLIENT_ID}" || true)
+
+          TOKEN_RESPONSE=$(cat "${TOKEN_RESPONSE_FILE}")
+          if [[ "${HTTP_STATUS}" != "200" ]]; then
+            echo "Unable to retrieve access token. HTTP ${HTTP_STATUS}. Response: ${TOKEN_RESPONSE}" >&2
+            exit 1
+          fi
 
           ACCESS_TOKEN=$(echo "$TOKEN_RESPONSE" | jq -r '.access_token // empty')
           if [[ -z "$ACCESS_TOKEN" || "$ACCESS_TOKEN" == "null" ]]; then
