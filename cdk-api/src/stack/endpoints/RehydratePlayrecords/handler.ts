@@ -48,11 +48,12 @@ export async function handler (event: APIGatewayProxyEvent): Promise<APIGatewayP
   let skipped = 0
   let invalidDate = 0
 
-  console.log(`[Rehydrate Play Records] Starting scan for prefix: ${prefix} dryRun=${dryRun} maxKeys=${maxKeys ?? 'none'}`)
+  console.log(`[Rehydrate Play Records] Starting scan for prefix: ${prefix} dryRun=${String(dryRun)} maxKeys=${maxKeys ?? 'none'}`)
 
   let continuationToken: string | undefined
+  let reachedLimit = false
   try {
-    do {
+    for (;;) {
       const listResponse = await listObjects({
         Bucket: bucket,
         Prefix: prefix,
@@ -62,10 +63,11 @@ export async function handler (event: APIGatewayProxyEvent): Promise<APIGatewayP
 
       for (const item of recordList) {
         const key = item?.Key
-        if (!key) {
+        if (key == null || key.length === 0) {
           continue
         }
         if (maxKeys != null && scanned >= maxKeys) {
+          reachedLimit = true
           break
         }
         const isJson = key.endsWith('.json')
@@ -120,7 +122,10 @@ export async function handler (event: APIGatewayProxyEvent): Promise<APIGatewayP
       }
 
       continuationToken = listResponse.NextContinuationToken
-    } while (continuationToken != null && (maxKeys == null || scanned < maxKeys))
+      if (reachedLimit || continuationToken == null || continuationToken.length === 0) {
+        break
+      }
+    }
   } catch (ex) {
     const error = ex as Error
     return errorResponse(HTTP_CODES.serverError, `Unable to rehydrate play records: ${error.message}`)
