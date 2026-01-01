@@ -129,6 +129,8 @@ jobs:
           fi
           echo "Using OAuth URL: ${OAUTH_URL}"
           echo "Using client ID suffix: ${CLIENT_ID_SUFFIX}"
+          echo "Client secret length: ${#CLIENT_SECRET}"
+          echo -n "${CLIENT_SECRET}" | sha256sum | awk '{print "Client secret sha256: "$1}'
 
           BASIC_AUTH=$(printf "%s:%s" "$CLIENT_ID" "$CLIENT_SECRET" | base64)
           TOKEN_RESPONSE_FILE="$(mktemp)"
