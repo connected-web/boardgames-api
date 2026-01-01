@@ -169,7 +169,7 @@ jobs:
               prefix: $prefix,
               dryRun: $dryRun,
               rebuildTouched: $rebuildTouched
-            } + ( ($maxKeys | length) > 0 ? { maxKeys: ($maxKeys | tonumber) } : {} )')
+            } + (if ($maxKeys | length) > 0 then { maxKeys: ($maxKeys | tonumber) } else {} end)')
 
           if [[ -n "${REBUILD_YEAR}" ]]; then
             PAYLOAD=$(echo "${PAYLOAD}" | jq --arg rebuildYear "${REBUILD_YEAR}" '. + { rebuildYear: $rebuildYear }')
