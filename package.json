@@ -16,16 +16,16 @@
   "author": "John Beech",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.24.0",
+    "axios": "^0.28.0",
     "chai": "^4.2.0",
     "google-spreadsheet-to-json": "github:connected-web/google-spreadsheet-to-json#b3ec32353a6695d4ed30c1d623989402af9964f2",
     "jsonschema": "^1.2.5",
-    "mocha": "^10.2.0",
+    "mocha": "^10.8.2",
     "promise-path": "^1.4.0",
     "xml-js": "^1.6.11"
   },
   "devDependencies": {
-    "express": "^4.17.3",
+    "express": "^4.20.0",
     "php-express": "https://github.com/Markavian/php-express.git#patch-1",
     "standard": "^14.3.4"
   },
