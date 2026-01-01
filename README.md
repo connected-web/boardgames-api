@@ -165,6 +165,65 @@ The Deploy workflow runs when merging to master - it will run the unit tests, in
 
 The Update Play Stats workflow runs on a schedule, but can also be triggered manually - it will run `update-all`, followed by `create-all` before uploading JSON data to the server to be made available through the PHP API.
 
+### Rehydrate Playrecords
+
+- `.github/workflows/rehydrate-playrecords.yml`
+
+This workflow is manual-only and calls the `POST /playrecords/rehydrate` endpoint to scan S3 keys and (optionally) move misfiled playrecords. It can also rebuild grouped cache files for a given year or for the months it touches. Use this sparingly because it scans S3 prefixes and can be expensive.
+
+Inputs:
+- `account`: target environment (`dev` or `prod`).
+- `mode`: `all`, `year`, `month`, or `custom` prefix scan.
+- `year`/`month`/`prefix`: scope the scan.
+- `dryRun`: if true, only reports what would change.
+- `maxKeys`: optional scan limit.
+- `rebuildTouched`: rebuild grouped caches for months that were touched.
+- `rebuildYear`: rebuild grouped caches for all months in a year (e.g. `2025`).
+
+Recommended usage:
+- Start with `dryRun=true` to confirm what will move.
+- Then rerun with `dryRun=false` and either `rebuildTouched=true` or `rebuildYear=YYYY`.
+
+## S3 Data Layout
+
+Playrecords are stored in an S3 bucket (e.g. `boardgames-api-playrecords-prod`) with a month-based prefix:
+
+```
+playrecords/YYYY/MM/<ISO_TIMESTAMP>.json
+```
+
+Each object is a single play record JSON document and includes a `date` field in `DD/MM/YYYY` format. The filename uses the creation timestamp, not the play date.
+
+Grouped cache files are stored separately to speed list requests:
+
+```
+grouped/byMonth/YYYY-MM_playrecords.json
+grouped/byYear/YYYY_playrecords.json
+grouped/byAllTime/all_playrecords.json
+```
+
+These grouped files are rebuilt by list endpoints or the rehydrate workflow. If the grouped file exists with `[]` (2 bytes), the system will return empty results until the cache is rebuilt.
+
+## Playrecord Endpoints
+
+### Create Play Record
+
+`POST /playrecords/create`
+
+Stores a play record under `playrecords/YYYY/MM/<timestamp>.json` where `YYYY/MM` is derived from the payload `date` (`DD/MM/YYYY` or `YYYY-MM-DD`).
+
+### List Play Records (All)
+
+`GET /playrecords/list`
+
+Returns all play records by reading grouped cache files. It only force-refreshes the current and previous month for the current year; older months return cached results.
+
+### List Play Records By Date
+
+`GET /playrecords/list/{dateCode}`
+
+`dateCode` must be `YYYY` or `YYYY-MM`. This endpoint currently forces a refresh of the cache for the requested date code by listing `playrecords/YYYY/MM/` and rewriting the grouped cache for that month or year.
+
 ### Local Testing of Github Workflows
 
 Workflows for pull requests, and build and deploy can be found in `.github/workflows/`.
